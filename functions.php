@@ -4,7 +4,7 @@ include_once get_template_directory() . '/library/class_upfront_debug.php';
 include_once get_template_directory() . '/library/class_upfront_server.php';
 include_once get_template_directory() . '/library/class_upfront_theme.php';
 
-class Uf_fixer2 extends Upfront_ChildTheme {
+class Uf_fixer extends Upfront_ChildTheme {
 	public function initialize() {
 		$this->add_actions_filters();
 		$this->populate_pages();
@@ -36,4 +36,4 @@ class Uf_fixer2 extends Upfront_ChildTheme {
 	}
 }
 
-Uf_fixer2::serve();
+Uf_fixer::serve();
