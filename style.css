@@ -14,14 +14,31 @@ Template: upfront
     font-style: normal;
 }
 
-.uf_font_icon {
-    font-family: 'Fixer';
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
+.uf_font_icon,
+.uf_font_icon a{
+    font-family: 'Fixer' !important;
+    speak: none !important;
+    font-style: normal!important;;
+    font-weight: normal!important;;
+    font-variant: normal!important;;
+    text-transform: none!important;;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    text-decoration: none !important;;
+}
+.fixer_post_title a{
+    color:#333;
+    font-family: raleway;
+    font-weight: bold;
+}
+.fixer_post_date_box{
+    background: #333;
+    display: block;
+    height: 75px;
+    width: 75px;
+    color:#fff;
+    font: normal 32px raleway bold;
+    text-align: center;
 }

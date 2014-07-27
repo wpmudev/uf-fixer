@@ -1,0 +1,116 @@
+/* IMPORTANT: This file is used only in the theme installation and should not be included as a stylesheet. */
+
+
+/* start unewnavigation.unewnavigation-main */
+ul.menu > li.menu-item > a{
+   text-transform:uppercase;
+   font-size:13px;
+}
+/* end unewnavigation.unewnavigation-main */
+
+/* start unewnavigation.unewnavigation-slider-actions */
+ul.menu > li.menu-item > a{
+    float:left;
+    border:2px solid #fff;
+    display:inline-block;
+    padding:10px;
+    margin-left:10px;
+    color:#fff;
+}
+/* end unewnavigation.unewnavigation-slider-actions */
+
+/* start unewnavigation.unewnavigation-home-actions-1 */
+ul.menu > li.menu-item > a{
+    float:left;
+    border:2px solid #000;
+    display:inline-block;
+    padding:10px;
+    margin-left:10px;
+    color:#000;
+}
+/* end unewnavigation.unewnavigation-home-actions-1 */
+
+/* start plaintext.plaintext-header */
+h2{
+    margin-top:0;
+}
+
+ p{
+    margin-bottom:0px;
+    font-size:11px;
+    font-weight:bold;
+}
+/* end plaintext.plaintext-header */
+
+/* start plaintext.plaintext-slider-text */
+.upfront-plain_txt p{
+    font-size:154px;
+    font-family:Rakeway-Heavy;
+    line-height:135px;
+    font-weight:bold;
+    color:#fff;
+    margin:0;
+}
+/* end plaintext.plaintext-slider-text */
+
+/* start plaintext.plaintext-text-25-lineheight */
+.upfront-plain_txt h1{
+    line-height:25px;
+}
+/* end plaintext.plaintext-text-25-lineheight */
+
+/* start plaintext.plaintext-footer-social */
+.upfront-plain_txt h3{
+    line-height:30px;
+    margin:0;
+}
+.upfront-plain_txt h3 a{
+    line-height:50px;
+}
+/* end plaintext.plaintext-footer-social */
+
+/* start plaintext.plaintext-footer */
+.upfront-plain_txt p{
+    line-height:30px;    
+}
+/* end plaintext.plaintext-footer */
+
+/* start ucontact.ucontact-home-footer-contact */
+.submit-field{
+    float:right;
+    background:#645191;
+    border:none;
+    padding:10px 20px;
+    color:#fff;
+    margin:15px 25px;
+}
+
+ .ucontact-input{
+    height:50px;
+    margin:0;
+    padding:15px;
+    
+}
+::-webkit-input-placeholder {
+   color: #343434;
+}
+:-moz-placeholder 
+{ 
+   color: #343434;  
+}
+::-moz-placeholder 
+{
+   color: #343434;  
+}
+:-ms-input-placeholder {  
+   color: #343434;  
+}
+
+.upfront-field-container{
+    margin:0;
+}
+
+ .textarea-field{
+    height:150px;
+}
+/* end ucontact.ucontact-home-footer-contact */

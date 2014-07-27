@@ -8,11 +8,11 @@ class Uf_fixer extends Upfront_ChildTheme {
 	public function initialize() {
 		$this->add_actions_filters();
 		$this->populate_pages();
-		
+		$this->install_element_alternative_styles();
 	}
 
 	public function get_prefix(){
-		return 'uf-fixer2';
+		return 'uf-fixer';
 	}
 
 	public static function serve(){
@@ -23,7 +23,9 @@ class Uf_fixer extends Upfront_ChildTheme {
 		
 	}
 
-	
+	protected function install_element_alternative_styles(){
+    $this->import_element_styles();
+  }
 
 	protected function add_actions_filters() {
 		// Include current theme style
