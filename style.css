@@ -28,10 +28,13 @@ Template: upfront
     position: relative;
     text-decoration: none !important;;
 }
-.fixer_post_title a{
+.fixer_post_title a,
+.fixer_post_title a:visited,
+.fixer_post_title a:link{
     color:#333;
     font-family: raleway;
     font-weight: bold;
+    text-decoration: none;
 }
 .fixer_post_date_box{
     background: #333;
@@ -41,4 +44,130 @@ Template: upfront
     color:#fff;
     font: normal 32px raleway bold;
     text-align: center;
+}
+.fixer_post_author, .fixer_post_author a{
+    font:bold 13px bold raleway ;
+    color:#333;
+}
+ol.upfront-comments{
+    padding: 0;
+}
+ol.upfront-comments,
+ol.upfront-comments ol{
+    list-style: none;
+}
+li.comment {
+    overflow: hidden;
+    width: 100%;
+}
+li.comment article{
+    padding: 30px;
+    overflow: hidden;
+}
+li.comment.depth-1.thread-even{
+    background: #f3f8fc;
+}
+li.comment.depth-1.thread-odd{
+    background: #ffe262;
+}
+.comment .children{
+    background: #fff;
+}
+li.comment.depth-2{
+    background: #fff;
+    margin-left:3%;
+    width: 97%;
+}
+.comment_author{
+    color:#333;
+    font:normal  15px "raleway";
+}
+.comment-date{
+    float: right;
+    margin-right: 30px;
+    color: #999;
+    text-decoration: none;
+    font:bold 13px "raleway";
+}
+
+.comment-meta-actions{
+    display: inline-block;
+    float: right;
+}
+.comment-reply{
+    float: right;
+    clear: right;
+}
+
+.comment-reply-link{
+    background: transparent url("images/reply-button.png") no-repeat center;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    text-indent: 9999px;
+    overflow: hidden;
+}
+.comment-meta{
+    float: left;
+    margin-right: 20px;
+}
+.comment-content{
+    float: left;
+    font:normal  13px raleway;
+}
+.comment-respond{
+    background: #ffe262;
+    padding: 30px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.comment-respond p{
+    margin: 0 0 1px 0;
+}
+.comment-respond input,
+.comment-respond  textarea{
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    border:none;
+    padding-left: 15px;
+}
+
+.comment-respond  textarea{
+    height: 145px;
+    padding-left: 15px;
+}
+.comment-respond input[type="submit"]{
+    float: right;
+    padding: 20px 45px;
+    background:#fed41d;
+    border: none;
+    width: auto;
+    line-height: 0;
+    margin-top: 20px;
+    font: bold 15px "raleway";
+    margin-right: -20px;
+}
+::-webkit-input-placeholder {
+    color: #333;
+    font:bold 15px "raleway";
+    line-height: 55px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #333;
+    font:bold 15px "raleway";
+    line-height: 55px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #333;
+    font:bold 15px "raleway";
+    line-height: 55px;
+}
+
+:-ms-input-placeholder {
+    color: #333;
+    font:bold 15px "raleway";
+    line-height: 55px;
 }
