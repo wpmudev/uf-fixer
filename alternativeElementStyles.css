@@ -114,3 +114,28 @@ h2{
     height:150px;
 }
 /* end ucontact.ucontact-home-footer-contact */
+
+/* start usearch.usearch-archive-search */
+.upfront-object-content{
+    width:630px;
+}
+input.search-field{
+    width:530px;
+    height:50px;
+    float:left;
+    padding:0;
+    border:none;
+    line-height:50px;
+    padding-left:22px;
+}
+button.search-button{
+    float:left;
+    border:none;
+    height:50px;
+    width:50px;
+    width:;
+    text-indent:9999px;
+    overflow:hidden;
+
+}
+/* end usearch.usearch-archive-search */

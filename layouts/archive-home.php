@@ -1,4 +1,5 @@
 <?php
+$is_home = true;
 include "header.php";
 $region_2 = upfront_create_region(
         array(

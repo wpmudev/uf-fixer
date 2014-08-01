@@ -171,3 +171,6 @@ li.comment.depth-2{
     font:bold 15px "raleway";
     line-height: 55px;
 }
+.search-button {
+    background:#a4d0dc url("images/magnifier.png") no-repeat center;
+}

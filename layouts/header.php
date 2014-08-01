@@ -1,5 +1,4 @@
 <?php
-
 $header = upfront_create_region(
 				array(
 "name" => "header",
@@ -11,7 +10,7 @@ $header = upfront_create_region(
 "row" => 24,
 "background_type" => "color",
 "nav_region" => "",
-"background_color" => "rgba(254,212,27,1)"
+"background_color" => isset( $is_home ) && $is_home ? "rgba(254,212,27,1)" : "#fff"
 )
 				);
 $header->add_element("Uimage", array(
