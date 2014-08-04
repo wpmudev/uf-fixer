@@ -174,3 +174,53 @@ li.comment.depth-2{
 .search-button {
     background:#a4d0dc url("images/magnifier.png") no-repeat center;
 }
+.post_author_avatar{
+    float: right;
+}
+.post_author{
+    color:#333;
+    font-weight: bold;
+    float: right;
+    clear:right;
+    font-family: raleway;
+}
+.post_author a{
+    color:#333;
+    font-weight: bold;
+    text-decoration: none;
+}
+.post_author_meta{
+    float: right;
+    clear: right;
+    text-align: right;
+    font-family: raleway;
+}
+.post_author_email{
+    float: right;
+    color:#5ebf6b;
+}
+.post_update{
+    float: right;
+    clear: right;
+}
+
+.post_update_title{
+    float: right;
+    font-family: raleway;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.post_title,
+.post_title a{
+    color: #333;
+    text-decoration: none;
+}
+.post_tags a{
+    float: right;
+    color: #999999;
+    text-decoration: none;
+    clear: right;
+    line-height: 25px;
+    font: normal 13px raleway;
+    margin-bottom: 10px;
+}
