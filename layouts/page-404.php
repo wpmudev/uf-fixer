@@ -10,7 +10,7 @@ $header = upfront_create_region(
 "row" => 24, 
 "background_type" => "color", 
 "nav_region" => "", 
-"background_color" => "#fff"
+"background_color" => "rgba(254,212,27,1)"
 )
         );
 $header->add_element("Uimage", array(
@@ -22,9 +22,9 @@ $header->add_element("Uimage", array(
 "id" => "module-1405520755986-1686-module-module-module", 
 "rows" => 4, 
 "options" => array(
-	"src" => get_stylesheet_directory_uri() . '/images/archive/logo (1)-116x28-4228.png', 
-	"srcFull" => get_stylesheet_directory_uri() . '/images/archive/logo (1).png', 
-	"srcOriginal" => get_stylesheet_directory_uri() . '/images/archive/logo (1).png', 
+	"src" => get_stylesheet_directory_uri() . '/images/page-404/logo (1)-116x28-4228.png', 
+	"srcFull" => get_stylesheet_directory_uri() . '/images/page-404/logo (1).png', 
+	"srcOriginal" => get_stylesheet_directory_uri() . '/images/page-404/logo (1).png', 
 	"image_title" => "", 
 	"alternative_text" => "", 
 	"when_clicked" => "entry", 
@@ -181,73 +181,6 @@ $header->add_element("PlainTxt", array(
 ));
 
 $regions->add($header);
-$region_1 = upfront_create_region(
-        array(
-"name" => "region_1", 
-"title" => "Region 1", 
-"type" => "wide", 
-"scope" => "local"
-),
-        array(
-"row" => 88, 
-"background_type" => "color", 
-"nav_region" => "", 
-"background_color" => "rgba(214,230,240,1)"
-)
-        );
-$region_1->add_element("PlainTxt", array(
-"columns" => "20", 
-"margin_left" => "2", 
-"margin_right" => "0", 
-"margin_top" => "6", 
-"margin_bottom" => "0", 
-"id" => "module-1406494478244-1653-module-module-module-module", 
-"rows" => 43, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<h2 class=\"\" style=\"text-align: center;\">Archived</h2><h1 class=\"\" style=\"text-align: center;\">We Keep Things</h1><h1 class=\"\" style=\"text-align: center;\">Organized</h1><p class=\"\"></p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1406494478244-1271", 
-	"class" => "c24 c24 c24 c24 c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"row" => 37, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "", 
-	"anchor" => ""
-	)
-));
-
-$region_1->add_element("Usearch", array(
-"columns" => "18", 
-"margin_left" => "5", 
-"margin_right" => "0", 
-"margin_top" => "11", 
-"margin_bottom" => "0", 
-"id" => "module-1406494948966-1861-module-module-module", 
-"rows" => 19, 
-"options" => array(
-	"type" => "UsearchModel", 
-	"view_class" => "UsearchView", 
-	"class" => "c24 c24 c24 c24 upfront-search", 
-	"has_settings" => 1, 
-	"id_slug" => "usearch", 
-	"placeholder" => "Plumping", 
-	"label" => "S", 
-	"is_rounded" => 0, 
-	"color" => "", 
-	"element_id" => "usearch-object-1406494948965-1321", 
-	"theme_style" => "usearch-archive-search", 
-	"anchor" => "", 
-	"row" => 13
-	)
-));
-
-$regions->add($region_1);
 $main = upfront_create_region(
         array(
 "name" => "main", 
@@ -256,162 +189,97 @@ $main = upfront_create_region(
 "scope" => "local"
 ),
         array(
-"row" => 140, 
-"background_type" => "color", 
-"background_color" => "#fff"
+"row" => 163, 
+"background_type" => "image", 
+"background_color" => "rgba(94,191,107,1)", 
+"nav_region" => "", 
+"background_style" => "fixed", 
+"background_position_y" => "80", 
+"background_position_x" => "68", 
+"background_image" => get_stylesheet_directory_uri() . '/images/page-404/big-car (1).jpg', 
+"background_image_ratio" => 0.4, 
+"background_repeat" => "no-repeat", 
+"background_position" => "68% 80%"
 )
         );
-$main->add_element("Uposts", array(
+$main->add_element("ThisPage", array(
+"columns" => "24", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "26", 
+"margin_bottom" => "0", 
+"id" => "default-page-title-module-module-module-module", 
+"rows" => 3, 
+"options" => array(
+	"type" => "ThisPageModel", 
+	"view_class" => "ThisPageView", 
+	"class" => "c24 c24 c24 c24 c24 upfront-this_page", 
+	"display" => "title", 
+	"has_settings" => 0, 
+	"id_slug" => "this_page", 
+	"disable_resize" => false, 
+	"disable_drag" => false, 
+	"element_id" => "default-page-title-object"
+	)
+));
+
+$main->add_element("ThisPage", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
 "margin_top" => "1", 
 "margin_bottom" => "0", 
-"id" => "default-posts-module-module-module-module-module-module", 
-"rows" => 189, 
+"id" => "default-page-content-module-module-module-module", 
+"rows" => 97, 
 "options" => array(
-	"type" => "UpostsModel", 
-	"view_class" => "UpostsView", 
-	"has_settings" => 1, 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 uposts-object", 
-	"id_slug" => "uposts", 
-	"post_type" => "post", 
-	"taxonomy" => "", 
-	"term" => "", 
-	"limit" => 10, 
-	"content_type" => "excerpt", 
-	"featured_image" => "1", 
-	"pagination" => 0, 
-	"prev" => "Next Page »", 
-	"next" => "", 
-	"post_data" => array("date"), 
-	"postLayout" => array(array(
-			"classes" => "c24 clr", 
-			"objects" => array(array(
-					"slug" => "title", 
-					"classes" => "post-part 24"
-					))
-			), array(
-			"classes" => "c24 clr", 
-			"objects" => array(array(
-					"slug" => "date", 
-					"classes" => " post-part c24"
-					))
-			), array(
-			"classes" => "c24 clr", 
-			"objects" => array(array(
-					"slug" => "contents", 
-					"classes" => " post-part c24"
-					))
-			)), 
-	"partOptions" => array(
-		"featured_image" => array(
-			"height" => 100
-			)
+	"type" => "ThisPageModel", 
+	"view_class" => "ThisPageView", 
+	"class" => "c24 c24 c24 c24 c24 upfront-this_page", 
+	"display" => "content", 
+	"has_settings" => 0, 
+	"id_slug" => "this_page", 
+	"disable_resize" => false, 
+	"disable_drag" => false, 
+	"element_id" => "default-page-content-object", 
+	"row" => 91
+	)
+));
+
+$main->add_element("Code", array(
+"columns" => "7", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1406264563975-1456-module-module-module", 
+"rows" => 11, 
+"options" => array(
+	"type" => "CodeModel", 
+	"view_class" => "CodeView", 
+	"class" => "c24 c24 c24 c24 upfront-code_element-object", 
+	"has_settings" => 0, 
+	"id_slug" => "upfront-code_element", 
+	"fallbacks" => array(
+		"markup" => "<b>Enter your markup here...</b>", 
+		"style" => "/* Your styles here */", 
+		"script" => "/* Your code here */"
 		), 
-	"element_id" => "default-posts-object", 
-	"row" => 183
+	"element_id" => "upfront-code_element-object-1406264563974-1080", 
+	"code_selection_type" => "Create", 
+	"markup" => "<a href=\"/\" class=\"take-me-home\">Take Me To Mr Fixer</a>", 
+	"style" => ".take-me-home{
+    padding: 10px 15px;
+    color:#fff;
+    border:2px solid #fff;
+    text-decoration:none;
+    text-transform:uppercase;
+}", 
+	"script" => "/* Your code here */", 
+	"row" => 5
 	)
 ));
 
 $regions->add($main);
-$footer = upfront_create_region(
-        array(
-"name" => "footer", 
-"title" => "Footer", 
-"type" => "wide", 
-"scope" => "local"
-),
-        array(
-"row" => 44, 
-"background_type" => "color", 
-"nav_region" => "", 
-"background_color" => "rgba(51,51,51,1)", 
-"expand_lock" => false
-)
-        );
-$footer->add_element("PlainTxt", array(
-"columns" => "8", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "5", 
-"margin_bottom" => "0", 
-"id" => "module-1406205224243-1651-module-module-module", 
-"rows" => 13, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\"></h3><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><h3 class=\"\">Spread the word.</h3><h3 class=\"\">Share it with some friends.</h3></span><h3 class=\"\"></h3><h3 class=\"\"><span class=\"uf_font_icon\" style=\"line-height: 30px; color: rgb(0, 0, 0); font-size: 27px; top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(87, 85, 85)\"><a href=\"http://facebook.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">o</span></a> </span></span> <span class=\"uf_font_icon\" style=\"line-height: 30px; color: rgb(0, 0, 0); font-size: 27px; top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://twitter.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">p</span></a></span> <span class=\"uf_font_icon\" style=\"top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://plus.google.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">q</span></a></span>&nbsp;</span><span class=\"uf_font_icon\" style=\"top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://pinterest.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">r</span></a></span></span></span></h3>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1406205224243-1348", 
-	"class" => "c24 c24 c24 c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "plaintext-footer-social", 
-	"anchor" => "", 
-	"row" => 7
-	)
-));
-
-$footer->add_element("PlainTxt", array(
-"columns" => "5", 
-"margin_left" => "3", 
-"margin_right" => "0", 
-"margin_top" => "7", 
-"margin_bottom" => "0", 
-"id" => "module-1406209692911-1852-module-module-module", 
-"rows" => 16, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\"><span class=\"uf_font_icon\" style=\"position: relative; font-size: 57px; top: 34px;\"><span class=\"inline_color\" style=\"color: rgb(156, 203, 216)\">n</span></span><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Get&nbsp;</span></h3><h3 class=\"\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">A Quote</span></h3>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1406209692910-1396", 
-	"class" => "c24 c24 c24 c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"row" => 10, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "plaintext-footer-social", 
-	"anchor" => ""
-	)
-));
-
-$footer->add_element("PlainTxt", array(
-"columns" => "5", 
-"margin_left" => "1", 
-"margin_right" => "0", 
-"margin_top" => "8", 
-"margin_bottom" => "0", 
-"id" => "module-1406210660792-1159-module-module-module", 
-"rows" => 22, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 48px; top: 28px;\"><span class=\"inline_color\" style=\"color: rgb(255, 225, 94)\">a</span></span> <span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Call us now</span></h3><h3 class=\"\" style=\"margin-left: 40px;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">&nbsp; 1300 Fixer</span></h3>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1406210660791-1219", 
-	"class" => "c24 c24 c24 c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "plaintext-footer-social", 
-	"anchor" => "", 
-	"row" => 16
-	)
-));
-
-$regions->add($footer);
 $lower_footer = upfront_create_region(
         array(
 "name" => "lower_footer", 
@@ -436,9 +304,9 @@ $lower_footer->add_element("Uimage", array(
 "id" => "module-1406217409056-1339-module-module-module", 
 "rows" => 10, 
 "options" => array(
-	"src" => get_stylesheet_directory_uri() . '/images/archive/logo-white-92x20-3728.png', 
-	"srcFull" => get_stylesheet_directory_uri() . '/images/archive/logo-white.png', 
-	"srcOriginal" => get_stylesheet_directory_uri() . '/images/archive/logo-white.png', 
+	"src" => get_stylesheet_directory_uri() . '/images/page-404/logo-white-92x20-3728.png', 
+	"srcFull" => get_stylesheet_directory_uri() . '/images/page-404/logo-white.png', 
+	"srcOriginal" => get_stylesheet_directory_uri() . '/images/page-404/logo-white.png', 
 	"image_title" => "", 
 	"alternative_text" => "", 
 	"when_clicked" => false, 

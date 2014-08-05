@@ -1,0 +1,30 @@
+
+
+#page .blog-posts .uposts-pagination{
+    float:right;
+}
+
+#page .blog-posts .uposts-pagination .page-numbers{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    background:#ece9e4;
+    text-align:center;
+    text-decoration:none;
+    border:none;
+    color:#666;
+    line-height:50px;
+    font-family:raleway;
+    font-size:13px;
+    font-weight:bolder;
+}
+
+#page .blog-posts .uposts-pagination .page-numbers.next,
+.uposts-pagination .page-numbers.previous{
+    display:none;
+}
+
+#page .blog-posts .uposts-pagination .page-numbers.current{
+    color:#fff;
+    background:#5ebf6b;
+}

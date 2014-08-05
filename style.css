@@ -35,6 +35,7 @@ Template: upfront
     font-family: raleway;
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
 }
 .fixer_post_date_box{
     background: #333;
@@ -183,17 +184,20 @@ li.comment.depth-2{
     float: right;
     clear:right;
     font-family: raleway;
+    font-size: 13px;
 }
 .post_author a{
     color:#333;
     font-weight: bold;
     text-decoration: none;
+    font-size: 13px;
 }
 .post_author_meta{
     float: right;
     clear: right;
     text-align: right;
     font-family: raleway;
+    font-size: 13px;
 }
 .post_author_email{
     float: right;
@@ -214,6 +218,7 @@ li.comment.depth-2{
 .post_title a{
     color: #333;
     text-decoration: none;
+    text-align: center;
 }
 .post_tags a{
     float: right;
@@ -223,4 +228,28 @@ li.comment.depth-2{
     line-height: 25px;
     font: normal 13px raleway;
     margin-bottom: 10px;
+}
+
+/* ---------------- Blog Page --------------*/
+.uposts-pagination{
+    float:right;
+}
+.uposts-pagination .page-numbers{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    background:#ece9e4;
+    text-align:center;
+    text-decoration:none;
+    border:none;
+    color:#666;
+    font:bold 13px/50px raleway;
+}
+.uposts-pagination .page-numbers.next,
+.uposts-pagination .page-numbers.previous{
+    display:none;
+}
+.uposts-pagination .page-numbers.current{
+    color:#fff;
+    background:#5ebf6b;
 }

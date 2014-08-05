@@ -89,24 +89,28 @@ h2{
     height:50px;
     margin:0;
     padding:15px;
-    
-}
-::-webkit-input-placeholder {
-   color: #343434;
-}
-:-moz-placeholder 
-{ 
-   color: #343434;  
-}
-::-moz-placeholder 
-{
-   color: #343434;  
-}
-:-ms-input-placeholder {  
-   color: #343434;  
+    line-height:50px;
 }
 
-.upfront-field-container{
+ ::-webkit-input-placeholder {
+   color: #343434;
+}
+
+ :-moz-placeholder 
+{ 
+   color: #343434;
+}
+
+ ::-moz-placeholder 
+{
+   color: #343434;
+}
+
+ :-ms-input-placeholder {  
+   color: #343434;
+}
+
+ .upfront-field-container{
     margin:0;
 }
 
@@ -114,6 +118,10 @@ h2{
     height:150px;
 }
 /* end ucontact.ucontact-home-footer-contact */
+
+/* start ucontact._properties */
+Array
+/* end ucontact._properties */
 
 /* start usearch.usearch-archive-search */
 .upfront-object-content{

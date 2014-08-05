@@ -19,12 +19,12 @@ $header->add_element("Uimage", array(
 "margin_right" => "0", 
 "margin_top" => "9", 
 "margin_bottom" => "0", 
-"id" => "module-1405520755986-1686-module-module-module", 
+"id" => "module-1405520755986-1686-module-module", 
 "rows" => 4, 
 "options" => array(
-	"src" => get_stylesheet_directory_uri() . '/images/archive/logo (1)-116x28-4228.png', 
-	"srcFull" => get_stylesheet_directory_uri() . '/images/archive/logo (1).png', 
-	"srcOriginal" => get_stylesheet_directory_uri() . '/images/archive/logo (1).png', 
+	"src" => get_stylesheet_directory_uri() . '/images/single-blog/logo (1)-116x28-4228.png', 
+	"srcFull" => get_stylesheet_directory_uri() . '/images/single-blog/logo (1).png', 
+	"srcOriginal" => get_stylesheet_directory_uri() . '/images/single-blog/logo (1).png', 
 	"image_title" => "", 
 	"alternative_text" => "", 
 	"when_clicked" => "entry", 
@@ -65,7 +65,7 @@ $header->add_element("Uimage", array(
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
-	"class" => "c24 c24 c24 upfront-image", 
+	"class" => "c24 c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "image-1405520755973-1481", 
 	"row" => -2, 
@@ -80,12 +80,12 @@ $header->add_element("Unewnavigation", array(
 "margin_right" => "0", 
 "margin_top" => "8", 
 "margin_bottom" => "0", 
-"id" => "module-1405520756070-1345-module-module-module", 
+"id" => "module-1405520756070-1345-module-module", 
 "rows" => 12, 
 "options" => array(
 	"type" => "UnewnavigationModel", 
 	"view_class" => "UnewnavigationView", 
-	"class" => "c24 c24 c24 c24 upfront-navigation", 
+	"class" => "c24 c24 c24 upfront-navigation", 
 	"has_settings" => 1, 
 	"id_slug" => "unewnavigation", 
 	"menu_items" => array(array(
@@ -159,7 +159,7 @@ $header->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "5", 
 "margin_bottom" => "0", 
-"id" => "module-1405520755970-1045-module-module-module", 
+"id" => "module-1405520755970-1045-module-module", 
 "rows" => 17, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -167,7 +167,7 @@ $header->add_element("PlainTxt", array(
 	"content" => "<p style=\"text-align: right;\" class=\"\">One call does it all</p><h2 style=\"text-align: right;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">a&nbsp;</span>1300 FIXER</h2>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405520755969-1764", 
-	"class" => "c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"border_style" => "none", 
@@ -181,73 +181,6 @@ $header->add_element("PlainTxt", array(
 ));
 
 $regions->add($header);
-$region_1 = upfront_create_region(
-        array(
-"name" => "region_1", 
-"title" => "Region 1", 
-"type" => "wide", 
-"scope" => "local"
-),
-        array(
-"row" => 88, 
-"background_type" => "color", 
-"nav_region" => "", 
-"background_color" => "rgba(214,230,240,1)"
-)
-        );
-$region_1->add_element("PlainTxt", array(
-"columns" => "20", 
-"margin_left" => "2", 
-"margin_right" => "0", 
-"margin_top" => "6", 
-"margin_bottom" => "0", 
-"id" => "module-1406494478244-1653-module-module-module-module", 
-"rows" => 43, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<h2 class=\"\" style=\"text-align: center;\">Archived</h2><h1 class=\"\" style=\"text-align: center;\">We Keep Things</h1><h1 class=\"\" style=\"text-align: center;\">Organized</h1><p class=\"\"></p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1406494478244-1271", 
-	"class" => "c24 c24 c24 c24 c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"row" => 37, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "", 
-	"anchor" => ""
-	)
-));
-
-$region_1->add_element("Usearch", array(
-"columns" => "18", 
-"margin_left" => "5", 
-"margin_right" => "0", 
-"margin_top" => "11", 
-"margin_bottom" => "0", 
-"id" => "module-1406494948966-1861-module-module-module", 
-"rows" => 19, 
-"options" => array(
-	"type" => "UsearchModel", 
-	"view_class" => "UsearchView", 
-	"class" => "c24 c24 c24 c24 upfront-search", 
-	"has_settings" => 1, 
-	"id_slug" => "usearch", 
-	"placeholder" => "Plumping", 
-	"label" => "S", 
-	"is_rounded" => 0, 
-	"color" => "", 
-	"element_id" => "usearch-object-1406494948965-1321", 
-	"theme_style" => "usearch-archive-search", 
-	"anchor" => "", 
-	"row" => 13
-	)
-));
-
-$regions->add($region_1);
 $main = upfront_create_region(
         array(
 "name" => "main", 
@@ -258,33 +191,76 @@ $main = upfront_create_region(
         array(
 "row" => 140, 
 "background_type" => "color", 
-"background_color" => "#fff"
+"background_color" => "rgba(255,255,255,1)", 
+"nav_region" => ""
 )
         );
+$main->add_element("PlainTxt", array(
+"columns" => "24", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "4", 
+"margin_bottom" => "0", 
+"id" => "module-1407244369178-1770-module-module-module", 
+"rows" => 12, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<h2 class=\"\" style=\"text-align: center;\">Blog</h2>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "text-object-1407244369177-1062", 
+	"class" => "c24 c24 c24 c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"row" => 6, 
+	"is_edited" => true
+	)
+));
+
+$main->add_element("PlainTxt", array(
+"columns" => "23", 
+"margin_left" => "1", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1407244383572-1176-module-module-module", 
+"rows" => 20, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<h1 class=\"\" style=\"text-align: center;\">Latest News &amp; Tips</h1>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "text-object-1407244383571-1575", 
+	"class" => "c24 c24 c24 c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"row" => 14, 
+	"is_edited" => true
+	)
+));
+
 $main->add_element("Uposts", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
 "margin_top" => "1", 
 "margin_bottom" => "0", 
-"id" => "default-posts-module-module-module-module-module-module", 
-"rows" => 189, 
+"id" => "module-1407244369189-1197-module-module-module", 
+"rows" => 75, 
 "options" => array(
 	"type" => "UpostsModel", 
 	"view_class" => "UpostsView", 
 	"has_settings" => 1, 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 uposts-object", 
+	"class" => "c24 c24 c24 c24 uposts-object", 
 	"id_slug" => "uposts", 
 	"post_type" => "post", 
 	"taxonomy" => "", 
 	"term" => "", 
-	"limit" => 10, 
+	"limit" => "2", 
 	"content_type" => "excerpt", 
-	"featured_image" => "1", 
-	"pagination" => 0, 
+	"featured_image" => 1, 
+	"pagination" => "numeric", 
 	"prev" => "Next Page »", 
 	"next" => "", 
-	"post_data" => array("date"), 
+	"post_data" => array("author", "date", "comments_count", "featured_image"), 
 	"postLayout" => array(array(
 			"classes" => "c24 clr", 
 			"objects" => array(array(
@@ -309,8 +285,9 @@ $main->add_element("Uposts", array(
 			"height" => 100
 			)
 		), 
-	"element_id" => "default-posts-object", 
-	"row" => 183
+	"element_id" => "uposts-object-1407244369188-1271", 
+	"theme_style" => "blog-posts", 
+	"anchor" => ""
 	)
 ));
 
@@ -323,28 +300,27 @@ $footer = upfront_create_region(
 "scope" => "local"
 ),
         array(
-"row" => 44, 
+"row" => 42, 
 "background_type" => "color", 
 "nav_region" => "", 
-"background_color" => "rgba(51,51,51,1)", 
-"expand_lock" => false
+"background_color" => "rgba(51,51,51,1)"
 )
         );
 $footer->add_element("PlainTxt", array(
 "columns" => "8", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "5", 
+"margin_top" => "12", 
 "margin_bottom" => "0", 
-"id" => "module-1406205224243-1651-module-module-module", 
+"id" => "module-1406205224243-1651-module-module", 
 "rows" => 13, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\"></h3><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><h3 class=\"\">Spread the word.</h3><h3 class=\"\">Share it with some friends.</h3></span><h3 class=\"\"></h3><h3 class=\"\"><span class=\"uf_font_icon\" style=\"line-height: 30px; color: rgb(0, 0, 0); font-size: 27px; top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(87, 85, 85)\"><a href=\"http://facebook.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">o</span></a> </span></span> <span class=\"uf_font_icon\" style=\"line-height: 30px; color: rgb(0, 0, 0); font-size: 27px; top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://twitter.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">p</span></a></span> <span class=\"uf_font_icon\" style=\"top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://plus.google.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">q</span></a></span>&nbsp;</span><span class=\"uf_font_icon\" style=\"top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://pinterest.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">r</span></a></span></span></span></h3>", 
+	"content" => "<h3 class=\"\"><span class=\"inline_color\" style=\"color: rgb(253, 253, 253)\">Spread the word.</span></h3><h3 class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Share it with some</span> <span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">friends.</span></h3><h3 class=\"\"><span class=\"uf_font_icon\" style=\"line-height: 30px; color: rgb(0, 0, 0); font-size: 27px; top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(87, 85, 85)\"><a href=\"http://facebook.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">o</span></a> </span></span> <span class=\"uf_font_icon\" style=\"line-height: 30px; color: rgb(0, 0, 0); font-size: 27px; top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://twitter.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">p</span></a></span> <span class=\"uf_font_icon\" style=\"top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://plus.google.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">q</span></a></span>&nbsp;</span><span class=\"uf_font_icon\" style=\"top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://pinterest.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">r</span></a></span></span></span></h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406205224243-1348", 
-	"class" => "c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"border_style" => "none", 
@@ -363,15 +339,15 @@ $footer->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "7", 
 "margin_bottom" => "0", 
-"id" => "module-1406209692911-1852-module-module-module", 
+"id" => "module-1406209692911-1852-module-module", 
 "rows" => 16, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\"><span class=\"uf_font_icon\" style=\"position: relative; font-size: 57px; top: 34px;\"><span class=\"inline_color\" style=\"color: rgb(156, 203, 216)\">n</span></span><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Get&nbsp;</span></h3><h3 class=\"\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">A Quote</span></h3>", 
+	"content" => "<h3 class=\"\"><span class=\"uf_font_icon\" style=\"position: relative; font-size: 57px; top: 34px;\"><span class=\"inline_color\" style=\"color: rgb(156, 203, 216)\">n</span></span><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Get</span>&nbsp;</h3><h3 class=\"\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">A Quote</span></h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406209692910-1396", 
-	"class" => "c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"row" => 10, 
@@ -390,15 +366,15 @@ $footer->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "8", 
 "margin_bottom" => "0", 
-"id" => "module-1406210660792-1159-module-module-module", 
+"id" => "module-1406210660792-1159-module-module", 
 "rows" => 22, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 48px; top: 28px;\"><span class=\"inline_color\" style=\"color: rgb(255, 225, 94)\">a</span></span> <span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Call us now</span></h3><h3 class=\"\" style=\"margin-left: 40px;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">&nbsp; 1300 Fixer</span></h3>", 
+	"content" => "<h3 class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 48px; top: 28px;\"><span class=\"inline_color\" style=\"color: rgb(255, 225, 94)\">a</span></span> <span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Call us now</span></h3><h3 class=\"\" style=\"margin-left: 40px;\">&nbsp; <span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">1300 Fixer</span></h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406210660791-1219", 
-	"class" => "c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"border_style" => "none", 
@@ -433,12 +409,12 @@ $lower_footer->add_element("Uimage", array(
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1406217409056-1339-module-module-module", 
+"id" => "module-1406217409056-1339-module-module", 
 "rows" => 10, 
 "options" => array(
-	"src" => get_stylesheet_directory_uri() . '/images/archive/logo-white-92x20-3728.png', 
-	"srcFull" => get_stylesheet_directory_uri() . '/images/archive/logo-white.png', 
-	"srcOriginal" => get_stylesheet_directory_uri() . '/images/archive/logo-white.png', 
+	"src" => get_stylesheet_directory_uri() . '/images/single-blog/logo-white-92x20-3728.png', 
+	"srcFull" => get_stylesheet_directory_uri() . '/images/single-blog/logo-white.png', 
+	"srcOriginal" => get_stylesheet_directory_uri() . '/images/single-blog/logo-white.png', 
 	"image_title" => "", 
 	"alternative_text" => "", 
 	"when_clicked" => false, 
@@ -479,7 +455,7 @@ $lower_footer->add_element("Uimage", array(
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
-	"class" => "c24 c24 c24 upfront-image", 
+	"class" => "c24 c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "image-1406217409054-1200", 
 	"row" => 4
@@ -492,7 +468,7 @@ $lower_footer->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1406217940549-1616-module-module-module", 
+"id" => "module-1406217940549-1616-module-module", 
 "rows" => 12, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -500,7 +476,7 @@ $lower_footer->add_element("PlainTxt", array(
 	"content" => "<p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">© 2oo6-2014 Fixer Pty Ltd</span></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406217940549-1478", 
-	"class" => "c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 6, 
 	"is_edited" => true, 
@@ -519,7 +495,7 @@ $lower_footer->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "1", 
 "margin_bottom" => "0", 
-"id" => "module-1406218508045-1635-module-module-module", 
+"id" => "module-1406218508045-1635-module-module", 
 "rows" => 12, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -527,7 +503,7 @@ $lower_footer->add_element("PlainTxt", array(
 	"content" => "<p class=\"\" style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">ABN - 58 121 227 072</span></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "object-1406218508045-1484", 
-	"class" => "c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 6, 
 	"is_edited" => true, 
@@ -546,7 +522,7 @@ $lower_footer->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "1", 
 "margin_bottom" => "0", 
-"id" => "module-1406218404636-1484-module-module-module", 
+"id" => "module-1406218404636-1484-module-module", 
 "rows" => 8, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -554,7 +530,7 @@ $lower_footer->add_element("PlainTxt", array(
 	"content" => "<p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">TOU &amp; Privary</span></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406218404628-1646", 
-	"class" => "c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 2, 
 	"is_edited" => true, 
