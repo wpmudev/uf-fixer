@@ -1,0 +1,24 @@
+
+
+#page .archive-right-sidebar .widget{
+    font-family:raleway;
+    width:130px;
+}
+
+#page .archive-right-sidebar .widgettitle{
+    color:#000;
+    font:bold 15px raleway;
+}
+
+#page .archive-right-sidebar .widget li{
+    list-style:none;
+    text-align:right;
+}
+
+#page .archive-right-sidebar .widget a,
+.widget a:link,
+.widget a:hover{
+    color:#333;
+    border:none;
+    text-decoration:none;
+}

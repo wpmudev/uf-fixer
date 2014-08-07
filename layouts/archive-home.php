@@ -19,7 +19,7 @@ $header->add_element("Uimage", array(
 "margin_right" => "0", 
 "margin_top" => "9", 
 "margin_bottom" => "0", 
-"id" => "module-1405520755986-1686-module-module-module-module-module-module", 
+"id" => "module-1405520755986-1686-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 4, 
 "options" => array(
 	"src" => get_stylesheet_directory_uri() . '/images/archive-home/logo (1)-116x28-4228.png', 
@@ -65,7 +65,7 @@ $header->add_element("Uimage", array(
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
-	"class" => "c24 c24 c24 c24 c24 c24 upfront-image", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "image-1405520755973-1481", 
 	"row" => -2, 
@@ -80,12 +80,12 @@ $header->add_element("Unewnavigation", array(
 "margin_right" => "0", 
 "margin_top" => "8", 
 "margin_bottom" => "0", 
-"id" => "module-1405520756070-1345-module-module-module-module-module-module", 
+"id" => "module-1405520756070-1345-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 12, 
 "options" => array(
 	"type" => "UnewnavigationModel", 
 	"view_class" => "UnewnavigationView", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-navigation", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-navigation", 
 	"has_settings" => 1, 
 	"id_slug" => "unewnavigation", 
 	"menu_items" => array(array(
@@ -159,7 +159,7 @@ $header->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "5", 
 "margin_bottom" => "0", 
-"id" => "module-1405520755970-1045-module-module-module-module-module-module", 
+"id" => "module-1405520755970-1045-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 17, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -167,14 +167,14 @@ $header->add_element("PlainTxt", array(
 	"content" => "<p style=\"text-align: right;\" class=\"\">One call does it all</p><h2 style=\"text-align: right;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">a&nbsp;</span>1300 FIXER</h2>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405520755969-1764", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => "0", 
 	"border_color" => "", 
 	"bg_color" => "", 
-	"theme_style" => "plaintext-header", 
+	"theme_style" => "header-contact-text", 
 	"anchor" => "", 
 	"row" => 11
 	)
@@ -207,15 +207,15 @@ $region_2->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "42", 
 "margin_bottom" => "0", 
-"id" => "module-1405538329123-1568-module-module-module-module-module-module", 
+"id" => "module-1405538329123-1568-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 58, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p style=\"text-align: right;\" class=\"\"></p><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><p style=\"text-align: right;\">We Build</p><p style=\"text-align: right;\">And Fix</p></span><p style=\"text-align: right;\" class=\"\"></p>", 
+	"content" => "<p style=\"text-align: right;\" class=\"\"></p><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><h1></h1><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><h1 style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">We Build</span></h1><h1 style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">And Fix</span></h1></span><h1></h1></span><p style=\"text-align: right;\" class=\"\"></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405538329122-1842", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"border_style" => "none", 
@@ -229,17 +229,17 @@ $region_2->add_element("PlainTxt", array(
 ));
 
 $region_2->add_element("Unewnavigation", array(
-"columns" => "7", 
-"margin_left" => "17", 
+"columns" => "10", 
+"margin_left" => "14", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "1", 
 "margin_bottom" => "0", 
-"id" => "module-1405685907158-1610-module-module-module-module-module-module", 
-"rows" => 14, 
+"id" => "module-1405685907158-1610-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"rows" => 18, 
 "options" => array(
 	"type" => "UnewnavigationModel", 
 	"view_class" => "UnewnavigationView", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-navigation", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-navigation", 
 	"has_settings" => 1, 
 	"id_slug" => "unewnavigation", 
 	"menu_items" => array(array(
@@ -270,10 +270,13 @@ $region_2->add_element("Unewnavigation", array(
 	"element_id" => "unewnavigation-object-1405685907156-1110", 
 	"initialized" => false, 
 	"menu_id" => "39", 
-	"row" => 8, 
+	"row" => 12, 
 	"is_floating" => array(), 
-	"theme_style" => "unewnavigation-slider-actions", 
-	"anchor" => ""
+	"theme_style" => "slider-button-styles", 
+	"anchor" => "", 
+	"burger_menu" => array(), 
+	"burger_alignment" => "left", 
+	"burger_over" => "over"
 	)
 ));
 
@@ -305,15 +308,15 @@ $region_3->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "4", 
 "margin_bottom" => "0", 
-"id" => "module-1405522949556-1703-module-module-module-module-module-module", 
+"id" => "module-1405522949556-1703-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 11, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h2 class=\"\">Service</h2>", 
+	"content" => "<h3 class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Service</span></h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405522949555-1045", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"row" => 5, 
@@ -332,15 +335,15 @@ $region_3->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "4", 
 "margin_bottom" => "0", 
-"id" => "module-1405523049528-1271-module-module-module-module-module-module", 
+"id" => "module-1405523049528-1271-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 47, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h1 style=\"text-align: center;\" class=\"\">Premier</h1><h1 style=\"text-align: center;\" class=\"\">Service &amp; Quality</h1>", 
+	"content" => "<h1 style=\"text-align: center;\" class=\"\"></h1><span class=\"inline_color\" style=\"color: rgb(253, 253, 253)\"><h1 style=\"text-align: center;\" class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Premier</span></h1><h1 style=\"text-align: center;\" class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Service &amp; Quality</span></h1></span><h1 style=\"text-align: center;\" class=\"\"></h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405523049527-1127", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 41, 
 	"is_edited" => true
@@ -353,17 +356,17 @@ $region_3->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1405596862038-1296-module-module-module-module-module-module", 
+"id" => "module-1405596862038-1296-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 74, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\"></span><h3 class=\"\" style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"></span>Bricklaying &nbsp;&nbsp;<span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">d</span></h3><div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper alignright clearfix\" id=\"uinsert-7\" style=\"width: 240px;\">
-	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 240px; height: 121px\"><img class=\"\" src=\"" . get_site_url() . "/wp-content/uploads/2014/07/bricklaying.jpg\"></span>
+	"content" => "<span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\"></span><h3 class=\"\" style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"></span><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Bricklaying &nbsp;&nbsp;<span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">d</span></span><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\"></span></h3><div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix alignright\" id=\"uinsert-3\" style=\"width: 240px;\">
+	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 242px; height: 122px\"><img class=\"\" src=\"" . get_site_url() . "/wp-content/uploads/2014/07/bricklaying.jpg\"></span>
 </div><p class=\"\"></p><p class=\"\"></p><p class=\"\" style=\"text-align: right;\"></p><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><p class=\"\" style=\"text-align: right;\"></p><p class=\"\" style=\"text-align: right;\"></p><p class=\"\" style=\"text-align: right;\"></p><p class=\"\" style=\"text-align: right;\"></p><p class=\"\" style=\"text-align: right;\"></p><p class=\"\" style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud&nbsp;exerci&nbsp;tation ullamcorper san et iusto pra<span class=\"inline_color\" style=\"color: rgb(147, 17, 17)\"></span>esent luptatum zzril.</span></p><p class=\"\" style=\"text-align: right;\"></p></span><p class=\"\" style=\"text-align: right;\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">j</span></span></p><p class=\"\"></p><p class=\"\"></p><p class=\"\"></p><p class=\"\"></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405596862037-1055", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 68, 
 	"is_edited" => true, 
@@ -382,7 +385,7 @@ $region_3->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "6", 
 "margin_bottom" => "0", 
-"id" => "module-1405596355716-1833-module-module-module-module-module-module", 
+"id" => "module-1405596355716-1833-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 70, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -392,7 +395,7 @@ $region_3->add_element("PlainTxt", array(
 </div><span class=\"inline_color\" style=\"color: rgb(248, 26, 26)\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Erat volutpat. Ut wisi enim ad minim&nbsp;veniam, quis nostrud&nbsp;exerci&nbsp;tation ullamcorper san et iusto praesent&nbsp;luptatum&nbsp;zzril.</span></p><p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">j</span></span></p></span></span><p class=\"\"></p><p class=\"\"></p><p class=\"\"></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405596355715-1674", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 64, 
 	"is_edited" => true
@@ -405,17 +408,17 @@ $region_3->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1405598481047-1202-module-module-module-module-module-module", 
+"id" => "module-1405598481047-1202-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 67, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\" style=\"text-align: right;\">Electrical <span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">f</span></h3><p class=\"\"></p><div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper aligncenter clearfix\" id=\"uinsert-8\" style=\"width: 240px;\">
-	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 240px; height: 121px\"><img class=\"\" src=\"" . get_site_url() . "/wp-content/uploads/2014/07/electricity.jpg\"></span>
+	"content" => "<h3 class=\"\" style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Electrical <span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">f</span></span><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\"></span></h3><p class=\"\"></p><div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter\" id=\"uinsert-2\" style=\"width: 240px;\">
+	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 241px; height: 122px\"><img class=\"\" src=\"" . get_site_url() . "/wp-content/uploads/2014/07/electricity.jpg\"></span>
 </div><p class=\"\"></p><p class=\"\"></p><p class=\"\" style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255);\">Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud&nbsp;exerci&nbsp;tation&nbsp;ullamcorper&nbsp;san et iusto pra<span class=\"inline_color\" style=\"color: rgb(147, 17, 17);\"></span>esent&nbsp;luptatum&nbsp;zzril.</span></p><p class=\"\" style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255);\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">j</span></span></p><p class=\"\"></p><p class=\"\"></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405598481047-1830", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 61, 
 	"is_edited" => true, 
@@ -434,7 +437,7 @@ $region_3->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1405596148086-1896-module-module-module-module-module-module", 
+"id" => "module-1405596148086-1896-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 63, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -444,7 +447,7 @@ $region_3->add_element("PlainTxt", array(
 </div><p class=\"\"></p><p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255);\">Erat volutpat. Ut wisi enim ad minim&nbsp;veniam, quis nostrud&nbsp;exerci&nbsp;tation ullamcorper san et iusto praesent&nbsp;luptatum&nbsp;zzril.</span></p><p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255);\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">j</span></span></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405596148085-1402", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 57, 
 	"is_edited" => true, 
@@ -463,17 +466,17 @@ $region_3->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1405596212011-1573-module-module-module-module-module-module", 
+"id" => "module-1405596212011-1573-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 71, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\" style=\"text-align: right;\">Plumping <span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">e</span></h3><div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter ui-resizable\" id=\"uinsert-10\" style=\"width: 240px;\">
+	"content" => "<h3 class=\"\" style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Plumping <span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">e</span></span><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\"></span></h3><div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter\" id=\"uinsert-4\" style=\"width: 240px;\">
 	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 240px; height: 123px\"><img class=\"\" src=\"" . get_site_url() . "/wp-content/uploads/2014/07/plumping.jpg\"></span>
 </div><p class=\"\"></p><span class=\"inline_color\" style=\"color: rgb(255, 255, 255);\"><p class=\"\" style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255);\">Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud&nbsp;exerci&nbsp;tation ullamcorper san et iusto pra<span class=\"inline_color\" style=\"color: rgb(147, 17, 17);\"></span>esent&nbsp;luptatum&nbsp;zzril.</span></p><p class=\"\" style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255);\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">j</span><br></span></p><p class=\"\" style=\"text-align: right;\"></p></span><p class=\"\"></p><p class=\"\"></p><p class=\"\"></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405596212011-1578", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"row" => 65
@@ -486,17 +489,17 @@ $region_3->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1405598693845-1388-module-module-module-module-module-module", 
+"id" => "module-1405598693845-1388-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 70, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\"><span class=\"uf_font_icon\" style=\"top: 0px; font-size: 25px;\">i&nbsp;</span> Roofing</h3><p class=\"\"></p><div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper aligncenter clearfix\" id=\"uinsert-19\" style=\"width: 240px;\">
-	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 240px; height: 123px\"><img class=\"\" src=\"" . get_site_url() . "/wp-content/uploads/2014/07/roofing.jpg\"></span>
+	"content" => "<h3 class=\"\"><span class=\"uf_font_icon\" style=\"top: 0px; font-size: 25px;\"></span><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><span class=\"uf_font_icon\" style=\"top: 0px; font-size: 25px;\">i&nbsp;</span> Roofing</span></h3><p class=\"\"></p><div contenteditable=\"false\" class=\"ueditor-insert upfront-inserted_image-wrapper clearfix aligncenter\" id=\"uinsert-5\" style=\"width: 240px;\">
+	<span class=\"uinsert-image-wrapper uinsert-image-caption-nocaption \" style=\"width: 242px; height: 124px\"><img class=\"\" src=\"" . get_site_url() . "/wp-content/uploads/2014/07/roofing.jpg\"></span>
 </div><p class=\"\"></p><p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255);\">Erat volutpat. Ut wisi enim ad minim&nbsp;veniam, quis nostrud&nbsp;exerci&nbsp;tation ullamcorper san et iusto praesent&nbsp;luptatum&nbsp;zzril.</span></p><p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255);\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">j</span></span></p><p class=\"\"></p><p class=\"\"></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405598693844-1239", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 64, 
 	"is_edited" => true, 
@@ -530,17 +533,17 @@ $region_4->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "12", 
 "margin_bottom" => "0", 
-"id" => "module-1405602642892-1614-module-module-module-module-module-module", 
-"rows" => 16, 
+"id" => "module-1405602642892-1614-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"rows" => 9, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
 	"content" => "<h3 class=\"\" style=\"text-align: center;\"><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\">In Emergency, call us now! Otherwise follow the steps below ...</span></h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405602642891-1538", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"row" => 10, 
+	"row" => 3, 
 	"is_edited" => true
 	)
 ));
@@ -551,15 +554,15 @@ $region_4->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1405603545291-1575-module-module-module-module-module-module", 
+"id" => "module-1405603545291-1575-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 16, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h1 class=\"\" style=\"text-align: center;\"><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\">First Thing First</span></h1>", 
+	"content" => "<h1 class=\"\" style=\"text-align: center;\">First Thing First</h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "object-1405603545292-1703", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 10, 
 	"is_edited" => true
@@ -586,7 +589,7 @@ $region_5_left->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "12", 
 "margin_bottom" => "0", 
-"id" => "module-1405684577740-1320-module-module-module-module-module-module", 
+"id" => "module-1405684577740-1320-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 15, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -594,7 +597,7 @@ $region_5_left->add_element("PlainTxt", array(
 	"content" => "<h2 class=\"\">1. Get a Quote</h2>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405684577739-1682", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"border_style" => "none", 
@@ -624,7 +627,7 @@ $region_5->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "10", 
 "margin_bottom" => "0", 
-"id" => "module-1405604490158-1724-module-module-module-module-module-module", 
+"id" => "module-1405604490158-1724-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 124, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -634,7 +637,7 @@ $region_5->add_element("PlainTxt", array(
 </div><p class=\"\">It works as smooth as new. quis nostrud exerci tation ullamcorper san et iusto praesent luptatum zzril volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci&nbsp;tincidunt&nbsp;ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper &nbsp;tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, nobis eleifend option congue nihil imperdiet doming id quod mazim non habent praesent luptatum zzril delenit erat facer possim assum lorem ipsum.</p><p class=\"\"></p><p class=\"\"></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "object-1405604490159-1264", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 118, 
 	"is_edited" => true
@@ -647,7 +650,7 @@ $region_5->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "8", 
 "margin_bottom" => "0", 
-"id" => "module-1405603522621-1698-module-module-module-module-module-module", 
+"id" => "module-1405603522621-1698-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 121, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -657,7 +660,7 @@ $region_5->add_element("PlainTxt", array(
 </div><p class=\"\"></p><p class=\"\"></p><p class=\"\">It works as smooth as new. quis nostrud exerci tation ullamcorper san et iusto praesent luptatum zzril volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper &nbsp;tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, nobis eleifend option congue nihil imperdiet doming id quod mazim non habent praesent luptatum zzril delenit erat facer possim assum lorem ipsum.</p><p class=\"\"></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405603522620-1613", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 115, 
 	"is_edited" => true
@@ -690,15 +693,15 @@ $region_6->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "14", 
 "margin_bottom" => "0", 
-"id" => "module-1406189688409-1108-module-module-module-module-module-module", 
+"id" => "module-1406189688409-1108-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 15, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\">Blog</h3><h1 class=\"\">Latest&nbsp;</h1><h1 class=\"\">News &amp;</h1><h1 class=\"\">Tips</h1>", 
+	"content" => "<h3 class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Blog</span></h3><h1 class=\"\"></h1><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><h1 class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Latest</span>&nbsp;</h1><h1 class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">News &amp;</span></h1><h1 class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Tips</span></h1></span><h1 class=\"\"></h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406189688408-1011", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"border_style" => "none", 
@@ -738,7 +741,7 @@ $region_7->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "10", 
 "margin_bottom" => "0", 
-"id" => "module-1406190416970-1781-module-module-module-module-module-module", 
+"id" => "module-1406190416970-1781-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 43, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -746,7 +749,7 @@ $region_7->add_element("PlainTxt", array(
 	"content" => "<h3 class=\"\">End your day!</h3><p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Duis dolore te feugait nulla facilisi. Nam liber tempor cum Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue.</span></p><p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">j</span></span></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406190416970-1685", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 37, 
 	"is_edited" => true
@@ -781,7 +784,7 @@ $region_8->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "6", 
 "margin_bottom" => "0", 
-"id" => "module-1406190559882-1979-module-module-module-module-module-module", 
+"id" => "module-1406190559882-1979-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 49, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -789,7 +792,7 @@ $region_8->add_element("PlainTxt", array(
 	"content" => "<h3 class=\"\"><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\">No more leaking pipe!</span></h3><p class=\"\">Duis dolore te feugait nulla facilisi. Nam liber tempor cum Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue.</p><p class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">j</span></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406190559882-1589", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 43, 
 	"is_edited" => true
@@ -828,7 +831,7 @@ $region_9->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "6", 
 "margin_bottom" => "0", 
-"id" => "module-1406194567924-1749-module-module-module-module-module-module", 
+"id" => "module-1406194567924-1749-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 52, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -836,7 +839,7 @@ $region_9->add_element("PlainTxt", array(
 	"content" => "<h3 class=\"\"><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\">Smart home, smart roof</span></h3><p class=\"\">Duis dolore te feugait nulla facilisi. Nam liber tempor cum Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue dolor sit amet.</p><p class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">j</span></p><p class=\"\"></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406194567924-1392", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 46, 
 	"is_edited" => true
@@ -861,7 +864,7 @@ $region_10->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "10", 
 "margin_bottom" => "0", 
-"id" => "module-1406194594842-1402-module-module-module-module-module-module", 
+"id" => "module-1406194594842-1402-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 17, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -869,7 +872,7 @@ $region_10->add_element("PlainTxt", array(
 	"content" => "<h3 class=\"\" style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\">Interested to know more tips?</span></h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406194594841-1906", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 11, 
 	"is_edited" => true
@@ -882,12 +885,12 @@ $region_10->add_element("Unewnavigation", array(
 "margin_right" => "0", 
 "margin_top" => "9", 
 "margin_bottom" => "0", 
-"id" => "module-1406194567990-1562-module-module-module-module-module-module", 
+"id" => "module-1406194567990-1562-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 16, 
 "options" => array(
 	"type" => "UnewnavigationModel", 
 	"view_class" => "UnewnavigationView", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-navigation", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-navigation", 
 	"has_settings" => 1, 
 	"id_slug" => "unewnavigation", 
 	"menu_items" => array(array(
@@ -956,7 +959,7 @@ $region_11->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "10", 
 "margin_bottom" => "0", 
-"id" => "module-1406194852885-1872-module-module-module-module-module-module", 
+"id" => "module-1406194852885-1872-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 48, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -964,7 +967,7 @@ $region_11->add_element("PlainTxt", array(
 	"content" => "<h3 class=\"\" style=\"text-align: center;\"><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\">About</span></h3><h1 class=\"\" style=\"text-align: center;\"><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\">Meet Mr Fixer</span></h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406194852885-1002", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"row" => 42, 
@@ -983,7 +986,7 @@ $region_11->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "19", 
 "margin_bottom" => "0", 
-"id" => "module-1406196281138-1720-module-module-module-module-module-module", 
+"id" => "module-1406196281138-1720-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 56, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -991,7 +994,7 @@ $region_11->add_element("PlainTxt", array(
 	"content" => "<p class=\"\">Duis dolore te feugait nulla facilisi. Nam liber tempor cum Duis autem vel eum iriure dolor in hendrerit in vulputate velit Ut wisi enim ad minim veniam, quis nostrud &nbsp;esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril.</p><p class=\"\">Duis dolore te feugait nulla facilisi. Nam liber tempor cum Duis autem vel eum iriure dolor in hendrerit in vulputate velit </p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406196281137-1335", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 50, 
 	"is_edited" => true
@@ -1004,7 +1007,7 @@ $region_11->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "18", 
 "margin_bottom" => "0", 
-"id" => "module-1406196781398-1992-module-module-module-module-module-module", 
+"id" => "module-1406196781398-1992-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 56, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -1012,7 +1015,7 @@ $region_11->add_element("PlainTxt", array(
 	"content" => "<p class=\"\">Duis dolore te feugait nulla facilisi. Nam liber tempor cum Duis autem vel eum iriure dolor in hendrerit in vulputate velit Ut wisi enim ad minim veniam, quis nostrud &nbsp;esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril.</p><p class=\"\">Duis dolore te feugait nulla facilisi. Nam liber tempor cum Duis autem vel eum iriure dolor in hendrerit in vulputate velit U</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "object-1406196781398-1916", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 50, 
 	"is_edited" => true
@@ -1025,7 +1028,7 @@ $region_11->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "17", 
 "margin_bottom" => "0", 
-"id" => "module-1406196815834-1847-module-module-module-module-module-module", 
+"id" => "module-1406196815834-1847-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 56, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -1035,7 +1038,7 @@ $region_11->add_element("PlainTxt", array(
 </div><p class=\"\"><strong><br></strong></p><p class=\"\"><strong><br></strong></p><p class=\"\"><strong><br></strong></p><p class=\"\"><strong><br></strong></p><p class=\"\"><strong style=\"font-size: 14px;\">James Woodlock</strong></p><p class=\"\">Owner</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "object-1406196815834-1028", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 50, 
 	"is_edited" => true
@@ -1048,7 +1051,7 @@ $region_11->add_element("Uimage", array(
 "margin_right" => "0", 
 "margin_top" => "5", 
 "margin_bottom" => "0", 
-"id" => "module-1406200069459-1334-module-module-module-module-module-module", 
+"id" => "module-1406200069459-1334-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 40, 
 "options" => array(
 	"src" => get_stylesheet_directory_uri() . '/images/archive-home/video-1044x566-2922.jpg', 
@@ -1094,7 +1097,7 @@ $region_11->add_element("Uimage", array(
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
-	"class" => "c24 c24 c24 c24 c24 c24 upfront-image", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "image-1406200069456-1997", 
 	"theme_style" => "", 
@@ -1121,15 +1124,15 @@ $region_12->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "2", 
 "margin_bottom" => "0", 
-"id" => "module-1406200069453-1687-module-module-module-module-module-module", 
+"id" => "module-1406200069453-1687-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 52, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\" style=\"text-align: center;\"></h3><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\"><h3 class=\"\" style=\"text-align: center;\"><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\">Coverage Area</span></h3><h1 class=\"\"></h1><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\"><h1 class=\"\"></h1><h1 class=\"\" style=\"text-align: center;\"></h1><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\"><h1 class=\"\" style=\"text-align: center;\"></h1><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\"><h1 class=\"\" style=\"text-align: center;\"><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\">Anywhere within</span></h1><h1 class=\"\" style=\"text-align: center;\"><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\">40km radius</span></h1><h1 class=\"\" style=\"text-align: center;\"><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\">from CBD</span></h1></span><h1 class=\"\" style=\"text-align: center;\"></h1></span></span></span><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\"><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\"><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\"><h1 class=\"\" style=\"text-align: center;\"></h1></span><h1 class=\"\" style=\"text-align: center;\"></h1></span><h1 class=\"\"></h1></span><h1 class=\"\"></h1>", 
+	"content" => "<h3 class=\"\" style=\"text-align: center;\"></h3><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\"><h3 style=\"text-align: center;\"><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\">Coverage Area</span></h3><h1 class=\"\"></h1><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\"><h1 class=\"\"></h1><h1 class=\"\" style=\"text-align: center;\"></h1><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\"><h1 class=\"\" style=\"text-align: center;\"></h1><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\"><h1 style=\"text-align: center;\"><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\">Anywhere within</span></h1><h1 style=\"text-align: center;\"><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\">40km radius</span></h1><h1 style=\"text-align: center;\"><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\">from CBD</span></h1></span><h1 class=\"\" style=\"text-align: center;\"></h1></span></span></span><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\"><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\"><span class=\"inline_color\" style=\"color: rgb(0, 0, 0)\"><h1 class=\"\" style=\"text-align: center;\"></h1></span><h1 class=\"\" style=\"text-align: center;\"></h1></span><h1 class=\"\"></h1></span><h1 class=\"\"></h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406200069452-1923", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 46, 
 	"is_edited" => true, 
@@ -1165,34 +1168,34 @@ $region_13 = upfront_create_region(
 )
         );
 $region_13->add_element("PlainTxt", array(
-"columns" => "8", 
+"columns" => "11", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "16", 
+"margin_top" => "9", 
 "margin_bottom" => "0", 
-"id" => "module-1406205101494-1495-module-module-module-module-module-module", 
-"rows" => 22, 
+"id" => "module-1407345822513-1795-module-module-module-module-module-module-module", 
+"rows" => 15, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Ready to talk to our staff with enquiries &amp; questions?</span></h3>", 
+	"content" => "<h3 class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Ready to talk to our staff&nbsp;</span></h3><h3 class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">with enquiries and questions?</span></h3>", 
 	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1406205101494-1264", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"element_id" => "text-object-1407345822512-1625", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
-	"row" => 16
+	"row" => 9
 	)
 ));
 
 $region_13->add_element("Ucontact", array(
-"columns" => "9", 
+"columns" => "11", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "7", 
 "margin_bottom" => "0", 
-"id" => "module-1406205101532-1649-module-module-module-module-module-module", 
-"rows" => 80, 
+"id" => "module-1406205101532-1649-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"rows" => 81, 
 "options" => array(
 	"form_add_title" => array(), 
 	"form_title" => "Contact form", 
@@ -1203,18 +1206,18 @@ $region_13->add_element("Ucontact", array(
 	"form_subject_label" => "Your subject:", 
 	"form_default_subject" => "Sent from the website", 
 	"form_message_label" => "Type your enquire here ...", 
-	"form_button_text" => "Send", 
+	"form_button_text" => "Submit", 
 	"form_validate_when" => "submit", 
 	"form_label_position" => "over", 
 	"type" => "UcontactModel", 
 	"view_class" => "UcontactView", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-contact-form", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-contact-form", 
 	"has_settings" => 1, 
 	"id_slug" => "ucontact", 
 	"element_id" => "ucontact-object-1406205101531-1670", 
-	"theme_style" => "ucontact-home-footer-contact", 
+	"theme_style" => "home-footer-contact", 
 	"anchor" => "", 
-	"row" => 74
+	"row" => 75
 	)
 ));
 
@@ -1234,20 +1237,20 @@ $footer = upfront_create_region(
 )
         );
 $footer->add_element("PlainTxt", array(
-"columns" => "8", 
+"columns" => "9", 
 "margin_left" => "0", 
 "margin_right" => "0", 
 "margin_top" => "12", 
 "margin_bottom" => "0", 
-"id" => "module-1406205224243-1651-module-module-module-module-module-module", 
-"rows" => 13, 
+"id" => "module-1406205224243-1651-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"rows" => 28, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\"></h3><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><h3 class=\"\">Spread the word.</h3><h3 class=\"\">Share it with some friends.</h3></span><h3 class=\"\"></h3><h3 class=\"\"><span class=\"uf_font_icon\" style=\"line-height: 30px; color: rgb(0, 0, 0); font-size: 27px; top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(87, 85, 85)\"><a href=\"http://facebook.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">o</span></a> </span></span> <span class=\"uf_font_icon\" style=\"line-height: 30px; color: rgb(0, 0, 0); font-size: 27px; top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://twitter.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">p</span></a></span> <span class=\"uf_font_icon\" style=\"top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://plus.google.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">q</span></a></span>&nbsp;</span><span class=\"uf_font_icon\" style=\"top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://pinterest.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">r</span></a></span></span></span></h3>", 
+	"content" => "<h3 class=\"\"></h3><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><h3 class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Spread the word.</span></h3><h3 class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Share it with some friends.</span></h3></span><h3 class=\"\"></h3><h3 class=\"\"><span class=\"uf_font_icon\" style=\"line-height: 30px; color: rgb(0, 0, 0); font-size: 27px; top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(87, 85, 85)\"><a href=\"http://facebook.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">o</span></a> </span></span> <span class=\"uf_font_icon\" style=\"line-height: 30px; color: rgb(0, 0, 0); font-size: 27px; top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://twitter.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">p</span></a></span> <span class=\"uf_font_icon\" style=\"top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://plus.google.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">q</span></a></span>&nbsp;</span><span class=\"uf_font_icon\" style=\"top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://pinterest.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">r</span></a></span></span></span></h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406205224243-1348", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"border_style" => "none", 
@@ -1256,25 +1259,25 @@ $footer->add_element("PlainTxt", array(
 	"bg_color" => "", 
 	"theme_style" => "plaintext-footer-social", 
 	"anchor" => "", 
-	"row" => 7
+	"row" => 22
 	)
 ));
 
 $footer->add_element("PlainTxt", array(
 "columns" => "5", 
-"margin_left" => "3", 
+"margin_left" => "2", 
 "margin_right" => "0", 
-"margin_top" => "7", 
+"margin_top" => "3", 
 "margin_bottom" => "0", 
-"id" => "module-1406209692911-1852-module-module-module-module-module-module", 
+"id" => "module-1406209692911-1852-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 16, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\"><span class=\"uf_font_icon\" style=\"position: relative; font-size: 57px; top: 34px;\"><span class=\"inline_color\" style=\"color: rgb(156, 203, 216)\">n</span></span><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Get</span>&nbsp;</h3><h3 class=\"\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">A Quote</span></h3>", 
+	"content" => "<h3 class=\"\"><span class=\"uf_font_icon\" style=\"position: relative; font-size: 65px; top: 42px;\"><span class=\"inline_color\" style=\"color: rgb(156, 203, 216)\">n</span></span><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Get</span>&nbsp;</h3><h3 class=\"\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">A Quote</span></h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406209692910-1396", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"row" => 10, 
@@ -1282,26 +1285,26 @@ $footer->add_element("PlainTxt", array(
 	"border_width" => 1, 
 	"border_color" => "", 
 	"bg_color" => "", 
-	"theme_style" => "plaintext-footer-social", 
+	"theme_style" => "_default", 
 	"anchor" => ""
 	)
 ));
 
 $footer->add_element("PlainTxt", array(
-"columns" => "5", 
+"columns" => "6", 
 "margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "8", 
+"margin_top" => "3", 
 "margin_bottom" => "0", 
-"id" => "module-1406210660792-1159-module-module-module-module-module-module", 
+"id" => "module-1406210660792-1159-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 22, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 48px; top: 28px;\"><span class=\"inline_color\" style=\"color: rgb(255, 225, 94)\">a</span></span> <span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Call us now</span></h3><h3 class=\"\" style=\"margin-left: 40px;\">&nbsp; <span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">1300 Fixer</span></h3>", 
+	"content" => "<h3 class=\"\"><span class=\"uf_font_icon\" style=\"top: 42px; font-size: 65px;\"><span class=\"inline_color\" style=\"color: rgb(255, 225, 94)\">a</span></span> <span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Call us now</span></h3><h3 class=\"\" style=\"margin-left: 40px;\">&nbsp; &nbsp;&nbsp;<span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">1300 Fixer</span></h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406210660791-1219", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"border_style" => "none", 
@@ -1336,7 +1339,7 @@ $lower_footer->add_element("Uimage", array(
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1406217409056-1339-module-module-module-module-module-module", 
+"id" => "module-1406217409056-1339-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 10, 
 "options" => array(
 	"src" => get_stylesheet_directory_uri() . '/images/archive-home/logo-white-92x20-3728.png', 
@@ -1382,7 +1385,7 @@ $lower_footer->add_element("Uimage", array(
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
-	"class" => "c24 c24 c24 c24 c24 c24 upfront-image", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "image-1406217409054-1200", 
 	"row" => 4
@@ -1395,7 +1398,7 @@ $lower_footer->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1406217940549-1616-module-module-module-module-module-module", 
+"id" => "module-1406217940549-1616-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 12, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -1403,7 +1406,7 @@ $lower_footer->add_element("PlainTxt", array(
 	"content" => "<p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">© 2oo6-2014 Fixer Pty Ltd</span></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406217940549-1478", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 6, 
 	"is_edited" => true, 
@@ -1422,7 +1425,7 @@ $lower_footer->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "1", 
 "margin_bottom" => "0", 
-"id" => "module-1406218508045-1635-module-module-module-module-module-module", 
+"id" => "module-1406218508045-1635-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 12, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -1430,7 +1433,7 @@ $lower_footer->add_element("PlainTxt", array(
 	"content" => "<p class=\"\" style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">ABN - 58 121 227 072</span></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "object-1406218508045-1484", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 6, 
 	"is_edited" => true, 
@@ -1449,7 +1452,7 @@ $lower_footer->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "1", 
 "margin_bottom" => "0", 
-"id" => "module-1406218404636-1484-module-module-module-module-module-module", 
+"id" => "module-1406218404636-1484-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 8, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -1457,7 +1460,7 @@ $lower_footer->add_element("PlainTxt", array(
 	"content" => "<p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">TOU &amp; Privary</span></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406218404628-1646", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 2, 
 	"is_edited" => true, 

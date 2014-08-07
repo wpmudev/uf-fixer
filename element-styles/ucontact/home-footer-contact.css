@@ -1,0 +1,20 @@
+
+
+#page .home-footer-contact .ucontact-input{
+    height:50px;
+    line-height:50px;
+}
+
+#page .home-footer-contact .textarea-field{
+    height:190px;
+}
+
+#page .home-footer-contact .submit-field{
+    float:right;
+    height:50px;
+    width:150px;
+    background:#645191;
+    border:none;
+    margin-right:20px;
+    color:#fff;
+}
