@@ -4,7 +4,9 @@ $header = upfront_create_region(
 "name" => "header", 
 "title" => "Header", 
 "type" => "wide", 
-"scope" => "local"
+"scope" => "local", 
+"position" => 1, 
+"allow_sidebar" => true
 ),
         array(
 "row" => 24, 
@@ -19,7 +21,7 @@ $header->add_element("Uimage", array(
 "margin_right" => "0", 
 "margin_top" => "9", 
 "margin_bottom" => "0", 
-"id" => "module-1405520755986-1686-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1405520755986-1686-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 4, 
 "options" => array(
 	"src" => get_stylesheet_directory_uri() . '/images/single-casestudy/logo (1)-116x28-4228.png', 
@@ -65,7 +67,7 @@ $header->add_element("Uimage", array(
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-image", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "image-1405520755973-1481", 
 	"row" => -2, 
@@ -80,12 +82,12 @@ $header->add_element("Unewnavigation", array(
 "margin_right" => "0", 
 "margin_top" => "8", 
 "margin_bottom" => "0", 
-"id" => "module-1405520756070-1345-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1405520756070-1345-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 12, 
 "options" => array(
 	"type" => "UnewnavigationModel", 
 	"view_class" => "UnewnavigationView", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-navigation", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-navigation", 
 	"has_settings" => 1, 
 	"id_slug" => "unewnavigation", 
 	"menu_items" => array(array(
@@ -159,7 +161,7 @@ $header->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "5", 
 "margin_bottom" => "0", 
-"id" => "module-1405520755970-1045-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1405520755970-1045-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 17, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -167,7 +169,7 @@ $header->add_element("PlainTxt", array(
 	"content" => "<p style=\"text-align: right;\" class=\"\">One call does it all</p><h2 style=\"text-align: right;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">a&nbsp;</span>1300 FIXER</h2>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405520755969-1764", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"border_style" => "none", 
@@ -186,7 +188,10 @@ $main = upfront_create_region(
 "name" => "main", 
 "title" => "Main Area", 
 "type" => "wide", 
-"scope" => "local"
+"scope" => "local", 
+"container" => "main", 
+"position" => 10, 
+"allow_sidebar" => true
 ),
         array(
 "row" => 140, 
@@ -200,7 +205,7 @@ $main->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "8", 
 "margin_bottom" => "0", 
-"id" => "module-1407250114380-1665-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1407250114380-1665-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 14, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -208,7 +213,7 @@ $main->add_element("PlainTxt", array(
 	"content" => "<h3 class=\"\" style=\"text-align: center;\">Case Study</h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1407250114379-1090", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 8, 
 	"is_edited" => true
@@ -221,7 +226,7 @@ $main->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1407250139415-1897-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1407250139415-1897-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 10, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -229,7 +234,7 @@ $main->add_element("PlainTxt", array(
 	"content" => "<h1 class=\"\" style=\"text-align: center;\">Issue Resolved!</h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1407250139414-1484", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 4, 
 	"is_edited" => true
@@ -242,15 +247,15 @@ $main->add_element("Ugallery", array(
 "margin_right" => "0", 
 "margin_top" => "11", 
 "margin_bottom" => "0", 
-"id" => "module-1407250114394-1623-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1407250114394-1623-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 48, 
 "options" => array(
 	"type" => "UgalleryModel", 
 	"view_class" => "UgalleryView", 
-	"has_settings" => 0, 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-gallery", 
+	"has_settings" => 1, 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-gallery", 
 	"id_slug" => "ugallery", 
-	"status" => "", 
+	"status" => "ok", 
 	"images" => array(array(
 			"id" => "4008", 
 			"srcFull" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image2-210x210-7135.jpg', 
@@ -1266,7 +1271,9 @@ $footer = upfront_create_region(
 "name" => "footer", 
 "title" => "Footer", 
 "type" => "wide", 
-"scope" => "local"
+"scope" => "local", 
+"position" => 20, 
+"allow_sidebar" => true
 ),
         array(
 "row" => 42, 
@@ -1276,56 +1283,29 @@ $footer = upfront_create_region(
 )
         );
 $footer->add_element("PlainTxt", array(
-"columns" => "8", 
+"columns" => "10", 
 "margin_left" => "0", 
 "margin_right" => "0", 
 "margin_top" => "7", 
 "margin_bottom" => "0", 
-"id" => "module-1406205224243-1651-module-module-module-module-module-module-module-module-module", 
-"rows" => 13, 
+"id" => "module-1406205224243-1651-module-module-module-module-module-module-module-module-module-module-module", 
+"rows" => 28, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\"></h3><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><h3 class=\"\">Spread the word.</h3><h3 class=\"\">Share it with some friends.</h3></span><h3 class=\"\"></h3><h3 class=\"\"><span class=\"uf_font_icon\" style=\"line-height: 30px; color: rgb(0, 0, 0); font-size: 27px; top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(87, 85, 85)\"><a href=\"http://facebook.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">o</span></a> </span></span> <span class=\"uf_font_icon\" style=\"line-height: 30px; color: rgb(0, 0, 0); font-size: 27px; top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://twitter.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">p</span></a></span> <span class=\"uf_font_icon\" style=\"top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://plus.google.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">q</span></a></span>&nbsp;</span><span class=\"uf_font_icon\" style=\"top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://pinterest.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">r</span></a></span></span></span></h3>", 
+	"content" => "<h3 class=\"\"></h3><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><h3><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Spread the word.</span></h3><h3 class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Share it with some friends.</span></h3></span><h3 class=\"\"></h3><h3 class=\"\"><span class=\"uf_font_icon\" style=\"line-height: 30px; color: rgb(0, 0, 0); font-size: 27px; top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(87, 85, 85)\"><a href=\"http://facebook.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">o</span></a> </span></span> <span class=\"uf_font_icon\" style=\"line-height: 30px; color: rgb(0, 0, 0); font-size: 27px; top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://twitter.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">p</span></a></span> <span class=\"uf_font_icon\" style=\"top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://plus.google.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">q</span></a></span>&nbsp;</span><span class=\"uf_font_icon\" style=\"top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://pinterest.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">r</span></a></span></span></span></h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406205224243-1348", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
 	"border_color" => "", 
 	"bg_color" => "", 
-	"theme_style" => "plaintext-footer-social", 
+	"theme_style" => "footer-text-boxes", 
 	"anchor" => "", 
-	"row" => 7
-	)
-));
-
-$footer->add_element("PlainTxt", array(
-"columns" => "5", 
-"margin_left" => "3", 
-"margin_right" => "0", 
-"margin_top" => "7", 
-"margin_bottom" => "0", 
-"id" => "module-1406209692911-1852-module-module-module-module-module-module-module-module-module", 
-"rows" => 16, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\"><span class=\"uf_font_icon\" style=\"position: relative; font-size: 57px; top: 34px;\"><span class=\"inline_color\" style=\"color: rgb(156, 203, 216)\">n</span></span><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Get&nbsp;</span></h3><h3 class=\"\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">A Quote</span></h3>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1406209692910-1396", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"row" => 10, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "plaintext-footer-social", 
-	"anchor" => ""
+	"row" => 22
 	)
 ));
 
@@ -1333,26 +1313,53 @@ $footer->add_element("PlainTxt", array(
 "columns" => "5", 
 "margin_left" => "1", 
 "margin_right" => "0", 
+"margin_top" => "7", 
+"margin_bottom" => "0", 
+"id" => "module-1406209692911-1852-module-module-module-module-module-module-module-module-module-module-module", 
+"rows" => 16, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<h3 class=\"\"><span class=\"uf_font_icon\" style=\"position: relative; top: 34px; font-size: 58px;\"><span class=\"inline_color\" style=\"color: rgb(156, 203, 216)\">n</span></span><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Get&nbsp;</span></h3><h3 class=\"\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">A Quote</span></h3>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "text-object-1406209692910-1396", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"row" => 10, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"theme_style" => "footer-text-boxes", 
+	"anchor" => ""
+	)
+));
+
+$footer->add_element("PlainTxt", array(
+"columns" => "7", 
+"margin_left" => "1", 
+"margin_right" => "0", 
 "margin_top" => "8", 
 "margin_bottom" => "0", 
-"id" => "module-1406210660792-1159-module-module-module-module-module-module-module-module-module", 
-"rows" => 22, 
+"id" => "module-1406210660792-1159-module-module-module-module-module-module-module-module-module-module-module", 
+"rows" => 25, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
 	"content" => "<h3 class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 48px; top: 28px;\"><span class=\"inline_color\" style=\"color: rgb(255, 225, 94)\">a</span></span> <span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Call us now</span></h3><h3 class=\"\" style=\"margin-left: 40px;\">&nbsp; <span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">1300 Fixer</span></h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406210660791-1219", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
 	"border_color" => "", 
 	"bg_color" => "", 
-	"theme_style" => "plaintext-footer-social", 
+	"theme_style" => "footer-text-boxes", 
 	"anchor" => "", 
-	"row" => 16
+	"row" => 19
 	)
 ));
 
@@ -1362,7 +1369,9 @@ $lower_footer = upfront_create_region(
 "name" => "lower_footer", 
 "title" => "Lower foter", 
 "type" => "wide", 
-"scope" => "local"
+"scope" => "local", 
+"position" => 20, 
+"allow_sidebar" => true
 ),
         array(
 "row" => 9, 
@@ -1378,7 +1387,7 @@ $lower_footer->add_element("Uimage", array(
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1406217409056-1339-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1406217409056-1339-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 10, 
 "options" => array(
 	"src" => get_stylesheet_directory_uri() . '/images/single-casestudy/logo-white-92x20-3728.png', 
@@ -1424,7 +1433,7 @@ $lower_footer->add_element("Uimage", array(
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-image", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "image-1406217409054-1200", 
 	"row" => 4
@@ -1437,7 +1446,7 @@ $lower_footer->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1406217940549-1616-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1406217940549-1616-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 12, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -1445,7 +1454,7 @@ $lower_footer->add_element("PlainTxt", array(
 	"content" => "<p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">© 2oo6-2014 Fixer Pty Ltd</span></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406217940549-1478", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 6, 
 	"is_edited" => true, 
@@ -1464,7 +1473,7 @@ $lower_footer->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "1", 
 "margin_bottom" => "0", 
-"id" => "module-1406218508045-1635-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1406218508045-1635-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 12, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -1472,7 +1481,7 @@ $lower_footer->add_element("PlainTxt", array(
 	"content" => "<p class=\"\" style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">ABN - 58 121 227 072</span></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "object-1406218508045-1484", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 6, 
 	"is_edited" => true, 
@@ -1491,7 +1500,7 @@ $lower_footer->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "1", 
 "margin_bottom" => "0", 
-"id" => "module-1406218404636-1484-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1406218404636-1484-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 8, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -1499,7 +1508,7 @@ $lower_footer->add_element("PlainTxt", array(
 	"content" => "<p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">TOU &amp; Privary</span></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406218404628-1646", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 2, 
 	"is_edited" => true, 

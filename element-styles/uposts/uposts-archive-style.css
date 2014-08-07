@@ -40,3 +40,7 @@
 #page .uposts-archive-style .upfront-postpart-author{
     padding-left:0;
 }
+
+#page .uposts-archive-style .uposts-pagination{
+    margin-right:10px;
+}

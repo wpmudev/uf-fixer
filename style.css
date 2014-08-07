@@ -151,25 +151,25 @@ li.comment.depth-2{
 }
 ::-webkit-input-placeholder {
     color: #333;
-    font:bold 15px "raleway";
+    font:400 15px "raleway";
     line-height: 55px;
 }
 
 :-moz-placeholder { /* Firefox 18- */
     color: #333;
-    font:bold 15px "raleway";
+    font:400 15px "raleway";
     line-height: 55px;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
     color: #333;
-    font:bold 15px "raleway";
+    font:400 15px "raleway";
     line-height: 55px;
 }
 
 :-ms-input-placeholder {
     color: #333;
-    font:bold 15px "raleway";
+    font:400 15px "raleway";
     line-height: 55px;
 }
 .search-button {

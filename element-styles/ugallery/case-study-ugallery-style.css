@@ -6,6 +6,25 @@
 }
 
 #page .case-study-ugallery-style .ugallery_labels{
-    height:40px;   
-    background:#ccc;
+    height:50px;
+    margin-bottom:40px;
+}
+
+#page .case-study-ugallery-style .ugallery_label_filter,
+.ugallery_label_filter:link,
+.ugallery_label_filter:hover{
+    text-align:center;
+    text-decoration:none;
+    border:none;
+    padding:20px;
+    background:#ece9e4;
+    font:500 normal 15px raleway;
+    color:#666666;
+    margin-right:3px;
+    display:inline-block;
+}
+
+#page .case-study-ugallery-style .ugallery_label_filter.filter_selected{
+    background:#645191;
+    color:#fff;
 }

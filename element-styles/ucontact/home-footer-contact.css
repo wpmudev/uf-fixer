@@ -1,8 +1,13 @@
 
 
+#page .home-footer-contact .upfront-field-container{
+    margin:0 0 2px 0;
+}
+
 #page .home-footer-contact .ucontact-input{
     height:50px;
     line-height:50px;
+    border:none;
 }
 
 #page .home-footer-contact .textarea-field{
@@ -17,4 +22,5 @@
     border:none;
     margin-right:20px;
     color:#fff;
+    margin-top:10px;
 }
