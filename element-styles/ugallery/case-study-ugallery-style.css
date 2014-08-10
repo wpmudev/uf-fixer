@@ -3,6 +3,8 @@
 #page .case-study-ugallery-style .ugallery_item{
     margin:0 !important;
     padding:0;
+    position:relative;
+    overflow:hidden;
 }
 
 #page .case-study-ugallery-style .ugallery_labels{
@@ -27,4 +29,26 @@
 #page .case-study-ugallery-style .ugallery_label_filter.filter_selected{
     background:#645191;
     color:#fff;
+}
+
+#page .case-study-ugallery-style .ugallery_lb_text{
+  position: absolute; 
+  background: #645191; 
+  color: white; 
+  padding: 25% 15%; 
+  display:block;
+  opacity: 0;
+  bottom: -100%; 
+  left: 0;
+  width:70%;
+  height:50%;
+  font:500 28px raleway;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition:    all 0.6s ease;
+  -o-transition:      all 0.6s ease;
+}
+
+#page .case-study-ugallery-style .ugallery_item:hover .ugallery_lb_text {
+  opacity: 1;
+  bottom: 0;
 }

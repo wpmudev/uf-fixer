@@ -21,12 +21,12 @@ $header->add_element("Uimage", array(
 "margin_right" => "0", 
 "margin_top" => "9", 
 "margin_bottom" => "0", 
-"id" => "module-1405520755986-1686-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1405520755986-1686-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 4, 
 "options" => array(
-	"src" => get_stylesheet_directory_uri() . '/images/single-casestudy/logo (1)-116x28-4228.png', 
-	"srcFull" => get_stylesheet_directory_uri() . '/images/single-casestudy/logo (1).png', 
-	"srcOriginal" => get_stylesheet_directory_uri() . '/images/single-casestudy/logo (1).png', 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/logo (1)-116x28-4228.png", 
+	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/logo (1).png", 
+	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/logo (1).png", 
 	"image_title" => "", 
 	"alternative_text" => "", 
 	"when_clicked" => "entry", 
@@ -67,7 +67,7 @@ $header->add_element("Uimage", array(
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-image", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "image-1405520755973-1481", 
 	"row" => -2, 
@@ -82,12 +82,12 @@ $header->add_element("Unewnavigation", array(
 "margin_right" => "0", 
 "margin_top" => "8", 
 "margin_bottom" => "0", 
-"id" => "module-1405520756070-1345-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1405520756070-1345-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 12, 
 "options" => array(
 	"type" => "UnewnavigationModel", 
 	"view_class" => "UnewnavigationView", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-navigation", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-navigation", 
 	"has_settings" => 1, 
 	"id_slug" => "unewnavigation", 
 	"menu_items" => array(array(
@@ -161,7 +161,7 @@ $header->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "5", 
 "margin_bottom" => "0", 
-"id" => "module-1405520755970-1045-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1405520755970-1045-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 17, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -169,7 +169,7 @@ $header->add_element("PlainTxt", array(
 	"content" => "<p style=\"text-align: right;\" class=\"\">One call does it all</p><h2 style=\"text-align: right;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">a&nbsp;</span>1300 FIXER</h2>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405520755969-1764", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"border_style" => "none", 
@@ -205,7 +205,7 @@ $main->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "8", 
 "margin_bottom" => "0", 
-"id" => "module-1407250114380-1665-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1407250114380-1665-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 14, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -213,7 +213,7 @@ $main->add_element("PlainTxt", array(
 	"content" => "<h3 class=\"\" style=\"text-align: center;\">Case Study</h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1407250114379-1090", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 8, 
 	"is_edited" => true
@@ -226,7 +226,7 @@ $main->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1407250139415-1897-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1407250139415-1897-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 10, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -234,7 +234,7 @@ $main->add_element("PlainTxt", array(
 	"content" => "<h1 class=\"\" style=\"text-align: center;\">Issue Resolved!</h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1407250139414-1484", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 4, 
 	"is_edited" => true
@@ -247,91 +247,27 @@ $main->add_element("Ugallery", array(
 "margin_right" => "0", 
 "margin_top" => "11", 
 "margin_bottom" => "0", 
-"id" => "module-1407250114394-1623-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1407250114394-1623-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 48, 
 "options" => array(
 	"type" => "UgalleryModel", 
 	"view_class" => "UgalleryView", 
 	"has_settings" => 1, 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-gallery", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-gallery", 
 	"id_slug" => "ugallery", 
 	"status" => "ok", 
 	"images" => array(array(
-			"id" => "4008", 
-			"srcFull" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image2-210x210-7135.jpg', 
-			"sizes" => array(
-				"thumbnail" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image2-150x150.jpg', 150, 150, true), 
-				"medium" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image2.jpg', 210, 210, false), 
-				"large" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image2.jpg', 210, 210, false), 
-				"full" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image2.jpg', 210, 210, false), 
-				"custom" => array(
-					"error" => false, 
-					"url" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image2-210x210-4958.jpg', 
-					"urlOriginal" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image2.jpg', 
-					"full" => array(
-						"width" => 210, 
-						"height" => 210
-						), 
-					"crop" => array(
-						"width" => 210, 
-						"height" => 210
-						), 
-					"editdata" => array(
-						"rotate" => 0, 
-						"crop" => array(
-							"width" => "210", 
-							"height" => "210", 
-							"left" => 0, 
-							"top" => 0
-							), 
-						"resize" => array(
-							"width" => 210, 
-							"height" => 210
-							), 
-						"id" => 4008, 
-						"element_id" => "ugallery-object-1407250114391-1191"
-						)
-					)
-				), 
-			"size" => array(
-				"width" => 210, 
-				"height" => 210
-				), 
-			"cropSize" => array(
-				"width" => 210, 
-				"height" => 210
-				), 
-			"cropOffset" => array(
-				"top" => 0, 
-				"left" => 0
-				), 
-			"src" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image2-210x210-7135.jpg', 
-			"loading" => false, 
-			"status" => "ok", 
-			"element_id" => "ugallery-object-1407250114391-1191", 
-			"rotation" => 0, 
-			"link" => "original", 
-			"url" => "", 
-			"title" => "Image caption", 
-			"caption" => "Image description", 
-			"alt" => "", 
-			"tags" => array("All", "Plumping"), 
-			"margin" => array(
-				"left" => 0, 
-				"top" => 0
-				)
-			), array(
 			"id" => "4009", 
-			"srcFull" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image3.jpg', 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image3.jpg", 
 			"sizes" => array(
-				"thumbnail" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image3-150x150.jpg', 150, 150, true), 
-				"medium" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image3.jpg', 210, 210, false), 
-				"large" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image3.jpg', 210, 210, false), 
-				"full" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image3.jpg', 210, 210, false), 
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image3-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image3.jpg", 210, 210, false), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image3.jpg", 210, 210, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image3.jpg", 210, 210, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image3-210x210-8835.jpg', 
-					"urlOriginal" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image3.jpg', 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image3-210x210-1861.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image3.jpg", 
 					"full" => array(
 						"width" => 210, 
 						"height" => 210
@@ -371,7 +307,7 @@ $main->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"src" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image3-210x210-8835.jpg', 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image3-210x210-1861.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
 			"element_id" => "ugallery-object-1407250114391-1191", 
@@ -379,25 +315,25 @@ $main->add_element("Ugallery", array(
 			"link" => "original", 
 			"url" => "", 
 			"title" => "Image caption", 
-			"caption" => "Image description", 
+			"caption" => "<p>This is Case</p>", 
 			"alt" => "", 
-			"tags" => array("All", "Roofing"), 
+			"tags" => array(), 
 			"margin" => array(
 				"left" => 0, 
 				"top" => 0
 				)
 			), array(
 			"id" => "4010", 
-			"srcFull" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image4.jpg', 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image4.jpg", 
 			"sizes" => array(
-				"thumbnail" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image4-150x150.jpg', 150, 150, true), 
-				"medium" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image4.jpg', 210, 210, false), 
-				"large" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image4.jpg', 210, 210, false), 
-				"full" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image4.jpg', 210, 210, false), 
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image4-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image4.jpg", 210, 210, false), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image4.jpg", 210, 210, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image4.jpg", 210, 210, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image4-210x210-4359.jpg', 
-					"urlOriginal" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image4.jpg', 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image4-210x210-4359.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image4.jpg", 
 					"full" => array(
 						"width" => 210, 
 						"height" => 210
@@ -437,7 +373,7 @@ $main->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"src" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image4-210x210-4359.jpg', 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image4-210x210-4359.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
 			"element_id" => "ugallery-object-1407250114391-1191", 
@@ -454,16 +390,16 @@ $main->add_element("Ugallery", array(
 				)
 			), array(
 			"id" => "4011", 
-			"srcFull" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image5.jpg', 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image5.jpg", 
 			"sizes" => array(
-				"thumbnail" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image5-150x150.jpg', 150, 150, true), 
-				"medium" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image5.jpg', 210, 210, false), 
-				"large" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image5.jpg', 210, 210, false), 
-				"full" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image5.jpg', 210, 210, false), 
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image5-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image5.jpg", 210, 210, false), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image5.jpg", 210, 210, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image5.jpg", 210, 210, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image5-210x210-4712.jpg', 
-					"urlOriginal" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image5.jpg', 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image5-210x210-4712.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image5.jpg", 
 					"full" => array(
 						"width" => 210, 
 						"height" => 210
@@ -503,7 +439,7 @@ $main->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"src" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image5-210x210-4712.jpg', 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image5-210x210-4712.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
 			"element_id" => "ugallery-object-1407250114391-1191", 
@@ -520,16 +456,16 @@ $main->add_element("Ugallery", array(
 				)
 			), array(
 			"id" => "4012", 
-			"srcFull" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image6.jpg', 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image6.jpg", 
 			"sizes" => array(
-				"thumbnail" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image6-150x150.jpg', 150, 150, true), 
-				"medium" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image6.jpg', 210, 210, false), 
-				"large" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image6.jpg', 210, 210, false), 
-				"full" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image6.jpg', 210, 210, false), 
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image6-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image6.jpg", 210, 210, false), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image6.jpg", 210, 210, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image6.jpg", 210, 210, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image6-210x210-4674.jpg', 
-					"urlOriginal" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image6.jpg', 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image6-210x210-4674.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image6.jpg", 
 					"full" => array(
 						"width" => 210, 
 						"height" => 210
@@ -569,7 +505,7 @@ $main->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"src" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image6-210x210-4674.jpg', 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image6-210x210-4674.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
 			"element_id" => "ugallery-object-1407250114391-1191", 
@@ -586,16 +522,16 @@ $main->add_element("Ugallery", array(
 				)
 			), array(
 			"id" => "4014", 
-			"srcFull" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image7.jpg', 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image7.jpg", 
 			"sizes" => array(
-				"thumbnail" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image7-150x150.jpg', 150, 150, true), 
-				"medium" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image7.jpg', 210, 210, false), 
-				"large" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image7.jpg', 210, 210, false), 
-				"full" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image7.jpg', 210, 210, false), 
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image7-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image7.jpg", 210, 210, false), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image7.jpg", 210, 210, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image7.jpg", 210, 210, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image7-210x210-4688.jpg', 
-					"urlOriginal" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image7.jpg', 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image7-210x210-4688.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image7.jpg", 
 					"full" => array(
 						"width" => 210, 
 						"height" => 210
@@ -635,7 +571,7 @@ $main->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"src" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image7-210x210-4688.jpg', 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image7-210x210-4688.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
 			"element_id" => "ugallery-object-1407250114391-1191", 
@@ -652,16 +588,16 @@ $main->add_element("Ugallery", array(
 				)
 			), array(
 			"id" => "4015", 
-			"srcFull" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image8.jpg', 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image8.jpg", 
 			"sizes" => array(
-				"thumbnail" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image8-150x150.jpg', 150, 150, true), 
-				"medium" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image8.jpg', 210, 210, false), 
-				"large" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image8.jpg', 210, 210, false), 
-				"full" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image8.jpg', 210, 210, false), 
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image8-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image8.jpg", 210, 210, false), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image8.jpg", 210, 210, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image8.jpg", 210, 210, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image8-210x210-3938.jpg', 
-					"urlOriginal" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image8.jpg', 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image8-210x210-3938.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image8.jpg", 
 					"full" => array(
 						"width" => 210, 
 						"height" => 210
@@ -701,7 +637,7 @@ $main->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"src" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image8-210x210-3938.jpg', 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image8-210x210-3938.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
 			"element_id" => "ugallery-object-1407250114391-1191", 
@@ -718,16 +654,16 @@ $main->add_element("Ugallery", array(
 				)
 			), array(
 			"id" => "4017", 
-			"srcFull" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image9.jpg', 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image9.jpg", 
 			"sizes" => array(
-				"thumbnail" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image9-150x150.jpg', 150, 150, true), 
-				"medium" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image9.jpg', 210, 210, false), 
-				"large" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image9.jpg', 210, 210, false), 
-				"full" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image9.jpg', 210, 210, false), 
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image9-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image9.jpg", 210, 210, false), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image9.jpg", 210, 210, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image9.jpg", 210, 210, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image9-210x210-3034.jpg', 
-					"urlOriginal" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image9.jpg', 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image9-210x210-3034.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image9.jpg", 
 					"full" => array(
 						"width" => 210, 
 						"height" => 210
@@ -767,7 +703,7 @@ $main->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"src" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image9-210x210-3034.jpg', 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image9-210x210-3034.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
 			"element_id" => "ugallery-object-1407250114391-1191", 
@@ -784,16 +720,16 @@ $main->add_element("Ugallery", array(
 				)
 			), array(
 			"id" => "4019", 
-			"srcFull" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image10.jpg', 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image10.jpg", 
 			"sizes" => array(
-				"thumbnail" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image10-150x150.jpg', 150, 150, true), 
-				"medium" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image10.jpg', 210, 210, false), 
-				"large" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image10.jpg', 210, 210, false), 
-				"full" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image10.jpg', 210, 210, false), 
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image10-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image10.jpg", 210, 210, false), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image10.jpg", 210, 210, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image10.jpg", 210, 210, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image10-210x210-8979.jpg', 
-					"urlOriginal" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image10.jpg', 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image10-210x210-8979.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image10.jpg", 
 					"full" => array(
 						"width" => 210, 
 						"height" => 210
@@ -833,7 +769,7 @@ $main->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"src" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image10-210x210-8979.jpg', 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image10-210x210-8979.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
 			"element_id" => "ugallery-object-1407250114391-1191", 
@@ -850,16 +786,16 @@ $main->add_element("Ugallery", array(
 				)
 			), array(
 			"id" => "4021", 
-			"srcFull" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image11.jpg', 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image11.jpg", 
 			"sizes" => array(
-				"thumbnail" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image11-150x150.jpg', 150, 150, true), 
-				"medium" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image11.jpg', 210, 210, false), 
-				"large" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image11.jpg', 210, 210, false), 
-				"full" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image11.jpg', 210, 210, false), 
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image11-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image11.jpg", 210, 210, false), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image11.jpg", 210, 210, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image11.jpg", 210, 210, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image11-210x210-3368.jpg', 
-					"urlOriginal" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image11.jpg', 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image11-210x210-3368.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image11.jpg", 
 					"full" => array(
 						"width" => 210, 
 						"height" => 210
@@ -899,7 +835,7 @@ $main->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"src" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image11-210x210-3368.jpg', 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image11-210x210-3368.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
 			"element_id" => "ugallery-object-1407250114391-1191", 
@@ -916,16 +852,16 @@ $main->add_element("Ugallery", array(
 				)
 			), array(
 			"id" => "4023", 
-			"srcFull" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image12.jpg', 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image12.jpg", 
 			"sizes" => array(
-				"thumbnail" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image12-150x150.jpg', 150, 150, true), 
-				"medium" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image12.jpg', 210, 210, false), 
-				"large" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image12.jpg', 210, 210, false), 
-				"full" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image12.jpg', 210, 210, false), 
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image12-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image12.jpg", 210, 210, false), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image12.jpg", 210, 210, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image12.jpg", 210, 210, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image12-210x210-4128.jpg', 
-					"urlOriginal" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image12.jpg', 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image12-210x210-4128.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image12.jpg", 
 					"full" => array(
 						"width" => 210, 
 						"height" => 210
@@ -965,7 +901,7 @@ $main->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"src" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image12-210x210-4128.jpg', 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image12-210x210-4128.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
 			"element_id" => "ugallery-object-1407250114391-1191", 
@@ -982,16 +918,16 @@ $main->add_element("Ugallery", array(
 				)
 			), array(
 			"id" => "4024", 
-			"srcFull" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image13.jpg', 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image13.jpg", 
 			"sizes" => array(
-				"thumbnail" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image13-150x150.jpg', 150, 150, true), 
-				"medium" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image13.jpg', 210, 210, false), 
-				"large" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image13.jpg', 210, 210, false), 
-				"full" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image13.jpg', 210, 210, false), 
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image13-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image13.jpg", 210, 210, false), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image13.jpg", 210, 210, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image13.jpg", 210, 210, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image13-210x210-6797.jpg', 
-					"urlOriginal" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image13.jpg', 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image13-210x210-6797.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image13.jpg", 
 					"full" => array(
 						"width" => 210, 
 						"height" => 210
@@ -1031,7 +967,7 @@ $main->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"src" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image13-210x210-6797.jpg', 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image13-210x210-6797.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
 			"element_id" => "ugallery-object-1407250114391-1191", 
@@ -1048,16 +984,16 @@ $main->add_element("Ugallery", array(
 				)
 			), array(
 			"id" => "4027", 
-			"srcFull" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image15.jpg', 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image15.jpg", 
 			"sizes" => array(
-				"thumbnail" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image15-150x150.jpg', 150, 150, true), 
-				"medium" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image15.jpg', 210, 210, false), 
-				"large" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image15.jpg', 210, 210, false), 
-				"full" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image15.jpg', 210, 210, false), 
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image15-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image15.jpg", 210, 210, false), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image15.jpg", 210, 210, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image15.jpg", 210, 210, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image15-210x210-3561.jpg', 
-					"urlOriginal" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image15.jpg', 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image15-210x210-3561.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image15.jpg", 
 					"full" => array(
 						"width" => 210, 
 						"height" => 210
@@ -1097,7 +1033,7 @@ $main->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"src" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image15-210x210-3561.jpg', 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image15-210x210-3561.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
 			"element_id" => "ugallery-object-1407250114391-1191", 
@@ -1114,16 +1050,16 @@ $main->add_element("Ugallery", array(
 				)
 			), array(
 			"id" => "4029", 
-			"srcFull" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image14.jpg', 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image14.jpg", 
 			"sizes" => array(
-				"thumbnail" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image14-150x150.jpg', 150, 150, true), 
-				"medium" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image14.jpg', 210, 210, false), 
-				"large" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image14.jpg', 210, 210, false), 
-				"full" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image14.jpg', 210, 210, false), 
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image14-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image14.jpg", 210, 210, false), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image14.jpg", 210, 210, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image14.jpg", 210, 210, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image14-210x210-8695.jpg', 
-					"urlOriginal" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image14.jpg', 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image14-210x210-8695.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image14.jpg", 
 					"full" => array(
 						"width" => 210, 
 						"height" => 210
@@ -1163,7 +1099,7 @@ $main->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"src" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image14-210x210-8695.jpg', 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image14-210x210-8695.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
 			"element_id" => "ugallery-object-1407250114391-1191", 
@@ -1180,16 +1116,16 @@ $main->add_element("Ugallery", array(
 				)
 			), array(
 			"id" => "4007", 
-			"srcFull" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image1.jpg', 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image1.jpg", 
 			"sizes" => array(
-				"thumbnail" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image1-150x150.jpg', 150, 150, true), 
-				"medium" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image1.jpg', 210, 213, false), 
-				"large" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image1.jpg', 210, 213, false), 
-				"full" => array(get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image1.jpg', 210, 213, false), 
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image1-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image1.jpg", 210, 213, false), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image1.jpg", 210, 213, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image1.jpg", 210, 213, false), 
 				"custom" => array(
 					"error" => false, 
-					"url" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image1-210x210-7027.jpg', 
-					"urlOriginal" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image1.jpg', 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image1-210x210-7027.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image1.jpg", 
 					"full" => array(
 						"width" => 210, 
 						"height" => 213
@@ -1229,7 +1165,7 @@ $main->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 1
 				), 
-			"src" => get_stylesheet_directory_uri() . '/images/single-casestudy/gal-image1-210x210-7027.jpg', 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image1-210x210-7027.jpg", 
 			"loading" => false, 
 			"status" => "ok", 
 			"element_id" => "ugallery-object-1407250114391-1191", 
@@ -1240,6 +1176,72 @@ $main->add_element("Ugallery", array(
 			"caption" => "Image description", 
 			"alt" => "", 
 			"tags" => array("All", "Plumping"), 
+			"margin" => array(
+				"left" => 0, 
+				"top" => 0
+				)
+			), array(
+			"id" => "4035", 
+			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image11 (1).jpg", 
+			"sizes" => array(
+				"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image11 (1)-150x150.jpg", 150, 150, true), 
+				"medium" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image11 (1).jpg", 210, 210, false), 
+				"large" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image11 (1).jpg", 210, 210, false), 
+				"full" => array("" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image11 (1).jpg", 210, 210, false), 
+				"custom" => array(
+					"error" => false, 
+					"url" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image11 (1)-210x210-2311.jpg", 
+					"urlOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image11 (1).jpg", 
+					"full" => array(
+						"width" => 210, 
+						"height" => 210
+						), 
+					"crop" => array(
+						"width" => 210, 
+						"height" => 210
+						), 
+					"editdata" => array(
+						"rotate" => 0, 
+						"crop" => array(
+							"width" => "210", 
+							"height" => "210", 
+							"left" => 0, 
+							"top" => 0
+							), 
+						"resize" => array(
+							"width" => 210, 
+							"height" => 210
+							), 
+						"id" => 4035, 
+						"element_id" => "ugallery-object-1407250114391-1191"
+						)
+					)
+				), 
+			"size" => array(
+				"width" => 210, 
+				"height" => 210
+				), 
+			"cropSize" => array(
+				"width" => 210, 
+				"height" => 210
+				), 
+			"cropOffset" => array(
+				"width" => "210", 
+				"height" => "210", 
+				"left" => 0, 
+				"top" => 0
+				), 
+			"src" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/gal-image11 (1)-210x210-2311.jpg", 
+			"loading" => false, 
+			"status" => "ok", 
+			"element_id" => "ugallery-object-1407250114391-1191", 
+			"rotation" => 0, 
+			"link" => "original", 
+			"url" => "", 
+			"title" => "Image caption", 
+			"caption" => "Image description", 
+			"alt" => "", 
+			"tags" => array(), 
 			"margin" => array(
 				"left" => 0, 
 				"top" => 0
@@ -1288,7 +1290,7 @@ $footer->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "7", 
 "margin_bottom" => "0", 
-"id" => "module-1406205224243-1651-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1406205224243-1651-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 28, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -1296,7 +1298,7 @@ $footer->add_element("PlainTxt", array(
 	"content" => "<h3 class=\"\"></h3><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><h3><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Spread the word.</span></h3><h3 class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Share it with some friends.</span></h3></span><h3 class=\"\"></h3><h3 class=\"\"><span class=\"uf_font_icon\" style=\"line-height: 30px; color: rgb(0, 0, 0); font-size: 27px; top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(87, 85, 85)\"><a href=\"http://facebook.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">o</span></a> </span></span> <span class=\"uf_font_icon\" style=\"line-height: 30px; color: rgb(0, 0, 0); font-size: 27px; top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://twitter.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">p</span></a></span> <span class=\"uf_font_icon\" style=\"top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://plus.google.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">q</span></a></span>&nbsp;</span><span class=\"uf_font_icon\" style=\"top: 0px;\"><span class=\"inline_color\" style=\"color: rgb(84, 84, 84)\"><a href=\"http://pinterest.com\" rel=\"external\"><span class=\"inline_color\" style=\"color: rgb(86, 86, 86)\">r</span></a></span></span></span></h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406205224243-1348", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"border_style" => "none", 
@@ -1315,7 +1317,7 @@ $footer->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "7", 
 "margin_bottom" => "0", 
-"id" => "module-1406209692911-1852-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1406209692911-1852-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 16, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -1323,7 +1325,7 @@ $footer->add_element("PlainTxt", array(
 	"content" => "<h3 class=\"\"><span class=\"uf_font_icon\" style=\"position: relative; top: 34px; font-size: 58px;\"><span class=\"inline_color\" style=\"color: rgb(156, 203, 216)\">n</span></span><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Get&nbsp;</span></h3><h3 class=\"\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">A Quote</span></h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406209692910-1396", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"row" => 10, 
@@ -1342,7 +1344,7 @@ $footer->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "8", 
 "margin_bottom" => "0", 
-"id" => "module-1406210660792-1159-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1406210660792-1159-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 25, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -1350,7 +1352,7 @@ $footer->add_element("PlainTxt", array(
 	"content" => "<h3 class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 48px; top: 28px;\"><span class=\"inline_color\" style=\"color: rgb(255, 225, 94)\">a</span></span> <span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Call us now</span></h3><h3 class=\"\" style=\"margin-left: 40px;\">&nbsp; <span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">1300 Fixer</span></h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406210660791-1219", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
 	"border_style" => "none", 
@@ -1387,12 +1389,12 @@ $lower_footer->add_element("Uimage", array(
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1406217409056-1339-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1406217409056-1339-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 10, 
 "options" => array(
-	"src" => get_stylesheet_directory_uri() . '/images/single-casestudy/logo-white-92x20-3728.png', 
-	"srcFull" => get_stylesheet_directory_uri() . '/images/single-casestudy/logo-white.png', 
-	"srcOriginal" => get_stylesheet_directory_uri() . '/images/single-casestudy/logo-white.png', 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/logo-white-92x20-3728.png", 
+	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/logo-white.png", 
+	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/single-casestudy/logo-white.png", 
 	"image_title" => "", 
 	"alternative_text" => "", 
 	"when_clicked" => false, 
@@ -1433,7 +1435,7 @@ $lower_footer->add_element("Uimage", array(
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-image", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "image-1406217409054-1200", 
 	"row" => 4
@@ -1446,7 +1448,7 @@ $lower_footer->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1406217940549-1616-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1406217940549-1616-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 12, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -1454,7 +1456,7 @@ $lower_footer->add_element("PlainTxt", array(
 	"content" => "<p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">© 2oo6-2014 Fixer Pty Ltd</span></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406217940549-1478", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 6, 
 	"is_edited" => true, 
@@ -1473,7 +1475,7 @@ $lower_footer->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "1", 
 "margin_bottom" => "0", 
-"id" => "module-1406218508045-1635-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1406218508045-1635-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 12, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -1481,7 +1483,7 @@ $lower_footer->add_element("PlainTxt", array(
 	"content" => "<p class=\"\" style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">ABN - 58 121 227 072</span></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "object-1406218508045-1484", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 6, 
 	"is_edited" => true, 
@@ -1500,7 +1502,7 @@ $lower_footer->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "1", 
 "margin_bottom" => "0", 
-"id" => "module-1406218404636-1484-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1406218404636-1484-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 8, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -1508,7 +1510,7 @@ $lower_footer->add_element("PlainTxt", array(
 	"content" => "<p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">TOU &amp; Privary</span></p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406218404628-1646", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 2, 
 	"is_edited" => true, 
