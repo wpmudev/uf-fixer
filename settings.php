@@ -40,7 +40,11 @@ $layout_style = '#usearch #usearch-archive-search .upfront-object-content{    wi
 
   #ucontact-home-footer-contact .textarea-field{
     height:150px;
-}';
+}
+#footer-text-boxes .upfront-plain_txt h4{
+        margin:0;
+    }
+';
 $theme_fonts = '';
 $theme_colors = '';
 $layout_properties = '[]';
