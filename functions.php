@@ -163,9 +163,11 @@ FIELD;
     }
 
     private function _import_slider_image ($filepath) {
+        $filepath = trailingslashit(get_stylesheet_directory()) . $filepath;
         $key = $this->get_prefix() . '-slider-images';
         $images = get_option($key, array());
         if (!empty($images[$filepath])) return $images[$filepath];
+        if (!file_exists($filepath)) return $filepath;
         // else import image
         $wp_upload_dir = wp_upload_dir();
         $pfx = !empty($wp_upload_dir['path']) ? trailingslashit($wp_upload_dir['path']) : '';

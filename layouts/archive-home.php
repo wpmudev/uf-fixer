@@ -201,7 +201,7 @@ $region_2 = upfront_create_region(
 "background_slider_rotate_time" => 5, 
 "background_slider_control" => "always", 
 "background_slider_transition" => "crossfade", 
-"background_slider_images" => array("/Users/samnajian/Sites/incsub/wp-content/themes/uf-fixer/images/Slide-1.jpg", "/Users/samnajian/Sites/incsub/wp-content/themes/uf-fixer/images/slide-2.jpg", "/Users/samnajian/Sites/incsub/wp-content/themes/uf-fixer/images/slide-3.jpg", "/Users/samnajian/Sites/incsub/wp-content/themes/uf-fixer/images/slide-4.jpg", "/Users/samnajian/Sites/incsub/wp-content/themes/uf-fixer/images/slide-5.jpg"), 
+"background_slider_images" => array("/images/Slide-1.jpg", "/images/slide-2.jpg", "/images/slide-3.jpg", "/images/slide-4.jpg", "/images/slide-5.jpg"), 
 "expand_lock" => false
 )
         );
