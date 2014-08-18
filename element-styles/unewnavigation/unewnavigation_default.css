@@ -1,0 +1,4 @@
+div[data-style='horizontal'] ul.menu > li.menu-item > a,  div[data-style='vertical'] ul.menu > li.menu-item > a {
+    color:#333;
+    font:500 17px raleway;
+}

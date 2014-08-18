@@ -1,0 +1,4 @@
+#page .main-top-unewnavigation div[data-style='horizontal'] ul.menu > li.menu-item > a, #page .main-top-unewnavigation div[data-style='vertical'] ul.menu > li.menu-item > a {
+    color:#333;
+    font-size:13px;
+}
