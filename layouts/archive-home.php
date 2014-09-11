@@ -1,203 +1,6 @@
 <?php
-$header = upfront_create_region(
-			array(
-"name" => "header", 
-"title" => "Header", 
-"type" => "wide", 
-"scope" => "local", 
-"container" => "header", 
-"position" => 1, 
-"allow_sidebar" => true
-),
-			array(
-"row" => 24, 
-"background_type" => "color", 
-"nav_region" => "", 
-"background_color" => "rgba(254,212,27,1)"
-)
-			);
-$header->add_element("Uimage", array(
-"columns" => "4", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "9", 
-"margin_bottom" => "0", 
-"id" => "module-1405520755986-1686", 
-"rows" => 4, 
-"options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/logo (1)-116x28-4228.png", 
-	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/logo (1).png", 
-	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/logo (1).png", 
-	"image_title" => "", 
-	"alternative_text" => "", 
-	"when_clicked" => "entry", 
-	"image_link" => "" . get_site_url() . "/gallery-3/", 
-	"include_image_caption" => false, 
-	"image_caption" => "My awesome image caption", 
-	"caption_position" => "below_image", 
-	"caption_alignment" => "top", 
-	"caption_trigger" => "always_show", 
-	"image_status" => "ok", 
-	"size" => array(
-		"width" => 116, 
-		"height" => 28
-		), 
-	"fullSize" => array(
-		"width" => 115, 
-		"height" => 28
-		), 
-	"position" => array(
-		"top" => 0, 
-		"left" => 0
-		), 
-	"marginTop" => 0, 
-	"element_size" => array(
-		"width" => 150, 
-		"height" => 30
-		), 
-	"rotation" => 0, 
-	"color" => "#ffffff", 
-	"background" => "#000000", 
-	"captionBackground" => "0", 
-	"image_id" => "1467", 
-	"align" => "left", 
-	"stretch" => false, 
-	"vstretch" => false, 
-	"quick_swap" => false, 
-	"gifImage" => 0, 
-	"type" => "UimageModel", 
-	"view_class" => "UimageView", 
-	"has_settings" => 1, 
-	"class" => "c24 upfront-image", 
-	"id_slug" => "image", 
-	"element_id" => "image-1405520755973-1481", 
-	"row" => -2, 
-	"theme_style" => "", 
-	"anchor" => ""
-	), 
-"wrapper_id" => "wrapper-1405520755986-1686"
-));
+if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
-$header->add_element("Unewnavigation", array(
-"columns" => "14", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "8", 
-"margin_bottom" => "0", 
-"id" => "module-1405520756070-1345", 
-"rows" => 11, 
-"options" => array(
-	"type" => "UnewnavigationModel", 
-	"view_class" => "UnewnavigationView", 
-	"class" => "c24 upfront-navigation", 
-	"has_settings" => 1, 
-	"id_slug" => "unewnavigation", 
-	"menu_items" => array(array(
-			"menu-item-db-id" => 4908, 
-			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "custom", 
-			"menu-item-title" => "Service", 
-			"menu-item-url" => "#service", 
-			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "4908", 
-			"menu-item-target" => "", 
-			"menu-item-position" => 1
-			), array(
-			"menu-item-db-id" => 4909, 
-			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "custom", 
-			"menu-item-title" => "Get a Quote", 
-			"menu-item-url" => "#getquote", 
-			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "4909", 
-			"menu-item-target" => "", 
-			"menu-item-position" => 2
-			), array(
-			"menu-item-db-id" => 4910, 
-			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "custom", 
-			"menu-item-title" => "Blog", 
-			"menu-item-url" => "#blog", 
-			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "4910", 
-			"menu-item-target" => "", 
-			"menu-item-position" => 3
-			), array(
-			"menu-item-db-id" => 4911, 
-			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "custom", 
-			"menu-item-title" => "About", 
-			"menu-item-url" => "#about", 
-			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "4911", 
-			"menu-item-target" => "", 
-			"menu-item-position" => 4
-			), array(
-			"menu-item-db-id" => 4912, 
-			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "custom", 
-			"menu-item-title" => "Coverage Area", 
-			"menu-item-url" => "#coveragearea", 
-			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "4912", 
-			"menu-item-target" => "", 
-			"menu-item-position" => 5
-			)), 
-	"menu_style" => "horizontal", 
-	"menu_alignment" => "left", 
-	"allow_sub_nav" => array("no"), 
-	"allow_new_pages" => array(), 
-	"element_id" => "unewnavigation-object-1405520756062-1726", 
-	"initialized" => false, 
-	"menu_id" => false, 
-	"menu_slug" => "fixer-menu", 
-	"is_floating" => array(), 
-	"theme_style" => "_default", 
-	"anchor" => "", 
-	"row" => 5, 
-	"burger_menu" => array(), 
-	"burger_alignment" => "left", 
-	"burger_over" => "over", 
-	"breakpoint" => array(
-		"desktop" => array(
-			"burger_alignment" => "left", 
-			"burger_over" => "over", 
-			"width" => 1080
-			)
-		)
-	), 
-"wrapper_id" => "wrapper-1405520756070-1345"
-));
-
-$header->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "4", 
-"margin_bottom" => "0", 
-"id" => "module-1405520755970-1045", 
-"rows" => 18, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p style=\"text-align: right;\" class=\"\">One call does it all</p><h2 style=\"text-align: right;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">a&nbsp;</span>1300 FIXER</h2>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1405520755969-1764", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"border_style" => "none", 
-	"border_width" => "0", 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "header-contact-text", 
-	"anchor" => "", 
-	"row" => 12
-	), 
-"wrapper_id" => "wrapper-1405520755970-1045"
-));
-
-$regions->add($header);
 $region_2 = upfront_create_region(
 			array(
 "name" => "region_2", 
@@ -221,6 +24,7 @@ $region_2 = upfront_create_region(
 "expand_lock" => false
 )
 			);
+
 $region_2->add_element("PlainTxt", array(
 "columns" => "18", 
 "margin_left" => "6", 
@@ -289,6 +93,7 @@ $region_2->add_element("Code", array(
 ));
 
 $regions->add($region_2);
+
 $region_3 = upfront_create_region(
 			array(
 "name" => "region_3", 
@@ -313,6 +118,7 @@ $region_3 = upfront_create_region(
 "background_position" => "52% 80%"
 )
 			);
+
 $region_3->add_element("PlainTxt", array(
 "columns" => "4", 
 "margin_left" => "10", 
@@ -544,6 +350,7 @@ $region_3->add_element("PlainTxt", array(
 ));
 
 $regions->add($region_3);
+
 $region_4 = upfront_create_region(
 			array(
 "name" => "region_4", 
@@ -561,6 +368,7 @@ $region_4 = upfront_create_region(
 "background_color" => "#ffffff"
 )
 			);
+
 $region_4->add_element("PlainTxt", array(
 "columns" => "24", 
 "margin_left" => "0", 
@@ -606,6 +414,7 @@ $region_4->add_element("PlainTxt", array(
 ));
 
 $regions->add($region_4);
+
 $region_5 = upfront_create_region(
 			array(
 "name" => "region_5", 
@@ -620,6 +429,7 @@ $region_5 = upfront_create_region(
 "row" => 148
 )
 			);
+
 $region_5->add_element("PlainTxt", array(
 "columns" => "5", 
 "margin_left" => "1", 
@@ -669,6 +479,7 @@ $region_5->add_element("PlainTxt", array(
 ));
 
 $regions->add($region_5);
+
 $region_5_left = upfront_create_region(
 			array(
 "name" => "region_5_left", 
@@ -686,6 +497,7 @@ $region_5_left = upfront_create_region(
 "background_color" => "rgba(214,230,240,1)"
 )
 			);
+
 $region_5_left->add_element("PlainTxt", array(
 "columns" => "9", 
 "margin_left" => "0", 
@@ -714,6 +526,7 @@ $region_5_left->add_element("PlainTxt", array(
 ));
 
 $regions->add($region_5_left);
+
 $region_6 = upfront_create_region(
 			array(
 "name" => "region_6", 
@@ -736,6 +549,7 @@ $region_6 = upfront_create_region(
 "background_image_ratio" => 0.43
 )
 			);
+
 $region_6->add_element("PlainTxt", array(
 "columns" => "11", 
 "margin_left" => "0", 
@@ -764,6 +578,7 @@ $region_6->add_element("PlainTxt", array(
 ));
 
 $regions->add($region_6);
+
 $region_7 = upfront_create_region(
 			array(
 "name" => "region_7", 
@@ -788,6 +603,7 @@ $region_7 = upfront_create_region(
 "background_position" => "100% 50%"
 )
 			);
+
 $region_7->add_element("PlainTxt", array(
 "columns" => "9", 
 "margin_left" => "0", 
@@ -811,6 +627,7 @@ $region_7->add_element("PlainTxt", array(
 ));
 
 $regions->add($region_7);
+
 $region_8 = upfront_create_region(
 			array(
 "name" => "region_8", 
@@ -835,6 +652,7 @@ $region_8 = upfront_create_region(
 "background_position" => "100% 50%"
 )
 			);
+
 $region_8->add_element("PlainTxt", array(
 "columns" => "9", 
 "margin_left" => "0", 
@@ -864,6 +682,7 @@ $region_8->add_element("PlainTxt", array(
 ));
 
 $regions->add($region_8);
+
 $region_9 = upfront_create_region(
 			array(
 "name" => "region_9", 
@@ -892,6 +711,7 @@ $region_9 = upfront_create_region(
 "background_position" => "100% 50%"
 )
 			);
+
 $region_9->add_element("PlainTxt", array(
 "columns" => "9", 
 "margin_left" => "0", 
@@ -915,6 +735,7 @@ $region_9->add_element("PlainTxt", array(
 ));
 
 $regions->add($region_9);
+
 $region_10 = upfront_create_region(
 			array(
 "name" => "region_10", 
@@ -929,6 +750,7 @@ $region_10 = upfront_create_region(
 "row" => 31
 )
 			);
+
 $region_10->add_element("PlainTxt", array(
 "columns" => "12", 
 "margin_left" => "0", 
@@ -991,6 +813,7 @@ $region_10->add_element("Code", array(
 ));
 
 $regions->add($region_10);
+
 $region_11 = upfront_create_region(
 			array(
 "name" => "region_11", 
@@ -1008,6 +831,7 @@ $region_11 = upfront_create_region(
 "background_color" => "rgba(255,226,98,1)"
 )
 			);
+
 $region_11->add_element("PlainTxt", array(
 "columns" => "17", 
 "margin_left" => "4", 
@@ -1135,6 +959,7 @@ display:none;
 ));
 
 $regions->add($region_11);
+
 $region_12 = upfront_create_region(
 			array(
 "name" => "region_12", 
@@ -1149,6 +974,7 @@ $region_12 = upfront_create_region(
 "row" => 60
 )
 			);
+
 $region_12->add_element("PlainTxt", array(
 "columns" => "24", 
 "margin_left" => "0", 
@@ -1178,6 +1004,7 @@ $region_12->add_element("PlainTxt", array(
 ));
 
 $regions->add($region_12);
+
 $region_13_left = upfront_create_region(
 			array(
 "name" => "region_13_left", 
@@ -1195,6 +1022,7 @@ $region_13_left = upfront_create_region(
 "background_color" => "rgba(104,89,154,1)"
 )
 			);
+
 $region_13_left->add_element("PlainTxt", array(
 "columns" => "10", 
 "margin_left" => "0", 
@@ -1258,6 +1086,7 @@ $region_13_left->add_element("Ucontact", array(
 ));
 
 $regions->add($region_13_left);
+
 $region_13 = upfront_create_region(
 			array(
 "name" => "region_13", 
@@ -1282,14 +1111,16 @@ $region_13 = upfront_create_region(
 "background_position" => "100% 100%"
 )
 			);
+
 $regions->add($region_13);
-$footer = upfront_create_region(
+
+$prefooter = upfront_create_region(
 			array(
-"name" => "footer", 
-"title" => "Footer", 
+"name" => "prefooter", 
+"title" => "Pre-footer", 
 "type" => "wide", 
 "scope" => "local", 
-"container" => "footer", 
+"container" => "prefooter", 
 "position" => 1, 
 "allow_sidebar" => true
 ),
@@ -1300,7 +1131,8 @@ $footer = upfront_create_region(
 "background_color" => "rgba(51,51,51,1)"
 )
 			);
-$footer->add_element("PlainTxt", array(
+
+$prefooter->add_element("PlainTxt", array(
 "columns" => "11", 
 "margin_left" => "0", 
 "margin_right" => "0", 
@@ -1328,7 +1160,7 @@ $footer->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1406205224243-1651"
 ));
 
-$footer->add_element("PlainTxt", array(
+$prefooter->add_element("PlainTxt", array(
 "columns" => "5", 
 "margin_left" => "0", 
 "margin_right" => "0", 
@@ -1361,7 +1193,7 @@ $footer->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1406209692911-1852"
 ));
 
-$footer->add_element("PlainTxt", array(
+$prefooter->add_element("PlainTxt", array(
 "columns" => "7", 
 "margin_left" => "1", 
 "margin_right" => "0", 
@@ -1394,167 +1226,7 @@ $footer->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1406210660792-1159"
 ));
 
-$regions->add($footer);
-$lower_footer = upfront_create_region(
-			array(
-"name" => "lower_footer", 
-"title" => "Lower foter", 
-"type" => "wide", 
-"scope" => "local", 
-"container" => "lower_footer", 
-"position" => 1, 
-"allow_sidebar" => true
-),
-			array(
-"row" => 9, 
-"background_type" => "color", 
-"nav_region" => "", 
-"background_color" => "rgba(44,44,44,1)", 
-"expand_lock" => false
-)
-			);
-$lower_footer->add_element("Uimage", array(
-"columns" => "3", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1406217409056-1339", 
-"rows" => 10, 
-"options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/logo-white-92x20-3728.png", 
-	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/logo-white.png", 
-	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/logo-white.png", 
-	"image_title" => "", 
-	"alternative_text" => "", 
-	"when_clicked" => false, 
-	"image_link" => "", 
-	"include_image_caption" => false, 
-	"image_caption" => "My awesome image caption", 
-	"caption_position" => "below_image", 
-	"caption_alignment" => "top", 
-	"caption_trigger" => "always_show", 
-	"image_status" => "ok", 
-	"size" => array(
-		"width" => 92, 
-		"height" => 20
-		), 
-	"fullSize" => array(
-		"width" => 92, 
-		"height" => 21
-		), 
-	"position" => array(
-		"top" => 0.6666259765625, 
-		"left" => 0
-		), 
-	"marginTop" => -0.66668701171875, 
-	"element_size" => array(
-		"width" => 105, 
-		"height" => 21
-		), 
-	"rotation" => 0, 
-	"color" => "#ffffff", 
-	"background" => "#000000", 
-	"captionBackground" => "0", 
-	"image_id" => "3051", 
-	"align" => "left", 
-	"stretch" => false, 
-	"vstretch" => false, 
-	"quick_swap" => false, 
-	"gifImage" => 0, 
-	"type" => "UimageModel", 
-	"view_class" => "UimageView", 
-	"has_settings" => 1, 
-	"class" => "c24 upfront-image", 
-	"id_slug" => "image", 
-	"element_id" => "image-1406217409054-1200", 
-	"row" => 4
-	), 
-"wrapper_id" => "wrapper-1406217409056-1339"
-));
+$regions->add($prefooter);
 
-$lower_footer->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1406217940549-1616", 
-"rows" => 12, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">© 2oo6-2014 Fixer Pty Ltd</span></p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1406217940549-1478", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"row" => 6, 
-	"is_edited" => true, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "plaintext-footer", 
-	"anchor" => ""
-	), 
-"wrapper_id" => "wrapper-1406217940549-1616"
-));
+if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
 
-$lower_footer->add_element("PlainTxt", array(
-"columns" => "7", 
-"margin_left" => "4", 
-"margin_right" => "0", 
-"margin_top" => "1", 
-"margin_bottom" => "0", 
-"id" => "module-1406218508045-1635", 
-"rows" => 12, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\" style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">ABN - 58 121 227 072</span></p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1406218508045-1484", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"row" => 6, 
-	"is_edited" => true, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "plaintext-footer", 
-	"anchor" => ""
-	), 
-"wrapper_id" => "wrapper-1406218508045-1635"
-));
-
-$lower_footer->add_element("PlainTxt", array(
-"columns" => "3", 
-"margin_left" => "1", 
-"margin_right" => "0", 
-"margin_top" => "1", 
-"margin_bottom" => "0", 
-"id" => "module-1406218404636-1484", 
-"rows" => 8, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">TOU &amp; Privary</span></p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1406218404628-1646", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"row" => 2, 
-	"is_edited" => true, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "plaintext-footer", 
-	"anchor" => ""
-	), 
-"wrapper_id" => "wrapper-1406218404636-1484"
-));
-
-$regions->add($lower_footer);
