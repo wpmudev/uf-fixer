@@ -6,6 +6,8 @@ include_once get_template_directory() . '/library/class_upfront_server.php';
 include_once get_template_directory() . '/library/class_upfront_theme.php';
 
 class Uf_fixer extends Upfront_ChildTheme {
+
+
     public function initialize() {
         add_filter('upfront_augment_theme_layout', array($this, 'augment_layout'));
         $this->add_actions_filters();
@@ -100,7 +102,7 @@ FIELD;
     }
 
     public function augment_regions ($regions) {
-        if ($this->_slider_imported) return $regions;
+        if ( isset( $this->_slider_imported ) && $this->_slider_imported ) return $regions;
 
         if (empty($regions) || !is_array($regions)) return $regions;
         foreach ($regions as $idx => $region) {
