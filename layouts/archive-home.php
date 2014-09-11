@@ -217,7 +217,7 @@ $region_2 = upfront_create_region(
 "background_slider_rotate_time" => 5, 
 "background_slider_control" => "always", 
 "background_slider_transition" => "crossfade", 
-"background_slider_images" => array("/images/1342675526372739745162952706317729565771306155424938581860Slide-1.jpg", "/images/15818924641701961897106362155417163793521946384921404859745slide-2.jpg", "/images/87495463887152753358614968115619120892478964098029998slide-3.jpg", "/images/213438370638366382383178317595148445585649283128093174slide-4.jpg", "/images/8452490591917826801849472571417480591838380247846667238slide-5.jpg"), 
+"background_slider_images" => array("/images/10644750259420162681342675526372739745162952706317729565771306155424938581860Slide-1.jpg", "/images/407872720196164314315818924641701961897106362155417163793521946384921404859745slide-2.jpg", "/images/1455291307171549888387495463887152753358614968115619120892478964098029998slide-3.jpg", "/images/20522293231680107989213438370638366382383178317595148445585649283128093174slide-4.jpg", "/images/1528114833588971688452490591917826801849472571417480591838380247846667238slide-5.jpg"), 
 "expand_lock" => false
 )
 			);
@@ -242,7 +242,7 @@ $region_2->add_element("PlainTxt", array(
 	"border_width" => "0", 
 	"border_color" => "", 
 	"bg_color" => "", 
-	"theme_style" => "plaintext-slider-text", 
+	"theme_style" => "_default", 
 	"anchor" => "", 
 	"row" => 101
 	), 
@@ -358,7 +358,13 @@ $region_3->add_element("PlainTxt", array(
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 41, 
-	"is_edited" => true
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"theme_style" => "_default", 
+	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1405523049528-1271"
 ));
@@ -412,7 +418,13 @@ $region_3->add_element("PlainTxt", array(
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 64, 
-	"is_edited" => true
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"theme_style" => "_default", 
+	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1405596355716-1833"
 ));
@@ -840,7 +852,13 @@ $region_8->add_element("PlainTxt", array(
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 43, 
-	"is_edited" => true
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"theme_style" => "_default", 
+	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1406190559882-1979"
 ));
@@ -992,7 +1010,7 @@ $region_11 = upfront_create_region(
 			);
 $region_11->add_element("PlainTxt", array(
 "columns" => "17", 
-"margin_left" => "3", 
+"margin_left" => "4", 
 "margin_right" => "0", 
 "margin_top" => "17", 
 "margin_bottom" => "0", 
