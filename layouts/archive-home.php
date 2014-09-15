@@ -15,13 +15,12 @@ $region_2 = upfront_create_region(
 "row" => 188, 
 "background_type" => "slider", 
 "nav_region" => "", 
-"background_color" => "#ffffff", 
+"background_color" => "rgba(255,6,6,1)", 
 "background_slider_rotate" => true, 
 "background_slider_rotate_time" => 5, 
-"background_slider_control" => "always", 
+"background_slider_control" => "hover", 
 "background_slider_transition" => "crossfade", 
-"background_slider_images" => array("/images/10644750259420162681342675526372739745162952706317729565771306155424938581860Slide-1.jpg", "/images/407872720196164314315818924641701961897106362155417163793521946384921404859745slide-2.jpg", "/images/1455291307171549888387495463887152753358614968115619120892478964098029998slide-3.jpg", "/images/20522293231680107989213438370638366382383178317595148445585649283128093174slide-4.jpg", "/images/1528114833588971688452490591917826801849472571417480591838380247846667238slide-5.jpg"), 
-"expand_lock" => false
+"background_slider_images" => array("/images/slider-b.jpg", "/images/slider-c.jpg", "/images/slider-d.jpg", "/images/slider-a.jpg", "/images/slider-e.jpg")
 )
 			);
 
