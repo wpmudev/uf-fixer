@@ -26,13 +26,13 @@ $header->add_element("Uimage", array(
 "id" => "module-1405520755986-1686", 
 "rows" => 4, 
 "options" => array(
-	"src" => "http://localhost/fixer2/wp-content/uploads/2014/09/fixer-logo-120x30-2906.png", 
-	"srcFull" => "http://localhost/fixer2/wp-content/uploads/2014/09/fixer-logo.png", 
-	"srcOriginal" => "http://localhost/fixer2/wp-content/uploads/2014/09/fixer-logo.png", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/fixer-logo-120x30-2906.png", 
+	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/fixer-logo.png", 
+	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/fixer-logo.png", 
 	"image_title" => "", 
 	"alternative_text" => "", 
 	"when_clicked" => "entry", 
-	"image_link" => "http://localhost/fixer2/gallery-3/", 
+	"image_link" => "" . get_site_url() . "/gallery-3/", 
 	"include_image_caption" => false, 
 	"image_caption" => "My awesome image caption", 
 	"caption_position" => "below_image", 
@@ -66,6 +66,7 @@ $header->add_element("Uimage", array(
 	"vstretch" => true, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
+	"placeholder_class" => "", 
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
@@ -77,7 +78,15 @@ $header->add_element("Uimage", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1405520755986-1686", 
-"new_line" => "true"
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 4
+		), 
+	"mobile" => array(
+		"col" => 4
+		)
+	)
 ));
 
 $header->add_element("Unewnavigation", array(
@@ -168,7 +177,15 @@ $header->add_element("Unewnavigation", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1405520756070-1345"
+"wrapper_id" => "wrapper-1405520756070-1345", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 14
+		), 
+	"mobile" => array(
+		"col" => 14
+		)
+	)
 ));
 
 $header->add_element("PlainTxt", array(
@@ -196,7 +213,15 @@ $header->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"row" => 12
 	), 
-"wrapper_id" => "wrapper-1405520755970-1045"
+"wrapper_id" => "wrapper-1405520755970-1045", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 6
+		), 
+	"mobile" => array(
+		"col" => 6
+		)
+	)
 ));
 
 $regions->add($header);

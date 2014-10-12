@@ -27,9 +27,9 @@ $footer->add_element("Uimage", array(
 "id" => "module-1406217409056-1339", 
 "rows" => 10, 
 "options" => array(
-	"src" => "http://localhost/fixer2/wp-content/uploads/2014/09/fixer-logo-white-100x20-3868.png", 
-	"srcFull" => "http://localhost/fixer2/wp-content/uploads/2014/09/fixer-logo-white.png", 
-	"srcOriginal" => "http://localhost/fixer2/wp-content/uploads/2014/09/fixer-logo-white.png", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/global-regions/footer/fixer-logo-white-100x20-3868.png", 
+	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/global-regions/footer/fixer-logo-white.png", 
+	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/global-regions/footer/fixer-logo-white.png", 
 	"image_title" => "", 
 	"alternative_text" => "", 
 	"when_clicked" => false, 
@@ -67,6 +67,7 @@ $footer->add_element("Uimage", array(
 	"vstretch" => true, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
+	"placeholder_class" => "", 
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
 	"has_settings" => 1, 
@@ -75,7 +76,15 @@ $footer->add_element("Uimage", array(
 	"element_id" => "image-1406217409054-1200", 
 	"row" => 4
 	), 
-"wrapper_id" => "wrapper-1406217409056-1339"
+"wrapper_id" => "wrapper-1406217409056-1339", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 3
+		), 
+	"mobile" => array(
+		"col" => 3
+		)
+	)
 ));
 
 $footer->add_element("PlainTxt", array(
@@ -103,7 +112,15 @@ $footer->add_element("PlainTxt", array(
 	"theme_style" => "plaintext-footer", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1406217940549-1616"
+"wrapper_id" => "wrapper-1406217940549-1616", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 6
+		), 
+	"mobile" => array(
+		"col" => 6
+		)
+	)
 ));
 
 $footer->add_element("PlainTxt", array(
@@ -131,7 +148,15 @@ $footer->add_element("PlainTxt", array(
 	"theme_style" => "plaintext-footer", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1406218508045-1635"
+"wrapper_id" => "wrapper-1406218508045-1635", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 11
+		), 
+	"mobile" => array(
+		"col" => 11
+		)
+	)
 ));
 
 $footer->add_element("PlainTxt", array(
@@ -159,7 +184,15 @@ $footer->add_element("PlainTxt", array(
 	"theme_style" => "plaintext-footer", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1406218404636-1484"
+"wrapper_id" => "wrapper-1406218404636-1484", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 4
+		), 
+	"mobile" => array(
+		"col" => 4
+		)
+	)
 ));
 
 $regions->add($footer);
