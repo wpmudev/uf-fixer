@@ -1,91 +1,145 @@
 <?php
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
-$region_1 = upfront_create_region(
-        array(
-"name" => "region_1", 
-"title" => "Region 1", 
+$archive_region = upfront_create_region(
+			array(
+"name" => "archive_region", 
+"title" => "Archive Region", 
 "type" => "wide", 
 "scope" => "local", 
+"container" => "archive_region", 
 "position" => 1, 
 "allow_sidebar" => true
 ),
-        array(
+			array(
 "row" => 88, 
 "background_type" => "color", 
 "nav_region" => "", 
 "background_color" => "rgba(214,230,240,1)"
 )
-        );
-$region_1->add_element("PlainTxt", array(
-"columns" => "20", 
-"margin_left" => "2", 
+			);
+
+$archive_region->add_element("PlainTxt", array(
+"columns" => "24", 
+"margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "6", 
+"margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1406494478244-1653-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
-"rows" => 43, 
+"id" => "module-1412852070242-1167", 
+"rows" => 11, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\" style=\"text-align: center;\"><span class=\"inline_color\" style=\"color: rgb(51, 51, 51)\">Archived</span></h3><h1 class=\"\" style=\"text-align: center;\"></h1><span class=\"inline_color\" style=\"color: rgb(183, 159, 159)\"><h1 class=\"\" style=\"text-align: center;\"></h1><span class=\"inline_color\" style=\"color: rgb(51, 51, 51)\"><h1 class=\"\" style=\"text-align: center;\">We Keep Things</h1><h1 class=\"\" style=\"text-align: center;\">Organized</h1></span><h1 class=\"\" style=\"text-align: center;\"></h1></span><h1 class=\"\" style=\"text-align: center;\"></h1><p class=\"\"></p>", 
+	"content" => "<h3 style=\"text-align: center;\" class=\"\">Archived</h3>", 
 	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1406494478244-1271", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"element_id" => "text-object-1412852070240-1054", 
+	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
-	"row" => 37, 
+	"row" => 11, 
 	"border_style" => "none", 
 	"border_width" => 1, 
 	"border_color" => "", 
 	"bg_color" => "", 
-	"theme_style" => "archive-heading", 
 	"anchor" => ""
+	), 
+"wrapper_id" => "wrapper-1412852119647-1756", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 24
+		), 
+	"mobile" => array(
+		"col" => 24
+		)
 	)
 ));
 
-$region_1->add_element("Usearch", array(
-"columns" => "18", 
+$archive_region->add_element("PlainTxt", array(
+"columns" => "24", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1412852120029-1051", 
+"rows" => 16, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<h1 class=\"\" style=\"text-align: center;\">We Keep Things Organized</h1>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "text-object-1412852120028-1957", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"row" => 16
+	), 
+"wrapper_id" => "wrapper-1412852191894-1128", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 24
+		), 
+	"mobile" => array(
+		"col" => 24
+		)
+	)
+));
+
+$archive_region->add_element("Usearch", array(
+"columns" => "15", 
 "margin_left" => "5", 
 "margin_right" => "0", 
-"margin_top" => "11", 
+"margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1406494948966-1861-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
-"rows" => 19, 
+"rows" => 26, 
 "options" => array(
 	"type" => "UsearchModel", 
 	"view_class" => "UsearchView", 
 	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-search", 
 	"has_settings" => 1, 
 	"id_slug" => "usearch", 
-	"placeholder" => "Plumping", 
-	"label" => "S", 
+	"placeholder" => "", 
+	"label" => " ", 
 	"is_rounded" => 0, 
 	"color" => "", 
 	"element_id" => "usearch-object-1406494948965-1321", 
-	"theme_style" => "usearch-archive-search", 
+	"theme_style" => "usearch-archive-style", 
 	"anchor" => "", 
-	"row" => 13
+	"row" => 26
+	), 
+"wrapper_id" => "module-1406494948966-1861-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-wrapper", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 20
+		), 
+	"mobile" => array(
+		"col" => 20
+		)
 	)
 ));
 
-$regions->add($region_1);
+$regions->add($archive_region);
+
 $main = upfront_create_region(
-        array(
+			array(
 "name" => "main", 
-"title" => "Main Area", 
+"title" => "Archive Content Region", 
 "type" => "wide", 
 "scope" => "local", 
 "container" => "main", 
 "position" => 10, 
 "allow_sidebar" => true
 ),
-        array(
+			array(
 "row" => 140, 
 "background_type" => "color", 
 "background_color" => "#fff"
 )
-        );
+			);
+
 $main->add_element("Uposts", array(
 "columns" => "17", 
 "margin_left" => "0", 
@@ -100,10 +154,10 @@ $main->add_element("Uposts", array(
 	"has_settings" => 1, 
 	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 uposts-object", 
 	"id_slug" => "uposts", 
-	"post_type" => "post", 
+	"post_type" => "", 
 	"taxonomy" => "", 
 	"term" => "", 
-	"limit" => "3", 
+	"limit" => "10", 
 	"content_type" => "excerpt", 
 	"featured_image" => "1", 
 	"pagination" => "numeric", 
@@ -137,15 +191,27 @@ $main->add_element("Uposts", array(
 	"element_id" => "default-posts-object", 
 	"row" => 132, 
 	"theme_style" => "uposts-archive-style", 
-	"anchor" => ""
+	"anchor" => "", 
+	"order" => "date", 
+	"direction" => "DESC"
+	), 
+"wrapper_id" => "default-posts-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-wrapper", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 17
+		), 
+	"mobile" => array(
+		"col" => 17
+		)
 	)
 ));
 
 $regions->add($main);
+
 $main_right = upfront_create_region(
-        array(
-"name" => "main_right", 
-"title" => "main Right", 
+			array(
+"name" => "main-right", 
+"title" => "Archive Content Region Right", 
 "type" => "wide", 
 "scope" => "local", 
 "container" => "main", 
@@ -153,17 +219,18 @@ $main_right = upfront_create_region(
 "position" => 20, 
 "allow_sidebar" => true
 ),
-        array(
-"col" => 7, 
+			array(
+"col" => 5, 
 "background_type" => "color", 
 "background_color" => "rgba(236,233,228,1)"
 )
-        );
+			);
+
 $main_right->add_element("Uwidget", array(
 "columns" => "5", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "20", 
+"margin_top" => "6", 
 "margin_bottom" => "0", 
 "id" => "module-1407359610231-1708-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 37, 
@@ -202,10 +269,21 @@ $main_right->add_element("Uwidget", array(
 	"dropdown" => array(), 
 	"count" => array(), 
 	"row" => 31
+	), 
+"wrapper_id" => "wrapper-1412854463630-1301", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 5
+		), 
+	"mobile" => array(
+		"col" => 5
+		)
 	)
 ));
 
 $regions->add($main_right);
+
 $prefooter = upfront_create_region(
 			array(
 "name" => "prefooter", 
@@ -213,7 +291,7 @@ $prefooter = upfront_create_region(
 "type" => "wide", 
 "scope" => "local", 
 "container" => "prefooter", 
-"position" => 1, 
+"position" => 20, 
 "allow_sidebar" => true
 ),
 			array(
@@ -249,7 +327,15 @@ $prefooter->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"row" => 20
 	), 
-"wrapper_id" => "wrapper-1406205224243-1651"
+"wrapper_id" => "wrapper-1406205224243-1651", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 11
+		), 
+	"mobile" => array(
+		"col" => 11
+		)
+	)
 ));
 
 $prefooter->add_element("PlainTxt", array(
@@ -282,7 +368,15 @@ $prefooter->add_element("PlainTxt", array(
 		}
 	"
 	), 
-"wrapper_id" => "wrapper-1406209692911-1852"
+"wrapper_id" => "wrapper-1406209692911-1852", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 5
+		), 
+	"mobile" => array(
+		"col" => 5
+		)
+	)
 ));
 
 $prefooter->add_element("PlainTxt", array(
@@ -315,9 +409,18 @@ $prefooter->add_element("PlainTxt", array(
 		}
 	"
 	), 
-"wrapper_id" => "wrapper-1406210660792-1159"
+"wrapper_id" => "wrapper-1406210660792-1159", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 8
+		), 
+	"mobile" => array(
+		"col" => 8
+		)
+	)
 ));
 
 $regions->add($prefooter);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
+

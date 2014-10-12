@@ -1,24 +1,27 @@
-
-
-#page .archive-right-sidebar .widget{
-    font-family:raleway;
+#page .archive-right-sidebar .widget {
     width:130px;
 }
-
-#page .archive-right-sidebar .widgettitle{
-    color:#000;
-    font:bold 15px raleway;
+#page .archive-right-sidebar .widgettitle {
+    color:#333333;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: right;
 }
-
-#page .archive-right-sidebar .widget li{
+#page .archive-right-sidebar .widget ul {
+    margin-top: 1em;
+}
+#page .archive-right-sidebar .widget li {
     list-style:none;
     text-align:right;
 }
-
-#page .archive-right-sidebar .widget a,
-.widget a:link,
-.widget a:hover{
-    color:#333;
+#page .archive-right-sidebar .widget a {
+    color:#333333;
     border:none;
     text-decoration:none;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 2.25em;
+}
+#page .archive-right-sidebar .widget a:hover {
+    color: #2B80B5;
 }

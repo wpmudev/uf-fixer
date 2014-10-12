@@ -1,0 +1,31 @@
+input.search-field {
+    width:530px;
+    height:50px;
+    float:left;
+    padding:0;
+    border:none; 
+    padding-left:22px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+}
+button.search-button {
+    background: #A4D0DC;
+    position: relative;
+    float:left;
+    border:none;
+    height:50px;
+    width:50px;
+    text-indent:9999px;
+    overflow:hidden;
+}
+button.search-button::after {
+    content: "";
+    background: url("/fixer2/wp-content/themes/uf-fixer/ui/search-icon.png");
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 25%;
+    left: 25%;
+}
