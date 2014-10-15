@@ -1089,7 +1089,7 @@ $cases_region->add_element("Ugallery", array(
 		"height" => 0
 		), 
 	"labelFilters" => array("true"), 
-	"thumbProportions" => "theme", 
+	"thumbProportions" => "1", 
 	"thumbWidth" => "210", 
 	"thumbHeight" => 210, 
 	"captionPosition" => "below", 

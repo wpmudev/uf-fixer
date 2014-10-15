@@ -46,9 +46,11 @@
     display: inline-block;
     background: #ECE9E4;
     color: #333333;
-    margin-left: -4px;
 }
 #page .uposts-archive-style .uposts-pagination.numeric a:hover {
     background:#a4d0dc;
     color: #ffffff;
+}
+#page .uposts-archive-style .uposts-pagination.numeric .page-numbers.next, #page .uposts-archive-style .uposts-pagination.numeric .page-numbers.previous {
+    display:none;
 }

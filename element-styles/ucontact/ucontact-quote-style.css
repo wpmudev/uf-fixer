@@ -1,0 +1,32 @@
+#page .ucontact-quote-style .upfront-field-container {
+    margin: 0;
+    margin-bottom: 2px;
+}
+#page .ucontact-quote-style .ucontact-input {
+    font-size: 15px;
+    font-weight: 500;
+}
+#page .ucontact-quote-style .ucontact-input {
+    border: none;
+    line-height: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+}
+#page .ucontact-quote-style .textarea-field {
+    resize: none;
+    height: 10em;
+}
+#page .ucontact-quote-style .submit-field {
+    text-transform: uppercase;
+    padding: 20px;
+    float: right;
+    color: #ffffff;
+    background: #A4D0DC;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

@@ -1,20 +1,13 @@
-
-
-#page .case-study-ugallery-style .ugallery_item{
-    margin:0 !important;
+#page .case-study-ugallery-style .ugallery_item {
     padding:0;
     position:relative;
     overflow:hidden;
 }
-
-#page .case-study-ugallery-style .ugallery_labels{
+#page .case-study-ugallery-style .ugallery_labels {
     height:50px;
     margin-bottom:40px;
 }
-
-#page .case-study-ugallery-style .ugallery_label_filter,
-.ugallery_label_filter:link,
-.ugallery_label_filter:hover{
+#page .case-study-ugallery-style .ugallery_label_filter, #page .case-study-ugallery-style .ugallery_label_filter:link, #page .case-study-ugallery-style .ugallery_label_filter:hover {
     text-align:center;
     text-decoration:none;
     border:none;
@@ -25,13 +18,11 @@
     margin-right:3px;
     display:inline-block;
 }
-
-#page .case-study-ugallery-style .ugallery_label_filter.filter_selected{
+#page .case-study-ugallery-style .ugallery_label_filter.filter_selected {
     background:#645191;
     color:#fff;
 }
-
-#page .case-study-ugallery-style .ugallery_lb_text{
+#page .case-study-ugallery-style .ugallery_lb_text {
   position: absolute; 
   background: #645191; 
   color: white; 
@@ -47,7 +38,6 @@
   -moz-transition:    all 0.6s ease;
   -o-transition:      all 0.6s ease;
 }
-
 #page .case-study-ugallery-style .ugallery_item:hover .ugallery_lb_text {
   opacity: 1;
   bottom: 0;

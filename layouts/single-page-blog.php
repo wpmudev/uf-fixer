@@ -89,7 +89,9 @@ $main->add_element("PlainTxt", array(
 $main->add_element("Uposts", array(
 "columns" => "24", 
 "margin_left" => "0", 
+"margin_right" => "0", 
 "margin_top" => "0", 
+"margin_bottom" => "0", 
 "id" => "module-1413038640825-1728", 
 "rows" => 75, 
 "options" => array(
@@ -99,12 +101,12 @@ $main->add_element("Uposts", array(
 	"class" => "c24 uposts-object", 
 	"id_slug" => "uposts", 
 	"post_type" => "post", 
-	"taxonomy" => "", 
+	"taxonomy" => "category", 
 	"term" => "", 
-	"limit" => 10, 
+	"limit" => "4", 
 	"content_type" => "excerpt", 
 	"featured_image" => 1, 
-	"pagination" => 0, 
+	"pagination" => "0", 
 	"prev" => "Next Page »", 
 	"next" => "", 
 	"post_data" => array("author", "date", "comments_count", "featured_image"), 
@@ -132,62 +134,22 @@ $main->add_element("Uposts", array(
 			"height" => 100
 			)
 		), 
-	"element_id" => "uposts-object-1413038640817-1289"
+	"element_id" => "uposts-object-1413038640817-1289", 
+	"order" => "date", 
+	"direction" => "DESC", 
+	"anchor" => "", 
+	"theme_style" => "uposts-blog-style"
 	), 
 "wrapper_id" => "wrapper-1413038655335-1492", 
-"new_line" => "true"
-));
-
-$main->add_element("Uposts", array(
-"columns" => "24", 
-"margin_left" => "0", 
-"margin_top" => "0", 
-"id" => "module-1413037456610-1465", 
-"rows" => 75, 
-"options" => array(
-	"type" => "UpostsModel", 
-	"view_class" => "UpostsView", 
-	"has_settings" => 1, 
-	"class" => "c24 uposts-object", 
-	"id_slug" => "uposts", 
-	"post_type" => "post", 
-	"taxonomy" => "", 
-	"term" => "", 
-	"limit" => 10, 
-	"content_type" => "excerpt", 
-	"featured_image" => 1, 
-	"pagination" => 0, 
-	"prev" => "Next Page »", 
-	"next" => "", 
-	"post_data" => array("author", "date", "comments_count", "featured_image"), 
-	"postLayout" => array(array(
-			"classes" => "c24 clr", 
-			"objects" => array(array(
-					"slug" => "title", 
-					"classes" => "post-part 24"
-					))
-			), array(
-			"classes" => "c24 clr", 
-			"objects" => array(array(
-					"slug" => "date", 
-					"classes" => " post-part c24"
-					))
-			), array(
-			"classes" => "c24 clr", 
-			"objects" => array(array(
-					"slug" => "contents", 
-					"classes" => " post-part c24"
-					))
-			)), 
-	"partOptions" => array(
-		"featured_image" => array(
-			"height" => 100
-			)
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 24
 		), 
-	"element_id" => "uposts-object-1413037456606-1844"
-	), 
-"wrapper_id" => "wrapper-1413038640434-1771", 
-"new_line" => "true"
+	"mobile" => array(
+		"col" => 24
+		)
+	)
 ));
 
 $regions->add($main);
