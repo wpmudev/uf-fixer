@@ -1,0 +1,6 @@
+.upfront-region-container-slider .upfront-region-container-bg {
+    color: #ffffff;
+}
+.upfront-region-container-slider .upfront-default-slider-nav-prev, .upfront-region-container-slider .upfront-default-slider-nav-next {
+    display: none;
+}

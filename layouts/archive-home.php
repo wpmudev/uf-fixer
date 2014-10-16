@@ -1,34 +1,34 @@
 <?php
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
-$main_slider = upfront_create_region(
+$slider = upfront_create_region(
 			array(
-"name" => "main-slider", 
-"title" => "Main Slider", 
+"name" => "slider", 
+"title" => "Slider", 
 "type" => "wide", 
 "scope" => "local", 
-"container" => "main-slider", 
+"container" => "slider", 
 "position" => 1, 
 "allow_sidebar" => true
 ),
 			array(
-"row" => 188, 
-"background_type" => "color", 
+"row" => 184, 
+"background_type" => "slider", 
 "nav_region" => "", 
-"background_color" => "rgba(154,164,156,1)", 
+"background_color" => "#ffffff", 
 "background_slider_rotate" => true, 
-"background_slider_rotate_time" => "10", 
-"background_slider_control" => "hover", 
+"background_slider_rotate_time" => 5, 
+"background_slider_control" => "always", 
 "background_slider_transition" => "crossfade", 
-"background_slider_images" => array(18, 20, 19, 17, 21)
+"background_slider_images" => array("/images/300161310210157slider-a (1).jpg", "/images/72893246319170slider-b (1).jpg", "/images/117101647628275slider-c (1).jpg", "/images/3615803716688slider-d (1).jpg", "/images/9580215624521slider-e (1).jpg")
 )
 			);
 
-$main_slider->add_element("PlainTxt", array(
+$slider->add_element("PlainTxt", array(
 "columns" => "18", 
 "margin_left" => "6", 
 "margin_right" => "0", 
-"margin_top" => "14", 
+"margin_top" => "5", 
 "margin_bottom" => "0", 
 "id" => "module-1405538329123-1568", 
 "rows" => 107, 
@@ -49,19 +49,11 @@ $main_slider->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"row" => 101
 	), 
-"wrapper_id" => "wrapper-1405538329123-1568", 
-"new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 24
-		), 
-	"mobile" => array(
-		"col" => 24
-		)
-	)
+"wrapper_id" => "wrapper-1413426797464-1674", 
+"new_line" => "true"
 ));
 
-$main_slider->add_element("Button", array(
+$slider->add_element("Button", array(
 "columns" => "4", 
 "margin_left" => "16", 
 "margin_right" => "0", 
@@ -84,19 +76,11 @@ $main_slider->add_element("Button", array(
 	"row" => 15, 
 	"is_edited" => true
 	), 
-"wrapper_id" => "wrapper-1412750917834-1762", 
-"new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 20
-		), 
-	"mobile" => array(
-		"col" => 20
-		)
-	)
+"wrapper_id" => "wrapper-1413426809936-1281", 
+"new_line" => "true"
 ));
 
-$main_slider->add_element("Button", array(
+$slider->add_element("Button", array(
 "columns" => "4", 
 "margin_left" => "0", 
 "margin_right" => "0", 
@@ -119,18 +103,10 @@ $main_slider->add_element("Button", array(
 	"row" => 15, 
 	"is_edited" => true
 	), 
-"wrapper_id" => "wrapper-1412750926243-1533", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 4
-		), 
-	"mobile" => array(
-		"col" => 4
-		)
-	)
+"wrapper_id" => "wrapper-1413426815838-1457"
 ));
 
-$regions->add($main_slider);
+$regions->add($slider);
 
 $services = upfront_create_region(
 			array(
@@ -1675,7 +1651,9 @@ $blog_items = upfront_create_region(
 $blog_items->add_element("Uposts", array(
 "columns" => "24", 
 "margin_left" => "0", 
+"margin_right" => "0", 
 "margin_top" => "0", 
+"margin_bottom" => "0", 
 "id" => "module-1413385026013-1697", 
 "rows" => 75, 
 "options" => array(
@@ -1724,7 +1702,15 @@ $blog_items->add_element("Uposts", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1413385931834-1777", 
-"new_line" => "true"
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 24
+		), 
+	"mobile" => array(
+		"col" => 24
+		)
+	)
 ));
 
 $regions->add($blog_items);
