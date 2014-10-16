@@ -128,3 +128,23 @@ FIELD;
 }
 
 Uf_fixer::serve();
+
+function fixer_dispatch_posts_layout ($args, $slug, $default_file) {
+	if ('uposts' !== $slug) return $args;
+	if (empty($args['layout'])) return $args;
+
+	if (!empty($args['properties']['limit']))
+	{
+		if ($args['properties']['limit'] == 3) {
+			$layout = Upfront_ThisPostView::find_postlayout('archive', 'blog-main', false);
+		} elseif ($args['properties']['limit'] == 8) {
+			$layout = Upfront_ThisPostView::find_postlayout('archive', 'blog-page', false);
+		} else {
+			$layout = Upfront_ThisPostView::find_postlayout('archive', 'items', false);
+		}
+	}
+
+	$args['layout'] = $layout;
+	return $args;
+}
+add_filter('upfront-theme-template_arguments', 'fixer_dispatch_posts_layout', 10, 3);
