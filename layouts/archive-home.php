@@ -20,7 +20,7 @@ $slider = upfront_create_region(
 "background_slider_rotate_time" => 5, 
 "background_slider_control" => "always", 
 "background_slider_transition" => "crossfade", 
-"background_slider_images" => array("/images/300161310210157slider-a (1).jpg", "/images/72893246319170slider-b (1).jpg", "/images/117101647628275slider-c (1).jpg", "/images/3615803716688slider-d (1).jpg", "/images/9580215624521slider-e (1).jpg")
+"background_slider_images" => array("/images/23724289312097214571300161310210157slider-a (1).jpg", "/images/34451446431157160872893246319170slider-b (1).jpg", "/images/4362160571031419681117101647628275slider-c (1).jpg", "/images/321231715025531312383615803716688slider-d (1).jpg", "/images/604067518408309199580215624521slider-e (1).jpg")
 )
 			);
 
@@ -50,7 +50,15 @@ $slider->add_element("PlainTxt", array(
 	"row" => 101
 	), 
 "wrapper_id" => "wrapper-1413426797464-1674", 
-"new_line" => "true"
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 24
+		), 
+	"mobile" => array(
+		"col" => 24
+		)
+	)
 ));
 
 $slider->add_element("Button", array(
@@ -77,7 +85,15 @@ $slider->add_element("Button", array(
 	"is_edited" => true
 	), 
 "wrapper_id" => "wrapper-1413426809936-1281", 
-"new_line" => "true"
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 20
+		), 
+	"mobile" => array(
+		"col" => 20
+		)
+	)
 ));
 
 $slider->add_element("Button", array(
@@ -103,7 +119,15 @@ $slider->add_element("Button", array(
 	"row" => 15, 
 	"is_edited" => true
 	), 
-"wrapper_id" => "wrapper-1413426815838-1457"
+"wrapper_id" => "wrapper-1413426815838-1457", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 4
+		), 
+	"mobile" => array(
+		"col" => 4
+		)
+	)
 ));
 
 $regions->add($slider);
@@ -1699,7 +1723,8 @@ $blog_items->add_element("Uposts", array(
 	"element_id" => "uposts-object-1413385026001-1109", 
 	"order" => "date", 
 	"direction" => "DESC", 
-	"anchor" => ""
+	"anchor" => "", 
+	"theme_style" => "uposts-mainpage-style"
 	), 
 "wrapper_id" => "wrapper-1413385931834-1777", 
 "new_line" => "true", 

@@ -1,0 +1,44 @@
+#page .uposts-mainpage-style .uposts-post {
+    display: block;
+    height: 290px;
+    color: #333333;
+}
+#page .uposts-mainpage-style .uposts-post h1 {
+    font-size: 28px;
+    font-weight: 700;
+}
+#page .uposts-mainpage-style .uposts-post h1 a {
+    color: #333333;
+}
+#page .uposts-mainpage-style .uposts-post:first-child h1 a {
+    color: #ffffff;
+}
+#page .uposts-mainpage-style .uposts-post:first-child {
+   background: #5EBF6B;
+   color: #ffffff;
+}
+#page .uposts-mainpage-style .post_excerpt {
+    font-size: 15px;
+}
+#page .uposts-mainpage-style .upfront-postpart-featured_image {
+    padding: 0;
+    max-height: 290px!important;
+}
+#page .uposts-mainpage-style .uposts-post:first-child .upfront-postpart-date {
+    background: #5EBF6B;
+}
+#page .uposts-mainpage-style .upfront-postpart-date {
+    display: block;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    right: 0;
+    margin-top: -75px;
+    background: #333333;
+    color: #ffffff;
+    font-size: 22px;
+    padding-top: 8px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}

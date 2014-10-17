@@ -1,44 +1,38 @@
 <?php return array(
 "postLayout" => array(array(
 		"objects" => array(array(
-				"classes" => "post-part 24", 
+				"classes" => "post-part c10 ml1 mt8", 
 				"slug" => "title"
-				)), 
-		"classes" => "c0 clr"
-		), array(
-		"objects" => array(array(
-				"classes" => "c10 post-part ml0 mt0", 
-				"slug" => "comments_count"
-				)), 
-		"classes" => "c10 clr"
-		), array(
-		"objects" => array(array(
-				"classes" => "c10 post-part ml0 mt0", 
+				), array(
+				"classes" => "c10 post-part ml1 mt0", 
 				"slug" => "tags"
+				), array(
+				"classes" => " post-part c10 ml1 mt2", 
+				"slug" => "excerpt"
 				)), 
-		"classes" => "c10"
+		"classes" => "c11 clr"
 		), array(
 		"objects" => array(array(
-				"classes" => "c10 post-part ml5 mt0", 
-				"slug" => "categories"
+				"classes" => "c12 post-part ml1 mt0", 
+				"slug" => "featured_image"
 				)), 
-		"classes" => "c15 clr"
+		"classes" => "c13"
 		), array(
 		"objects" => array(array(
-				"classes" => " post-part c24", 
+				"classes" => "c12 post-part ml12 mt0", 
 				"slug" => "date"
-				)), 
-		"classes" => "c24 clr"
-		), array(
-		"objects" => array(array(
-				"classes" => " post-part c24", 
-				"slug" => "contents"
 				)), 
 		"classes" => "c24 clr"
 		)), 
 "partOptions" => array(
 	"featured_image" => array(
-		"height" => "100"
+		"height" => "289", 
+		"attributes" => array(
+			"style" => "max-height: 289px"
+			)
+		), 
+	"date" => array(
+		"format" => "d M"
 		)
 	)
 );
