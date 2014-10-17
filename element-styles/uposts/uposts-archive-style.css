@@ -3,35 +3,37 @@
     margin-top:40px;
     overflow:hidden;
 }
-#page .uposts-archive-style h1.post_title {
-    font:normal 20px raleway;
-    text-align:left;
+#page .uposts-archive-style h1 {
+    font-size: 22px;
+    font-weight: 400;
+}
+#page .uposts-archive-style h1 a {
+    color: #333333;
 }
 #page .uposts-archive-style .post_excerpt {
-    color:#333;
-    font:normal 15px raleway;
+    color: #333333;
+    font-size: 15px;
+    font-weight: 400;
 }
 #page .uposts-archive-style .post_date {
-    color:#999999;
-    font:normal 13px raleway;
-}
-#page .uposts-archive-style .post_author {
-    float:left;
-    color:#999999;
-    font:normal 13px/23px raleway;
-}
-#page .uposts-archive-style .upfront-postpart-author, #page .uposts-archive-style .upfront-postpart-date {
-    padding-right:0;
+    color: #999999;
+    font-size: 13px;
+    font-weight: 400;
 }
 #page .uposts-archive-style .upfront-postpart-author {
-    padding-left:0;
+    color: #999999;
+    font-size: 13px;
+    font-weight: 700;
+}
+#page .uposts-archive-style .upfront-postpart-author a {
+    color: #999999;
 }
 #page .uposts-archive-style/* paginator numeric*/
 .uposts-pagination.numeric {
     text-align: right;
     font-size: 15px;
     font-weight: 700;
-	margin-top: 50px;
+    margin-top: 50px;
 	margin-bottom: 20px;
 }
 #page .uposts-archive-style .uposts-pagination.numeric span {
