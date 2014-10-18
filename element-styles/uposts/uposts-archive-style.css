@@ -53,6 +53,6 @@
     background:#a4d0dc;
     color: #ffffff;
 }
-#page .uposts-archive-style .uposts-pagination.numeric .page-numbers.next, #page .uposts-archive-style .uposts-pagination.numeric .page-numbers.previous {
+#page .uposts-archive-style .uposts-pagination.numeric .page-numbers.next, #page .uposts-archive-style .uposts-pagination.numeric .page-numbers.prev {
     display:none;
 }
