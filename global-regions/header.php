@@ -90,13 +90,13 @@ $header->add_element("Uimage", array(
 ));
 
 $header->add_element("Unewnavigation", array(
-"columns" => "14", 
+"columns" => "15", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "8", 
+"margin_top" => "10", 
 "margin_bottom" => "0", 
 "id" => "module-1405520756070-1345", 
-"rows" => 11, 
+"rows" => 8, 
 "options" => array(
 	"type" => "UnewnavigationModel", 
 	"view_class" => "UnewnavigationView", 
@@ -163,9 +163,9 @@ $header->add_element("Unewnavigation", array(
 	"menu_id" => false, 
 	"menu_slug" => "fixer-menu", 
 	"is_floating" => array(), 
-	"theme_style" => "_default", 
+	"theme_style" => "main-top-navigation", 
 	"anchor" => "", 
-	"row" => 5, 
+	"row" => 8, 
 	"burger_menu" => array(), 
 	"burger_alignment" => "left", 
 	"burger_over" => "over", 
@@ -180,19 +180,19 @@ $header->add_element("Unewnavigation", array(
 "wrapper_id" => "wrapper-1405520756070-1345", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 14
+		"col" => 15
 		), 
 	"mobile" => array(
-		"col" => 14
+		"col" => 15
 		)
 	)
 ));
 
 $header->add_element("PlainTxt", array(
-"columns" => "6", 
+"columns" => "5", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "4", 
+"margin_top" => "8", 
 "margin_bottom" => "0", 
 "id" => "module-1405520755970-1045", 
 "rows" => 18, 
@@ -211,15 +211,15 @@ $header->add_element("PlainTxt", array(
 	"bg_color" => "", 
 	"theme_style" => "header-contact-text", 
 	"anchor" => "", 
-	"row" => 12
+	"row" => 18
 	), 
-"wrapper_id" => "wrapper-1405520755970-1045", 
+"wrapper_id" => "wrapper-1413616950784-1849", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 6
+		"col" => 5
 		), 
 	"mobile" => array(
-		"col" => 6
+		"col" => 5
 		)
 	)
 ));
