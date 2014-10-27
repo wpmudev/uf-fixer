@@ -1098,6 +1098,7 @@ $cases_region->add_element("Ugallery", array(
 	"captionBackground" => "#000000", 
 	"captionWhen" => "never", 
 	"linkTo" => "image", 
+	"no_padding" => array("true"), 
 	"element_id" => "ugallery-object-1407250114391-1191", 
 	"theme_style" => "case-study-ugallery-style", 
 	"anchor" => ""
