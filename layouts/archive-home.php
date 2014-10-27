@@ -20,7 +20,7 @@ $slider = upfront_create_region(
 "background_slider_rotate_time" => 5, 
 "background_slider_control" => "always", 
 "background_slider_transition" => "crossfade", 
-"background_slider_images" => array("/images/23724289312097214571300161310210157slider-a (1).jpg", "/images/34451446431157160872893246319170slider-b (1).jpg", "/images/4362160571031419681117101647628275slider-c (1).jpg", "/images/321231715025531312383615803716688slider-d (1).jpg", "/images/604067518408309199580215624521slider-e (1).jpg")
+"background_slider_images" => array("/images/2670968831146411694289353237023724289312097214571300161310210157slider-a (1).jpg", "/images/618196801264110063292361709134451446431157160872893246319170slider-b (1).jpg", "/images/8591116117542324761033318564362160571031419681117101647628275slider-c (1).jpg", "/images/225202415812615153331377818041321231715025531312383615803716688slider-d (1).jpg", "/images/13521575198283039457954030604067518408309199580215624521slider-e (1).jpg")
 )
 			);
 
@@ -28,14 +28,14 @@ $slider->add_element("PlainTxt", array(
 "columns" => "18", 
 "margin_left" => "6", 
 "margin_right" => "0", 
-"margin_top" => "5", 
+"margin_top" => "53", 
 "margin_bottom" => "0", 
 "id" => "module-1405538329123-1568", 
-"rows" => 107, 
+"rows" => 54, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h1 style=\"text-align: right;\" class=\"\">We Build</h1><h1 style=\"text-align: right;\" class=\"\">And Fix</h1>", 
+	"content" => "<h1 style=\"text-align: right;\" class=\"\">We Build<br>And Fix</h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405538329122-1842", 
 	"class" => "c24 upfront-plain_txt", 
@@ -47,7 +47,7 @@ $slider->add_element("PlainTxt", array(
 	"bg_color" => "", 
 	"theme_style" => "_default", 
 	"anchor" => "", 
-	"row" => 101
+	"row" => 54
 	), 
 "wrapper_id" => "wrapper-1413426797464-1674", 
 "new_line" => "true", 
@@ -65,7 +65,7 @@ $slider->add_element("Button", array(
 "columns" => "4", 
 "margin_left" => "16", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "3", 
 "margin_bottom" => "0", 
 "id" => "module-1412693769329-1564", 
 "rows" => 15, 
@@ -84,7 +84,7 @@ $slider->add_element("Button", array(
 	"row" => 15, 
 	"is_edited" => true
 	), 
-"wrapper_id" => "wrapper-1413426809936-1281", 
+"wrapper_id" => "wrapper-1414410187134-1466", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -100,7 +100,7 @@ $slider->add_element("Button", array(
 "columns" => "4", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "3", 
 "margin_bottom" => "0", 
 "id" => "module-1412693935237-1809", 
 "rows" => 15, 
@@ -119,7 +119,7 @@ $slider->add_element("Button", array(
 	"row" => 15, 
 	"is_edited" => true
 	), 
-"wrapper_id" => "wrapper-1413426815838-1457", 
+"wrapper_id" => "wrapper-1414410194085-1439", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 4
@@ -161,7 +161,7 @@ $services->add_element("PlainTxt", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "30", 
 "margin_bottom" => "0", 
 "id" => "module-1412752367986-1614", 
 "rows" => 5, 
@@ -177,9 +177,9 @@ $services->add_element("PlainTxt", array(
 	"row" => 5, 
 	"border_style" => "none", 
 	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"anchor" => ""
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
+	"anchor" => "services"
 	), 
 "wrapper_id" => "wrapper-1412752432673-1037", 
 "new_line" => "true", 
@@ -197,20 +197,25 @@ $services->add_element("PlainTxt", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "31", 
+"margin_top" => "1", 
 "margin_bottom" => "0", 
 "id" => "module-1412753049856-1341", 
 "rows" => 94, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h1 style=\"text-align: center;\">Premier</h1><h1 style=\"text-align: center;\">Service &amp; Quality</h1>", 
+	"content" => "<h1 style=\"text-align: center;\" class=\"\">Premier<br>Service &amp; Quality</h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1412753049855-1267", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
-	"row" => 94
+	"row" => 94, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1412761919281-1736", 
 "new_line" => "true", 
@@ -1199,9 +1204,9 @@ $quote->add_element("PlainTxt", array(
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"anchor" => "", 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
+	"anchor" => "quote", 
 	"row" => 7
 	), 
 "wrapper_id" => "wrapper-1405604490158-1724", 
@@ -1618,17 +1623,53 @@ $blog_header = upfront_create_region(
 			);
 
 $blog_header->add_element("PlainTxt", array(
-"columns" => "11", 
+"columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "14", 
+"margin_top" => "16", 
 "margin_bottom" => "0", 
-"id" => "module-1406189688409-1108", 
-"rows" => 15, 
+"id" => "module-1414410069759-1295", 
+"rows" => 6, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\">Blog</h3><h1 class=\"\"></h1><h1 class=\"\">Latest&nbsp;</h1><h1 class=\"\">News &amp;</h1><h1 class=\"\">Tips</h1><h1 class=\"\"></h1>", 
+	"content" => "<h3 style=\"text-align: start;\" class=\"\">Blog</h3>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "text-object-1414410069741-1460", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
+	"anchor" => "blog", 
+	"row" => 6
+	), 
+"wrapper_id" => "wrapper-1414410356362-1676", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 24
+		), 
+	"mobile" => array(
+		"col" => 24
+		)
+	)
+));
+
+$blog_header->add_element("PlainTxt", array(
+"columns" => "24", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "3", 
+"margin_bottom" => "0", 
+"id" => "module-1406189688409-1108", 
+"rows" => 85, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<h1 style=\"text-align: start;\" class=\"\">Latest<br>News &amp;<br>Tips</h1><h1 class=\"\"></h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406189688408-1011", 
 	"class" => "c24 upfront-plain_txt", 
@@ -1636,18 +1677,20 @@ $blog_header->add_element("PlainTxt", array(
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
 	"theme_style" => "", 
-	"anchor" => "blog"
+	"anchor" => "", 
+	"row" => 85
 	), 
 "wrapper_id" => "wrapper-1406189688409-1108", 
+"new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 11
+		"col" => 24
 		), 
 	"mobile" => array(
-		"col" => 11
+		"col" => 24
 		)
 	)
 ));
@@ -1892,7 +1935,12 @@ $about->add_element("PlainTxt", array(
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
-	"row" => 13
+	"row" => 13, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
+	"anchor" => "about"
 	), 
 "wrapper_id" => "wrapper-1412782859322-1825", 
 "new_line" => "true", 
@@ -2179,28 +2227,65 @@ $coverage->add_element("PlainTxt", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "2", 
+"margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1406200069453-1687", 
-"rows" => 52, 
+"id" => "module-1414410356937-1690", 
+"rows" => 17, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\" style=\"text-align: center;\"></h3><h3 style=\"text-align: center;\">Coverage Area</h3><h1 class=\"\"></h1><h1 class=\"\"></h1><h1 class=\"\" style=\"text-align: center;\"></h1><h1 class=\"\" style=\"text-align: center;\"></h1><h1 style=\"text-align: center;\">Anywhere within</h1><h1 style=\"text-align: center;\">40km radius</h1><h1 style=\"text-align: center;\">from CBD</h1><h1 class=\"\" style=\"text-align: center;\"></h1><h1 class=\"\" style=\"text-align: center;\"></h1><h1 class=\"\" style=\"text-align: center;\"></h1><h1 class=\"\"></h1><h1 class=\"\"></h1>", 
+	"content" => "<p class=\"\"></p><h3 class=\"\" style=\"text-transform: none; text-align: center;\">Coverage Area</h3>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "text-object-1414410356935-1820", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
+	"anchor" => "coverage", 
+	"row" => 17
+	), 
+"wrapper_id" => "wrapper-1414410437674-1593", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 24
+		), 
+	"mobile" => array(
+		"col" => 24
+		)
+	)
+));
+
+$coverage->add_element("PlainTxt", array(
+"columns" => "24", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "2", 
+"margin_bottom" => "0", 
+"id" => "module-1406200069453-1687", 
+"rows" => 91, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<h3 class=\"\" style=\"text-align: center;\"></h3><h1 style=\"text-align: center;\" class=\"\">Anywhere within<br>40km radius<br>from CBD</h1><h1 class=\"\" style=\"text-align: center;\"></h1><h1 class=\"\" style=\"text-align: center;\"></h1><h1 class=\"\" style=\"text-align: center;\"></h1><h1 class=\"\"></h1><h1 class=\"\"></h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406200069452-1923", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"row" => 46, 
+	"row" => 91, 
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
 	"theme_style" => "plaintext-text-25-lineheight", 
-	"anchor" => "coveragearea"
+	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1406200069453-1687", 
+"new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 24
@@ -2383,7 +2468,7 @@ $prefooter->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h4 class=\"\"><span class=\"uf_font_icon\" style=\"position: relative; font-size: 65px; top: 35px;\"><span class=\"inline_color\" style=\"color: rgb(156, 203, 216)\">n</span></span><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Get</span>&nbsp;</h4><h4 class=\"\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">A Quote</span></h4>", 
+	"content" => "<a href=\"#quote\" rel=\"anchor\" class=\"\"><h4 class=\"\"><span class=\"uf_font_icon\" style=\"position: relative; font-size: 65px; top: 35px;\"><span class=\"inline_color\" style=\"color: rgb(156, 203, 216)\">n</span></span> &nbsp;Get</h4><h4 class=\"\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;A Quote</h4></a>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406209692910-1396", 
 	"class" => "c24 upfront-plain_txt", 
@@ -2424,7 +2509,7 @@ $prefooter->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h4 class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 65px; top: 35px;\"><span class=\"inline_color\" style=\"color: rgb(255, 225, 94)\">a</span></span> <span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Call us now</span></h4><h4 class=\"\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">1300 Fixer</span></h4>", 
+	"content" => "<h4 class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 65px; top: 35px;\"><span class=\"inline_color\" style=\"color: rgb(255, 225, 94)\">a</span></span> <span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"> &nbsp;Call us now</span></h4><h4 class=\"\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"> &nbsp;1300 Fixer</span></h4>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406210660791-1219", 
 	"class" => "c24 upfront-plain_txt", 
