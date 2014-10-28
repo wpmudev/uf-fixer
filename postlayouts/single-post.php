@@ -7,34 +7,31 @@
 		"classes" => "c24 clr"
 		), array(
 		"objects" => array(array(
-				"classes" => "c2 post-part ml6 mt24", 
+				"classes" => "c4 post-part ml0 mt24", 
+				"slug" => "author"
+				)), 
+		"classes" => "c4 clr"
+		), array(
+		"objects" => array(array(
+				"classes" => "c2 post-part ml0 mt24", 
 				"slug" => "date"
 				)), 
-		"classes" => "c8 clr"
+		"classes" => "c2 "
 		), array(
 		"objects" => array(array(
-				"classes" => "c13 post-part ml1 mt23", 
-				"slug" => "excerpt"
-				)), 
-		"classes" => "c14 "
-		), array(
-		"objects" => array(array(
-				"classes" => "c4 post-part ml0 mt7", 
-				"slug" => "author"
-				), array(
-				"classes" => "c4 post-part ml0 mt6", 
+				"classes" => "c4 post-part ml0 mt12", 
 				"slug" => "update"
 				), array(
-				"classes" => "c4 post-part ml0 mt10", 
+				"classes" => "c4 post-part ml0 mt18", 
 				"slug" => "tags"
 				)), 
 		"classes" => "c4 clr"
 		), array(
 		"objects" => array(array(
-				"classes" => " post-part c18 ml2 mt5", 
+				"classes" => " post-part c20 ml0 mt1", 
 				"slug" => "contents"
 				)), 
-		"classes" => "c20"
+		"classes" => "c20 "
 		)), 
 "partOptions" => array(
 	"featured_image" => array(
