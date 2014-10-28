@@ -1,0 +1,19 @@
+#page .thispost-blog-style h1 {
+    text-align: center;
+}
+#page .thispost-blog-style h1 a {
+    color: #333333;
+}
+#page .thispost-blog-style .upfront-postpart-date {
+    display:block;
+    width:75px;
+    height:75px;
+    background:#333;
+    color:#fff;
+    text-align:center;
+    font-size: 22px;
+    padding-top: 8px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}

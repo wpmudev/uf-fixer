@@ -1,30 +1,32 @@
 <?php
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
-$main = upfront_create_region(
-        array(
-"name" => "main", 
-"title" => "Main Area", 
+$blog_individual = upfront_create_region(
+			array(
+"name" => "blog-individual", 
+"title" => "Blog Individual", 
 "type" => "wide", 
 "scope" => "local", 
-"container" => "main", 
-"position" => 10, 
+"container" => "blog-individual", 
+"position" => 1, 
 "allow_sidebar" => true
 ),
-        array(
+			array(
 "row" => 140, 
 "background_type" => "color", 
-"background_color" => "#c5d0db"
+"background_color" => "rgba(255,255,255,1)", 
+"nav_region" => ""
 )
-        );
-$main->add_element("PlainTxt", array(
-"columns" => "11", 
-"margin_left" => "6", 
+			);
+
+$blog_individual->add_element("PlainTxt", array(
+"columns" => "24", 
+"margin_left" => "0", 
 "margin_right" => "0", 
 "margin_top" => "15", 
 "margin_bottom" => "0", 
 "id" => "module-1407490840563-1569-module", 
-"rows" => 15, 
+"rows" => 14, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -33,11 +35,22 @@ $main->add_element("PlainTxt", array(
 	"element_id" => "text-object-1407490840562-1778", 
 	"class" => "c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"is_edited" => true
+	"is_edited" => true, 
+	"row" => 14
+	), 
+"wrapper_id" => "module-1407490840563-1569-module-wrapper", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 24
+		), 
+	"mobile" => array(
+		"col" => 24
+		)
 	)
 ));
 
-$main->add_element("ThisPost", array(
+$blog_individual->add_element("ThisPost", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
@@ -75,12 +88,22 @@ $main->add_element("ThisPost", array(
 					))
 			)), 
 	"element_id" => "default-post-object", 
-	"theme_style" => "_default", 
+	"theme_style" => "thispost-blog-style", 
 	"anchor" => ""
+	), 
+"wrapper_id" => "default-post-module-module-module-module-module-module-module-module-wrapper", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 24
+		), 
+	"mobile" => array(
+		"col" => 24
+		)
 	)
 ));
 
-$main->add_element("Ucomment", array(
+$blog_individual->add_element("Ucomment", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
@@ -96,10 +119,21 @@ $main->add_element("Ucomment", array(
 	"has_settings" => 0, 
 	"prepend_form" => false, 
 	"element_id" => "default-comment-object"
+	), 
+"wrapper_id" => "default-comment-module-module-module-module-module-module-module-module-wrapper", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 24
+		), 
+	"mobile" => array(
+		"col" => 24
+		)
 	)
 ));
 
-$regions->add($main);
+$regions->add($blog_individual);
+
 $prefooter = upfront_create_region(
 			array(
 "name" => "prefooter", 
@@ -143,7 +177,15 @@ $prefooter->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"row" => 20
 	), 
-"wrapper_id" => "wrapper-1406205224243-1651"
+"wrapper_id" => "wrapper-1406205224243-1651", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 11
+		), 
+	"mobile" => array(
+		"col" => 11
+		)
+	)
 ));
 
 $prefooter->add_element("PlainTxt", array(
@@ -176,7 +218,15 @@ $prefooter->add_element("PlainTxt", array(
 		}
 	"
 	), 
-"wrapper_id" => "wrapper-1406209692911-1852"
+"wrapper_id" => "wrapper-1406209692911-1852", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 5
+		), 
+	"mobile" => array(
+		"col" => 5
+		)
+	)
 ));
 
 $prefooter->add_element("PlainTxt", array(
@@ -209,9 +259,18 @@ $prefooter->add_element("PlainTxt", array(
 		}
 	"
 	), 
-"wrapper_id" => "wrapper-1406210660792-1159"
+"wrapper_id" => "wrapper-1406210660792-1159", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 8
+		), 
+	"mobile" => array(
+		"col" => 8
+		)
+	)
 ));
 
 $regions->add($prefooter);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
+
