@@ -11,7 +11,7 @@ class Uf_fixer extends Upfront_ChildTheme {
     public function initialize() {
         add_filter('upfront_augment_theme_layout', array($this, 'augment_layout'));
         $this->add_actions_filters();
-		$this->add_scripts();
+        add_action('wp_enqueue_scripts', array($this, 'add_scripts'));
         $this->populate_pages();
         add_filter("comment_form_field_author", array( $this, "comment_form_author" ));
         add_filter("comment_form_field_email", array( $this, "comment_form_email" ));
@@ -31,11 +31,11 @@ class Uf_fixer extends Upfront_ChildTheme {
     public function populate_pages() {
 
     }
-	
-	protected function add_scripts() {
-		wp_enqueue_script('onoff', get_stylesheet_directory_uri() . '/js/jquery.onoff.min.js', array('jquery'));
-		wp_enqueue_script('fixer-theme-script', get_stylesheet_directory_uri() . '/js/fixer-theme.js', array('jquery', 'onoff'));
-	}
+    
+    public function add_scripts() {
+        wp_enqueue_script('onoff', get_stylesheet_directory_uri() . '/js/jquery.onoff.min.js', array('jquery'));
+        wp_enqueue_script('fixer-theme-script', get_stylesheet_directory_uri() . '/js/fixer-theme.js', array('jquery', 'onoff'));
+    }
 
     protected function add_actions_filters() {
         // Include current theme style
@@ -130,21 +130,21 @@ FIELD;
 Uf_fixer::serve();
 
 function fixer_dispatch_posts_layout ($args, $slug, $default_file) {
-	if ('uposts' !== $slug) return $args;
-	if (empty($args['layout'])) return $args;
+    if ('uposts' !== $slug) return $args;
+    if (empty($args['layout'])) return $args;
 
-	if (!empty($args['properties']['limit']))
-	{
-		if ($args['properties']['limit'] == 3) {
-			$layout = Upfront_ThisPostView::find_postlayout('archive', 'blog-main', false);
-		} elseif ($args['properties']['limit'] == 8) {
-			$layout = Upfront_ThisPostView::find_postlayout('archive', 'blog-page', false);
-		} else {
-			$layout = Upfront_ThisPostView::find_postlayout('archive', 'items', false);
-		}
-	}
+    if (!empty($args['properties']['limit']))
+    {
+        if ($args['properties']['limit'] == 3) {
+            $layout = Upfront_ThisPostView::find_postlayout('archive', 'blog-main', false);
+        } elseif ($args['properties']['limit'] == 8) {
+            $layout = Upfront_ThisPostView::find_postlayout('archive', 'blog-page', false);
+        } else {
+            $layout = Upfront_ThisPostView::find_postlayout('archive', 'items', false);
+        }
+    }
 
-	$args['layout'] = $layout;
-	return $args;
+    $args['layout'] = $layout;
+    return $args;
 }
 add_filter('upfront-theme-template_arguments', 'fixer_dispatch_posts_layout', 10, 3);
