@@ -71,7 +71,7 @@ $slider->add_element("Button", array(
 "rows" => 15, 
 "options" => array(
 	"content" => "Get a quote", 
-	"href" => "#", 
+	"href" => "" . get_site_url() . "/#quote", 
 	"align" => "center", 
 	"type" => "ButtonModel", 
 	"view_class" => "ButtonView", 
@@ -106,7 +106,7 @@ $slider->add_element("Button", array(
 "rows" => 15, 
 "options" => array(
 	"content" => "View Service", 
-	"href" => "#", 
+	"href" => "" . get_site_url() . "/#services", 
 	"align" => "center", 
 	"type" => "ButtonModel", 
 	"view_class" => "ButtonView", 
