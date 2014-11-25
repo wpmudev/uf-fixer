@@ -14,7 +14,8 @@ $main = upfront_create_region(
 			array(
 "row" => 140, 
 "background_type" => "color", 
-"background_color" => "#c5d0db"
+"background_color" => "#c5d0db", 
+"nav_region" => ""
 )
 			);
 
