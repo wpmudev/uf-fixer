@@ -20,7 +20,7 @@
 #page .uposts-mainpage-style .post_excerpt {
     font-size: 15px;
 }
-#page .uposts-mainpage-style .post_thumbnail  img{
+#page .uposts-mainpage-style .post_thumbnail  img {
 	width: 100%;
 	height: 100%;
 }
@@ -45,4 +45,8 @@
     font-weight: 600;
     text-align: center;
     text-transform: uppercase;
+}
+#page .uposts-mainpage-style .post_tags > a {
+    color: #ffffff;
+    font-weight: 700;
 }
