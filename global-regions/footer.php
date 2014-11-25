@@ -38,7 +38,7 @@ $footer->add_element("Uimage", array(
 	"image_caption" => "My awesome image caption", 
 	"caption_position" => false, 
 	"caption_alignment" => false, 
-	"caption_trigger" => "always_show",  
+	"caption_trigger" => "always_show", 
 	"image_status" => "ok", 
 	"size" => array(
 		"width" => 100, 

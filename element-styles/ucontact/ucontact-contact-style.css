@@ -2,6 +2,9 @@
     margin: 0;
     margin-bottom: 2px;
 }
+#page .ucontact-contact-style .ucontact-message-container {
+    color: #ffffff;
+}
 #page .ucontact-contact-style .ucontact-input {
     font-size: 15px;
     font-weight: 500;

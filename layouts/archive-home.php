@@ -148,12 +148,12 @@ $services = upfront_create_region(
 "nav_region" => "", 
 "background_color" => "rgba(51,51,51,1)", 
 "background_style" => "fixed", 
-"background_position_y" => "80", 
+"background_position_y" => "59", 
 "background_position_x" => "52", 
 "background_image" => "" . get_stylesheet_directory_uri() . "/images/archive-home/spanner.jpg", 
 "background_image_ratio" => 2.33, 
 "background_repeat" => "no-repeat", 
-"background_position" => "52% 80%"
+"background_position" => "52% 59%"
 )
 			);
 
@@ -200,7 +200,7 @@ $services->add_element("PlainTxt", array(
 "margin_top" => "1", 
 "margin_bottom" => "0", 
 "id" => "module-1412753049856-1341", 
-"rows" => 94, 
+"rows" => 60, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -210,7 +210,7 @@ $services->add_element("PlainTxt", array(
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
-	"row" => 94, 
+	"row" => 60, 
 	"border_style" => "none", 
 	"border_width" => 1, 
 	"border_color" => "", 
@@ -231,16 +231,17 @@ $services->add_element("PlainTxt", array(
 
 $services->add_element("PlainTxt", array(
 "columns" => "6", 
-"margin_left" => "1", 
+"margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "13", 
 "margin_bottom" => "0", 
 "id" => "module-1412753565271-1173", 
-"rows" => 12, 
+"rows" => 11, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h2 style=\"text-align: right;\" class=\"\">Bricklaying &nbsp;<span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">d<br><br></span></h2>", 
+	"content" => "<h2 style=\"text-align: right;\" class=\"\">Bricklaying  <span class=\"uf_font_icon\">d<br>
+</span></h2>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1412753565270-1933", 
 	"class" => "c24 upfront-plain_txt", 
@@ -251,23 +252,58 @@ $services->add_element("PlainTxt", array(
 	"border_color" => "", 
 	"bg_color" => "", 
 	"anchor" => "", 
-	"row" => 12
+	"row" => 11
 	), 
-"wrapper_id" => "wrapper-1412762147176-1712", 
+"wrapper_id" => "wrapper-1416900822536-1508", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 7
+		"col" => 6
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 6
+		)
+	)
+));
+
+$services->add_element("PlainTxt", array(
+"columns" => "6", 
+"margin_left" => "12", 
+"margin_right" => "0", 
+"margin_top" => "14", 
+"margin_bottom" => "0", 
+"id" => "module-1412755741207-1241", 
+"rows" => 12, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<h2 style=\"text-align: start;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">g </span>Fencing</h2>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "object-1412755741208-1512", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
+	"anchor" => "", 
+	"row" => 12
+	), 
+"wrapper_id" => "wrapper-1416900804963-1795", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 18
+		), 
+	"mobile" => array(
+		"col" => 18
 		)
 	)
 ));
 
 $services->add_element("Uimage", array(
 "columns" => "6", 
-"margin_left" => "1", 
+"margin_left" => "0", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
@@ -285,7 +321,7 @@ $services->add_element("Uimage", array(
 	"image_caption" => "My awesome image caption", 
 	"caption_position" => false, 
 	"caption_alignment" => false, 
-	"caption_trigger" => "always_show",  
+	"caption_trigger" => "always_show", 
 	"image_status" => "ok", 
 	"size" => array(
 		"width" => 241, 
@@ -324,115 +360,21 @@ $services->add_element("Uimage", array(
 	"row" => 29, 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1412762147176-1712", 
-"new_line" => "true"
-));
-
-$services->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "1", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1412755116247-1664", 
-"rows" => 21, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\" style=\"text-align: right;\">Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el iusto<br></p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1412755116246-1165", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"row" => 21
-	), 
-"wrapper_id" => "wrapper-1412762147176-1712", 
-"new_line" => "true"
-));
-
-$services->add_element("PlainTxt", array(
-"columns" => "2", 
-"margin_left" => "5", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1412760587600-1860", 
-"rows" => 13, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\" style=\"text-align: right;\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">j<br></span></p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1412760587599-1106", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"row" => 13, 
-	"is_edited" => true
-	), 
-"wrapper_id" => "wrapper-1412762147176-1712", 
-"new_line" => "true"
-));
-
-$services->add_group(array(
-"columns" => "6", 
-"margin_left" => "10", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-group-1412761971988-1727", 
-"rows" => 10, 
-"wrapper_id" => "wrapper-1412762165620-1252", 
+"wrapper_id" => "wrapper-1416900389460-1990", 
+"new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 16
+		"col" => 6
 		), 
 	"mobile" => array(
-		"col" => 16
+		"col" => 6
 		)
 	)
 ));
 
-$services->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1412755741207-1241", 
-"rows" => 12, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<h2 style=\"text-align: start;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">g </span>Fencing</h2>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1412755741208-1512", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "rgba(0, 0, 0, 0)", 
-	"bg_color" => "rgba(0, 0, 0, 0)", 
-	"anchor" => "", 
-	"row" => 12
-	), 
-"wrapper_id" => "wrapper-1412761972225-1478", 
-"new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 2
-		), 
-	"mobile" => array(
-		"col" => 2
-		)
-	), 
-"group" => "module-group-1412761971988-1727"
-));
-
 $services->add_element("Uimage", array(
 "columns" => "6", 
-"margin_left" => "0", 
+"margin_left" => "12", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
@@ -489,9 +431,15 @@ $services->add_element("Uimage", array(
 	"row" => 29, 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1412761972225-1478", 
-"new_line" => "true", 
-"group" => "module-group-1412761971988-1727"
+"wrapper_id" => "wrapper-1416900400259-1519", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 18
+		), 
+	"mobile" => array(
+		"col" => 18
+		)
+	)
 ));
 
 $services->add_element("PlainTxt", array(
@@ -500,8 +448,33 @@ $services->add_element("PlainTxt", array(
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
+"id" => "module-1412755116247-1664", 
+"rows" => 19, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<p class=\"\" style=\"text-align: right;\">
+	Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el iusto<br>
+</p>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "text-object-1412755116246-1165", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"row" => 19
+	), 
+"wrapper_id" => "wrapper-1416901372858-1081", 
+"new_line" => "true"
+));
+
+$services->add_element("PlainTxt", array(
+"columns" => "6", 
+"margin_left" => "12", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
 "id" => "module-1412758674925-1625", 
-"rows" => 21, 
+"rows" => 24, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -511,16 +484,37 @@ $services->add_element("PlainTxt", array(
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
-	"row" => 21
+	"row" => 24
 	), 
-"wrapper_id" => "wrapper-1412761972225-1478", 
-"new_line" => "true", 
-"group" => "module-group-1412761971988-1727"
+"wrapper_id" => "wrapper-1416901378684-1765"
 ));
 
 $services->add_element("PlainTxt", array(
 "columns" => "2", 
-"margin_left" => "0", 
+"margin_left" => "4", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1412760587600-1860", 
+"rows" => 13, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<p class=\"\" style=\"text-align: right;\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">j<br></span></p>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "text-object-1412760587599-1106", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"row" => 13, 
+	"is_edited" => true
+	), 
+"wrapper_id" => "wrapper-1416901416483-1651", 
+"new_line" => "true"
+));
+
+$services->add_element("PlainTxt", array(
+"columns" => "2", 
+"margin_left" => "12", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
@@ -537,16 +531,14 @@ $services->add_element("PlainTxt", array(
 	"row" => 13, 
 	"is_edited" => true
 	), 
-"wrapper_id" => "wrapper-1412761972225-1478", 
-"new_line" => "true", 
-"group" => "module-group-1412761971988-1727"
+"wrapper_id" => "wrapper-1416901423449-1708"
 ));
 
 $services->add_element("PlainTxt", array(
 "columns" => "6", 
-"margin_left" => "1", 
+"margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "19", 
 "margin_bottom" => "0", 
 "id" => "module-1412755312037-1516", 
 "rows" => 9, 
@@ -566,21 +558,40 @@ $services->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"row" => 9
 	), 
-"wrapper_id" => "wrapper-1412761732534-1521", 
-"new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 7
-		), 
-	"mobile" => array(
-		"col" => 7
-		)
-	)
+"wrapper_id" => "wrapper-1416901505442-1576", 
+"new_line" => "true"
+));
+
+$services->add_element("PlainTxt", array(
+"columns" => "6", 
+"margin_left" => "12", 
+"margin_right" => "0", 
+"margin_top" => "22", 
+"margin_bottom" => "0", 
+"id" => "module-1412756687814-1736", 
+"rows" => 11, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<h2 style=\"text-align: start;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">h&nbsp;</span>Windows</h2>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "object-1412756687815-1861", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => "", 
+	"row" => 11
+	), 
+"wrapper_id" => "wrapper-1416901530722-1559"
 ));
 
 $services->add_element("Uimage", array(
 "columns" => "6", 
-"margin_left" => "1", 
+"margin_left" => "0", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
@@ -637,119 +648,13 @@ $services->add_element("Uimage", array(
 	"row" => 29, 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1412761732534-1521", 
+"wrapper_id" => "wrapper-1416901537370-1412", 
 "new_line" => "true"
-));
-
-$services->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "1", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1412758639158-1499", 
-"rows" => 21, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\" style=\"text-align: right;\">Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el iusto<br></p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1412758639158-1230", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"row" => 21, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"anchor" => ""
-	), 
-"wrapper_id" => "wrapper-1412761732534-1521", 
-"new_line" => "true"
-));
-
-$services->add_element("PlainTxt", array(
-"columns" => "2", 
-"margin_left" => "5", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1412761178945-1978", 
-"rows" => 13, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\" style=\"text-align: right;\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">j<br><br><br></span></p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1412761178946-1192", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"row" => 13, 
-	"is_edited" => true
-	), 
-"wrapper_id" => "wrapper-1412761732534-1521", 
-"new_line" => "true"
-));
-
-$services->add_group(array(
-"columns" => "6", 
-"margin_left" => "10", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-group-1412762065369-1462", 
-"rows" => 10, 
-"wrapper_id" => "wrapper-1412762233691-1263", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 16
-		), 
-	"mobile" => array(
-		"col" => 16
-		)
-	)
-));
-
-$services->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1412756687814-1736", 
-"rows" => 11, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<h2 style=\"text-align: start;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">h&nbsp;</span>Windows</h2>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1412756687815-1861", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"anchor" => "", 
-	"row" => 11
-	), 
-"wrapper_id" => "wrapper-1412762065515-1158", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 2
-		), 
-	"mobile" => array(
-		"col" => 2
-		)
-	), 
-"group" => "module-group-1412762065369-1462"
 ));
 
 $services->add_element("Uimage", array(
 "columns" => "6", 
-"margin_left" => "0", 
+"margin_left" => "12", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
@@ -806,13 +711,40 @@ $services->add_element("Uimage", array(
 	"row" => 29, 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1412762065515-1158", 
-"group" => "module-group-1412762065369-1462"
+"wrapper_id" => "wrapper-1416901556206-1438"
 ));
 
 $services->add_element("PlainTxt", array(
 "columns" => "6", 
 "margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1412758639158-1499", 
+"rows" => 21, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<p class=\"\" style=\"text-align: right;\">Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el iusto<br></p>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "object-1412758639158-1230", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"row" => 21, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => ""
+	), 
+"wrapper_id" => "wrapper-1416901593088-1236", 
+"new_line" => "true"
+));
+
+$services->add_element("PlainTxt", array(
+"columns" => "6", 
+"margin_left" => "12", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
@@ -829,13 +761,46 @@ $services->add_element("PlainTxt", array(
 	"is_edited" => true, 
 	"row" => 21
 	), 
-"wrapper_id" => "wrapper-1412762065515-1158", 
-"group" => "module-group-1412762065369-1462"
+"wrapper_id" => "wrapper-1416901605444-1181"
 ));
 
 $services->add_element("PlainTxt", array(
 "columns" => "2", 
-"margin_left" => "0", 
+"margin_left" => "4", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1412761178945-1978", 
+"rows" => 9, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<p class=\"\" style=\"text-align: right;\">
+	<span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">j<br>
+	</span>
+</p>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "object-1412761178946-1192", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"row" => 9, 
+	"is_edited" => true
+	), 
+"wrapper_id" => "wrapper-1416900499414-1166", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 6
+		), 
+	"mobile" => array(
+		"col" => 6
+		)
+	)
+));
+
+$services->add_element("PlainTxt", array(
+"columns" => "2", 
+"margin_left" => "12", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
@@ -852,15 +817,14 @@ $services->add_element("PlainTxt", array(
 	"row" => 13, 
 	"is_edited" => true
 	), 
-"wrapper_id" => "wrapper-1412762065515-1158", 
-"group" => "module-group-1412762065369-1462"
+"wrapper_id" => "wrapper-1416901657585-1141"
 ));
 
 $services->add_element("PlainTxt", array(
 "columns" => "6", 
-"margin_left" => "1", 
+"margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "16", 
 "margin_bottom" => "0", 
 "id" => "module-1412755367541-1095", 
 "rows" => 12, 
@@ -880,23 +844,42 @@ $services->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"row" => 12
 	), 
-"wrapper_id" => "wrapper-1412762208475-1609", 
-"new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 7
-		), 
-	"mobile" => array(
-		"col" => 7
-		)
-	)
+"wrapper_id" => "wrapper-1416901822253-1905", 
+"new_line" => "true"
+));
+
+$services->add_element("PlainTxt", array(
+"columns" => "6", 
+"margin_left" => "12", 
+"margin_right" => "0", 
+"margin_top" => "16", 
+"margin_bottom" => "0", 
+"id" => "module-1412756709190-1593", 
+"rows" => 7, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<h2 style=\"text-align: start;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">i&nbsp;</span>Roofing</h2>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "object-1412756709192-1166", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => "", 
+	"row" => 7
+	), 
+"wrapper_id" => "wrapper-1416901834851-1774"
 ));
 
 $services->add_element("Uimage", array(
 "columns" => "6", 
-"margin_left" => "1", 
+"margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "3", 
 "margin_bottom" => "0", 
 "id" => "module-1412754693141-1172", 
 "rows" => 29, 
@@ -951,116 +934,15 @@ $services->add_element("Uimage", array(
 	"row" => 29, 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1412762208475-1609", 
+"wrapper_id" => "wrapper-1416901744856-1433", 
 "new_line" => "true"
-));
-
-$services->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "1", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1412758653429-1468", 
-"rows" => 21, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\" style=\"text-align: right;\">Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el iusto<br></p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1412758653429-1692", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"row" => 21
-	), 
-"wrapper_id" => "wrapper-1412762208475-1609", 
-"new_line" => "true"
-));
-
-$services->add_element("PlainTxt", array(
-"columns" => "2", 
-"margin_left" => "5", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1412761224708-1423", 
-"rows" => 13, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\" style=\"text-align: right;\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">j<br><br></span></p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1412761224708-1338", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"row" => 13, 
-	"is_edited" => true
-	), 
-"wrapper_id" => "wrapper-1412762208475-1609", 
-"new_line" => "true"
-));
-
-$services->add_group(array(
-"columns" => "6", 
-"margin_left" => "10", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-group-1412762121849-1954", 
-"rows" => 10, 
-"wrapper_id" => "wrapper-1412762244135-1328", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 16
-		), 
-	"mobile" => array(
-		"col" => 16
-		)
-	)
-));
-
-$services->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1412756709190-1593", 
-"rows" => 7, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<h2 style=\"text-align: start;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">i&nbsp;</span>Roofing</h2>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1412756709192-1166", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"anchor" => "", 
-	"row" => 7
-	), 
-"wrapper_id" => "wrapper-1412762121989-1681", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 2
-		), 
-	"mobile" => array(
-		"col" => 2
-		)
-	), 
-"group" => "module-group-1412762121849-1954"
 ));
 
 $services->add_element("Uimage", array(
 "columns" => "6", 
-"margin_left" => "0", 
+"margin_left" => "12", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "3", 
 "margin_bottom" => "0", 
 "id" => "module-1412754737240-1558", 
 "rows" => 29, 
@@ -1115,13 +997,35 @@ $services->add_element("Uimage", array(
 	"row" => 29, 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1412762121989-1681", 
-"group" => "module-group-1412762121849-1954"
+"wrapper_id" => "wrapper-1416901744859-1792"
 ));
 
 $services->add_element("PlainTxt", array(
 "columns" => "6", 
 "margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1412758653429-1468", 
+"rows" => 21, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<p class=\"\" style=\"text-align: right;\">Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el iusto<br></p>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "object-1412758653429-1692", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"row" => 21
+	), 
+"wrapper_id" => "wrapper-1416901744862-1529", 
+"new_line" => "true"
+));
+
+$services->add_element("PlainTxt", array(
+"columns" => "6", 
+"margin_left" => "12", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
@@ -1138,13 +1042,38 @@ $services->add_element("PlainTxt", array(
 	"is_edited" => true, 
 	"row" => 21
 	), 
-"wrapper_id" => "wrapper-1412762121989-1681", 
-"group" => "module-group-1412762121849-1954"
+"wrapper_id" => "wrapper-1416901744864-1753"
 ));
 
 $services->add_element("PlainTxt", array(
 "columns" => "2", 
-"margin_left" => "0", 
+"margin_left" => "4", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1412761224708-1423", 
+"rows" => 13, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<p class=\"\" style=\"text-align: right;\">
+	<span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">j<br>
+	</span>
+</p>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "object-1412761224708-1338", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"row" => 13, 
+	"is_edited" => true
+	), 
+"wrapper_id" => "wrapper-1416901744867-1380", 
+"new_line" => "true"
+));
+
+$services->add_element("PlainTxt", array(
+"columns" => "2", 
+"margin_left" => "12", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
@@ -1161,8 +1090,40 @@ $services->add_element("PlainTxt", array(
 	"row" => 13, 
 	"is_edited" => true
 	), 
-"wrapper_id" => "wrapper-1412762121989-1681", 
-"group" => "module-group-1412762121849-1954"
+"wrapper_id" => "wrapper-1416901744869-1738"
+));
+
+$services->add_element("PlainTxt", array(
+"columns" => "12", 
+"margin_left" => "6", 
+"margin_right" => "0", 
+"margin_top" => "4", 
+"margin_bottom" => "0", 
+"id" => "module-1416900356851-1488", 
+"rows" => 16, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<p>
+	<br>
+</p>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "text-object-1416900356850-1017", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"row" => 16
+	), 
+"wrapper_id" => "wrapper-1416900747782-1547", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 18
+		), 
+	"mobile" => array(
+		"col" => 18
+		)
+	)
 ));
 
 $regions->add($services);
