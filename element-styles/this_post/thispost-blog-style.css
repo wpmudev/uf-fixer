@@ -49,6 +49,7 @@
 #page .thispost-blog-style .post_content {
     line-height: 1.5em;
     font-size: 15px;
+    padding: 0 15px;
 }
 #page .thispost-blog-style .post_content a {
     color: #5ebf6b;
