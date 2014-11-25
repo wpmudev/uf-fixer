@@ -1836,7 +1836,7 @@ $subscribe->add_element("Button", array(
 "rows" => 15, 
 "options" => array(
 	"content" => "View blog", 
-	"href" => "#", 
+	"href" => "" . get_site_url() . "/blog", 
 	"align" => "center", 
 	"type" => "ButtonModel", 
 	"view_class" => "ButtonView", 
@@ -1846,7 +1846,8 @@ $subscribe->add_element("Button", array(
 	"id_slug" => "button", 
 	"currentpreset" => "black-borders-button", 
 	"theme_style" => "black-borders-button-extra", 
-	"row" => 15
+	"row" => 15, 
+	"is_edited" => true
 	), 
 "wrapper_id" => "wrapper-1412849849778-1976", 
 "wrapper_breakpoint" => array(
