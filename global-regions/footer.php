@@ -98,7 +98,9 @@ $footer->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">u00a9 2oo6-2014 Fixer Pty Ltd</span></p>", 
+	"content" => "<p class=\"\">
+	<span class=\"inline_color\"><font color=\"#ffffff\">©</font></span><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"> 2oo6-2014 Fixer Pty Ltd</span>
+</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406217940549-1478", 
 	"class" => "c24 upfront-plain_txt", 
