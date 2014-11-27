@@ -2339,7 +2339,7 @@ $prefooter = upfront_create_region(
 "allow_sidebar" => true
 ),
 			array(
-"row" => 42, 
+"row" => 47, 
 "background_type" => "color", 
 "nav_region" => "", 
 "background_color" => "rgba(51,51,51,1)"
