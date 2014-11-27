@@ -20,7 +20,7 @@ $slider = upfront_create_region(
 "background_slider_rotate_time" => 5, 
 "background_slider_control" => "always", 
 "background_slider_transition" => "crossfade", 
-"background_slider_images" => array("/images/84352670968831146411694289353237023724289312097214571300161310210157slider-a (1).jpg", "/images/16816618196801264110063292361709134451446431157160872893246319170slider-b (1).jpg", "/images/184738591116117542324761033318564362160571031419681117101647628275slider-c (1).jpg", "/images/26542225202415812615153331377818041321231715025531312383615803716688slider-d (1).jpg", "/images/2286313521575198283039457954030604067518408309199580215624521slider-e (1).jpg")
+"background_slider_images" => array("/images/slider-a.jpg", "/images/slider-b.jpg", "/images/slider-c.jpg", "/images/slider-d.jpg", "/images/slider-e.jpg")
 )
 			);
 
