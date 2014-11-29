@@ -130,6 +130,8 @@ $slider->add_element("Button", array(
 	)
 ));
 
+if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'lightboxes' . DIRECTORY_SEPARATOR . 'lightbox.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'lightboxes' . DIRECTORY_SEPARATOR . 'lightbox.php');
+if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'lightboxes' . DIRECTORY_SEPARATOR . '.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'lightboxes' . DIRECTORY_SEPARATOR . '.php');
 $regions->add($slider);
 
 $services = upfront_create_region(
@@ -1766,7 +1768,7 @@ $subscribe->add_element("Button", array(
 "rows" => 15, 
 "options" => array(
 	"content" => "Subscribe", 
-	"href" => "#", 
+	"href" => "#ltb-subscribe15", 
 	"align" => "center", 
 	"type" => "ButtonModel", 
 	"view_class" => "ButtonView", 
@@ -1776,7 +1778,8 @@ $subscribe->add_element("Button", array(
 	"id_slug" => "button", 
 	"currentpreset" => "black-borders-button", 
 	"theme_style" => "black-borders-button-extra", 
-	"row" => 15
+	"row" => 15, 
+	"is_edited" => true
 	), 
 "wrapper_id" => "wrapper-1412849840312-1624", 
 "wrapper_breakpoint" => array(
@@ -1823,6 +1826,9 @@ $subscribe->add_element("Button", array(
 	)
 ));
 
+if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'lightboxes' . DIRECTORY_SEPARATOR . 'lightbox.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'lightboxes' . DIRECTORY_SEPARATOR . 'lightbox.php');
+if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'lightboxes' . DIRECTORY_SEPARATOR . 'ltb-subscribe15.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'lightboxes' . DIRECTORY_SEPARATOR . 'ltb-subscribe15.php');
+if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'lightboxes' . DIRECTORY_SEPARATOR . '.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'lightboxes' . DIRECTORY_SEPARATOR . '.php');
 $regions->add($subscribe);
 
 $about = upfront_create_region(
@@ -2361,23 +2367,23 @@ $prefooter->add_element("Unewnavigation", array(
 	"has_settings" => 1, 
 	"id_slug" => "unewnavigation", 
 	"menu_items" => array(array(
-			"menu-item-db-id" => 19, 
+			"menu-item-db-id" => 13, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Cases", 
 			"menu-item-url" => "" . get_site_url() . "/cases/", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "19", 
+			"menu-item-object-id" => "13", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 1
 			), array(
-			"menu-item-db-id" => 20, 
+			"menu-item-db-id" => 14, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Archive", 
 			"menu-item-url" => "" . get_site_url() . "/?s=", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "20", 
+			"menu-item-object-id" => "14", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 2
 			)), 
