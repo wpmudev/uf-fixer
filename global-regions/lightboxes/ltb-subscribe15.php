@@ -18,7 +18,15 @@ $ltb_subscribe15 = upfront_create_region(
 "overlay_color" => "rgba(38,58,77,0.75)", 
 "lightbox_color" => "rgb(255, 226, 98)", 
 "background_type" => "", 
-"delete" => false
+"delete" => false, 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => false
+		)
+	)
 )
 			);
 
@@ -57,10 +65,22 @@ $ltb_subscribe15->add_element("Ucontact", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 10
 		), 
 	"mobile" => array(
-		"col" => 9
+		"col" => 7
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 2, 
+		"col" => 8
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
 		)
 	)
 ));

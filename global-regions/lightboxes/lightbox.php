@@ -9,7 +9,16 @@ $lightbox = upfront_create_region(
 "position" => 1, 
 "allow_sidebar" => true
 ),
-			array()
+			array(
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => false
+		)
+	)
+)
 			);
 
 $regions->add($lightbox);

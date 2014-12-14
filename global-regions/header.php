@@ -13,7 +13,15 @@ $header = upfront_create_region(
 "row" => 24, 
 "background_type" => "color", 
 "nav_region" => "", 
-"background_color" => "rgba(255,255,255,0)"
+"background_color" => "rgba(255,255,255,0)", 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => false
+		)
+	)
 )
 			);
 
@@ -81,10 +89,22 @@ $header->add_element("Uimage", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
+		"col" => 8
+		), 
+	"mobile" => array(
+		"col" => 6
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 4, 
 		"col" => 4
 		), 
 	"mobile" => array(
-		"col" => 4
+		"edited" => false, 
+		"left" => 1, 
+		"col" => 5
 		)
 	)
 ));
@@ -108,7 +128,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Service", 
-			"menu-item-url" => "" . get_site_url() . "/#services", 
+			"menu-item-url" => "#service", 
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "8", 
 			"menu-item-target" => "", 
@@ -118,7 +138,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Get a Quote", 
-			"menu-item-url" => "" . get_site_url() . "/#quote", 
+			"menu-item-url" => "#getquote", 
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "9", 
 			"menu-item-target" => "", 
@@ -128,7 +148,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Blog", 
-			"menu-item-url" => "" . get_site_url() . "/#blog", 
+			"menu-item-url" => "#blog", 
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "10", 
 			"menu-item-target" => "", 
@@ -138,7 +158,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "About", 
-			"menu-item-url" => "" . get_site_url() . "/#about", 
+			"menu-item-url" => "#about", 
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "11", 
 			"menu-item-target" => "", 
@@ -147,8 +167,8 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-db-id" => 12, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
-			"menu-item-title" => "Coverage Area", 
-			"menu-item-url" => "" . get_site_url() . "/#coverage", 
+			"menu-item-title" => "Coverage Area Hi hi", 
+			"menu-item-url" => "http://#coveragearea", 
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "12", 
 			"menu-item-target" => "", 
@@ -180,10 +200,22 @@ $header->add_element("Unewnavigation", array(
 "wrapper_id" => "wrapper-1405520756070-1345", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 15
+		"col" => 12
 		), 
 	"mobile" => array(
-		"col" => 15
+		"col" => 7
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 12
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
 		)
 	)
 ));
@@ -216,9 +248,21 @@ $header->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1413616950784-1849", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 5
+		"col" => 9
 		), 
 	"mobile" => array(
+		"col" => 6
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 3, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 1, 
 		"col" => 5
 		)
 	)

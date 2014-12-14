@@ -14,7 +14,15 @@ $footer = upfront_create_region(
 "background_type" => "color", 
 "nav_region" => "", 
 "background_color" => "rgba(44,44,44,1)", 
-"expand_lock" => false
+"expand_lock" => false, 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => false
+		)
+	)
 )
 			);
 
@@ -79,9 +87,21 @@ $footer->add_element("Uimage", array(
 "wrapper_id" => "wrapper-1406217409056-1339", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
+		"col" => 4
+		), 
+	"mobile" => array(
+		"col" => 5
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 1, 
 		"col" => 3
 		), 
 	"mobile" => array(
+		"edited" => false, 
+		"left" => 2, 
 		"col" => 3
 		)
 	)
@@ -120,7 +140,19 @@ $footer->add_element("PlainTxt", array(
 		"col" => 6
 		), 
 	"mobile" => array(
+		"col" => 7
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
 		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
 		)
 	)
 ));
@@ -153,10 +185,22 @@ $footer->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1406218508045-1635", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 11
+		"col" => 10
 		), 
 	"mobile" => array(
-		"col" => 11
+		"col" => 7
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 2, 
+		"col" => 8
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
 		)
 	)
 ));
@@ -189,10 +233,22 @@ $footer->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1406218404636-1484", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
+		"col" => 8
+		), 
+	"mobile" => array(
+		"col" => 5
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 4, 
 		"col" => 4
 		), 
 	"mobile" => array(
-		"col" => 4
+		"edited" => false, 
+		"left" => 2, 
+		"col" => 3
 		)
 	)
 ));
