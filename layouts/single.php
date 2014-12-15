@@ -15,7 +15,15 @@ $blog_individual = upfront_create_region(
 "row" => 140, 
 "background_type" => "color", 
 "background_color" => "rgba(255,255,255,1)", 
-"nav_region" => ""
+"nav_region" => "", 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => false
+		)
+	)
 )
 			);
 
@@ -42,10 +50,22 @@ $blog_individual->add_element("PlainTxt", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 24
+		"col" => 12
 		), 
 	"mobile" => array(
-		"col" => 24
+		"col" => 7
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 12
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
 		)
 	)
 ));
@@ -95,10 +115,22 @@ $blog_individual->add_element("ThisPost", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 24
+		"col" => 12
 		), 
 	"mobile" => array(
-		"col" => 24
+		"col" => 7
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 12
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
 		)
 	)
 ));
@@ -124,10 +156,22 @@ $blog_individual->add_element("Ucomment", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 24
+		"col" => 12
 		), 
 	"mobile" => array(
-		"col" => 24
+		"col" => 7
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 12
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
 		)
 	)
 ));
@@ -148,7 +192,15 @@ $prefooter = upfront_create_region(
 "row" => 47, 
 "background_type" => "color", 
 "nav_region" => "", 
-"background_color" => "rgba(51,51,51,1)"
+"background_color" => "rgba(51,51,51,1)", 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => false
+		)
+	)
 )
 			);
 
@@ -167,23 +219,23 @@ $prefooter->add_element("Unewnavigation", array(
 	"has_settings" => 1, 
 	"id_slug" => "unewnavigation", 
 	"menu_items" => array(array(
-			"menu-item-db-id" => 19, 
+			"menu-item-db-id" => 955, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Cases", 
 			"menu-item-url" => "" . get_site_url() . "/cases/", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "19", 
+			"menu-item-object-id" => "955", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 1
 			), array(
-			"menu-item-db-id" => 20, 
+			"menu-item-db-id" => 956, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Archive", 
 			"menu-item-url" => "" . get_site_url() . "/?s=", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "20", 
+			"menu-item-object-id" => "956", 
 			"menu-item-target" => "", 
 			"menu-item-position" => 2
 			)), 
@@ -213,10 +265,22 @@ $prefooter->add_element("Unewnavigation", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 24
+		"col" => 12
 		), 
 	"mobile" => array(
-		"col" => 24
+		"col" => 7
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 12
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
 		)
 	)
 ));
@@ -250,10 +314,22 @@ $prefooter->add_element("PlainTxt", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
+		"col" => 11
+		), 
+	"mobile" => array(
+		"col" => 7
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 1, 
 		"col" => 10
 		), 
 	"mobile" => array(
-		"col" => 10
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
 		)
 	)
 ));
@@ -291,10 +367,22 @@ $prefooter->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1416975128597-1981", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 6
+		"col" => 9
 		), 
 	"mobile" => array(
 		"col" => 6
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 3, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 1, 
+		"col" => 5
 		)
 	)
 ));
@@ -332,10 +420,22 @@ $prefooter->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1416975139250-1288", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
+		"col" => 10
+		), 
+	"mobile" => array(
+		"col" => 7
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 2, 
 		"col" => 8
 		), 
 	"mobile" => array(
-		"col" => 8
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
 		)
 	)
 ));

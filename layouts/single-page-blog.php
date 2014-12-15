@@ -31,7 +31,7 @@ $main->add_element("PlainTxt", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "4", 
+"margin_top" => "9", 
 "margin_bottom" => "0", 
 "id" => "module-1407244369178-1770-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
 "rows" => 12, 

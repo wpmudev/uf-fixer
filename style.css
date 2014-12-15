@@ -29,3 +29,6 @@ Template: upfront
     position: relative;
     text-decoration: none !important;
 }
+.upfront-output-PostPart_update{
+    float: right;
+}
