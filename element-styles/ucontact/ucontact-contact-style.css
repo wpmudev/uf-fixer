@@ -2,6 +2,9 @@
     margin: 0;
     margin-bottom: 2px;
 }
+#page .ucontact-contact-style .upfront-field-container label {
+    display:none;
+}
 #page .ucontact-contact-style .ucontact-message-container {
     color: #ffffff;
 }
@@ -11,16 +14,17 @@
 }
 #page .ucontact-contact-style .ucontact-input {
     border: none;
-    line-height: 1em;
+    line-height: 1.3em;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 5%;
     padding-right: 5%;
     width: 100%;
+    color:#333333;
 }
 #page .ucontact-contact-style .textarea-field {
     resize: none;
-    height: 10em;
+    height: 195px;
 }
 #page .ucontact-contact-style .submit-field {
     text-transform: uppercase;

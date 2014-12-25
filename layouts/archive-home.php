@@ -43,7 +43,8 @@ $slider->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h1 style=\"text-align: right;\" class=\"\">We Build<br>And Fix</h1>", 
+	"content" => "<h1 class=\"\" style=\"text-align: right;\">We Build<br>
+And Fix</h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405538329122-1842", 
 	"class" => "c24 upfront-plain_txt", 
@@ -53,7 +54,7 @@ $slider->add_element("PlainTxt", array(
 	"border_width" => "0", 
 	"border_color" => "", 
 	"bg_color" => "", 
-	"theme_style" => "_default", 
+	"theme_style" => "home-slideshow-text", 
 	"anchor" => "", 
 	"row" => 54
 	), 
@@ -268,7 +269,8 @@ $services->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h1 style=\"text-align: center;\" class=\"\">Premier<br>Service &amp; Quality</h1>", 
+	"content" => "<h1 style=\"text-align: center;\" class=\"\">Premier<br>
+Service &amp; Quality</h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1412753049855-1267", 
 	"class" => "c24 upfront-plain_txt", 
@@ -1661,7 +1663,7 @@ $quote->add_element("Ucontact", array(
 "columns" => "8", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "13", 
+"margin_top" => "1", 
 "margin_bottom" => "0", 
 "id" => "module-1413175385317-1417", 
 "rows" => 87, 
@@ -1966,7 +1968,7 @@ $blog_header = upfront_create_region(
 "allow_sidebar" => true
 ),
 			array(
-"row" => 106, 
+"row" => 117, 
 "background_type" => "image", 
 "nav_region" => "", 
 "background_color" => "#ffffff", 
@@ -2055,7 +2057,7 @@ $blog_header->add_element("PlainTxt", array(
 	"border_width" => 1, 
 	"border_color" => "rgba(0, 0, 0, 0)", 
 	"bg_color" => "rgba(0, 0, 0, 0)", 
-	"theme_style" => "", 
+	"theme_style" => "h1-white-heading", 
 	"anchor" => "", 
 	"row" => 85
 	), 
@@ -2111,33 +2113,33 @@ $blog_items = upfront_create_region(
 )
 			);
 
-$blog_items->add_element("Uposts", array(
+$blog_items->add_element("Posts", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1413385026013-1697", 
-"rows" => 75, 
+"id" => "module-1419155622479-1636", 
+"rows" => 42, 
 "options" => array(
-	"type" => "UpostsModel", 
-	"view_class" => "UpostsView", 
+	"type" => "PostsModel", 
+	"view_class" => "PostsView", 
 	"has_settings" => 1, 
 	"class" => "c24 uposts-object", 
-	"id_slug" => "uposts", 
-	"display_type" => "", 
+	"id_slug" => "posts", 
+	"display_type" => "list", 
 	"list_type" => "generic", 
 	"offset" => 1, 
 	"taxonomy" => "", 
 	"term" => "", 
 	"content" => "excerpt", 
 	"limit" => "3", 
-	"pagination" => 0, 
+	"pagination" => "", 
 	"posts_list" => "", 
-	"post_parts" => array("date_posted", "author", "gravatar", "comment_count", "featured_image", "title", "content", "read_more", "tags", "categories"), 
-	"enabled_post_parts" => array("date_posted", "author", "gravatar", "comment_count", "featured_image", "title", "content", "read_more", "tags", "categories"), 
+	"post_parts" => array("featured_image", "date_posted", "title", "content", "read_more"), 
+	"enabled_post_parts" => array("date_posted", "featured_image", "title", "content", "read_more"), 
 	"default_parts" => array("date_posted", "author", "gravatar", "comment_count", "featured_image", "title", "content", "read_more", "tags", "categories"), 
-	"date_posted_format" => "F j, Y g:i a", 
+	"date_posted_format" => "d M", 
 	"categories_limit" => 3, 
 	"tags_limit" => 3, 
 	"comment_count_hide" => 0, 
@@ -2145,7 +2147,8 @@ $blog_items->add_element("Uposts", array(
 	"resize_featured" => "1", 
 	"gravatar_size" => 200, 
 	"post-part-date_posted" => "<div class=\"uposts-part date_posted\">
-	Posted on <span class=\"date\">{{date_1}}</span>, at <span class=\"time\">{{date_2}}</span></div>", 
+    <span class=\"day\">{{date_1}}</span><span class=\"month\">{{date_2}}</span>
+</div>", 
 	"post-part-author" => "<div class=\"uposts-part author\">
 	By <a href=\"{{url}}\">{{name}}</a></div>", 
 	"post-part-gravatar" => "<div class=\"uposts-part gravatar\">
@@ -2164,56 +2167,26 @@ $blog_items->add_element("Uposts", array(
 	{{content}}
 </div>", 
 	"post-part-read_more" => "<div class=\"uposts-part read_more\">
-	<a href=\"{{permalink}}\">Read more</a></div>", 
+	<a class='uf_font_icon' href=\"{{permalink}}\">j</a></div>", 
 	"post-part-tags" => "<div class=\"uposts-part post_tags\">
 	{{tags}}
 </div>", 
 	"post-part-categories" => "<div class=\"uposts-part post_categories\">
 	{{categories}}
 </div>", 
-	"post_type" => "post", 
-	"content_type" => "excerpt", 
-	"featured_image" => 1, 
-	"prev" => "Next Page »", 
-	"next" => "", 
-	"post_data" => array("author", "date", "comments_count", "featured_image"), 
-	"postLayout" => array(array(
-			"classes" => "c24 clr", 
-			"objects" => array(array(
-					"slug" => "title", 
-					"classes" => "post-part 24"
-					))
-			), array(
-			"classes" => "c24 clr", 
-			"objects" => array(array(
-					"slug" => "date", 
-					"classes" => " post-part c24"
-					))
-			), array(
-			"classes" => "c24 clr", 
-			"objects" => array(array(
-					"slug" => "contents", 
-					"classes" => " post-part c24"
-					))
-			)), 
-	"partOptions" => array(
-		"featured_image" => array(
-			"height" => 100
-			)
-		), 
-	"element_id" => "uposts-object-1413385026001-1109", 
-	"order" => "date", 
-	"direction" => "DESC", 
+	"element_id" => "posts-object-1419155622476-1899", 
 	"anchor" => "", 
-	"theme_style" => "uposts-mainpage-style"
+	"theme_style" => "home-latest-posts"
 	), 
-"wrapper_id" => "wrapper-1413385931834-1777", 
+"wrapper_id" => "wrapper-1419155636060-1682", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
+		"edited" => false, 
 		"col" => 12
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 7
 		)
 	), 
@@ -2394,6 +2367,8 @@ $subscribe->add_element("Button", array(
 	)
 ));
 
+if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'lightboxes' . DIRECTORY_SEPARATOR . 'lightbox.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'lightboxes' . DIRECTORY_SEPARATOR . 'lightbox.php');
+if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'lightboxes' . DIRECTORY_SEPARATOR . 'ltb-subscribe15.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'lightboxes' . DIRECTORY_SEPARATOR . 'ltb-subscribe15.php');
 $regions->add($subscribe);
 
 $about = upfront_create_region(
@@ -2477,7 +2452,7 @@ $about->add_element("PlainTxt", array(
 "margin_top" => "3", 
 "margin_bottom" => "0", 
 "id" => "module-1412782860297-1472", 
-"rows" => 46, 
+"rows" => 26, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -2487,7 +2462,12 @@ $about->add_element("PlainTxt", array(
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
-	"row" => 46
+	"row" => 26, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1412782911949-1922", 
 "new_line" => "true", 
@@ -2803,6 +2783,149 @@ display:none;
 	)
 ));
 
+$about->add_element("PlainTxt", array(
+"columns" => "2", 
+"margin_left" => "11", 
+"margin_top" => "0", 
+"id" => "module-1419534285539-1212", 
+"rows" => 8, 
+"options" => array(
+	"content" => "<p class=\"\" style=\"text-align: center;font-size: 18px;font-weight: bold;font-family: tahoma;\">
+	_____
+</p>", 
+	"type" => "PlainTxtModel", 
+	"view_class" => "PlainTxtView", 
+	"element_id" => "text-object-1419534285538-1065", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"id_slug" => "plain_text", 
+	"is_edited" => true, 
+	"row" => 8, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => "", 
+	"theme_style" => "big-dash"
+	), 
+"wrapper_id" => "wrapper-1419534513921-1553", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 7
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 5
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 5, 
+		"col" => 2
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 2, 
+		"col" => 3
+		)
+	)
+));
+
+$about->add_element("PlainTxt", array(
+"columns" => "17", 
+"margin_left" => "3", 
+"id" => "module-1419529925442-1585", 
+"rows" => 45, 
+"options" => array(
+	"content" => "<p class=\"\">
+	 When arriving to live in Brisbane over four years ago, and not knowing any tradesmen in the area, when needing a Plumber, I phoned Fixer. Over that time, any job needed doing, has been carried out quickly and professionally. The workmanship is excellent and I have found the work to be very cost effective. Suggestions were made with a certain job and I am very thrilled with the outcome. I would recommend Fixer to anyone in the future.
+	<br>
+</p>", 
+	"type" => "PlainTxtModel", 
+	"view_class" => "PlainTxtView", 
+	"element_id" => "text-object-1419529925441-1374", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"id_slug" => "plain_text", 
+	"row" => 45, 
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => "", 
+	"theme_style" => "mr-bob-quote"
+	), 
+"wrapper_id" => "wrapper-1419533894982-1674", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 12
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 7
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 12
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		)
+	)
+));
+
+$about->add_element("PlainTxt", array(
+"columns" => "11", 
+"margin_left" => "3", 
+"id" => "module-1419533895354-1818", 
+"rows" => 15, 
+"options" => array(
+	"content" => "<h5>Mr Bob Woody</h5>", 
+	"type" => "PlainTxtModel", 
+	"view_class" => "PlainTxtView", 
+	"element_id" => "text-object-1419533895354-1909", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"id_slug" => "plain_text", 
+	"is_edited" => true
+	), 
+"wrapper_id" => "wrapper-1419534285175-1008", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 12
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 7
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 12
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		)
+	)
+));
+
 $regions->add($about);
 
 $coverage = upfront_create_region(
@@ -2819,7 +2942,7 @@ $coverage = upfront_create_region(
 "row" => 60, 
 "background_type" => "color", 
 "nav_region" => "", 
-"background_color" => "#ffffff", 
+"background_color" => "rgba(100,81,145,1)", 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false
@@ -2835,7 +2958,7 @@ $coverage->add_element("PlainTxt", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "6", 
 "margin_bottom" => "0", 
 "id" => "module-1414410356937-1690", 
 "rows" => 17, 
@@ -2883,7 +3006,7 @@ $coverage->add_element("PlainTxt", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "2", 
+"margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1406200069453-1687", 
 "rows" => 91, 
@@ -2901,7 +3024,7 @@ $coverage->add_element("PlainTxt", array(
 	"border_width" => 1, 
 	"border_color" => "rgba(0, 0, 0, 0)", 
 	"bg_color" => "rgba(0, 0, 0, 0)", 
-	"theme_style" => "plaintext-text-25-lineheight", 
+	"theme_style" => "coverage-area-heading", 
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1406200069453-1687", 
@@ -3021,7 +3144,7 @@ $contact->add_element("Ucontact", array(
 "options" => array(
 	"form_add_title" => array(), 
 	"form_title" => "Contact form", 
-	"form_name_label" => "Name", 
+	"form_name_label" => "Name ", 
 	"form_email_label" => "Phone Number", 
 	"form_email_to" => "samnajian@gmail.com", 
 	"show_subject" => array(), 
@@ -3070,7 +3193,7 @@ $regions->add($contact);
 $prefooter = upfront_create_region(
 			array(
 "name" => "prefooter", 
-"title" => "Pre-footer", 
+"title" => "Pre-Footer", 
 "type" => "wide", 
 "scope" => "local", 
 "container" => "prefooter", 
@@ -3093,92 +3216,11 @@ $prefooter = upfront_create_region(
 )
 			);
 
-$prefooter->add_element("Unewnavigation", array(
-"columns" => "24", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1416972431475-1431", 
-"rows" => 8, 
-"options" => array(
-	"type" => "UnewnavigationModel", 
-	"view_class" => "UnewnavigationView", 
-	"class" => "c24 upfront-navigation", 
-	"has_settings" => 1, 
-	"id_slug" => "unewnavigation", 
-	"menu_items" => array(array(
-			"menu-item-db-id" => 955, 
-			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "custom", 
-			"menu-item-title" => "Cases", 
-			"menu-item-url" => "" . get_site_url() . "/cases/", 
-			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "955", 
-			"menu-item-target" => "", 
-			"menu-item-position" => 1
-			), array(
-			"menu-item-db-id" => 956, 
-			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "custom", 
-			"menu-item-title" => "Archive", 
-			"menu-item-url" => "" . get_site_url() . "/?s=", 
-			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "956", 
-			"menu-item-target" => "", 
-			"menu-item-position" => 2
-			)), 
-	"menu_style" => "horizontal", 
-	"menu_alignment" => "center", 
-	"allow_sub_nav" => array("no"), 
-	"allow_new_pages" => array(), 
-	"element_id" => "unewnavigation-object-1416972431472-1163", 
-	"initialized" => false, 
-	"menu_id" => false, 
-	"menu_slug" => "footer-fixer-menu", 
-	"row" => 8, 
-	"burger_menu" => array(), 
-	"burger_alignment" => "left", 
-	"burger_over" => "over", 
-	"is_floating" => array(), 
-	"anchor" => "", 
-	"breakpoint" => array(
-		"desktop" => array(
-			"burger_alignment" => "left", 
-			"burger_over" => "over", 
-			"width" => 1080
-			)
-		)
-	), 
-"wrapper_id" => "wrapper-1416975107785-1935", 
-"new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 12
-		), 
-	"mobile" => array(
-		"col" => 7
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 12
-		), 
-	"mobile" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 7
-		)
-	)
-));
-
 $prefooter->add_element("PlainTxt", array(
 "columns" => "9", 
 "margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "4", 
+"margin_top" => "12", 
 "margin_bottom" => "0", 
 "id" => "module-1406205224243-1651", 
 "rows" => 24, 
@@ -3209,13 +3251,15 @@ $prefooter->add_element("PlainTxt", array(
 	"anchor" => "", 
 	"row" => 24
 	), 
-"wrapper_id" => "wrapper-1416975107801-1075", 
+"wrapper_id" => "wrapper-1419232674063-1998", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
+		"edited" => false, 
 		"col" => 11
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 7
 		)
 	), 
@@ -3237,7 +3281,7 @@ $prefooter->add_element("PlainTxt", array(
 "columns" => "5", 
 "margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "8", 
 "margin_bottom" => "0", 
 "id" => "module-1406209692911-1852", 
 "rows" => 16, 
@@ -3263,12 +3307,14 @@ $prefooter->add_element("PlainTxt", array(
 		}
 	"
 	), 
-"wrapper_id" => "wrapper-1416975128597-1981", 
+"wrapper_id" => "wrapper-1419232674066-1955", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
+		"edited" => false, 
 		"col" => 9
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 6
 		)
 	), 
@@ -3290,7 +3336,7 @@ $prefooter->add_element("PlainTxt", array(
 "columns" => "7", 
 "margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "1", 
+"margin_top" => "9", 
 "margin_bottom" => "0", 
 "id" => "module-1406210660792-1159", 
 "rows" => 25, 
@@ -3316,7 +3362,218 @@ $prefooter->add_element("PlainTxt", array(
 		}
 	"
 	), 
-"wrapper_id" => "wrapper-1416975139250-1288", 
+"wrapper_id" => "wrapper-1419232674067-1067", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 10
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 7
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 2, 
+		"col" => 8
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		)
+	)
+));
+
+$regions->add($prefooter);
+
+$footer = upfront_create_region(
+			array(
+"name" => "footer", 
+"title" => "Footer", 
+"type" => "wide", 
+"scope" => "local", 
+"container" => "footer", 
+"position" => 1, 
+"allow_sidebar" => true
+),
+			array(
+"row" => 9, 
+"background_type" => "color", 
+"nav_region" => "", 
+"background_color" => "rgba(44,44,44,1)", 
+"expand_lock" => false, 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => false
+		)
+	)
+)
+			);
+
+$footer->add_element("Uimage", array(
+"columns" => "3", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1406217409056-1339", 
+"rows" => 10, 
+"options" => array(
+	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fixer-logo-white-100x20-3868-100x20-8648.png", 
+	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fixer-logo-white-100x20-3868.png", 
+	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fixer-logo-white-100x20-3868.png", 
+	"image_title" => "", 
+	"alternative_text" => "", 
+	"when_clicked" => false, 
+	"image_link" => "", 
+	"include_image_caption" => false, 
+	"image_caption" => "My awesome image caption", 
+	"caption_position" => false, 
+	"caption_alignment" => false, 
+	"caption_trigger" => "always_show", 
+	"image_status" => "ok", 
+	"size" => array(
+		"width" => 100, 
+		"height" => 20
+		), 
+	"fullSize" => array(
+		"width" => 100, 
+		"height" => 20
+		), 
+	"position" => array(
+		"top" => 0, 
+		"left" => -2.5
+		), 
+	"marginTop" => 0, 
+	"element_size" => array(
+		"width" => 105, 
+		"height" => 20
+		), 
+	"rotation" => 0, 
+	"color" => "#ffffff", 
+	"background" => "#000000", 
+	"captionBackground" => "0", 
+	"image_id" => "1021", 
+	"align" => "center", 
+	"stretch" => false, 
+	"vstretch" => true, 
+	"quick_swap" => false, 
+	"gifImage" => 0, 
+	"placeholder_class" => "", 
+	"type" => "UimageModel", 
+	"view_class" => "UimageView", 
+	"has_settings" => 1, 
+	"class" => "c24 upfront-image", 
+	"id_slug" => "image", 
+	"element_id" => "image-1406217409054-1200", 
+	"row" => 4, 
+	"anchor" => ""
+	), 
+"wrapper_id" => "wrapper-1406217409056-1339", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 4
+		), 
+	"mobile" => array(
+		"col" => 5
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 1, 
+		"col" => 3
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 2, 
+		"col" => 3
+		)
+	)
+));
+
+$footer->add_element("PlainTxt", array(
+"columns" => "6", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1406217940549-1616", 
+"rows" => 12, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<p class=\"\">
+	<span class=\"inline_color\"><font color=\"#ffffff\">©</font></span><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"> 2oo6-2014 Fixer Pty Ltd</span>
+</p>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "text-object-1406217940549-1478", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"row" => 6, 
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"theme_style" => "plaintext-footer", 
+	"anchor" => ""
+	), 
+"wrapper_id" => "wrapper-1406217940549-1616", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 6
+		), 
+	"mobile" => array(
+		"col" => 7
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		)
+	)
+));
+
+$footer->add_element("PlainTxt", array(
+"columns" => "7", 
+"margin_left" => "4", 
+"margin_right" => "0", 
+"margin_top" => "1", 
+"margin_bottom" => "0", 
+"id" => "module-1406218508045-1635", 
+"rows" => 12, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<p class=\"\" style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">ABN - 58 121 227 072</span></p>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "object-1406218508045-1484", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"row" => 6, 
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"theme_style" => "plaintext-footer", 
+	"anchor" => ""
+	), 
+"wrapper_id" => "wrapper-1406218508045-1635", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 10
@@ -3339,7 +3596,53 @@ $prefooter->add_element("PlainTxt", array(
 	)
 ));
 
-$regions->add($prefooter);
+$footer->add_element("PlainTxt", array(
+"columns" => "3", 
+"margin_left" => "1", 
+"margin_right" => "0", 
+"margin_top" => "1", 
+"margin_bottom" => "0", 
+"id" => "module-1406218404636-1484", 
+"rows" => 8, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">TOU &amp; Privary</span></p>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "text-object-1406218404628-1646", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"row" => 2, 
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"theme_style" => "plaintext-footer", 
+	"anchor" => ""
+	), 
+"wrapper_id" => "wrapper-1406218404636-1484", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 8
+		), 
+	"mobile" => array(
+		"col" => 5
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 4, 
+		"col" => 4
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 2, 
+		"col" => 3
+		)
+	)
+));
 
-if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
+$regions->add($footer);
 

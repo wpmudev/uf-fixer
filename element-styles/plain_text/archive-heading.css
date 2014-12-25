@@ -1,5 +1,3 @@
-
-
-#page .archive-heading .upfront-plain_txt h1{
-   margin:0;
+#page .archive-heading h1 {
+    line-height:110px;
 }

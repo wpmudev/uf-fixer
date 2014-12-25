@@ -10,7 +10,7 @@
     line-height: 20px;
 }
 #page .usearch-archive-style button.search-button {
-    background: #A4D0DC;
+    background: #a4d0dc;
     position: relative;
     float:left;
     border:none;
@@ -21,7 +21,7 @@
 }
 #page .usearch-archive-style button.search-button::after {
     content: "";
-    background: url("/fixer2/wp-content/themes/uf-fixer/ui/search-icon.png");
+    background:url("/wp-content/themes/uf-fixer/ui/search-icon.png");
     display: block;
     position: absolute;
     width: 24px;

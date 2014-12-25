@@ -2,9 +2,13 @@
     margin: 0;
     margin-bottom: 2px;
 }
+#page .ucontact-quote-style .upfront-field-container label {
+    display:none;
+}
 #page .ucontact-quote-style .ucontact-input {
     font-size: 15px;
     font-weight: 500;
+    color:#333;
 }
 #page .ucontact-quote-style .ucontact-input {
     border: none;
@@ -21,10 +25,12 @@
 }
 #page .ucontact-quote-style .submit-field {
     text-transform: uppercase;
-    padding: 20px;
+    height:50px;
+    padding: 0 20px;
+    line-height:50px;
     float: right;
     color: #ffffff;
-    background: #A4D0DC;
+    background: #a4d0dc;
     font-size: 15px;
     font-weight: 700;
     margin-top: 20px;
