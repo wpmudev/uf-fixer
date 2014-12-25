@@ -8,7 +8,32 @@ $region_4 = upfront_create_region(
 "type" => "wide", 
 "scope" => "local", 
 "container" => "region-4", 
-"position" => 20, 
+"position" => 1, 
+"allow_sidebar" => true
+),
+			array(
+"row" => 30, 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false
+		), 
+	"mobile" => array(
+		"edited" => false
+		)
+	)
+)
+			);
+
+$regions->add($region_4);
+
+$region_5 = upfront_create_region(
+			array(
+"name" => "region-5", 
+"title" => "Region 5", 
+"type" => "wide", 
+"scope" => "local", 
+"container" => "region-5", 
+"position" => 1, 
 "allow_sidebar" => true
 ),
 			array(
@@ -24,47 +49,13 @@ $region_4 = upfront_create_region(
 )
 			);
 
-$region_4->add_group(array(
-"columns" => "24", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "31", 
-"margin_bottom" => "0", 
-"id" => "module-group-1419432445481-1213", 
-"rows" => 10, 
-"wrapper_id" => "wrapper-1419432451969-1095", 
-"new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"edited" => false, 
-		"col" => 12
-		), 
-	"mobile" => array(
-		"edited" => false, 
-		"col" => 7
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 12
-		), 
-	"mobile" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 7
-		)
-	)
-));
-
-$region_4->add_element("PlainTxt", array(
+$region_5->add_element("PlainTxt", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1407244369178-1770-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1407244369178-1770", 
 "rows" => 12, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -83,40 +74,39 @@ $region_4->add_element("PlainTxt", array(
 	"theme_style" => "_default", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1419432445498-1908", 
+"wrapper_id" => "wrapper-1419540281671-1659", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 24
+		"col" => 12
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 24
+		"col" => 7
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 24
+		"col" => 12
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 24
+		"col" => 7
 		)
-	), 
-"group" => "module-group-1419432445481-1213"
+	)
 ));
 
-$region_4->add_element("PlainTxt", array(
+$region_5->add_element("PlainTxt", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1407244383572-1176-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
+"id" => "module-1407244383572-1176", 
 "rows" => 28, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
@@ -129,38 +119,37 @@ $region_4->add_element("PlainTxt", array(
 	"row" => 28, 
 	"is_edited" => true
 	), 
-"wrapper_id" => "wrapper-1419432445501-1305", 
+"wrapper_id" => "wrapper-1419540279374-1064", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 24
+		"col" => 12
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 24
+		"col" => 7
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 24
+		"col" => 12
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 24
+		"col" => 7
 		)
-	), 
-"group" => "module-group-1419432445481-1213"
+	)
 ));
 
-$region_4->add_element("Posts", array(
+$region_5->add_element("Posts", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "1", 
+"margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1418582907947-1246", 
 "rows" => 42, 
@@ -221,34 +210,33 @@ $region_4->add_element("Posts", array(
 	"anchor" => "", 
 	"theme_style" => "blog-posts"
 	), 
-"wrapper_id" => "wrapper-1419432445502-1595", 
+"wrapper_id" => "wrapper-1419540276903-1477", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 24
+		"col" => 12
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 24
+		"col" => 7
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 24
+		"col" => 12
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 24
+		"col" => 7
 		)
-	), 
-"group" => "module-group-1419432445481-1213"
+	)
 ));
 
-$regions->add($region_4);
+$regions->add($region_5);
 
 $prefooter = upfront_create_region(
 			array(
@@ -257,7 +245,7 @@ $prefooter = upfront_create_region(
 "type" => "wide", 
 "scope" => "local", 
 "container" => "prefooter", 
-"position" => 20, 
+"position" => 1, 
 "allow_sidebar" => true
 ),
 			array(
@@ -456,7 +444,7 @@ $footer = upfront_create_region(
 "type" => "wide", 
 "scope" => "local", 
 "container" => "footer", 
-"position" => 20, 
+"position" => 1, 
 "allow_sidebar" => true
 ),
 			array(

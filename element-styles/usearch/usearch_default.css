@@ -21,7 +21,7 @@ button.search-button {
 }
 button.search-button::after {
     content: "";
-    background: url("/fixer2/wp-content/themes/uf-fixer/ui/search-icon.png");
+    background: url("/wp-content/themes/uf-fixer/ui/search-icon.png");
     display: block;
     position: absolute;
     width: 24px;

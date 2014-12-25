@@ -2786,19 +2786,21 @@ display:none;
 $about->add_element("PlainTxt", array(
 "columns" => "2", 
 "margin_left" => "11", 
+"margin_right" => "0", 
 "margin_top" => "0", 
+"margin_bottom" => "0", 
 "id" => "module-1419534285539-1212", 
 "rows" => 8, 
 "options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
 	"content" => "<p class=\"\" style=\"text-align: center;font-size: 18px;font-weight: bold;font-family: tahoma;\">
 	_____
 </p>", 
 	"type" => "PlainTxtModel", 
-	"view_class" => "PlainTxtView", 
 	"element_id" => "text-object-1419534285538-1065", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"id_slug" => "plain_text", 
 	"is_edited" => true, 
 	"row" => 8, 
 	"border_style" => "none", 
@@ -2837,19 +2839,22 @@ $about->add_element("PlainTxt", array(
 $about->add_element("PlainTxt", array(
 "columns" => "17", 
 "margin_left" => "3", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
 "id" => "module-1419529925442-1585", 
 "rows" => 45, 
 "options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
 	"content" => "<p class=\"\">
 	 When arriving to live in Brisbane over four years ago, and not knowing any tradesmen in the area, when needing a Plumber, I phoned Fixer. Over that time, any job needed doing, has been carried out quickly and professionally. The workmanship is excellent and I have found the work to be very cost effective. Suggestions were made with a certain job and I am very thrilled with the outcome. I would recommend Fixer to anyone in the future.
 	<br>
 </p>", 
 	"type" => "PlainTxtModel", 
-	"view_class" => "PlainTxtView", 
 	"element_id" => "text-object-1419529925441-1374", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"id_slug" => "plain_text", 
 	"row" => 45, 
 	"is_edited" => true, 
 	"border_style" => "none", 
@@ -2888,16 +2893,19 @@ $about->add_element("PlainTxt", array(
 $about->add_element("PlainTxt", array(
 "columns" => "11", 
 "margin_left" => "3", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
 "id" => "module-1419533895354-1818", 
 "rows" => 15, 
 "options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
 	"content" => "<h5>Mr Bob Woody</h5>", 
 	"type" => "PlainTxtModel", 
-	"view_class" => "PlainTxtView", 
 	"element_id" => "text-object-1419533895354-1909", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"id_slug" => "plain_text", 
 	"is_edited" => true
 	), 
 "wrapper_id" => "wrapper-1419534285175-1008", 

@@ -10,7 +10,7 @@
     opacity: 1;
     border-radius: 0;
     background: none;
-    background-image: url("/fixer2/wp-content/themes/uf-fixer/ui/slider-arrows.png");
+    background-image: url("/wp-content/themes/uf-fixer/ui/slider-arrows.png");
 }
 .upfront-region-container-slider .upfront-default-slider-nav-prev {
     background-position: 0 0;

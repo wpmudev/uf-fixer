@@ -71,6 +71,9 @@
     margin-left:45px;
     font-size:15px;
 }
+#page .home-latest-posts.uposts-object li.uf-post-sticky .content, #page .home-latest-posts.uposts-object li.uf-post-sticky .content p {
+    color:#fff;
+}
 #page .home-latest-posts.uposts-object li .title {
     float:left;
     width:50%;
