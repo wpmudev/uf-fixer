@@ -3,7 +3,9 @@
     margin-bottom: 2px;
 }
 #page .ucontact-quote-style .upfront-field-container label {
-    display:none;
+    line-height:50px;
+    color:#333;
+    padding-left:10px;
 }
 #page .ucontact-quote-style .ucontact-input {
     font-size: 15px;

@@ -3,7 +3,9 @@
     margin-bottom: 2px;
 }
 #page .ucontact-contact-style .upfront-field-container label {
-    display:none;
+    line-height:50px;
+    color:#333;
+    padding-left:10px;
 }
 #page .ucontact-contact-style .ucontact-message-container {
     color: #ffffff;
