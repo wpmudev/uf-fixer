@@ -1,3 +1,6 @@
+#page .case-study-ugallery-style .ugallery {
+    width:100%;
+}
 #page .case-study-ugallery-style .ugallery_item {
     padding:0;
     position:relative;

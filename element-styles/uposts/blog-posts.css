@@ -1,3 +1,6 @@
+#page .blog-posts.uposts-object{
+    padding: 0;
+}
 #page .blog-posts.uposts-object li.uf-post {
     color:#333333;
     display:block;

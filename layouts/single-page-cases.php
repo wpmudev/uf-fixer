@@ -41,7 +41,7 @@ $cases_region->add_element("PlainTxt", array(
 	"content" => "<h3 class=\"\" style=\"text-align: center;\">Case Study</h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1407250114379-1090", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 8, 
 	"is_edited" => true
@@ -83,7 +83,7 @@ $cases_region->add_element("PlainTxt", array(
 	"content" => "<h1 class=\"\" style=\"text-align: center;\">Issue Resolved!</h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1407250139414-1484", 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
+	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 4, 
 	"is_edited" => true
@@ -123,7 +123,7 @@ $cases_region->add_element("Ugallery", array(
 	"type" => "UgalleryModel", 
 	"view_class" => "UgalleryView", 
 	"has_settings" => 1, 
-	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-gallery", 
+	"class" => "c24 upfront-gallery", 
 	"id_slug" => "ugallery", 
 	"status" => "ok", 
 	"images" => array(array(
