@@ -30,10 +30,10 @@ $main->add_element("ThisPage", array(
 "options" => array(
 	"type" => "ThisPageModel", 
 	"view_class" => "ThisPageView", 
-	"class" => "c24 upfront-this_page", 
+	"class" => "c24 upfront-this_post",
 	"display" => "title", 
 	"has_settings" => 0, 
-	"id_slug" => "this_page", 
+	"id_slug" => "this_post",
 	"disable_resize" => false, 
 	"disable_drag" => false, 
 	"element_id" => "default-page-title-object"
@@ -60,10 +60,10 @@ $main->add_element("ThisPage", array(
 "options" => array(
 	"type" => "ThisPageModel", 
 	"view_class" => "ThisPageView", 
-	"class" => "c24 upfront-this_page", 
+	"class" => "c24 upfront-this_post",
 	"display" => "content", 
 	"has_settings" => 0, 
-	"id_slug" => "this_page", 
+	"id_slug" => "this_post",
 	"disable_resize" => false, 
 	"disable_drag" => false, 
 	"element_id" => "default-page-content-object"
