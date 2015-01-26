@@ -62,6 +62,7 @@ $ltb_subscribe15->add_element("Ucontact", array(
 	"theme_style" => "ucontact-subscribe-style"
 	), 
 "wrapper_id" => "wrapper-1417244574245-1646", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
