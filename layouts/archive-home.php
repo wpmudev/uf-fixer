@@ -158,11 +158,12 @@ $slider->add_element("Unewnavigation", array(
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Blog", 
-			"menu-item-url" => "#", 
+			"menu-item-url" => "#blog", 
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "10", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 3
+			"menu-item-position" => 3, 
+			"being-edited" => false
 			), array(
 			"menu-item-db-id" => 11, 
 			"menu-item-parent-id" => "0", 

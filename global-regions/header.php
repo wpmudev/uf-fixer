@@ -104,12 +104,13 @@ $header->add_element("Uimage", array(
 		"edited" => true, 
 		"left" => 1, 
 		"col" => 4, 
-		"top" => 9
+		"top" => 8
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 1, 
-		"col" => 5
+		"col" => 5, 
+		"top" => 0
 		)
 	)
 ));
@@ -155,7 +156,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Blog", 
-			"menu-item-url" => "#", 
+			"menu-item-url" => "" . get_site_url() . "/#blog", 
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "10", 
 			"menu-item-target" => "", 
@@ -297,7 +298,7 @@ $header->add_element("PlainTxt", array(
 		"edited" => true, 
 		"left" => 1, 
 		"col" => 6, 
-		"top" => 7, 
+		"top" => 5, 
 		"row" => 16
 		), 
 	"mobile" => array(

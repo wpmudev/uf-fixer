@@ -3,3 +3,6 @@
     font-weight: 700;
     text-transform: uppercase;
 }
+#page .main-top-navigation div[data-style='horizontal'] ul.menu > li.menu-item > a, #page .main-top-navigation div[data-style='vertical'] ul.menu > li.menu-item > a, #page .main-top-navigation div[data-style='horizontal'] ul.menu > li.menu-item > a, #page .main-top-navigation div[data-style='vertical'] ul.menu > li.menu-item > a:link, #page .main-top-navigation div[data-style='horizontal'] ul.menu > li.menu-item > a, #page .main-top-navigation div[data-style='vertical'] ul.menu > li.menu-item > a:visited {
+    color:#333;
+}
