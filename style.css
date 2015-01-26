@@ -37,8 +37,9 @@ WDP ID: 938305
 .upfront-output-PostPart_update{
     float: right;
 }
+
 #page.mobile-breakpoint .upfront-output-object h1{
-    font-size: 62px;
+    font-size: 58px;
 }
 #page.tablet-breakpoint .wistia_embed{
     max-height: 317px;
@@ -47,3 +48,9 @@ WDP ID: 938305
 #page.mobile-breakpoint .wistia_embed{
     max-height: 190px;
 }
+@media only screen and (max-width: 570px) and (min-width: 315px){
+    .upfront-output-object h1{
+        font-size: 58px;
+    }
+}
+
