@@ -37,3 +37,6 @@ WDP ID: 938305
 .upfront-output-PostPart_update{
     float: right;
 }
+#page.mobile-breakpoint h1{
+    font-size: 62px;
+}
