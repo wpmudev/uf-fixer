@@ -355,14 +355,13 @@ $prefooter->add_element("PlainTxt", array(
 ));
 
 $regions->add($prefooter);
-
 $footer = upfront_create_region(
 	array(
 		"name" => "footer",
 		"title" => "Footer",
 		"type" => "wide",
 		"scope" => "local",
-		"container" => "region-12",
+		"container" => "footer",
 		"position" => 1,
 		"allow_sidebar" => true
 	),
@@ -392,9 +391,9 @@ $footer->add_element("Uimage", array(
 	"id" => "module-1406217409056-1339",
 	"rows" => 10,
 	"options" => array(
-		"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fixer-logo-white-100x20-3868.png",
-		"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fixer-logo-white.png",
-		"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fixer-logo-white.png",
+		"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fixer-logo-white-100x20-3868-100x20-8648.png",
+		"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fixer-logo-white-100x20-3868.png",
+		"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fixer-logo-white-100x20-3868.png",
 		"image_title" => "",
 		"alternative_text" => "",
 		"when_clicked" => false,
@@ -407,14 +406,14 @@ $footer->add_element("Uimage", array(
 		"image_status" => "ok",
 		"size" => array(
 			"width" => 100,
-			"height" => 30
+			"height" => 20
 		),
 		"fullSize" => array(
 			"width" => 100,
-			"height" => 30
+			"height" => 20
 		),
 		"position" => array(
-			"top" => 5,
+			"top" => 0,
 			"left" => -2.5
 		),
 		"marginTop" => 0,
@@ -426,7 +425,7 @@ $footer->add_element("Uimage", array(
 		"color" => "#ffffff",
 		"background" => "#000000",
 		"captionBackground" => "0",
-		"image_id" => "10",
+		"image_id" => "1021",
 		"align" => "center",
 		"stretch" => false,
 		"vstretch" => true,
@@ -439,15 +438,19 @@ $footer->add_element("Uimage", array(
 		"class" => "c24 upfront-image",
 		"id_slug" => "image",
 		"element_id" => "image-1406217409054-1200",
-		"row" => 4
+		"row" => 4,
+		"anchor" => ""
 	),
 	"wrapper_id" => "wrapper-1406217409056-1339",
 	"wrapper_breakpoint" => array(
 		"tablet" => array(
-			"col" => 4
+			"col" => 4,
+			"clear" => true,
+			"order" => 0
 		),
 		"mobile" => array(
-			"col" => 5
+			"col" => 5,
+			"clear" => false
 		)
 	),
 	"breakpoint" => array(
@@ -475,8 +478,8 @@ $footer->add_element("PlainTxt", array(
 	"options" => array(
 		"view_class" => "PlainTxtView",
 		"id_slug" => "plain_text",
-		"content" => "<p class=\"\">
-	<span class=\"inline_color\"><font color=\"#ffffff\">©</font></span><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"> 2oo6-2014 Fixer Pty Ltd</span>
+		"content" => "<p class=\"\" style=\"text-align: center;\">
+	<span class=\"inline_color\">©</span><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"> 2oo6-2014 Fixer Pty Ltd</span>
 </p>",
 		"type" => "PlainTxtModel",
 		"element_id" => "text-object-1406217940549-1478",
@@ -494,10 +497,13 @@ $footer->add_element("PlainTxt", array(
 	"wrapper_id" => "wrapper-1406217940549-1616",
 	"wrapper_breakpoint" => array(
 		"tablet" => array(
-			"col" => 6
+			"col" => 6,
+			"clear" => false,
+			"order" => 1
 		),
 		"mobile" => array(
-			"col" => 7
+			"col" => 7,
+			"clear" => false
 		)
 	),
 	"breakpoint" => array(
@@ -525,7 +531,9 @@ $footer->add_element("PlainTxt", array(
 	"options" => array(
 		"view_class" => "PlainTxtView",
 		"id_slug" => "plain_text",
-		"content" => "<p class=\"\" style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">ABN - 58 121 227 072</span></p>",
+		"content" => "<p class=\"\" style=\"text-align: center;\">
+	<span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">ABN - 58 121 227 072</span>
+</p>",
 		"type" => "PlainTxtModel",
 		"element_id" => "object-1406218508045-1484",
 		"class" => "c24 upfront-plain_txt",
@@ -542,17 +550,21 @@ $footer->add_element("PlainTxt", array(
 	"wrapper_id" => "wrapper-1406218508045-1635",
 	"wrapper_breakpoint" => array(
 		"tablet" => array(
-			"col" => 10
+			"col" => 8,
+			"clear" => false,
+			"order" => 3
 		),
 		"mobile" => array(
-			"col" => 7
+			"col" => 7,
+			"clear" => false
 		)
 	),
 	"breakpoint" => array(
 		"tablet" => array(
-			"edited" => false,
-			"left" => 2,
-			"col" => 8
+			"edited" => true,
+			"left" => 0,
+			"col" => 8,
+			"top" => 0
 		),
 		"mobile" => array(
 			"edited" => false,
@@ -573,7 +585,9 @@ $footer->add_element("PlainTxt", array(
 	"options" => array(
 		"view_class" => "PlainTxtView",
 		"id_slug" => "plain_text",
-		"content" => "<p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">TOU &amp; Privary</span></p>",
+		"content" => "<p class=\"\" style=\"text-align: center;\">
+	<span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">TOU &amp; Privary</span>
+</p>",
 		"type" => "PlainTxtModel",
 		"element_id" => "text-object-1406218404628-1646",
 		"class" => "c24 upfront-plain_txt",
@@ -585,33 +599,40 @@ $footer->add_element("PlainTxt", array(
 		"border_color" => "",
 		"bg_color" => "",
 		"theme_style" => "plaintext-footer",
-		"anchor" => ""
+		"anchor" => "",
+		"breakpoint" => array(
+			"mobile" => array(
+				"row" => 15
+			)
+		)
 	),
 	"wrapper_id" => "wrapper-1406218404636-1484",
 	"wrapper_breakpoint" => array(
 		"tablet" => array(
-			"col" => 8
+			"col" => 4,
+			"clear" => true,
+			"order" => 2
 		),
 		"mobile" => array(
-			"col" => 5
+			"col" => 7,
+			"clear" => false
 		)
 	),
 	"breakpoint" => array(
 		"tablet" => array(
-			"edited" => false,
-			"left" => 4,
-			"col" => 4
+			"edited" => true,
+			"left" => 0,
+			"col" => 4,
+			"top" => 0
 		),
 		"mobile" => array(
-			"edited" => false,
-			"left" => 2,
-			"col" => 3
+			"edited" => true,
+			"left" => 0,
+			"col" => 7,
+			"row" => 15,
+			"top" => 1
 		)
 	)
 ));
 
 $regions->add($footer);
-
-
-if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
-

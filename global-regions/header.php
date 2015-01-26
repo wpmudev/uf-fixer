@@ -40,7 +40,7 @@ $header->add_element("Uimage", array(
 	"image_title" => "", 
 	"alternative_text" => "", 
 	"when_clicked" => "entry", 
-	"image_link" => "" . get_site_url() . "/gallery-3/", 
+	"image_link" => "" . get_site_url() . "", 
 	"include_image_caption" => false, 
 	"image_caption" => "My awesome image caption", 
 	"caption_position" => false, 
@@ -133,51 +133,56 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Service", 
-			"menu-item-url" => "http://#services", 
+			"menu-item-url" => "" . get_site_url() . "/#services", 
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "8", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 1
+			"menu-item-position" => 1, 
+			"being-edited" => false
 			), array(
 			"menu-item-db-id" => 9, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Get a Quote", 
-			"menu-item-url" => "#getquote", 
+			"menu-item-url" => "" . get_site_url() . "/#quote", 
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "9", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 2
+			"menu-item-position" => 2, 
+			"being-edited" => false
 			), array(
 			"menu-item-db-id" => 10, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Blog", 
-			"menu-item-url" => "#blog", 
+			"menu-item-url" => "#", 
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "10", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 3
+			"menu-item-position" => 3, 
+			"being-edited" => false
 			), array(
 			"menu-item-db-id" => 11, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "About", 
-			"menu-item-url" => "#about", 
+			"menu-item-url" => "" . get_site_url() . "/#about", 
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "11", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 4
+			"menu-item-position" => 4, 
+			"being-edited" => false
 			), array(
 			"menu-item-db-id" => 12, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Coverage Area", 
-			"menu-item-url" => "http://#coveragearea", 
+			"menu-item-url" => "" . get_site_url() . "/#coverage", 
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "12", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 5
+			"menu-item-position" => 5, 
+			"being-edited" => false
 			)), 
 	"menu_style" => "horizontal", 
 	"menu_alignment" => "left", 

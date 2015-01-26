@@ -542,7 +542,8 @@ $footer->add_element("Uimage", array(
 		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 5
+		"col" => 5, 
+		"clear" => false
 		)
 	), 
 "breakpoint" => array(
@@ -570,8 +571,8 @@ $footer->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\">
-	<span class=\"inline_color\"><font color=\"#ffffff\">©</font></span><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"> 2oo6-2014 Fixer Pty Ltd</span>
+	"content" => "<p class=\"\" style=\"text-align: center;\">
+	<span class=\"inline_color\">©</span><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"> 2oo6-2014 Fixer Pty Ltd</span>
 </p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406217940549-1478", 
@@ -594,7 +595,8 @@ $footer->add_element("PlainTxt", array(
 		"order" => 1
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => false
 		)
 	), 
 "breakpoint" => array(
@@ -622,7 +624,9 @@ $footer->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\" style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">ABN - 58 121 227 072</span></p>", 
+	"content" => "<p class=\"\" style=\"text-align: center;\">
+	<span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">ABN - 58 121 227 072</span>
+</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "object-1406218508045-1484", 
 	"class" => "c24 upfront-plain_txt", 
@@ -644,7 +648,8 @@ $footer->add_element("PlainTxt", array(
 		"order" => 3
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => false
 		)
 	), 
 "breakpoint" => array(
@@ -673,7 +678,9 @@ $footer->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">TOU &amp; Privary</span></p>", 
+	"content" => "<p class=\"\" style=\"text-align: center;\">
+	<span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">TOU &amp; Privary</span>
+</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406218404628-1646", 
 	"class" => "c24 upfront-plain_txt", 
@@ -685,7 +692,12 @@ $footer->add_element("PlainTxt", array(
 	"border_color" => "", 
 	"bg_color" => "", 
 	"theme_style" => "plaintext-footer", 
-	"anchor" => ""
+	"anchor" => "", 
+	"breakpoint" => array(
+		"mobile" => array(
+			"row" => 15
+			)
+		)
 	), 
 "wrapper_id" => "wrapper-1406218404636-1484", 
 "wrapper_breakpoint" => array(
@@ -695,7 +707,8 @@ $footer->add_element("PlainTxt", array(
 		"order" => 2
 		), 
 	"mobile" => array(
-		"col" => 5
+		"col" => 7, 
+		"clear" => false
 		)
 	), 
 "breakpoint" => array(
@@ -703,12 +716,14 @@ $footer->add_element("PlainTxt", array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 4, 
-		"top" => 1
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"left" => 2, 
-		"col" => 3
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 7, 
+		"row" => 15, 
+		"top" => 1
 		)
 	)
 ));

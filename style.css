@@ -40,3 +40,10 @@ WDP ID: 938305
 #page.mobile-breakpoint h1{
     font-size: 62px;
 }
+#page.tablet-breakpoint .wistia_embed{
+    max-height: 317px;
+}
+
+#page.mobile-breakpoint .wistia_embed{
+    max-height: 190px;
+}
