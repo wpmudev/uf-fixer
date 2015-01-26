@@ -75,6 +75,7 @@ $region_5->add_element("PlainTxt", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1419540281671-1659", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -120,6 +121,7 @@ $region_5->add_element("PlainTxt", array(
 	"is_edited" => true
 	), 
 "wrapper_id" => "wrapper-1419540279374-1064", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -215,6 +217,7 @@ $region_5->add_element("Posts", array(
 	"theme_style" => "blog-posts"
 	), 
 "wrapper_id" => "wrapper-1419540276903-1477", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -304,6 +307,7 @@ $prefooter->add_element("PlainTxt", array(
 	"row" => 24
 	), 
 "wrapper_id" => "wrapper-1419232674063-1998", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -362,6 +366,7 @@ $prefooter->add_element("PlainTxt", array(
 	"
 	), 
 "wrapper_id" => "wrapper-1419232674066-1955", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
@@ -419,6 +424,7 @@ $prefooter->add_element("PlainTxt", array(
 	"
 	), 
 "wrapper_id" => "wrapper-1419232674067-1067", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
@@ -535,6 +541,7 @@ $footer->add_element("Uimage", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1406217409056-1339", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 4, 
@@ -588,6 +595,7 @@ $footer->add_element("PlainTxt", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1406217940549-1616", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 6, 
@@ -641,6 +649,7 @@ $footer->add_element("PlainTxt", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1406218508045-1635", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 8, 
@@ -700,6 +709,7 @@ $footer->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1406218404636-1484", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 4, 

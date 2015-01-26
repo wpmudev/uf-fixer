@@ -86,6 +86,7 @@ $header->add_element("Uimage", array(
 	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1405520755986-1686", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -110,145 +111,13 @@ $header->add_element("Uimage", array(
 		"edited" => true, 
 		"left" => 1, 
 		"col" => 5, 
-		"top" => 0
-		)
-	)
-));
-
-$header->add_element("Unewnavigation", array(
-"columns" => "15", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "10", 
-"margin_bottom" => "0", 
-"id" => "module-1405520756070-1345", 
-"rows" => 8, 
-"options" => array(
-	"type" => "UnewnavigationModel", 
-	"view_class" => "UnewnavigationView", 
-	"class" => "c24 upfront-navigation", 
-	"has_settings" => 1, 
-	"id_slug" => "unewnavigation", 
-	"menu_items" => array(array(
-			"menu-item-db-id" => 8, 
-			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "custom", 
-			"menu-item-title" => "Service", 
-			"menu-item-url" => "" . get_site_url() . "/#services", 
-			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "8", 
-			"menu-item-target" => "", 
-			"menu-item-position" => 1, 
-			"being-edited" => false
-			), array(
-			"menu-item-db-id" => 9, 
-			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "custom", 
-			"menu-item-title" => "Get a Quote", 
-			"menu-item-url" => "" . get_site_url() . "/#quote", 
-			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "9", 
-			"menu-item-target" => "", 
-			"menu-item-position" => 2, 
-			"being-edited" => false
-			), array(
-			"menu-item-db-id" => 10, 
-			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "custom", 
-			"menu-item-title" => "Blog", 
-			"menu-item-url" => "" . get_site_url() . "/#blog", 
-			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "10", 
-			"menu-item-target" => "", 
-			"menu-item-position" => 3, 
-			"being-edited" => false
-			), array(
-			"menu-item-db-id" => 11, 
-			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "custom", 
-			"menu-item-title" => "About", 
-			"menu-item-url" => "" . get_site_url() . "/#about", 
-			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "11", 
-			"menu-item-target" => "", 
-			"menu-item-position" => 4, 
-			"being-edited" => false
-			), array(
-			"menu-item-db-id" => 12, 
-			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "custom", 
-			"menu-item-title" => "Coverage Area", 
-			"menu-item-url" => "" . get_site_url() . "/#coverage", 
-			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "12", 
-			"menu-item-target" => "", 
-			"menu-item-position" => 5, 
-			"being-edited" => false
-			)), 
-	"menu_style" => "horizontal", 
-	"menu_alignment" => "left", 
-	"allow_sub_nav" => array("no"), 
-	"allow_new_pages" => array(), 
-	"element_id" => "unewnavigation-object-1405520756062-1726", 
-	"initialized" => false, 
-	"menu_id" => false, 
-	"menu_slug" => "fixer-menu", 
-	"is_floating" => array(), 
-	"theme_style" => "main-top-navigation", 
-	"anchor" => "", 
-	"row" => 8, 
-	"burger_menu" => array(), 
-	"burger_alignment" => "left", 
-	"burger_over" => "over", 
-	"breakpoint" => array(
-		"desktop" => array(
-			"burger_alignment" => "left", 
-			"burger_over" => "over", 
-			"width" => 1080
-			), 
-		"tablet" => array(
-			"burger_menu" => "yes", 
-			"burger_alignment" => "whole", 
-			"burger_over" => "over", 
-			"width" => 570
-			), 
-		"mobile" => array(
-			"burger_menu" => "yes", 
-			"burger_alignment" => "whole", 
-			"burger_over" => "over", 
-			"width" => 315
-			)
-		)
-	), 
-"wrapper_id" => "wrapper-1405520756070-1345", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 12, 
-		"clear" => true, 
-		"order" => 2
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"clear" => true, 
-		"order" => 2
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 12, 
-		"top" => 0
-		), 
-	"mobile" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 7, 
-		"top" => 0, 
+		"top" => 4, 
 		"hide" => 0
 		)
 	)
 ));
+
+
 
 $header->add_element("PlainTxt", array(
 "columns" => "5", 
@@ -281,6 +150,7 @@ $header->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1413616950784-1849", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 7, 
@@ -305,7 +175,139 @@ $header->add_element("PlainTxt", array(
 		"edited" => true, 
 		"left" => 1, 
 		"col" => 5, 
-		"top" => 0
+		"top" => 0, 
+		"hide" => 0
+		)
+	)
+));
+
+$header->add_element("Unewnavigation", array(
+	"columns" => "15",
+	"margin_left" => "0",
+	"margin_right" => "0",
+	"margin_top" => "10",
+	"margin_bottom" => "0",
+	"id" => "module-1405520756070-1345",
+	"rows" => 8,
+	"options" => array(
+		"type" => "UnewnavigationModel",
+		"view_class" => "UnewnavigationView",
+		"class" => "c24 upfront-navigation",
+		"has_settings" => 1,
+		"id_slug" => "unewnavigation",
+		"menu_items" => array(array(
+			"menu-item-db-id" => 8,
+			"menu-item-parent-id" => "0",
+			"menu-item-type" => "custom",
+			"menu-item-title" => "Service",
+			"menu-item-url" => "" . get_site_url() . "/#services",
+			"menu-item-object" => "custom",
+			"menu-item-object-id" => "8",
+			"menu-item-target" => "",
+			"menu-item-position" => 1
+		), array(
+			"menu-item-db-id" => 9,
+			"menu-item-parent-id" => "0",
+			"menu-item-type" => "custom",
+			"menu-item-title" => "Get a Quote",
+			"menu-item-url" => "" . get_site_url() . "/#quote",
+			"menu-item-object" => "custom",
+			"menu-item-object-id" => "9",
+			"menu-item-target" => "",
+			"menu-item-position" => 2
+		), array(
+			"menu-item-db-id" => 10,
+			"menu-item-parent-id" => "0",
+			"menu-item-type" => "custom",
+			"menu-item-title" => "Blog",
+			"menu-item-url" => "" . get_site_url() . "/#blog",
+			"menu-item-object" => "custom",
+			"menu-item-object-id" => "10",
+			"menu-item-target" => "",
+			"menu-item-position" => 3
+		), array(
+			"menu-item-db-id" => 11,
+			"menu-item-parent-id" => "0",
+			"menu-item-type" => "custom",
+			"menu-item-title" => "About",
+			"menu-item-url" => "" . get_site_url() . "/#about",
+			"menu-item-object" => "custom",
+			"menu-item-object-id" => "11",
+			"menu-item-target" => "",
+			"menu-item-position" => 4
+		), array(
+			"menu-item-db-id" => 12,
+			"menu-item-parent-id" => "0",
+			"menu-item-type" => "custom",
+			"menu-item-title" => "Coverage Area",
+			"menu-item-url" => "" . get_site_url() . "/#coverage",
+			"menu-item-object" => "custom",
+			"menu-item-object-id" => "12",
+			"menu-item-target" => "",
+			"menu-item-position" => 5
+		)),
+		"menu_style" => "horizontal",
+		"menu_alignment" => "left",
+		"allow_sub_nav" => array("no"),
+		"allow_new_pages" => array(),
+		"element_id" => "unewnavigation-object-1405520756062-1726",
+		"initialized" => false,
+		"menu_id" => false,
+		"menu_slug" => "fixer-menu",
+		"is_floating" => array(),
+		"theme_style" => "main-top-navigation",
+		"anchor" => "",
+		"row" => 8,
+		"burger_menu" => array(),
+		"burger_alignment" => "left",
+		"burger_over" => "over",
+		"breakpoint" => array(
+			"desktop" => array(
+				"burger_alignment" => "left",
+				"burger_over" => "over",
+				"width" => 1080
+			),
+			"tablet" => array(
+				"burger_menu" => "yes",
+				"burger_alignment" => "whole",
+				"burger_over" => "over",
+				"width" => 570
+			),
+			"mobile" => array(
+				"burger_menu" => "yes",
+				"burger_alignment" => "whole",
+				"burger_over" => "over",
+				"width" => 315
+			)
+		)
+	),
+	"wrapper_id" => "wrapper-1405520756070-1345",
+	"sticky" => false,
+	"wrapper_breakpoint" => array(
+		"tablet" => array(
+			"col" => 12,
+			"clear" => true,
+			"order" => 2
+		),
+		"mobile" => array(
+			"col" => 7,
+			"clear" => true,
+			"order" => 2
+		)
+	),
+	"breakpoint" => array(
+		"tablet" => array(
+			"edited" => true,
+			"left" => 0,
+			"col" => 12,
+			"top" => 0
+		),
+		"mobile" => array(
+			"edited" => true,
+			"left" => 0,
+			"col" => 7,
+			"top" => 0,
+			"hide" => 0
 		)
 	)
 ));
