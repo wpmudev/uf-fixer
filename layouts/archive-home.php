@@ -44,7 +44,8 @@ $slider->add_element("PlainTxt", array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
 	"content" => "<h1 class=\"\" style=\"text-align: right;\">We Build<br>
-And Fix</h1>", 
+And Fix
+</h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405538329122-1842", 
 	"class" => "c24 upfront-plain_txt", 
@@ -201,10 +202,22 @@ $services = upfront_create_region(
 "background_position" => "52% 59%", 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false
+		"edited" => false, 
+		"background_position_y" => "59", 
+		"background_style" => "fixed", 
+		"background_repeat" => "no-repeat", 
+		"background_position" => "52% 59%", 
+		"background_position_x" => "52", 
+		"background_type" => "color"
 		), 
 	"mobile" => array(
-		"edited" => false
+		"edited" => false, 
+		"background_position_y" => "59", 
+		"background_style" => "fixed", 
+		"background_repeat" => "no-repeat", 
+		"background_position" => "52% 59%", 
+		"background_position_x" => "52", 
+		"background_type" => "color"
 		)
 	)
 )
@@ -238,10 +251,14 @@ $services->add_element("PlainTxt", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 12, 
+		"clear" => true, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -287,10 +304,14 @@ Service &amp; Quality</h1>",
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 12, 
+		"clear" => true, 
+		"order" => 1
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 1
 		)
 	), 
 "breakpoint" => array(
@@ -336,10 +357,14 @@ $services->add_element("PlainTxt", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 2
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 2
 		)
 	), 
 "breakpoint" => array(
@@ -383,22 +408,28 @@ $services->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1416900804963-1795", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 5
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 5
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0
 		)
 	)
 ));
@@ -466,22 +497,28 @@ $services->add_element("Uimage", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 3
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 3
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0
 		)
 	)
 ));
@@ -548,10 +585,14 @@ $services->add_element("Uimage", array(
 "wrapper_id" => "wrapper-1416900400259-1519", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 6
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 6
 		)
 	), 
 "breakpoint" => array(
@@ -561,9 +602,10 @@ $services->add_element("Uimage", array(
 		"col" => 6
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0
 		)
 	)
 ));
@@ -593,22 +635,28 @@ $services->add_element("PlainTxt", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 4
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 4
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0
 		)
 	)
 ));
@@ -635,22 +683,28 @@ $services->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1416901378684-1765", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 7
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 7
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"top" => 1
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 1
 		)
 	)
 ));
@@ -683,22 +737,28 @@ $services->add_element("PlainTxt", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 8
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 8
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0
 		)
 	)
 ));
@@ -730,22 +790,28 @@ $services->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1416901530722-1559", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 11
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 11
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0
 		)
 	)
 ));
@@ -813,22 +879,28 @@ $services->add_element("Uimage", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 9
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 9
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0
 		)
 	)
 ));
@@ -895,22 +967,28 @@ $services->add_element("Uimage", array(
 "wrapper_id" => "wrapper-1416901556206-1438", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 12
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 12
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0
 		)
 	)
 ));
@@ -943,22 +1021,28 @@ $services->add_element("PlainTxt", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 10
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 10
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0
 		)
 	)
 ));
@@ -985,10 +1069,14 @@ $services->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1416901605444-1181", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 13
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 13
 		)
 	), 
 "breakpoint" => array(
@@ -998,9 +1086,10 @@ $services->add_element("PlainTxt", array(
 		"col" => 6
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0
 		)
 	)
 ));
@@ -1033,22 +1122,28 @@ $services->add_element("PlainTxt", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 14
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 14
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0
 		)
 	)
 ));
@@ -1080,22 +1175,28 @@ $services->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1416901834851-1774", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 17
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 17
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0
 		)
 	)
 ));
@@ -1163,22 +1264,28 @@ $services->add_element("Uimage", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 15
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 15
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0
 		)
 	)
 ));
@@ -1245,22 +1352,28 @@ $services->add_element("Uimage", array(
 "wrapper_id" => "wrapper-1416901744859-1792", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 18
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 18
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0
 		)
 	)
 ));
@@ -1288,22 +1401,28 @@ $services->add_element("PlainTxt", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 16
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 16
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 2
 		)
 	)
 ));
@@ -1330,22 +1449,28 @@ $services->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1416972051861-1391", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 19
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 19
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0
 		)
 	)
 ));
@@ -1375,10 +1500,14 @@ $services->add_element("PlainTxt", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 12, 
+		"clear" => true, 
+		"order" => 20
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 20
 		)
 	), 
 "breakpoint" => array(
@@ -1454,7 +1583,9 @@ $quote->add_element("PlainTxt", array(
 		"col" => 12
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => false, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -1497,7 +1628,9 @@ $quote->add_element("PlainTxt", array(
 		"col" => 12
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => false, 
+		"order" => 1
 		)
 	), 
 "breakpoint" => array(
@@ -1546,7 +1679,9 @@ $quote->add_element("PlainTxt", array(
 		"col" => 9
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => false, 
+		"order" => 2
 		)
 	), 
 "breakpoint" => array(
@@ -1594,7 +1729,9 @@ $quote->add_element("PlainTxt", array(
 		"col" => 9
 		), 
 	"mobile" => array(
-		"col" => 6
+		"col" => 5, 
+		"clear" => false, 
+		"order" => 3
 		)
 	), 
 "breakpoint" => array(
@@ -1604,9 +1741,10 @@ $quote->add_element("PlainTxt", array(
 		"col" => 6
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"left" => 1, 
-		"col" => 5
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 5, 
+		"top" => 0
 		)
 	)
 ));
@@ -1642,7 +1780,9 @@ $quote->add_element("PlainTxt", array(
 		"col" => 9
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => false, 
+		"order" => 4
 		)
 	), 
 "breakpoint" => array(
@@ -1696,7 +1836,9 @@ $quote->add_element("Ucontact", array(
 		"col" => 10
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => false, 
+		"order" => 5
 		)
 	), 
 "breakpoint" => array(
@@ -1777,7 +1919,9 @@ $quote->add_element("Uimage", array(
 		"col" => 9
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => false, 
+		"order" => 6
 		)
 	), 
 "breakpoint" => array(
@@ -1817,19 +1961,29 @@ $quote->add_element("PlainTxt", array(
 	"border_color" => "", 
 	"bg_color" => "", 
 	"anchor" => "", 
-	"theme_style" => "quote-step-text"
+	"theme_style" => "quote-step-text", 
+	"breakpoint" => array(
+		"tablet" => array(
+			"row" => 74
+			), 
+		"mobile" => array(
+			"row" => 68
+			)
+		)
 	), 
 "wrapper_id" => "wrapper-1410352686491-1034", 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"row" => 74
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"row" => 68
 		)
 	)
 ));
@@ -1898,7 +2052,9 @@ $quote->add_element("Uimage", array(
 		"col" => 9
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => false, 
+		"order" => 7
 		)
 	), 
 "breakpoint" => array(
@@ -1938,19 +2094,29 @@ $quote->add_element("PlainTxt", array(
 	"border_color" => "", 
 	"bg_color" => "", 
 	"anchor" => "", 
-	"theme_style" => "quote-step-text"
+	"theme_style" => "quote-step-text", 
+	"breakpoint" => array(
+		"tablet" => array(
+			"row" => 82
+			), 
+		"mobile" => array(
+			"row" => 77
+			)
+		)
 	), 
 "wrapper_id" => "wrapper-1410352591269-1346", 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"row" => 82
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"row" => 77
 		)
 	)
 ));
@@ -1999,7 +2165,7 @@ $blog_header->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 style=\"text-align: start;\" class=\"\">Blog</h3>", 
+	"content" => "<h3 style=\"text-align: start;\" class=\"\"><span style=\"color: rgb(255, 255, 255);\">Blog</span></h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1414410069741-1460", 
 	"class" => "c24 upfront-plain_txt", 
@@ -2174,6 +2340,10 @@ $blog_items->add_element("Posts", array(
 	"post-part-categories" => "<div class=\"uposts-part post_categories\">
 	{{categories}}
 </div>", 
+	"post-part-meta" => "<div class=\"uposts-part meta\">
+	
+</div>
+", 
 	"element_id" => "posts-object-1419155622476-1899", 
 	"anchor" => "", 
 	"theme_style" => "home-latest-posts"
@@ -2258,7 +2428,9 @@ $subscribe->add_element("PlainTxt", array(
 		"col" => 12
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -2304,7 +2476,9 @@ $subscribe->add_element("Button", array(
 		"col" => 6
 		), 
 	"mobile" => array(
-		"col" => 6
+		"col" => 6, 
+		"clear" => true, 
+		"order" => 1
 		)
 	), 
 "breakpoint" => array(
@@ -2350,7 +2524,9 @@ $subscribe->add_element("Button", array(
 		"col" => 4
 		), 
 	"mobile" => array(
-		"col" => 6
+		"col" => 6, 
+		"clear" => true, 
+		"order" => 2
 		)
 	), 
 "breakpoint" => array(
@@ -2360,9 +2536,10 @@ $subscribe->add_element("Button", array(
 		"col" => 4
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 1, 
-		"col" => 5
+		"col" => 5, 
+		"top" => 0
 		)
 	)
 ));
@@ -2428,7 +2605,9 @@ $about->add_element("PlainTxt", array(
 		"col" => 12
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -2476,7 +2655,9 @@ $about->add_element("PlainTxt", array(
 		"col" => 12
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 1
 		)
 	), 
 "breakpoint" => array(
@@ -2519,7 +2700,9 @@ $about->add_element("PlainTxt", array(
 		"col" => 10
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 2
 		)
 	), 
 "breakpoint" => array(
@@ -2561,7 +2744,9 @@ $about->add_element("PlainTxt", array(
 		"col" => 10
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 3
 		)
 	), 
 "breakpoint" => array(
@@ -2571,9 +2756,10 @@ $about->add_element("PlainTxt", array(
 		"col" => 8
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0
 		)
 	)
 ));
@@ -2603,7 +2789,9 @@ $about->add_element("PlainTxt", array(
 		"col" => 10
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 4
 		)
 	), 
 "breakpoint" => array(
@@ -2766,7 +2954,9 @@ display:none;
 		"col" => 12
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 5
 		)
 	), 
 "breakpoint" => array(
@@ -2819,7 +3009,9 @@ $about->add_element("PlainTxt", array(
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 5
+		"col" => 5, 
+		"clear" => true, 
+		"order" => 6
 		)
 	), 
 "breakpoint" => array(
@@ -2873,7 +3065,9 @@ $about->add_element("PlainTxt", array(
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 7
 		)
 	), 
 "breakpoint" => array(
@@ -2917,7 +3111,9 @@ $about->add_element("PlainTxt", array(
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 8
 		)
 	), 
 "breakpoint" => array(
@@ -2973,7 +3169,9 @@ $coverage->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\"></p><h3 class=\"\" style=\"text-transform: none; text-align: center;\">Coverage Area</h3>", 
+	"content" => "<p class=\"\">
+</p>
+<h3 class=\"\" style=\"text-transform: none; text-align: center;\"><span style=\"color: rgb(255, 255, 255);\">Coverage Area</span></h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1414410356935-1820", 
 	"class" => "c24 upfront-plain_txt", 
@@ -3085,10 +3283,24 @@ $contact = upfront_create_region(
 "background_position" => "100% 100%", 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false
+		"edited" => true, 
+		"background_position_y" => "100", 
+		"background_style" => "fixed", 
+		"background_repeat" => "no-repeat", 
+		"background_position" => "100% 100%", 
+		"background_position_x" => "100", 
+		"background_type" => "image", 
+		"row" => 190
 		), 
 	"mobile" => array(
-		"edited" => false
+		"edited" => true, 
+		"background_position_y" => "100", 
+		"background_style" => "fixed", 
+		"background_repeat" => "no-repeat", 
+		"background_position" => "100% 100%", 
+		"background_position_x" => "100", 
+		"background_type" => "image", 
+		"row" => 195
 		)
 	)
 )
@@ -3264,11 +3476,15 @@ $prefooter->add_element("PlainTxt", array(
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 11
+		"col" => 11, 
+		"clear" => true, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 7
+		"col" => 7, 
+		"clear" => false, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -3319,11 +3535,15 @@ $prefooter->add_element("PlainTxt", array(
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 1
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 6
+		"col" => 6, 
+		"clear" => false, 
+		"order" => 1
 		)
 	), 
 "breakpoint" => array(
@@ -3368,29 +3588,41 @@ $prefooter->add_element("PlainTxt", array(
 		.upfront-plain_txt h4{
 		    margin:0;
 		}
-	"
+	", 
+	"breakpoint" => array(
+		"mobile" => array(
+			"row" => 38
+			)
+		)
 	), 
 "wrapper_id" => "wrapper-1419232674067-1067", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 10
+		"col" => 11, 
+		"clear" => true, 
+		"order" => 2
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 7
+		"col" => 7, 
+		"clear" => false, 
+		"order" => 2
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
-		"left" => 2, 
-		"col" => 8
+		"edited" => true, 
+		"left" => 3, 
+		"col" => 8, 
+		"top" => 1
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 7
+		"edited" => true, 
+		"left" => 1, 
+		"col" => 6, 
+		"top" => 0, 
+		"row" => 38
 		)
 	)
 ));
@@ -3486,10 +3718,13 @@ $footer->add_element("Uimage", array(
 "wrapper_id" => "wrapper-1406217409056-1339", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 4
+		"col" => 4, 
+		"clear" => true, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 5
+		"col" => 5, 
+		"clear" => false
 		)
 	), 
 "breakpoint" => array(
@@ -3517,8 +3752,8 @@ $footer->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\">
-	<span class=\"inline_color\"><font color=\"#ffffff\">©</font></span><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"> 2oo6-2014 Fixer Pty Ltd</span>
+	"content" => "<p class=\"\" style=\"text-align: center;\">
+	<span class=\"inline_color\">©</span><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"> 2oo6-2014 Fixer Pty Ltd</span>
 </p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406217940549-1478", 
@@ -3536,10 +3771,13 @@ $footer->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1406217940549-1616", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 6
+		"col" => 6, 
+		"clear" => false, 
+		"order" => 1
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => false
 		)
 	), 
 "breakpoint" => array(
@@ -3567,7 +3805,9 @@ $footer->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\" style=\"text-align: right;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">ABN - 58 121 227 072</span></p>", 
+	"content" => "<p class=\"\" style=\"text-align: center;\">
+	<span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">ABN - 58 121 227 072</span>
+</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "object-1406218508045-1484", 
 	"class" => "c24 upfront-plain_txt", 
@@ -3584,17 +3824,21 @@ $footer->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1406218508045-1635", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 10
+		"col" => 8, 
+		"clear" => false, 
+		"order" => 3
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => false
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
-		"left" => 2, 
-		"col" => 8
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 8, 
+		"top" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
@@ -3615,7 +3859,9 @@ $footer->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">TOU &amp; Privary</span></p>", 
+	"content" => "<p class=\"\" style=\"text-align: center;\">
+	<span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">TOU &amp; Privary</span>
+</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406218404628-1646", 
 	"class" => "c24 upfront-plain_txt", 
@@ -3627,27 +3873,38 @@ $footer->add_element("PlainTxt", array(
 	"border_color" => "", 
 	"bg_color" => "", 
 	"theme_style" => "plaintext-footer", 
-	"anchor" => ""
+	"anchor" => "", 
+	"breakpoint" => array(
+		"mobile" => array(
+			"row" => 15
+			)
+		)
 	), 
 "wrapper_id" => "wrapper-1406218404636-1484", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 8
+		"col" => 4, 
+		"clear" => true, 
+		"order" => 2
 		), 
 	"mobile" => array(
-		"col" => 5
+		"col" => 7, 
+		"clear" => false
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
-		"left" => 4, 
-		"col" => 4
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 4, 
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"left" => 2, 
-		"col" => 3
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 7, 
+		"row" => 15, 
+		"top" => 1
 		)
 	)
 ));

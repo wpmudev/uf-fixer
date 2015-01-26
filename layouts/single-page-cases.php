@@ -38,7 +38,7 @@ $cases_region->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\" style=\"text-align: center;\">Case Study</h3>", 
+	"content" => "<h3 class=\"\" style=\"text-align: center;color:rgb(51, 51, 51)\">Case Study</h3>",
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1407250114379-1090", 
 	"class" => "c24 upfront-plain_txt", 
@@ -80,13 +80,18 @@ $cases_region->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h1 class=\"\" style=\"text-align: center;\">Issue Resolved!</h1>", 
+	"content" => "<h1 class=\"\" style=\"text-align: center;\"><span style=\"color: rgb(51, 51, 51);\">Issue Resolved!</span></h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1407250139414-1484", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 4, 
-	"is_edited" => true
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => ""
 	), 
 "wrapper_id" => "module-1407250139415-1897-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-wrapper", 
 "wrapper_breakpoint" => array(
@@ -1246,11 +1251,15 @@ $prefooter->add_element("PlainTxt", array(
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 11
+		"col" => 11, 
+		"clear" => true, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -1301,11 +1310,15 @@ $prefooter->add_element("PlainTxt", array(
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 9
+		"col" => 9, 
+		"clear" => true, 
+		"order" => 1
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 6
+		"col" => 6, 
+		"clear" => true, 
+		"order" => 1
 		)
 	), 
 "breakpoint" => array(
@@ -1350,29 +1363,41 @@ $prefooter->add_element("PlainTxt", array(
 		.upfront-plain_txt h4{
 		    margin:0;
 		}
-	"
+	", 
+	"breakpoint" => array(
+		"mobile" => array(
+			"row" => 25
+			)
+		)
 	), 
 "wrapper_id" => "wrapper-1419232674067-1067", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 10
+		"col" => 11, 
+		"clear" => true, 
+		"order" => 2
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 2
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
-		"left" => 2, 
-		"col" => 8
+		"edited" => true, 
+		"left" => 3, 
+		"col" => 8, 
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 7
+		"edited" => true, 
+		"left" => 1, 
+		"col" => 6, 
+		"top" => 0, 
+		"row" => 25
 		)
 	)
 ));
@@ -1468,7 +1493,9 @@ $footer->add_element("Uimage", array(
 "wrapper_id" => "wrapper-1406217409056-1339", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 4
+		"col" => 4, 
+		"clear" => true, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"col" => 5
@@ -1518,7 +1545,9 @@ $footer->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1406217940549-1616", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 6
+		"col" => 6, 
+		"clear" => false, 
+		"order" => 1
 		), 
 	"mobile" => array(
 		"col" => 7
@@ -1566,7 +1595,9 @@ $footer->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1406218508045-1635", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 10
+		"col" => 8, 
+		"clear" => false, 
+		"order" => 3
 		), 
 	"mobile" => array(
 		"col" => 7
@@ -1574,9 +1605,10 @@ $footer->add_element("PlainTxt", array(
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
-		"left" => 2, 
-		"col" => 8
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 8, 
+		"top" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
@@ -1614,7 +1646,9 @@ $footer->add_element("PlainTxt", array(
 "wrapper_id" => "wrapper-1406218404636-1484", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 8
+		"col" => 4, 
+		"clear" => true, 
+		"order" => 2
 		), 
 	"mobile" => array(
 		"col" => 5
@@ -1622,9 +1656,10 @@ $footer->add_element("PlainTxt", array(
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
-		"left" => 4, 
-		"col" => 4
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 4, 
+		"top" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 

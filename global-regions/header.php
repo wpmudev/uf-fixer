@@ -89,17 +89,22 @@ $header->add_element("Uimage", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 8
+		"col" => 5, 
+		"clear" => true, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 6
+		"col" => 6, 
+		"clear" => true, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
-		"left" => 4, 
-		"col" => 4
+		"edited" => true, 
+		"left" => 1, 
+		"col" => 4, 
+		"top" => 9
 		), 
 	"mobile" => array(
 		"edited" => false, 
@@ -128,7 +133,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Service", 
-			"menu-item-url" => "#service", 
+			"menu-item-url" => "http://#services", 
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "8", 
 			"menu-item-target" => "", 
@@ -167,7 +172,7 @@ $header->add_element("Unewnavigation", array(
 			"menu-item-db-id" => 12, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
-			"menu-item-title" => "Coverage Area Hi hi", 
+			"menu-item-title" => "Coverage Area", 
 			"menu-item-url" => "http://#coveragearea", 
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "12", 
@@ -194,28 +199,47 @@ $header->add_element("Unewnavigation", array(
 			"burger_alignment" => "left", 
 			"burger_over" => "over", 
 			"width" => 1080
+			), 
+		"tablet" => array(
+			"burger_menu" => "yes", 
+			"burger_alignment" => "whole", 
+			"burger_over" => "over", 
+			"width" => 570
+			), 
+		"mobile" => array(
+			"burger_menu" => "yes", 
+			"burger_alignment" => "whole", 
+			"burger_over" => "over", 
+			"width" => 315
 			)
 		)
 	), 
 "wrapper_id" => "wrapper-1405520756070-1345", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 12, 
+		"clear" => true, 
+		"order" => 2
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 2
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0, 
+		"hide" => 0
 		)
 	)
 ));
@@ -243,27 +267,39 @@ $header->add_element("PlainTxt", array(
 	"bg_color" => "", 
 	"theme_style" => "header-contact-text", 
 	"anchor" => "", 
-	"row" => 18
+	"row" => 18, 
+	"breakpoint" => array(
+		"tablet" => array(
+			"row" => 16
+			)
+		)
 	), 
 "wrapper_id" => "wrapper-1413616950784-1849", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9
+		"col" => 7, 
+		"clear" => false, 
+		"order" => 1
 		), 
 	"mobile" => array(
-		"col" => 6
+		"col" => 6, 
+		"clear" => true, 
+		"order" => 1
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
-		"left" => 3, 
-		"col" => 6
+		"edited" => true, 
+		"left" => 1, 
+		"col" => 6, 
+		"top" => 7, 
+		"row" => 16
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 1, 
-		"col" => 5
+		"col" => 5, 
+		"top" => 0
 		)
 	)
 ));

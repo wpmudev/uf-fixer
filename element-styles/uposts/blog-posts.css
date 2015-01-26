@@ -12,9 +12,21 @@
     float:left;
     position:relative;
 }
+
 #page .blog-posts.uposts-object li.uf-post.uf-post-sticky {
     width:690px;
     background:#ece9e4;
+}
+#page.mobile-breakpoint .blog-posts.uposts-object li.uf-post,
+#page.mobile-breakpoint .blog-posts.uposts-object li.uf-post.uf-post-sticky
+{
+    width:90%;
+}
+
+#page.tablet-breakpoint .blog-posts.uposts-object li.uf-post,
+#page.tablet-breakpoint .blog-posts.uposts-object li.uf-post.uf-post-sticky
+{
+    width:94%;
 }
 #page .blog-posts.uposts-object li.uf-post .thumbnail {
     height:196px;

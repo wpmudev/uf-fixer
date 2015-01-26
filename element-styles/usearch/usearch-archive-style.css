@@ -1,5 +1,5 @@
 #page .usearch-archive-style input.search-field {
-    width:530px;
+    width:74%;
     height:50px;
     float:left;
     padding:0;
@@ -9,6 +9,10 @@
     font-size: 15px;
     line-height: 20px;
 }
+#page.tablet-breakpoint .usearch-archive-style input.search-field{
+    width:85.5%;
+}
+
 #page .usearch-archive-style button.search-button {
     background: #a4d0dc;
     position: relative;
