@@ -1,84 +1,53 @@
 <?php
-$slider = upfront_create_region(
+$region_14 = upfront_create_region(
 			array(
-"name" => "slider", 
-"title" => "Slider", 
+"name" => "region-14", 
+"title" => "Region 14", 
 "type" => "wide", 
 "scope" => "local", 
-"container" => "slider", 
-"position" => 1, 
+"container" => "region-14", 
+"position" => 10, 
 "allow_sidebar" => true
 ),
 			array(
 "row" => 184, 
-"background_type" => "image", 
-"nav_region" => "", 
-"background_color" => "#ffffff", 
-"background_slider_rotate" => true, 
-"background_slider_rotate_time" => 5, 
-"background_slider_control" => "hover", 
-"background_slider_transition" => "crossfade", 
-"background_slider_images" => array(array(
-		"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-b-150x150.jpg", 150, 150, true), 
-		"medium" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-b-300x203.jpg", 300, 203, true), 
-		"large" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-b-1024x694.jpg", 1024, 694, true), 
-		"full" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-b.jpg", 1364, 924, false), 
-		"custom" => array()
-		), array(
-		"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-a-150x150.jpg", 150, 150, true), 
-		"medium" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-a-300x203.jpg", 300, 203, true), 
-		"large" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-a-1024x694.jpg", 1024, 694, true), 
-		"full" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-a.jpg", 1364, 924, false), 
-		"custom" => array()
-		), array(
-		"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-c-150x150.jpg", 150, 150, true), 
-		"medium" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-c-300x203.jpg", 300, 203, true), 
-		"large" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-c-1024x694.jpg", 1024, 694, true), 
-		"full" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-c.jpg", 1364, 924, false), 
-		"custom" => array()
-		), array(
-		"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-d-150x150.jpg", 150, 150, true), 
-		"medium" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-d-300x203.jpg", 300, 203, true), 
-		"large" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-d-1024x694.jpg", 1024, 694, true), 
-		"full" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-d.jpg", 1364, 924, false), 
-		"custom" => array()
-		), array(
-		"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-e-150x150.jpg", 150, 150, true), 
-		"medium" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-e-300x203.jpg", 300, 203, true), 
-		"large" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-e-1024x694.jpg", 1024, 694, true), 
-		"full" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-e.jpg", 1364, 924, false), 
-		"custom" => array()
-		)), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => true, 
-		"row" => 111, 
-		"background_type" => "color", 
+		"background_type" => "image", 
 		"background_position_y" => "50", 
 		"background_style" => "full", 
 		"background_position_x" => "50", 
-		"background_color" => "rgba(254,212,27,1)"
+		"background_image" => "" . get_stylesheet_directory_uri() . "/images/archive-home/slider-e.jpg", 
+		"background_image_ratio" => 0.68, 
+		"row" => 123
 		), 
 	"mobile" => array(
 		"edited" => true, 
 		"background_type" => "color", 
 		"background_color" => "rgba(254,212,27,1)", 
-		"row" => 109
+		"row" => 84
 		)
 	), 
+"background_type" => "slider", 
+"nav_region" => "", 
+"background_color" => "#ffffff", 
+"background_slider_rotate" => true, 
+"background_slider_rotate_time" => 5, 
+"background_slider_control" => "always", 
+"background_slider_transition" => "crossfade", 
+"background_slider_images" => array("/images/slider-b.jpg", "/images/slider-c.jpg", "/images/slider-d.jpg", "/images/slider-e.jpg"), 
 "background_style" => "full", 
-"background_position_y" => "50", 
-"background_position_x" => "50", 
-"background_image" => "" . get_stylesheet_directory_uri() . "/images/archive-home/978530233slider-e.jpg", 
-"background_image_ratio" => 0.68
+"background_position_y" => 50, 
+"background_position_x" => 50
 )
 			);
 
-$slider->add_element("Uimage", array(
+$region_14->add_element("Uimage", array(
 "columns" => "4", 
 "margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "9", 
+"margin_top" => "6", 
 "margin_bottom" => "0", 
 "id" => "module-1422416936720-1326", 
 "rows" => 4, 
@@ -130,21 +99,26 @@ $slider->add_element("Uimage", array(
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "image-1422416936718-1443", 
-	"row" => 4
+	"row" => 4, 
+	"breakpoint" => array(
+		"mobile" => array(
+			"row" => 12
+			)
+		)
 	), 
-"wrapper_id" => "wrapper-1422419857208-1395", 
+"wrapper_id" => "wrapper-1422432407745-1362", 
 "sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 4, 
+		"col" => 8, 
 		"clear" => true, 
 		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 6, 
+		"col" => 4, 
 		"clear" => true, 
 		"order" => 0
 		)
@@ -152,26 +126,26 @@ $slider->add_element("Uimage", array(
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => true, 
-		"left" => 0, 
+		"left" => 4, 
 		"col" => 4, 
 		"top" => 2
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 1, 
-		"col" => 5
+		"col" => 3, 
+		"row" => 12, 
+		"top" => 5
 		)
 	)
 ));
 
-$slider->add_element("Unewnavigation", array(
+$region_14->add_element("Unewnavigation", array(
 "columns" => "13", 
 "margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "9", 
-"margin_bottom" => "0", 
-"id" => "module-1405520756070-1345", 
-"rows" => 12, 
+"margin_top" => "6", 
+"id" => "module-1422430251821-1124", 
+"rows" => 13, 
 "options" => array(
 	"type" => "UnewnavigationModel", 
 	"view_class" => "UnewnavigationView", 
@@ -233,17 +207,16 @@ $slider->add_element("Unewnavigation", array(
 	"menu_alignment" => "center", 
 	"allow_sub_nav" => array("no"), 
 	"allow_new_pages" => array(), 
-	"element_id" => "unewnavigation-object-1405520756062-1726", 
-	"initialized" => false, 
+	"element_id" => "unewnavigation-object-1422430251820-1816", 
+	"initialized" => true, 
 	"menu_id" => false, 
 	"menu_slug" => "fixer-menu", 
-	"is_floating" => array(), 
-	"theme_style" => "main-top-navigation", 
-	"anchor" => "", 
-	"row" => 12, 
 	"burger_menu" => array(), 
 	"burger_alignment" => "left", 
 	"burger_over" => "over", 
+	"is_floating" => array(), 
+	"anchor" => "", 
+	"theme_style" => "main-top-navigation", 
 	"breakpoint" => array(
 		"desktop" => array(
 			"burger_alignment" => "left", 
@@ -251,22 +224,25 @@ $slider->add_element("Unewnavigation", array(
 			"width" => 1080
 			), 
 		"tablet" => array(
-			"burger_menu" => "", 
-			"burger_alignment" => "whole", 
-			"burger_over" => "over", 
+			"theme_style" => "tablet-nav", 
 			"width" => 570, 
-			"theme_style" => "tablet-nav"
+			"burger_menu" => "", 
+			"burger_alignment" => "left", 
+			"burger_over" => "over", 
+			"row" => 11
 			), 
 		"mobile" => array(
 			"burger_menu" => "yes", 
-			"burger_alignment" => "whole", 
+			"burger_alignment" => "top", 
 			"burger_over" => "over", 
-			"width" => 315
+			"width" => 315, 
+			"row" => 15, 
+			"theme_style" => "mobile-nav"
 			)
-		)
+		), 
+	"row" => 13
 	), 
-"wrapper_id" => "wrapper-1422283492947-1762", 
-"sticky" => false, 
+"wrapper_id" => "wrapper-1422432419698-1772", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
@@ -276,8 +252,8 @@ $slider->add_element("Unewnavigation", array(
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 7, 
-		"clear" => true, 
+		"col" => 2, 
+		"clear" => false, 
 		"order" => 1
 		)
 	), 
@@ -286,30 +262,34 @@ $slider->add_element("Unewnavigation", array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 12, 
-		"top" => 1
+		"top" => 3, 
+		"row" => 11
 		), 
 	"mobile" => array(
 		"edited" => true, 
 		"left" => 0, 
-		"col" => 7, 
-		"top" => 0, 
-		"hide" => 0
+		"col" => 2, 
+		"top" => 3, 
+		"row" => 15
 		)
 	)
 ));
 
-$slider->add_element("PlainTxt", array(
+$region_14->add_element("PlainTxt", array(
 "columns" => "5", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "6", 
+"margin_top" => "4", 
 "margin_bottom" => "0", 
 "id" => "module-1405520755970-1045", 
 "rows" => 18, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p style=\"text-align: right;\" class=\"\">One call does it all</p><h2 style=\"text-align: right;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">a&nbsp;</span>1300 FIXER</h2>", 
+	"content" => "<p style=\"text-align: right;\" class=\"\">
+	One call does it all
+</p>
+<h2 style=\"text-align: right;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\" rel=\"font-size: 27px; top: 0px;\">a </span>1300 FIXER</h2>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405520755969-1764", 
 	"class" => "c24 upfront-plain_txt", 
@@ -324,17 +304,17 @@ $slider->add_element("PlainTxt", array(
 	"row" => 18, 
 	"breakpoint" => array(
 		"tablet" => array(
-			"row" => 17
+			"row" => 18
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1422419596136-1589", 
+"wrapper_id" => "wrapper-1422432441317-1341", 
 "sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"col" => 8, 
-		"clear" => false, 
+		"clear" => true, 
 		"order" => 1
 		), 
 	"mobile" => array(
@@ -350,7 +330,7 @@ $slider->add_element("PlainTxt", array(
 		"left" => 2, 
 		"col" => 6, 
 		"top" => 0, 
-		"row" => 17
+		"row" => 18
 		), 
 	"mobile" => array(
 		"edited" => true, 
@@ -361,48 +341,49 @@ $slider->add_element("PlainTxt", array(
 	)
 ));
 
-$slider->add_element("PlainTxt", array(
-"columns" => "18", 
-"margin_left" => "5", 
-"margin_right" => "0", 
-"margin_top" => "12", 
-"margin_bottom" => "0", 
-"id" => "module-1405538329123-1568", 
-"rows" => 54, 
+$region_14->add_element("PlainTxt", array(
+"columns" => "17", 
+"margin_left" => "6", 
+"margin_top" => "25", 
+"id" => "module-1422430251668-1045", 
+"rows" => 66, 
 "options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<h1 class=\"\" style=\"text-align: right;\">We Build<br>
-And Fix
-</h1>", 
+	"content" => "<h1 class=\"\" style=\"text-align: right;\">We Build And Fix</h1>", 
 	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1405538329122-1842", 
+	"view_class" => "PlainTxtView", 
+	"element_id" => "text-object-1422430251668-1689", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
+	"id_slug" => "plain_text", 
 	"is_edited" => true, 
+	"row" => 66, 
 	"border_style" => "none", 
-	"border_width" => "0", 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "home-slideshow-text", 
+	"border_width" => 1, 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
 	"anchor" => "", 
-	"row" => 54, 
+	"theme_style" => "home-slideshow-text", 
 	"breakpoint" => array(
+		"tablet" => array(
+			"theme_style" => "slider-txt-tablet"
+			), 
 		"mobile" => array(
+			"theme_style" => "slider-txt-mobile", 
 			"row" => 25
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1413426797464-1674", 
-"sticky" => false, 
+"wrapper_id" => "wrapper-1422432479895-1097", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
+		"edited" => false, 
 		"col" => 12, 
 		"clear" => true, 
 		"order" => 3
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 7, 
 		"clear" => true, 
 		"order" => 3
@@ -413,23 +394,23 @@ And Fix
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 12, 
-		"top" => 4
+		"top" => 0
 		), 
 	"mobile" => array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 7, 
-		"top" => 0, 
+		"top" => 2, 
 		"row" => 25
 		)
 	)
 ));
 
-$slider->add_element("Button", array(
+$region_14->add_element("Button", array(
 "columns" => "4", 
 "margin_left" => "15", 
 "margin_right" => "0", 
-"margin_top" => "1", 
+"margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1412693769329-1564", 
 "rows" => 15, 
@@ -448,21 +429,21 @@ $slider->add_element("Button", array(
 	"row" => 15, 
 	"is_edited" => true
 	), 
-"wrapper_id" => "wrapper-1422419870124-1631", 
+"wrapper_id" => "wrapper-1422432582706-1701", 
 "sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"col" => 8, 
-		"clear" => false, 
-		"order" => 5
+		"clear" => true, 
+		"order" => 4
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"col" => 6, 
 		"clear" => true, 
-		"order" => 5
+		"order" => 4
 		)
 	), 
 "breakpoint" => array(
@@ -481,11 +462,11 @@ $slider->add_element("Button", array(
 	)
 ));
 
-$slider->add_element("Button", array(
+$region_14->add_element("Button", array(
 "columns" => "4", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "1", 
+"margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1412693935237-1809", 
 "rows" => 15, 
@@ -504,20 +485,20 @@ $slider->add_element("Button", array(
 	"row" => 15, 
 	"is_edited" => true
 	), 
-"wrapper_id" => "wrapper-1422419870126-1738", 
+"wrapper_id" => "wrapper-1422432586280-1756", 
 "sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"col" => 4, 
-		"clear" => true, 
-		"order" => 4
+		"clear" => false, 
+		"order" => 5
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"col" => 6, 
 		"clear" => true, 
-		"order" => 4
+		"order" => 5
 		)
 	), 
 "breakpoint" => array(
@@ -536,7 +517,7 @@ $slider->add_element("Button", array(
 	)
 ));
 
-$regions->add($slider);
+$regions->add($region_14);
 
 $region_13 = upfront_create_region(
 			array(
