@@ -1,6 +1,24 @@
 .upfront-region-container-slider .upfront-region-container-bg {
     color: #ffffff;
 }
+.upfront-region-container-slider .upfront-default-slider-nav-prev:after, .upfront-region-container-slider .upfront-default-slider-nav-next:after {
+    content: '<';
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    font-size:60px;
+    position:absolute;
+    display:block;
+    color:#fff;
+    opacity:.5;
+}
+.upfront-region-container-slider .upfront-default-slider-nav-next:after {
+    content:'>';
+}
+.upfront-region-container-slider .upfront-default-slider-nav-prev:hover .upfront-default-slider-nav-prev:after, .upfront-region-container-slider .upfront-default-slider-nav-next:hover .upfront-default-slider-nav-next:after {
+    opacity:1;
+}
 .upfront-region-container-slider .upfront-default-slider-nav-prev:before, .upfront-region-container-slider .upfront-default-slider-nav-next:before {
     display: none;
 }
@@ -9,8 +27,7 @@
     height: 50px;
     opacity: 1;
     border-radius: 0;
-    background: none;
-    background-image: url("/wp-content/themes/uf-fixer/ui/slider-arrows.png");
+    background:none;
 }
 .upfront-region-container-slider .upfront-default-slider-nav-prev {
     background-position: 0 0;

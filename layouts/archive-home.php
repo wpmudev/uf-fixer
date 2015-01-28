@@ -11,41 +11,85 @@ $slider = upfront_create_region(
 ),
 			array(
 "row" => 184, 
-"background_type" => "slider", 
+"background_type" => "image", 
 "nav_region" => "", 
 "background_color" => "#ffffff", 
 "background_slider_rotate" => true, 
 "background_slider_rotate_time" => 5, 
-"background_slider_control" => "always", 
+"background_slider_control" => "hover", 
 "background_slider_transition" => "crossfade", 
-"background_slider_images" => array("/images/slider-a.jpg", "/images/slider-b.jpg", "/images/slider-c.jpg", "/images/slider-d.jpg", "/images/slider-e.jpg"), 
+"background_slider_images" => array(array(
+		"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-b-150x150.jpg", 150, 150, true), 
+		"medium" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-b-300x203.jpg", 300, 203, true), 
+		"large" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-b-1024x694.jpg", 1024, 694, true), 
+		"full" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-b.jpg", 1364, 924, false), 
+		"custom" => array()
+		), array(
+		"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-a-150x150.jpg", 150, 150, true), 
+		"medium" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-a-300x203.jpg", 300, 203, true), 
+		"large" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-a-1024x694.jpg", 1024, 694, true), 
+		"full" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-a.jpg", 1364, 924, false), 
+		"custom" => array()
+		), array(
+		"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-c-150x150.jpg", 150, 150, true), 
+		"medium" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-c-300x203.jpg", 300, 203, true), 
+		"large" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-c-1024x694.jpg", 1024, 694, true), 
+		"full" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-c.jpg", 1364, 924, false), 
+		"custom" => array()
+		), array(
+		"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-d-150x150.jpg", 150, 150, true), 
+		"medium" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-d-300x203.jpg", 300, 203, true), 
+		"large" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-d-1024x694.jpg", 1024, 694, true), 
+		"full" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-d.jpg", 1364, 924, false), 
+		"custom" => array()
+		), array(
+		"thumbnail" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-e-150x150.jpg", 150, 150, true), 
+		"medium" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-e-300x203.jpg", 300, 203, true), 
+		"large" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-e-1024x694.jpg", 1024, 694, true), 
+		"full" => array("" . get_stylesheet_directory_uri() . "/images/archive-home/slider-e.jpg", 1364, 924, false), 
+		"custom" => array()
+		)), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false
+		"edited" => true, 
+		"row" => 111, 
+		"background_type" => "color", 
+		"background_position_y" => "50", 
+		"background_style" => "full", 
+		"background_position_x" => "50", 
+		"background_color" => "rgba(254,212,27,1)"
 		), 
 	"mobile" => array(
-		"edited" => false
+		"edited" => true, 
+		"background_type" => "color", 
+		"background_color" => "rgba(254,212,27,1)", 
+		"row" => 109
 		)
-	)
+	), 
+"background_style" => "full", 
+"background_position_y" => "50", 
+"background_position_x" => "50", 
+"background_image" => "" . get_stylesheet_directory_uri() . "/images/archive-home/978530233slider-e.jpg", 
+"background_image_ratio" => 0.68
 )
 			);
 
 $slider->add_element("Uimage", array(
 "columns" => "4", 
-"margin_left" => "0", 
+"margin_left" => "1", 
 "margin_right" => "0", 
 "margin_top" => "9", 
 "margin_bottom" => "0", 
-"id" => "module-1405520755986-1686", 
+"id" => "module-1422416936720-1326", 
 "rows" => 4, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fixer-logo-120x30-2906.png", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fixer-logo-111x26-8987.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fixer-logo.png", 
 	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fixer-logo.png", 
 	"image_title" => "", 
 	"alternative_text" => "", 
-	"when_clicked" => "entry", 
-	"image_link" => "" . get_site_url() . "", 
+	"when_clicked" => false, 
+	"image_link" => "", 
 	"include_image_caption" => false, 
 	"image_caption" => "My awesome image caption", 
 	"caption_position" => false, 
@@ -53,16 +97,16 @@ $slider->add_element("Uimage", array(
 	"caption_trigger" => "always_show", 
 	"image_status" => "ok", 
 	"size" => array(
-		"width" => 120, 
-		"height" => 30
+		"width" => 111, 
+		"height" => 26
 		), 
 	"fullSize" => array(
-		"width" => 120, 
-		"height" => 30
+		"width" => 111, 
+		"height" => 26
 		), 
 	"position" => array(
 		"top" => 0, 
-		"left" => -15
+		"left" => 0
 		), 
 	"marginTop" => 0, 
 	"element_size" => array(
@@ -73,10 +117,10 @@ $slider->add_element("Uimage", array(
 	"color" => "#ffffff", 
 	"background" => "#000000", 
 	"captionBackground" => "0", 
-	"image_id" => "9", 
-	"align" => "center", 
+	"image_id" => "1768", 
+	"align" => "left", 
 	"stretch" => false, 
-	"vstretch" => true, 
+	"vstretch" => false, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
 	"placeholder_class" => "", 
@@ -85,26 +129,21 @@ $slider->add_element("Uimage", array(
 	"has_settings" => 1, 
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
-	"element_id" => "image-1405520755973-1481", 
-	"row" => -2, 
-	"theme_style" => "", 
-	"anchor" => "", 
-	"breakpoint" => array(
-		"tablet" => array(
-			"row" => 17
-			)
-		)
+	"element_id" => "image-1422416936718-1443", 
+	"row" => 4
 	), 
-"wrapper_id" => "wrapper-1405520755986-1686", 
+"wrapper_id" => "wrapper-1422419857208-1395", 
 "sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 5, 
+		"edited" => false, 
+		"col" => 4, 
 		"clear" => true, 
 		"order" => 0
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 6, 
 		"clear" => true, 
 		"order" => 0
@@ -113,26 +152,157 @@ $slider->add_element("Uimage", array(
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => true, 
-		"left" => 1, 
+		"left" => 0, 
 		"col" => 4, 
-		"top" => 10, 
-		"row" => 17
+		"top" => 2
 		), 
 	"mobile" => array(
-		"edited" => true, 
+		"edited" => false, 
 		"left" => 1, 
-		"col" => 5, 
-		"top" => 10
+		"col" => 5
 		)
 	)
 ));
 
+$slider->add_element("Unewnavigation", array(
+"columns" => "13", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "9", 
+"margin_bottom" => "0", 
+"id" => "module-1405520756070-1345", 
+"rows" => 12, 
+"options" => array(
+	"type" => "UnewnavigationModel", 
+	"view_class" => "UnewnavigationView", 
+	"class" => "c24 upfront-navigation", 
+	"has_settings" => 1, 
+	"id_slug" => "unewnavigation", 
+	"menu_items" => array(array(
+			"menu-item-db-id" => 37, 
+			"menu-item-parent-id" => "0", 
+			"menu-item-type" => "custom", 
+			"menu-item-title" => "Service", 
+			"menu-item-url" => "http://#services", 
+			"menu-item-object" => "custom", 
+			"menu-item-object-id" => "37", 
+			"menu-item-target" => "", 
+			"menu-item-position" => 1
+			), array(
+			"menu-item-db-id" => 38, 
+			"menu-item-parent-id" => "0", 
+			"menu-item-type" => "custom", 
+			"menu-item-title" => "Get a Quote", 
+			"menu-item-url" => "#getquote", 
+			"menu-item-object" => "custom", 
+			"menu-item-object-id" => "38", 
+			"menu-item-target" => "", 
+			"menu-item-position" => 2
+			), array(
+			"menu-item-db-id" => 39, 
+			"menu-item-parent-id" => "0", 
+			"menu-item-type" => "custom", 
+			"menu-item-title" => "Blog", 
+			"menu-item-url" => "#blog", 
+			"menu-item-object" => "custom", 
+			"menu-item-object-id" => "39", 
+			"menu-item-target" => "", 
+			"menu-item-position" => 3
+			), array(
+			"menu-item-db-id" => 40, 
+			"menu-item-parent-id" => "0", 
+			"menu-item-type" => "custom", 
+			"menu-item-title" => "About", 
+			"menu-item-url" => "#about", 
+			"menu-item-object" => "custom", 
+			"menu-item-object-id" => "40", 
+			"menu-item-target" => "", 
+			"menu-item-position" => 4
+			), array(
+			"menu-item-db-id" => 41, 
+			"menu-item-parent-id" => "0", 
+			"menu-item-type" => "custom", 
+			"menu-item-title" => "Coverage Area", 
+			"menu-item-url" => "http://#coveragearea", 
+			"menu-item-object" => "custom", 
+			"menu-item-object-id" => "41", 
+			"menu-item-target" => "", 
+			"menu-item-position" => 5
+			)), 
+	"menu_style" => "horizontal", 
+	"menu_alignment" => "center", 
+	"allow_sub_nav" => array("no"), 
+	"allow_new_pages" => array(), 
+	"element_id" => "unewnavigation-object-1405520756062-1726", 
+	"initialized" => false, 
+	"menu_id" => false, 
+	"menu_slug" => "fixer-menu", 
+	"is_floating" => array(), 
+	"theme_style" => "main-top-navigation", 
+	"anchor" => "", 
+	"row" => 12, 
+	"burger_menu" => array(), 
+	"burger_alignment" => "left", 
+	"burger_over" => "over", 
+	"breakpoint" => array(
+		"desktop" => array(
+			"burger_alignment" => "left", 
+			"burger_over" => "over", 
+			"width" => 1080
+			), 
+		"tablet" => array(
+			"burger_menu" => "", 
+			"burger_alignment" => "whole", 
+			"burger_over" => "over", 
+			"width" => 570, 
+			"theme_style" => "tablet-nav"
+			), 
+		"mobile" => array(
+			"burger_menu" => "yes", 
+			"burger_alignment" => "whole", 
+			"burger_over" => "over", 
+			"width" => 315
+			)
+		)
+	), 
+"wrapper_id" => "wrapper-1422283492947-1762", 
+"sticky" => false, 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 12, 
+		"clear" => true, 
+		"order" => 2
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 1
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 12, 
+		"top" => 1
+		), 
+	"mobile" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 7, 
+		"top" => 0, 
+		"hide" => 0
+		)
+	)
+));
 
 $slider->add_element("PlainTxt", array(
 "columns" => "5", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "7", 
+"margin_top" => "6", 
 "margin_bottom" => "0", 
 "id" => "module-1405520755970-1045", 
 "rows" => 18, 
@@ -158,176 +328,44 @@ $slider->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1413616950784-18499", 
+"wrapper_id" => "wrapper-1422419596136-1589", 
 "sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 6, 
+		"edited" => false, 
+		"col" => 8, 
 		"clear" => false, 
 		"order" => 1
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 6, 
 		"clear" => true, 
-		"order" => 1
+		"order" => 2
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => true, 
-		"left" => 0, 
+		"left" => 2, 
 		"col" => 6, 
-		"top" => 9, 
+		"top" => 0, 
 		"row" => 17
 		), 
 	"mobile" => array(
 		"edited" => true, 
 		"left" => 1, 
 		"col" => 5, 
-		"top" => 10
-		)
-	)
-));
-
-
-$slider->add_element("Unewnavigation", array(
-	"columns" => "15",
-	"margin_left" => "0",
-	"margin_right" => "0",
-	"margin_top" => "9",
-	"margin_bottom" => "0",
-	"id" => "module-1405520756070-1345",
-	"rows" => 8,
-	"options" => array(
-		"type" => "UnewnavigationModel",
-		"view_class" => "UnewnavigationView",
-		"class" => "c24 upfront-navigation",
-		"has_settings" => 1,
-		"id_slug" => "unewnavigation",
-		"menu_items" => array(array(
-			"menu-item-db-id" => 8,
-			"menu-item-parent-id" => "0",
-			"menu-item-type" => "custom",
-			"menu-item-title" => "Service",
-			"menu-item-url" => "" . get_site_url() . "/#services",
-			"menu-item-object" => "custom",
-			"menu-item-object-id" => "8",
-			"menu-item-target" => "",
-			"menu-item-position" => 1
-		), array(
-			"menu-item-db-id" => 9,
-			"menu-item-parent-id" => "0",
-			"menu-item-type" => "custom",
-			"menu-item-title" => "Get a Quote",
-			"menu-item-url" => "" . get_site_url() . "/#quote",
-			"menu-item-object" => "custom",
-			"menu-item-object-id" => "9",
-			"menu-item-target" => "",
-			"menu-item-position" => 2
-		), array(
-			"menu-item-db-id" => 10,
-			"menu-item-parent-id" => "0",
-			"menu-item-type" => "custom",
-			"menu-item-title" => "Blog",
-			"menu-item-url" => "" . get_site_url() . "/#blog",
-			"menu-item-object" => "custom",
-			"menu-item-object-id" => "10",
-			"menu-item-target" => "",
-			"menu-item-position" => 3
-		), array(
-			"menu-item-db-id" => 11,
-			"menu-item-parent-id" => "0",
-			"menu-item-type" => "custom",
-			"menu-item-title" => "About",
-			"menu-item-url" => "" . get_site_url() . "/#about",
-			"menu-item-object" => "custom",
-			"menu-item-object-id" => "11",
-			"menu-item-target" => "",
-			"menu-item-position" => 4
-		), array(
-			"menu-item-db-id" => 12,
-			"menu-item-parent-id" => "0",
-			"menu-item-type" => "custom",
-			"menu-item-title" => "Coverage Area",
-			"menu-item-url" => "" . get_site_url() . "/#coverage",
-			"menu-item-object" => "custom",
-			"menu-item-object-id" => "12",
-			"menu-item-target" => "",
-			"menu-item-position" => 5
-		)),
-		"menu_style" => "horizontal",
-		"menu_alignment" => "left",
-		"allow_sub_nav" => array("no"),
-		"allow_new_pages" => array(),
-		"element_id" => "unewnavigation-object-1405520756062-1726",
-		"initialized" => false,
-		"menu_id" => false,
-		"menu_slug" => "fixer-menu",
-		"is_floating" => array(),
-		"theme_style" => "main-top-navigation",
-		"anchor" => "",
-		"row" => 8,
-		"burger_menu" => array(),
-		"burger_alignment" => "left",
-		"burger_over" => "over",
-		"breakpoint" => array(
-			"desktop" => array(
-				"burger_alignment" => "left",
-				"burger_over" => "over",
-				"width" => 1080
-			),
-			"tablet" => array(
-				"burger_menu" => "yes",
-				"burger_alignment" => "whole",
-				"burger_over" => "over",
-				"width" => 570
-			),
-			"mobile" => array(
-				"burger_menu" => "yes",
-				"burger_alignment" => "whole",
-				"burger_over" => "over",
-				"width" => 315
-			)
-		)
-	),
-	"wrapper_id" => "wrapper-1422283492947-1762",
-	"sticky" => false,
-	"wrapper_breakpoint" => array(
-		"tablet" => array(
-			"edited" => false,
-			"col" => 12,
-			"clear" => true,
-			"order" => 2
-		),
-		"mobile" => array(
-			"edited" => false,
-			"col" => 7,
-			"clear" => true,
-			"order" => 3
-		)
-	),
-	"breakpoint" => array(
-		"tablet" => array(
-			"edited" => true,
-			"left" => 0,
-			"col" => 12,
-			"top" => 0
-		),
-		"mobile" => array(
-			"edited" => true,
-			"left" => 0,
-			"col" => 7,
-			"top" => 0,
-			"hide" => 0
+		"top" => 0
 		)
 	)
 ));
 
 $slider->add_element("PlainTxt", array(
 "columns" => "18", 
-"margin_left" => "6", 
+"margin_left" => "5", 
 "margin_right" => "0", 
-"margin_top" => "76", 
+"margin_top" => "12", 
 "margin_bottom" => "0", 
 "id" => "module-1405538329123-1568", 
 "rows" => 54, 
@@ -348,7 +386,12 @@ And Fix
 	"bg_color" => "", 
 	"theme_style" => "home-slideshow-text", 
 	"anchor" => "", 
-	"row" => 54
+	"row" => 54, 
+	"breakpoint" => array(
+		"mobile" => array(
+			"row" => 25
+			)
+		)
 	), 
 "wrapper_id" => "wrapper-1413426797464-1674", 
 "sticky" => false, 
@@ -362,7 +405,7 @@ And Fix
 	"mobile" => array(
 		"col" => 7, 
 		"clear" => true, 
-		"order" => 4
+		"order" => 3
 		)
 	), 
 "breakpoint" => array(
@@ -370,22 +413,23 @@ And Fix
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 12, 
-		"top" => 98
+		"top" => 4
 		), 
 	"mobile" => array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 7, 
-		"top" => 66
+		"top" => 0, 
+		"row" => 25
 		)
 	)
 ));
 
 $slider->add_element("Button", array(
 "columns" => "4", 
-"margin_left" => "16", 
+"margin_left" => "15", 
 "margin_right" => "0", 
-"margin_top" => "3", 
+"margin_top" => "1", 
 "margin_bottom" => "0", 
 "id" => "module-1412693769329-1564", 
 "rows" => 15, 
@@ -404,16 +448,18 @@ $slider->add_element("Button", array(
 	"row" => 15, 
 	"is_edited" => true
 	), 
-"wrapper_id" => "wrapper-1414410187134-1466", 
+"wrapper_id" => "wrapper-1422419870124-1631", 
 "sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
+		"edited" => false, 
 		"col" => 8, 
-		"clear" => true, 
-		"order" => 4
+		"clear" => false, 
+		"order" => 5
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 6, 
 		"clear" => true, 
 		"order" => 5
@@ -421,14 +467,16 @@ $slider->add_element("Button", array(
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 4, 
-		"col" => 4
+		"col" => 4, 
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 1, 
-		"col" => 5
+		"col" => 5, 
+		"top" => 0
 		)
 	)
 ));
@@ -437,7 +485,7 @@ $slider->add_element("Button", array(
 "columns" => "4", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "3", 
+"margin_top" => "1", 
 "margin_bottom" => "0", 
 "id" => "module-1412693935237-1809", 
 "rows" => 15, 
@@ -456,86 +504,90 @@ $slider->add_element("Button", array(
 	"row" => 15, 
 	"is_edited" => true
 	), 
-"wrapper_id" => "wrapper-1414410194085-1439", 
+"wrapper_id" => "wrapper-1422419870126-1738", 
 "sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 8, 
+		"edited" => false, 
+		"col" => 4, 
 		"clear" => true, 
-		"order" => 5
+		"order" => 4
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 6, 
 		"clear" => true, 
-		"order" => 6
+		"order" => 4
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
-		"left" => 4, 
-		"col" => 4
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 4, 
+		"top" => 0
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 1, 
-		"col" => 5
+		"col" => 5, 
+		"top" => 0
 		)
 	)
 ));
 
 $regions->add($slider);
 
-$services = upfront_create_region(
+$region_13 = upfront_create_region(
 			array(
-"name" => "services", 
-"title" => "Services", 
+"name" => "region-13", 
+"title" => "Region 13", 
 "type" => "wide", 
 "scope" => "local", 
-"container" => "services", 
+"container" => "region-13", 
 "position" => 1, 
 "allow_sidebar" => true
 ),
 			array(
-"row" => 296, 
-"background_type" => "image", 
-"nav_region" => "", 
-"background_color" => "rgba(51,51,51,1)", 
-"background_style" => "fixed", 
-"background_position_y" => "59", 
-"background_position_x" => "52", 
-"background_image" => "" . get_stylesheet_directory_uri() . "/images/archive-home/spanner.jpg", 
-"background_image_ratio" => 2.33, 
-"background_repeat" => "no-repeat", 
-"background_position" => "52% 59%", 
+"row" => 109, 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"background_position_y" => "59", 
+		"background_position_y" => "79", 
 		"background_style" => "fixed", 
 		"background_repeat" => "no-repeat", 
-		"background_position" => "52% 59%", 
-		"background_position_x" => "52", 
+		"background_position" => "50% 79%", 
+		"background_position_x" => "50", 
 		"background_type" => "color"
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"background_position_y" => "59", 
+		"background_position_y" => "79", 
 		"background_style" => "fixed", 
 		"background_repeat" => "no-repeat", 
-		"background_position" => "52% 59%", 
-		"background_position_x" => "52", 
+		"background_position" => "50% 79%", 
+		"background_position_x" => "50", 
 		"background_type" => "color"
 		)
-	)
+	), 
+"background_type" => "image", 
+"nav_region" => "", 
+"background_color" => "rgba(51,51,51,1)", 
+"background_style" => "fixed", 
+"background_position_y" => "79", 
+"background_position_x" => "50", 
+"background_image" => "" . get_stylesheet_directory_uri() . "/images/archive-home/spanner.jpg", 
+"background_image_ratio" => 2.33, 
+"background_repeat" => "no-repeat", 
+"background_position" => "50% 79%"
 )
 			);
 
-$services->add_element("PlainTxt", array(
+$region_13->add_element("PlainTxt", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "30", 
+"margin_top" => "1", 
 "margin_bottom" => "0", 
 "id" => "module-1412752367986-1614", 
 "rows" => 5, 
@@ -553,28 +605,30 @@ $services->add_element("PlainTxt", array(
 	"border_width" => 1, 
 	"border_color" => "rgba(0, 0, 0, 0)", 
 	"bg_color" => "rgba(0, 0, 0, 0)", 
-	"anchor" => "services"
+	"anchor" => "services", 
+	"theme_style" => "white-text"
 	), 
-"wrapper_id" => "wrapper-1412752432673-1037", 
+"wrapper_id" => "wrapper-1422429463425-1242", 
 "sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12, 
-		"clear" => true, 
-		"order" => 0
+		"edited" => false, 
+		"col" => 12
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 7, 
-		"clear" => true, 
-		"order" => 0
+		"clear" => false
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"top" => 0, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
@@ -584,98 +638,87 @@ $services->add_element("PlainTxt", array(
 	)
 ));
 
-$services->add_element("PlainTxt", array(
+$region_13->add_element("PlainTxt", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "1", 
+"margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1412753049856-1341", 
-"rows" => 60, 
+"rows" => 59, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
 	"content" => "<h1 style=\"text-align: center;\" class=\"\">Premier<br>
-Service &amp; Quality</h1>", 
+Service &amp; Quality
+</h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1412753049855-1267", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
-	"row" => 60, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"anchor" => ""
-	), 
-"wrapper_id" => "wrapper-1412761919281-1736", 
-"sticky" => false, 
-"new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 12, 
-		"clear" => true, 
-		"order" => 1
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"clear" => true, 
-		"order" => 1
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 12
-		), 
-	"mobile" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 7
-		)
-	)
-));
-
-$services->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "13", 
-"margin_bottom" => "0", 
-"id" => "module-1412753565271-1173", 
-"rows" => 11, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<h2 style=\"text-align: right;\" class=\"\">Bricklaying  <span class=\"uf_font_icon\">d<br>
-</span></h2>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1412753565270-1933", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
+	"row" => 59, 
 	"border_style" => "none", 
 	"border_width" => 1, 
 	"border_color" => "", 
 	"bg_color" => "", 
 	"anchor" => "", 
-	"row" => 11
+	"breakpoint" => array(
+		"mobile" => array(
+			"row" => 34
+			)
+		)
 	), 
-"wrapper_id" => "wrapper-1416900822536-1508", 
+"wrapper_id" => "wrapper-1422429454235-1180", 
 "sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9, 
-		"clear" => true, 
+		"edited" => false, 
+		"col" => 12
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 7, 
+		"clear" => false
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 12, 
+		"top" => 0, 
 		"order" => 2
 		), 
 	"mobile" => array(
+		"edited" => true, 
+		"left" => 0, 
 		"col" => 7, 
-		"clear" => true, 
-		"order" => 2
+		"row" => 34
+		)
+	)
+));
+
+$region_13->add_group(array(
+"columns" => "6", 
+"margin_left" => "1", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-group-1422429009198-1521", 
+"rows" => 10, 
+"wrapper_id" => "wrapper-1422428914641-1847", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 9
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 7, 
+		"clear" => false
 		)
 	), 
 "breakpoint" => array(
@@ -692,72 +735,69 @@ $services->add_element("PlainTxt", array(
 	)
 ));
 
-$services->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "12", 
-"margin_right" => "0", 
-"margin_top" => "14", 
-"margin_bottom" => "0", 
-"id" => "module-1412755741207-1241", 
-"rows" => 12, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<h2 style=\"text-align: start;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">g </span>Fencing</h2>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1412755741208-1512", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "rgba(0, 0, 0, 0)", 
-	"bg_color" => "rgba(0, 0, 0, 0)", 
-	"anchor" => "", 
-	"row" => 12
-	), 
-"wrapper_id" => "wrapper-1416900804963-1795", 
-"sticky" => false, 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 9, 
-		"clear" => true, 
-		"order" => 5
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"clear" => true, 
-		"order" => 5
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => true, 
-		"left" => 3, 
-		"col" => 6, 
-		"top" => 0
-		), 
-	"mobile" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 7, 
-		"top" => 0
-		)
-	)
-));
-
-$services->add_element("Uimage", array(
+$region_13->add_element("PlainTxt", array(
 "columns" => "6", 
 "margin_left" => "0", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1412753565287-1086", 
-"rows" => 29, 
+"id" => "module-1422428824571-1103", 
+"rows" => 13, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/services-241x114-8562.jpg", 
-	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/services.jpg", 
-	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/services.jpg", 
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<h2 class=\"\" style=\"text-align: right;\">Bricklaying <span class=\"uf_font_icon\" rel=\"font-size: 27px; top: 0px;\"><span class=\"uf_font_icon\" style=\"font-size: 28px;\" rel=\"font-size: 28px;\">d</span></span></h2>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "object-1422428824571-1705", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"row" => 13, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => "", 
+	"theme_style" => "white-text"
+	), 
+"wrapper_id" => "wrapper-1422429009242-1478", 
+"sticky" => false, 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 6
+		), 
+	"mobile" => array(
+		"col" => 6
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		)
+	), 
+"group" => "module-group-1422429009198-1521"
+));
+
+$region_13->add_element("Uimage", array(
+"columns" => "6", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1422428830962-1500", 
+"rows" => 10, 
+"options" => array(
+	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/brick-240x120-6903.jpg", 
+	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/brick.jpg", 
+	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/brick.jpg", 
 	"image_title" => "", 
 	"alternative_text" => "", 
 	"when_clicked" => false, 
@@ -769,12 +809,12 @@ $services->add_element("Uimage", array(
 	"caption_trigger" => "always_show", 
 	"image_status" => "ok", 
 	"size" => array(
-		"width" => 241, 
-		"height" => 723
+		"width" => 240, 
+		"height" => 120
 		), 
 	"fullSize" => array(
 		"width" => 240, 
-		"height" => 720
+		"height" => 120
 		), 
 	"position" => array(
 		"top" => 0, 
@@ -782,15 +822,15 @@ $services->add_element("Uimage", array(
 		), 
 	"marginTop" => 0, 
 	"element_size" => array(
-		"width" => 241, 
-		"height" => 114
+		"width" => 240, 
+		"height" => 120
 		), 
 	"rotation" => 0, 
 	"color" => "#ffffff", 
 	"background" => "#000000", 
 	"captionBackground" => "0", 
-	"image_id" => "39", 
-	"align" => "center", 
+	"image_id" => "1772", 
+	"align" => "left", 
 	"stretch" => true, 
 	"vstretch" => true, 
 	"quick_swap" => false, 
@@ -801,604 +841,91 @@ $services->add_element("Uimage", array(
 	"has_settings" => 1, 
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
-	"element_id" => "image-1412753565275-1335", 
-	"row" => 29, 
-	"anchor" => ""
+	"element_id" => "object-1422428830962-1948", 
+	"row" => 10
 	), 
-"wrapper_id" => "wrapper-1416900389460-1990", 
+"wrapper_id" => "wrapper-1422429009242-1478", 
 "sticky" => false, 
 "new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 9, 
-		"clear" => true, 
-		"order" => 3
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"clear" => true, 
-		"order" => 3
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => true, 
-		"left" => 3, 
-		"col" => 6, 
-		"top" => 0
-		), 
-	"mobile" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 7, 
-		"top" => 0
-		)
-	)
-));
-
-$services->add_element("Uimage", array(
-"columns" => "6", 
-"margin_left" => "12", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1412754746643-1570", 
-"rows" => 29, 
-"options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/services-240x112-4557.jpg", 
-	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/services.jpg", 
-	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/services.jpg", 
-	"image_title" => "", 
-	"alternative_text" => "", 
-	"when_clicked" => false, 
-	"image_link" => "", 
-	"include_image_caption" => false, 
-	"image_caption" => "My awesome image caption", 
-	"caption_position" => false, 
-	"caption_alignment" => false, 
-	"caption_trigger" => "always_show", 
-	"image_status" => "ok", 
-	"size" => array(
-		"width" => 240, 
-		"height" => 720
-		), 
-	"fullSize" => array(
-		"width" => 240, 
-		"height" => 720
-		), 
-	"position" => array(
-		"top" => 368.00003051758, 
-		"left" => 0
-		), 
-	"marginTop" => 0, 
-	"element_size" => array(
-		"width" => 240, 
-		"height" => 112
-		), 
-	"rotation" => 0, 
-	"color" => "#ffffff", 
-	"background" => "#000000", 
-	"captionBackground" => "0", 
-	"image_id" => "39", 
-	"align" => "center", 
-	"stretch" => true, 
-	"vstretch" => true, 
-	"quick_swap" => false, 
-	"gifImage" => 0, 
-	"placeholder_class" => "", 
-	"type" => "UimageModel", 
-	"view_class" => "UimageView", 
-	"has_settings" => 1, 
-	"class" => "c24 upfront-image", 
-	"id_slug" => "image", 
-	"element_id" => "object-1412754746643-1236", 
-	"row" => 29, 
-	"anchor" => ""
-	), 
-"wrapper_id" => "wrapper-1416900400259-1519", 
-"sticky" => false, 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 9, 
-		"clear" => true, 
-		"order" => 6
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"clear" => true, 
-		"order" => 6
-		)
-	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"left" => 3, 
+		"left" => 0, 
 		"col" => 6
 		), 
 	"mobile" => array(
-		"edited" => true, 
+		"edited" => false, 
 		"left" => 0, 
-		"col" => 7, 
-		"top" => 0
+		"col" => 6
 		)
-	)
+	), 
+"group" => "module-group-1422429009198-1521"
 ));
 
-$services->add_element("PlainTxt", array(
+$region_13->add_element("PlainTxt", array(
 "columns" => "6", 
 "margin_left" => "0", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1412755116247-1664", 
-"rows" => 19, 
+"id" => "module-1422428837655-1419", 
+"rows" => 13, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
 	"content" => "<p class=\"\" style=\"text-align: right;\">
 	Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el iusto<br>
+	<span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\" rel=\"font-size: 27px; top: 0px;\"></span>
 </p>", 
 	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1412755116246-1165", 
+	"element_id" => "object-1422428837655-1901", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
-	"row" => 19
-	), 
-"wrapper_id" => "wrapper-1416901372858-1081", 
-"sticky" => false, 
-"new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 9, 
-		"clear" => true, 
-		"order" => 4
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"clear" => true, 
-		"order" => 4
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => true, 
-		"left" => 3, 
-		"col" => 6, 
-		"top" => 0
-		), 
-	"mobile" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 7, 
-		"top" => 0
-		)
-	)
-));
-
-$services->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "12", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1412758674925-1625", 
-"rows" => 24, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\">Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el iusto</p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1412758674926-1809", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"row" => 24
-	), 
-"wrapper_id" => "wrapper-1416901378684-1765", 
-"sticky" => false, 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 9, 
-		"clear" => true, 
-		"order" => 7
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"clear" => true, 
-		"order" => 7
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => true, 
-		"left" => 3, 
-		"col" => 6, 
-		"top" => 1
-		), 
-	"mobile" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 7, 
-		"top" => 1
-		)
-	)
-));
-
-$services->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "15", 
-"margin_bottom" => "0", 
-"id" => "module-1412755312037-1516", 
-"rows" => 9, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<h2 style=\"text-align: right;\" class=\"\">Electrical &nbsp;<span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">f</span></h2>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1412755312039-1941", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
+	"row" => 13, 
 	"border_style" => "none", 
 	"border_width" => 1, 
 	"border_color" => "", 
 	"bg_color" => "", 
 	"anchor" => "", 
-	"row" => 9
+	"theme_style" => "white-text"
 	), 
-"wrapper_id" => "wrapper-1416901505442-1576", 
+"wrapper_id" => "wrapper-1422429009242-1478", 
 "sticky" => false, 
 "new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 9, 
-		"clear" => true, 
-		"order" => 8
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"clear" => true, 
-		"order" => 8
-		)
-	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => true, 
-		"left" => 3, 
-		"col" => 6, 
-		"top" => 0
-		), 
-	"mobile" => array(
-		"edited" => true, 
+		"edited" => false, 
 		"left" => 0, 
-		"col" => 7, 
-		"top" => 0
-		)
-	)
-));
-
-$services->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "12", 
-"margin_right" => "0", 
-"margin_top" => "15", 
-"margin_bottom" => "0", 
-"id" => "module-1412756687814-1736", 
-"rows" => 11, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<h2 style=\"text-align: start;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">h&nbsp;</span>Windows</h2>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1412756687815-1861", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"anchor" => "", 
-	"row" => 11
-	), 
-"wrapper_id" => "wrapper-1416901530722-1559", 
-"sticky" => false, 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 9, 
-		"clear" => true, 
-		"order" => 11
+		"col" => 6
 		), 
 	"mobile" => array(
-		"col" => 7, 
-		"clear" => true, 
-		"order" => 11
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
 		)
 	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => true, 
-		"left" => 3, 
-		"col" => 6, 
-		"top" => 0
-		), 
-	"mobile" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 7, 
-		"top" => 0
-		)
-	)
+"group" => "module-group-1422429009198-1521"
 ));
 
-$services->add_element("Uimage", array(
+$region_13->add_group(array(
 "columns" => "6", 
-"margin_left" => "0", 
+"margin_left" => "10", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1412754669225-1927", 
-"rows" => 29, 
-"options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/services-240x113-5477.jpg", 
-	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/services.jpg", 
-	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/services.jpg", 
-	"image_title" => "", 
-	"alternative_text" => "", 
-	"when_clicked" => false, 
-	"image_link" => "", 
-	"include_image_caption" => false, 
-	"image_caption" => "My awesome image caption", 
-	"caption_position" => false, 
-	"caption_alignment" => false, 
-	"caption_trigger" => "always_show", 
-	"image_status" => "ok", 
-	"size" => array(
-		"width" => 240, 
-		"height" => 720
-		), 
-	"fullSize" => array(
-		"width" => 240, 
-		"height" => 720
-		), 
-	"position" => array(
-		"top" => 123, 
-		"left" => 0
-		), 
-	"marginTop" => 0, 
-	"element_size" => array(
-		"width" => 240, 
-		"height" => 113
-		), 
-	"rotation" => 0, 
-	"color" => "#ffffff", 
-	"background" => "#000000", 
-	"captionBackground" => "0", 
-	"image_id" => "39", 
-	"align" => "center", 
-	"stretch" => true, 
-	"vstretch" => true, 
-	"quick_swap" => false, 
-	"gifImage" => 0, 
-	"placeholder_class" => "", 
-	"type" => "UimageModel", 
-	"view_class" => "UimageView", 
-	"has_settings" => 1, 
-	"class" => "c24 upfront-image", 
-	"id_slug" => "image", 
-	"element_id" => "object-1412754669226-1686", 
-	"row" => 29, 
-	"anchor" => ""
-	), 
-"wrapper_id" => "wrapper-1416901537370-1412", 
-"sticky" => false, 
-"new_line" => "true", 
+"id" => "module-group-1422429038585-1160", 
+"rows" => 10, 
+"wrapper_id" => "wrapper-1422429044142-1942", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 9, 
-		"clear" => true, 
-		"order" => 9
+		"edited" => false, 
+		"col" => 9
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 7, 
-		"clear" => true, 
-		"order" => 9
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => true, 
-		"left" => 3, 
-		"col" => 6, 
-		"top" => 0
-		), 
-	"mobile" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 7, 
-		"top" => 0
-		)
-	)
-));
-
-$services->add_element("Uimage", array(
-"columns" => "6", 
-"margin_left" => "12", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1412754754742-1146", 
-"rows" => 29, 
-"options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/services-240x112-1825.jpg", 
-	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/services.jpg", 
-	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/services.jpg", 
-	"image_title" => "", 
-	"alternative_text" => "", 
-	"when_clicked" => false, 
-	"image_link" => "", 
-	"include_image_caption" => false, 
-	"image_caption" => "My awesome image caption", 
-	"caption_position" => false, 
-	"caption_alignment" => false, 
-	"caption_trigger" => "always_show", 
-	"image_status" => "ok", 
-	"size" => array(
-		"width" => 240, 
-		"height" => 720
-		), 
-	"fullSize" => array(
-		"width" => 240, 
-		"height" => 720
-		), 
-	"position" => array(
-		"top" => 485.00003051758, 
-		"left" => 0
-		), 
-	"marginTop" => 0, 
-	"element_size" => array(
-		"width" => 240, 
-		"height" => 112
-		), 
-	"rotation" => 0, 
-	"color" => "#ffffff", 
-	"background" => "#000000", 
-	"captionBackground" => "0", 
-	"image_id" => "39", 
-	"align" => "center", 
-	"stretch" => true, 
-	"vstretch" => true, 
-	"quick_swap" => false, 
-	"gifImage" => 0, 
-	"placeholder_class" => "", 
-	"type" => "UimageModel", 
-	"view_class" => "UimageView", 
-	"has_settings" => 1, 
-	"class" => "c24 upfront-image", 
-	"id_slug" => "image", 
-	"element_id" => "object-1412754754742-1865", 
-	"row" => 29, 
-	"anchor" => ""
-	), 
-"wrapper_id" => "wrapper-1416901556206-1438", 
-"sticky" => false, 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 9, 
-		"clear" => true, 
-		"order" => 12
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"clear" => true, 
-		"order" => 12
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => true, 
-		"left" => 3, 
-		"col" => 6, 
-		"top" => 0
-		), 
-	"mobile" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 7, 
-		"top" => 0
-		)
-	)
-));
-
-$services->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1412758639158-1499", 
-"rows" => 21, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\" style=\"text-align: right;\">Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el iusto<br></p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1412758639158-1230", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"row" => 21, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"anchor" => ""
-	), 
-"wrapper_id" => "wrapper-1416901593088-1236", 
-"sticky" => false, 
-"new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 9, 
-		"clear" => true, 
-		"order" => 10
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"clear" => true, 
-		"order" => 10
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => true, 
-		"left" => 3, 
-		"col" => 6, 
-		"top" => 0
-		), 
-	"mobile" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 7, 
-		"top" => 0
-		)
-	)
-));
-
-$services->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "12", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1412758683553-1445", 
-"rows" => 21, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\">Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el iusto</p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1412758683553-1850", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"row" => 21
-	), 
-"wrapper_id" => "wrapper-1416901605444-1181", 
-"sticky" => false, 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 9, 
-		"clear" => true, 
-		"order" => 13
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"clear" => true, 
-		"order" => 13
+		"clear" => false
 		)
 	), 
 "breakpoint" => array(
@@ -1406,444 +933,6 @@ $services->add_element("PlainTxt", array(
 		"edited" => false, 
 		"left" => 3, 
 		"col" => 6
-		), 
-	"mobile" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 7, 
-		"top" => 0
-		)
-	)
-));
-
-$services->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "12", 
-"margin_bottom" => "0", 
-"id" => "module-1412755367541-1095", 
-"rows" => 12, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<h2 style=\"text-align: right;\" class=\"\">Plumping &nbsp;<span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">e</span></h2>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1412755367541-1166", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"anchor" => "", 
-	"row" => 12
-	), 
-"wrapper_id" => "wrapper-1416901822253-1905", 
-"sticky" => false, 
-"new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 9, 
-		"clear" => true, 
-		"order" => 14
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"clear" => true, 
-		"order" => 14
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => true, 
-		"left" => 3, 
-		"col" => 6, 
-		"top" => 0
-		), 
-	"mobile" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 7, 
-		"top" => 0
-		)
-	)
-));
-
-$services->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "12", 
-"margin_right" => "0", 
-"margin_top" => "13", 
-"margin_bottom" => "0", 
-"id" => "module-1412756709190-1593", 
-"rows" => 7, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<h2 style=\"text-align: start;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">i&nbsp;</span>Roofing</h2>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1412756709192-1166", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"anchor" => "", 
-	"row" => 7
-	), 
-"wrapper_id" => "wrapper-1416901834851-1774", 
-"sticky" => false, 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 9, 
-		"clear" => true, 
-		"order" => 17
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"clear" => true, 
-		"order" => 17
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => true, 
-		"left" => 3, 
-		"col" => 6, 
-		"top" => 0
-		), 
-	"mobile" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 7, 
-		"top" => 0
-		)
-	)
-));
-
-$services->add_element("Uimage", array(
-"columns" => "6", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1412754693141-1172", 
-"rows" => 29, 
-"options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/services-240x112-9667.jpg", 
-	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/services.jpg", 
-	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/services.jpg", 
-	"image_title" => "", 
-	"alternative_text" => "", 
-	"when_clicked" => false, 
-	"image_link" => "", 
-	"include_image_caption" => false, 
-	"image_caption" => "My awesome image caption", 
-	"caption_position" => false, 
-	"caption_alignment" => false, 
-	"caption_trigger" => "always_show", 
-	"image_status" => "ok", 
-	"size" => array(
-		"width" => 240, 
-		"height" => 720
-		), 
-	"fullSize" => array(
-		"width" => 240, 
-		"height" => 720
-		), 
-	"position" => array(
-		"top" => 243, 
-		"left" => 0
-		), 
-	"marginTop" => 0, 
-	"element_size" => array(
-		"width" => 240, 
-		"height" => 112
-		), 
-	"rotation" => 0, 
-	"color" => "#ffffff", 
-	"background" => "#000000", 
-	"captionBackground" => "0", 
-	"image_id" => "39", 
-	"align" => "center", 
-	"stretch" => true, 
-	"vstretch" => true, 
-	"quick_swap" => false, 
-	"gifImage" => 0, 
-	"placeholder_class" => "", 
-	"type" => "UimageModel", 
-	"view_class" => "UimageView", 
-	"has_settings" => 1, 
-	"class" => "c24 upfront-image", 
-	"id_slug" => "image", 
-	"element_id" => "object-1412754693142-1998", 
-	"row" => 29, 
-	"anchor" => ""
-	), 
-"wrapper_id" => "wrapper-1416901744856-1433", 
-"sticky" => false, 
-"new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 9, 
-		"clear" => true, 
-		"order" => 15
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"clear" => true, 
-		"order" => 15
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => true, 
-		"left" => 3, 
-		"col" => 6, 
-		"top" => 0
-		), 
-	"mobile" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 7, 
-		"top" => 0
-		)
-	)
-));
-
-$services->add_element("Uimage", array(
-"columns" => "6", 
-"margin_left" => "12", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1412754737240-1558", 
-"rows" => 29, 
-"options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/services-240x112-5900.jpg", 
-	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/services.jpg", 
-	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/services.jpg", 
-	"image_title" => "", 
-	"alternative_text" => "", 
-	"when_clicked" => false, 
-	"image_link" => "", 
-	"include_image_caption" => false, 
-	"image_caption" => "My awesome image caption", 
-	"caption_position" => false, 
-	"caption_alignment" => false, 
-	"caption_trigger" => "always_show", 
-	"image_status" => "ok", 
-	"size" => array(
-		"width" => 240, 
-		"height" => 720
-		), 
-	"fullSize" => array(
-		"width" => 240, 
-		"height" => 720
-		), 
-	"position" => array(
-		"top" => 604.00003051758, 
-		"left" => 0
-		), 
-	"marginTop" => 0, 
-	"element_size" => array(
-		"width" => 240, 
-		"height" => 112
-		), 
-	"rotation" => 0, 
-	"color" => "#ffffff", 
-	"background" => "#000000", 
-	"captionBackground" => "0", 
-	"image_id" => "39", 
-	"align" => "center", 
-	"stretch" => true, 
-	"vstretch" => true, 
-	"quick_swap" => false, 
-	"gifImage" => 0, 
-	"placeholder_class" => "", 
-	"type" => "UimageModel", 
-	"view_class" => "UimageView", 
-	"has_settings" => 1, 
-	"class" => "c24 upfront-image", 
-	"id_slug" => "image", 
-	"element_id" => "object-1412754737240-1334", 
-	"row" => 29, 
-	"anchor" => ""
-	), 
-"wrapper_id" => "wrapper-1416901744859-1792", 
-"sticky" => false, 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 9, 
-		"clear" => true, 
-		"order" => 18
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"clear" => true, 
-		"order" => 18
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => true, 
-		"left" => 3, 
-		"col" => 6, 
-		"top" => 0
-		), 
-	"mobile" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 7, 
-		"top" => 0
-		)
-	)
-));
-
-$services->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1412758653429-1468", 
-"rows" => 21, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\" style=\"text-align: right;\">Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el iusto<br></p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1412758653429-1692", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"row" => 21
-	), 
-"wrapper_id" => "wrapper-1416972058093-1784", 
-"sticky" => false, 
-"new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 9, 
-		"clear" => true, 
-		"order" => 16
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"clear" => true, 
-		"order" => 16
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => true, 
-		"left" => 3, 
-		"col" => 6, 
-		"top" => 0
-		), 
-	"mobile" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 7, 
-		"top" => 2
-		)
-	)
-));
-
-$services->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "12", 
-"margin_right" => "0", 
-"margin_top" => "0", 
-"margin_bottom" => "0", 
-"id" => "module-1412758697922-1900", 
-"rows" => 21, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\">Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el iusto</p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "object-1412758697922-1117", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"row" => 21
-	), 
-"wrapper_id" => "wrapper-1416972051861-1391", 
-"sticky" => false, 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 9, 
-		"clear" => true, 
-		"order" => 19
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"clear" => true, 
-		"order" => 19
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => true, 
-		"left" => 3, 
-		"col" => 6, 
-		"top" => 0
-		), 
-	"mobile" => array(
-		"edited" => true, 
-		"left" => 0, 
-		"col" => 7, 
-		"top" => 0
-		)
-	)
-));
-
-$services->add_element("PlainTxt", array(
-"columns" => "24", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "13", 
-"margin_bottom" => "0", 
-"id" => "module-1416900356851-1488", 
-"rows" => 14, 
-"options" => array(
-	"view_class" => "PlainTxtView", 
-	"id_slug" => "plain_text", 
-	"content" => "<p>
-	<br>
-</p>", 
-	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1416900356850-1017", 
-	"class" => "c24 upfront-plain_txt", 
-	"has_settings" => 1, 
-	"is_edited" => true, 
-	"row" => 14
-	), 
-"wrapper_id" => "wrapper-1416900747782-1547", 
-"sticky" => false, 
-"new_line" => "true", 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 12, 
-		"clear" => true, 
-		"order" => 20
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"clear" => true, 
-		"order" => 20
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 12
 		), 
 	"mobile" => array(
 		"edited" => false, 
@@ -1853,7 +942,1142 @@ $services->add_element("PlainTxt", array(
 	)
 ));
 
-$regions->add($services);
+$region_13->add_element("PlainTxt", array(
+"columns" => "6", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1422428909244-1540", 
+"rows" => 13, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<h2 class=\"\" style=\"text-align: justify;\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\" rel=\"font-size: 27px; top: 0px;\">g</span> Fencing<span class=\"uf_font_icon\" rel=\"font-size: 27px; top: 0px;\"><span class=\"uf_font_icon\" rel=\"font-size: 28px;\" data-redactor-class=\"uf_font_icon\"></span></span></h2>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "object-1422428909245-1369", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"row" => 13, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => "", 
+	"theme_style" => "white-text", 
+	"breakpoint" => array(
+		"tablet" => array(
+			"row" => 16
+			)
+		)
+	), 
+"wrapper_id" => "wrapper-1422429038628-1823", 
+"sticky" => false, 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 6, 
+		"clear" => true
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 6
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 6, 
+		"row" => 16
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		)
+	), 
+"group" => "module-group-1422429038585-1160"
+));
+
+$region_13->add_element("Uimage", array(
+"columns" => "6", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1422428914494-1340", 
+"rows" => 10, 
+"options" => array(
+	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fence-240x120-3105.jpg", 
+	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fence.jpg", 
+	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fence.jpg", 
+	"image_title" => "", 
+	"alternative_text" => "", 
+	"when_clicked" => false, 
+	"image_link" => "", 
+	"include_image_caption" => false, 
+	"image_caption" => "My awesome image caption", 
+	"caption_position" => false, 
+	"caption_alignment" => false, 
+	"caption_trigger" => "always_show", 
+	"image_status" => "ok", 
+	"size" => array(
+		"width" => 240, 
+		"height" => 120
+		), 
+	"fullSize" => array(
+		"width" => 240, 
+		"height" => 120
+		), 
+	"position" => array(
+		"top" => 0, 
+		"left" => 0
+		), 
+	"marginTop" => 0, 
+	"element_size" => array(
+		"width" => 240, 
+		"height" => 120
+		), 
+	"rotation" => 0, 
+	"color" => "#ffffff", 
+	"background" => "#000000", 
+	"captionBackground" => "0", 
+	"image_id" => "1775", 
+	"align" => "left", 
+	"stretch" => true, 
+	"vstretch" => true, 
+	"quick_swap" => false, 
+	"gifImage" => 0, 
+	"placeholder_class" => "", 
+	"type" => "UimageModel", 
+	"view_class" => "UimageView", 
+	"has_settings" => 1, 
+	"class" => "c24 upfront-image", 
+	"id_slug" => "image", 
+	"element_id" => "object-1422428914494-1785", 
+	"row" => 10
+	), 
+"wrapper_id" => "wrapper-1422429038629-1644", 
+"sticky" => false, 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 6, 
+		"clear" => true
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 6
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		)
+	), 
+"group" => "module-group-1422429038585-1160"
+));
+
+$region_13->add_element("PlainTxt", array(
+"columns" => "6", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1422428921663-1731", 
+"rows" => 13, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<p class=\"\">
+	Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el iusto
+	<br>
+	<span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\" rel=\"font-size: 27px; top: 0px;\"></span>
+</p>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "object-1422428921664-1531", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"row" => 13, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => "", 
+	"theme_style" => "white-text"
+	), 
+"wrapper_id" => "wrapper-1422429038631-1657", 
+"sticky" => false, 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 6, 
+		"clear" => true
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 6
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		)
+	), 
+"group" => "module-group-1422429038585-1160"
+));
+
+$region_13->add_group(array(
+"columns" => "6", 
+"margin_left" => "1", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-group-1422428991165-1585", 
+"rows" => 10, 
+"wrapper_id" => "wrapper-1422429159211-1985", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 9
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 7, 
+		"clear" => false
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 3, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		)
+	)
+));
+
+$region_13->add_element("PlainTxt", array(
+"columns" => "6", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1422428459900-1415", 
+"rows" => 13, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<h2 class=\"\" style=\"text-align: right;\">Electrical <span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\" rel=\"font-size: 27px; top: 0px;\">f</span></h2>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "text-object-1422428459899-1233", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"row" => 13, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => "", 
+	"theme_style" => "white-text"
+	), 
+"wrapper_id" => "wrapper-1422428991211-1447", 
+"sticky" => false, 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 6
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		)
+	), 
+"group" => "module-group-1422428991165-1585"
+));
+
+$region_13->add_element("Uimage", array(
+"columns" => "6", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1422428459904-1561", 
+"rows" => 10, 
+"options" => array(
+	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/lights-240x120-7605.jpg", 
+	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/lights.jpg", 
+	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/lights.jpg", 
+	"image_title" => "", 
+	"alternative_text" => "", 
+	"when_clicked" => false, 
+	"image_link" => "", 
+	"include_image_caption" => false, 
+	"image_caption" => "My awesome image caption", 
+	"caption_position" => false, 
+	"caption_alignment" => false, 
+	"caption_trigger" => "always_show", 
+	"image_status" => "ok", 
+	"size" => array(
+		"width" => 240, 
+		"height" => 120
+		), 
+	"fullSize" => array(
+		"width" => 240, 
+		"height" => 120
+		), 
+	"position" => array(
+		"top" => 0, 
+		"left" => 0
+		), 
+	"marginTop" => 0, 
+	"element_size" => array(
+		"width" => 240, 
+		"height" => 120
+		), 
+	"rotation" => 0, 
+	"color" => "#ffffff", 
+	"background" => "#000000", 
+	"captionBackground" => "0", 
+	"image_id" => "1774", 
+	"align" => "left", 
+	"stretch" => true, 
+	"vstretch" => true, 
+	"quick_swap" => false, 
+	"gifImage" => 0, 
+	"placeholder_class" => "", 
+	"type" => "UimageModel", 
+	"view_class" => "UimageView", 
+	"has_settings" => 1, 
+	"class" => "c24 upfront-image", 
+	"id_slug" => "image", 
+	"element_id" => "image-1422428459901-1069", 
+	"row" => 10
+	), 
+"wrapper_id" => "wrapper-1422428991213-1890", 
+"sticky" => false, 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 6
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		)
+	), 
+"group" => "module-group-1422428991165-1585"
+));
+
+$region_13->add_element("PlainTxt", array(
+"columns" => "6", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1422428689542-1672", 
+"rows" => 13, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<p class=\"\" style=\"text-align: right;\">
+	Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el iusto<br>
+	<span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\" rel=\"font-size: 27px; top: 0px;\"></span>
+</p>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "object-1422428689542-1847", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"row" => 13, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => "", 
+	"theme_style" => "white-text"
+	), 
+"wrapper_id" => "wrapper-1422428991214-1620", 
+"sticky" => false, 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 6
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		)
+	), 
+"group" => "module-group-1422428991165-1585"
+));
+
+$region_13->add_group(array(
+"columns" => "6", 
+"margin_left" => "10", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-group-1422429185313-1701", 
+"rows" => 10, 
+"wrapper_id" => "wrapper-1422429190432-1828", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 9
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 7, 
+		"clear" => false
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 3, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		)
+	)
+));
+
+$region_13->add_element("PlainTxt", array(
+"columns" => "6", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1422429050551-1102", 
+"rows" => 13, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<h2 class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\" rel=\"font-size: 27px; top: 0px;\">h</span> Windows<span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\" rel=\"font-size: 27px; top: 0px;\"></span></h2>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "object-1422429050551-1112", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"row" => 13, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => "", 
+	"theme_style" => "white-text", 
+	"breakpoint" => array(
+		"tablet" => array(
+			"row" => 16
+			)
+		)
+	), 
+"wrapper_id" => "wrapper-1422429185363-1488", 
+"sticky" => false, 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 6, 
+		"clear" => true
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 6
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 6, 
+		"row" => 16
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		)
+	), 
+"group" => "module-group-1422429185313-1701"
+));
+
+$region_13->add_element("Uimage", array(
+"columns" => "6", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1422429055617-1049", 
+"rows" => 10, 
+"options" => array(
+	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/window-240x120-3444.jpg", 
+	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/window.jpg", 
+	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/window.jpg", 
+	"image_title" => "", 
+	"alternative_text" => "", 
+	"when_clicked" => false, 
+	"image_link" => "", 
+	"include_image_caption" => false, 
+	"image_caption" => "My awesome image caption", 
+	"caption_position" => false, 
+	"caption_alignment" => false, 
+	"caption_trigger" => "always_show", 
+	"image_status" => "ok", 
+	"size" => array(
+		"width" => 240, 
+		"height" => 120
+		), 
+	"fullSize" => array(
+		"width" => 240, 
+		"height" => 120
+		), 
+	"position" => array(
+		"top" => 0, 
+		"left" => 0
+		), 
+	"marginTop" => 0, 
+	"element_size" => array(
+		"width" => 240, 
+		"height" => 120
+		), 
+	"rotation" => 0, 
+	"color" => "#ffffff", 
+	"background" => "#000000", 
+	"captionBackground" => "0", 
+	"image_id" => "1776", 
+	"align" => "left", 
+	"stretch" => true, 
+	"vstretch" => true, 
+	"quick_swap" => false, 
+	"gifImage" => 0, 
+	"placeholder_class" => "", 
+	"type" => "UimageModel", 
+	"view_class" => "UimageView", 
+	"has_settings" => 1, 
+	"class" => "c24 upfront-image", 
+	"id_slug" => "image", 
+	"element_id" => "object-1422429055617-1315", 
+	"row" => 10
+	), 
+"wrapper_id" => "wrapper-1422429185365-1429", 
+"sticky" => false, 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 6, 
+		"clear" => true
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 6
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		)
+	), 
+"group" => "module-group-1422429185313-1701"
+));
+
+$region_13->add_element("PlainTxt", array(
+"columns" => "6", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1422429068399-1578", 
+"rows" => 12, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<p class=\"\">
+	Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el iusto
+	<br>
+	<span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\" rel=\"font-size: 27px; top: 0px;\"></span>
+</p>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "object-1422429068400-1783", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"row" => 12, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => "", 
+	"theme_style" => "white-text"
+	), 
+"wrapper_id" => "wrapper-1422429185366-1404", 
+"sticky" => false, 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 6, 
+		"clear" => true
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 6
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		)
+	), 
+"group" => "module-group-1422429185313-1701"
+));
+
+$region_13->add_group(array(
+"columns" => "6", 
+"margin_left" => "1", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-group-1422429271269-1000", 
+"rows" => 10, 
+"wrapper_id" => "wrapper-1422429271270-1401", 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 9
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 7, 
+		"clear" => false
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 3, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		)
+	)
+));
+
+$region_13->add_element("PlainTxt", array(
+"columns" => "6", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1422428724718-1401", 
+"rows" => 13, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<h2 class=\"\" style=\"text-align: right;\">Plumbing <span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\" rel=\"font-size: 27px; top: 0px;\">e</span><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\" rel=\"font-size: 27px; top: 0px;\"></span></h2>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "object-1422428724718-1476", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"row" => 13, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => "", 
+	"theme_style" => "white-text", 
+	"breakpoint" => array(
+		"tablet" => array(
+			"row" => 9
+			)
+		)
+	), 
+"wrapper_id" => "wrapper-1422429271316-1355", 
+"sticky" => false, 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 6
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 6, 
+		"row" => 9, 
+		"top" => 1
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		)
+	), 
+"group" => "module-group-1422429271269-1000"
+));
+
+$region_13->add_element("Uimage", array(
+"columns" => "6", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1422428729361-1463", 
+"rows" => 10, 
+"options" => array(
+	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/plumbing-240x120-7136.jpg", 
+	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/plumbing.jpg", 
+	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/plumbing.jpg", 
+	"image_title" => "", 
+	"alternative_text" => "", 
+	"when_clicked" => false, 
+	"image_link" => "", 
+	"include_image_caption" => false, 
+	"image_caption" => "My awesome image caption", 
+	"caption_position" => false, 
+	"caption_alignment" => false, 
+	"caption_trigger" => "always_show", 
+	"image_status" => "ok", 
+	"size" => array(
+		"width" => 240, 
+		"height" => 120
+		), 
+	"fullSize" => array(
+		"width" => 240, 
+		"height" => 120
+		), 
+	"position" => array(
+		"top" => 0, 
+		"left" => 0
+		), 
+	"marginTop" => 0, 
+	"element_size" => array(
+		"width" => 240, 
+		"height" => 120
+		), 
+	"rotation" => 0, 
+	"color" => "#ffffff", 
+	"background" => "#000000", 
+	"captionBackground" => "0", 
+	"image_id" => "1773", 
+	"align" => "left", 
+	"stretch" => true, 
+	"vstretch" => true, 
+	"quick_swap" => false, 
+	"gifImage" => 0, 
+	"placeholder_class" => "", 
+	"type" => "UimageModel", 
+	"view_class" => "UimageView", 
+	"has_settings" => 1, 
+	"class" => "c24 upfront-image", 
+	"id_slug" => "image", 
+	"element_id" => "object-1422428729362-1457", 
+	"row" => 10, 
+	"breakpoint" => array(
+		"tablet" => array(
+			"row" => 21
+			)
+		)
+	), 
+"wrapper_id" => "wrapper-1422429271318-1578", 
+"sticky" => false, 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 6
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 6, 
+		"row" => 21, 
+		"top" => 0
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		)
+	), 
+"group" => "module-group-1422429271269-1000"
+));
+
+$region_13->add_element("PlainTxt", array(
+"columns" => "6", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1422428735225-1868", 
+"rows" => 13, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<p class=\"\" style=\"text-align: right;\">
+	Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el iusto<br>
+	<span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\" rel=\"font-size: 27px; top: 0px;\"></span>
+</p>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "object-1422428735226-1689", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"row" => 13, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => "", 
+	"theme_style" => "white-text", 
+	"breakpoint" => array(
+		"tablet" => array(
+			"row" => 7
+			)
+		)
+	), 
+"wrapper_id" => "wrapper-1422429271319-1874", 
+"sticky" => false, 
+"new_line" => "true", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 6
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 6, 
+		"row" => 7, 
+		"top" => 0
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		)
+	), 
+"group" => "module-group-1422429271269-1000"
+));
+
+$region_13->add_group(array(
+"columns" => "6", 
+"margin_left" => "10", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-group-1422429275414-1382", 
+"rows" => 10, 
+"wrapper_id" => "wrapper-1422429198187-1741", 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 9
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 7, 
+		"clear" => false
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"left" => 3, 
+		"col" => 6
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 7
+		)
+	)
+));
+
+$region_13->add_element("PlainTxt", array(
+"columns" => "6", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1422429195944-1671", 
+"rows" => 13, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<div class=\"\">
+	<span style=\"font-size: 28px; line-height: 30.7999992370605px;\"><b><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\" rel=\"font-size: 27px; top: 0px;\">i</span> Roofing</b></span>
+</div>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "object-1422429195944-1397", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"row" => 13, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => "", 
+	"theme_style" => "white-text"
+	), 
+"wrapper_id" => "wrapper-1422429275468-1136", 
+"sticky" => false, 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"col" => 6
+		), 
+	"mobile" => array(
+		"col" => 6
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 6, 
+		"top" => 0, 
+		"order" => 0
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		)
+	), 
+"group" => "module-group-1422429275414-1382"
+));
+
+$region_13->add_element("Uimage", array(
+"columns" => "6", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1422429200876-1985", 
+"rows" => 10, 
+"options" => array(
+	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/roof-240x120-5499.jpg", 
+	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/roof.jpg", 
+	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/roof.jpg", 
+	"image_title" => "", 
+	"alternative_text" => "", 
+	"when_clicked" => false, 
+	"image_link" => "", 
+	"include_image_caption" => false, 
+	"image_caption" => "My awesome image caption", 
+	"caption_position" => false, 
+	"caption_alignment" => false, 
+	"caption_trigger" => "always_show", 
+	"image_status" => "ok", 
+	"size" => array(
+		"width" => 240, 
+		"height" => 120
+		), 
+	"fullSize" => array(
+		"width" => 240, 
+		"height" => 120
+		), 
+	"position" => array(
+		"top" => 0, 
+		"left" => 0
+		), 
+	"marginTop" => 0, 
+	"element_size" => array(
+		"width" => 240, 
+		"height" => 120
+		), 
+	"rotation" => 0, 
+	"color" => "#ffffff", 
+	"background" => "#000000", 
+	"captionBackground" => "0", 
+	"image_id" => "1777", 
+	"align" => "left", 
+	"stretch" => true, 
+	"vstretch" => true, 
+	"quick_swap" => false, 
+	"gifImage" => 0, 
+	"placeholder_class" => "", 
+	"type" => "UimageModel", 
+	"view_class" => "UimageView", 
+	"has_settings" => 1, 
+	"class" => "c24 upfront-image", 
+	"id_slug" => "image", 
+	"element_id" => "object-1422429200876-1502", 
+	"row" => 10
+	), 
+"wrapper_id" => "wrapper-1422429275468-1136", 
+"sticky" => false, 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 6, 
+		"top" => 0, 
+		"order" => 1
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		)
+	), 
+"group" => "module-group-1422429275414-1382"
+));
+
+$region_13->add_element("PlainTxt", array(
+"columns" => "6", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "0", 
+"margin_bottom" => "0", 
+"id" => "module-1422429222093-1925", 
+"rows" => 13, 
+"options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
+	"content" => "<p class=\"\">
+	Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el iusto
+	<br>
+	<span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\" rel=\"font-size: 27px; top: 0px;\"></span>
+</p>", 
+	"type" => "PlainTxtModel", 
+	"element_id" => "object-1422429222093-1761", 
+	"class" => "c24 upfront-plain_txt", 
+	"has_settings" => 1, 
+	"is_edited" => true, 
+	"row" => 13, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => "", 
+	"theme_style" => "white-text"
+	), 
+"wrapper_id" => "wrapper-1422429275468-1136", 
+"sticky" => false, 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 6, 
+		"order" => 2, 
+		"top" => 0
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 6
+		)
+	), 
+"group" => "module-group-1422429275414-1382"
+));
+
+$regions->add($region_13);
 
 $quote = upfront_create_region(
 			array(
@@ -1914,8 +2138,8 @@ $quote->add_element("PlainTxt", array(
 		), 
 	"mobile" => array(
 		"col" => 7, 
-		"clear" => false, 
-		"order" => 0
+		"clear" => true, 
+		"order" => 1
 		)
 	), 
 "breakpoint" => array(
@@ -1925,9 +2149,11 @@ $quote->add_element("PlainTxt", array(
 		"col" => 12
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0, 
+		"order" => 0
 		)
 	)
 ));
@@ -1943,13 +2169,18 @@ $quote->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h1 style=\"text-align: center;\" class=\"\">First Thing First</h1>", 
+	"content" => "<h1 style=\"text-align: center;\" class=\"\">First Things First</h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "object-1405603545292-1703", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 29, 
-	"is_edited" => true
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => ""
 	), 
 "wrapper_id" => "wrapper-1412779479175-1095", 
 "sticky" => false, 
@@ -1960,8 +2191,8 @@ $quote->add_element("PlainTxt", array(
 		), 
 	"mobile" => array(
 		"col" => 7, 
-		"clear" => false, 
-		"order" => 1
+		"clear" => true, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -1971,16 +2202,18 @@ $quote->add_element("PlainTxt", array(
 		"col" => 12
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0, 
+		"order" => 1
 		)
 	)
 ));
 
 $quote->add_element("PlainTxt", array(
 "columns" => "6", 
-"margin_left" => "0", 
+"margin_left" => "1", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
@@ -2012,7 +2245,7 @@ $quote->add_element("PlainTxt", array(
 		), 
 	"mobile" => array(
 		"col" => 7, 
-		"clear" => false, 
+		"clear" => true, 
 		"order" => 2
 		)
 	), 
@@ -2023,16 +2256,18 @@ $quote->add_element("PlainTxt", array(
 		"col" => 6
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0, 
+		"order" => 2
 		)
 	)
 ));
 
 $quote->add_element("PlainTxt", array(
 "columns" => "5", 
-"margin_left" => "4", 
+"margin_left" => "3", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
@@ -2063,8 +2298,8 @@ $quote->add_element("PlainTxt", array(
 		), 
 	"mobile" => array(
 		"col" => 5, 
-		"clear" => false, 
-		"order" => 3
+		"clear" => true, 
+		"order" => 4
 		)
 	), 
 "breakpoint" => array(
@@ -2077,7 +2312,8 @@ $quote->add_element("PlainTxt", array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 5, 
-		"top" => 0
+		"top" => 0, 
+		"order" => 3
 		)
 	)
 ));
@@ -2115,8 +2351,8 @@ $quote->add_element("PlainTxt", array(
 		), 
 	"mobile" => array(
 		"col" => 7, 
-		"clear" => false, 
-		"order" => 4
+		"clear" => true, 
+		"order" => 6
 		)
 	), 
 "breakpoint" => array(
@@ -2128,16 +2364,17 @@ $quote->add_element("PlainTxt", array(
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 4
 		)
 	)
 ));
 
 $quote->add_element("Ucontact", array(
 "columns" => "8", 
-"margin_left" => "0", 
+"margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "1", 
+"margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1413175385317-1417", 
 "rows" => 87, 
@@ -2161,7 +2398,12 @@ $quote->add_element("Ucontact", array(
 	"id_slug" => "ucontact", 
 	"element_id" => "ucontact-object-1413175385312-1163", 
 	"anchor" => "", 
-	"theme_style" => "ucontact-quote-style"
+	"theme_style" => "ucontact-quote-style", 
+	"breakpoint" => array(
+		"mobile" => array(
+			"row" => 68
+			)
+		)
 	), 
 "wrapper_id" => "wrapper-1410352674285-1830", 
 "sticky" => false, 
@@ -2172,8 +2414,8 @@ $quote->add_element("Ucontact", array(
 		), 
 	"mobile" => array(
 		"col" => 7, 
-		"clear" => false, 
-		"order" => 5
+		"clear" => true, 
+		"order" => 3
 		)
 	), 
 "breakpoint" => array(
@@ -2183,25 +2425,28 @@ $quote->add_element("Ucontact", array(
 		"col" => 8
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0, 
+		"order" => 5, 
+		"row" => 68
 		)
 	)
 ));
 
 $quote->add_element("Uimage", array(
-"columns" => "6", 
-"margin_left" => "2", 
+"columns" => "7", 
+"margin_left" => "1", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1410350687438-1702", 
-"rows" => 9, 
+"rows" => 26, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/quote-step2 (1)-230x101-3797.png", 
-	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/quote-step2 (1).png", 
-	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/quote-step2 (1).png", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fixer-van-230x100-9286.png", 
+	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fixer-van.png", 
+	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fixer-van.png", 
 	"image_title" => "", 
 	"alternative_text" => "", 
 	"when_clicked" => false, 
@@ -2214,7 +2459,7 @@ $quote->add_element("Uimage", array(
 	"image_status" => "ok", 
 	"size" => array(
 		"width" => 230, 
-		"height" => 101
+		"height" => 100
 		), 
 	"fullSize" => array(
 		"width" => 230, 
@@ -2222,21 +2467,21 @@ $quote->add_element("Uimage", array(
 		), 
 	"position" => array(
 		"top" => 0, 
-		"left" => 0
+		"left" => -27.5
 		), 
 	"marginTop" => 0, 
 	"element_size" => array(
-		"width" => 240, 
-		"height" => 105
+		"width" => 285, 
+		"height" => 100
 		), 
 	"rotation" => 0, 
 	"color" => "#ffffff", 
 	"background" => "#000000", 
 	"captionBackground" => "0", 
-	"image_id" => "40", 
-	"align" => "left", 
+	"image_id" => "1769", 
+	"align" => "center", 
 	"stretch" => false, 
-	"vstretch" => false, 
+	"vstretch" => true, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
 	"placeholder_class" => "", 
@@ -2246,7 +2491,7 @@ $quote->add_element("Uimage", array(
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "image-1410350687421-1049", 
-	"row" => 9
+	"row" => 26
 	), 
 "wrapper_id" => "wrapper-1410352686491-1034", 
 "sticky" => false, 
@@ -2261,34 +2506,38 @@ $quote->add_element("Uimage", array(
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"left" => 3, 
-		"col" => 6
+		"left" => 2, 
+		"col" => 8
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"top" => 0, 
+		"order" => 6
 		)
 	)
 ));
 
 $quote->add_element("PlainTxt", array(
-"columns" => "6", 
+"columns" => "5", 
 "margin_left" => "2", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1410352199210-1157", 
-"rows" => 87, 
+"rows" => 86, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>", 
+	"content" => "<p class=\"\">
+	Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1410352199209-1378", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"row" => 87, 
+	"row" => 86, 
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
@@ -2301,7 +2550,7 @@ $quote->add_element("PlainTxt", array(
 			"row" => 74
 			), 
 		"mobile" => array(
-			"row" => 68
+			"row" => 34
 			)
 		)
 	), 
@@ -2318,23 +2567,25 @@ $quote->add_element("PlainTxt", array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 7, 
-		"row" => 68
+		"row" => 34, 
+		"top" => 0, 
+		"order" => 7
 		)
 	)
 ));
 
 $quote->add_element("Uimage", array(
-"columns" => "6", 
-"margin_left" => "2", 
+"columns" => "7", 
+"margin_left" => "0", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1410351290321-1363", 
-"rows" => 9, 
+"rows" => 26, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/quote-step3-230x101-9694.png", 
-	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/quote-step3.png", 
-	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/quote-step3.png", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fixer-cloud-230x100-3674.png", 
+	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fixer-cloud.png", 
+	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/archive-home/fixer-cloud.png", 
 	"image_title" => "", 
 	"alternative_text" => "", 
 	"when_clicked" => false, 
@@ -2347,7 +2598,7 @@ $quote->add_element("Uimage", array(
 	"image_status" => "ok", 
 	"size" => array(
 		"width" => 230, 
-		"height" => 101
+		"height" => 100
 		), 
 	"fullSize" => array(
 		"width" => 230, 
@@ -2355,21 +2606,21 @@ $quote->add_element("Uimage", array(
 		), 
 	"position" => array(
 		"top" => 0, 
-		"left" => 0.0234375
+		"left" => -27.5
 		), 
 	"marginTop" => 0, 
 	"element_size" => array(
-		"width" => 240, 
-		"height" => 105
+		"width" => 285, 
+		"height" => 100
 		), 
 	"rotation" => 0, 
 	"color" => "#ffffff", 
 	"background" => "#000000", 
 	"captionBackground" => "0", 
-	"image_id" => "41", 
-	"align" => "left", 
+	"image_id" => "1770", 
+	"align" => "center", 
 	"stretch" => false, 
-	"vstretch" => false, 
+	"vstretch" => true, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
 	"placeholder_class" => "", 
@@ -2379,7 +2630,7 @@ $quote->add_element("Uimage", array(
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "image-1410351290307-1196", 
-	"row" => 9
+	"row" => 26
 	), 
 "wrapper_id" => "wrapper-1410352591269-1346", 
 "sticky" => false, 
@@ -2394,25 +2645,26 @@ $quote->add_element("Uimage", array(
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"left" => 3, 
-		"col" => 6
+		"left" => 2, 
+		"col" => 8
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 8
 		)
 	)
 ));
 
 $quote->add_element("PlainTxt", array(
-"columns" => "6", 
-"margin_left" => "2", 
+"columns" => "5", 
+"margin_left" => "1", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1410352455168-1374", 
-"rows" => 111, 
+"rows" => 112, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -2421,7 +2673,7 @@ $quote->add_element("PlainTxt", array(
 	"element_id" => "text-object-1410352455166-1289", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"row" => 105, 
+	"row" => 112, 
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
@@ -2434,7 +2686,7 @@ $quote->add_element("PlainTxt", array(
 			"row" => 82
 			), 
 		"mobile" => array(
-			"row" => 77
+			"row" => 42
 			)
 		)
 	), 
@@ -2451,7 +2703,8 @@ $quote->add_element("PlainTxt", array(
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 7, 
-		"row" => 77
+		"row" => 42, 
+		"order" => 9
 		)
 	)
 ));
@@ -2483,20 +2736,21 @@ $blog_header = upfront_create_region(
 		"edited" => false
 		), 
 	"mobile" => array(
-		"edited" => false
+		"edited" => false, 
+		"hide" => 1
 		)
 	)
 )
 			);
 
 $blog_header->add_element("PlainTxt", array(
-"columns" => "24", 
-"margin_left" => "0", 
+"columns" => "22", 
+"margin_left" => "1", 
 "margin_right" => "0", 
 "margin_top" => "16", 
 "margin_bottom" => "0", 
 "id" => "module-1414410069759-1295", 
-"rows" => 6, 
+"rows" => 12, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -2511,7 +2765,7 @@ $blog_header->add_element("PlainTxt", array(
 	"border_color" => "rgba(0, 0, 0, 0)", 
 	"bg_color" => "rgba(0, 0, 0, 0)", 
 	"anchor" => "blog", 
-	"row" => 6
+	"row" => 12
 	), 
 "wrapper_id" => "wrapper-1414410356362-1676", 
 "sticky" => false, 
@@ -2539,13 +2793,13 @@ $blog_header->add_element("PlainTxt", array(
 ));
 
 $blog_header->add_element("PlainTxt", array(
-"columns" => "24", 
-"margin_left" => "0", 
+"columns" => "22", 
+"margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "3", 
+"margin_top" => "2", 
 "margin_bottom" => "0", 
 "id" => "module-1406189688409-1108", 
-"rows" => 85, 
+"rows" => 86, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
@@ -2561,7 +2815,7 @@ $blog_header->add_element("PlainTxt", array(
 	"bg_color" => "rgba(0, 0, 0, 0)", 
 	"theme_style" => "h1-white-heading", 
 	"anchor" => "", 
-	"row" => 85
+	"row" => 86
 	), 
 "wrapper_id" => "wrapper-1406189688409-1108", 
 "sticky" => false, 
@@ -2610,7 +2864,8 @@ $blog_items = upfront_create_region(
 		"edited" => false
 		), 
 	"mobile" => array(
-		"edited" => false
+		"edited" => false, 
+		"hide" => 1
 		)
 	)
 )
@@ -2646,7 +2901,7 @@ $blog_items->add_element("Posts", array(
 	"categories_limit" => 3, 
 	"tags_limit" => 3, 
 	"comment_count_hide" => 0, 
-	"content_length" => 120, 
+	"content_length" => "40", 
 	"resize_featured" => "1", 
 	"gravatar_size" => 200, 
 	"post-part-date_posted" => "<div class=\"uposts-part date_posted\">
@@ -2707,7 +2962,8 @@ $blog_items->add_element("Posts", array(
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"hide" => 1
 		)
 	)
 ));
@@ -2741,22 +2997,22 @@ $subscribe = upfront_create_region(
 			);
 
 $subscribe->add_element("PlainTxt", array(
-"columns" => "12", 
-"margin_left" => "0", 
+"columns" => "13", 
+"margin_left" => "2", 
 "margin_right" => "0", 
 "margin_top" => "10", 
 "margin_bottom" => "0", 
 "id" => "module-1406194594842-1402", 
-"rows" => 17, 
+"rows" => 15, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\" style=\"text-align: right;\">Interested to know more tips?</h3>", 
+	"content" => "<h2 class=\"\">Interested to know more about our tips?</h2>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406194594841-1906", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"row" => 11, 
+	"row" => 15, 
 	"is_edited" => true
 	), 
 "wrapper_id" => "wrapper-1406194594842-1402", 
@@ -2788,7 +3044,7 @@ $subscribe->add_element("PlainTxt", array(
 
 $subscribe->add_element("Button", array(
 "columns" => "4", 
-"margin_left" => "3", 
+"margin_left" => "0", 
 "margin_right" => "0", 
 "margin_top" => "8", 
 "margin_bottom" => "0", 
@@ -2944,7 +3200,9 @@ $about->add_element("PlainTxt", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 12, 
+		"clear" => true, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"col" => 7, 
@@ -2956,7 +3214,8 @@ $about->add_element("PlainTxt", array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
@@ -2967,47 +3226,45 @@ $about->add_element("PlainTxt", array(
 ));
 
 $about->add_element("PlainTxt", array(
-"columns" => "24", 
-"margin_left" => "0", 
+"columns" => "20", 
+"margin_left" => "2", 
 "margin_right" => "0", 
-"margin_top" => "3", 
+"margin_top" => "0", 
 "margin_bottom" => "0", 
-"id" => "module-1412782860297-1472", 
-"rows" => 26, 
+"id" => "module-1422420112604-1996", 
+"rows" => 16, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h1 style=\"text-align: center;\" class=\"\">Meet Mr Fixer</h1>", 
+	"content" => "<h1 class=\"\" style=\"text-align: center;\">Meet Mr Fixer</h1>", 
 	"type" => "PlainTxtModel", 
-	"element_id" => "text-object-1412782860294-1958", 
+	"element_id" => "text-object-1422420112603-1296", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"is_edited" => true, 
-	"row" => 26, 
-	"border_style" => "none", 
-	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"anchor" => ""
+	"row" => 16, 
+	"is_edited" => true
 	), 
-"wrapper_id" => "wrapper-1412782911949-1922", 
+"wrapper_id" => "wrapper-1422422687242-1922", 
 "sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
-		), 
-	"mobile" => array(
-		"col" => 7, 
+		"edited" => false, 
+		"col" => 12, 
 		"clear" => true, 
 		"order" => 1
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 7
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 1
 		), 
 	"mobile" => array(
 		"edited" => false, 
@@ -3034,14 +3291,21 @@ $about->add_element("PlainTxt", array(
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 50, 
-	"is_edited" => true
+	"is_edited" => true, 
+	"breakpoint" => array(
+		"tablet" => array(
+			"row" => 36
+			)
+		)
 	), 
 "wrapper_id" => "wrapper-1406196281138-1720", 
 "sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 10
+		"col" => 10, 
+		"clear" => true, 
+		"order" => 2
 		), 
 	"mobile" => array(
 		"col" => 7, 
@@ -3051,9 +3315,11 @@ $about->add_element("PlainTxt", array(
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 2, 
-		"col" => 8
+		"col" => 8, 
+		"row" => 36, 
+		"order" => 2
 		), 
 	"mobile" => array(
 		"edited" => false, 
@@ -3074,19 +3340,31 @@ $about->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\">Duis dolore te feugait nulla facilisi. Nam liber tempor cum Duis autem vel eum iriure dolor in hendrerit in vulputate velit Ut wisi enim ad minim veniam, quis nostrud &nbsp;esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril.</p><p class=\"\">Duis dolore te feugait nulla facilisi. Nam liber tempor cum Duis autem vel eum iriure dolor in hendrerit in vulputate velit U</p>", 
+	"content" => "<p class=\"\">
+	Duis dolore te feugait nulla facilisi. Nam liber tempor cum Duis autem vel eum iriure dolor in hendrerit in vulputate velit Ut wisi enim ad minim veniam, quis nostrud  esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril.
+</p>
+<p class=\"\">
+	Duis dolore te feugait nulla facilisi. Nam liber tempor cum Duis autem vel eum iriure dolor in hendrerit in vulputate velit U
+</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "object-1406196781398-1916", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 50, 
-	"is_edited" => true
+	"is_edited" => true, 
+	"breakpoint" => array(
+		"tablet" => array(
+			"row" => 27
+			)
+		)
 	), 
 "wrapper_id" => "wrapper-1406196781398-1992", 
 "sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 10
+		"col" => 10, 
+		"clear" => true, 
+		"order" => 3
 		), 
 	"mobile" => array(
 		"col" => 7, 
@@ -3096,9 +3374,13 @@ $about->add_element("PlainTxt", array(
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 2, 
-		"col" => 8
+		"col" => 8, 
+		"row" => 27, 
+		"top" => 0, 
+		"order" => 3, 
+		"hide" => 1
 		), 
 	"mobile" => array(
 		"edited" => true, 
@@ -3140,9 +3422,11 @@ $about->add_element("PlainTxt", array(
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 2, 
-		"col" => 8
+		"col" => 8, 
+		"top" => 0, 
+		"order" => 4
 		), 
 	"mobile" => array(
 		"edited" => false, 
@@ -3216,7 +3500,8 @@ $about->add_element("Uimage", array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 3, 
-		"col" => 6
+		"col" => 6, 
+		"order" => 5
 		), 
 	"mobile" => array(
 		"edited" => false, 
@@ -3256,7 +3541,8 @@ $about->add_element("PlainTxt", array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 2, 
-		"col" => 8
+		"col" => 8, 
+		"order" => 6
 		), 
 	"mobile" => array(
 		"edited" => false, 
@@ -3293,6 +3579,7 @@ display:none;
 }
 iframe{
     max-width:100%;
+    overflow:hidden;
 }", 
 	"script" => "/* Your code here */"
 	), 
@@ -3301,7 +3588,9 @@ iframe{
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12
+		"col" => 12, 
+		"clear" => true, 
+		"order" => 5
 		), 
 	"mobile" => array(
 		"col" => 7, 
@@ -3313,7 +3602,8 @@ iframe{
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 7
 		), 
 	"mobile" => array(
 		"edited" => false, 
@@ -3356,7 +3646,9 @@ $about->add_element("PlainTxt", array(
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 7
+		"col" => 7, 
+		"clear" => true, 
+		"order" => 6
 		), 
 	"mobile" => array(
 		"edited" => false, 
@@ -3369,7 +3661,8 @@ $about->add_element("PlainTxt", array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 5, 
-		"col" => 2
+		"col" => 2, 
+		"order" => 8
 		), 
 	"mobile" => array(
 		"edited" => false, 
@@ -3413,7 +3706,9 @@ $about->add_element("PlainTxt", array(
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 12
+		"col" => 12, 
+		"clear" => true, 
+		"order" => 7
 		), 
 	"mobile" => array(
 		"edited" => false, 
@@ -3426,7 +3721,9 @@ $about->add_element("PlainTxt", array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 9, 
+		"hide" => 1
 		), 
 	"mobile" => array(
 		"edited" => false, 
@@ -3460,7 +3757,9 @@ $about->add_element("PlainTxt", array(
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 12
+		"col" => 12, 
+		"clear" => true, 
+		"order" => 8
 		), 
 	"mobile" => array(
 		"edited" => false, 
@@ -3473,7 +3772,9 @@ $about->add_element("PlainTxt", array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 10, 
+		"hide" => 1
 		), 
 	"mobile" => array(
 		"edited" => false, 
@@ -4000,7 +4301,7 @@ $footer = upfront_create_region(
 "allow_sidebar" => true
 ),
 			array(
-"row" => 9, 
+"row" => 12, 
 "background_type" => "color", 
 "nav_region" => "", 
 "background_color" => "rgba(44,44,44,1)", 
@@ -4020,7 +4321,7 @@ $footer->add_element("Uimage", array(
 "columns" => "3", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "4", 
 "margin_bottom" => "0", 
 "id" => "module-1406217409056-1339", 
 "rows" => 10, 
@@ -4075,17 +4376,17 @@ $footer->add_element("Uimage", array(
 	"row" => 4, 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1406217409056-1339", 
+"wrapper_id" => "wrapper-1422423110832-1961", 
 "sticky" => false, 
+"new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 4, 
-		"clear" => true, 
-		"order" => 0
+		"edited" => false, 
+		"col" => 4
 		), 
 	"mobile" => array(
-		"col" => 5, 
-		"clear" => false
+		"edited" => false, 
+		"col" => 5
 		)
 	), 
 "breakpoint" => array(
@@ -4106,7 +4407,7 @@ $footer->add_element("PlainTxt", array(
 "columns" => "6", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "4", 
 "margin_bottom" => "0", 
 "id" => "module-1406217940549-1616", 
 "rows" => 12, 
@@ -4129,17 +4430,16 @@ $footer->add_element("PlainTxt", array(
 	"theme_style" => "plaintext-footer", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1406217940549-1616", 
+"wrapper_id" => "wrapper-1422423110834-1972", 
 "sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 6, 
-		"clear" => false, 
-		"order" => 1
+		"edited" => false, 
+		"col" => 6
 		), 
 	"mobile" => array(
-		"col" => 7, 
-		"clear" => false
+		"edited" => false, 
+		"col" => 7
 		)
 	), 
 "breakpoint" => array(
@@ -4160,7 +4460,7 @@ $footer->add_element("PlainTxt", array(
 "columns" => "7", 
 "margin_left" => "4", 
 "margin_right" => "0", 
-"margin_top" => "1", 
+"margin_top" => "5", 
 "margin_bottom" => "0", 
 "id" => "module-1406218508045-1635", 
 "rows" => 12, 
@@ -4183,17 +4483,16 @@ $footer->add_element("PlainTxt", array(
 	"theme_style" => "plaintext-footer", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1406218508045-1635", 
+"wrapper_id" => "wrapper-1422423110835-1937", 
 "sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 8, 
-		"clear" => false, 
-		"order" => 3
+		"edited" => false, 
+		"col" => 8
 		), 
 	"mobile" => array(
-		"col" => 7, 
-		"clear" => false
+		"edited" => false, 
+		"col" => 7
 		)
 	), 
 "breakpoint" => array(
@@ -4215,7 +4514,7 @@ $footer->add_element("PlainTxt", array(
 "columns" => "3", 
 "margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "1", 
+"margin_top" => "5", 
 "margin_bottom" => "0", 
 "id" => "module-1406218404636-1484", 
 "rows" => 8, 
@@ -4243,17 +4542,16 @@ $footer->add_element("PlainTxt", array(
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1406218404636-1484", 
+"wrapper_id" => "wrapper-1422423110836-1750", 
 "sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 4, 
-		"clear" => true, 
-		"order" => 2
+		"edited" => false, 
+		"col" => 4
 		), 
 	"mobile" => array(
-		"col" => 7, 
-		"clear" => false
+		"edited" => false, 
+		"col" => 7
 		)
 	), 
 "breakpoint" => array(
