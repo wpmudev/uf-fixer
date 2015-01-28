@@ -197,11 +197,12 @@ $region_14->add_element("Unewnavigation", array(
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Coverage Area", 
-			"menu-item-url" => "http://#coveragearea", 
+			"menu-item-url" => "#coverage", 
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "41", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 5
+			"menu-item-position" => 5, 
+			"being-edited" => false
 			)), 
 	"menu_style" => "horizontal", 
 	"menu_alignment" => "center", 
