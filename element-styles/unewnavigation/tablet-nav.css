@@ -1,0 +1,11 @@
+#page .tablet-nav div[data-style='horizontal'] ul.menu > li.menu-item > a, #page .tablet-nav div[data-style='vertical'] ul.menu > li.menu-item > a {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+#page .tablet-nav div[data-style='horizontal'] ul.menu > li.menu-item > a, #page .tablet-nav div[data-style='vertical'] ul.menu > li.menu-item > a, #page .tablet-nav div[data-style='horizontal'] ul.menu > li.menu-item > a, #page .tablet-nav div[data-style='vertical'] ul.menu > li.menu-item > a:link, #page .tablet-nav div[data-style='horizontal'] ul.menu > li.menu-item > a, #page .tablet-nav div[data-style='vertical'] ul.menu > li.menu-item > a:visited {
+    color:#333;
+}
+#page .tablet-nav div[data-style='horizontal'] ul.menu > li.menu-item > a, #page .tablet-nav div[data-style='vertical'] ul.menu > li.menu-item > a {
+    padding:10px;
+}
