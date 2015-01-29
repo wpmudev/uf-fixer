@@ -6,7 +6,7 @@ $region_14 = upfront_create_region(
 "type" => "wide", 
 "scope" => "local", 
 "container" => "region-14", 
-"position" => 10, 
+"position" => 1, 
 "allow_sidebar" => true
 ),
 			array(
@@ -143,7 +143,9 @@ $region_14->add_element("Uimage", array(
 $region_14->add_element("Unewnavigation", array(
 "columns" => "13", 
 "margin_left" => "0", 
+"margin_right" => "0", 
 "margin_top" => "6", 
+"margin_bottom" => "0", 
 "id" => "module-1422430251821-1124", 
 "rows" => 13, 
 "options" => array(
@@ -153,55 +155,59 @@ $region_14->add_element("Unewnavigation", array(
 	"has_settings" => 1, 
 	"id_slug" => "unewnavigation", 
 	"menu_items" => array(array(
-			"menu-item-db-id" => 37, 
-			"menu-item-parent-id" => "0", 
+			"menu-item-db-id" => 29, 
+			"menu-item-parent-id" => 0, 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Service", 
-			"menu-item-url" => "http://#services", 
+			"menu-item-url" => "" . get_site_url() . "/#services", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "37", 
+			"menu-item-object-id" => "29", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 1
+			"menu-item-position" => 0, 
+			"being-edited" => false
 			), array(
-			"menu-item-db-id" => 38, 
-			"menu-item-parent-id" => "0", 
+			"menu-item-db-id" => 30, 
+			"menu-item-parent-id" => 0, 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Get a Quote", 
-			"menu-item-url" => "#getquote", 
+			"menu-item-url" => "" . get_site_url() . "/#quote", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "38", 
+			"menu-item-object-id" => "30", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 2
+			"menu-item-position" => 1, 
+			"being-edited" => false
 			), array(
-			"menu-item-db-id" => 39, 
-			"menu-item-parent-id" => "0", 
+			"menu-item-db-id" => 31, 
+			"menu-item-parent-id" => 0, 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Blog", 
-			"menu-item-url" => "#blog", 
+			"menu-item-url" => "" . get_site_url() . "/#blog", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "39", 
+			"menu-item-object-id" => "31", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 3
+			"menu-item-position" => 2, 
+			"being-edited" => false
 			), array(
-			"menu-item-db-id" => 40, 
-			"menu-item-parent-id" => "0", 
+			"menu-item-db-id" => 32, 
+			"menu-item-parent-id" => 0, 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "About", 
-			"menu-item-url" => "#about", 
+			"menu-item-url" => "" . get_site_url() . "/#about", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "40", 
+			"menu-item-object-id" => "32", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 4
+			"menu-item-position" => 3, 
+			"being-edited" => false
 			), array(
-			"menu-item-db-id" => 41, 
-			"menu-item-parent-id" => "0", 
+			"menu-item-db-id" => 33, 
+			"menu-item-parent-id" => 0, 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Coverage Area", 
-			"menu-item-url" => "#coverage", 
+			"menu-item-url" => "" . get_site_url() . "/#coverage", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "41", 
+			"menu-item-object-id" => "33", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 5, 
+			"menu-item-position" => 4, 
 			"being-edited" => false
 			)), 
 	"menu_style" => "horizontal", 
@@ -209,7 +215,7 @@ $region_14->add_element("Unewnavigation", array(
 	"allow_sub_nav" => array("no"), 
 	"allow_new_pages" => array(), 
 	"element_id" => "unewnavigation-object-1422430251820-1816", 
-	"initialized" => true, 
+	"initialized" => false, 
 	"menu_id" => false, 
 	"menu_slug" => "fixer-menu", 
 	"burger_menu" => array(), 
@@ -244,6 +250,7 @@ $region_14->add_element("Unewnavigation", array(
 	"row" => 13
 	), 
 "wrapper_id" => "wrapper-1422432419698-1772", 
+"sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
@@ -345,17 +352,19 @@ $region_14->add_element("PlainTxt", array(
 $region_14->add_element("PlainTxt", array(
 "columns" => "17", 
 "margin_left" => "6", 
+"margin_right" => "0", 
 "margin_top" => "25", 
+"margin_bottom" => "0", 
 "id" => "module-1422430251668-1045", 
 "rows" => 66, 
 "options" => array(
+	"view_class" => "PlainTxtView", 
+	"id_slug" => "plain_text", 
 	"content" => "<h1 class=\"\" style=\"text-align: right;\">We Build And Fix</h1>", 
 	"type" => "PlainTxtModel", 
-	"view_class" => "PlainTxtView", 
 	"element_id" => "text-object-1422430251668-1689", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"id_slug" => "plain_text", 
 	"is_edited" => true, 
 	"row" => 66, 
 	"border_style" => "none", 
@@ -375,6 +384,7 @@ $region_14->add_element("PlainTxt", array(
 		)
 	), 
 "wrapper_id" => "wrapper-1422432479895-1097", 
+"sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
