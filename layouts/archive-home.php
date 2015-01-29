@@ -2728,8 +2728,7 @@ $blog_header = upfront_create_region(
 		"edited" => false
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"hide" => 1
+		"edited" => false
 		)
 	)
 )
@@ -2856,8 +2855,7 @@ $blog_items = upfront_create_region(
 		"edited" => false
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"hide" => 1
+		"edited" => false
 		)
 	)
 )
@@ -2954,8 +2952,7 @@ $blog_items->add_element("Posts", array(
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7, 
-		"hide" => 1
+		"col" => 7
 		)
 	)
 ));
@@ -3371,9 +3368,8 @@ $about->add_element("PlainTxt", array(
 		"col" => 8, 
 		"row" => 27, 
 		"top" => 0, 
-		"order" => 3, 
-		"hide" => 1
-		), 
+		"order" => 3
+		),
 	"mobile" => array(
 		"edited" => true, 
 		"left" => 0, 
@@ -3714,9 +3710,8 @@ $about->add_element("PlainTxt", array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 12, 
-		"order" => 9, 
-		"hide" => 1
-		), 
+		"order" => 9
+		),
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
@@ -3765,9 +3760,8 @@ $about->add_element("PlainTxt", array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 12, 
-		"order" => 10, 
-		"hide" => 1
-		), 
+		"order" => 10
+		),
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
