@@ -48,9 +48,13 @@ WDP ID: 938305
 #page.mobile-breakpoint .wistia_embed{
     max-height: 190px;
 }
-@media only screen and (max-width: 570px) and (min-width: 315px){
+@media only screen and (max-width: 569px){
     .upfront-output-object h1{
         font-size: 58px;
     }
+    .upfront #wrapper-1410352674285-1830{
+        margin-right: 0;
+    }
 }
+
 
