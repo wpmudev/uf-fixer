@@ -155,60 +155,55 @@ $region_14->add_element("Unewnavigation", array(
 	"has_settings" => 1, 
 	"id_slug" => "unewnavigation", 
 	"menu_items" => array(array(
-			"menu-item-db-id" => 29, 
-			"menu-item-parent-id" => 0, 
+			"menu-item-db-id" => 44, 
+			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Service", 
 			"menu-item-url" => "" . get_site_url() . "/#services", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "29", 
+			"menu-item-object-id" => "44", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 0, 
-			"being-edited" => false
+			"menu-item-position" => 1
 			), array(
-			"menu-item-db-id" => 30, 
-			"menu-item-parent-id" => 0, 
+			"menu-item-db-id" => 45, 
+			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Get a Quote", 
 			"menu-item-url" => "" . get_site_url() . "/#quote", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "30", 
+			"menu-item-object-id" => "45", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 1, 
-			"being-edited" => false
+			"menu-item-position" => 2
 			), array(
-			"menu-item-db-id" => 31, 
-			"menu-item-parent-id" => 0, 
+			"menu-item-db-id" => 46, 
+			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Blog", 
 			"menu-item-url" => "" . get_site_url() . "/#blog", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "31", 
+			"menu-item-object-id" => "46", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 2, 
-			"being-edited" => false
+			"menu-item-position" => 3
 			), array(
-			"menu-item-db-id" => 32, 
-			"menu-item-parent-id" => 0, 
+			"menu-item-db-id" => 47, 
+			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "About", 
 			"menu-item-url" => "" . get_site_url() . "/#about", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "32", 
+			"menu-item-object-id" => "47", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 3, 
-			"being-edited" => false
+			"menu-item-position" => 4
 			), array(
-			"menu-item-db-id" => 33, 
-			"menu-item-parent-id" => 0, 
+			"menu-item-db-id" => 48, 
+			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Coverage Area", 
 			"menu-item-url" => "" . get_site_url() . "/#coverage", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "33", 
+			"menu-item-object-id" => "48", 
 			"menu-item-target" => "", 
-			"menu-item-position" => 4, 
-			"being-edited" => false
+			"menu-item-position" => 5
 			)), 
 	"menu_style" => "horizontal", 
 	"menu_alignment" => "center", 
@@ -360,7 +355,7 @@ $region_14->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h1 class=\"\" style=\"text-align: right;\">We Build And Fix</h1>", 
+	"content" => "<h1 class=\"\" style=\"text-align: right;\">We Build and Fix</h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1422430251668-1689", 
 	"class" => "c24 upfront-plain_txt", 
@@ -2108,7 +2103,7 @@ $quote->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 style=\"text-align: center;\" class=\"\">In emergecy, call us now! Otherwise follow the steps below...</h3>", 
+	"content" => "<h3 style=\"text-align: center;\" class=\"\">Need help right now? No problem! Call us now on 1300 FIXER.</h3>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1412779180680-1452", 
 	"class" => "c24 upfront-plain_txt", 
@@ -2161,7 +2156,7 @@ $quote->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h1 style=\"text-align: center;\" class=\"\">First Things First</h1>", 
+	"content" => "<h1 style=\"text-align: center;\" class=\"\">First Thing's First</h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "object-1405603545292-1703", 
 	"class" => "c24 upfront-plain_txt", 
@@ -2375,11 +2370,11 @@ $quote->add_element("Ucontact", array(
 	"form_title" => "Contact form", 
 	"form_name_label" => "Name", 
 	"form_email_label" => "Email Address", 
-	"form_email_to" => "sergey@incsub.com", 
+	"form_email_to" => "sam@incsub.com", 
 	"show_subject" => array(), 
 	"form_subject_label" => "Your subject:", 
 	"form_default_subject" => "Sent from the website", 
-	"form_message_label" => "Type your enquire here ...", 
+	"form_message_label" => "Type your enquiry here", 
 	"form_button_text" => "Get A Quote", 
 	"form_validate_when" => "submit", 
 	"form_label_position" => "over", 
@@ -2518,18 +2513,17 @@ $quote->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1410352199210-1157", 
-"rows" => 86, 
+"rows" => 34, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
 	"content" => "<p class=\"\">
-	Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
-</p>", 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consequat, tortor id malesuada faucibus, elit nisl luctus massa, vel consectetur.</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1410352199209-1378", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"row" => 86, 
+	"row" => 34, 
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
@@ -2656,16 +2650,17 @@ $quote->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1410352455168-1374", 
-"rows" => 112, 
+"rows" => 40, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\">It works as smooth as new. quis nostrud exerci tation ullamcorper san et iusto praesent luptatum zzril volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper &nbsp;tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, nobis eleifend option congue nihil imperdiet doming id quod mazim non habent praesent luptatum zzril delenit erat facer possim assum lorem ipsum.</p>", 
+	"content" => "<p class=\"\">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consequat, tortor id malesuada faucibus, elit nisl luctus massa, vel consectetur.</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1410352455166-1289", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"row" => 112, 
+	"row" => 40, 
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
@@ -2996,7 +2991,7 @@ $subscribe->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h2 class=\"\">Interested to know more about our tips?</h2>", 
+	"content" => "<h2 class=\"\">Interested in receiving more tips?</h2>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406194594841-1906", 
 	"class" => "c24 upfront-plain_txt", 
@@ -3274,7 +3269,9 @@ $about->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\">Duis dolore te feugait nulla facilisi. Nam liber tempor cum Duis autem vel eum iriure dolor in hendrerit in vulputate velit Ut wisi enim ad minim veniam, quis nostrud &nbsp;esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril.</p><p class=\"\">Duis dolore te feugait nulla facilisi. Nam liber tempor cum Duis autem vel eum iriure dolor in hendrerit in vulputate velit </p>", 
+	"content" => "<p class=\"\">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu lorem sagittis, semper lacus sit amet, scelerisque arcu. Ut cursus ut ipsum malesuada gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed fringilla tincidunt elit eu fringilla. Maecenas at sapien enim. Pellentesque vel ullamcorper mauris, eget facilisis tortor. Cras risus nisl, lacinia quis malesuada eget, venenatis at orci. Phasellus in ligula
+</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406196281137-1335", 
 	"class" => "c24 upfront-plain_txt", 
@@ -3330,10 +3327,7 @@ $about->add_element("PlainTxt", array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
 	"content" => "<p class=\"\">
-	Duis dolore te feugait nulla facilisi. Nam liber tempor cum Duis autem vel eum iriure dolor in hendrerit in vulputate velit Ut wisi enim ad minim veniam, quis nostrud  esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril.
-</p>
-<p class=\"\">
-	Duis dolore te feugait nulla facilisi. Nam liber tempor cum Duis autem vel eum iriure dolor in hendrerit in vulputate velit U
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu lorem sagittis, semper lacus sit amet, scelerisque arcu. Ut cursus ut ipsum malesuada gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed fringilla tincidunt elit eu fringilla. Maecenas at sapien enim. Pellentesque vel ullamcorper mauris, eget facilisis tortor. Cras risus nisl, lacinia quis malesuada eget, venenatis at orci. Phasellus in ligula
 </p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "object-1406196781398-1916", 
@@ -3369,7 +3363,7 @@ $about->add_element("PlainTxt", array(
 		"row" => 27, 
 		"top" => 0, 
 		"order" => 3
-		),
+		), 
 	"mobile" => array(
 		"edited" => true, 
 		"left" => 0, 
@@ -3390,7 +3384,9 @@ $about->add_element("PlainTxt", array(
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\">We will talk to you in a minute</p><p class=\"\">Thank you.</p><p class=\"\"></p>", 
+	"content" => "<p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eu lorem sagittis,
+</p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "object-1406196815834-1028", 
 	"class" => "c24 upfront-plain_txt", 
@@ -3602,25 +3598,26 @@ iframe{
 ));
 
 $about->add_element("PlainTxt", array(
-"columns" => "2", 
-"margin_left" => "11", 
+"columns" => "8", 
+"margin_left" => "8", 
 "margin_right" => "0", 
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1419534285539-1212", 
-"rows" => 8, 
+"rows" => 18, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
 	"content" => "<p class=\"\" style=\"text-align: center;font-size: 18px;font-weight: bold;font-family: tahoma;\">
 	_____
-</p>", 
+</p>
+<h4 class=\"\" style=\"text-align: center;\">Client Testimonial</h4>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1419534285538-1065", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"is_edited" => true, 
-	"row" => 8, 
+	"row" => 18, 
 	"border_style" => "none", 
 	"border_width" => 1, 
 	"border_color" => "", 
@@ -3634,13 +3631,13 @@ $about->add_element("PlainTxt", array(
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 7, 
+		"col" => 10, 
 		"clear" => true, 
 		"order" => 6
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 5, 
+		"col" => 7, 
 		"clear" => true, 
 		"order" => 6
 		)
@@ -3648,30 +3645,30 @@ $about->add_element("PlainTxt", array(
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"left" => 5, 
-		"col" => 2, 
+		"left" => 2, 
+		"col" => 8, 
 		"order" => 8
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"left" => 2, 
-		"col" => 3
+		"left" => 0, 
+		"col" => 7
 		)
 	)
 ));
 
 $about->add_element("PlainTxt", array(
-"columns" => "17", 
+"columns" => "18", 
 "margin_left" => "3", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "5", 
 "margin_bottom" => "0", 
 "id" => "module-1419529925442-1585", 
-"rows" => 45, 
+"rows" => 50, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p class=\"\">
+	"content" => "<p class=\"\" style=\"text-align: justify;\">
 	 When arriving to live in Brisbane over four years ago, and not knowing any tradesmen in the area, when needing a Plumber, I phoned Fixer. Over that time, any job needed doing, has been carried out quickly and professionally. The workmanship is excellent and I have found the work to be very cost effective. Suggestions were made with a certain job and I am very thrilled with the outcome. I would recommend Fixer to anyone in the future.
 	<br>
 </p>", 
@@ -3679,7 +3676,7 @@ $about->add_element("PlainTxt", array(
 	"element_id" => "text-object-1419529925441-1374", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"row" => 45, 
+	"row" => 50, 
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
@@ -3711,7 +3708,7 @@ $about->add_element("PlainTxt", array(
 		"left" => 0, 
 		"col" => 12, 
 		"order" => 9
-		),
+		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
@@ -3761,7 +3758,7 @@ $about->add_element("PlainTxt", array(
 		"left" => 0, 
 		"col" => 12, 
 		"order" => 10
-		),
+		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
@@ -3856,16 +3853,16 @@ $coverage->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1406200069453-1687", 
-"rows" => 91, 
+"rows" => 32, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\" style=\"text-align: center;\"></h3><h1 style=\"text-align: center;\" class=\"\">Anywhere within<br>40km radius<br>from CBD</h1><h1 class=\"\" style=\"text-align: center;\"></h1><h1 class=\"\" style=\"text-align: center;\"></h1><h1 class=\"\" style=\"text-align: center;\"></h1><h1 class=\"\"></h1><h1 class=\"\"></h1>", 
+	"content" => "<h3 class=\"\" style=\"text-align: center;\"></h3><h1 style=\"text-align: center;\" class=\"\">We Come to You</h1><h1 class=\"\" style=\"text-align: center;\"></h1><h1 class=\"\" style=\"text-align: center;\"></h1><h1 class=\"\" style=\"text-align: center;\"></h1><h1 class=\"\"></h1><h1 class=\"\"></h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406200069452-1923", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"row" => 91, 
+	"row" => 32, 
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
@@ -3955,11 +3952,11 @@ $contact->add_element("PlainTxt", array(
 "margin_top" => "4", 
 "margin_bottom" => "0", 
 "id" => "module-1412850227558-1156", 
-"rows" => 15, 
+"rows" => 11, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h2 style=\"text-align: start;\"><span class=\"inline_color\" style=\"color: rgb(255, 255, 255);\">Ready to talk to our staff with enquires &amp; questions?</span></h2>", 
+	"content" => "<h2 style=\"text-align: start;\" class=\"\"><span style=\"color:rgb(255, 255, 255)\">Ready to talk to our experts?</span></h2>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1412850227556-1966", 
 	"class" => "c24 upfront-plain_txt", 
@@ -3969,7 +3966,8 @@ $contact->add_element("PlainTxt", array(
 	"border_width" => 1, 
 	"border_color" => "", 
 	"bg_color" => "", 
-	"anchor" => ""
+	"anchor" => "", 
+	"row" => 11
 	), 
 "wrapper_id" => "wrapper-1413382904694-1241", 
 "sticky" => false, 
@@ -4009,11 +4007,11 @@ $contact->add_element("Ucontact", array(
 	"form_title" => "Contact form", 
 	"form_name_label" => "Name ", 
 	"form_email_label" => "Phone Number", 
-	"form_email_to" => "samnajian@gmail.com", 
+	"form_email_to" => "sam@incsub.com", 
 	"show_subject" => array(), 
 	"form_subject_label" => "Your subject:", 
 	"form_default_subject" => "Sent from the website", 
-	"form_message_label" => "Type your enquire here ...", 
+	"form_message_label" => "Type your enquiry here", 
 	"form_button_text" => "Submit", 
 	"form_validate_when" => "submit", 
 	"form_label_position" => "over", 
@@ -4094,7 +4092,6 @@ $prefooter->add_element("PlainTxt", array(
 	"content" => "<h3 class=\"\"></h3>
 <span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">
 <h4><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Spread the word.</span></h4>
-<h4><span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">Share it with some friends.</span></h4>
 <div>
 	<span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><br>
 	</span>
@@ -4497,24 +4494,24 @@ $footer->add_element("PlainTxt", array(
 ));
 
 $footer->add_element("PlainTxt", array(
-"columns" => "3", 
-"margin_left" => "1", 
+"columns" => "4", 
+"margin_left" => "0", 
 "margin_right" => "0", 
 "margin_top" => "5", 
 "margin_bottom" => "0", 
 "id" => "module-1406218404636-1484", 
-"rows" => 8, 
+"rows" => 10, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
 	"content" => "<p class=\"\" style=\"text-align: center;\">
-	<span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\">TOU &amp; Privary</span>
+	<span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><a href=\"" . get_site_url() . "/terms\">Terms</a> - <a href=\"" . get_site_url() . "/privacy\">Privary</a></span>
 </p>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1406218404628-1646", 
 	"class" => "c24 upfront-plain_txt", 
 	"has_settings" => 1, 
-	"row" => 2, 
+	"row" => 10, 
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
