@@ -179,7 +179,7 @@ $region_14->add_element("Unewnavigation", array(
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Blog", 
-			"menu-item-url" => "" . get_site_url() . "/#blog", 
+			"menu-item-url" => "" . get_site_url() . "/blog",
 			"menu-item-object" => "custom", 
 			"menu-item-object-id" => "46", 
 			"menu-item-target" => "", 
