@@ -4007,7 +4007,7 @@ $contact->add_element("Ucontact", array(
 	"form_title" => "Contact form", 
 	"form_name_label" => "Name ", 
 	"form_email_label" => "Phone Number", 
-	"form_email_to" => "sam@incsub.com", 
+	"form_email_to" => get_option('admin_email'), 
 	"show_subject" => array(), 
 	"form_subject_label" => "Your subject:", 
 	"form_default_subject" => "Sent from the website", 
