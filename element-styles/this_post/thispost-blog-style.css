@@ -70,6 +70,7 @@
     padding: 15px 0;
     padding-left: 30px;
 }
-#page .upfront-postpart-title a{
+#page .upfront-postpart-title a,
+#page .upfront-postpart-title .post_title{
     color:#ufc1;
 }
