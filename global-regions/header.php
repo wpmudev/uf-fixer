@@ -27,20 +27,20 @@ $header = upfront_create_region(
 
 $header->add_element("Uimage", array(
 "columns" => "4", 
-"margin_left" => "0", 
+"margin_left" => "1", 
 "margin_right" => "0", 
-"margin_top" => "9", 
+"margin_top" => "6", 
 "margin_bottom" => "0", 
-"id" => "module-1405520755986-1686", 
+"id" => "module-1422416936720-1326", 
 "rows" => 4, 
 "options" => array(
-	"src" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/fixer-logo-120x30-2906.png", 
+	"src" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/fixer-logo-111x26-8987.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/fixer-logo.png", 
 	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/fixer-logo.png", 
 	"image_title" => "", 
 	"alternative_text" => "", 
-	"when_clicked" => "entry", 
-	"image_link" => "" . get_site_url() . "", 
+	"when_clicked" => false, 
+	"image_link" => "", 
 	"include_image_caption" => false, 
 	"image_caption" => "My awesome image caption", 
 	"caption_position" => false, 
@@ -48,16 +48,16 @@ $header->add_element("Uimage", array(
 	"caption_trigger" => "always_show", 
 	"image_status" => "ok", 
 	"size" => array(
-		"width" => 120, 
-		"height" => 30
+		"width" => 111, 
+		"height" => 26
 		), 
 	"fullSize" => array(
-		"width" => 120, 
-		"height" => 30
+		"width" => 111, 
+		"height" => 26
 		), 
 	"position" => array(
 		"top" => 0, 
-		"left" => -15
+		"left" => 0
 		), 
 	"marginTop" => 0, 
 	"element_size" => array(
@@ -65,37 +65,42 @@ $header->add_element("Uimage", array(
 		"height" => 30
 		), 
 	"rotation" => 0, 
-	"color" => "#ffffff", 
+	"color" => "#ufc0", 
 	"background" => "#000000", 
 	"captionBackground" => "0", 
-	"image_id" => "9", 
-	"align" => "center", 
+	"image_id" => "1768", 
+	"align" => "left", 
 	"stretch" => false, 
-	"vstretch" => true, 
+	"vstretch" => false, 
 	"quick_swap" => false, 
 	"gifImage" => 0, 
 	"placeholder_class" => "", 
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
-	"has_settings" => 1, 
+	"has_settings" => 0, 
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
-	"element_id" => "image-1405520755973-1481", 
-	"row" => -2, 
-	"theme_style" => "", 
-	"anchor" => ""
+	"element_id" => "image-1422416936718-1443", 
+	"row" => 4, 
+	"breakpoint" => array(
+		"mobile" => array(
+			"row" => 12
+			)
+		)
 	), 
-"wrapper_id" => "wrapper-1405520755986-1686", 
+"wrapper_id" => "wrapper-1422432407745-1362", 
 "sticky" => false, 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 5, 
+		"edited" => false, 
+		"col" => 8, 
 		"clear" => true, 
 		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 6, 
+		"edited" => false, 
+		"col" => 4, 
 		"clear" => true, 
 		"order" => 0
 		)
@@ -103,34 +108,175 @@ $header->add_element("Uimage", array(
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => true, 
-		"left" => 1, 
+		"left" => 4, 
 		"col" => 4, 
-		"top" => 8
+		"top" => 2
 		), 
 	"mobile" => array(
 		"edited" => true, 
 		"left" => 1, 
-		"col" => 5, 
-		"top" => 4, 
-		"hide" => 0
+		"col" => 3, 
+		"row" => 12, 
+		"top" => 5
 		)
 	)
 ));
 
-
+$header->add_element("Unewnavigation", array(
+"columns" => "13", 
+"margin_left" => "0", 
+"margin_right" => "0", 
+"margin_top" => "6", 
+"margin_bottom" => "0", 
+"id" => "module-1422430251821-1124", 
+"rows" => 13, 
+"options" => array(
+	"type" => "UnewnavigationModel", 
+	"view_class" => "UnewnavigationView", 
+	"class" => "c24 upfront-navigation", 
+	"has_settings" => 1, 
+	"id_slug" => "unewnavigation", 
+	"menu_items" => array(array(
+			"menu-item-db-id" => 77, 
+			"menu-item-parent-id" => "0", 
+			"menu-item-type" => "custom", 
+			"menu-item-title" => "Service", 
+			"menu-item-url" => "" . get_site_url() . "/#services", 
+			"menu-item-object" => "custom", 
+			"menu-item-object-id" => "77", 
+			"menu-item-target" => "", 
+			"menu-item-position" => 1
+			), array(
+			"menu-item-db-id" => 78, 
+			"menu-item-parent-id" => "0", 
+			"menu-item-type" => "custom", 
+			"menu-item-title" => "Get a Quote", 
+			"menu-item-url" => "" . get_site_url() . "/#quote", 
+			"menu-item-object" => "custom", 
+			"menu-item-object-id" => "78", 
+			"menu-item-target" => "", 
+			"menu-item-position" => 2
+			), array(
+			"menu-item-db-id" => 79, 
+			"menu-item-parent-id" => "0", 
+			"menu-item-type" => "custom", 
+			"menu-item-title" => "Blog", 
+			"menu-item-url" => "" . get_site_url() . "/blog", 
+			"menu-item-object" => "custom", 
+			"menu-item-object-id" => "79", 
+			"menu-item-target" => "", 
+			"menu-item-position" => 3
+			), array(
+			"menu-item-db-id" => 80, 
+			"menu-item-parent-id" => "0", 
+			"menu-item-type" => "custom", 
+			"menu-item-title" => "About", 
+			"menu-item-url" => "" . get_site_url() . "/#about", 
+			"menu-item-object" => "custom", 
+			"menu-item-object-id" => "80", 
+			"menu-item-target" => "", 
+			"menu-item-position" => 4
+			), array(
+			"menu-item-db-id" => 81, 
+			"menu-item-parent-id" => "0", 
+			"menu-item-type" => "custom", 
+			"menu-item-title" => "Coverage Area", 
+			"menu-item-url" => "" . get_site_url() . "/#coverage", 
+			"menu-item-object" => "custom", 
+			"menu-item-object-id" => "81", 
+			"menu-item-target" => "", 
+			"menu-item-position" => 5
+			)), 
+	"menu_style" => "horizontal", 
+	"menu_alignment" => "center", 
+	"allow_sub_nav" => array("no"), 
+	"allow_new_pages" => array(), 
+	"element_id" => "unewnavigation-object-1422430251820-1816", 
+	"initialized" => false, 
+	"menu_id" => false, 
+	"menu_slug" => "fixer-menu", 
+	"burger_menu" => array(), 
+	"burger_alignment" => "left", 
+	"burger_over" => "over", 
+	"is_floating" => array(), 
+	"anchor" => "", 
+	"theme_style" => "main-top-navigation", 
+	"breakpoint" => array(
+		"desktop" => array(
+			"burger_alignment" => "left", 
+			"burger_over" => "over", 
+			"menu_style" => "horizontal", 
+			"menu_alignment" => "center", 
+			"width" => 1080
+			), 
+		"tablet" => array(
+			"theme_style" => "tablet-nav", 
+			"width" => 570, 
+			"burger_menu" => "", 
+			"burger_alignment" => "left", 
+			"burger_over" => "over", 
+			"row" => 11
+			), 
+		"mobile" => array(
+			"burger_menu" => "yes", 
+			"burger_alignment" => "top", 
+			"burger_over" => "over", 
+			"width" => 315, 
+			"row" => 15, 
+			"theme_style" => "mobile-nav"
+			)
+		), 
+	"row" => 13
+	), 
+"wrapper_id" => "wrapper-1422432419698-1772", 
+"sticky" => false, 
+"wrapper_breakpoint" => array(
+	"tablet" => array(
+		"edited" => false, 
+		"col" => 12, 
+		"clear" => true, 
+		"order" => 0
+		), 
+	"mobile" => array(
+		"edited" => false, 
+		"col" => 2, 
+		"clear" => false, 
+		"order" => 0
+		)
+	), 
+"breakpoint" => array(
+	"tablet" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 12, 
+		"top" => 3, 
+		"row" => 11
+		), 
+	"mobile" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 2, 
+		"top" => 3, 
+		"row" => 15
+		)
+	)
+));
 
 $header->add_element("PlainTxt", array(
 "columns" => "5", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "8", 
+"margin_top" => "4", 
 "margin_bottom" => "0", 
 "id" => "module-1405520755970-1045", 
 "rows" => 18, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<p style=\"text-align: right;\" class=\"\">One call does it all</p><h2 style=\"text-align: right;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\">a&nbsp;</span>1300 FIXER</h2>", 
+	"content" => "<p style=\"text-align: right;\" class=\"\">
+	One call does it all
+</p>
+<h2 style=\"text-align: right;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\" rel=\"font-size: 27px; top: 0px;\">a </span>1300 FIXER</h2>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405520755969-1764", 
 	"class" => "c24 upfront-plain_txt", 
@@ -145,169 +291,39 @@ $header->add_element("PlainTxt", array(
 	"row" => 18, 
 	"breakpoint" => array(
 		"tablet" => array(
-			"row" => 16
+			"row" => 18
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1413616950784-1849", 
+"wrapper_id" => "wrapper-1422432441317-1341", 
 "sticky" => false, 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 7, 
-		"clear" => false, 
-		"order" => 1
+		"edited" => false, 
+		"col" => 8, 
+		"clear" => true, 
+		"order" => 0
 		), 
 	"mobile" => array(
+		"edited" => false, 
 		"col" => 6, 
 		"clear" => true, 
-		"order" => 1
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => true, 
-		"left" => 1, 
+		"left" => 2, 
 		"col" => 6, 
-		"top" => 5, 
-		"row" => 16
+		"top" => 0, 
+		"row" => 18
 		), 
 	"mobile" => array(
 		"edited" => true, 
 		"left" => 1, 
 		"col" => 5, 
-		"top" => 0, 
-		"hide" => 0
-		)
-	)
-));
-
-$header->add_element("Unewnavigation", array(
-	"columns" => "15",
-	"margin_left" => "0",
-	"margin_right" => "0",
-	"margin_top" => "10",
-	"margin_bottom" => "0",
-	"id" => "module-1405520756070-1345",
-	"rows" => 8,
-	"options" => array(
-		"type" => "UnewnavigationModel",
-		"view_class" => "UnewnavigationView",
-		"class" => "c24 upfront-navigation",
-		"has_settings" => 1,
-		"id_slug" => "unewnavigation",
-		"menu_items" => array(array(
-			"menu-item-db-id" => 8,
-			"menu-item-parent-id" => "0",
-			"menu-item-type" => "custom",
-			"menu-item-title" => "Service",
-			"menu-item-url" => "" . get_site_url() . "/#services",
-			"menu-item-object" => "custom",
-			"menu-item-object-id" => "8",
-			"menu-item-target" => "",
-			"menu-item-position" => 1
-		), array(
-			"menu-item-db-id" => 9,
-			"menu-item-parent-id" => "0",
-			"menu-item-type" => "custom",
-			"menu-item-title" => "Get a Quote",
-			"menu-item-url" => "" . get_site_url() . "/#quote",
-			"menu-item-object" => "custom",
-			"menu-item-object-id" => "9",
-			"menu-item-target" => "",
-			"menu-item-position" => 2
-		), array(
-			"menu-item-db-id" => 10,
-			"menu-item-parent-id" => "0",
-			"menu-item-type" => "custom",
-			"menu-item-title" => "Blog",
-			"menu-item-url" => "" . get_site_url() . "/#blog",
-			"menu-item-object" => "custom",
-			"menu-item-object-id" => "10",
-			"menu-item-target" => "",
-			"menu-item-position" => 3
-		), array(
-			"menu-item-db-id" => 11,
-			"menu-item-parent-id" => "0",
-			"menu-item-type" => "custom",
-			"menu-item-title" => "About",
-			"menu-item-url" => "" . get_site_url() . "/#about",
-			"menu-item-object" => "custom",
-			"menu-item-object-id" => "11",
-			"menu-item-target" => "",
-			"menu-item-position" => 4
-		), array(
-			"menu-item-db-id" => 12,
-			"menu-item-parent-id" => "0",
-			"menu-item-type" => "custom",
-			"menu-item-title" => "Coverage Area",
-			"menu-item-url" => "" . get_site_url() . "/#coverage",
-			"menu-item-object" => "custom",
-			"menu-item-object-id" => "12",
-			"menu-item-target" => "",
-			"menu-item-position" => 5
-		)),
-		"menu_style" => "horizontal",
-		"menu_alignment" => "left",
-		"allow_sub_nav" => array("no"),
-		"allow_new_pages" => array(),
-		"element_id" => "unewnavigation-object-1405520756062-1726",
-		"initialized" => false,
-		"menu_id" => false,
-		"menu_slug" => "fixer-menu",
-		"is_floating" => array(),
-		"theme_style" => "main-top-navigation",
-		"anchor" => "",
-		"row" => 8,
-		"burger_menu" => array(),
-		"burger_alignment" => "left",
-		"burger_over" => "over",
-		"breakpoint" => array(
-			"desktop" => array(
-				"burger_alignment" => "left",
-				"burger_over" => "over",
-				"width" => 1080
-			),
-			"tablet" => array(
-				"burger_menu" => "yes",
-				"burger_alignment" => "whole",
-				"burger_over" => "over",
-				"width" => 570
-			),
-			"mobile" => array(
-				"burger_menu" => "yes",
-				"burger_alignment" => "whole",
-				"burger_over" => "over",
-				"width" => 315
-			)
-		)
-	),
-	"wrapper_id" => "wrapper-1405520756070-1345",
-	"sticky" => false,
-	"wrapper_breakpoint" => array(
-		"tablet" => array(
-			"col" => 12,
-			"clear" => true,
-			"order" => 2
-		),
-		"mobile" => array(
-			"col" => 7,
-			"clear" => true,
-			"order" => 2
-		)
-	),
-	"breakpoint" => array(
-		"tablet" => array(
-			"edited" => true,
-			"left" => 0,
-			"col" => 12,
-			"top" => 0
-		),
-		"mobile" => array(
-			"edited" => true,
-			"left" => 0,
-			"col" => 7,
-			"top" => 0,
-			"hide" => 0
+		"top" => 0
 		)
 	)
 ));

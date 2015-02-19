@@ -1,17 +1,17 @@
 #page .thispost-blog-style h1 a {
-    color: #333333;
+    color: #ufc1;
 }
 #page .thispost-blog-style .upfront-postpart-author {
-    color: #333333;
+    color: #ufc1;
     text-align: right;
     font-weight: 700;
     font-size: 13px;
 }
 #page .thispost-blog-style .upfront-postpart-author a {
-    color: #333333;
+    color: #ufc1;
 }
 #page .thispost-blog-style .upfront-postpart-update {
-    color: #333333;
+    color: #ufc1;
     text-align: right;
     font-size: 13px;
 }
@@ -22,8 +22,8 @@
     display:block;
     width:75px;
     height:75px;
-    background:#333;
-    color:#fff;
+    background:#ufc1;
+    color:#ufc0;
     text-align:center;
     font-size: 22px;
     padding-top: 8px;
@@ -46,10 +46,9 @@
 #page .thispost-blog-style .post_content {
     line-height: 1.5em;
     font-size: 15px;
-    padding: 0 15px;
 }
 #page .thispost-blog-style .post_content a {
-    color: #5ebf6b;
+    color: #ufc6;
     text-decoration: none;
 }
 #page .thispost-blog-style blockquote {
@@ -70,4 +69,8 @@
     font-size: 22px;
     padding: 15px 0;
     padding-left: 30px;
+}
+#page .upfront-postpart-title a,
+#page .upfront-postpart-title .post_title{
+    color:#ufc1;
 }

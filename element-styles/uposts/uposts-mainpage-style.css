@@ -1,21 +1,21 @@
 #page .uposts-mainpage-style .uposts-post {
     display: block;
     height: 290px;
-    color: #333333;
+    color: #ufc1;
 }
 #page .uposts-mainpage-style .uposts-post h1 {
     font-size: 28px;
     font-weight: 700;
 }
 #page .uposts-mainpage-style .uposts-post h1 a {
-    color: #333333;
+    color: #ufc1;
 }
 #page .uposts-mainpage-style .uposts-post:first-child h1 a {
-    color: #ffffff;
+    color: #ufc0;
 }
 #page .uposts-mainpage-style .uposts-post:first-child {
-   background: #5EBF6B;
-   color: #ffffff;
+   background: #ufc6;
+   color: #ufc0;
 }
 #page .uposts-mainpage-style .post_excerpt {
     font-size: 15px;
@@ -29,7 +29,7 @@
     max-height: 290px!important;
 }
 #page .uposts-mainpage-style .uposts-post:first-child .upfront-postpart-date {
-    background: #5EBF6B;
+    background: #ufc6;
 }
 #page .uposts-mainpage-style .upfront-postpart-date {
     display: block;
@@ -38,8 +38,8 @@
     position: absolute;
     right: 0;
     margin-top: -75px;
-    background: #333333;
-    color: #ffffff;
+    background: #ufc1;
+    color: #ufc0;
     font-size: 22px;
     padding-top: 8px;
     font-weight: 600;
@@ -47,6 +47,6 @@
     text-transform: uppercase;
 }
 #page .uposts-mainpage-style .post_tags > a {
-    color: #ffffff;
+    color: #ufc0;
     font-weight: 700;
 }

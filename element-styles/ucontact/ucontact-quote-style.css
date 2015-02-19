@@ -4,13 +4,13 @@
 }
 #page .ucontact-quote-style .upfront-field-container label {
     line-height:50px;
-    color:#333;
+    color:#ufc1;
     padding-left:10px;
 }
 #page .ucontact-quote-style .ucontact-input {
     font-size: 15px;
     font-weight: 500;
-    color:#333;
+    color:#ufc1;
 }
 #page .ucontact-quote-style .ucontact-input {
     border: none;
@@ -31,7 +31,7 @@
     padding: 0 20px;
     line-height:50px;
     float: right;
-    color: #ffffff;
+    color: #ufc0;
     background: #a4d0dc;
     font-size: 15px;
     font-weight: 700;

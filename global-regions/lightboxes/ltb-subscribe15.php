@@ -43,7 +43,7 @@ $ltb_subscribe15->add_element("Ucontact", array(
 	"form_title" => "Contact form", 
 	"form_name_label" => "Your name:", 
 	"form_email_label" => "Your email:", 
-	"form_email_to" => "sergey@incsub.com", 
+	"form_email_to" => "", 
 	"show_subject" => array(), 
 	"form_subject_label" => "Your subject:", 
 	"form_default_subject" => "Sent from the website", 
@@ -66,22 +66,26 @@ $ltb_subscribe15->add_element("Ucontact", array(
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 10
+		"col" => 10, 
+		"order" => 0
 		), 
 	"mobile" => array(
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 2, 
-		"col" => 8
+		"col" => 8, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
 		)
 	)
 ));

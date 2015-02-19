@@ -4,11 +4,11 @@
 }
 #page .ucontact-contact-style .upfront-field-container label {
     line-height:50px;
-    color:#333;
+    color:#ufc1;
     padding-left:10px;
 }
 #page .ucontact-contact-style .ucontact-message-container {
-    color: #ffffff;
+    color: #ufc0;
 }
 #page .ucontact-contact-style .ucontact-input {
     font-size: 15px;
@@ -22,7 +22,7 @@
     padding-left: 5%;
     padding-right: 5%;
     width: 100%;
-    color:#333333;
+    color:#ufc1;
 }
 #page .ucontact-contact-style .textarea-field {
     resize: none;
@@ -32,7 +32,7 @@
     text-transform: uppercase;
     padding: 20px;
     float: right;
-    color: #ffffff;
+    color: #ufc0;
     background: #584780;
     font-size: 15px;
     font-weight: 700;

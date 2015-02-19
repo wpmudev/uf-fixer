@@ -2,7 +2,7 @@
     padding: 0;
 }
 #page .blog-posts.uposts-object li.uf-post {
-    color:#333333;
+    color:#ufc1;
     display:block;
     height:335px;
     width:330px;
@@ -43,18 +43,18 @@
     display:block;
     height:76px;
     width:76px;
-    background:#333333;
+    background:#ufc1;
     position:absolute;
     top:0;
     right:0;
-    color:#fff;
+    color:#ufc0;
     padding:20px;
     text-align:center;
     font-size:24px;
     font-family: "Raleway SemiBold";
 }
 #page .blog-posts.uposts-object li.uf-post-sticky .date_posted {
-    background:#5ebf6b;
+    background:#ufc6;
 }
 #page .blog-posts.uposts-object li.uf-post .title {
     padding:30px 0 30px 30px;
@@ -64,7 +64,7 @@
     height:21px;
 }
 #page .blog-posts.uposts-object li.uf-post .title a, #page .blog-posts.uposts-object li.uf-post .title a:visited, #page .blog-posts.uposts-object li.uf-post .title a:link {
-    color:#333333;
+    color:#ufc1;
     font-weight:bold;
     font-size:28px;
     font-family:"Raleway Bold";
@@ -75,7 +75,7 @@
     font-family:"Raleway";
     padding:0 30px;
     margin:20px 0;
-    max-height:50px;
+    max-height:38px;
     overflow:hidden;
 }
 #page .blog-posts .uf-pagination {
@@ -98,6 +98,6 @@
     padding:0 20px;
 }
 #page .blog-posts .uf-pagination .page-numbers.current {
-    background:#5ebf6b;
-    color:#fff;
+    background:#ufc6;
+    color:#ufc0;
 }
