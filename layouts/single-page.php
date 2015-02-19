@@ -27,95 +27,50 @@ $main = upfront_create_region(
 )
 			);
 
-$main->add_element("ThisPage", array(
-"columns" => "24", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "3", 
-"margin_bottom" => "0", 
-"id" => "default-page-title", 
-"rows" => 3, 
-"options" => array(
-	"type" => "ThisPageModel", 
-	"view_class" => "ThisPageView", 
-	"class" => "c24 upfront-this_post", 
-	"display" => "title", 
-	"has_settings" => 0, 
-	"id_slug" => "this_post", 
-	"disable_resize" => false, 
-	"disable_drag" => false, 
-	"element_id" => "default-page-title-object"
-	), 
-"wrapper_id" => "default-page-title-wrapper", 
-"sticky" => false, 
-"wrapper_breakpoint" => array(
-	"tablet" => array(
-		"col" => 12, 
-		"order" => 0
-		), 
-	"mobile" => array(
-		"col" => 7, 
-		"order" => 0
-		)
-	), 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 12, 
-		"order" => 0
-		), 
-	"mobile" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 7, 
-		"order" => 0
-		)
-	)
-));
 
-$main->add_element("ThisPage", array(
-"columns" => "24", 
-"margin_left" => "0", 
-"margin_right" => "0", 
-"margin_top" => "3", 
-"margin_bottom" => "0", 
-"id" => "default-page-content", 
-"rows" => 20, 
+
+$main->add_element("ThisPost", array(
+"columns" => "24",
+"margin_left" => "0",
+"margin_right" => "0",
+"margin_top" => "3",
+"margin_bottom" => "0",
+"id" => "default-page-content",
+"rows" => 20,
 "options" => array(
-	"type" => "ThisPageModel", 
-	"view_class" => "ThisPageView", 
-	"class" => "c24 upfront-this_post", 
-	"display" => "content", 
-	"has_settings" => 0, 
-	"id_slug" => "this_post", 
-	"disable_resize" => false, 
-	"disable_drag" => false, 
+	"type" => "ThisPostModel",
+	"view_class" => "ThisPostView",
+	"class" => "c24 upfront-this_post",
+	"display" => "content",
+	"has_settings" => 0,
+	"id_slug" => "this_post",
+	"disable_resize" => false,
+	"disable_drag" => false,
 	"element_id" => "default-page-content-object"
-	), 
-"wrapper_id" => "default-page-content-wrapper", 
-"sticky" => false, 
+	),
+"wrapper_id" => "default-page-content-wrapper",
+"sticky" => false,
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"col" => 12, 
+		"col" => 12,
 		"order" => 0
-		), 
+		),
 	"mobile" => array(
-		"col" => 7, 
+		"col" => 7,
 		"order" => 0
 		)
-	), 
+	),
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 12, 
+		"edited" => false,
+		"left" => 0,
+		"col" => 12,
 		"order" => 0
-		), 
+		),
 	"mobile" => array(
-		"edited" => false, 
-		"left" => 0, 
-		"col" => 7, 
+		"edited" => false,
+		"left" => 0,
+		"col" => 7,
 		"order" => 0
 		)
 	)
