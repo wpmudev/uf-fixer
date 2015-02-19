@@ -1,5 +1,5 @@
 .upfront-region-container-region-14 .upfront-region-container-bg {
-    color: #ffffff;
+    color: #ufc0;
 }
 .upfront-region-container-region-14 .upfront-default-slider-nav-prev:after, .upfront-region-container-region-14 .upfront-default-slider-nav-next:after {
     content: '<';
@@ -10,7 +10,7 @@
     font-size:60px;
     position:absolute;
     display:block;
-    color:#fff;
+    color:#ufc0;
     opacity:.5;
 }
 .upfront-region-container-region-14 .upfront-default-slider-nav-next:after {

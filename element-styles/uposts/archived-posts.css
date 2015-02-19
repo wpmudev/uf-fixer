@@ -2,7 +2,7 @@
     font-family:"Raleway";
 }
 #page .archived-posts.uposts-object li .title a, #page .archived-posts.uposts-object li .title a:link, #page .archived-posts.uposts-object li .title a:visited {
-    color:#333;
+    color:#ufc1;
     font-size:20px;
     font-family:"Raleway";
     font-weight:500;
@@ -38,7 +38,7 @@
     text-align:center;
     line-height:50px;
     background:#ece9e4;
-    color:#333;
+    color:#ufc1;
 }
 #page .archived-posts .uf-pagination .page-numbers.current {
     background:#a4d0dc;

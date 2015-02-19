@@ -22,12 +22,12 @@
     display:inline-block;
 }
 #page .case-study-ugallery-style .ugallery_label_filter.filter_selected {
-    background:#645191;
-    color:#fff;
+    background:#ufc5;
+    color:#ufc0;
 }
 #page .case-study-ugallery-style .ugallery_lb_text {
   position: absolute; 
-  background: #645191; 
+  background: #ufc5;
   color: white; 
   padding: 25% 15%; 
   display:block;

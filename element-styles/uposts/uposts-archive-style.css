@@ -8,10 +8,10 @@
     font-weight: 400;
 }
 #page .uposts-archive-style h1 a {
-    color: #333333;
+    color: #ufc1;
 }
 #page .uposts-archive-style .post_excerpt {
-    color: #333333;
+    color: #ufc1;
     font-size: 15px;
     font-weight: 400;
 }
@@ -39,7 +39,7 @@
 #page .uposts-archive-style .uposts-pagination.numeric span {
     display: inline-block;
     background:#a4d0dc;
-    color: #ffffff;
+    color: #ufc0;
     padding: 20px;
     margin-left: -4px;
 }
@@ -47,11 +47,11 @@
     padding:20px;
     display: inline-block;
     background: #ECE9E4;
-    color: #333333;
+    color: #ufc1;
 }
 #page .uposts-archive-style .uposts-pagination.numeric a:hover {
     background:#a4d0dc;
-    color: #ffffff;
+    color: #ufc0;
 }
 #page .uposts-archive-style .uposts-pagination.numeric .page-numbers.next, #page .uposts-archive-style .uposts-pagination.numeric .page-numbers.prev {
     display:none;

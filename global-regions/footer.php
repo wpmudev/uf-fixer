@@ -66,7 +66,7 @@ $footer->add_element("Uimage", array(
 			"height" => 20
 		),
 		"rotation" => 0,
-		"color" => "#ffffff",
+		"color" => "#ufc0",
 		"background" => "#000000",
 		"captionBackground" => "0",
 		"image_id" => "1021",
