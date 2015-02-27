@@ -12,35 +12,39 @@
 				), array(
 				"classes" => "c4 post-part ml0 mt2", 
 				"slug" => "author"
+				),
+				array(
+					"classes" => "c4 post-part ml0 mt2",
+					"slug" => "author_meta_description"
 				), array(
-				"classes" => "c4 post-part ml0 mt18", 
+				"classes" => "c4 post-part ml0 mt4",
 				"slug" => "update"
 				)), 
 		"classes" => "c4 clr"
 		), array(
 		"objects" => array(array(
-				"classes" => "c2 post-part ml0 mt13", 
+				"classes" => "c2 post-part ml0 mt13",
 				"slug" => "date"
 				)), 
-		"classes" => "c2 "
+		"classes" => "c2 ml1"
 		), array(
 		"objects" => array(array(
-				"classes" => "c14 post-part ml0 mt12", 
+				"classes" => "c24 post-part ml0 mt12",
 				"slug" => "excerpt"
 				)), 
-		"classes" => "c14 "
+		"classes" => "c16 "
 		), array(
 		"objects" => array(array(
-				"classes" => "c4 post-part ml0 mt7", 
+				"classes" => "c4 post-part ml0 mt24",
 				"slug" => "tags"
 				)), 
 		"classes" => "c4 clr"
 		), array(
 		"objects" => array(array(
-				"classes" => " post-part c20 ml4 mt0", 
+				"classes" => " post-part c20 ml0 mt0",
 				"slug" => "contents"
 				)), 
-		"classes" => "c24  clr"
+		"classes" => "c18 ml1"
 		)), 
 "partOptions" => array(
 	"featured_image" => array(
@@ -65,7 +69,11 @@
 	"author" => array(
 		"theme_style" => "", 
 		"anchor" => ""
-		), 
+		),
+	"author_meta_description" => array(
+		"theme_style" => "",
+		"anchor" => ""
+	),
 	"update" => array(
 		"theme_style" => "_default", 
 		"anchor" => "", 
