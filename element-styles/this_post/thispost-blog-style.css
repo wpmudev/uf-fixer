@@ -74,3 +74,11 @@
 #page .upfront-postpart-title .post_title{
     color:#ufc1;
 }
+#page .thispost-blog-style p,
+#page .thispost-blog-style ul,
+#page .thispost-blog-style ol{
+    margin: 0 0 15px;
+}
+#page .post_excerpt{
+    margin: 0 0 15px;
+}
