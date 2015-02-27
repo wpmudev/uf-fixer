@@ -80,6 +80,10 @@
 #page .thispost-blog-style ol{
     margin: 0 0 15px;
 }
-#page .post_excerpt{
-    margin: 0 0 15px;
+#page .thispost-blog-style .post_excerpt{
+    font-size: 26px;
+    font-weight: normal;
+    font-family: Raleway;
+    color: #999;
+    line-height: 35px;
 }

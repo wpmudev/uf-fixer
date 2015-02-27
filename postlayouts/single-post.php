@@ -13,10 +13,7 @@
 				"classes" => "c4 post-part ml0 mt2", 
 				"slug" => "author"
 				),
-				array(
-					"classes" => "c4 post-part ml0 mt2",
-					"slug" => "author_meta_description"
-				), array(
+				 array(
 				"classes" => "c4 post-part ml0 mt4",
 				"slug" => "update"
 				)), 
@@ -41,7 +38,7 @@
 		"classes" => "c4 clr"
 		), array(
 		"objects" => array(array(
-				"classes" => " post-part c20 ml0 mt0",
+				"classes" => " post-part c20 ml0 mt6",
 				"slug" => "contents"
 				)), 
 		"classes" => "c18 ml1"
@@ -65,7 +62,7 @@
 	"excerpt" => array(
 		"theme_style" => "", 
 		"anchor" => ""
-		), 
+		),
 	"author" => array(
 		"theme_style" => "", 
 		"anchor" => ""
