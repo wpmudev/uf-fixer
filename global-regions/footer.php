@@ -461,7 +461,7 @@ $footer->add_element("PlainTxt", array(
 		"view_class" => "PlainTxtView",
 		"id_slug" => "plain_text",
 		"content" => "<p class=\"\" style=\"text-align: center;\">
-	<span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><a href=\"" . get_site_url() . "/terms\">Terms</a> - <a href=\"" . get_site_url() . "/privacy\">Privary</a></span>
+	<span class=\"inline_color\" style=\"color: rgb(255, 255, 255)\"><a href=\"" . get_site_url() . "/terms\">Terms</a> - <a href=\"" . get_site_url() . "/privacy\">Privacy</a></span>
 </p>",
 		"type" => "PlainTxtModel",
 		"element_id" => "text-object-1406218404628-1646",
