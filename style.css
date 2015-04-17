@@ -48,6 +48,12 @@ WDP ID: 938305
 #page.mobile-breakpoint .wistia_embed{
     max-height: 190px;
 }
+
+.post_title, h1, h2, h3, h4, h5{
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+
 @media only screen and (max-width: 750px){
     .thispost-blog-style .upfront-postpart-excerpt{
         margin-left: 55px;
