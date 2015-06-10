@@ -25,6 +25,9 @@ $ltb_subscribe15 = upfront_create_region(
 		), 
 	"mobile" => array(
 		"edited" => false
+		), 
+	"custom-1410783666947" => array(
+		"edited" => false
 		)
 	)
 )
@@ -37,7 +40,6 @@ $ltb_subscribe15->add_element("Ucontact", array(
 "margin_top" => "5", 
 "margin_bottom" => "0", 
 "id" => "module-1417244527218-1054", 
-"rows" => 87, 
 "options" => array(
 	"form_add_title" => array(), 
 	"form_title" => "Contact form", 
@@ -45,7 +47,9 @@ $ltb_subscribe15->add_element("Ucontact", array(
 	"form_email_label" => "Your email:", 
 	"form_email_to" => "", 
 	"show_subject" => array(), 
+	"show_captcha" => array(), 
 	"form_subject_label" => "Your subject:", 
+	"form_captcha_label" => "CAPTCHA:", 
 	"form_default_subject" => "Sent from the website", 
 	"form_message_label" => "Your message:", 
 	"form_button_text" => "Send", 
@@ -61,8 +65,9 @@ $ltb_subscribe15->add_element("Ucontact", array(
 	"anchor" => "", 
 	"theme_style" => "ucontact-subscribe-style"
 	), 
-"wrapper_id" => "wrapper-1417244574245-1646", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1417244574245-1646", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
@@ -72,6 +77,11 @@ $ltb_subscribe15->add_element("Ucontact", array(
 	"mobile" => array(
 		"col" => 7, 
 		"order" => 0
+		), 
+	"custom-1410783666947" => array(
+		"col" => 8, 
+		"order" => 0, 
+		"clear" => true
 		)
 	), 
 "breakpoint" => array(
@@ -86,6 +96,13 @@ $ltb_subscribe15->add_element("Ucontact", array(
 		"left" => 0, 
 		"col" => 7, 
 		"order" => 0
+		), 
+	"custom-1410783666947" => array(
+		"edited" => true, 
+		"left" => 0, 
+		"col" => 8, 
+		"order" => 0, 
+		"top" => 1
 		)
 	)
 ));

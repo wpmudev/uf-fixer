@@ -12,18 +12,26 @@ $cases_region = upfront_create_region(
 "allow_sidebar" => true
 ),
 			array(
-"row" => 140, 
+"row" => 237, 
 "background_type" => "color", 
-"background_color" => "#ufc2", 
+"background_color" => "#ufc0", 
 "nav_region" => "", 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false
+		"edited" => false, 
+		"col" => 24
 		), 
 	"mobile" => array(
-		"edited" => false
+		"edited" => true, 
+		"row" => 358
+		), 
+	"custom-1410783666947" => array(
+		"edited" => true, 
+		"row" => 344
 		)
-	)
+	), 
+"use_padding" => 0, 
+"sub_regions" => array("")
 )
 			);
 
@@ -31,14 +39,13 @@ $cases_region->add_element("PlainTxt", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "8", 
+"margin_top" => "13", 
 "margin_bottom" => "0", 
 "id" => "module-1407250114380-1665-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
-"rows" => 14, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\" style=\"text-align: center;color:rgb(51, 51, 51)\">Case Study</h3>", 
+	"content" => "<h2 class=\"\" style=\"text-align: center;\">Case Study</h2>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1407250114379-1090", 
 	"class" => "c24 upfront-plain_txt", 
@@ -46,8 +53,9 @@ $cases_region->add_element("PlainTxt", array(
 	"row" => 8, 
 	"is_edited" => true
 	), 
-"wrapper_id" => "module-1407250114380-1665-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-wrapper", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "module-1407250114380-1665-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-wrapper", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12, 
@@ -56,6 +64,10 @@ $cases_region->add_element("PlainTxt", array(
 	"mobile" => array(
 		"col" => 7, 
 		"order" => 0
+		), 
+	"custom-1410783666947" => array(
+		"col" => 18, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
@@ -69,6 +81,12 @@ $cases_region->add_element("PlainTxt", array(
 		"edited" => false, 
 		"left" => 0, 
 		"col" => 7, 
+		"order" => 0
+		), 
+	"custom-1410783666947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18, 
 		"order" => 0
 		)
 	)
@@ -81,11 +99,10 @@ $cases_region->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1407250139415-1897-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
-"rows" => 10, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h1 class=\"\" style=\"text-align: center;\"><span style=\"color: rgb(51, 51, 51);\">Issue Resolved!</span></h1>", 
+	"content" => "<h1 class=\"\" style=\"text-align: center;\">Issue Resolved!</h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1407250139414-1484", 
 	"class" => "c24 upfront-plain_txt", 
@@ -98,8 +115,9 @@ $cases_region->add_element("PlainTxt", array(
 	"bg_color" => "", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "module-1407250139415-1897-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-wrapper", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "module-1407250139415-1897-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-wrapper", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12, 
@@ -107,6 +125,10 @@ $cases_region->add_element("PlainTxt", array(
 		), 
 	"mobile" => array(
 		"col" => 7, 
+		"order" => 0
+		), 
+	"custom-1410783666947" => array(
+		"col" => 18, 
 		"order" => 0
 		)
 	), 
@@ -122,6 +144,12 @@ $cases_region->add_element("PlainTxt", array(
 		"left" => 0, 
 		"col" => 7, 
 		"order" => 0
+		), 
+	"custom-1410783666947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18, 
+		"order" => 0
 		)
 	)
 ));
@@ -133,7 +161,6 @@ $cases_region->add_element("Ugallery", array(
 "margin_top" => "11", 
 "margin_bottom" => "0", 
 "id" => "module-1407250114394-1623-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module", 
-"rows" => 48, 
 "options" => array(
 	"type" => "UgalleryModel", 
 	"view_class" => "UgalleryView", 
@@ -198,7 +225,7 @@ $cases_region->add_element("Ugallery", array(
 			"element_id" => "ugallery-object-1407250114391-1191", 
 			"rotation" => 0, 
 			"link" => "original", 
-			"url" => "", 
+			"url" => "" . get_stylesheet_directory_uri() . "/images/single-page-cases/gal-image3.jpg", 
 			"title" => "Image caption", 
 			"caption" => "<p>This is Case</p>", 
 			"alt" => "", 
@@ -207,7 +234,8 @@ $cases_region->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"urlType" => "image", 
+			"linkTarget" => "_self"
 			), array(
 			"id" => "4010", 
 			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-cases/gal-image4.jpg", 
@@ -274,7 +302,8 @@ $cases_region->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"urlType" => false, 
+			"linkTarget" => ""
 			), array(
 			"id" => "4011", 
 			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-cases/gal-image5.jpg", 
@@ -341,7 +370,8 @@ $cases_region->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"urlType" => false, 
+			"linkTarget" => ""
 			), array(
 			"id" => "4012", 
 			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-cases/gal-image6.jpg", 
@@ -408,7 +438,8 @@ $cases_region->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"urlType" => false, 
+			"linkTarget" => ""
 			), array(
 			"id" => "4014", 
 			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-cases/gal-image7.jpg", 
@@ -475,7 +506,8 @@ $cases_region->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"urlType" => false, 
+			"linkTarget" => ""
 			), array(
 			"id" => "4015", 
 			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-cases/gal-image8.jpg", 
@@ -542,7 +574,8 @@ $cases_region->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"urlType" => false, 
+			"linkTarget" => ""
 			), array(
 			"id" => "4017", 
 			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-cases/gal-image9.jpg", 
@@ -609,7 +642,8 @@ $cases_region->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"urlType" => false, 
+			"linkTarget" => ""
 			), array(
 			"id" => "4019", 
 			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-cases/gal-image10.jpg", 
@@ -676,7 +710,8 @@ $cases_region->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"urlType" => false, 
+			"linkTarget" => ""
 			), array(
 			"id" => "4021", 
 			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-cases/gal-image11.jpg", 
@@ -743,7 +778,8 @@ $cases_region->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"urlType" => false, 
+			"linkTarget" => ""
 			), array(
 			"id" => "4023", 
 			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-cases/gal-image12.jpg", 
@@ -810,7 +846,8 @@ $cases_region->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"urlType" => false, 
+			"linkTarget" => ""
 			), array(
 			"id" => "4024", 
 			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-cases/gal-image13.jpg", 
@@ -877,7 +914,8 @@ $cases_region->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"urlType" => false, 
+			"linkTarget" => ""
 			), array(
 			"id" => "4027", 
 			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-cases/gal-image15.jpg", 
@@ -944,7 +982,8 @@ $cases_region->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"urlType" => false, 
+			"linkTarget" => ""
 			), array(
 			"id" => "4029", 
 			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-cases/gal-image14.jpg", 
@@ -1011,7 +1050,8 @@ $cases_region->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"urlType" => false, 
+			"linkTarget" => ""
 			), array(
 			"id" => "4007", 
 			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-cases/gal-image1.jpg", 
@@ -1078,7 +1118,8 @@ $cases_region->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"urlType" => false, 
+			"linkTarget" => ""
 			), array(
 			"id" => "4035", 
 			"srcFull" => "" . get_stylesheet_directory_uri() . "/images/single-page-cases/gal-image11 (1).jpg", 
@@ -1145,7 +1186,8 @@ $cases_region->add_element("Ugallery", array(
 				"left" => 0, 
 				"top" => 0
 				), 
-			"urlType" => false
+			"urlType" => false, 
+			"linkTarget" => ""
 			)), 
 	"elementSize" => array(
 		"width" => 0, 
@@ -1156,13 +1198,15 @@ $cases_region->add_element("Ugallery", array(
 	"thumbWidth" => "210", 
 	"thumbHeight" => 210, 
 	"captionType" => "none", 
-	"captionColor" => "#ufc0",
+	"captionColor" => "#ufc0", 
 	"captionUseBackground" => 0, 
 	"captionBackground" => "#000000", 
 	"showCaptionOnHover" => array("true"), 
 	"linkTo" => "image", 
 	"even_padding" => array("true"), 
 	"thumbPadding" => 0, 
+	"fitThumbCaptions" => false, 
+	"thumbCaptionsHeight" => 20, 
 	"captionPosition" => "below", 
 	"captionWhen" => "never", 
 	"no_padding" => array("true"), 
@@ -1170,8 +1214,9 @@ $cases_region->add_element("Ugallery", array(
 	"theme_style" => "case-study-ugallery-style", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "module-1407250114394-1623-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-wrapper", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "module-1407250114394-1623-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-wrapper", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12, 
@@ -1179,6 +1224,10 @@ $cases_region->add_element("Ugallery", array(
 		), 
 	"mobile" => array(
 		"col" => 7, 
+		"order" => 0
+		), 
+	"custom-1410783666947" => array(
+		"col" => 18, 
 		"order" => 0
 		)
 	), 
@@ -1194,9 +1243,19 @@ $cases_region->add_element("Ugallery", array(
 		"left" => 0, 
 		"col" => 7, 
 		"order" => 0
+		), 
+	"custom-1410783666947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18, 
+		"order" => 0
 		)
 	)
 ));
 
 $regions->add($cases_region);
+
+if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php');
+
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
+

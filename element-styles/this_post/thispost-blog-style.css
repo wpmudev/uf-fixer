@@ -52,6 +52,11 @@
     color: #ufc6;
     text-decoration: none;
 }
+#page .thispost-blog-style .post_content img, #page .thispost-blog-style .post_content .wp-caption {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
 #page .thispost-blog-style blockquote {
     position: relative;
 }
@@ -71,16 +76,13 @@
     padding: 15px 0;
     padding-left: 30px;
 }
-#page .upfront-postpart-title a,
-#page .upfront-postpart-title .post_title{
+#page .thispost-blog-style #page .upfront-postpart-title a, #page .thispost-blog-style #page .upfront-postpart-title .post_title {
     color:#ufc1;
 }
-#page .thispost-blog-style p,
-#page .thispost-blog-style ul,
-#page .thispost-blog-style ol{
+#page .thispost-blog-style p, #page .thispost-blog-style ul, #page .thispost-blog-style ol {
     margin: 0 0 15px;
 }
-#page .thispost-blog-style .post_excerpt{
+#page .thispost-blog-style .post_excerpt {
     font-size: 26px;
     font-weight: normal;
     font-family: Raleway;

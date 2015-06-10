@@ -1,5 +1,8 @@
-#page .blog-posts.uposts-object{
+#page .blog-posts.uposts-object {
     padding: 0;
+}
+#page .blog-posts .upfront_posts-list > ul {
+    margin-left: 0;
 }
 #page .blog-posts.uposts-object li.uf-post {
     color:#ufc1;
@@ -12,20 +15,14 @@
     float:left;
     position:relative;
 }
-
-#page .blog-posts.uposts-object li.uf-post.uf-post-sticky {
+#page .blog-posts .uposts-object li.uf-post.uf-post-sticky {
     width:690px;
     background:#ece9e4;
 }
-#page.mobile-breakpoint .blog-posts.uposts-object li.uf-post,
-#page.mobile-breakpoint .blog-posts.uposts-object li.uf-post.uf-post-sticky
-{
+#page .blog-posts #page.mobile-breakpoint .blog-posts.uposts-object li.uf-post, #page .blog-posts #page.mobile-breakpoint .blog-posts.uposts-object li.uf-post.uf-post-sticky {
     width:90%;
 }
-
-#page.tablet-breakpoint .blog-posts.uposts-object li.uf-post,
-#page.tablet-breakpoint .blog-posts.uposts-object li.uf-post.uf-post-sticky
-{
+#page .blog-posts #page.tablet-breakpoint .blog-posts.uposts-object li.uf-post, #page .blog-posts #page.tablet-breakpoint .blog-posts.uposts-object li.uf-post.uf-post-sticky {
     width:94%;
 }
 #page .blog-posts.uposts-object li.uf-post .thumbnail {
@@ -48,20 +45,22 @@
     top:0;
     right:0;
     color:#ufc0;
-    padding:20px;
+    /*padding:20px*/
+    padding: 10px;
     text-align:center;
     font-size:24px;
     font-family: "Raleway SemiBold";
 }
-#page .blog-posts.uposts-object li.uf-post-sticky .date_posted {
+#page .blog-posts .uposts-object li.uf-post-sticky .date_posted {
     background:#ufc6;
 }
 #page .blog-posts.uposts-object li.uf-post .title {
-    padding:30px 0 30px 30px;
+    /*padding:30px 0 30px 30px;*/
+    padding: 30px;
     width:100%;
     overflow:hidden;
     display:block;
-    height:21px;
+    height: 21px;
 }
 #page .blog-posts.uposts-object li.uf-post .title a, #page .blog-posts.uposts-object li.uf-post .title a:visited, #page .blog-posts.uposts-object li.uf-post .title a:link {
     color:#ufc1;
@@ -70,6 +69,12 @@
     font-family:"Raleway Bold";
     margin:0;
 }
+#page .blog-posts.uposts-object li.uf-post .title a {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 #page .blog-posts.uposts-object li.uf-post .content {
     font-size:15px;
     font-family:"Raleway";
@@ -77,6 +82,16 @@
     margin:20px 0;
     max-height:38px;
     overflow:hidden;
+}
+#page .blog-posts.uposts-object li.uf-post.noFeature article {
+    position: relative;
+}
+#page .blog-posts.uposts-object li.uf-post.noFeature article:before {
+    background: #ece9e4;
+    content: "";
+    display: block;
+    height: 196px;
+    width: 100%;
 }
 #page .blog-posts .uf-pagination {
     width:100%;

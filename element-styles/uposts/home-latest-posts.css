@@ -12,6 +12,9 @@
 #page .home-latest-posts.uposts-object li * {
    font-family:"Raleway", Helvetica Neueu, Helvetica, Arial, sans-serif;
 }
+#page .home-latest-posts.uposts-object li article {
+    overflow: hidden;
+}
 #page .home-latest-posts.uposts-object li a {
     color:#ufc1;
 }
@@ -88,6 +91,9 @@
     line-height:20px;
     font-size:15px;
 }
+#page .home-latest-posts.uposts-object li .content p:last-child {
+    margin-bottom: 0;
+}
 #page .home-latest-posts .uposts-object li.uf-post-sticky .content, #page .home-latest-posts .uposts-object li.uf-post-sticky .content p {
     color:#ufc0;
 }
@@ -126,4 +132,15 @@
 }
 #page .home-latest-posts.uposts-object li:first-child .content p, #page .home-latest-posts.uposts-object li:first-child .title h3 a, #page .home-latest-posts.uposts-object li:first-child .read_more a {
     color:#ufc0;
+}
+#page .home-latest-posts.uposts-object li.noFeature .content {
+    float: right;
+    height: 290px;
+    margin: 0;
+    max-height: 100%;
+    padding: 60px 60px 100px;
+    width: 50%;
+}
+#page .home-latest-posts.uposts-object li.noFeature:not(:first-child) .content {
+    background-color: #ece9e4;
 }

@@ -1,0 +1,79 @@
+#page .u-posts-list.uposts-object li {
+    clear: both;
+    overflow: hidden;
+}
+#page .u-posts-list.uposts-object li article {
+    overflow: hidden;
+}
+#page .u-posts-list.uposts-object li .title h3, #page .u-posts-list.uposts-object li .title a {
+    color: #ufc1;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-transform: capitalize;
+}
+#page .u-posts-list.uposts-object li .title a:hover {
+    color: #ufc6;
+}
+#page .u-posts-list.uposts-object li .date_posted, #page .u-posts-list.uposts-object li .author {
+    float: left;
+    font-size: 13px;
+    line-height: 1.923em;
+    margin-bottom: 0;
+}
+#page .u-posts-list.uposts-object li .date_posted {
+    color: #999;
+    margin-right: 5px;
+}
+#page .u-posts-list.uposts-object li .author, #page .u-posts-list.uposts-object li .author a {
+    color: #999;
+    font-weight: 700;
+}
+#page .u-posts-list.uposts-object li .author a:hover {
+    color: #ufc6;
+}
+#page .u-posts-list/* pagination */
+.uf-pagination {
+    font-size: 0;
+    margin: 30px auto;
+    text-align: right;
+    width: 100%;
+}
+#page .u-posts-list .uf-pagination .page-numbers {
+    background: #ece9e4;
+    color: #666;
+    display: inline-block;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 50px;
+    white-space: nowrap;
+}
+#page .u-posts-list .uf-pagination .page-numbers.current {
+    background: #a4d0dc;
+    color: #ufc0;
+}
+#page .u-posts-list .uf-pagination .page-numbers.prev, #page .u-posts-list .uf-pagination .page-numbers.next {
+    position: relative;
+    text-indent: -9999px;
+}
+#page .u-posts-list .uf-pagination .page-numbers.prev:before, #page .u-posts-list .uf-pagination .page-numbers.next:before {
+    height: 50px;
+    left: 0;
+    position: absolute;
+    text-indent: 0px;
+    top: 0;
+    width: 50px;
+}
+#page .u-posts-list .uf-pagination .page-numbers.prev:before {
+    content: "«";
+}
+#page .u-posts-list .uf-pagination .page-numbers.next:before {
+    content: "»";
+}

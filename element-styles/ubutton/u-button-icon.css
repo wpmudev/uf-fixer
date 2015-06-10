@@ -1,0 +1,10 @@
+#page .u-button-icon.upfront-button {
+    padding: 0;
+}
+#page .u-button-icon.upfront-button .upfront_cta {
+    display: block;
+    padding: 0;
+}
+#page .u-button-icon.upfront-button .upfront_cta:hover {
+    opacity: 0.5;
+}

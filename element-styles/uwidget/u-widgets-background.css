@@ -1,0 +1,13 @@
+#page .u-widgets-background/* search widget */
+.widget_search .search-field {
+    border-color: transparent;
+}
+#page .u-widgets-background .widget_search .search-field:focus {
+    border-color: #a4d0dc;
+}
+#page .u-widgets-background .widget_search .search-submit {
+    background-color: #a4d0dc;
+}
+#page .u-widgets-background .widget_search .search-submit:hover {
+    background-color: #ufc3;
+}

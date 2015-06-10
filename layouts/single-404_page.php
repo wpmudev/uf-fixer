@@ -25,12 +25,20 @@ $main = upfront_create_region(
 "background_position" => "63% 84%", 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false
+		"edited" => true, 
+		"row" => 189
 		), 
 	"mobile" => array(
-		"edited" => false
+		"edited" => true, 
+		"row" => 164
+		), 
+	"custom-1410783666947" => array(
+		"edited" => true, 
+		"row" => 192
 		)
-	)
+	), 
+"use_padding" => 0, 
+"sub_regions" => array("")
 )
 			);
 
@@ -38,17 +46,16 @@ $main->add_element("PlainTxt", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "40", 
+"margin_top" => "13", 
 "margin_bottom" => "0", 
 "id" => "module-1412691061180-1949", 
-"rows" => 103, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h1>Page not<br>
+	"content" => "<h1 class=\"\"><span class=\"upfront_theme_color_0\">Page not<br>
 available but<br>
 Mr Fixer<br>
-is.</h1>", 
+is.</span></h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1412691061176-1774", 
 	"class" => "c24 upfront-plain_txt", 
@@ -56,24 +63,39 @@ is.</h1>",
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
 	"anchor" => "", 
 	"row" => 103, 
-	"theme_style" => "h1-white-heading"
+	"theme_style" => "h1-white-heading", 
+	"breakpoint" => array(
+		"mobile" => array(
+			"row" => 61
+			)
+		)
 	), 
-"wrapper_id" => "wrapper-1412692347986-1728", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1412692347986-1728", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 12, 
-		"order" => 0
+		"order" => 0, 
+		"clear" => true, 
+		"edited" => true
 		), 
 	"mobile" => array(
 		"col" => 7, 
 		"clear" => true, 
-		"order" => 0
+		"order" => 0, 
+		"edited" => true
+		), 
+	"custom-1410783666947" => array(
+		"col" => 18, 
+		"order" => 0, 
+		"clear" => true, 
+		"edited" => true
 		)
 	), 
 "breakpoint" => array(
@@ -87,7 +109,14 @@ is.</h1>",
 		"edited" => true, 
 		"left" => 0, 
 		"col" => 7, 
-		"top" => 57
+		"top" => 4, 
+		"row" => 61
+		), 
+	"custom-1410783666947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18, 
+		"order" => 0
 		)
 	)
 ));
@@ -99,7 +128,6 @@ $main->add_element("Button", array(
 "margin_top" => "9", 
 "margin_bottom" => "0", 
 "id" => "module-1412692676377-1786", 
-"rows" => 14, 
 "options" => array(
 	"content" => "Take me to Mr Fixer", 
 	"href" => "#", 
@@ -111,39 +139,62 @@ $main->add_element("Button", array(
 	"has_settings" => 1, 
 	"id_slug" => "button", 
 	"currentpreset" => "white-borders-button", 
-	"theme_style" => "white-borders-button-extra", 
+	"theme_style" => "_default", 
 	"is_edited" => true, 
-	"row" => 14
+	"row" => 6
 	), 
-"wrapper_id" => "wrapper-1412693265986-1503", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1412693265986-1503", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"col" => 9, 
-		"order" => 0
+		"order" => 1, 
+		"clear" => true, 
+		"edited" => true
 		), 
 	"mobile" => array(
 		"col" => 6, 
 		"clear" => true, 
-		"order" => 0
+		"order" => 1, 
+		"edited" => true
+		), 
+	"custom-1410783666947" => array(
+		"col" => 12, 
+		"order" => 1, 
+		"clear" => true, 
+		"edited" => true
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 3, 
 		"col" => 6, 
-		"order" => 0
+		"order" => 0, 
+		"top" => 30
 		), 
 	"mobile" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"left" => 1, 
 		"col" => 5, 
-		"order" => 0
+		"order" => 0, 
+		"top" => 3
+		), 
+	"custom-1410783666947" => array(
+		"edited" => true, 
+		"left" => 6, 
+		"col" => 6, 
+		"order" => 0, 
+		"top" => 35
 		)
 	)
 ));
 
 $regions->add($main);
+
+if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php');
+
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
+

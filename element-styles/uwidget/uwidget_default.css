@@ -1,0 +1,160 @@
+/* general */
+.widget .widgettitle {
+    display: block;
+    font-size: 22px;
+    line-height: 1.364em;
+    margin: 0 0 15px;
+}
+ /* text widget */
+.widget_text .textwidget p:last-child {
+    margin-bottom: 0;
+}
+/* search widget */
+.widget_search .search-form {
+    display: table;
+}
+.widget_search label {
+    display: table-cell;
+}
+.widget_search .screen-reader-text {
+    display: none;
+}
+.widget_search .search-field {
+    background: #ufc0;
+    border: 1px solid #ece9e4;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #ufc1;
+    display: block;
+    float: none;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    -webkit-transition: border-color 0.25s ease-out;
+    -moz-transition: border-color 0.25s ease-out;
+    -o-transition: border-color 0.25s ease-out;
+    transition: border-color 0.25s ease-out;
+    width: 100%;
+}
+.widget_search .search-field:focus {
+    border-color: #ufc6;
+}
+.widget_search .upfront-search-submit_group {
+    display: table-cell;
+    position: relative;
+    width: 1%;
+}
+.widget_search .search-submit {
+    background: #ufc6 url("UPFRONT_THEME_BASE/ui/search-icon.png") no-repeat;
+    background-position: center center;
+    display: inline-block;
+    height: 50px;
+    position: relative;
+    text-indent: -9999px;
+    width: 50px;
+    white-space: nowrap;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+}
+.widget_search .search-submit:hover {
+    background: #ufc1 url("UPFRONT_THEME_BASE/ui/search-icon.png") no-repeat;
+    background-position: center center;
+}
+ /* menu widget */
+.widget_nav_menu .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ .widget_nav_menu .menu li {
+    display: block;
+    margin-bottom: 15px;
+}
+ .widget_nav_menu .menu li:last-child {
+    margin-bottom: 0;
+}
+ .widget_nav_menu .menu li a {
+    color: #ufc1;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.333em;
+    padding: 0 0 5px;
+    position: relative;
+}
+ .widget_nav_menu .menu li a:after {
+    background: transparent;
+    border-bottom: 2px solid transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    right: 0;
+    -moz-transition: width .4s ease, background-color .4s ease;
+    -ms-transition: width .4s ease, background-color .4s ease;
+    -webkit-transition: width .4s ease, background-color .4s ease;
+    transition: width .4s ease, background-color .4s ease;
+    width: 0;
+}
+ .widget_nav_menu .menu li a:hover {
+    color: #ufc6;
+    font-weight: 500;
+}
+ .widget_nav_menu .menu li a:hover:after {
+    border-bottom-color: #ufc6;
+    width: 100%;
+}
+ /* calendar */
+.widget_calendar table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    max-width: 100%;
+    width: 100%;
+}
+ .widget_calendar table > tbody > tr > td,  .widget_calendar table > tbody > tr > th,  .widget_calendar table > tfoot > tr > td,  .widget_calendar table > tfoot > tr > th,  .widget_calendar table > thead > tr > td,  .widget_calendar table > thead > tr > th {
+    border-top: 1px solid #ufc1;
+    color: #ufc1;
+    font-family: 'Raleway', Arial, sans-serif;
+    line-height: 1.667em;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+ .widget_calendar table > thead > tr > th {
+    border-bottom: 2px solid #ufc1;
+    color: #ufc1;
+    font-size: 18px;
+    line-height: 1.667em;
+    vertical-align: middle;
+}
+ .widget_calendar table > tbody > tr > td a {
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+ .widget_calendar table > tbody > tr > td a:hover {
+    color: #ufc1;
+}
+ .widget_calendar table thead > tr:first-child > td,  .widget_calendar table thead > tr:first-child > th,  .widget_calendar table thead > tr:first-child > td,  .widget_calendar table thead > tr:first-child > th,  .widget_calendar table > thead:first-child > tr:first-child > td,  .widget_calendar table > thead:first-child > tr:first-child > th {
+    border-top: 0;
+}
+ /* recent comments widget */
+.widget_recent_comments .comment-author-link a {
+    color: #ufc1;
+    font-style: italic;
+}
+ .widget_recent_comments .comment-author-link a:hover {
+    color: #ufc6;
+}
+ /* tag cloud widget */
+.widget_tag_cloud .tagcloud a {
+    margin: 0 5px 5px 0;
+}

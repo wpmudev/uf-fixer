@@ -1,31 +1,6 @@
 <?php
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
-$top = upfront_create_region(
-			array(
-"name" => "top", 
-"title" => "Top", 
-"type" => "wide", 
-"scope" => "local", 
-"container" => "top", 
-"position" => 1, 
-"allow_sidebar" => true
-),
-			array(
-"row" => 30, 
-"breakpoint" => array(
-	"tablet" => array(
-		"edited" => false
-		), 
-	"mobile" => array(
-		"edited" => false
-		)
-	)
-)
-			);
-
-$regions->add($top);
-
 $region_5 = upfront_create_region(
 			array(
 "name" => "region-5", 
@@ -40,12 +15,22 @@ $region_5 = upfront_create_region(
 "row" => 60, 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false
+		"edited" => true, 
+		"row" => 790
 		), 
 	"mobile" => array(
-		"edited" => false
+		"edited" => true, 
+		"row" => 757
+		), 
+	"custom-1410783666947" => array(
+		"edited" => true, 
+		"row" => 483
 		)
-	)
+	), 
+"background_type" => "color", 
+"use_padding" => 0, 
+"sub_regions" => array(false), 
+"background_color" => "#ffffff"
 )
 			);
 
@@ -53,14 +38,13 @@ $region_5->add_element("PlainTxt", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "0", 
+"margin_top" => "13", 
 "margin_bottom" => "0", 
 "id" => "module-1407244369178-1770", 
-"rows" => 12, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h3 class=\"\" style=\"text-align: center;\"><span class=\"inline_color\" style=\"color: rgb(51, 51, 51)\">Blog</span></h3>", 
+	"content" => "<h2 class=\"\" style=\"text-align: center;\">Blog</h2>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1407244369177-1062", 
 	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
@@ -69,34 +53,49 @@ $region_5->add_element("PlainTxt", array(
 	"is_edited" => true, 
 	"border_style" => "none", 
 	"border_width" => 1, 
-	"border_color" => "", 
-	"bg_color" => "", 
-	"theme_style" => "_default", 
+	"border_color" => "rgba(0, 0, 0, 0)", 
+	"bg_color" => "rgba(0, 0, 0, 0)", 
+	"theme_style" => "u-sub-heading", 
 	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1419540281671-1659", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1419540281671-1659", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
+		), 
+	"custom-1410783666947" => array(
+		"col" => 18, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
+		), 
+	"custom-1410783666947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18, 
+		"order" => 0
 		)
 	)
 ));
@@ -108,41 +107,60 @@ $region_5->add_element("PlainTxt", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1407244383572-1176", 
-"rows" => 28, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
-	"content" => "<h1 class=\"\" style=\"text-align: center;\"><span class=\"inline_color\" style=\"color: rgb(51, 51, 51)\">Latest News &amp; Tips</span></h1>", 
+	"content" => "<h1 class=\"\" style=\"text-align: center;\">Latest News &amp; Tips</h1>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1407244383571-1575", 
 	"class" => "c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt", 
 	"has_settings" => 1, 
 	"row" => 28, 
-	"is_edited" => true
+	"is_edited" => true, 
+	"border_style" => "none", 
+	"border_width" => 1, 
+	"border_color" => "", 
+	"bg_color" => "", 
+	"anchor" => ""
 	), 
-"wrapper_id" => "wrapper-1419540279374-1064", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1419540279374-1064", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
+		), 
+	"custom-1410783666947" => array(
+		"col" => 18, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
+		), 
+	"custom-1410783666947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18, 
+		"order" => 0
 		)
 	)
 ));
@@ -154,7 +172,6 @@ $region_5->add_element("Posts", array(
 "margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "module-1418582907947-1246", 
-"rows" => 42, 
 "options" => array(
 	"type" => "PostsModel", 
 	"view_class" => "PostsView", 
@@ -167,8 +184,9 @@ $region_5->add_element("Posts", array(
 	"taxonomy" => "", 
 	"term" => "", 
 	"content" => "excerpt", 
-	"limit" => "8", 
+	"limit" => "9", 
 	"pagination" => "numeric", 
+	"sticky" => "prepend", 
 	"posts_list" => "", 
 	"post_parts" => array("featured_image", "date_posted", "title", "content"), 
 	"enabled_post_parts" => array("date_posted", "featured_image", "title", "content"), 
@@ -181,7 +199,7 @@ $region_5->add_element("Posts", array(
 	"resize_featured" => "1", 
 	"gravatar_size" => 200, 
 	"post-part-date_posted" => "<div class=\"uposts-part date_posted\">
-    <span class=\"date-day\">{{date_1}}</span> <span class=\"date-month\">{{date_2}}</span>
+    <a href=\"{{permalink}}\"><span class=\"date-day\">{{date_1}}</span> <span class=\"date-month\">{{date_2}}</span></a>
 </div>", 
 	"post-part-author" => "<div class=\"uposts-part author\">
 	By <a href=\"{{url}}\">{{name}}</a></div>", 
@@ -192,7 +210,7 @@ $region_5->add_element("Posts", array(
 	{{comment_count}}
 </div>", 
 	"post-part-featured_image" => "<div class=\"uposts-part thumbnail\" data-resize=\"{{resize}}\">
-	{{thumbnail}}
+	<a href=\"{{permalink}}\">{{thumbnail}}</a>
 </div>", 
 	"post-part-title" => "<div class=\"uposts-part title\">
 	<h3><a href=\"{{permalink}}\" title=\"{{title}}\">{{title}}</a></h3>
@@ -214,36 +232,64 @@ $region_5->add_element("Posts", array(
 ", 
 	"element_id" => "posts-object-1418582907944-1365", 
 	"anchor" => "", 
-	"theme_style" => "blog-posts"
+	"theme_style" => "u-posts-grid", 
+	"breakpoint" => array(
+		"custom-1410783666947" => array(
+			"theme_style" => "u-posts-grid-big-tablet"
+			), 
+		"tablet" => array(
+			"theme_style" => "u-posts-grid-tablet"
+			), 
+		"mobile" => array(
+			"theme_style" => "u-posts-grid-mobile"
+			)
+		)
 	), 
-"wrapper_id" => "wrapper-1419540276903-1477", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1419540276903-1477", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
+		), 
+	"custom-1410783666947" => array(
+		"col" => 18, 
+		"order" => 0
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 12
+		"col" => 12, 
+		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"left" => 0, 
-		"col" => 7
+		"col" => 7, 
+		"order" => 0
+		), 
+	"custom-1410783666947" => array(
+		"edited" => false, 
+		"left" => 0, 
+		"col" => 18, 
+		"order" => 0
 		)
 	)
 ));
 
 $regions->add($region_5);
 
+if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php');
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
+

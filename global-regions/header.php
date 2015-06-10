@@ -16,12 +16,20 @@ $header = upfront_create_region(
 "background_color" => "rgba(255,255,255,0)", 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false
+		"edited" => false, 
+		"col" => 24
 		), 
 	"mobile" => array(
-		"edited" => false
+		"edited" => false, 
+		"col" => 24
+		), 
+	"custom-1410783666947" => array(
+		"edited" => false, 
+		"col" => 24
 		)
-	)
+	), 
+"use_padding" => 0, 
+"sub_regions" => array("")
 )
 			);
 
@@ -32,15 +40,14 @@ $header->add_element("Uimage", array(
 "margin_top" => "6", 
 "margin_bottom" => "0", 
 "id" => "module-1422416936720-1326", 
-"rows" => 4, 
 "options" => array(
 	"src" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/fixer-logo-111x26-8987.png", 
 	"srcFull" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/fixer-logo.png", 
 	"srcOriginal" => "" . get_stylesheet_directory_uri() . "/images/global-regions/header/fixer-logo.png", 
 	"image_title" => "", 
 	"alternative_text" => "", 
-	"when_clicked" => false, 
-	"image_link" => "", 
+	"when_clicked" => "external", 
+	"image_link" => "" . get_site_url() . "/", 
 	"include_image_caption" => false, 
 	"image_caption" => "My awesome image caption", 
 	"caption_position" => false, 
@@ -77,7 +84,7 @@ $header->add_element("Uimage", array(
 	"placeholder_class" => "", 
 	"type" => "UimageModel", 
 	"view_class" => "UimageView", 
-	"has_settings" => 0, 
+	"has_settings" => 1, 
 	"class" => "c24 upfront-image", 
 	"id_slug" => "image", 
 	"element_id" => "image-1422416936718-1443", 
@@ -86,14 +93,16 @@ $header->add_element("Uimage", array(
 		"mobile" => array(
 			"row" => 12
 			)
-		)
+		), 
+	"link_target" => "_self"
 	), 
-"wrapper_id" => "wrapper-1422432407745-1362", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1422432407745-1362", 
 "new_line" => "true", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
+		"edited" => true, 
 		"col" => 8, 
 		"clear" => true, 
 		"order" => 0
@@ -103,6 +112,12 @@ $header->add_element("Uimage", array(
 		"col" => 4, 
 		"clear" => true, 
 		"order" => 0
+		), 
+	"custom-1410783666947" => array(
+		"col" => 11, 
+		"order" => 0, 
+		"clear" => true, 
+		"edited" => true
 		)
 	), 
 "breakpoint" => array(
@@ -110,7 +125,7 @@ $header->add_element("Uimage", array(
 		"edited" => true, 
 		"left" => 4, 
 		"col" => 4, 
-		"top" => 2
+		"top" => 3
 		), 
 	"mobile" => array(
 		"edited" => true, 
@@ -118,6 +133,12 @@ $header->add_element("Uimage", array(
 		"col" => 3, 
 		"row" => 12, 
 		"top" => 5
+		), 
+	"custom-1410783666947" => array(
+		"edited" => false, 
+		"left" => 7, 
+		"col" => 4, 
+		"order" => 0
 		)
 	)
 ));
@@ -129,7 +150,6 @@ $header->add_element("Unewnavigation", array(
 "margin_top" => "6", 
 "margin_bottom" => "0", 
 "id" => "module-1422430251821-1124", 
-"rows" => 13, 
 "options" => array(
 	"type" => "UnewnavigationModel", 
 	"view_class" => "UnewnavigationView", 
@@ -137,85 +157,87 @@ $header->add_element("Unewnavigation", array(
 	"has_settings" => 1, 
 	"id_slug" => "unewnavigation", 
 	"menu_items" => array(array(
-			"menu-item-db-id" => 77, 
+			"menu-item-db-id" => 1793, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
-			"menu-item-title" => "Service", 
-			"menu-item-url" => "" . get_site_url() . "/#services", 
+			"menu-item-title" => "Services", 
+			"menu-item-url" => "" . get_site_url() . "/services-inner/", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "77", 
-			"menu-item-target" => "", 
+			"menu-item-object-id" => "1793", 
+			"menu-item-target" => "_self", 
 			"menu-item-position" => 1
 			), array(
-			"menu-item-db-id" => 78, 
-			"menu-item-parent-id" => "0", 
-			"menu-item-type" => "custom", 
-			"menu-item-title" => "Get a Quote", 
-			"menu-item-url" => "" . get_site_url() . "/#quote", 
-			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "78", 
-			"menu-item-target" => "", 
-			"menu-item-position" => 2
-			), array(
-			"menu-item-db-id" => 79, 
+			"menu-item-db-id" => 1795, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Blog", 
-			"menu-item-url" => "" . get_site_url() . "/blog", 
+			"menu-item-url" => "" . get_site_url() . "/blog/", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "79", 
-			"menu-item-target" => "", 
+			"menu-item-object-id" => "1795", 
+			"menu-item-target" => "_self", 
+			"menu-item-position" => 2
+			), array(
+			"menu-item-db-id" => 1794, 
+			"menu-item-parent-id" => "0", 
+			"menu-item-type" => "custom", 
+			"menu-item-title" => "Get a Quote", 
+			"menu-item-url" => "" . get_site_url() . "/get-quote-inner/", 
+			"menu-item-object" => "custom", 
+			"menu-item-object-id" => "1794", 
+			"menu-item-target" => "_self", 
 			"menu-item-position" => 3
 			), array(
-			"menu-item-db-id" => 80, 
+			"menu-item-db-id" => 1796, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "About", 
-			"menu-item-url" => "" . get_site_url() . "/#about", 
+			"menu-item-url" => "" . get_site_url() . "/about-inner/", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "80", 
-			"menu-item-target" => "", 
+			"menu-item-object-id" => "1796", 
+			"menu-item-target" => "_self", 
 			"menu-item-position" => 4
 			), array(
-			"menu-item-db-id" => 81, 
+			"menu-item-db-id" => 1797, 
 			"menu-item-parent-id" => "0", 
 			"menu-item-type" => "custom", 
 			"menu-item-title" => "Coverage Area", 
-			"menu-item-url" => "" . get_site_url() . "/#coverage", 
+			"menu-item-url" => "" . get_site_url() . "/coverage-area-inner/", 
 			"menu-item-object" => "custom", 
-			"menu-item-object-id" => "81", 
-			"menu-item-target" => "", 
+			"menu-item-object-id" => "1797", 
+			"menu-item-target" => "_self", 
 			"menu-item-position" => 5
 			)), 
 	"menu_style" => "horizontal", 
-	"menu_alignment" => "center", 
+	"menu_alignment" => "left", 
 	"allow_sub_nav" => array("no"), 
 	"allow_new_pages" => array(), 
 	"element_id" => "unewnavigation-object-1422430251820-1816", 
 	"initialized" => false, 
 	"menu_id" => false, 
-	"menu_slug" => "fixer-menu", 
+	"menu_slug" => "fixer-inner-menu", 
 	"burger_menu" => array(), 
 	"burger_alignment" => "left", 
 	"burger_over" => "over", 
 	"is_floating" => array(), 
 	"anchor" => "", 
-	"theme_style" => "main-top-navigation", 
+	"theme_style" => "_default", 
 	"breakpoint" => array(
 		"desktop" => array(
 			"burger_alignment" => "left", 
 			"burger_over" => "over", 
 			"menu_style" => "horizontal", 
-			"menu_alignment" => "center", 
+			"menu_alignment" => "left", 
 			"width" => 1080
 			), 
 		"tablet" => array(
-			"theme_style" => "tablet-nav", 
+			"theme_style" => "mobile-nav", 
 			"width" => 570, 
-			"burger_menu" => "", 
+			"burger_menu" => "yes", 
 			"burger_alignment" => "left", 
 			"burger_over" => "over", 
-			"row" => 11
+			"row" => 14, 
+			"menu_style" => "horizontal", 
+			"menu_alignment" => "center"
 			), 
 		"mobile" => array(
 			"burger_menu" => "yes", 
@@ -223,34 +245,51 @@ $header->add_element("Unewnavigation", array(
 			"burger_over" => "over", 
 			"width" => 315, 
 			"row" => 15, 
-			"theme_style" => "mobile-nav"
+			"theme_style" => "mobile-nav", 
+			"menu_style" => "horizontal", 
+			"menu_alignment" => "center"
+			), 
+		"custom-1410783666947" => array(
+			"burger_menu" => "", 
+			"burger_alignment" => "left", 
+			"burger_over" => "over", 
+			"menu_style" => "horizontal", 
+			"menu_alignment" => "center", 
+			"width" => 810
 			)
 		), 
-	"row" => 13
+	"row" => 12
 	), 
-"wrapper_id" => "wrapper-1422432419698-1772", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1422432419698-1772", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
-		"col" => 12, 
-		"clear" => true, 
-		"order" => 0
+		"edited" => true, 
+		"col" => 5, 
+		"clear" => false, 
+		"order" => 2
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"col" => 2, 
 		"clear" => false, 
 		"order" => 0
+		), 
+	"custom-1410783666947" => array(
+		"col" => 16, 
+		"order" => 1, 
+		"clear" => false, 
+		"edited" => true
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => true, 
-		"left" => 0, 
-		"col" => 12, 
-		"top" => 3, 
-		"row" => 11
+		"left" => 3, 
+		"col" => 2, 
+		"top" => 1, 
+		"row" => 14
 		), 
 	"mobile" => array(
 		"edited" => true, 
@@ -258,6 +297,12 @@ $header->add_element("Unewnavigation", array(
 		"col" => 2, 
 		"top" => 3, 
 		"row" => 15
+		), 
+	"custom-1410783666947" => array(
+		"edited" => false, 
+		"left" => 2, 
+		"col" => 14, 
+		"order" => 0
 		)
 	)
 ));
@@ -269,14 +314,13 @@ $header->add_element("PlainTxt", array(
 "margin_top" => "4", 
 "margin_bottom" => "0", 
 "id" => "module-1405520755970-1045", 
-"rows" => 18, 
 "options" => array(
 	"view_class" => "PlainTxtView", 
 	"id_slug" => "plain_text", 
 	"content" => "<p style=\"text-align: right;\" class=\"\">
-	One call does it all
+	<strong data-redactor-tag=\"strong\" data-verified=\"redactor\">One call does it all</strong>
 </p>
-<h2 style=\"text-align: right;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\" rel=\"font-size: 27px; top: 0px;\">a </span>1300 FIXER</h2>", 
+<h2 style=\"text-align: right;\" class=\"\"><span class=\"uf_font_icon\" style=\"font-size: 27px; top: 0px;\" rel=\"font-size: 27px; top: 0px;\" data-verified=\"redactor\" data-redactor-tag=\"span\" data-redactor-style=\"font-size: 27px; top: 0px;\">a </span>1300 FIXER</h2>", 
 	"type" => "PlainTxtModel", 
 	"element_id" => "text-object-1405520755969-1764", 
 	"class" => "c24 upfront-plain_txt", 
@@ -288,42 +332,57 @@ $header->add_element("PlainTxt", array(
 	"bg_color" => "", 
 	"theme_style" => "header-contact-text", 
 	"anchor" => "", 
-	"row" => 18, 
+	"row" => 14, 
 	"breakpoint" => array(
 		"tablet" => array(
-			"row" => 18
+			"row" => 14
+			), 
+		"custom-1410783666947" => array(
+			"row" => 13
 			)
 		)
 	), 
-"wrapper_id" => "wrapper-1422432441317-1341", 
+"row" => 6, 
 "sticky" => false, 
+"wrapper_id" => "wrapper-1432910630350-1984", 
 "wrapper_breakpoint" => array(
 	"tablet" => array(
 		"edited" => false, 
-		"col" => 8, 
-		"clear" => true, 
+		"col" => 6, 
 		"order" => 0
 		), 
 	"mobile" => array(
 		"edited" => false, 
 		"col" => 6, 
-		"clear" => true, 
+		"order" => 0
+		), 
+	"custom-1410783666947" => array(
+		"edited" => false, 
+		"col" => 11, 
 		"order" => 0
 		)
 	), 
 "breakpoint" => array(
 	"tablet" => array(
 		"edited" => true, 
-		"left" => 2, 
+		"left" => 0, 
 		"col" => 6, 
 		"top" => 0, 
-		"row" => 18
+		"row" => 14
 		), 
 	"mobile" => array(
 		"edited" => true, 
 		"left" => 1, 
 		"col" => 5, 
 		"top" => 0
+		), 
+	"custom-1410783666947" => array(
+		"edited" => true, 
+		"left" => 5, 
+		"col" => 6, 
+		"order" => 0, 
+		"row" => 13, 
+		"top" => 2
 		)
 	)
 ));

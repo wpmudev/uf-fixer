@@ -1,0 +1,21 @@
+#page .u-archive-side-widgets .widget {
+    text-align: right;
+}
+#page .u-archive-side-widgets .widget .widgettitle {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 2.133em;
+}
+#page .u-archive-side-widgets .widget ul {
+    list-style-type: none;
+    margin: 15px 0 0;
+    padding: 0;
+}
+#page .u-archive-side-widgets .widget a {
+    color: #ufc1;
+    font-size: 13px;
+    line-height: 1.923em;
+}
+#page .u-archive-side-widgets .widget a:hover {
+    color: #2c81b6;
+}

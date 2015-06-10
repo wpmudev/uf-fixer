@@ -1,0 +1,44 @@
+.upfront-accordion-wrap {
+    border-bottom: none !important;
+}
+.accordion-panel .accordion-panel-title {
+    border-top: none !important;
+    border-bottom: 1px solid #ufc6;
+    font-weight: 700;
+    padding: 15px !important;
+}
+.accordion-panel-title:after {
+    border: none !important;
+    content: "+" !important;
+    display: block;
+    font-size: 22px;
+    height: 24px !important;
+    line-height: 1.091em;
+    right: 15px !important;
+    text-align: center;
+    top: 25% !important;
+    width: 15px !important;
+}
+.accordion-panel-active .accordion-panel-title:after {
+    content: "-" !important;
+}
+ .accordion-panel:hover .accordion-panel-title:after {
+    content: inherit !important;
+}
+ .accordion-panel-active:hover .accordion-panel-title:after {
+    content: inherit !important;
+}
+.accordion-panel .accordion-panel-title:hover {
+    cursor: pointer;
+}
+.accordion-panel-content {
+    padding: 10px 15px 0 !important;
+}
+.accordion-panel-content,  .accordion-panel-content p {
+    color: #ufc1;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 1.667em;
+}

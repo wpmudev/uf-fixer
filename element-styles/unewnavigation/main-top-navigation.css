@@ -1,9 +1,31 @@
 #page .main-top-navigation div[data-style='horizontal'] ul.menu > li.menu-item > a, #page .main-top-navigation div[data-style='vertical'] ul.menu > li.menu-item > a {
+    color: #ufc1;
     font-size: 13px;
     font-weight: 700;
+    line-height: 1.308em;
     text-transform: uppercase;
-    padding:5px 15px;
+    padding: 5px 15px;
 }
-#page .main-top-navigation div[data-style='horizontal'] ul.menu > li.menu-item > a, #page .main-top-navigation div[data-style='vertical'] ul.menu > li.menu-item > a, #page .main-top-navigation div[data-style='horizontal'] ul.menu > li.menu-item > a, #page .main-top-navigation div[data-style='vertical'] ul.menu > li.menu-item > a:link, #page .main-top-navigation div[data-style='horizontal'] ul.menu > li.menu-item > a, #page .main-top-navigation div[data-style='vertical'] ul.menu > li.menu-item > a:visited {
-    color:#ufc1;
+#page .main-top-navigation div[data-style='horizontal'] ul.menu > li.menu-item > a:hover, #page .main-top-navigation div[data-style='vertical'] ul.menu > li.menu-item > a:hover {
+    color: #ufc3;
+}
+#page .main-top-navigation div[data-style='horizontal'] ul.menu > li.menu-item > a:after {
+    background: transparent;
+    border-bottom: 2px solid transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    -moz-transition: width .4s ease, background-color .4s ease;
+    -ms-transition: width .4s ease, background-color .4s ease;
+    -webkit-transition: width .4s ease, background-color .4s ease;
+    transition: width .4s ease, background-color .4s ease;
+    width: 0;
+}
+#page .main-top-navigation div[data-style='horizontal'] ul.menu > li.current-menu-item > a:after, #page .main-top-navigation div[data-style='horizontal'] ul.menu > li.menu-item > a:hover:after {
+    border-bottom-color: #ufc1;
+    width: 100%;
 }

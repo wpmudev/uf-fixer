@@ -1,0 +1,16 @@
+#page .u-tabs-alt .upfront-tabs-container .tabs-menu {
+    border-bottom: none;
+    padding: 0;
+}
+#page .u-tabs-alt .upfront-tabs-container .tabs-tab:not(:last-child) {
+    margin-right: 15px;
+}
+#page .u-tabs-alt .upfront-tabs-container .tabs-tab {
+    background: #ufc1;
+}
+#page .u-tabs-alt .upfront-tabs-container .tabs-tab-active, #page .u-tabs-alt .upfront-tabs-container .tabs-tab:hover {
+    background: #ufc6;
+}
+#page .u-tabs-alt .upfront-tabs-container .tabs-tab .inner-box {
+    padding: 5px 15px;
+}

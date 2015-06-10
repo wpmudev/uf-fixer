@@ -1,0 +1,135 @@
+#page .u-posts-home.uposts-object ul {
+    margin: 0;
+}
+#page .u-posts-home.uposts-object li {
+    border-bottom: 1px solid #f5f5f5;
+    color: #ufc1;
+    height: 290px;
+    margin: 0 0 -1px 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+#page .u-posts-home.uposts-object li article {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#page .u-posts-home.uposts-object li .title {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 30px 30px 15px;
+    width: 50%;
+}
+#page .u-posts-home.uposts-object li .title h3 {
+    font-size: 28px;
+    line-height: 1.143em;
+}
+#page .u-posts-home.uposts-object li .title a {
+    color: #ufc1;
+    font-weight: 700;
+}
+#page .u-posts-home.uposts-object li .title a:hover {
+    color: #ufc6;
+}
+#page .u-posts-home.uposts-object li .thumbnail {
+    float: right;
+    height: 290px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 50%;
+}
+#page .u-posts-home.uposts-object li .thumbnail img {
+    height: 100%;
+    width: 100%;
+}
+#page .u-posts-home.uposts-object li .date_posted {
+    background: #ufc1;
+    bottom: 0;
+    color: #ufc0;
+    display: block;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 600;
+    height: 75px;
+    margin: 0;
+    padding: 10px 15px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 75px;
+}
+#page .u-posts-home.uposts-object li .date_posted span {
+    display: block;
+    text-transform: uppercase;
+}
+#page .u-posts-home.uposts-object li .date_posted .day {
+    font-size: 32px;
+    line-height: 1em;
+}
+#page .u-posts-home.uposts-object li .date_posted .month {
+    font-size: 15px;
+    line-height: 1.133em;
+}
+#page .u-posts-home.uposts-object li .content {
+    display: block;
+    float: left;
+    max-height: 100%;
+    margin: 0;
+    padding: 0 30px;
+    width: 50%;
+}
+#page .u-posts-home.uposts-object li .content p:last-child {
+    margin-bottom: 0;
+}
+#page .u-posts-home.uposts-object li .read_more {
+    clear: left;
+    display: block;
+    float: left;
+    height: 26px;
+    margin: 15px 0 0 30px;
+    padding: 0;
+    width: 26px;
+}
+#page .u-posts-home.uposts-object li .read_more a {
+    color: #ufc1;
+    font-size: 26px;
+}
+#page .u-posts-home.uposts-object li .read_more a:hover {
+    color: #ufc6;
+}
+#page .u-posts-home.uposts-object li:first-child, #page .u-posts-home.uposts-object li.uf-post-sticky {
+    background: #ufc6;
+    color: #ufc1;
+}
+#page .u-posts-home.uposts-object li:first-child .title a, #page .u-posts-home.uposts-object li.uf-post-sticky .title a {
+    color: #ufc0;
+}
+#page .u-posts-home.uposts-object li:first-child .title a:hover, #page .u-posts-home.uposts-object li.uf-post-sticky .title a:hover {
+    color: #ufc1;
+}
+#page .u-posts-home.uposts-object li:first-child .date_posted, #page .u-posts-home.uposts-object li.uf-post-sticky .date_posted {
+    background-color: #ufc6;
+}
+#page .u-posts-home.uposts-object li:first-child .read_more a, #page .u-posts-home.uposts-object li.uf-post-sticky .read_more a {
+    color: #ufc0;
+}
+#page .u-posts-home.uposts-object li:first-child .read_more a:hover, #page .u-posts-home.uposts-object li.uf-post-sticky .read_more a:hover {
+    color: #ufc1;
+}
+#page .u-posts-home.uposts-object li:first-child .content p, #page .u-posts-home.uposts-object li.uf-post-sticky .content p {
+    color: #ufc0;
+}
+#page .u-posts-home.uposts-object li.noFeature article:before {
+    background: #ece9e4;
+    content: "";
+    display: block;
+    float: right;
+    height: 100%;
+    /*right: 0;
+    position: absolute;
+    top: 0;*/
+    width: 50%;
+}

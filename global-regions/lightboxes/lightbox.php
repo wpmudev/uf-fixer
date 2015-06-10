@@ -12,10 +12,16 @@ $lightbox = upfront_create_region(
 			array(
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false
+		"edited" => false, 
+		"col" => 24
 		), 
 	"mobile" => array(
-		"edited" => false
+		"edited" => false, 
+		"col" => 24
+		), 
+	"custom-1410783666947" => array(
+		"edited" => false, 
+		"col" => 24
 		)
 	)
 )

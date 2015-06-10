@@ -1,9 +1,11 @@
 #page .footer-text-boxes.upfront-plain_txt h4 {
     margin:0;
+    overflow: visible;
+    text-overflow: inherit;
 }
-#page .footer-text-boxes.upfront-plain_txt h4 {
-    margin:0;
-}
-#page .footer-text-boxes a, #page .footer-text-boxes a:hover, #page .footer-text-boxes a:visited, #page .footer-text-boxes a:link {
+#page .footer-text-boxes a, #page .footer-text-boxes a:visited, #page .footer-text-boxes a:link {
     color:#ufc0;
+}
+#page .footer-text-boxes a:hover {
+    color: #ufc6;
 }

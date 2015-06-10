@@ -32,7 +32,7 @@
 		"classes" => "c16 "
 		), array(
 		"objects" => array(array(
-				"classes" => "c4 post-part ml0 mt24",
+				"classes" => "c4 post-part ml0 mt6",
 				"slug" => "tags"
 				)), 
 		"classes" => "c4 clr"
