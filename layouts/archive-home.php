@@ -5503,7 +5503,7 @@ $coverage->add_element("PlainTxt", array(
 	"border_width" => 1, 
 	"border_color" => "rgba(0, 0, 0, 0)", 
 	"bg_color" => "rgba(0, 0, 0, 0)", 
-	"theme_style" => "coverage-area-heading", 
+	"theme_style" => "_default", 
 	"anchor" => ""
 	), 
 "row" => 6, 

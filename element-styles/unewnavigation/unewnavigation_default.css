@@ -1,7 +1,18 @@
+ul.menu > li.new_menu_item a.menu_item, ul.menu > li.new_menu_item a.menu_item {
+    color: inherit;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px !important;
+    font-weight: 700;
+    line-height: 1.308em;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
 div[data-style='horizontal'] ul.menu > li.menu-item > a,  div[data-style='vertical'] ul.menu > li.menu-item > a {
     color: #ufc1;
-    font-size: 13px;
     font-weight: 700;
+    font-style: normal;
+    font-size: 13px;
     line-height: 1.308em;
     text-transform: uppercase;
     padding: 5px 0;
