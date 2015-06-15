@@ -12,22 +12,25 @@ $blog_individual = upfront_create_region(
 "allow_sidebar" => true
 ),
 			array(
-"row" => 235, 
+"row" => 185, 
 "background_type" => "color", 
 "background_color" => "rgba(255,255,255,1)", 
 "nav_region" => "", 
 "breakpoint" => array(
 	"tablet" => array(
-		"edited" => false, 
-		"col" => 24
+		"edited" => true, 
+		"col" => 24,
+		"row" => 292
 		), 
 	"mobile" => array(
-		"edited" => false, 
-		"col" => 24
+		"edited" => true, 
+		"col" => 24,
+		"row" => 370
 		), 
 	"custom-1410783666947" => array(
-		"edited" => false, 
-		"col" => 24
+		"edited" => true, 
+		"col" => 24,
+		"row" => 241
 		)
 	), 
 "use_padding" => 0, 
@@ -98,7 +101,7 @@ $blog_individual->add_element("ThisPost", array(
 "columns" => "24", 
 "margin_left" => "0", 
 "margin_right" => "0", 
-"margin_top" => "1", 
+"margin_top" => "0", 
 "margin_bottom" => "0", 
 "id" => "default-post-module-module-module-module-module-module-module-module", 
 "options" => array(
@@ -116,12 +119,6 @@ $blog_individual->add_element("ThisPost", array(
 			"objects" => array(array(
 					"slug" => "title", 
 					"classes" => "post-part c24"
-					))
-			), array(
-			"classes" => "c24 clr", 
-			"objects" => array(array(
-					"slug" => "date", 
-					"classes" => " post-part c24"
 					))
 			), array(
 			"classes" => "c24 clr", 

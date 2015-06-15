@@ -20,16 +20,10 @@
 		"classes" => "c4 clr"
 		), array(
 		"objects" => array(array(
-				"classes" => "c2 post-part ml0 mt13",
-				"slug" => "date"
-				)), 
-		"classes" => "c2 ml1"
-		), array(
-		"objects" => array(array(
-				"classes" => "c24 post-part ml0 mt12",
+				"classes" => "c19 post-part ml1 mt12",
 				"slug" => "excerpt"
 				)), 
-		"classes" => "c16 "
+		"classes" => "c20"
 		), array(
 		"objects" => array(array(
 				"classes" => "c4 post-part ml0 mt6",
@@ -41,7 +35,7 @@
 				"classes" => " post-part c20 ml0 mt6",
 				"slug" => "contents"
 				)), 
-		"classes" => "c18 ml1"
+		"classes" => "c19 ml1"
 		)), 
 "partOptions" => array(
 	"featured_image" => array(
