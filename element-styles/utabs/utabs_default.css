@@ -23,6 +23,9 @@
     padding: 0;
     text-transform: uppercase;
 }
+.upfront-tabs-container .tabs-tab i {
+	right: -19px;
+}
 .upfront-tabs-container .tabs-content {
     margin: 15px 0 0;
     padding: 0;
