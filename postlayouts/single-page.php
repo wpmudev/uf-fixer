@@ -41,23 +41,11 @@
       array (
         0 => 
         array (
-          'classes' => 'c19 post-part ml1 mt12',
-          'slug' => 'excerpt',
-        ),
-      ),
-      'classes' => 'c20',
-    ),
-    3 => 
-    array (
-      'objects' => 
-      array (
-        0 => 
-        array (
-          'classes' => ' post-part c19 ml5 mt6',
+          'classes' => ' post-part c19 ml1 mt12',
           'slug' => 'contents',
         ),
       ),
-      'classes' => 'c24 clr',
+      'classes' => 'c20',
     ),
   ),
   'partOptions' => 
