@@ -1,8 +1,8 @@
-#page .u-this_page-mobile .upfront-postpart-wrapper:first-child > .post-part {
+#page .u-this_page-mobile .part-title  > .post-part {
     margin: 0;
     width: 100%;
 }
-#page .u-this_page-mobile .upfront-postpart-wrapper:nth-child(2) {
+#page .u-this_page-mobile .part-update {
     margin: 0;
     text-align: center;
     width: 100%;
@@ -10,18 +10,11 @@
 #page .u-this_page-mobile .upfront-postpart-author_gravatar .author_gravatar img {
     float: none;
 }
-#page .u-this_page-mobile .upfront-postpart-author, #page .u-this_page-mobile .upfront-postpart-update {
+#page .u-this_page-mobile .upfront-postpart-author,
+#page .u-this_page-mobile .upfront-postpart-update {
     text-align: center;
 }
-#page .u-this_page-mobile .upfront-postpart-wrapper:nth-child(3) {
+#page .u-this_page-mobile .part-contents {
     margin: 0;
-    width: 100%;
-}
-#page .u-this_page-mobile .upfront-postpart-wrapper:nth-child(3) > .post-part {
-    margin-left: 0;
-    width: 100%;
-}
-#page .u-this_page-mobile .upfront-postpart-wrapper:nth-child(4) > .post-part {
-    margin-left: 0;
     width: 100%;
 }

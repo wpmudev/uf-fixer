@@ -1,8 +1,8 @@
-#page .u-this_post-mobile .upfront-postpart-wrapper:first-child > .post-part {
+#page .u-this_post-mobile .part-title > .post-part {
     margin: 0;
     width: 100%;
 }
-#page .u-this_post-mobile .upfront-postpart-wrapper:nth-child(2) {
+#page .u-this_post-mobile .part-update {
     margin: 0;
     text-align: center;
     width: 100%;
@@ -14,15 +14,15 @@
 #page .u-this_post-mobile .upfront-postpart-update {
     text-align: center;
 }
-#page .u-this_post-mobile .upfront-postpart-wrapper:nth-child(3) {
+#page .u-this_post-mobile .part-featured_image {
     margin: 0;
     width: 100%;
 }
-#page .u-this_post-mobile .upfront-postpart-wrapper:nth-child(3) > .post-part {
+#page .u-this_post-mobile .part-featured_image > .post-part {
     margin-left: 0;
     width: 100%;
 }
-#page .u-this_post-mobile .upfront-postpart-wrapper:nth-child(4) {
+#page .u-this_post-mobile .part-tags {
     width: 100%;
 }
 #page .u-this_post-mobile .post_tags a {
@@ -30,11 +30,14 @@
     margin: 0 15px 15px 0;
     text-align: left;
 }
-#page .u-this_post-mobile .upfront-postpart-wrapper:nth-child(5) {
+#page .u-this_post-mobile .part-contents {
     margin-left: 0;
     width: 100%;
 }
-#page .u-this_post-mobile .upfront-postpart-wrapper:nth-child(5) > .post-part {
+#page .u-this_post-mobile .part-featured_image.no-featured_image ~ .part-contents > .post-part {
+    margin-top: 30px;
+}
+#page .u-this_post-mobile .part-contents > .post-part {
     margin-left: 0;
     width: 100%;
 }

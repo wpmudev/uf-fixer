@@ -1,3 +1,9 @@
+.part-featured_image.no-featured_image {
+    display: none;
+}
+.part-featured_image.no-featured_image ~ .part-contents > .post-part {
+    margin-top: -140px;
+}
 .upfront-postpart-title .post_title {
     text-align: center;
     -ms-word-wrap: break-word;
@@ -79,50 +85,38 @@
  .post_tags a:hover {
     color: #ufc1;
 }
-.upfront-postpart-contents .post_content p:first-child {
-    color: #999;
-    font-family: 'Raleway', Arial, sans-serif;
-    font-size: 28px;
-    font-weight: 400;
-    line-height: 1.250em;
-}
 .post_content .alignnone, .post_content .aligncenter, .post_content .alignright, .post_content .alignleft {
     max-width: 100%;
 }
 .post_content .alignnone {
-    margin: 5px 20px 20px 0;
+    margin: 0 0 15px 0;
 }
 .post_content .aligncenter, .post_content div.aligncenter {
     display: block;
-    margin: 5px auto 5px auto;
+    margin: 0 auto 15px;
 }
 .post_content .alignright {
     float:right;
-    margin: 5px 0 20px 20px;
+    /*margin: 5px 0 20px 20px;*/
+    margin: 0 0 15px 15px;
 }
 .post_content .alignleft {
     float: left;
-    margin: 5px 20px 20px 0;
-}
-.post_content .aligncenter {
-    display: block;
-    margin: 5px auto 5px auto;
+    /*margin: 5px 20px 20px 0;*/
+    margin: 0 15px 15px 0;
 }
 .post_content a img.alignright {
     float: right;
-    margin: 5px 0 20px 20px;
+    /*margin: 5px 0 20px 20px;*/
+    margin: 0 0 15px 15px;
 }
-.post_content a img.alignnone {
+/*.post_content a img.alignnone {
     margin: 5px 20px 20px 0;
-}
+}*/
 .post_content a img.alignleft {
     float: left;
-    margin: 5px 20px 20px 0;
-}
-.post_content a img.aligncenter {
-    display: block;
-    margin-left: auto;
-    margin-right: auto
+    /*margin: 5px 20px 20px 0;*/
+    margin: 0 15px 15px 0;
 }
 .post_content h1, .post_content h2, .post_content h3, .post_content h4, .post_content h5, .post_content h6, .post_content p, .post_content address, .post_content table, .post_content pre, .post_content cite, .post_content q, .post_content iframe, .post_content embed {
     margin: 0 0 15px;
@@ -143,7 +137,8 @@
     color: #999;
     font-size: 13px;
     line-height: 1.385em;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 0;
 }
 .post_content blockquote {
     position: relative;
