@@ -12,7 +12,7 @@ $main = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 219,
+  'row' => 203,
   'background_type' => 'color',
   'background_color' => '#ufc0',
   'breakpoint' => 
@@ -20,17 +20,17 @@ $main = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 406,
+       'row' => 294,
     )),
      'mobile' => 
     (array)(array(
        'edited' => true,
-       'row' => 439,
+       'row' => 388,
     )),
      'custom-1410783666947' => 
     (array)(array(
        'edited' => true,
-       'row' => 361,
+       'row' => 233,
     )),
   )),
   'use_padding' => 0,
@@ -138,6 +138,18 @@ $main->add_element("PlainTxt", array (
     'has_settings' => 1,
     'row' => 7,
     'is_edited' => true,
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'theme_style' => 'u-heading-mobile',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,

@@ -7,7 +7,7 @@
       array (
         0 => 
         array (
-          'classes' => 'post-part c22 ml2 mt0',
+          'classes' => 'post-part c24 ml0 mt0',
           'slug' => 'title',
         ),
       ),
@@ -19,40 +19,18 @@
       array (
         0 => 
         array (
-          'classes' => 'c4 post-part ml0 mt12',
-          'slug' => 'author_gravatar',
-        ),
-        1 => 
-        array (
-          'classes' => 'c4 post-part ml0 mt2',
-          'slug' => 'author',
-        ),
-        2 => 
-        array (
-          'classes' => 'c4 post-part ml0 mt4',
-          'slug' => 'update',
-        ),
-      ),
-      'classes' => 'c4 clr',
-    ),
-    2 => 
-    array (
-      'objects' => 
-      array (
-        0 => 
-        array (
-          'classes' => ' post-part c19 ml1 mt12',
+          'classes' => ' post-part c24 ml0 mt8',
           'slug' => 'contents',
         ),
       ),
-      'classes' => 'c20',
+      'classes' => 'c24 clr',
     ),
   ),
   'partOptions' => 
   array (
     'featured_image' => 
     array (
-      'height' => '100',
+      'height' => '345',
     ),
     'colSize' => '45',
     'date' => 

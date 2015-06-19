@@ -1,5 +1,5 @@
 <?php
-$region_42042a = upfront_create_region(
+$region_8abc9c = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -40,7 +40,7 @@ $region_42042a = upfront_create_region(
 )
 			);
 
-$region_42042a->add_element("Uimage", array (
+$region_8abc9c->add_element("Uimage", array (
   'columns' => '4',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -165,7 +165,7 @@ $region_42042a->add_element("Uimage", array (
   ),
 ));
 
-$region_42042a->add_element("Unewnavigation", array (
+$region_8abc9c->add_element("Unewnavigation", array (
   'columns' => '13',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -280,7 +280,7 @@ $region_42042a->add_element("Unewnavigation", array (
          'theme_style' => 'mobile-nav',
          'width' => 570,
          'burger_menu' => 'yes',
-         'burger_alignment' => 'left',
+         'burger_alignment' => 'top',
          'burger_over' => 'over',
          'row' => 14,
          'menu_style' => 'horizontal',
@@ -364,7 +364,7 @@ $region_42042a->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_42042a->add_element("PlainTxt", array (
+$region_8abc9c->add_element("PlainTxt", array (
   'columns' => '5',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -456,5 +456,5 @@ $region_42042a->add_element("PlainTxt", array (
   ),
 ));
 
-$regions->add($region_42042a);
+$regions->add($region_8abc9c);
 

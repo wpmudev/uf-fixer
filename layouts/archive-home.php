@@ -311,7 +311,7 @@ $region_14->add_element("Unewnavigation", array (
          'theme_style' => 'mobile-nav',
          'width' => 570,
          'burger_menu' => 'yes',
-         'burger_alignment' => 'left',
+         'burger_alignment' => 'top',
          'burger_over' => 'over',
          'row' => 14,
          'menu_style' => 'horizontal',

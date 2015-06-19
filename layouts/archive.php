@@ -132,10 +132,17 @@ $region_6->add_element("PlainTxt", array (
     'row' => 45,
     'border_style' => 'none',
     'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
     'theme_style' => 'archive-heading',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'theme_style' => 'u-heading-mobile',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
