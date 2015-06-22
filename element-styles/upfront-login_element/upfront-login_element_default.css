@@ -1,8 +1,7 @@
  .upfront_login-form form input:not([type=submit]):not([type=checkbox]) {
     border: 1px solid #ece9e4;
 }
-div.upfront-object .upfront_login-form form#loginform label,
-div.upfront-output-object .upfront_login-form form#loginform label {
+div.upfront-login_element-object .upfront_login-form form#loginform label {
     font-weight: 400;
     line-height: 1.667em;
     margin-bottom: 15px;
@@ -55,16 +54,12 @@ div.upfront-output-object .upfront_login-form form#loginform label {
     font-style: normal;
     line-height: 1.667em;
 }
-.upfront-object .upfront_login.upfront_login-hover .upfront_login-form,
-.upfront-object .upfront_login.upfront_login-click .upfront_login-form,
-.upfront-output-object .upfront_login.upfront_login-hover .upfront_login-form,
-.upfront-output-object .upfront_login.upfront_login-click .upfront_login-form {
+.upfront-login_element-object .upfront_login.upfront_login-hover .upfront_login-form,
+.upfront-login_element-object .upfront_login.upfront_login-click .upfront_login-form {
     border: 2px solid #ufc6;
 }
-.upfront-object .upfront_login.upfront_login-hover:hover .upfront_login-form:before,
-.upfront-object .upfront_login.upfront_login-click.active .upfront_login-form:before,
-.upfront-output-object .upfront_login.upfront_login-hover:hover .upfront_login-form:before,
-.upfront-output-object .upfront_login.upfront_login-click.active .upfront_login-form:before {
+.upfront-login_element-object .upfront_login.upfront_login-hover:hover .upfront_login-form:before,
+.upfront-login_element-object .upfront_login.upfront_login-click.active .upfront_login-form:before {
     border-top: 2px solid #ufc6;
     border-left: 2px solid #ufc6;
 }

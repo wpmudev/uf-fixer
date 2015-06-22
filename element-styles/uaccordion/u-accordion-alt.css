@@ -1,6 +1,6 @@
-.u-accordion-alt .upfront-accordion-container .accordion-panel .accordion-panel-title {
+#page .u-accordion-alt .upfront-accordion-container .accordion-panel .accordion-panel-title {
     border-bottom: none;
 }
-.u-accordion-alt.upfront-accordion .upfront-accordion-container .accordion-panel-content {
+#page .u-accordion-alt.upfront-accordion .upfront-accordion-container .accordion-panel-content {
     padding: 10px 15px;
 }r
