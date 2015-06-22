@@ -1,7 +1,7 @@
 /* comments */
-.upfront-comments {
+.upfront-comment ol.upfront-comments {
     list-style-type: none;
-    margin: 0 !important;
+    margin: 0;
     padding: 0;
 }
 .upfront-comments li.comment {
@@ -52,14 +52,14 @@
 .upfront-comments .comment-meta-actions {
     float: right;
 }
-.upfront-comments .comment-date {
+.upfront-comments a.comment-date {
     margin-right: 30px;
-    color: #999 !important;
+    color: #999;
     font-size: 13px;
     line-height: 1.923em;
 }
-.upfront-comments .comment-date:hover {
-    color: #ufc1 !important;
+.upfront-comments a.comment-date:hover {
+    color: #ufc1;
 }
 .upfront-comments .comment-reply {
     float: right;
@@ -133,7 +133,7 @@
 .comment-content pre {
     background: #ufc5;
     color: #ufc0;
-    padding: 15px !important;
+    padding: 15px;
     white-space: pre-wrap;
 }
 .comment-content q {
@@ -207,8 +207,10 @@
     border: 1px solid transparent;
     margin: 0 0 1px;
 }
-.comment-form input[type="text"]:focus, .comment-form input[type="email"]:focus, .comment-form textarea:focus {
-    border-color: #fed41d !important;
+#commentform input[type="text"]:focus,
+#commentform input[type="email"]:focus,
+#commentform textarea:focus {
+    border-color: #fed41d;
 }
 .comment-form .comment-form-comment textarea {
     height: 150px;

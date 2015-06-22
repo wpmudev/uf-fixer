@@ -13,10 +13,10 @@
     color: #ufc1;
 }
 /* captions */
-.ugallery-caption-over, .ugallery-padded-caption {
+.ugallery_item .ugallery-caption-over, .ugallery_item .ugallery-padded-caption {
     font-size: 15px;
     line-height: 1.667em;
-    padding: 15px !important;
+    padding: 15px;
 }
 .ugallery-caption-over p:last-child, .ugallery-padded-caption p:last-child {
     margin-bottom: 0;

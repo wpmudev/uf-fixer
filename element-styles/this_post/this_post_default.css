@@ -44,7 +44,7 @@
     line-height: 1.923em;
     text-align: right;
 }
- .upfront-postpart-date {
+ div.upfront-postpart-date {
     background: #ufc1;
     color: #ufc0;
     display: block;
@@ -52,9 +52,9 @@
     font-weight: 600;
     font-style: normal;
     height: 75px;
-    padding: 10px 15px !important;
+    padding: 10px 15px;
     text-align: center;
-    width: 75px !important;
+    width: 75px;
 }
  .upfront-postpart-date span {
     display: block;
@@ -174,7 +174,7 @@
 .post_content pre {
     background: #ufc5;
     color: #ufc0;
-    padding: 15px !important;
+    padding: 15px;
     white-space: pre-wrap;
 }
 .post_content q {

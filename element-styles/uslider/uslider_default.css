@@ -7,11 +7,11 @@
 }
 /* top cover */
 .uslide.uslide-topCover .uslide-caption {
-    height: inherit !important;
+    height: inherit;
 }
 /* middle cover */
 .uslide.uslide-middleCover .uslide-caption {
-    height: 91% !important;
+    height: 91%;
 }
 /* arrows */
 .uslides .upfront-default-slider-nav-prev, .uslides .upfront-default-slider-nav-next {

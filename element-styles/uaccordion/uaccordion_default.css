@@ -1,40 +1,41 @@
-.upfront-accordion-wrap {
-    border-bottom: none !important;
+.upfront-accordion-container .upfront-accordion-wrap {
+    border-bottom: none;
 }
-.accordion-panel .accordion-panel-title {
-    border-top: none !important;
+.upfront-accordion-container .accordion-panel .accordion-panel-title {
+    border-top: none;
     border-bottom: 1px solid #ufc6;
     font-weight: 700;
-    padding: 15px !important;
+    padding: 15px;
 }
-.accordion-panel-title:after {
-    border: none !important;
-    content: "+" !important;
+.upfront-accordion .upfront-accordion-container .accordion-panel .accordion-panel-title:after {
+    border: none;
+    content: "+";
     display: block;
     font-size: 22px;
-    height: 24px !important;
+    height: 24px;
     line-height: 1.091em;
-    right: 15px !important;
+    right: 15px;
     text-align: center;
-    top: 25% !important;
-    width: 15px !important;
+    top: 25%;
+    width: 15px;
 }
-.accordion-panel-active .accordion-panel-title:after {
-    content: "-" !important;
+.upfront-accordion .upfront-accordion-container  .accordion-panel-active .accordion-panel-title:after {
+    content: "-";
 }
- .accordion-panel:hover .accordion-panel-title:after {
-    content: inherit !important;
+.upfront-accordion .upfront-accordion-container  .accordion-panel:hover .accordion-panel-title:after {
+    content: inherit;
 }
- .accordion-panel-active:hover .accordion-panel-title:after {
-    content: inherit !important;
+.upfront-accordion .upfront-accordion-container  .accordion-panel-active:hover .accordion-panel-title:after {
+    content: inherit;
 }
-.accordion-panel .accordion-panel-title:hover {
+.upfront-accordion .upfront-accordion-container .accordion-panel .accordion-panel-title:hover {
     cursor: pointer;
 }
-.accordion-panel-content {
-    padding: 10px 15px 0 !important;
+.upfront-accordion .upfront-accordion-container .accordion-panel-content {
+    padding: 10px 15px 0;
 }
-.accordion-panel-content,  .accordion-panel-content p {
+.accordion-panel-content,
+.accordion-panel-content p {
     color: #ufc1;
     font-family: 'Raleway', Arial, sans-serif;
     font-weight: 400;
