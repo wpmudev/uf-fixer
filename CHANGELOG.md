@@ -2,7 +2,7 @@ Change Log
 ============
 
 
-0.2 - 2015-06-10
+0.2 - 2015-06-30
 -------------------------------------------------------------------------------
 - Fix: post content space on home latest posts without thumbnail
 - Fix: Refactor blog lists posts title to use ellipsis
