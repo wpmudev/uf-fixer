@@ -1,0 +1,39 @@
+#page .u-this_post-tablet .part-title > .post-part {
+    margin: 0;
+    width: 100%;
+}
+#page .u-this_post-tablet .part-update {
+    margin: 0;
+    text-align: left;
+    width: 30%;
+}
+#page .u-this_post-tablet .upfront-postpart-author_gravatar .author_gravatar img {
+    float: none;
+}
+#page .u-this_post-tablet .upfront-postpart-author,
+#page .u-this_post-tablet .upfront-postpart-update {
+    text-align: left;
+}
+#page .u-this_post-tablet .part-featured_image {
+    margin: 0;
+    width: 70%;
+}
+#page .u-this_post-tablet .part-tags {
+    width: 100%;
+}
+#page .u-this_post-tablet .post_tags a {
+    display: inline-block;
+    margin: 0 15px 15px 0;
+    text-align: left;
+}
+#page .u-this_post-tablet .part-contents {
+    margin-left: 0;
+    width: 100%;
+}
+#page .u-this_post-tablet .part-featured_image.no-featured_image ~ .part-contents > .post-part {
+    margin-top: 30px;
+}
+#page .u-this_post-tablet .part-contents > .post-part {
+    margin-left: 0;
+    width: 100%;
+}

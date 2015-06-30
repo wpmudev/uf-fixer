@@ -1,0 +1,45 @@
+.upfront-accordion-container .upfront-accordion-wrap {
+    border-bottom: none;
+}
+.upfront-accordion-container .accordion-panel .accordion-panel-title {
+    border-top: none;
+    border-bottom: 1px solid #ufc6;
+    font-weight: 700;
+    padding: 15px;
+}
+.upfront-accordion .upfront-accordion-container .accordion-panel .accordion-panel-title:after {
+    border: none;
+    content: "+";
+    display: block;
+    font-size: 22px;
+    height: 24px;
+    line-height: 1.091em;
+    right: 15px;
+    text-align: center;
+    top: 25%;
+    width: 15px;
+}
+.upfront-accordion .upfront-accordion-container  .accordion-panel-active .accordion-panel-title:after {
+    content: "-";
+}
+.upfront-accordion .upfront-accordion-container  .accordion-panel:hover .accordion-panel-title:after {
+    content: inherit;
+}
+.upfront-accordion .upfront-accordion-container  .accordion-panel-active:hover .accordion-panel-title:after {
+    content: inherit;
+}
+.upfront-accordion .upfront-accordion-container .accordion-panel .accordion-panel-title:hover {
+    cursor: pointer;
+}
+.upfront-accordion .upfront-accordion-container .accordion-panel-content {
+    padding: 10px 15px 0;
+}
+.accordion-panel-content,
+.accordion-panel-content p {
+    color: #ufc1;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 1.667em;
+}

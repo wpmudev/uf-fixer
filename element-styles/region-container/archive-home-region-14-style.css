@@ -1,45 +1,34 @@
 .upfront-region-container-region-14 .upfront-region-container-bg {
     color: #ufc0;
 }
-.upfront-region-container-region-14 .upfront-default-slider-nav-prev:after, .upfront-region-container-region-14 .upfront-default-slider-nav-next:after {
-    content: '<';
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    font-size:60px;
-    position:absolute;
-    display:block;
-    color:#ufc0;
-    opacity:.5;
-}
-.upfront-region-container-region-14 .upfront-default-slider-nav-next:after {
-    content:'>';
-}
-.upfront-region-container-region-14 .upfront-default-slider-nav-prev:hover .upfront-default-slider-nav-prev:after, .upfront-region-container-region-14 .upfront-default-slider-nav-next:hover .upfront-default-slider-nav-next:after {
-    opacity:1;
-}
 .upfront-region-container-region-14 .upfront-default-slider-nav-prev:before, .upfront-region-container-region-14 .upfront-default-slider-nav-next:before {
+    content: '';
     display: none;
 }
 .upfront-region-container-region-14 .upfront-default-slider-nav-prev, .upfront-region-container-region-14 .upfront-default-slider-nav-next {
-    width: 30px;
+    background: url("UPFRONT_THEME_BASE/ui/fixer-slider-arrows.png") no-repeat;
+    border-radius: 0;
+    display: block;
+    font-size: 30px;
+    line-height: 1em;
     height: 50px;
     opacity: 1;
-    border-radius: 0;
-    background:none;
+    transition: opacity .4s;
+    width: 27px;
 }
 .upfront-region-container-region-14 .upfront-default-slider-nav-prev {
     background-position: 0 0;
+    left: 2em;
 }
 .upfront-region-container-region-14 .upfront-default-slider-nav-prev:hover {
-    background-position: 0 -50px;
+    background-position: 0 -71px;
 }
 .upfront-region-container-region-14 .upfront-default-slider-nav-next {
-     background-position: -30px 0;
+    background-position: -46px 0;
+    right: 2em;
 }
 .upfront-region-container-region-14 .upfront-default-slider-nav-next:hover {
-     background-position: -30px -50px;
+     background-position: -46px -71px;
 }
 .upfront-region-container-region-14 .upfront-default-slider-nav {
     display: none;

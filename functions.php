@@ -18,7 +18,8 @@ class Uf_fixer extends Upfront_ChildTheme {
         add_filter("comment_form_field_url", array( $this, "comment_form_website" ));
         add_filter("comment_form_field_comment", array( $this, "comment_form_comment" ));
         add_filter( 'comment_form_defaults', array( $this, "comment_form_args" ) );
-    }
+
+}
 
     public function get_prefix(){
         return 'uf-fixer';
@@ -57,8 +58,8 @@ class Uf_fixer extends Upfront_ChildTheme {
     public function comment_form_args( $args ){
         $args["label_submit"] = __("Submit", "uf_fixer");
         unset( $args["fields"]['url'] );
-        unset( $args["comment_notes_before"] );
-        unset( $args["comment_notes_after"] );
+	    $args["comment_notes_before"] = "";
+	    $args["comment_notes_after"] = "";
         return $args;
     }
     public function comment_form_author( $field ){

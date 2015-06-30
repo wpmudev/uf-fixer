@@ -1,0 +1,62 @@
+ul.menu > li.new_menu_item a.menu_item,
+ul.menu > li.new_menu_item a.menu_item {
+    color: inherit;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.308em;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+div[data-style='horizontal'] ul.menu > li.menu-item > a,  div[data-style='vertical'] ul.menu > li.menu-item > a {
+    color: #ufc1;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.308em;
+    text-transform: uppercase;
+}
+div[data-style='horizontal'] ul.menu > li.menu-item > a:hover,
+div[data-style='vertical'] ul.menu > li.menu-item > a:hover {
+    color: #ufc3;
+}
+div[data-style='horizontal'] ul.menu > li.menu-item > a:after,
+div[data-style='vertical'] ul.menu > li.menu-item > a:after {
+    background-color: transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    height: 2px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    -moz-transition: background-color .4s ease;
+    -ms-transition: background-color .4s ease;
+    -webkit-transition: background-color .4s ease;
+    transition: background-color .4s ease;
+    width: 100%;
+}
+div[data-style='horizontal'] ul.menu > li.current-menu-item > a:after,
+div[data-style='horizontal'] ul.menu > li.menu-item > a:hover:after,
+div[data-style='vertical'] ul.menu > li.current-menu-item > a:after,  div[data-style='vertical'] ul.menu > li.menu-item > a:hover:after {
+    background-color: #ufc1;
+}
+div[data-style='horizontal'] ul.menu > li.menu-item {
+    margin: 0 15px;
+}
+div[data-style='horizontal'] ul.menu > li.menu-item:first-child {
+    margin-left: 0;
+}
+div[data-style='horizontal'] ul.menu > li.menu-item > a {
+    padding: 5px 0;
+}
+ div[data-style='vertical'] ul.menu > li.menu-item:not(:last-child) {
+    margin-bottom: 15px;
+}
+ div[data-style='vertical'] ul.menu > li.menu-item > a {
+    display: inline-block;
+    padding: 0 0 5px;
+    position: relative;
+}

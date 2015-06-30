@@ -1,35 +1,13 @@
-#page .ucontact-subscribe-style .upfront-field-container {
-    margin: 0;
-    margin-bottom: 2px;
+#page .ucontact-subscribe-style .upfront-field-container .ucontact-input:focus {
+    border-color: #fed41d;
 }
-#page .ucontact-subscribe-style .ucontact-message-container {
-    color: #ufc1;
-}
-#page .ucontact-subscribe-style .ucontact-input {
-    font-size: 15px;
-    font-weight: 500;
-}
-#page .ucontact-subscribe-style .ucontact-input {
-    border: none;
-    line-height: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 100%;
-}
-#page .ucontact-subscribe-style .textarea-field {
-    resize: none;
-    height: 10em;
-}
-#page .ucontact-subscribe-style .submit-field {
-    text-transform: uppercase;
-    padding: 20px;
-    float: right;
-    color: #ufc0;
+#page .ucontact-subscribe-style.upfront-contact-form .upfront-field-container .submit-field {
     background: #bba33a;
-    font-size: 15px;
-    font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    border: none;
+    color: #ufc0;
+    padding: 16px 20px;
+}
+#page .ucontact-subscribe-style .upfront-field-container .submit-field:hover {
+    background: #ufc1;
+    border: none;
 }

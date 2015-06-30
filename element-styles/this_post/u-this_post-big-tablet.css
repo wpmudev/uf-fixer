@@ -1,0 +1,29 @@
+#page .u-this_post-big-tablet .part-title > .post-part {
+    margin: 0;
+    width: 100%;
+}
+#page .u-this_post-big-tablet .part-update {
+    margin: 0;
+    text-align: center;
+    width: 20%;
+}
+#page .u-this_post-big-tablet .upfront-postpart-author_gravatar .author_gravatar img {
+    float: none;
+}
+#page .u-this_post-big-tablet .upfront-postpart-author,
+#page .u-this_post-big-tablet .upfront-postpart-update {
+    text-align: center;
+}
+#page .u-this_post-big-tablet .part-featured_image {
+    margin: 0;
+    width: 80%;
+}
+#page .u-this_post-big-tablet .part-tags {
+    width: 20%;
+}
+#page .u-this_post-big-tablet .post_tags a {
+    text-align: center;
+}
+#page .u-this_post-big-tablet .part-contents {
+    width: 75%
+}

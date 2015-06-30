@@ -1,0 +1,4 @@
+#page .no-y-padding div.upfront-object, #page .no-y-padding div.upfront-output-object {
+    padding-top: 0;
+    padding-bottom: 0;
+}

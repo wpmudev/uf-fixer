@@ -1,9 +1,0 @@
-#page .main-top-navigation div[data-style='horizontal'] ul.menu > li.menu-item > a, #page .main-top-navigation div[data-style='vertical'] ul.menu > li.menu-item > a {
-    font-size: 13px;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding:5px 15px;
-}
-#page .main-top-navigation div[data-style='horizontal'] ul.menu > li.menu-item > a, #page .main-top-navigation div[data-style='vertical'] ul.menu > li.menu-item > a, #page .main-top-navigation div[data-style='horizontal'] ul.menu > li.menu-item > a, #page .main-top-navigation div[data-style='vertical'] ul.menu > li.menu-item > a:link, #page .main-top-navigation div[data-style='horizontal'] ul.menu > li.menu-item > a, #page .main-top-navigation div[data-style='vertical'] ul.menu > li.menu-item > a:visited {
-    color:#ufc1;
-}

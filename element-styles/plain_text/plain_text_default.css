@@ -1,2 +1,10 @@
-.upfront-plain_txt {
+.upfront-plain_txt a span.uf_font_icon {
+    opacity: 0.5;
+    -webkit-transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+}
+.upfront-plain_txt a:hover span.uf_font_icon {
+    opacity: 1;
 }

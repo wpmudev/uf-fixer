@@ -1,11 +1,10 @@
-
-
-#page .header-contact-text.upfront-plain_txt{
-    color:#ufc1;
-    font-weight:bold;
+#page .header-contact-text.upfront-plain_txt h2 {
+    color: #ufc1;
+    font-weight: 700;
 }
-
-#page .header-contact-text.upfront-plain_txt h2,
-#page .header-contact-text.upfront-plain_txt p{
+#page .header-contact-text.upfront-plain_txt h2, #page .header-contact-text.upfront-plain_txt p {
     margin:0;
+}
+#page .header-contact-text.upfront-plain_txt p {
+    line-height: 1.308em;
 }

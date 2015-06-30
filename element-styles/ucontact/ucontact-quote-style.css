@@ -1,40 +1,21 @@
-#page .ucontact-quote-style .upfront-field-container {
+#page .ucontact-quote-style.upfront-contact-form .upfront-field-container {
     margin: 0;
-    margin-bottom: 1px;
 }
-#page .ucontact-quote-style .upfront-field-container label {
-    line-height:50px;
-    color:#ufc1;
-    padding-left:10px;
+#page .ucontact-quote-style .upfront-field-container .ucontact-input {
+    border: 1px solid transparent;
+    margin: 0 0 1px;
 }
-#page .ucontact-quote-style .ucontact-input {
-    font-size: 15px;
-    font-weight: 500;
-    color:#ufc1;
+#page .ucontact-quote-style .upfront-field-container .ucontact-input:focus {
+    border-color: #a4d0dc;
 }
-#page .ucontact-quote-style .ucontact-input {
-    border: none;
-    line-height: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 100%;
-}
-#page .ucontact-quote-style .textarea-field {
-    resize: none;
-    height: 10em;
-}
-#page .ucontact-quote-style .submit-field {
-    text-transform: uppercase;
-    height:50px;
-    padding: 0 20px;
-    line-height:50px;
-    float: right;
-    color: #ufc0;
+#page .ucontact-quote-style.upfront-contact-form .upfront-field-container .submit-field {
     background: #a4d0dc;
-    font-size: 15px;
-    font-weight: 700;
+    border: none;
+    color: #ufc0;
     margin-top: 20px;
-    margin-bottom: 20px;
+    padding: 16px 20px;
+}
+#page .ucontact-quote-style .upfront-field-container .submit-field:hover {
+    background: #ufc1;
+    border: none;
 }

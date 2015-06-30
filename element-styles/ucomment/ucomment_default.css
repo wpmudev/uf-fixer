@@ -1,0 +1,231 @@
+/* comments */
+.upfront-comment ol.upfront-comments {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.upfront-comments li.comment {
+    border-bottom: 1px solid #ufc0;
+    overflow: hidden;
+}
+.upfront-comments li.comment article {
+    padding: 30px;
+    overflow: hidden;
+}
+.upfront-comments li.comment.depth-1.thread-even {
+    background: #f3f8fc;
+}
+.upfront-comments li.comment.depth-1.thread-odd {
+    background: #ffe262;
+}
+.upfront-comments .comment .children {
+    list-style-type: none;
+    margin: 0 20px;
+    padding: 0;
+}
+.upfront-comments li.comment.depth-2 {
+    background: #ufc0;
+}
+.upfront-comments li.comment .children li.comment {
+    border-top: 1px solid #f3f8fc;
+}
+.upfront-comments .comment-meta {
+    float: left;
+    margin-right: 20px;
+}
+.upfront-comments .comment-content {
+    float: left;
+    font-size: 15px;
+    line-height: 1.667em;
+    max-width: 700px;
+}
+.upfront-comments .comment_author, .upfront-comments .comment_author a {
+    color: #ufc1;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.667em;
+}
+.upfront-comments .comment_author a:hover {
+    color: #ufc6;
+}
+.upfront-comments .comment-meta-actions {
+    float: right;
+}
+.upfront-comments a.comment-date {
+    margin-right: 30px;
+    color: #999;
+    font-size: 13px;
+    line-height: 1.923em;
+}
+.upfront-comments a.comment-date:hover {
+    color: #ufc1;
+}
+.upfront-comments .comment-reply {
+    float: right;
+}
+.upfront-comments .comment-reply-link {
+    background: url("UPFRONT_THEME_BASE/ui/reply-button.png") no-repeat center;
+    display: inline-block;
+    height: 21px;
+    overflow: hidden;
+    text-indent: 9999px;
+    width: 21px;
+}
+.upfront-comments .edit-link {
+    margin: 0;
+}
+.upfront-comments .comment-edit-link {
+    color: #ufc6;
+}
+.comment-content h1, .comment-content h2, .comment-content h3, .comment-content h4, .comment-content h5, .comment-content h6, .comment-content p, .comment-content address, .comment-content table, .comment-content pre, .comment-content cite, .comment-content q, .comment-content iframe, .comment-content embed {
+    margin: 0 0 15px;
+}
+.comment-content > ul, .comment-content > ol {
+    margin: 0 0 15px 20px;
+}
+.comment-content p {
+    -ms-word-break: break-word;
+    word-break: break-word;
+}
+.comment-content img, .comment-content .wp-caption {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.comment-content .wp-caption-text {
+    color: #999;
+    font-size: 13px;
+    line-height: 1.385em;
+    margin-top: 10px;
+}
+.comment-content blockquote {
+    position: relative;
+}
+.comment-content blockquote:before, .comment-content blockquote:after {
+    display: inline-block;
+    font-family: 'Fixer';
+    height: 30px;
+    position: absolute;
+    speak: none;
+    width: 30px;
+}
+.comment-content blockquote:before {
+    content: "l";
+    left: 0;
+    top: 0;
+}
+.comment-content blockquote:after {
+    bottom: -5px;
+    content: "m";
+    right: 0;
+}
+.comment-content blockquote p {
+    font-size: 22px;
+    line-height: 1.364em;
+    padding: 0 30px;
+}
+.comment-content address {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.comment-content pre {
+    background: #ufc5;
+    color: #ufc0;
+    padding: 15px;
+    white-space: pre-wrap;
+}
+.comment-content q {
+    font-style: italic;
+    font-weight: 400;
+}
+.comment-content cite {
+    color: #ufc1;
+    font-weight: 700;
+    font-style: normal;
+}
+.comment-content iframe, .comment-content embed {
+    display: block;
+    max-width: 100%;
+}
+.comment-content table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    max-width: 100%;
+    width: 100%;
+}
+.comment-content table > tbody > tr > td, .comment-content table > tbody > tr > th, .comment-content table > tfoot > tr > td, .comment-content table > tfoot > tr > th, .comment-content table > thead > tr > td, .comment-content table > thead > tr > th {
+    border-top: 1px solid #ece9e4;
+    color: #ufc1;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+}
+.comment-content table > thead > tr > th {
+    border-bottom: 2px solid #ufc1;
+    color: #ufc1;
+    vertical-align: bottom;
+}
+.comment-content table th a, .comment-content table td a {
+    color: #ufc1;
+    text-decoration: underline;
+}
+.comment-content table th a:hover, .comment-content table td a:hover {
+    color: #ufc6;
+}
+.comment-content table thead > tr:first-child > td, .comment-content table thead > tr:first-child > th, .comment-content table thead > tr:first-child > td, .comment-content table thead > tr:first-child > th, .comment-content table > thead:first-child > tr:first-child > td, .comment-content table > thead:first-child > tr:first-child > th {
+    border-top: 0;
+}
+/* respond form */
+.comment-respond {
+    background: #ffe262;
+    margin: 30px auto;
+    overflow: hidden;
+    padding: 30px;
+}
+.comment-respond .comment-reply-title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.214em;
+    margin-bottom: 20px;
+}
+.comment-respond .logged-in-as {
+    margin-bottom: 20px;
+}
+.comment-respond .logged-in-as a {
+    color: #ufc1;
+    text-decoration: underline;
+}
+.comment-respond .logged-in-as a:hover {
+    color: #ufc6;
+}
+.comment-form .comment-form-author, .comment-form .comment-form-email, .comment-form .comment-form-comment, .comment-form .form-submit {
+    margin: 0;
+}
+.comment-form input[type="text"], .comment-form input[type="email"], .comment-form textarea {
+    border: 1px solid transparent;
+    margin: 0 0 1px;
+}
+#commentform input[type="text"]:focus,
+#commentform input[type="email"]:focus,
+#commentform textarea:focus {
+    border-color: #fed41d;
+}
+.comment-form .comment-form-comment textarea {
+    height: 150px;
+    resize: vertical;
+}
+.comment-form .form-submit {
+    float: right;
+    margin-top: 20px;
+}
+.comment-form .form-submit input[type="submit"] {
+    background: #fed41d;
+    color: #ufc1;
+    padding: 16px 15px;
+}
+.comment-form .form-submit input[type="submit"]:hover {
+    background: #ufc1;
+    color: #fed41d;
+}
