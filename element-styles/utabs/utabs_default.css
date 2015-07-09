@@ -9,10 +9,11 @@
 }
 .upfront-tabs-container .tabs-tab {
     border: 3px solid transparent;
+    margin-right: 30px;
     padding: 0;
 }
-.upfront-tabs-container .tabs-tab:not(:last-child) {
-    margin-right: 30px;
+.upfront-tabs-container .tabs-tab:last-child {
+    margin-right: 0;
 }
 .upfront-tabs-container .tabs-tab .inner-box {
     font-family: 'Raleway', Arial, sans-serif;

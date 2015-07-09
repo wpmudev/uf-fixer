@@ -90,15 +90,15 @@ html {
 }
  
  /* blockquote */
-.upfront-object blockquote:not(.upfront-quote-alternative),
-.upfront-output-object blockquote:not(.upfront-quote-alternative) {
+.upfront-object blockquote,
+.upfront-output-object blockquote {
     padding: 0 30px;
     position: relative;
- }
-.upfront-object blockquote:not(.upfront-quote-alternative):before,
-.upfront-output-object blockquote:not(.upfront-quote-alternative):before,
-.upfront-object blockquote:not(.upfront-quote-alternative):after,
-.upfront-output-object blockquote:not(.upfront-quote-alternative):after {
+}
+.upfront-object blockquote:before,
+.upfront-output-object blockquote:before,
+.upfront-object blockquote:after,
+.upfront-output-object blockquote:after {
     display: inline-block;
     font-family: \\\'Fixer\\\';
     height: 30px;
@@ -106,14 +106,14 @@ html {
     speak: none;
     width: 30px;
 }
-.upfront-object blockquote:not(.upfront-quote-alternative):before,
-.upfront-output-object blockquote:not(.upfront-quote-alternative):before {
+.upfront-object blockquote:before,
+.upfront-output-object blockquote:before {
     content: "l";
     left: 0;
     top: 0;
 }
-.upfront-object blockquote:not(.upfront-quote-alternative):after,
-.upfront-output-object blockquote:not(.upfront-quote-alternative):after {
+.upfront-object blockquote:after,
+.upfront-output-object blockquote:after {
     bottom: -5px;
     content: "m";
     right: 0;
@@ -121,7 +121,13 @@ html {
  .upfront-object blockquote.upfront-quote-alternative,
  .upfront-output-object blockquote.upfront-quote-alternative {
     border-left: 2px solid #ufc4;
-    padding-left: 15px;
+    padding: 0 0 0 15px;
+ }
+ .upfront-object blockquote.upfront-quote-alternative:before,
+ .upfront-output-object blockquote.upfront-quote-alternative:before,
+ .upfront-object blockquote.upfront-quote-alternative:after,
+ .upfront-output-object blockquote.upfront-quote-alternative:after {
+    display: none;
  }
  
 /* forms */
@@ -164,10 +170,12 @@ html {
 .upfront-object input[type="text"],
 .upfront-object input[type="email"],
 .upfront-object input[type="password"],
+.upfront-object input[type="search"]
 .upfront-object textarea,
 .upfront-output-object input[type="text"],
 .upfront-output-object input[type="email"],
 .upfront-output-object input[type="password"],
+.upfront-output-object input[type="search"],
 .upfront-output-object textarea {
     /*border: 1px solid transparent;*/
     color: #ufc1;
@@ -193,18 +201,18 @@ html {
     padding: 10px 20px;
     resize: vertical;
 }
-.upfront-object input[type="text"]:focus:not(.search-field),
+.upfront-object input[type="text"]:focus,
 .upfront-object input[type="email"]:focus,
 .upfront-object input[type="password"]:focus,
 .upfront-object textarea:focus,
-.upfront-output-object input[type="text"]:focus:not(.search-field),
+.upfront-output-object input[type="text"]:focus,
 .upfront-output-object input[type="email"]:focus,
 .upfront-output-object input[type="password"]:focus,
 .upfront-output-object textarea:focus {
     border-color: #ufc6;
 }
-.upfront-object input[type="submit"]:not(.search-submit),
-.upfront-output-object input[type="submit"]:not(.search-submit),
+.upfront-object input[type="submit"],
+.upfront-output-object input[type="submit"],
 .upfront-object button[type="submit"],
 .upfront-output-object button[type="submit"] {
     font-family: \\\'Raleway\\\', Arial, sans-serif;

@@ -2,7 +2,10 @@
     border-bottom: none;
     padding: 0;
 }
-#page .u-tabs-alt-border .upfront-tabs-container .tabs-tab:not(:last-child) {
+#page .u-tabs-alt-border .upfront-tabs-container .tabs-tab {
+    margin-right: 15px;
+}
+#page .u-tabs-alt-border .upfront-tabs-container .tabs-tab:last-child {
     margin-right: 15px;
 }
 #page .u-tabs-alt-border .upfront-tabs-container .tabs-tab {

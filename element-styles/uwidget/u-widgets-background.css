@@ -2,12 +2,12 @@
 .widget_search .search-field {
     border-color: transparent;
 }
-#page .u-widgets-background .widget_search .search-field:focus {
+#page .u-widgets-background .widget_search input[type="search"].search-field:focus {
     border-color: #a4d0dc;
 }
-#page .u-widgets-background .widget_search .search-submit {
+#page .u-widgets-background .widget_search input[type="submit"].search-submit {
     background-color: #a4d0dc;
 }
-#page .u-widgets-background .widget_search .search-submit:hover {
+#page .u-widgets-background .widget_search input[type="submit"].search-submit:hover {
     background-color: #ufc3;
 }

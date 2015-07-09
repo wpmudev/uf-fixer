@@ -52,8 +52,11 @@ div[data-style='horizontal'] ul.menu > li.menu-item:first-child {
 div[data-style='horizontal'] ul.menu > li.menu-item > a {
     padding: 5px 0;
 }
- div[data-style='vertical'] ul.menu > li.menu-item:not(:last-child) {
+div[data-style='vertical'] ul.menu > li.menu-item {
     margin-bottom: 15px;
+}
+div[data-style='vertical'] ul.menu > li.menu-item:last-child {
+    margin-bottom: 0;
 }
  div[data-style='vertical'] ul.menu > li.menu-item > a {
     display: inline-block;
