@@ -10,8 +10,6 @@
 }
 #page .mobile-nav div[data-style='burger'] ul.menu {
     background: none;
-    padding-bottom: 100%;
-    height: 100%;
 }
 #page .mobile-nav div[data-style='burger'] ul.menu > li.menu-item > a {
     background:rgba(51,51,51,.95);
