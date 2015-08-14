@@ -47,6 +47,7 @@ $main->add_element("ThisPost", array (
   'margin_right' => '0',
   'margin_top' => '13',
   'margin_bottom' => '0',
+  'class' => 'default-page',
   'id' => 'default-page',
   'options' => 
   array (

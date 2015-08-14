@@ -11,7 +11,7 @@
           'slug' => 'title',
         ),
       ),
-      'classes' => 'c24 clr',
+      'classes' => 'c24 clr part-title',
     ),
     1 => 
     array (
@@ -23,7 +23,7 @@
           'slug' => 'contents',
         ),
       ),
-      'classes' => 'c24 clr',
+      'classes' => 'c24 clr part-contents',
     ),
   ),
   'partOptions' => 

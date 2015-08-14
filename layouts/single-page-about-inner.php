@@ -47,6 +47,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '10',
   'margin_bottom' => '0',
+  'class' => 'module-1432911649645-1709',
   'id' => 'module-1432911649645-1709',
   'options' => 
   array (
@@ -70,7 +71,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432911660635-1409',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -127,6 +128,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1432911660744-1583',
   'id' => 'module-1432911660744-1583',
   'options' => 
   array (
@@ -144,7 +146,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432911696389-1388',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -201,6 +203,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '8',
   'margin_bottom' => '0',
+  'class' => 'module-1432911696509-1241',
   'id' => 'module-1432911696509-1241',
   'options' => 
   array (
@@ -218,7 +221,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432911915038-1524',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -275,6 +278,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '8',
   'margin_bottom' => '0',
+  'class' => 'module-1432911934076-1287',
   'id' => 'module-1432911934076-1287',
   'options' => 
   array (
@@ -349,6 +353,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '8',
   'margin_bottom' => '0',
+  'class' => 'module-1432911945165-1328',
   'id' => 'module-1432911945165-1328',
   'options' => 
   array (
@@ -425,12 +430,13 @@ $main->add_element("Uimage", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1432911649648-1100',
   'id' => 'module-1432911649648-1100',
   'options' => 
   array (
-    'src' => '' . get_stylesheet_directory_uri() . '/images/single-page-about-inner/signature-165x101-2110-147x90-7023.png',
-    'srcFull' => '' . get_stylesheet_directory_uri() . '/images/single-page-about-inner/signature-165x101-2110.png',
-    'srcOriginal' => '' . get_stylesheet_directory_uri() . '/images/single-page-about-inner/signature-165x101-2110.png',
+    'src' => '{{upfront:style_url}}/images/single-page-about-inner/signature-165x101-2110-147x90-7023.png',
+    'srcFull' => '{{upfront:style_url}}/images/single-page-about-inner/signature-165x101-2110.png',
+    'srcOriginal' => '{{upfront:style_url}}/images/single-page-about-inner/signature-165x101-2110.png',
     'image_title' => '',
     'alternative_text' => '',
     'when_clicked' => false,
@@ -528,6 +534,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1432912018877-1621',
   'id' => 'module-1432912018877-1621',
   'options' => 
   array (
@@ -577,16 +584,17 @@ $main->add_element("Uimage", array (
   'margin_right' => '0',
   'margin_top' => '7',
   'margin_bottom' => '0',
+  'class' => 'module-1432912171603-1004',
   'id' => 'module-1432912171603-1004',
   'options' => 
   array (
-    'src' => '' . get_stylesheet_directory_uri() . '/images/single-page-about-inner/fixer-mrfixer-image-1050x569-7934 (1)-1050x569-3667.jpg',
-    'srcFull' => '' . get_stylesheet_directory_uri() . '/images/single-page-about-inner/fixer-mrfixer-image-1050x569-7934 (1).jpg',
-    'srcOriginal' => '' . get_stylesheet_directory_uri() . '/images/single-page-about-inner/fixer-mrfixer-image-1050x569-7934 (1).jpg',
+    'src' => '{{upfront:style_url}}/images/single-page-about-inner/fixer-mrfixer-image-1050x569-7934 (1)-1050x569-3667.jpg',
+    'srcFull' => '{{upfront:style_url}}/images/single-page-about-inner/fixer-mrfixer-image-1050x569-7934 (1).jpg',
+    'srcOriginal' => '{{upfront:style_url}}/images/single-page-about-inner/fixer-mrfixer-image-1050x569-7934 (1).jpg',
     'image_title' => '',
     'alternative_text' => '',
     'when_clicked' => 'external',
-    'image_link' => '' . get_home_url() . '/',
+    'image_link' => '{{upfront:home_url}}/',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -639,7 +647,7 @@ $main->add_element("Uimage", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432912200341-1573',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -698,6 +706,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '10',
   'margin_bottom' => '0',
+  'class' => 'module-1432912171600-1326',
   'id' => 'module-1432912171600-1326',
   'options' => 
   array (
@@ -720,7 +729,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432912306156-1752',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -780,6 +789,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1432912306290-1240',
   'id' => 'module-1432912306290-1240',
   'options' => 
   array (
@@ -797,7 +807,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432912411475-1575',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -854,6 +864,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1432912411620-1262',
   'id' => 'module-1432912411620-1262',
   'options' => 
   array (
@@ -871,7 +882,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432912428820-1784',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 

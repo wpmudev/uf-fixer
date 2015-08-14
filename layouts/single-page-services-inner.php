@@ -61,7 +61,7 @@ $main = upfront_create_region(
   'background_style' => 'fixed',
   'background_position_y' => '80',
   'background_position_x' => '50',
-  'background_image' => '' . get_stylesheet_directory_uri() . '/images/single-page-services-inner/spanner.png',
+  'background_image' => '{{upfront:style_url}}/images/single-page-services-inner/spanner.png',
   'background_image_ratio' => 2.5,
   'background_repeat' => 'no-repeat',
   'background_position' => '50% 80%',
@@ -74,6 +74,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '13',
   'margin_bottom' => '0',
+  'class' => 'module-1432906098400-1697',
   'id' => 'module-1432906098400-1697',
   'options' => 
   array (
@@ -96,7 +97,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432906324812-1976',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -153,6 +154,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1432906324898-1346',
   'id' => 'module-1432906324898-1346',
   'options' => 
   array (
@@ -170,7 +172,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432906361608-1332',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -230,6 +232,7 @@ $main->add_group(array (
   'margin_right' => '0',
   'margin_top' => '16',
   'margin_bottom' => '0',
+  'class' => '',
   'id' => 'module-group-1434097161744-1439',
   'type' => 'ModuleGroup',
   'wrapper_id' => 'wrapper-1434097161746-1395',
@@ -242,7 +245,7 @@ $main->add_group(array (
   'background_type' => 'color',
   'anchor' => '',
   'theme_style' => 'no-y-padding',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -302,6 +305,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1432906361678-1723',
   'id' => 'module-1432906361678-1723',
   'options' => 
   array (
@@ -318,7 +322,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097161772-1739',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -373,12 +377,13 @@ $main->add_element("Uimage", array (
   'margin_right' => '0',
   'margin_top' => '2',
   'margin_bottom' => '0',
+  'class' => 'module-1432906098404-1603',
   'id' => 'module-1432906098404-1603',
   'options' => 
   array (
-    'src' => '' . get_stylesheet_directory_uri() . '/images/single-page-services-inner/bricklaying-240x120-5632.jpg',
-    'srcFull' => '' . get_stylesheet_directory_uri() . '/images/single-page-services-inner/bricklaying.jpg',
-    'srcOriginal' => '' . get_stylesheet_directory_uri() . '/images/single-page-services-inner/bricklaying.jpg',
+    'src' => '{{upfront:style_url}}/images/single-page-services-inner/bricklaying-240x120-5632.jpg',
+    'srcFull' => '{{upfront:style_url}}/images/single-page-services-inner/bricklaying.jpg',
+    'srcOriginal' => '{{upfront:style_url}}/images/single-page-services-inner/bricklaying.jpg',
     'image_title' => '',
     'alternative_text' => '',
     'when_clicked' => false,
@@ -432,7 +437,7 @@ $main->add_element("Uimage", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097163126-1615',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -487,6 +492,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '2',
   'margin_bottom' => '0',
+  'class' => 'module-1432906637306-1993',
   'id' => 'module-1432906637306-1993',
   'options' => 
   array (
@@ -504,7 +510,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097163131-1648',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -559,12 +565,13 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '1',
   'margin_bottom' => '0',
+  'class' => 'module-1434096393290-1553',
   'id' => 'module-1434096393290-1553',
   'options' => 
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: right;"><a target="_self" href="' . get_home_url() . '/service-brick/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></a></p>',
+    'content' => '<p class="" style="text-align: right;"><a target="_self" href="{{upfront:home_url}}/service-brick/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1434096393289-1800',
     'class' => 'c24 upfront-plain_txt',
@@ -575,7 +582,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097163133-1681',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -630,6 +637,7 @@ $main->add_group(array (
   'margin_right' => '0',
   'margin_top' => '16',
   'margin_bottom' => '0',
+  'class' => '',
   'id' => 'module-group-1434097025315-1201',
   'type' => 'ModuleGroup',
   'wrapper_id' => 'wrapper-1434097167170-1918',
@@ -701,6 +709,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1432907701032-1997',
   'id' => 'module-1432907701032-1997',
   'options' => 
   array (
@@ -717,7 +726,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097025344-1945',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -772,12 +781,13 @@ $main->add_element("Uimage", array (
   'margin_right' => '0',
   'margin_top' => '2',
   'margin_bottom' => '0',
+  'class' => 'module-1432907725451-1376',
   'id' => 'module-1432907725451-1376',
   'options' => 
   array (
-    'src' => '' . get_stylesheet_directory_uri() . '/images/single-page-services-inner/fencing-240x120-2967.jpg',
-    'srcFull' => '' . get_stylesheet_directory_uri() . '/images/single-page-services-inner/fencing.jpg',
-    'srcOriginal' => '' . get_stylesheet_directory_uri() . '/images/single-page-services-inner/fencing.jpg',
+    'src' => '{{upfront:style_url}}/images/single-page-services-inner/fencing-240x120-2967.jpg',
+    'srcFull' => '{{upfront:style_url}}/images/single-page-services-inner/fencing.jpg',
+    'srcOriginal' => '{{upfront:style_url}}/images/single-page-services-inner/fencing.jpg',
     'image_title' => '',
     'alternative_text' => '',
     'when_clicked' => false,
@@ -831,7 +841,7 @@ $main->add_element("Uimage", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097025345-1283',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -886,6 +896,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '2',
   'margin_bottom' => '0',
+  'class' => 'module-1432907729570-1303',
   'id' => 'module-1432907729570-1303',
   'options' => 
   array (
@@ -902,7 +913,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097025346-1443',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -957,12 +968,13 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '1',
   'margin_bottom' => '0',
+  'class' => 'module-1434097020513-1720',
   'id' => 'module-1434097020513-1720',
   'options' => 
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: left;"><a target="_self" href="' . get_home_url() . '/service-fenc/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></a></p>',
+    'content' => '<p class="" style="text-align: left;"><a target="_self" href="{{upfront:home_url}}/service-fenc/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1434097020513-1188',
     'class' => 'c24 upfront-plain_txt',
@@ -973,7 +985,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097025347-1798',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1028,6 +1040,7 @@ $main->add_group(array (
   'margin_right' => '0',
   'margin_top' => '6',
   'margin_bottom' => '0',
+  'class' => '',
   'id' => 'module-group-1434097123234-1274',
   'type' => 'ModuleGroup',
   'wrapper_id' => 'wrapper-1434097035151-1973',
@@ -1040,7 +1053,7 @@ $main->add_group(array (
   'background_type' => 'color',
   'anchor' => '',
   'theme_style' => 'no-y-padding',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1100,6 +1113,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1432907581379-1172',
   'id' => 'module-1432907581379-1172',
   'options' => 
   array (
@@ -1116,7 +1130,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097123259-1248',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1171,12 +1185,13 @@ $main->add_element("Uimage", array (
   'margin_right' => '0',
   'margin_top' => '2',
   'margin_bottom' => '0',
+  'class' => 'module-1432907585889-1744',
   'id' => 'module-1432907585889-1744',
   'options' => 
   array (
-    'src' => '' . get_stylesheet_directory_uri() . '/images/single-page-services-inner/plumbing-240x120-3656.jpg',
-    'srcFull' => '' . get_stylesheet_directory_uri() . '/images/single-page-services-inner/plumbing.jpg',
-    'srcOriginal' => '' . get_stylesheet_directory_uri() . '/images/single-page-services-inner/plumbing.jpg',
+    'src' => '{{upfront:style_url}}/images/single-page-services-inner/plumbing-240x120-3656.jpg',
+    'srcFull' => '{{upfront:style_url}}/images/single-page-services-inner/plumbing.jpg',
+    'srcOriginal' => '{{upfront:style_url}}/images/single-page-services-inner/plumbing.jpg',
     'image_title' => '',
     'alternative_text' => '',
     'when_clicked' => false,
@@ -1230,7 +1245,7 @@ $main->add_element("Uimage", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097123260-1313',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1285,6 +1300,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '2',
   'margin_bottom' => '0',
+  'class' => 'module-1432907592018-1582',
   'id' => 'module-1432907592018-1582',
   'options' => 
   array (
@@ -1302,7 +1318,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097123261-1229',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1357,12 +1373,13 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '1',
   'margin_bottom' => '0',
+  'class' => 'module-1434097086405-1836',
   'id' => 'module-1434097086405-1836',
   'options' => 
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: right;"><a target="_self" href="' . get_home_url() . '/service-plumb/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></a></p>',
+    'content' => '<p class="" style="text-align: right;"><a target="_self" href="{{upfront:home_url}}/service-plumb/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1434097086405-1054',
     'class' => 'c24 upfront-plain_txt',
@@ -1373,7 +1390,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097123262-1184',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1428,6 +1445,7 @@ $main->add_group(array (
   'margin_right' => '0',
   'margin_top' => '6',
   'margin_bottom' => '0',
+  'class' => '',
   'id' => 'module-group-1434097070438-1555',
   'type' => 'ModuleGroup',
   'wrapper_id' => 'wrapper-1434097032655-1546',
@@ -1499,6 +1517,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1432908381416-1617',
   'id' => 'module-1432908381416-1617',
   'options' => 
   array (
@@ -1515,7 +1534,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097070468-1557',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1570,12 +1589,13 @@ $main->add_element("Uimage", array (
   'margin_right' => '0',
   'margin_top' => '2',
   'margin_bottom' => '0',
+  'class' => 'module-1432908385199-1821',
   'id' => 'module-1432908385199-1821',
   'options' => 
   array (
-    'src' => '' . get_stylesheet_directory_uri() . '/images/single-page-services-inner/windows-240x120-2392.jpg',
-    'srcFull' => '' . get_stylesheet_directory_uri() . '/images/single-page-services-inner/windows.jpg',
-    'srcOriginal' => '' . get_stylesheet_directory_uri() . '/images/single-page-services-inner/windows.jpg',
+    'src' => '{{upfront:style_url}}/images/single-page-services-inner/windows-240x120-2392.jpg',
+    'srcFull' => '{{upfront:style_url}}/images/single-page-services-inner/windows.jpg',
+    'srcOriginal' => '{{upfront:style_url}}/images/single-page-services-inner/windows.jpg',
     'image_title' => '',
     'alternative_text' => '',
     'when_clicked' => false,
@@ -1629,7 +1649,7 @@ $main->add_element("Uimage", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097070469-1326',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1684,6 +1704,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '2',
   'margin_bottom' => '0',
+  'class' => 'module-1432908389389-1130',
   'id' => 'module-1432908389389-1130',
   'options' => 
   array (
@@ -1700,7 +1721,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097070470-1359',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1755,12 +1776,13 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '1',
   'margin_bottom' => '0',
+  'class' => 'module-1434097055602-1735',
   'id' => 'module-1434097055602-1735',
   'options' => 
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: left;"><a target="_self" href="' . get_home_url() . '/service-windows/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></a></p>',
+    'content' => '<p class="" style="text-align: left;"><a target="_self" href="{{upfront:home_url}}/service-windows/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1434097055602-1399',
     'class' => 'c24 upfront-plain_txt',
@@ -1771,7 +1793,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097070471-1550',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1826,6 +1848,7 @@ $main->add_group(array (
   'margin_right' => '0',
   'margin_top' => '6',
   'margin_bottom' => '0',
+  'class' => '',
   'id' => 'module-group-1434097118251-1158',
   'type' => 'ModuleGroup',
   'wrapper_id' => 'wrapper-1434097141114-1989',
@@ -1838,7 +1861,7 @@ $main->add_group(array (
   'background_type' => 'color',
   'anchor' => '',
   'theme_style' => 'no-y-padding',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1898,6 +1921,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1432907463652-1533',
   'id' => 'module-1432907463652-1533',
   'options' => 
   array (
@@ -1914,7 +1938,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097124463-1746',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1969,12 +1993,13 @@ $main->add_element("Uimage", array (
   'margin_right' => '0',
   'margin_top' => '2',
   'margin_bottom' => '0',
+  'class' => 'module-1432907469177-1298',
   'id' => 'module-1432907469177-1298',
   'options' => 
   array (
-    'src' => '' . get_stylesheet_directory_uri() . '/images/single-page-services-inner/electrical-240x120-6804.jpg',
-    'srcFull' => '' . get_stylesheet_directory_uri() . '/images/single-page-services-inner/electrical.jpg',
-    'srcOriginal' => '' . get_stylesheet_directory_uri() . '/images/single-page-services-inner/electrical.jpg',
+    'src' => '{{upfront:style_url}}/images/single-page-services-inner/electrical-240x120-6804.jpg',
+    'srcFull' => '{{upfront:style_url}}/images/single-page-services-inner/electrical.jpg',
+    'srcOriginal' => '{{upfront:style_url}}/images/single-page-services-inner/electrical.jpg',
     'image_title' => '',
     'alternative_text' => '',
     'when_clicked' => false,
@@ -2028,7 +2053,7 @@ $main->add_element("Uimage", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097124467-1430',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2083,6 +2108,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '2',
   'margin_bottom' => '0',
+  'class' => 'module-1432907475013-1911',
   'id' => 'module-1432907475013-1911',
   'options' => 
   array (
@@ -2100,7 +2126,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097124471-1981',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2155,12 +2181,13 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '1',
   'margin_bottom' => '0',
+  'class' => 'module-1434097047547-1865',
   'id' => 'module-1434097047547-1865',
   'options' => 
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: right;"><a target="_self" href="' . get_home_url() . '/service-electrical/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></a></p>',
+    'content' => '<p class="" style="text-align: right;"><a target="_self" href="{{upfront:home_url}}/service-electrical/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1434097047547-1393',
     'class' => 'c24 upfront-plain_txt',
@@ -2171,7 +2198,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097124474-1411',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2226,6 +2253,7 @@ $main->add_group(array (
   'margin_right' => '0',
   'margin_top' => '6',
   'margin_bottom' => '0',
+  'class' => '',
   'id' => 'module-group-1434097096527-1352',
   'type' => 'ModuleGroup',
   'wrapper_id' => 'wrapper-1434097148896-1902',
@@ -2297,6 +2325,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1432908458117-1775',
   'id' => 'module-1432908458117-1775',
   'options' => 
   array (
@@ -2313,7 +2342,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097096555-1720',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2368,12 +2397,13 @@ $main->add_element("Uimage", array (
   'margin_right' => '0',
   'margin_top' => '2',
   'margin_bottom' => '0',
+  'class' => 'module-1432908462722-1328',
   'id' => 'module-1432908462722-1328',
   'options' => 
   array (
-    'src' => '' . get_stylesheet_directory_uri() . '/images/single-page-services-inner/roof-240x120-1532.jpg',
-    'srcFull' => '' . get_stylesheet_directory_uri() . '/images/single-page-services-inner/roof.jpg',
-    'srcOriginal' => '' . get_stylesheet_directory_uri() . '/images/single-page-services-inner/roof.jpg',
+    'src' => '{{upfront:style_url}}/images/single-page-services-inner/roof-240x120-1532.jpg',
+    'srcFull' => '{{upfront:style_url}}/images/single-page-services-inner/roof.jpg',
+    'srcOriginal' => '{{upfront:style_url}}/images/single-page-services-inner/roof.jpg',
     'image_title' => '',
     'alternative_text' => '',
     'when_clicked' => false,
@@ -2427,7 +2457,7 @@ $main->add_element("Uimage", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097096556-1334',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2482,6 +2512,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '2',
   'margin_bottom' => '0',
+  'class' => 'module-1432908468172-1114',
   'id' => 'module-1432908468172-1114',
   'options' => 
   array (
@@ -2498,7 +2529,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097096557-1538',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2553,12 +2584,13 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '1',
   'margin_bottom' => '0',
+  'class' => 'module-1434097091758-1039',
   'id' => 'module-1434097091758-1039',
   'options' => 
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: left;"><a target="_self" href="' . get_home_url() . '/service-roof/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></a></p>',
+    'content' => '<p class="" style="text-align: left;"><a target="_self" href="{{upfront:home_url}}/service-roof/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1434097091759-1489',
     'class' => 'c24 upfront-plain_txt',
@@ -2569,7 +2601,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1434097096558-1816',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 

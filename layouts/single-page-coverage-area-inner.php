@@ -59,7 +59,7 @@ $main = upfront_create_region(
   'background_style' => 'fixed',
   'background_position_y' => '100',
   'background_position_x' => '100',
-  'background_image' => '' . get_stylesheet_directory_uri() . '/images/single-page-coverage-area-inner/dome.png',
+  'background_image' => '{{upfront:style_url}}/images/single-page-coverage-area-inner/dome.png',
   'background_image_ratio' => 1.0500000000000000444089209850062616169452667236328125,
   'background_repeat' => 'no-repeat',
   'background_position' => '100% 100%',
@@ -72,6 +72,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '13',
   'margin_bottom' => '0',
+  'class' => 'module-1432912837169-1969',
   'id' => 'module-1432912837169-1969',
   'options' => 
   array (
@@ -95,7 +96,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432912849212-1635',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -149,6 +150,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1432912849348-1153',
   'id' => 'module-1432912849348-1153',
   'options' => 
   array (
@@ -166,7 +168,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432912871395-1766',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -220,6 +222,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '5',
   'margin_bottom' => '0',
+  'class' => 'module-1432912871525-1810',
   'id' => 'module-1432912871525-1810',
   'options' => 
   array (
@@ -237,7 +240,7 @@ $main->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432912910837-1185',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -291,6 +294,7 @@ $main->add_element("Ucontact", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1432912837184-1675',
   'id' => 'module-1432912837184-1675',
   'options' => 
   array (
@@ -327,7 +331,7 @@ $main->add_element("Ucontact", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432912929239-1321',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 

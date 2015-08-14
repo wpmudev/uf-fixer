@@ -7,11 +7,11 @@
       array (
         0 => 
         array (
-          'classes' => 'post-part c22 ml2 mt0',
+          'classes' => 'post-part c24 ml0 mt0',
           'slug' => 'title',
         ),
       ),
-      'classes' => 'c24 clr',
+      'classes' => 'c24 clr part-title',
     ),
     1 => 
     array (
@@ -33,7 +33,7 @@
           'slug' => 'update',
         ),
       ),
-      'classes' => 'c4 clr',
+      'classes' => 'c4 clr part-update',
     ),
     2 => 
     array (
@@ -41,11 +41,11 @@
       array (
         0 => 
         array (
-          'classes' => 'c19 post-part ml1 mt12',
+          'classes' => 'c19 post-part ml1 mt13',
           'slug' => 'featured_image',
         ),
       ),
-      'classes' => 'c20',
+      'classes' => 'c20 part-featured_image',
     ),
     3 => 
     array (
@@ -57,7 +57,7 @@
           'slug' => 'tags',
         ),
       ),
-      'classes' => 'c4 clr',
+      'classes' => 'c4 clr part-tags',
     ),
     4 => 
     array (
@@ -69,7 +69,7 @@
           'slug' => 'contents',
         ),
       ),
-      'classes' => 'c20',
+      'classes' => 'c20 part-contents',
     ),
   ),
   'partOptions' => 
@@ -78,9 +78,9 @@
     array (
       'height' => '100',
       'attributes' => 
-		array (
-		'style' => 'max-height: 345px',
-		),
+      array (
+        'style' => 'max-height: 345px',
+      ),
     ),
     'colSize' => '45',
     'date' => 

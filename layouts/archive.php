@@ -43,6 +43,7 @@ $region_6->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '13',
   'margin_bottom' => '0',
+  'class' => 'module-1419434077570-1881',
   'id' => 'module-1419434077570-1881',
   'options' => 
   array (
@@ -59,7 +60,7 @@ $region_6->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1419521079075-1909',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -118,6 +119,7 @@ $region_6->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1412852120029-1051',
   'id' => 'module-1412852120029-1051',
   'options' => 
   array (
@@ -147,7 +149,7 @@ $region_6->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1419433681416-1541',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -204,6 +206,7 @@ $region_6->add_element("Uwidget", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1430836096747-1372',
   'id' => 'module-1430836096747-1372',
   'options' => 
   array (
@@ -235,7 +238,7 @@ $region_6->add_element("Uwidget", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1430837604474-1805',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -330,6 +333,7 @@ $main->add_element("Posts", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1419434077626-1291',
   'id' => 'module-1419434077626-1291',
   'options' => 
   array (
@@ -429,7 +433,7 @@ $main->add_element("Posts", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1419434095455-1654',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -487,6 +491,7 @@ $main->add_element("Uwidget", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1430835627141-1760',
   'id' => 'module-1430835627141-1760',
   'options' => 
   array (

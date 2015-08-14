@@ -1,5 +1,6 @@
 <?php
-$region_8abc9c = upfront_create_region(
+/* START_REGION_OUTPUT */
+$region_3c90a7 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -40,22 +41,23 @@ $region_8abc9c = upfront_create_region(
 )
 			);
 
-$region_8abc9c->add_element("Uimage", array (
+$region_3c90a7->add_element("Uimage", array (
   'columns' => '4',
   'margin_left' => '1',
   'margin_right' => '0',
   'margin_top' => '6',
   'margin_bottom' => '0',
+  'class' => 'module-1422416936720-1326',
   'id' => 'module-1422416936720-1326',
   'options' => 
   array (
-    'src' => '' . get_stylesheet_directory_uri() . '/images/global-regions/header/fixer-logo-111x26-8987.png',
-    'srcFull' => '' . get_stylesheet_directory_uri() . '/images/global-regions/header/fixer-logo.png',
-    'srcOriginal' => '' . get_stylesheet_directory_uri() . '/images/global-regions/header/fixer-logo.png',
+    'src' => '{{upfront:style_url}}/images/global-regions/header/fixer-logo-111x26-8987.png',
+    'srcFull' => '{{upfront:style_url}}/images/global-regions/header/fixer-logo.png',
+    'srcOriginal' => '{{upfront:style_url}}/images/global-regions/header/fixer-logo.png',
     'image_title' => '',
     'alternative_text' => '',
     'when_clicked' => 'external',
-    'image_link' => '' . get_home_url() . '/',
+    'image_link' => '{{upfront:home_url}}/',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -113,7 +115,7 @@ $region_8abc9c->add_element("Uimage", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1422432407745-1362',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -165,12 +167,13 @@ $region_8abc9c->add_element("Uimage", array (
   ),
 ));
 
-$region_8abc9c->add_element("Unewnavigation", array (
+$region_3c90a7->add_element("Unewnavigation", array (
   'columns' => '13',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '6',
   'margin_bottom' => '0',
+  'class' => 'module-1422430251821-1124',
   'id' => 'module-1422430251821-1124',
   'options' => 
   array (
@@ -187,7 +190,7 @@ $region_8abc9c->add_element("Unewnavigation", array (
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Services',
-         'menu-item-url' => '' . get_home_url() . '/services-inner/',
+         'menu-item-url' => '{{upfront:home_url}}/services-inner/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '1793',
          'menu-item-target' => '_self',
@@ -199,7 +202,7 @@ $region_8abc9c->add_element("Unewnavigation", array (
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Blog',
-         'menu-item-url' => '' . get_home_url() . '/blog/',
+         'menu-item-url' => '{{upfront:home_url}}/blog/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '1795',
          'menu-item-target' => '_self',
@@ -211,7 +214,7 @@ $region_8abc9c->add_element("Unewnavigation", array (
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Get a Quote',
-         'menu-item-url' => '' . get_home_url() . '/get-quote-inner/',
+         'menu-item-url' => '{{upfront:home_url}}/get-quote-inner/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '1794',
          'menu-item-target' => '_self',
@@ -223,7 +226,7 @@ $region_8abc9c->add_element("Unewnavigation", array (
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
-         'menu-item-url' => '' . get_home_url() . '/about-inner/',
+         'menu-item-url' => '{{upfront:home_url}}/about-inner/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '1796',
          'menu-item-target' => '_self',
@@ -235,7 +238,7 @@ $region_8abc9c->add_element("Unewnavigation", array (
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Coverage Area',
-         'menu-item-url' => '' . get_home_url() . '/coverage-area-inner/',
+         'menu-item-url' => '{{upfront:home_url}}/coverage-area-inner/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '1797',
          'menu-item-target' => '_self',
@@ -273,11 +276,14 @@ $region_8abc9c->add_element("Unewnavigation", array (
          'burger_over' => 'over',
          'menu_style' => 'horizontal',
          'menu_alignment' => 'left',
+         'is_floating' => 
+        array (
+        ),
          'width' => 1080,
       )),
        'tablet' => 
       (array)(array(
-         'theme_style' => 'mobile-nav',
+         'theme_style' => '_default',
          'width' => 570,
          'burger_menu' => 'yes',
          'burger_alignment' => 'top',
@@ -285,6 +291,7 @@ $region_8abc9c->add_element("Unewnavigation", array (
          'row' => 14,
          'menu_style' => 'horizontal',
          'menu_alignment' => 'center',
+         'is_floating' => 'no',
       )),
        'mobile' => 
       (array)(array(
@@ -293,9 +300,10 @@ $region_8abc9c->add_element("Unewnavigation", array (
          'burger_over' => 'over',
          'width' => 315,
          'row' => 15,
-         'theme_style' => 'mobile-nav',
+         'theme_style' => '_default',
          'menu_style' => 'horizontal',
          'menu_alignment' => 'center',
+         'is_floating' => 'no',
       )),
        'custom-1410783666947' => 
       (array)(array(
@@ -305,6 +313,7 @@ $region_8abc9c->add_element("Unewnavigation", array (
          'menu_style' => 'horizontal',
          'menu_alignment' => 'center',
          'width' => 810,
+         'theme_style' => 'tablet-nav',
       )),
     )),
     'row' => 12,
@@ -364,12 +373,13 @@ $region_8abc9c->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_8abc9c->add_element("PlainTxt", array (
+$region_3c90a7->add_element("PlainTxt", array (
   'columns' => '5',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '4',
   'margin_bottom' => '0',
+  'class' => 'module-1405520755970-1045',
   'id' => 'module-1405520755970-1045',
   'options' => 
   array (
@@ -456,5 +466,6 @@ $region_8abc9c->add_element("PlainTxt", array (
   ),
 ));
 
-$regions->add($region_8abc9c);
+$regions->add($region_3c90a7);
 
+/* END_REGION_OUTPUT */

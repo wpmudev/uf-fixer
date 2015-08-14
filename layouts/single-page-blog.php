@@ -47,6 +47,7 @@ $region_5->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '13',
   'margin_bottom' => '0',
+  'class' => 'module-1407244369178-1770',
   'id' => 'module-1407244369178-1770',
   'options' => 
   array (
@@ -69,7 +70,7 @@ $region_5->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1419540281671-1659',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -122,6 +123,7 @@ $region_5->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1407244383572-1176',
   'id' => 'module-1407244383572-1176',
   'options' => 
   array (
@@ -143,7 +145,7 @@ $region_5->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1419540279374-1064',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -196,6 +198,7 @@ $region_5->add_element("Posts", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1418582907947-1246',
   'id' => 'module-1418582907947-1246',
   'options' => 
   array (
@@ -302,7 +305,7 @@ $region_5->add_element("Posts", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1419540276903-1477',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 

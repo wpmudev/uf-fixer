@@ -19,7 +19,7 @@ $main = upfront_create_region(
   'background_style' => 'fixed',
   'background_position_y' => '84',
   'background_position_x' => '63',
-  'background_image' => '' . get_stylesheet_directory_uri() . '/images/single-404_page/404-background.png',
+  'background_image' => '{{upfront:style_url}}/images/single-404_page/404-background.png',
   'background_image_ratio' => 0.429999999999999993338661852249060757458209991455078125,
   'background_repeat' => 'no-repeat',
   'background_position' => '63% 84%',
@@ -55,6 +55,7 @@ $main->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '13',
   'margin_bottom' => '0',
+  'class' => 'module-1412691061180-1949',
   'id' => 'module-1412691061180-1949',
   'options' => 
   array (
@@ -87,7 +88,7 @@ is.</span></h1>',
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1412692347986-1728',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -145,11 +146,12 @@ $main->add_element("Button", array (
   'margin_right' => '0',
   'margin_top' => '9',
   'margin_bottom' => '0',
+  'class' => 'module-1412692676377-1786',
   'id' => 'module-1412692676377-1786',
   'options' => 
   array (
     'content' => 'Take me to Mr Fixer',
-    'href' => '' . get_home_url() . '',
+    'href' => '{{upfront:home_url}}',
     'align' => 'center',
     'type' => 'ButtonModel',
     'view_class' => 'ButtonView',
@@ -166,7 +168,7 @@ $main->add_element("Button", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1412693265986-1503',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 

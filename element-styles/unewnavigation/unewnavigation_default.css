@@ -1,29 +1,86 @@
-ul.menu > li.new_menu_item a.menu_item,
-ul.menu > li.new_menu_item a.menu_item {
+.upfront-navigation ul.menu, .upfront-navigation ul.sub-menu {
+    background-color: transparent;
+}
+ul.menu > li.new_menu_item a.menu_item, ul.menu > li.new_menu_item a.menu_item {
     color: inherit;
     font-family: 'Raleway', Arial, sans-serif;
     font-style: normal;
     font-size: 13px;
     font-weight: 700;
     line-height: 1.308em;
+    padding: 0 0 5px;
     text-transform: uppercase;
-    padding: 5px 0;
 }
-div[data-style='horizontal'] ul.menu > li.menu-item > a,  div[data-style='vertical'] ul.menu > li.menu-item > a {
+ div[data-style='horizontal'] ul > li.menu-item > a,  div[data-style='vertical'] ul > li.menu-item > a {
     color: #ufc1;
+    font-family: 'Raleway', Arial, sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 13px;
     line-height: 1.308em;
+    padding: 0 0 5px;
+    position: relative;
     text-transform: uppercase;
 }
-div[data-style='horizontal'] ul.menu > li.menu-item > a:hover,
-div[data-style='vertical'] ul.menu > li.menu-item > a:hover {
+ div[data-style='horizontal'] ul > li.menu-item > a:hover,  div[data-style='vertical'] ul > li.menu-item > a:hover {
     color: #ufc3;
 }
-div[data-style='horizontal'] ul.menu > li.menu-item > a:after,
-div[data-style='vertical'] ul.menu > li.menu-item > a:after {
+ div[data-style='horizontal'][data-aliment='right'] ul.sub-menu > li.menu-item > a,  div[data-style='vertical'][data-aliment='right'] ul > li.menu-item > a {
+    padding-right: 25px
+}
+ div[data-style="horizontal"] ul.sub-menu,  div[data-style="vertical"] ul.sub-menu {
+    background-color: #f5f5f5;
+}
+ div[data-style="horizontal"] ul.sub-menu ul.sub-menu,  div[data-style="vertical"] ul.sub-menu ul.sub-menu {
+    padding-top: 0;
+}
+ div[data-style="horizontal"] ul.sub-menu > li.menu-item,  div[data-style="vertical"] ul.sub-menu > li.menu-item {
+    display: block;
+    min-width: 160px;
+}
+div.upfront-navigation div[data-style="horizontal"] ul.sub-menu > li.menu-item > a, div.upfront-navigation div[data-style="vertical"] ul.sub-menu > li.menu-item > a {
+    border-left-color: #ddd;
+    padding: 10px;
+}
+div.upfront-navigation div[data-style="horizontal"][data-aliment='right'] ul.sub-menu > li.menu-item.parent > a, div.upfront-navigation div[data-style="vertical"][data-aliment='right'] ul.sub-menu > li.menu-item.parent > a, div.upfront-navigation div[data-style="horizontal"][data-aliment='right'] ul.sub-menu > li.menu-item.menu-item-has-children > a, div.upfront-navigation div[data-style="vertical"][data-aliment='right'] ul.sub-menu > li.menu-item.menu-item-has-children > a {
+    padding-right: 25px;
+}
+div.upfront-navigation div[data-style="horizontal"] ul.sub-menu:first-child > li.menu-item > a, div.upfront-navigation div[data-style="vertical"] ul.sub-menu:first-child > li.menu-item > a {
+    border-left-color: transparent;
+}
+ div[data-style='horizontal'] ul.sub-menu li.menu-item-has-children > a:after,  div[data-style='horizontal'] ul.sub-menu li.parent > a:after,  div[data-style='vertical'] ul li.menu-item-has-children > a:after,  div[data-style='vertical'] ul li.parent > a:after {
+    border-top-color: #ufc1;
+    top: 7px;
+    right: 10px;
+}
+ div[data-style='horizontal'] ul.sub-menu li.menu-item-has-children:hover > a:after,  div[data-style='horizontal'] ul.sub-menu li.parent:hover > a:after,  div[data-style='vertical'] ul li.menu-item-has-children:hover > a:after,  div[data-style='vertical'] ul li.parent:hover > a:after {
+    border-top-color: transparent;
+    border-left-color: #ufc3;
+    top: 5px;
+}
+ div[data-style='horizontal'] ul.sub-menu li.menu-item-has-children > a:after,  div[data-style='horizontal'] ul.sub-menu li.parent > a:after,  div[data-style='vertical'] ul.sub-menu li.menu-item-has-children > a:after,  div[data-style='vertical'] ul.sub-menu li.parent > a:after {
+    top: 17px;
+}
+ div[data-style='horizontal'] ul.sub-menu li.menu-item-has-children:hover > a:after,  div[data-style='horizontal'] ul.sub-menu li.parent:hover > a:after,  div[data-style='vertical'] ul.sub-menu li.menu-item-has-children:hover > a:after,  div[data-style='vertical'] ul.sub-menu li.parent:hover > a:after {
+    top: 15px;
+}
+ div[data-style='horizontal'] ul.sub-menu li li li li ul.sub-menu,  div[data-style='vertical'] ul.sub-menu li li li li ul.sub-menu {
+    left: 0;
+    position: relative;
+}
+ div[data-style='horizontal'] ul.sub-menu li li li li ul.sub-menu li.menu-item > a,  div[data-style='vertical'] ul.sub-menu li li li li ul.sub-menu li.menu-item > a {
+    border-left: none;
+    border-top: 1px solid #ddd;
+}
+ div[data-style='horizontal'] ul.menu > li.menu-item {
+    margin-left: 30px;
+}
+ div[data-style='horizontal'] ul.menu > li.menu-item:first-child {
+    margin-left: 0;
+}
+ div[data-style='horizontal'] ul.menu > li.menu-item > a:after {
     background-color: transparent;
+    border: none;
     bottom: 0;
     content: "";
     display: block;
@@ -36,30 +93,132 @@ div[data-style='vertical'] ul.menu > li.menu-item > a:after {
     -ms-transition: background-color .4s ease;
     -webkit-transition: background-color .4s ease;
     transition: background-color .4s ease;
+    top: inherit;
     width: 100%;
 }
-div[data-style='horizontal'] ul.menu > li.current-menu-item > a:after,
-div[data-style='horizontal'] ul.menu > li.menu-item > a:hover:after,
-div[data-style='vertical'] ul.menu > li.current-menu-item > a:after,  div[data-style='vertical'] ul.menu > li.menu-item > a:hover:after {
+ div[data-style='horizontal'] ul.menu > li.current-menu-item > a:after,  div[data-style='horizontal'] ul.menu > li.menu-item > a:hover:after {
     background-color: #ufc1;
 }
-div[data-style='horizontal'] ul.menu > li.menu-item {
-    margin: 0 15px;
+ div[data-style='vertical'] ul li.menu-item > a {
+    padding: 0;
 }
-div[data-style='horizontal'] ul.menu > li.menu-item:first-child {
+ div[data-style='vertical'] ul.menu li.menu-item {
+    margin-top: 15px;
+}
+ div[data-style='vertical'] ul.menu li.menu-item:first-child {
+    margin-top: 0;
+}
+ div[data-style='vertical'] ul.sub-menu li.menu-item {
+    margin-top: 0;
+}
+div.upfront-navigation div[data-style="vertical"] ul.menu ul.sub-menu {
+    top: -7px;
+}
+div.upfront-navigation div[data-style='vertical'] ul.menu ul.sub-menu ul.sub-menu {
+    top: 0;
+}
+div.responsive_nav_toggler {
+    background: #ufc1;
+    border-color: #ufc1;
+    margin: 0;
+    -webkit-transition: border-color .4s;
+    -moz-transition: border-color .4s;
+    -o-transition: border-color .4s;
+    transition: border-color .4s;
+}
+div.responsive_nav_toggler > div {
+    background: #ufc0;
+    -webkit-transition: background .4s;
+    -moz-transition: background
+    -o-transition: background .4s;
+    transition: background .4s;
+}
+div.responsive_nav_toggler:hover {
+    background: #ufc6;
+    border-color: #00a571;
+}
+div.responsive_nav_toggler:hover > div {
+    background: #ufc0;
+}
+div[data-style='burger'] ul.menu {
+    background: #ufc1;
+    border-bottom: none;
+}
+div[data-style="burger"] ul.menu li {
+    display: block;
+    margin: 0;
+}
+div[data-style="burger"] ul.menu li a {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.667em;
+    padding: 10px;
+}
+div[data-style='burger'] ul.menu > li.menu-item > a {
+    background: #ufc3;
+    border-bottom: 0;
+    color: #ufc0;
+}
+div[data-style='burger'] ul.menu > li.current-menu-item > a {
+    background: #ufc4;
+    color: #ufc1;
+}
+div.upfront-navigation div[data-style='burger'] ul li.menu-item-has-children > a:after, div.upfront-navigation div[data-style='burger'] ul li.menu-item-has-children:hover > a:after, div.upfront-navigation div[data-style='burger'] ul li.parent > a:after, div.upfront-navigation div[data-style='burger'] ul li.parent:hover > a:after {
+    border-top-color: #ufc0;
+    margin-top: 14px;
+}
+div.upfront-navigation div[data-style='burger'] ul li.menu-item-has-children:hover > a:after, div.upfront-navigation div[data-style='burger'] ul li.parent:hover > a:after {
+    border-top-color: #ufc1;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    margin-top: 14px;
+}
+div.upfront-navigation div[data-style='burger'] ul li.menu-item-has-children.burger_sub_display > a:after, div.upfront-navigation div[data-style='burger'] ul li.parent.burger_sub_display > a:after {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: #ufc3;
+    margin-top: 11px;
+}
+div[data-style='burger'] ul.menu > li.menu-item > a:hover {
+    background-color: #ufc0;
+    color: #ufc1;
+}
+div.upfront-navigation div[data-style='burger'] ul.sub-menu {
     margin-left: 0;
 }
-div[data-style='horizontal'] ul.menu > li.menu-item > a {
+ div[data-style="burger"][data-aliment="center"] ul li ul.sub-menu {
+    padding: 0;
+}
+div[data-style="burger"] ul.sub-menu li.menu-item > a {
+    background-color: #ufc2;
+    color: #ufc1;
+}
+div.upfront-navigation div[data-style='burger'] ul.sub-menu li.menu-item-has-children > a:after, div.upfront-navigation div[data-style='burger'] ul.sub-menu li.menu-item-has-children:hover > a:after, div.upfront-navigation div[data-style='burger'] ul.sub-menu li.parent > a:after, div.upfront-navigation div[data-style='burger'] ul.sub-menu li.parent:hover > a:after {
+    border-top-color: #ufc1;
+}
+div.upfront-navigation div[data-style='burger'] ul.sub-menu li.menu-item-has-children.burger_sub_display > a:after, div.upfront-navigation div[data-style='burger'] ul.sub-menu li.parent.burger_sub_display > a:after {
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: #ufc1;
+}
+div.upfront-navigation div[data-style="burger"] ul.menu li.wrap_burger_nav_close {
     padding: 5px 0;
 }
-div[data-style='vertical'] ul.menu > li.menu-item {
-    margin-bottom: 15px;
+div.upfront-navigation div[data-style="burger"] i.burger_nav_close {
+    border: none;
+    -webkit-transition: color .4s;
+    -moz-transition: color .4s;
+    -o-transition: color .4s;
+    transition: color .4s;
 }
-div[data-style='vertical'] ul.menu > li.menu-item:last-child {
-    margin-bottom: 0;
+div.upfront-navigation div[data-style="burger"] i.burger_nav_close:hover {
+    color: #ufc6;
 }
- div[data-style='vertical'] ul.menu > li.menu-item > a {
-    display: inline-block;
-    padding: 0 0 5px;
-    position: relative;
+div.upfront-navigation div[data-style="burger"][data-aliment="right"] ul li.menu-item > a {
+    padding-right: 40px;
+}
+div.upfront-navigation div[data-style="burger"] ul.sub-menu {
+    padding: 0;
 }
