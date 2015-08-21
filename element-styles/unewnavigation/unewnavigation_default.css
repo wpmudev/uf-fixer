@@ -1,7 +1,7 @@
 .upfront-navigation ul.menu, .upfront-navigation ul.sub-menu {
     background-color: transparent;
 }
-ul.menu > li.new_menu_item a.menu_item, ul.menu > li.new_menu_item a.menu_item {
+ul.menu > li.new_menu_item a.menu_item {
     color: inherit;
     font-family: 'Raleway', Arial, sans-serif;
     font-style: normal;
@@ -64,11 +64,11 @@ div.upfront-navigation div[data-style="horizontal"] ul.sub-menu:first-child > li
  div[data-style='horizontal'] ul.sub-menu li.menu-item-has-children:hover > a:after,  div[data-style='horizontal'] ul.sub-menu li.parent:hover > a:after,  div[data-style='vertical'] ul.sub-menu li.menu-item-has-children:hover > a:after,  div[data-style='vertical'] ul.sub-menu li.parent:hover > a:after {
     top: 15px;
 }
- div[data-style='horizontal'] ul.sub-menu li li li li ul.sub-menu,  div[data-style='vertical'] ul.sub-menu li li li li ul.sub-menu {
+div[data-style='horizontal'] ul.sub-menu li.menu-item-depth-4 ul.sub-menu,  div[data-style='vertical'] ul.sub-menu li.menu-item-depth-4 ul.sub-menu {
     left: 0;
     position: relative;
 }
- div[data-style='horizontal'] ul.sub-menu li li li li ul.sub-menu li.menu-item > a,  div[data-style='vertical'] ul.sub-menu li li li li ul.sub-menu li.menu-item > a {
+div[data-style='horizontal'] ul.sub-menu li.menu-item-depth-4 ul.sub-menu li.menu-item > a,  div[data-style='vertical'] ul.sub-menu li.menu-item-depth-4 ul.sub-menu li.menu-item > a {
     border-left: none;
     border-top: 1px solid #ddd;
 }
