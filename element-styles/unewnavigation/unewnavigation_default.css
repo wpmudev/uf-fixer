@@ -1,7 +1,7 @@
 .upfront-navigation ul.menu, .upfront-navigation ul.sub-menu {
     background-color: transparent;
 }
-ul.menu > li.new_menu_item a.menu_item {
+.upfront-navigation ul.menu > li.new_menu_item a.menu_item {
     color: inherit;
     font-family: 'Raleway', Arial, sans-serif;
     font-style: normal;
