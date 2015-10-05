@@ -3587,7 +3587,7 @@ $quote->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h1 style="text-align: center;" class="">First Thing\'s First</h1>',
+    'content' => '<h1 style="text-align: center;" class="">First Things First</h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1405603545292-1703',
     'class' => 'c24 upfront-plain_txt',
