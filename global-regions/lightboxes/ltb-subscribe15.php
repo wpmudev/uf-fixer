@@ -35,70 +35,88 @@ $ltb_subscribe15 = upfront_create_region(
        'edited' => false,
     )),
   )),
+  'use_padding' => 0,
 )
 			);
 
-$ltb_subscribe15->add_element("Ucontact", array (
+$ltb_subscribe15->add_element("Code", array (
   'columns' => '8',
   'margin_left' => '1',
-  'margin_right' => '0',
-  'margin_top' => '5',
-  'margin_bottom' => '0',
-  'class' => 'module-1417244527218-1054',
-  'id' => 'module-1417244527218-1054',
+  'margin_top' => '10',
+  'class' => 'upfront-code_element-module',
+  'id' => 'module-1444101653187-1046',
   'options' => 
   array (
-    'form_add_title' => 
-    array (
-    ),
-    'form_title' => 'Contact form',
-    'form_name_label' => 'Your name:',
-    'form_email_label' => 'Your email:',
-    'form_email_to' => '',
-    'show_subject' => 
-    array (
-    ),
-    'show_captcha' => 
-    array (
-    ),
-    'form_subject_label' => 'Your subject:',
-    'form_captcha_label' => 'CAPTCHA:',
-    'form_default_subject' => 'Sent from the website',
-    'form_message_label' => 'Your message:',
-    'form_button_text' => 'Send',
-    'form_validate_when' => 'submit',
-    'form_label_position' => 'above',
-    'type' => 'UcontactModel',
-    'view_class' => 'UcontactView',
-    'class' => 'c24 upfront-contact-form',
-    'has_settings' => 1,
-    'id_slug' => 'ucontact',
-    'element_id' => 'ucontact-object-1417244527211-1482',
-    'row' => 87,
-    'anchor' => '',
-    'theme_style' => 'ucontact-subscribe-style',
+    'type' => 'CodeModel',
+    'view_class' => 'CodeView',
+    'class' => 'c24 upfront-code_element-object',
+    'has_settings' => 0,
+    'id_slug' => 'upfront-code_element',
+    'fallbacks' => 
+    (array)(array(
+       'markup' => '<b>Enter your markup here...</b>',
+       'style' => '/* Your styles here */',
+       'script' => '/* Your code here */',
+    )),
+    'element_id' => 'upfront-code_element-object-1444101653184-1490',
+    'row' => 42,
+    'code_selection_type' => 'Create',
+    'markup' => '<form name="newsletter" class="newsletter-form" action="" method="post">
+<label for="user-name">Your name:</label>
+<input type="text" id="user-name" name="user-name" placeholder="Your Name">
+<label for="user-email">Your email:</label>
+<input type="email" id="user-email" name="user-email" placeholder="Your Email">
+<input type="submit" value="Send">
+</form>',
+    'style' => 'label {
+    color: #ufc1;
+    font-family: \'Raleway\', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 1.667em;
+    margin-bottom: 10px;
+    display: block;
+}
+input {
+    margin: 0 0 15px;
+}
+input[type="text"], input[type="email"] {
+    border: 1px solid #ece9e4;
+}
+input[type="text"]:focus, input[type="email"]:focus {
+    border-color: #fed41d;
+}
+input[type="submit"] {
+    background: #bba33a;
+    border: none;
+    color: #ufc0;
+    padding: 16px 20px;
+    float: right;
+}
+input[type="submit"]:hover {
+    background: #ufc1;
+    border: none;
+    color: #ufc6;
+}',
+    'script' => '/* Your code here */',
   ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1417244574245-1646',
+  'row' => 42,
+  'wrapper_id' => 'wrapper-1444102317966-1645',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
+      'edited' => false,
       'col' => 10,
       'order' => 0,
     ),
     'mobile' => 
     array (
+      'edited' => false,
       'col' => 7,
       'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'col' => 8,
-      'order' => 0,
-      'clear' => true,
     ),
   ),
   'breakpoint' => 
@@ -116,14 +134,6 @@ $ltb_subscribe15->add_element("Ucontact", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 8,
-      'order' => 0,
-      'top' => 1,
     ),
   ),
 ));

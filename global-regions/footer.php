@@ -53,9 +53,9 @@ $footer->add_element("Uimage", array (
   'id' => 'module-1406217409056-1339',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/global-regions/footer/fixer-logo-white-100x20-3868-100x20-8648.png',
-    'srcFull' => '{{upfront:style_url}}/images/global-regions/footer/fixer-logo-white-100x20-3868.png',
-    'srcOriginal' => '{{upfront:style_url}}/images/global-regions/footer/fixer-logo-white-100x20-3868.png',
+    'src' => '{{upfront:style_url}}/images/global-regions/footer/fixer-logo-white-100x21-2276.png',
+    'srcFull' => '{{upfront:style_url}}/images/global-regions/footer/fixer-logo-white.png',
+    'srcOriginal' => '{{upfront:style_url}}/images/global-regions/footer/fixer-logo-white.png',
     'image_title' => '',
     'alternative_text' => '',
     'when_clicked' => 'external',
@@ -69,12 +69,12 @@ $footer->add_element("Uimage", array (
     'size' => 
     (array)(array(
        'width' => 100,
-       'height' => 20,
+       'height' => 21,
     )),
     'fullSize' => 
     (array)(array(
        'width' => 100,
-       'height' => 20,
+       'height' => 21,
     )),
     'position' => 
     (array)(array(
@@ -85,16 +85,16 @@ $footer->add_element("Uimage", array (
     'element_size' => 
     (array)(array(
        'width' => 105,
-       'height' => 20,
+       'height' => 30,
     )),
     'rotation' => 0,
     'color' => '#ufc0',
     'background' => '#000000',
     'captionBackground' => '0',
-    'image_id' => '1021',
+    'image_id' => '45',
     'align' => 'center',
     'stretch' => false,
-    'vstretch' => true,
+    'vstretch' => false,
     'quick_swap' => false,
     'gifImage' => 0,
     'placeholder_class' => '',
@@ -119,7 +119,7 @@ $footer->add_element("Uimage", array (
     )),
     'link_target' => '_self',
   ),
-  'row' => 6,
+  'row' => 4,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432901119613-1920',
   'new_line' => true,
@@ -374,7 +374,7 @@ $footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><a target="_self" href="{{upfront:home_url}}/privacy-inner/" rel="entry"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Term &amp;&nbsp;Privacy</span></a></span></p>',
+    'content' => '<p class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><a target="_self" rel="entry" href="{{upfront:home_url}}/privacy-inner/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Terms &amp;&nbsp;Privacy</span></a></span></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1430897586849-1508',
     'class' => 'c24 upfront-plain_txt',
