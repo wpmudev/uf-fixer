@@ -1,5 +1,6 @@
-#page .u-paragraph-footer .upfront-plain_txt p {
+#page .u-paragraph-footer.upfront-plain_txt p {
     line-height: 1.133em;
+    padding: 10px 0;
 }
 #page .u-paragraph-footer.upfront-plain_txt a {
     color: #ufc0;

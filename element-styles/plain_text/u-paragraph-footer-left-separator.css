@@ -1,0 +1,13 @@
+#page .u-paragraph-footer-left-separator.upfront-plain_txt p {
+    line-height: 1.133em;
+    padding: 10px 0;
+}
+#page .u-paragraph-footer-left-separator.upfront-plain_txt a {
+    color: #ufc0;
+}
+#page .u-paragraph-footer-left-separator.upfront-plain_txt a:hover {
+    color: #ufc6;
+}
+#page .u-paragraph-footer-left-separator.upfront-plain_txt {
+    border-left: 2px solid #333333;
+}

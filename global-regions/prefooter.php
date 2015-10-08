@@ -150,120 +150,134 @@ $prefooter->add_group(array (
   'margin_top' => '13',
   'margin_bottom' => '0',
   'class' => '',
-  'id' => 'module-group-1432909478551-1768',
+  'id' => 'module-group-1444287871082-1387',
   'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1432909478556-1044',
+  'wrapper_id' => 'wrapper-1444287877107-1090',
   'original_col' => 6,
-  'href' => '{{upfront:home_url}}/get-quote-inner/',
-  'linkTarget' => '_self',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'col' => 9,
-      'order' => 1,
-      'clear' => true,
+      'order' => 0,
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'col' => 7,
-      'order' => 1,
-      'clear' => true,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => true,
-      'col' => 8,
-      'order' => 1,
-      'clear' => true,
+      'order' => 0,
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 3,
       'col' => 6,
       'order' => 0,
-      'top' => 4,
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'top' => 4,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => true,
-      'left' => 2,
-      'col' => 6,
-      'order' => 1,
-      'top' => 7,
     ),
   ),
 ));
 
-$prefooter->add_element("PlainTxt", array (
+$prefooter->add_element("Uimage", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1430987546249-1910',
-  'id' => 'module-1430987546249-1910',
+  'class' => 'module-1444287563895-1651',
+  'id' => 'module-1444287563895-1651',
   'options' => 
   array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class=""><span class="" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_2" style="color:rgb(156, 203, 216)" rel="color:rgb(156, 203, 216)" data-redactor-style="color:rgb(156, 203, 216)"><span class="uf_font_icon" style="font-size: 65px; top: 0px;" rel="font-size: 65px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 65px; top: 0px;">n</span><span class="redactor-invisible-space">​</span>​</span></p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1430987546248-1756',
-    'class' => 'c24 upfront-plain_txt',
+    'src' => '{{upfront:style_url}}/images/global-regions/prefooter/get-a-quote-icon-39x51-7863.png',
+    'srcFull' => '{{upfront:style_url}}/images/global-regions/prefooter/get-a-quote-icon.png',
+    'srcOriginal' => '{{upfront:style_url}}/images/global-regions/prefooter/get-a-quote-icon.png',
+    'image_title' => '',
+    'alternative_text' => '',
+    'when_clicked' => false,
+    'image_link' => '',
+    'include_image_caption' => false,
+    'image_caption' => 'My awesome image caption',
+    'caption_position' => false,
+    'caption_alignment' => false,
+    'caption_trigger' => 'always_show',
+    'image_status' => 'ok',
+    'size' => 
+    (array)(array(
+       'width' => 39,
+       'height' => 51,
+    )),
+    'fullSize' => 
+    (array)(array(
+       'width' => 38,
+       'height' => 50,
+    )),
+    'position' => 
+    (array)(array(
+       'top' => 0,
+       'left' => -21,
+    )),
+    'marginTop' => 0,
+    'element_size' => 
+    (array)(array(
+       'width' => 60,
+       'height' => 60,
+    )),
+    'rotation' => 0,
+    'color' => '#ffffff',
+    'background' => '#000000',
+    'captionBackground' => '0',
+    'image_id' => '38',
+    'align' => 'right',
+    'stretch' => false,
+    'vstretch' => false,
+    'quick_swap' => false,
+    'gifImage' => 0,
+    'placeholder_class' => '',
+    'type' => 'UimageModel',
+    'view_class' => 'UimageView',
     'has_settings' => 1,
-    'is_edited' => true,
-    'row' => 11,
+    'class' => 'c24 upfront-image',
+    'id_slug' => 'image',
+    'element_id' => 'image-1444287563892-1160',
+    'row' => 6,
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1432909478617-1810',
+  'wrapper_id' => 'wrapper-1444287871149-1355',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
-      'col' => 2,
+      'edited' => false,
+      'col' => 4,
       'order' => 0,
-      'clear' => false,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'col' => 2,
       'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => true,
-      'col' => 2,
-      'order' => 0,
-      'clear' => true,
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
-      'left' => 0,
+      'edited' => false,
+      'left' => 2,
       'col' => 2,
       'order' => 0,
-      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -272,23 +286,15 @@ $prefooter->add_element("PlainTxt", array (
       'col' => 2,
       'order' => 0,
     ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 2,
-      'order' => 0,
-      'top' => 0,
-    ),
   ),
-  'group' => 'module-group-1432909478551-1768',
+  'group' => 'module-group-1444287871082-1387',
 ));
 
 $prefooter->add_element("PlainTxt", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '2',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1430987622020-1226',
   'id' => 'module-1430987622020-1226',
@@ -305,36 +311,28 @@ $prefooter->add_element("PlainTxt", array (
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1432909478619-1493',
+  'wrapper_id' => 'wrapper-1444287871153-1087',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
-      'col' => 4,
-      'order' => 1,
-      'clear' => false,
+      'edited' => false,
+      'col' => 5,
+      'order' => 0,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'col' => 4,
       'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => true,
-      'col' => 4,
-      'order' => 1,
-      'clear' => false,
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
-      'left' => 0,
+      'edited' => false,
+      'left' => 1,
       'col' => 4,
       'order' => 0,
       'top' => 2,
@@ -348,172 +346,168 @@ $prefooter->add_element("PlainTxt", array (
     ),
     'custom-1410783666947' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 4,
       'order' => 0,
       'top' => 2,
     ),
   ),
-  'group' => 'module-group-1432909478551-1768',
+  'group' => 'module-group-1444287871082-1387',
 ));
 
 $prefooter->add_group(array (
-  'columns' => '8',
+  'columns' => '7',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '13',
+  'margin_top' => '14',
   'margin_bottom' => '0',
   'class' => '',
-  'id' => 'module-group-1430988119292-1472',
+  'id' => 'module-group-1444287667908-1769',
   'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1430990548583-1170',
-  'original_col' => 8,
-  'row' => 18,
+  'wrapper_id' => 'wrapper-1444287685341-1412',
+  'original_col' => 7,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
-      'col' => 11,
-      'order' => 2,
-      'clear' => true,
+      'edited' => false,
+      'col' => 10,
+      'order' => 0,
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'col' => 7,
-      'order' => 2,
-      'clear' => true,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => true,
-      'col' => 10,
-      'order' => 2,
-      'clear' => false,
+      'order' => 0,
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
-      'left' => 3,
-      'col' => 8,
-      'order' => 0,
-      'top' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-      'top' => 2,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => true,
+      'edited' => false,
       'left' => 2,
       'col' => 8,
       'order' => 0,
-      'top' => 7,
-      'row' => 19,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
     ),
   ),
 ));
 
-$prefooter->add_element("PlainTxt", array (
+$prefooter->add_element("Uimage", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1430987775127-1367',
-  'id' => 'module-1430987775127-1367',
+  'class' => 'module-1444287547883-1645',
+  'id' => 'module-1444287547883-1645',
   'options' => 
   array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class=""><span class="uf_font_icon" style="color: rgb(255, 225, 94); font-size: 65px;" rel="font-size: 65px; top: 0px;" data-verified="redactor"><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>a</span><span>​<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></span></p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1430987775127-1220',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 15,
-    'is_edited' => true,
-    'breakpoint' => 
+    'src' => '{{upfront:style_url}}/images/global-regions/prefooter/call-us-icon-51x51-3707.png',
+    'srcFull' => '{{upfront:style_url}}/images/global-regions/prefooter/call-us-icon.png',
+    'srcOriginal' => '{{upfront:style_url}}/images/global-regions/prefooter/call-us-icon.png',
+    'image_title' => '',
+    'alternative_text' => '',
+    'when_clicked' => false,
+    'image_link' => '',
+    'include_image_caption' => false,
+    'image_caption' => 'My awesome image caption',
+    'caption_position' => false,
+    'caption_alignment' => false,
+    'caption_trigger' => 'always_show',
+    'image_status' => 'ok',
+    'size' => 
     (array)(array(
-       'mobile' => 
-      (array)(array(
-         'row' => 18,
-      )),
+       'width' => 51,
+       'height' => 51,
     )),
+    'fullSize' => 
+    (array)(array(
+       'width' => 50,
+       'height' => 50,
+    )),
+    'position' => 
+    (array)(array(
+       'top' => 0,
+       'left' => -8,
+    )),
+    'marginTop' => 0,
+    'element_size' => 
+    (array)(array(
+       'width' => 60,
+       'height' => 51,
+    )),
+    'rotation' => 0,
+    'color' => '#ffffff',
+    'background' => '#000000',
+    'captionBackground' => '0',
+    'image_id' => '37',
+    'align' => 'right',
+    'stretch' => false,
+    'vstretch' => true,
+    'quick_swap' => false,
+    'gifImage' => 0,
+    'placeholder_class' => '',
+    'type' => 'UimageModel',
+    'view_class' => 'UimageView',
+    'has_settings' => 1,
+    'class' => 'c24 upfront-image',
+    'id_slug' => 'image',
+    'element_id' => 'image-1444287547880-1826',
+    'row' => 6,
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1430988119311-1708',
+  'wrapper_id' => 'wrapper-1444287667964-1046',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'col' => 2,
       'order' => 0,
-      'clear' => false,
     ),
     'mobile' => 
     array (
-      'edited' => true,
-      'col' => 2,
+      'edited' => false,
+      'col' => 5,
       'order' => 0,
-      'clear' => true,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => true,
-      'col' => 2,
-      'order' => 0,
-      'clear' => false,
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 2,
       'order' => 0,
-      'top' => 0,
     ),
     'mobile' => 
     array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 2,
+      'edited' => false,
+      'left' => 2,
+      'col' => 3,
       'order' => 0,
-      'top' => 0,
-      'row' => 18,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 2,
-      'order' => 0,
-      'top' => 0,
     ),
   ),
-  'group' => 'module-group-1430988119292-1472',
+  'group' => 'module-group-1444287667908-1769',
 ));
 
 $prefooter->add_element("PlainTxt", array (
   'columns' => '5',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '2',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1430988007972-1996',
   'id' => 'module-1430988007972-1996',
@@ -547,46 +541,37 @@ $prefooter->add_element("PlainTxt", array (
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1430988119313-1236',
+  'wrapper_id' => 'wrapper-1444287667968-1816',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
-      'col' => 6,
-      'order' => 1,
-      'clear' => false,
+      'edited' => false,
+      'col' => 5,
+      'order' => 0,
     ),
     'mobile' => 
     array (
-      'edited' => true,
-      'col' => 5,
-      'order' => 1,
-      'clear' => false,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => true,
-      'col' => 5,
-      'order' => 1,
-      'clear' => false,
+      'edited' => false,
+      'col' => 6,
+      'order' => 0,
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
-      'col' => 6,
-      'order' => 0,
+      'col' => 5,
+      'order' => 1,
       'top' => 2,
       'row' => 13,
     ),
     'mobile' => 
     array (
-      'edited' => true,
-      'left' => 0,
+      'edited' => false,
+      'left' => 1,
       'col' => 5,
       'order' => 0,
       'row' => 13,
@@ -594,7 +579,7 @@ $prefooter->add_element("PlainTxt", array (
     ),
     'custom-1410783666947' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 5,
       'order' => 0,
@@ -602,7 +587,7 @@ $prefooter->add_element("PlainTxt", array (
       'row' => 15,
     ),
   ),
-  'group' => 'module-group-1430988119292-1472',
+  'group' => 'module-group-1444287667908-1769',
 ));
 
 $regions->add($prefooter);

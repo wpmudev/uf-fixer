@@ -12,12 +12,12 @@ $ltb_subscribe15 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'col' => 10,
-  'height' => '450',
+  'col' => '8',
+  'height' => '320',
   'click_out_close' => 'yes',
   'show_close' => 'yes',
-  'overlay_color' => 'rgba(38,58,77,0.75)',
-  'lightbox_color' => 'rgb(255, 226, 98)',
+  'overlay_color' => 'rgba(255, 255, 255, 0.952941)',
+  'lightbox_color' => 'rgb(214, 230, 240)',
   'background_type' => '',
   'delete' => false,
   'breakpoint' => 
@@ -39,11 +39,68 @@ $ltb_subscribe15 = upfront_create_region(
 )
 			);
 
+$ltb_subscribe15->add_element("PlainTxt", array (
+  'columns' => '6',
+  'margin_left' => '0',
+  'margin_top' => '5',
+  'class' => '',
+  'id' => 'module-1444288191571-1836',
+  'options' => 
+  array (
+    'content' => '<h3 class=""><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>Subscribe to our e-newsletter<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></h3>',
+    'type' => 'PlainTxtModel',
+    'view_class' => 'PlainTxtView',
+    'element_id' => 'text-object-1444288191570-1689',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'id_slug' => 'plain_text',
+    'is_edited' => true,
+    'row' => 18,
+  ),
+  'row' => 18,
+  'wrapper_id' => 'wrapper-1444288315227-1721',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 9,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'left' => 3,
+      'col' => 6,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+));
+
 $ltb_subscribe15->add_element("Code", array (
   'columns' => '8',
-  'margin_left' => '1',
-  'margin_top' => '10',
-  'class' => 'upfront-code_element-module',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1444101653187-1046',
   'id' => 'module-1444101653187-1046',
   'options' => 
   array (
@@ -62,11 +119,9 @@ $ltb_subscribe15->add_element("Code", array (
     'row' => 42,
     'code_selection_type' => 'Create',
     'markup' => '<form name="newsletter" class="newsletter-form" action="" method="post">
-<label for="user-name">Your name:</label>
-<input type="text" id="user-name" name="user-name" placeholder="Your Name">
-<label for="user-email">Your email:</label>
-<input type="email" id="user-email" name="user-email" placeholder="Your Email">
-<input type="submit" value="Send">
+<input type="text" id="user-name" name="user-name" placeholder="Name">
+<input type="email" id="user-email" name="user-email" placeholder="Email address">
+<input type="submit" value="Subscribe">
 </form>',
     'style' => 'label {
     color: #ufc1;
@@ -79,7 +134,7 @@ $ltb_subscribe15->add_element("Code", array (
     display: block;
 }
 input {
-    margin: 0 0 15px;
+    margin: 0 0 2px;
 }
 input[type="text"], input[type="email"] {
     border: 1px solid #ece9e4;
@@ -88,20 +143,21 @@ input[type="text"]:focus, input[type="email"]:focus {
     border-color: #fed41d;
 }
 input[type="submit"] {
-    background: #bba33a;
+    background: #a4d0dc;
     border: none;
     color: #ufc0;
     padding: 16px 20px;
+    margin-top: 18px;
     float: right;
 }
 input[type="submit"]:hover {
     background: #ufc1;
     border: none;
-    color: #ufc6;
 }',
     'script' => '/* Your code here */',
   ),
   'row' => 42,
+  'sticky' => false,
   'wrapper_id' => 'wrapper-1444102317966-1645',
   'new_line' => true,
   'wrapper_breakpoint' => 

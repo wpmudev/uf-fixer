@@ -12,7 +12,7 @@ $main = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 358,
+  'row' => 334,
   'background_type' => 'color',
   'background_color' => '#ufc4',
   'breakpoint' => 
@@ -198,8 +198,8 @@ $main->add_element("PlainTxt", array (
 ));
 
 $main->add_element("PlainTxt", array (
-  'columns' => '7',
-  'margin_left' => '2',
+  'columns' => '6',
+  'margin_left' => '3',
   'margin_right' => '0',
   'margin_top' => '8',
   'margin_bottom' => '0',
@@ -216,9 +216,9 @@ $main->add_element("PlainTxt", array (
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'is_edited' => true,
-    'row' => 31,
+    'row' => 51,
   ),
-  'row' => 6,
+  'row' => 51,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432911915038-1524',
   'new_line' => true,
@@ -273,7 +273,7 @@ $main->add_element("PlainTxt", array (
 ));
 
 $main->add_element("PlainTxt", array (
-  'columns' => '7',
+  'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '8',
@@ -290,9 +290,9 @@ $main->add_element("PlainTxt", array (
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'is_edited' => true,
-    'row' => 31,
+    'row' => 54,
   ),
-  'row' => 6,
+  'row' => 54,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432911936387-1136',
   'wrapper_breakpoint' => 
@@ -348,7 +348,7 @@ $main->add_element("PlainTxt", array (
 ));
 
 $main->add_element("PlainTxt", array (
-  'columns' => '7',
+  'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '8',
@@ -365,9 +365,9 @@ $main->add_element("PlainTxt", array (
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'is_edited' => true,
-    'row' => 7,
+    'row' => 11,
   ),
-  'row' => 6,
+  'row' => 11,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432911945164-1893',
   'wrapper_breakpoint' => 
@@ -529,7 +529,7 @@ $main->add_element("Uimage", array (
 ));
 
 $main->add_element("PlainTxt", array (
-  'columns' => '7',
+  'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -546,9 +546,9 @@ $main->add_element("PlainTxt", array (
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'is_edited' => true,
-    'row' => 7,
+    'row' => 15,
   ),
-  'row' => 6,
+  'row' => 15,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432911945164-1893',
   'breakpoint' => 
@@ -641,8 +641,9 @@ $main->add_element("Uimage", array (
     'element_id' => 'image-1432912171601-1447',
     'row' => 40,
     'anchor' => '',
-    'theme_style' => 'u-image-video-thumb',
+    'theme_style' => '_default',
     'link_target' => '_self',
+    'no_padding' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -784,8 +785,8 @@ $main->add_element("PlainTxt", array (
 ));
 
 $main->add_element("PlainTxt", array (
-  'columns' => '17',
-  'margin_left' => '4',
+  'columns' => '20',
+  'margin_left' => '2',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
@@ -801,10 +802,10 @@ $main->add_element("PlainTxt", array (
     'element_id' => 'text-object-1432912306290-1795',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 12,
+    'row' => 40,
     'is_edited' => true,
   ),
-  'row' => 6,
+  'row' => 40,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432912411475-1575',
   'new_line' => true,
@@ -860,7 +861,7 @@ $main->add_element("PlainTxt", array (
 
 $main->add_element("PlainTxt", array (
   'columns' => '11',
-  'margin_left' => '4',
+  'margin_left' => '3',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',

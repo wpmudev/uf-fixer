@@ -8,6 +8,7 @@ $region_14 = upfront_create_region(
   'container' => 'region-14',
   'position' => 1,
   'allow_sidebar' => true,
+  'behavior' => 'keep-ratio',
 ),
 			array (
   'row' => 184,
@@ -63,7 +64,7 @@ $region_14 = upfront_create_region(
   ),
   'background_image' => '{{upfront:style_url}}/images/archive-home/slider-a.jpg',
   'background_image_ratio' => 0.68000000000000005,
-  'original_height' => 669,
+  'original_height' => 892,
 )
 			);
 
@@ -217,64 +218,63 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 8,
+         'menu-item-db-id' => 19,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Service',
          'menu-item-url' => '#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '8',
+         'menu-item-object-id' => '19',
          'menu-item-target' => '',
          'menu-item-position' => 1,
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 9,
+         'menu-item-db-id' => 20,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Get a Quote',
          'menu-item-url' => '#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '9',
+         'menu-item-object-id' => '20',
          'menu-item-target' => '',
          'menu-item-position' => 2,
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 10,
+         'menu-item-db-id' => 21,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Blog',
          'menu-item-url' => '#blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '10',
+         'menu-item-object-id' => '21',
          'menu-item-target' => '',
          'menu-item-position' => 3,
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 11,
+         'menu-item-db-id' => 22,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '11',
+         'menu-item-object-id' => '22',
          'menu-item-target' => '',
          'menu-item-position' => 4,
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 12,
+         'menu-item-db-id' => 23,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Contact Us',
          'menu-item-url' => '#contact',
-         'menu-item-object' => 'external',
-         'menu-item-object-id' => 'external',
-         'menu-item-target' => '_self',
+         'menu-item-object' => 'custom',
+         'menu-item-object-id' => '23',
+         'menu-item-target' => '',
          'menu-item-position' => 5,
-         'being-edited' => false,
       )),
     ),
     'menu_style' => 'horizontal',
@@ -5210,7 +5210,7 @@ $about = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 212,
+  'row' => 341,
   'background_type' => 'color',
   'nav_region' => '',
   'background_color' => '#ufc4',
@@ -5396,10 +5396,10 @@ $about->add_element("PlainTxt", array (
 ));
 
 $about->add_element("PlainTxt", array (
-  'columns' => '7',
-  'margin_left' => '2',
+  'columns' => '6',
+  'margin_left' => '3',
   'margin_right' => '0',
-  'margin_top' => '8',
+  'margin_top' => '7',
   'margin_bottom' => '0',
   'class' => 'module-1406196281138-1720',
   'id' => 'module-1406196281138-1720',
@@ -5414,7 +5414,7 @@ $about->add_element("PlainTxt", array (
     'element_id' => 'text-object-1406196281137-1335',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 50,
+    'row' => 51,
     'is_edited' => true,
     'breakpoint' => 
     (array)(array(
@@ -5490,10 +5490,10 @@ $about->add_element("PlainTxt", array (
 ));
 
 $about->add_element("PlainTxt", array (
-  'columns' => '7',
+  'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '8',
+  'margin_top' => '7',
   'margin_bottom' => '0',
   'class' => 'module-1406196781398-1992',
   'id' => 'module-1406196781398-1992',
@@ -5507,7 +5507,7 @@ $about->add_element("PlainTxt", array (
     'element_id' => 'object-1406196781398-1916',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 50,
+    'row' => 52,
     'is_edited' => true,
     'breakpoint' => 
     (array)(array(
@@ -5583,10 +5583,10 @@ $about->add_element("PlainTxt", array (
 ));
 
 $about->add_element("PlainTxt", array (
-  'columns' => '7',
+  'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '8',
+  'margin_top' => '7',
   'margin_bottom' => '0',
   'class' => 'module-1406196815834-1847',
   'id' => 'module-1406196815834-1847',
@@ -5599,7 +5599,7 @@ $about->add_element("PlainTxt", array (
     'element_id' => 'object-1406196815834-1028',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 9,
+    'row' => 11,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -5768,7 +5768,7 @@ $about->add_element("Uimage", array (
 ));
 
 $about->add_element("PlainTxt", array (
-  'columns' => '7',
+  'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -5784,7 +5784,7 @@ $about->add_element("PlainTxt", array (
     'element_id' => 'object-1412780752235-1133',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 11,
+    'row' => 16,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -5839,11 +5839,112 @@ $about->add_element("PlainTxt", array (
   ),
 ));
 
+$about->add_element("Uimage", array (
+  'columns' => '24',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '8',
+  'margin_bottom' => '0',
+  'class' => 'module-1444283579974-1484',
+  'id' => 'module-1444283579974-1484',
+  'options' => 
+  array (
+    'src' => '{{upfront:style_url}}/images/archive-home/fixer-mrfixer-image-1050x569-7934 (1)-1050x569-8697.jpg',
+    'srcFull' => '{{upfront:style_url}}/images/archive-home/fixer-mrfixer-image-1050x569-7934 (1).jpg',
+    'srcOriginal' => '{{upfront:style_url}}/images/archive-home/fixer-mrfixer-image-1050x569-7934 (1).jpg',
+    'image_title' => '',
+    'alternative_text' => '',
+    'when_clicked' => false,
+    'image_link' => '',
+    'include_image_caption' => false,
+    'image_caption' => 'My awesome image caption',
+    'caption_position' => false,
+    'caption_alignment' => false,
+    'caption_trigger' => 'always_show',
+    'image_status' => 'ok',
+    'size' => 
+    (array)(array(
+       'width' => 1050,
+       'height' => 569,
+    )),
+    'fullSize' => 
+    (array)(array(
+       'width' => 1050,
+       'height' => 569,
+    )),
+    'position' => 
+    (array)(array(
+       'top' => 0,
+       'left' => 0,
+    )),
+    'marginTop' => 0,
+    'element_size' => 
+    (array)(array(
+       'width' => 1050,
+       'height' => 570,
+    )),
+    'rotation' => 0,
+    'color' => '#ffffff',
+    'background' => '#000000',
+    'captionBackground' => '0',
+    'image_id' => '36',
+    'align' => 'center',
+    'stretch' => true,
+    'vstretch' => false,
+    'quick_swap' => false,
+    'gifImage' => 0,
+    'placeholder_class' => '',
+    'type' => 'UimageModel',
+    'view_class' => 'UimageView',
+    'has_settings' => 1,
+    'class' => 'c24 upfront-image',
+    'id_slug' => 'image',
+    'element_id' => 'image-1444283579971-1972',
+    'row' => 40,
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'wrapper_id' => 'wrapper-1444283892140-1178',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+));
+
 $about->add_element("PlainTxt", array (
   'columns' => '8',
   'margin_left' => '8',
   'margin_right' => '0',
-  'margin_top' => '10',
+  'margin_top' => '7',
   'margin_bottom' => '0',
   'class' => 'module-1419534285539-1212',
   'id' => 'module-1419534285539-1212',
@@ -5921,8 +6022,8 @@ $about->add_element("PlainTxt", array (
 ));
 
 $about->add_element("PlainTxt", array (
-  'columns' => '18',
-  'margin_left' => '3',
+  'columns' => '20',
+  'margin_left' => '2',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
@@ -5937,7 +6038,7 @@ $about->add_element("PlainTxt", array (
     'element_id' => 'text-object-1419529925441-1374',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 38,
+    'row' => 48,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -6226,45 +6327,36 @@ $coverage->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1406200069453-1687',
-  'id' => 'module-1406200069453-1687',
+  'class' => 'module-1444281314203-1750',
+  'id' => 'module-1444281314203-1750',
   'options' => 
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class="" style="text-align: center;"></h3><h1 style="text-align: center;" class=""><span class="upfront_theme_color_0">We Come to You</span></h1><h1 class="" style="text-align: center;"></h1><h1 class="" style="text-align: center;"></h1><h1 class="" style="text-align: center;"></h1><h1 class=""></h1><h1 class=""></h1>',
+    'content' => '<h1 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>We Come to You<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></span></h1>',
     'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1406200069452-1923',
+    'element_id' => 'text-object-1444281314202-1355',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 32,
+    'row' => 9,
     'is_edited' => true,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'theme_style' => '_default',
-    'anchor' => '',
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1406200069453-1687',
+  'wrapper_id' => 'wrapper-1444281357339-1595',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
+      'edited' => false,
       'col' => 12,
       'order' => 0,
     ),
     'mobile' => 
     array (
+      'edited' => false,
       'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'col' => 18,
       'order' => 0,
     ),
   ),
@@ -6282,13 +6374,6 @@ $coverage->add_element("PlainTxt", array (
       'edited' => false,
       'left' => 0,
       'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 18,
       'order' => 0,
     ),
   ),

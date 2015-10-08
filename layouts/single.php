@@ -52,6 +52,7 @@ $blog_individual->add_element("PlainTxt", array (
   'margin_right' => '0',
   'margin_top' => '13',
   'margin_bottom' => '0',
+  'class' => 'module-1407490840563-1569-module',
   'id' => 'module-1407490840563-1569-module',
   'options' => 
   array (
@@ -68,7 +69,7 @@ $blog_individual->add_element("PlainTxt", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'module-1407490840563-1569-module-wrapper',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -119,6 +120,7 @@ $blog_individual->add_element("ThisPost", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'default-post-module-module-module-module-module-module-module-module',
   'id' => 'default-post-module-module-module-module-module-module-module-module',
   'options' => 
   array (
@@ -183,7 +185,7 @@ $blog_individual->add_element("ThisPost", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'default-post-module-module-module-module-module-module-module-module-wrapper',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -234,6 +236,7 @@ $blog_individual->add_element("Ucomment", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
+  'class' => 'module-1430734423685-1574',
   'id' => 'module-1430734423685-1574',
   'options' => 
   array (
@@ -250,7 +253,7 @@ $blog_individual->add_element("Ucomment", array (
   'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1430735458058-1283',
-  'new_line' => 'true',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -299,6 +302,43 @@ $blog_individual->add_element("Ucomment", array (
 ));
 
 $regions->add($blog_individual);
+
+$separator = upfront_create_region(
+			array (
+  'name' => 'separator',
+  'title' => 'Separator',
+  'type' => 'wide',
+  'scope' => 'local',
+  'container' => 'separator',
+  'position' => 10,
+  'allow_sidebar' => true,
+),
+			array (
+  'row' => 14,
+  'breakpoint' => 
+  (array)(array(
+     'tablet' => 
+    (array)(array(
+       'edited' => false,
+       'col' => 24,
+    )),
+     'mobile' => 
+    (array)(array(
+       'edited' => false,
+       'col' => 24,
+    )),
+  )),
+  'background_type' => 'color',
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => false,
+  ),
+  'background_color' => '#ffffff',
+)
+			);
+
+$regions->add($separator);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php');
 

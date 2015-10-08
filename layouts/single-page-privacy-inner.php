@@ -297,6 +297,43 @@ $main->add_element("PlainTxt", array (
 
 $regions->add($main);
 
+$separator = upfront_create_region(
+			array (
+  'name' => 'separator',
+  'title' => 'Separator',
+  'type' => 'wide',
+  'scope' => 'local',
+  'container' => 'separator',
+  'position' => 20,
+  'allow_sidebar' => true,
+),
+			array (
+  'row' => 14,
+  'breakpoint' => 
+  (array)(array(
+     'tablet' => 
+    (array)(array(
+       'edited' => false,
+       'col' => 24,
+    )),
+     'mobile' => 
+    (array)(array(
+       'edited' => false,
+       'col' => 24,
+    )),
+  )),
+  'background_type' => 'color',
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => false,
+  ),
+  'background_color' => '#ffffff',
+)
+			);
+
+$regions->add($separator);
+
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php');
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');

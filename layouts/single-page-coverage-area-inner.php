@@ -60,7 +60,7 @@ $main = upfront_create_region(
   'background_position_y' => '100',
   'background_position_x' => '100',
   'background_image' => '{{upfront:style_url}}/images/single-page-coverage-area-inner/dome.png',
-  'background_image_ratio' => 1.0500000000000000444089209850062616169452667236328125,
+  'background_image_ratio' => 1.05,
   'background_repeat' => 'no-repeat',
   'background_position' => '100% 100%',
 )
@@ -78,8 +78,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Coverage Area</span></h2>
-',
+    'content' => '<h2 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Contact Us</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432912837169-1903',
     'class' => 'c24 upfront-plain_txt',
@@ -156,8 +155,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h1 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">We Come to You</span></h1>
-',
+    'content' => '<h1 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">We <span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>Come<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span> to You</span></h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432912849348-1836',
     'class' => 'c24 upfront-plain_txt',

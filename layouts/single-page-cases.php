@@ -1918,6 +1918,36 @@ $cases_region->add_element("Ugallery", array (
 
 $regions->add($cases_region);
 
+$separator = upfront_create_region(
+			array (
+  'name' => 'separator',
+  'title' => 'Separator',
+  'type' => 'wide',
+  'scope' => 'local',
+  'container' => 'separator',
+  'position' => 10,
+  'allow_sidebar' => true,
+),
+			array (
+  'row' => 14,
+  'breakpoint' => 
+  (array)(array(
+     'tablet' => 
+    (array)(array(
+       'edited' => false,
+       'col' => 24,
+    )),
+     'mobile' => 
+    (array)(array(
+       'edited' => false,
+       'col' => 24,
+    )),
+  )),
+)
+			);
+
+$regions->add($separator);
+
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php');
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
