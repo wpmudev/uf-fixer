@@ -58,8 +58,6 @@ $footer->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/global-regions/footer/fixer-logo-white.png',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => 'external',
-    'image_link' => '{{upfront:home_url}}/',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -103,6 +101,14 @@ $footer->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => 'external',
+    'image_link' => '{{upfront:home_url}}/',
+    'link' => 
+    (array)(array(
+       'type' => 'external',
+       'url' => '{{upfront:home_url}}/',
+       'target' => '_self',
+    )),
     'element_id' => 'image-1406217409054-1200',
     'row' => 4,
     'anchor' => '',
@@ -212,7 +218,7 @@ $footer->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 11,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432901125988-1285',
   'wrapper_breakpoint' => 
@@ -307,7 +313,7 @@ $footer->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 9,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432901173899-1884',
   'wrapper_breakpoint' => 
@@ -389,7 +395,7 @@ $footer->add_element("PlainTxt", array (
     'anchor' => '',
     'border' => '',
   ),
-  'row' => 11,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432901167200-1885',
   'wrapper_breakpoint' => 

@@ -48,11 +48,10 @@ $region_14 = upfront_create_region(
   'background_slider_transition' => 'crossfade',
   'background_slider_images' => 
   array (
-    0 => '/images/slider-b.jpg',
-    1 => '/images/slider-a.jpg',
-    2 => '/images/slider-c.jpg',
-    3 => '/images/slider-d.jpg',
-    4 => '/images/slider-e.jpg',
+      0 => '/images/slider-b.jpg',
+      1 => '/images/slider-a.jpg',
+      2 => '/images/slider-c.jpg',
+      3 => '/images/slider-e.jpg',
   ),
   'background_style' => 'full',
   'background_position_y' => '50',
@@ -83,8 +82,6 @@ $region_14->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/fixer-logo.png',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => 'external',
-    'image_link' => '{{upfront:home_url}}/',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -128,6 +125,14 @@ $region_14->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => 'external',
+    'image_link' => '{{upfront:home_url}}/',
+    'link' => 
+    (array)(array(
+       'type' => 'external',
+       'url' => '{{upfront:home_url}}/',
+       'target' => '_blank',
+    )),
     'element_id' => 'image-1422416936718-1443',
     'row' => 4,
     'breakpoint' => 
@@ -227,6 +232,12 @@ $region_14->add_element("Unewnavigation", array (
          'menu-item-object-id' => '19',
          'menu-item-target' => '',
          'menu-item-position' => 1,
+         'link' => 
+        (array)(array(
+           'type' => 'anchor',
+           'url' => '#services',
+           'target' => '',
+        )),
       )),
       1 => 
       (array)(array(
@@ -239,6 +250,12 @@ $region_14->add_element("Unewnavigation", array (
          'menu-item-object-id' => '20',
          'menu-item-target' => '',
          'menu-item-position' => 2,
+         'link' => 
+        (array)(array(
+           'type' => 'anchor',
+           'url' => '#quote',
+           'target' => '',
+        )),
       )),
       2 => 
       (array)(array(
@@ -251,6 +268,12 @@ $region_14->add_element("Unewnavigation", array (
          'menu-item-object-id' => '21',
          'menu-item-target' => '',
          'menu-item-position' => 3,
+         'link' => 
+        (array)(array(
+           'type' => 'anchor',
+           'url' => '#blog',
+           'target' => '',
+        )),
       )),
       3 => 
       (array)(array(
@@ -263,6 +286,12 @@ $region_14->add_element("Unewnavigation", array (
          'menu-item-object-id' => '22',
          'menu-item-target' => '',
          'menu-item-position' => 4,
+         'link' => 
+        (array)(array(
+           'type' => 'anchor',
+           'url' => '#about',
+           'target' => '',
+        )),
       )),
       4 => 
       (array)(array(
@@ -275,6 +304,12 @@ $region_14->add_element("Unewnavigation", array (
          'menu-item-object-id' => '23',
          'menu-item-target' => '',
          'menu-item-position' => 5,
+         'link' => 
+        (array)(array(
+           'type' => 'anchor',
+           'url' => '#contact',
+           'target' => '',
+        )),
       )),
     ),
     'menu_style' => 'horizontal',
@@ -611,6 +646,12 @@ $region_14->add_element("Button", array (
     'class' => 'c24 upfront-button',
     'has_settings' => 1,
     'id_slug' => 'button',
+    'link' => 
+    (array)(array(
+       'type' => 'anchor',
+       'url' => '#quote',
+       'target' => '_self',
+    )),
     'currentpreset' => 'white-borders-button',
     'theme_style' => '_default',
     'row' => 6,
@@ -691,6 +732,12 @@ $region_14->add_element("Button", array (
     'class' => 'c24 upfront-button',
     'has_settings' => 1,
     'id_slug' => 'button',
+    'link' => 
+    (array)(array(
+       'type' => 'anchor',
+       'url' => '#services',
+       'target' => '_self',
+    )),
     'currentpreset' => 'white-borders-button',
     'theme_style' => '_default',
     'row' => 6,
@@ -1166,8 +1213,6 @@ $region_13->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/bricklaying.jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -1211,6 +1256,14 @@ $region_13->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'object-1422428830962-1948',
     'row' => 10,
   ),
@@ -1567,8 +1620,6 @@ $region_13->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/plumbing.jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -1612,6 +1663,14 @@ $region_13->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'object-1433406282618-1440',
     'row' => 10,
   ),
@@ -1967,8 +2026,6 @@ $region_13->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/electrical.jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -2012,6 +2069,14 @@ $region_13->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'object-1433406396052-1059',
     'row' => 10,
     'anchor' => '',
@@ -2392,8 +2457,6 @@ $region_13->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/fencing.jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -2437,6 +2500,14 @@ $region_13->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'object-1433408407863-1814',
     'row' => 10,
     'anchor' => '',
@@ -2793,8 +2864,6 @@ $region_13->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/windows.jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -2838,6 +2907,14 @@ $region_13->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'object-1433408457768-1995',
     'row' => 10,
     'anchor' => '',
@@ -3193,8 +3270,6 @@ $region_13->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/roof.jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -3238,6 +3313,14 @@ $region_13->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'object-1433408504017-1533',
     'row' => 10,
     'anchor' => '',
@@ -4066,8 +4149,6 @@ $quote->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/fixer-van.png',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -4111,6 +4192,14 @@ $quote->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'image-1410350687421-1049',
     'row' => 26,
   ),
@@ -4266,8 +4355,6 @@ $quote->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/fixer-cloud.png',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -4311,6 +4398,14 @@ $quote->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'image-1410351290307-1196',
     'row' => 26,
   ),
@@ -5054,6 +5149,12 @@ $subscribe->add_element("Button", array (
     'class' => 'c24 upfront-button',
     'has_settings' => 1,
     'id_slug' => 'button',
+    'link' => 
+    (array)(array(
+       'type' => 'lightbox',
+       'url' => '#ltb-subscribe15',
+       'target' => false,
+    )),
     'currentpreset' => 'black-borders-button',
     'theme_style' => '_default',
     'row' => 6,
@@ -5134,6 +5235,12 @@ $subscribe->add_element("Button", array (
     'class' => 'c24 upfront-button',
     'has_settings' => 1,
     'id_slug' => 'button',
+    'link' => 
+    (array)(array(
+       'type' => 'entry',
+       'url' => '{{upfront:home_url}}/blog/',
+       'target' => '_self',
+    )),
     'currentpreset' => 'black-borders-button',
     'theme_style' => '_default',
     'row' => 6,
@@ -5687,8 +5794,6 @@ $about->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/signature.png',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -5732,6 +5837,14 @@ $about->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'image-1412780079958-1027',
     'row' => 24,
   ),
@@ -5854,8 +5967,6 @@ $about->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/fixer-mrfixer-image-1050x569-7934 (1).jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'when_clicked' => false,
-    'image_link' => '',
     'include_image_caption' => false,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
@@ -5899,6 +6010,14 @@ $about->add_element("Uimage", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-image',
     'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
     'element_id' => 'image-1444283579971-1972',
     'row' => 40,
   ),
