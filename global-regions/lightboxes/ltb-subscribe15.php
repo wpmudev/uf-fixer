@@ -42,22 +42,25 @@ $ltb_subscribe15 = upfront_create_region(
 $ltb_subscribe15->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
+  'margin_right' => '0',
   'margin_top' => '5',
-  'class' => '',
+  'margin_bottom' => '0',
+  'class' => 'module-1444288191571-1836',
   'id' => 'module-1444288191571-1836',
   'options' => 
   array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
     'content' => '<h3 class=""><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>Subscribe to our e-newsletter<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></h3>',
     'type' => 'PlainTxtModel',
-    'view_class' => 'PlainTxtView',
     'element_id' => 'text-object-1444288191570-1689',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'id_slug' => 'plain_text',
     'is_edited' => true,
     'row' => 18,
   ),
-  'row' => 18,
+  'row' => 6,
+  'sticky' => false,
   'wrapper_id' => 'wrapper-1444288315227-1721',
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -137,10 +140,8 @@ input {
     margin: 0 0 2px;
 }
 input[type="text"], input[type="email"] {
-    border: 1px solid #ece9e4;
 }
 input[type="text"]:focus, input[type="email"]:focus {
-    border-color: #fed41d;
 }
 input[type="submit"] {
     background: #a4d0dc;
@@ -156,7 +157,7 @@ input[type="submit"]:hover {
 }',
     'script' => '/* Your code here */',
   ),
-  'row' => 42,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1444102317966-1645',
   'new_line' => true,

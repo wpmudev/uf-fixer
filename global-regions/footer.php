@@ -11,7 +11,7 @@ $footer = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 14,
+  'row' => 10,
   'background_type' => 'color',
   'nav_region' => '',
   'background_color' => 'rgba(44,44,44,1)',
@@ -196,7 +196,7 @@ $footer->add_element("PlainTxt", array (
     'element_id' => 'text-object-1406217940549-1478',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 6,
+    'row' => 11,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -212,7 +212,7 @@ $footer->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 11,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432901125988-1285',
   'wrapper_breakpoint' => 
@@ -269,8 +269,8 @@ $footer->add_element("PlainTxt", array (
 ));
 
 $footer->add_element("PlainTxt", array (
-  'columns' => '7',
-  'margin_left' => '2',
+  'columns' => '5',
+  'margin_left' => '4',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
@@ -281,13 +281,13 @@ $footer->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'content' => '<p class="" style="text-align: center;">
-	<span class="inline_color" style="color: rgb(255, 255, 255)">ABN - 58 121 227 072</span>
+	<span class="inline_color" style="color: rgb(255, 255, 255)" rel="color: rgb(255, 255, 255)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color: rgb(255, 255, 255)">ABN - 58 121 227 072</span>
 </p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1406218508045-1484',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 5,
+    'row' => 9,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -307,7 +307,7 @@ $footer->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 9,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432901173899-1884',
   'wrapper_breakpoint' => 
@@ -322,7 +322,7 @@ $footer->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 7,
+      'col' => 6,
       'order' => 2,
       'clear' => true,
     ),
@@ -346,8 +346,8 @@ $footer->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'edited' => false,
-      'left' => 0,
-      'col' => 7,
+      'left' => 1,
+      'col' => 5,
       'order' => 0,
     ),
     'custom-1410783666947' => 
@@ -379,7 +379,7 @@ $footer->add_element("PlainTxt", array (
     'element_id' => 'object-1430897586849-1508',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 12,
+    'row' => 11,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -389,7 +389,7 @@ $footer->add_element("PlainTxt", array (
     'anchor' => '',
     'border' => '',
   ),
-  'row' => 6,
+  'row' => 11,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432901167200-1885',
   'wrapper_breakpoint' => 

@@ -301,7 +301,7 @@ $main->add_element("Ucontact", array (
     ),
     'form_title' => 'Contact form',
     'form_name_label' => 'Name:',
-    'form_email_label' => 'Email:',
+    'form_email_label' => 'Email Address:',
     'form_email_to' => '',
     'show_subject' => 
     array (

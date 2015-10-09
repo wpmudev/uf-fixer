@@ -6211,13 +6211,13 @@ $about->add_element("PlainTxt", array (
 
 $regions->add($about);
 
-$coverage = upfront_create_region(
+$contact_us = upfront_create_region(
 			array (
-  'name' => 'coverage',
-  'title' => 'Coverage',
+  'name' => 'contact-us',
+  'title' => 'Contact Us',
   'type' => 'wide',
   'scope' => 'local',
-  'container' => 'coverage',
+  'container' => 'contact-us',
   'position' => 1,
   'allow_sidebar' => true,
 ),
@@ -6244,10 +6244,15 @@ $coverage = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
 )
 			);
 
-$coverage->add_element("PlainTxt", array (
+$contact_us->add_element("PlainTxt", array (
   'columns' => '24',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -6321,7 +6326,7 @@ $coverage->add_element("PlainTxt", array (
   ),
 ));
 
-$coverage->add_element("PlainTxt", array (
+$contact_us->add_element("PlainTxt", array (
   'columns' => '24',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -6379,7 +6384,7 @@ $coverage->add_element("PlainTxt", array (
   ),
 ));
 
-$regions->add($coverage);
+$regions->add($contact_us);
 
 $contact = upfront_create_region(
 			array (
@@ -6543,7 +6548,7 @@ $contact->add_element("Ucontact", array (
     ),
     'form_title' => 'Contact form',
     'form_name_label' => 'Name ',
-    'form_email_label' => 'Phone Number',
+    'form_email_label' => 'Email Address',
     'form_email_to' => '',
     'show_subject' => 
     array (
