@@ -22,7 +22,7 @@ $region_14 = upfront_create_region(
        'background_style' => 'full',
        'background_position_x' => '50',
        'background_image' => '{{upfront:style_url}}/images/archive-home/slider-e.jpg',
-       'background_image_ratio' => 0.68000000000000005,
+       'background_image_ratio' => 0.68000000000000004884981308350688777863979339599609375,
        'row' => 121,
     )),
      'mobile' => 
@@ -48,10 +48,10 @@ $region_14 = upfront_create_region(
   'background_slider_transition' => 'crossfade',
   'background_slider_images' => 
   array (
-      0 => '/images/slider-b.jpg',
-      1 => '/images/slider-a.jpg',
-      2 => '/images/slider-c.jpg',
-      3 => '/images/slider-e.jpg',
+    0 => '/images/slider-b.jpg',
+    1 => '/images/slider-a.jpg',
+    2 => '/images/slider-c.jpg',
+    3 => '/images/slider-e.jpg',
   ),
   'background_style' => 'full',
   'background_position_y' => '50',
@@ -62,8 +62,8 @@ $region_14 = upfront_create_region(
     0 => '',
   ),
   'background_image' => '{{upfront:style_url}}/images/archive-home/slider-a.jpg',
-  'background_image_ratio' => 0.68000000000000005,
-  'original_height' => 892,
+  'background_image_ratio' => 0.68000000000000004884981308350688777863979339599609375,
+  'original_height' => 954,
 )
 			);
 
@@ -350,25 +350,27 @@ $region_14->add_element("Unewnavigation", array (
       )),
        'tablet' => 
       (array)(array(
-         'theme_style' => 'mobile-nav',
+         'theme_style' => '_default',
          'width' => 570,
          'burger_menu' => 'yes',
-         'burger_alignment' => 'top',
+         'burger_alignment' => 'right',
          'burger_over' => 'over',
          'row' => 14,
          'menu_style' => 'horizontal',
-         'menu_alignment' => 'center',
+         'menu_alignment' => 'right',
+         'is_floating' => 'no',
       )),
        'mobile' => 
       (array)(array(
          'burger_menu' => 'yes',
-         'burger_alignment' => 'top',
+         'burger_alignment' => 'right',
          'burger_over' => 'over',
          'width' => 315,
          'row' => 15,
-         'theme_style' => 'mobile-nav',
+         'theme_style' => '_default',
          'menu_style' => 'horizontal',
-         'menu_alignment' => 'center',
+         'menu_alignment' => 'right',
+         'is_floating' => 'no',
       )),
     )),
     'row' => 13,
@@ -4566,7 +4568,7 @@ $blog_header = upfront_create_region(
   'background_position_y' => '50',
   'background_position_x' => '50',
   'background_image' => '{{upfront:style_url}}/images/archive-home/background-leaves.jpg',
-  'background_image_ratio' => 0.42999999999999999,
+  'background_image_ratio' => 0.429999999999999993338661852249060757458209991455078125,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -6524,7 +6526,7 @@ $contact = upfront_create_region(
   'background_position_y' => '100',
   'background_position_x' => '100',
   'background_image' => '{{upfront:style_url}}/images/archive-home/dome.png',
-  'background_image_ratio' => 1.05,
+  'background_image_ratio' => 1.0500000000000000444089209850062616169452667236328125,
   'background_repeat' => 'no-repeat',
   'background_position' => '100% 100%',
   'breakpoint' => 
