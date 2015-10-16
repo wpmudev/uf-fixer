@@ -89,9 +89,6 @@
     color: #ufc1;
     font-size: 26px;
 }
-#page .u-posts-home-tablet.uposts-object li .read_more a:hover {
-    color: #ufc6;
-}
 #page .u-posts-home-tablet.uposts-object li:first-child, #page .u-posts-home-tablet.uposts-object li.uf-post-sticky {
     background: #ufc6;
     color: #ufc1;
