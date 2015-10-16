@@ -21,7 +21,7 @@ $footer = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 45,
+       'row' => 13,
     )),
      'mobile' => 
     (array)(array(
@@ -162,6 +162,7 @@ $footer->add_element("Uimage", array (
       'order' => 0,
       'top' => 6,
       'row' => 10,
+      'hide' => 1,
     ),
     'mobile' => 
     array (
@@ -196,8 +197,7 @@ $footer->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'content' => '<p class="">
-	<span class="inline_color" data-verified="redactor" data-redactor-tag="span" data-redactor-class="inline_color"></span><span class="upfront_theme_color_0"><span class="inline_color" data-verified="redactor" data-redactor-tag="span" data-redactor-class="inline_color">©</span><span class="inline_color" style="color: rgb(255, 255, 255)" rel="color: rgb(255, 255, 255)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color: rgb(255, 255, 255)"> 2oo6-2014 Fixer Pty Ltd</span></span><span class="inline_color" style="color: rgb(255, 255, 255)" rel="color: rgb(255, 255, 255)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color: rgb(255, 255, 255)"></span>
-</p>',
+	<span class="inline_color" data-verified="redactor" data-redactor-tag="span" data-redactor-class="inline_color"></span><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="inline_color" data-verified="redactor" data-redactor-tag="span" data-redactor-class="inline_color">©</span><span class="inline_color" style="color: rgb(255, 255, 255)" rel="color: rgb(255, 255, 255)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color: rgb(255, 255, 255)"> 2oo6-2015 Incsub</span></span></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1406217940549-1478',
     'class' => 'c24 upfront-plain_txt',
@@ -226,9 +226,9 @@ $footer->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 5,
+      'col' => 7,
       'order' => 1,
-      'clear' => false,
+      'clear' => true,
     ),
     'mobile' => 
     array (
@@ -249,10 +249,11 @@ $footer->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 0,
+      'left' => 2,
       'col' => 5,
       'order' => 1,
-      'top' => 7,
+      'top' => 0,
+      'hide' => 1,
     ),
     'mobile' => 
     array (
@@ -321,7 +322,7 @@ $footer->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 9,
+      'col' => 6,
       'order' => 2,
       'clear' => true,
     ),
@@ -344,9 +345,9 @@ $footer->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 3,
+      'left' => 0,
       'col' => 6,
-      'top' => 3,
+      'top' => 0,
       'row' => 8,
     ),
     'mobile' => 
@@ -394,6 +395,13 @@ $footer->add_element("PlainTxt", array (
     'theme_style' => 'u-paragraph-footer-left-separator',
     'anchor' => '',
     'border' => '',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 15,
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -403,9 +411,9 @@ $footer->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 8,
+      'col' => 6,
       'order' => 3,
-      'clear' => true,
+      'clear' => false,
     ),
     'mobile' => 
     array (
@@ -426,10 +434,11 @@ $footer->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 4,
-      'col' => 4,
+      'left' => 0,
+      'col' => 6,
       'order' => 0,
       'top' => 0,
+      'row' => 15,
     ),
     'mobile' => 
     array (

@@ -1,6 +1,7 @@
 #page .header-contact-text.upfront-plain_txt h2 {
     color: #ufc1;
-    font-weight: 700;
+    font-weight: 900;
+    letter-spacing: -2px;
 }
 #page .header-contact-text.upfront-plain_txt h2, #page .header-contact-text.upfront-plain_txt p {
     margin:0;

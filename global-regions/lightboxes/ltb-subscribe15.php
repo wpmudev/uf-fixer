@@ -68,8 +68,9 @@ $ltb_subscribe15->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => false,
-      'col' => 9,
+      'col' => 6,
       'order' => 0,
+      'clear' => true,
     ),
     'mobile' => 
     array (
@@ -82,10 +83,11 @@ $ltb_subscribe15->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'left' => 3,
+      'edited' => true,
+      'left' => 0,
       'col' => 6,
       'order' => 0,
+      'top' => 1,
     ),
     'mobile' => 
     array (

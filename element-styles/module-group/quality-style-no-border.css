@@ -1,0 +1,6 @@
+#page .quality-style-no-border div.upfront-object, #page .quality-style-no-border div.upfront-output-object {
+    padding:0px;
+}
+#page .quality-style-no-border.upfront-module-group {
+    padding:0px 0px 30px 0px;
+}
