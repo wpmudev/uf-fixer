@@ -159,6 +159,12 @@ $main->add_element("Button", array (
     'class' => 'c24 upfront-button',
     'has_settings' => 1,
     'id_slug' => 'button',
+    'link' => 
+    (array)(array(
+       'type' => 'entry',
+       'url' => '{{upfront:home_url}}',
+       'target' => '_self',
+    )),
     'currentpreset' => 'white-borders-button',
     'theme_style' => '_default',
     'is_edited' => true,

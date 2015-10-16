@@ -17,21 +17,21 @@ $region_14 = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'background_type' => 'image',
+       'background_type' => 'slider',
        'background_position_y' => '50',
        'background_style' => 'full',
        'background_position_x' => '50',
        'background_image' => '{{upfront:style_url}}/images/archive-home/slider-e.jpg',
        'background_image_ratio' => 0.68000000000000004884981308350688777863979339599609375,
-       'row' => 121,
+       'row' => 111,
        'hide' => 0,
     )),
      'mobile' => 
     (array)(array(
        'edited' => true,
-       'background_type' => 'color',
+       'background_type' => 'slider',
        'background_color' => 'rgba(254,212,27,1)',
-       'row' => 107,
+       'row' => 108,
     )),
      'custom-1410783666947' => 
     (array)(array(
@@ -64,7 +64,7 @@ $region_14 = upfront_create_region(
   ),
   'background_image' => '{{upfront:style_url}}/images/archive-home/slider-a.jpg',
   'background_image_ratio' => 0.68000000000000004884981308350688777863979339599609375,
-  'original_height' => 1017,
+  'original_height' => 1008,
 )
 			);
 
@@ -130,9 +130,9 @@ $region_14->add_element("Uimage", array (
     'image_link' => '{{upfront:home_url}}/',
     'link' => 
     (array)(array(
-       'type' => 'external',
-       'url' => '{{upfront:home_url}}/',
-       'target' => '_blank',
+       'type' => 'homepage',
+       'url' => '{{upfront:home_url}}',
+       'target' => '_self',
     )),
     'element_id' => 'image-1422416936718-1443',
     'row' => 4,
@@ -147,7 +147,7 @@ $region_14->add_element("Uimage", array (
          'row' => 10,
       )),
     )),
-    'link_target' => '_blank',
+    'link_target' => '_self',
   ),
   'row' => 6,
   'sticky' => false,
@@ -164,7 +164,7 @@ $region_14->add_element("Uimage", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 4,
       'clear' => true,
       'order' => 0,
@@ -224,92 +224,92 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 2428,
+         'menu-item-db-id' => 7,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Service',
          'menu-item-url' => '#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2428',
-         'menu-item-target' => '',
+         'menu-item-object-id' => '7',
+         'menu-item-target' => '_self',
          'menu-item-position' => 1,
          'link' => 
         (array)(array(
            'type' => 'anchor',
            'url' => '#services',
-           'target' => '',
+           'target' => '_self',
         )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 2429,
+         'menu-item-db-id' => 8,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Get a Quote',
          'menu-item-url' => '#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2429',
-         'menu-item-target' => '',
+         'menu-item-object-id' => '8',
+         'menu-item-target' => '_self',
          'menu-item-position' => 2,
          'link' => 
         (array)(array(
            'type' => 'anchor',
            'url' => '#quote',
-           'target' => '',
+           'target' => '_self',
         )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 2430,
+         'menu-item-db-id' => 9,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Blog',
-         'menu-item-url' => '#blog',
+         'menu-item-url' => '{{upfront:home_url}}/blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2430',
+         'menu-item-object-id' => '9',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
         (array)(array(
-           'type' => 'anchor',
-           'url' => '#blog',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/blog',
            'target' => '',
         )),
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 2431,
+         'menu-item-db-id' => 10,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2431',
-         'menu-item-target' => '',
+         'menu-item-object-id' => '10',
+         'menu-item-target' => '_self',
          'menu-item-position' => 4,
          'link' => 
         (array)(array(
            'type' => 'anchor',
            'url' => '#about',
-           'target' => '',
+           'target' => '_self',
         )),
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 2432,
+         'menu-item-db-id' => 11,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'Contact Us',
-         'menu-item-url' => '#contact',
+         'menu-item-title' => 'Coverage Area',
+         'menu-item-url' => '#coverage',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2432',
-         'menu-item-target' => '',
+         'menu-item-object-id' => '11',
+         'menu-item-target' => '_self',
          'menu-item-position' => 5,
          'link' => 
         (array)(array(
            'type' => 'anchor',
-           'url' => '#contact',
-           'target' => '',
+           'url' => '#coverage',
+           'target' => '_self',
         )),
       )),
     ),
@@ -390,10 +390,10 @@ $region_14->add_element("Unewnavigation", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 2,
       'clear' => false,
-      'order' => 0,
+      'order' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -480,16 +480,16 @@ $region_14->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 11,
+      'col' => 7,
       'clear' => true,
       'order' => 2,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 6,
       'clear' => true,
-      'order' => 0,
+      'order' => 2,
     ),
     'custom-1410783666947' => 
     array (
@@ -588,10 +588,10 @@ $region_14->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
       'clear' => true,
-      'order' => 0,
+      'order' => 3,
     ),
     'custom-1410783666947' => 
     array (
@@ -610,13 +610,14 @@ $region_14->add_element("PlainTxt", array (
       'col' => 12,
       'top' => 0,
       'row' => 45,
+      'hide' => 0,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'left' => 0,
       'col' => 7,
-      'top' => 2,
+      'top' => 21,
       'row' => 25,
     ),
     'custom-1410783666947' => 
@@ -673,14 +674,14 @@ $region_14->add_element("Button", array (
       'edited' => true,
       'col' => 6,
       'clear' => true,
-      'order' => 4,
+      'order' => 5,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 6,
       'clear' => true,
-      'order' => 0,
+      'order' => 4,
     ),
     'custom-1410783666947' => 
     array (
@@ -697,14 +698,14 @@ $region_14->add_element("Button", array (
       'edited' => true,
       'left' => 2,
       'col' => 4,
-      'top' => 1,
+      'top' => 22,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'left' => 1,
       'col' => 5,
-      'top' => 0,
+      'top' => 20,
     ),
     'custom-1410783666947' => 
     array (
@@ -758,14 +759,14 @@ $region_14->add_element("Button", array (
       'edited' => true,
       'col' => 4,
       'clear' => false,
-      'order' => 5,
+      'order' => 6,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 6,
       'clear' => true,
-      'order' => 0,
+      'order' => 5,
     ),
     'custom-1410783666947' => 
     array (
@@ -782,7 +783,7 @@ $region_14->add_element("Button", array (
       'edited' => true,
       'left' => 0,
       'col' => 4,
-      'top' => 0,
+      'top' => 23,
     ),
     'mobile' => 
     array (
@@ -2280,7 +2281,7 @@ $region_13->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 17,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1433407951096-1824',
   'new_line' => true,
@@ -4316,7 +4317,7 @@ $quote->add_element("Ucontact", array (
     ),
     'form_title' => 'Contact form',
     'form_name_label' => 'Name',
-    'form_email_label' => 'Email Address',
+    'form_email_label' => 'Email address',
     'form_email_to' => '',
     'show_subject' => 
     array (
@@ -6851,7 +6852,7 @@ $contact->add_element("Ucontact", array (
     ),
     'form_title' => 'Contact form',
     'form_name_label' => 'Name ',
-    'form_email_label' => 'Email Address',
+    'form_email_label' => 'Email address',
     'form_email_to' => '',
     'show_subject' => 
     array (
