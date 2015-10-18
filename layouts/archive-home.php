@@ -23,7 +23,7 @@ $region_14 = upfront_create_region(
        'background_position_x' => '50',
        'background_image' => '{{upfront:style_url}}/images/archive-home/slider-e.jpg',
        'background_image_ratio' => 0.68000000000000004884981308350688777863979339599609375,
-       'row' => 121,
+       'row' => 159,
        'hide' => 0,
     )),
      'mobile' => 
@@ -64,7 +64,7 @@ $region_14 = upfront_create_region(
   ),
   'background_image' => '{{upfront:style_url}}/images/archive-home/slider-a.jpg',
   'background_image_ratio' => 0.68000000000000004884981308350688777863979339599609375,
-  'original_height' => 1017,
+  'original_height' => 1046,
 )
 			);
 
@@ -158,7 +158,7 @@ $region_14->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 5,
+      'col' => 4,
       'clear' => true,
       'order' => 0,
     ),
@@ -182,9 +182,9 @@ $region_14->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 1,
+      'left' => 0,
       'col' => 4,
-      'top' => 6,
+      'top' => 5,
       'row' => 10,
     ),
     'mobile' => 
@@ -384,7 +384,7 @@ $region_14->add_element("Unewnavigation", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 6,
+      'col' => 8,
       'clear' => false,
       'order' => 1,
     ),
@@ -408,9 +408,9 @@ $region_14->add_element("Unewnavigation", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 4,
+      'left' => 6,
       'col' => 2,
-      'top' => 6,
+      'top' => 4,
       'row' => 14,
     ),
     'mobile' => 
@@ -480,7 +480,7 @@ $region_14->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 11,
+      'col' => 7,
       'clear' => true,
       'order' => 2,
     ),
@@ -558,7 +558,7 @@ $region_14->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => 'u-slider-text-tablet',
+         'theme_style' => 'text-center',
          'row' => 45,
       )),
        'mobile' => 
@@ -584,7 +584,7 @@ $region_14->add_element("PlainTxt", array (
       'edited' => true,
       'col' => 12,
       'clear' => true,
-      'order' => 3,
+      'order' => 5,
     ),
     'mobile' => 
     array (
@@ -608,7 +608,7 @@ $region_14->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 12,
-      'top' => 0,
+      'top' => 31,
       'row' => 45,
     ),
     'mobile' => 
@@ -661,6 +661,13 @@ $region_14->add_element("Button", array (
     'row' => 6,
     'is_edited' => true,
     'linkTarget' => '_self',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 18,
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -671,9 +678,9 @@ $region_14->add_element("Button", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 6,
+      'col' => 12,
       'clear' => true,
-      'order' => 4,
+      'order' => 3,
     ),
     'mobile' => 
     array (
@@ -695,9 +702,11 @@ $region_14->add_element("Button", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 2,
-      'col' => 4,
-      'top' => 1,
+      'left' => 0,
+      'col' => 12,
+      'top' => 0,
+      'row' => 18,
+      'hide' => 1,
     ),
     'mobile' => 
     array (
@@ -747,6 +756,13 @@ $region_14->add_element("Button", array (
     'row' => 6,
     'is_edited' => true,
     'linkTarget' => '_self',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 17,
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -756,9 +772,9 @@ $region_14->add_element("Button", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 4,
-      'clear' => false,
-      'order' => 5,
+      'col' => 12,
+      'clear' => true,
+      'order' => 4,
     ),
     'mobile' => 
     array (
@@ -781,8 +797,10 @@ $region_14->add_element("Button", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 4,
+      'col' => 12,
       'top' => 0,
+      'hide' => 1,
+      'row' => 17,
     ),
     'mobile' => 
     array (
@@ -815,7 +833,7 @@ $region_13 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 331,
+  'row' => 303,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -827,7 +845,7 @@ $region_13 = upfront_create_region(
        'background_position' => '50% 79%',
        'background_position_x' => '50',
        'background_type' => 'color',
-       'row' => 401,
+       'row' => 359,
     )),
      'mobile' => 
     (array)(array(
@@ -874,7 +892,7 @@ $region_13->add_element("PlainTxt", array (
   'columns' => '24',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '22',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1412752367986-1614',
   'id' => 'module-1412752367986-1614',
@@ -931,7 +949,7 @@ $region_13->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 12,
-      'top' => 8,
+      'top' => 3,
       'order' => 0,
     ),
     'mobile' => 
@@ -1050,12 +1068,12 @@ $region_13->add_group(array (
   'columns' => '6',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '8',
+  'margin_top' => '5',
   'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1433406298129-1171',
   'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1432886627216-1815',
+  'wrapper_id' => 'wrapper-1444973061936-1438',
   'original_col' => 6,
   'background_color' => 'rgba(137,77,77,0)',
   'background_style' => 'full',
@@ -1072,22 +1090,14 @@ $region_13->add_group(array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 3,
+      'order' => 2,
       'clear' => true,
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'col' => 7,
-      'order' => 4,
-      'clear' => true,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 2,
-      'clear' => true,
+      'order' => 0,
     ),
   ),
   'breakpoint' => 
@@ -1098,7 +1108,7 @@ $region_13->add_group(array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'top' => 0,
+      'top' => 17,
       'theme_style' => 'quality-style',
       'row' => 15,
     ),
@@ -1119,7 +1129,6 @@ $region_13->add_group(array (
       'top' => 36,
     ),
   ),
-  'close_wrapper' => false,
 ));
 
 $region_13->add_element("PlainTxt", array (
@@ -1524,915 +1533,14 @@ $region_13->add_element("PlainTxt", array (
 
 $region_13->add_group(array (
   'columns' => '6',
-  'margin_left' => '1',
-  'margin_right' => '0',
-  'margin_top' => '6',
-  'margin_bottom' => '0',
-  'class' => '',
-  'id' => 'module-group-1433406408885-1831',
-  'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1432886627216-1815',
-  'original_col' => 6,
-  'background_color' => 'rgba(137,77,77,0)',
-  'background_style' => 'full',
-  'background_position_y' => 50,
-  'background_position_x' => 50,
-  'use_padding' => '',
-  'background_type' => 'color',
-  'anchor' => '',
-  'theme_style' => 'no-y-padding',
-  'new_line' => true,
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-      'order' => 0,
-      'theme_style' => 'quality-style',
-      'row' => 32,
-      'top' => 1,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'left' => 6,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'close_wrapper' => false,
-));
-
-$region_13->add_element("PlainTxt", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1433406278107-1825',
-  'id' => 'module-1433406278107-1825',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<h3 class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Plumbing &nbsp;<span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">e</span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​</span></span></h3>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'object-1433406278107-1985',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'is_edited' => true,
-    'row' => 6,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-    'theme_style' => 'u-services-text',
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'row' => 6,
-         'theme_style' => 'text-center',
-      )),
-    )),
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1433406459061-1226',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 0,
-      'clear' => true,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-      'order' => 12,
-      'row' => 6,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1433406408885-1831',
-));
-
-$region_13->add_element("Uimage", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '2',
-  'margin_bottom' => '0',
-  'class' => 'module-1433406282618-1475',
-  'id' => 'module-1433406282618-1475',
-  'options' => 
-  array (
-    'src' => '{{upfront:style_url}}/images/archive-home/plumbing-240x120-6220.jpg',
-    'srcFull' => '{{upfront:style_url}}/images/archive-home/plumbing.jpg',
-    'srcOriginal' => '{{upfront:style_url}}/images/archive-home/plumbing.jpg',
-    'image_title' => '',
-    'alternative_text' => '',
-    'include_image_caption' => false,
-    'image_caption' => 'My awesome image caption',
-    'caption_position' => false,
-    'caption_alignment' => false,
-    'caption_trigger' => 'always_show',
-    'image_status' => 'ok',
-    'size' => 
-    (array)(array(
-       'width' => 240,
-       'height' => 120,
-    )),
-    'fullSize' => 
-    (array)(array(
-       'width' => 240,
-       'height' => 120,
-    )),
-    'position' => 
-    (array)(array(
-       'top' => 0,
-       'left' => 0,
-    )),
-    'marginTop' => 0,
-    'element_size' => 
-    (array)(array(
-       'width' => 240,
-       'height' => 120,
-    )),
-    'rotation' => 0,
-    'color' => '#ffffff',
-    'background' => '#000000',
-    'captionBackground' => '0',
-    'image_id' => '1854',
-    'align' => 'left',
-    'stretch' => true,
-    'vstretch' => true,
-    'quick_swap' => false,
-    'gifImage' => 0,
-    'placeholder_class' => '',
-    'type' => 'UimageModel',
-    'view_class' => 'UimageView',
-    'has_settings' => 1,
-    'class' => 'c24 upfront-image',
-    'id_slug' => 'image',
-    'when_clicked' => false,
-    'image_link' => '',
-    'link' => 
-    (array)(array(
-       'type' => false,
-       'url' => '',
-       'target' => false,
-    )),
-    'element_id' => 'object-1433406282618-1440',
-    'row' => 10,
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'row' => 24,
-      )),
-    )),
-    'no_padding' => '',
-    'anchor' => '',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1433406459068-1769',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 1,
-      'clear' => true,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-      'order' => 10,
-      'top' => 0,
-      'row' => 24,
-      'hide' => 1,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1433406408885-1831',
-));
-
-$region_13->add_element("PlainTxt", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '2',
-  'margin_bottom' => '0',
-  'class' => 'module-1433406287083-1659',
-  'id' => 'module-1433406287083-1659',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</span><br>
-	<span class="uf_font_icon" style="font-size: 27px; top: 0px;" rel="font-size: 27px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 27px; top: 0px;"></span>
-</p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'object-1433406287083-1130',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'is_edited' => true,
-    'row' => 18,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-    'theme_style' => 'u-services-text',
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'row' => 8,
-         'theme_style' => 'text-center',
-      )),
-    )),
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1433406459073-1893',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 2,
-      'clear' => true,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-      'order' => 4,
-      'top' => 0,
-      'row' => 8,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1433406408885-1831',
-));
-
-$region_13->add_element("PlainTxt", array (
-  'columns' => '4',
-  'margin_left' => '2',
-  'margin_right' => '0',
-  'margin_top' => '1',
-  'margin_bottom' => '0',
-  'class' => 'module-1433406291549-1493',
-  'id' => 'module-1433406291549-1493',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0" style="" rel=""><a target="_self" rel="entry" href="{{upfront:home_url}}/service-plumb/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span></span></a></span></p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'object-1433406291549-1805',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 5,
-    'is_edited' => true,
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'row' => 4,
-         'theme_style' => 'plus-button',
-      )),
-    )),
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1433406459076-1387',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 3,
-      'clear' => true,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'col' => 5,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-      'order' => 1,
-      'top' => 0,
-      'row' => 4,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 4,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1433406408885-1831',
-));
-
-$region_13->add_group(array (
-  'columns' => '6',
-  'margin_left' => '1',
-  'margin_right' => '0',
-  'margin_top' => '6',
-  'margin_bottom' => '0',
-  'class' => '',
-  'id' => 'module-group-1433407951043-1220',
-  'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1432886627216-1815',
-  'original_col' => 6,
-  'background_color' => 'rgba(137,77,77,0)',
-  'background_style' => 'full',
-  'background_position_y' => 50,
-  'background_position_x' => 50,
-  'use_padding' => '',
-  'background_type' => 'color',
-  'anchor' => '',
-  'theme_style' => 'no-y-padding',
-  'new_line' => true,
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-      'order' => 0,
-      'theme_style' => 'quality-style-no-border',
-      'row' => 33,
-      'top' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'left' => 6,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-));
-
-$region_13->add_element("PlainTxt", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1433406392023-1138',
-  'id' => 'module-1433406392023-1138',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<h3 class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Electrical &nbsp;<span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">f</span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​</span></span></h3>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'object-1433406392023-1289',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'is_edited' => true,
-    'row' => 6,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-    'theme_style' => 'u-services-text',
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'row' => 6,
-         'theme_style' => 'text-center',
-      )),
-    )),
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1433407951093-1384',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 0,
-      'clear' => true,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-      'order' => 2,
-      'row' => 6,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1433407951043-1220',
-));
-
-$region_13->add_element("Uimage", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '2',
-  'margin_bottom' => '0',
-  'class' => 'module-1433406396052-1381',
-  'id' => 'module-1433406396052-1381',
-  'options' => 
-  array (
-    'src' => '{{upfront:style_url}}/images/archive-home/electrical-240x120-7937.jpg',
-    'srcFull' => '{{upfront:style_url}}/images/archive-home/electrical.jpg',
-    'srcOriginal' => '{{upfront:style_url}}/images/archive-home/electrical.jpg',
-    'image_title' => '',
-    'alternative_text' => '',
-    'include_image_caption' => false,
-    'image_caption' => 'My awesome image caption',
-    'caption_position' => false,
-    'caption_alignment' => false,
-    'caption_trigger' => 'always_show',
-    'image_status' => 'ok',
-    'size' => 
-    (array)(array(
-       'width' => 240,
-       'height' => 120,
-    )),
-    'fullSize' => 
-    (array)(array(
-       'width' => 240,
-       'height' => 120,
-    )),
-    'position' => 
-    (array)(array(
-       'top' => 0,
-       'left' => 0,
-    )),
-    'marginTop' => 0,
-    'element_size' => 
-    (array)(array(
-       'width' => 240,
-       'height' => 120,
-    )),
-    'rotation' => 0,
-    'color' => '#ffffff',
-    'background' => '#000000',
-    'captionBackground' => '0',
-    'image_id' => '1879',
-    'align' => 'left',
-    'stretch' => true,
-    'vstretch' => true,
-    'quick_swap' => false,
-    'gifImage' => 0,
-    'placeholder_class' => '',
-    'type' => 'UimageModel',
-    'view_class' => 'UimageView',
-    'has_settings' => 1,
-    'class' => 'c24 upfront-image',
-    'id_slug' => 'image',
-    'when_clicked' => false,
-    'image_link' => '',
-    'link' => 
-    (array)(array(
-       'type' => false,
-       'url' => '',
-       'target' => false,
-    )),
-    'element_id' => 'object-1433406396052-1059',
-    'row' => 10,
-    'anchor' => '',
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'row' => 14,
-      )),
-    )),
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1433407951095-1410',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 1,
-      'clear' => false,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-      'order' => 3,
-      'top' => 0,
-      'row' => 14,
-      'hide' => 1,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1433407951043-1220',
-));
-
-$region_13->add_element("PlainTxt", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '2',
-  'margin_bottom' => '0',
-  'class' => 'module-1433406399053-1234',
-  'id' => 'module-1433406399053-1234',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: right;">
-	<span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el </span><br>
-	<span class="uf_font_icon" style="font-size: 27px; top: 0px;" rel="font-size: 27px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 27px; top: 0px;"></span>
-</p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'object-1433406399054-1803',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'is_edited' => true,
-    'row' => 17,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-    'theme_style' => 'u-services-text',
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'row' => 8,
-         'theme_style' => 'text-center',
-      )),
-    )),
-  ),
-  'row' => 17,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1433407951096-1824',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 2,
-      'clear' => true,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-      'order' => 22,
-      'top' => 0,
-      'row' => 8,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1433407951043-1220',
-));
-
-$region_13->add_element("PlainTxt", array (
-  'columns' => '4',
-  'margin_left' => '2',
-  'margin_right' => '0',
-  'margin_top' => '1',
-  'margin_bottom' => '0',
-  'class' => 'module-1433406402068-1392',
-  'id' => 'module-1433406402068-1392',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0" style="" rel=""><a target="_self" rel="entry" href="{{upfront:home_url}}/service-electrical/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span></span></a></span></p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'object-1433406402068-1466',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 5,
-    'is_edited' => true,
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'row' => 5,
-         'theme_style' => 'plus-button',
-      )),
-    )),
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'wrapper-1433407951097-1113',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 3,
-      'clear' => true,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'col' => 5,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-      'order' => 24,
-      'top' => 0,
-      'row' => 5,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 4,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1433407951043-1220',
-));
-
-$region_13->add_group(array (
-  'columns' => '6',
   'margin_left' => '10',
   'margin_right' => '0',
-  'margin_top' => '8',
+  'margin_top' => '4',
   'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1433408441587-1485',
   'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1433408406557-1087',
+  'wrapper_id' => 'wrapper-1444973065447-1059',
   'original_col' => 6,
   'background_color' => 'rgba(137,77,77,0)',
   'background_style' => 'full',
@@ -2448,22 +1556,14 @@ $region_13->add_group(array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 2,
-      'clear' => false,
+      'order' => 5,
+      'clear' => true,
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'col' => 7,
-      'order' => 2,
-      'clear' => true,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 3,
-      'clear' => true,
+      'order' => 0,
     ),
   ),
   'breakpoint' => 
@@ -2475,7 +1575,7 @@ $region_13->add_group(array (
       'col' => 12,
       'order' => 0,
       'row' => 33,
-      'top' => 12,
+      'top' => 0,
       'theme_style' => 'quality-style',
     ),
     'mobile' => 
@@ -2493,7 +1593,6 @@ $region_13->add_group(array (
       'order' => 0,
     ),
   ),
-  'close_wrapper' => false,
 ));
 
 $region_13->add_element("PlainTxt", array (
@@ -2901,14 +2000,14 @@ $region_13->add_element("PlainTxt", array (
 
 $region_13->add_group(array (
   'columns' => '6',
-  'margin_left' => '10',
+  'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '6',
+  'margin_top' => '8',
   'margin_bottom' => '0',
   'class' => '',
-  'id' => 'module-group-1433408489130-1464',
+  'id' => 'module-group-1433406408885-1831',
   'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1433408406557-1087',
+  'wrapper_id' => 'wrapper-1444973068024-1304',
   'original_col' => 6,
   'background_color' => 'rgba(137,77,77,0)',
   'background_style' => 'full',
@@ -2918,6 +2017,23 @@ $region_13->add_group(array (
   'background_type' => 'color',
   'anchor' => '',
   'theme_style' => 'no-y-padding',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 3,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
   'breakpoint' => 
   array (
     'tablet' => 
@@ -2926,7 +2042,472 @@ $region_13->add_group(array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'top' => -1,
+      'theme_style' => 'quality-style',
+      'row' => 32,
+      'top' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'left' => 6,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+));
+
+$region_13->add_element("PlainTxt", array (
+  'columns' => '6',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1433406278107-1825',
+  'id' => 'module-1433406278107-1825',
+  'options' => 
+  array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<h3 class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Plumbing &nbsp;<span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">e</span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​</span></span></h3>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'object-1433406278107-1985',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'is_edited' => true,
+    'row' => 6,
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
+    'theme_style' => 'u-services-text',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 6,
+         'theme_style' => 'text-center',
+      )),
+    )),
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'wrapper_id' => 'wrapper-1433406459061-1226',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 0,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 12,
+      'row' => 6,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+  'group' => 'module-group-1433406408885-1831',
+));
+
+$region_13->add_element("Uimage", array (
+  'columns' => '6',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '2',
+  'margin_bottom' => '0',
+  'class' => 'module-1433406282618-1475',
+  'id' => 'module-1433406282618-1475',
+  'options' => 
+  array (
+    'src' => '{{upfront:style_url}}/images/archive-home/plumbing-240x120-6220.jpg',
+    'srcFull' => '{{upfront:style_url}}/images/archive-home/plumbing.jpg',
+    'srcOriginal' => '{{upfront:style_url}}/images/archive-home/plumbing.jpg',
+    'image_title' => '',
+    'alternative_text' => '',
+    'include_image_caption' => false,
+    'image_caption' => 'My awesome image caption',
+    'caption_position' => false,
+    'caption_alignment' => false,
+    'caption_trigger' => 'always_show',
+    'image_status' => 'ok',
+    'size' => 
+    (array)(array(
+       'width' => 240,
+       'height' => 120,
+    )),
+    'fullSize' => 
+    (array)(array(
+       'width' => 240,
+       'height' => 120,
+    )),
+    'position' => 
+    (array)(array(
+       'top' => 0,
+       'left' => 0,
+    )),
+    'marginTop' => 0,
+    'element_size' => 
+    (array)(array(
+       'width' => 240,
+       'height' => 120,
+    )),
+    'rotation' => 0,
+    'color' => '#ffffff',
+    'background' => '#000000',
+    'captionBackground' => '0',
+    'image_id' => '1854',
+    'align' => 'left',
+    'stretch' => true,
+    'vstretch' => true,
+    'quick_swap' => false,
+    'gifImage' => 0,
+    'placeholder_class' => '',
+    'type' => 'UimageModel',
+    'view_class' => 'UimageView',
+    'has_settings' => 1,
+    'class' => 'c24 upfront-image',
+    'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
+    'element_id' => 'object-1433406282618-1440',
+    'row' => 10,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 24,
+      )),
+    )),
+    'no_padding' => '',
+    'anchor' => '',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'wrapper_id' => 'wrapper-1433406459068-1769',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 1,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 10,
+      'top' => 0,
+      'row' => 24,
+      'hide' => 1,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+  'group' => 'module-group-1433406408885-1831',
+));
+
+$region_13->add_element("PlainTxt", array (
+  'columns' => '6',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '2',
+  'margin_bottom' => '0',
+  'class' => 'module-1433406287083-1659',
+  'id' => 'module-1433406287083-1659',
+  'options' => 
+  array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<p class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</span><br>
+	<span class="uf_font_icon" style="font-size: 27px; top: 0px;" rel="font-size: 27px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 27px; top: 0px;"></span>
+</p>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'object-1433406287083-1130',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'is_edited' => true,
+    'row' => 18,
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
+    'theme_style' => 'u-services-text',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 8,
+         'theme_style' => 'text-center',
+      )),
+    )),
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'wrapper_id' => 'wrapper-1433406459073-1893',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 2,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 4,
+      'top' => 0,
+      'row' => 8,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+  'group' => 'module-group-1433406408885-1831',
+));
+
+$region_13->add_element("PlainTxt", array (
+  'columns' => '4',
+  'margin_left' => '2',
+  'margin_right' => '0',
+  'margin_top' => '1',
+  'margin_bottom' => '0',
+  'class' => 'module-1433406291549-1493',
+  'id' => 'module-1433406291549-1493',
+  'options' => 
+  array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<p class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0" style="" rel=""><a target="_self" rel="entry" href="{{upfront:home_url}}/service-plumb/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span></span></a></span></p>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'object-1433406291549-1805',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'row' => 5,
+    'is_edited' => true,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 4,
+         'theme_style' => 'plus-button',
+      )),
+    )),
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'wrapper_id' => 'wrapper-1433406459076-1387',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 3,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 6,
+      'order' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'col' => 5,
+      'order' => 0,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 1,
+      'top' => 0,
+      'row' => 4,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 1,
+      'col' => 5,
+      'order' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'left' => 1,
+      'col' => 4,
+      'order' => 0,
+    ),
+  ),
+  'group' => 'module-group-1433406408885-1831',
+));
+
+$region_13->add_group(array (
+  'columns' => '6',
+  'margin_left' => '10',
+  'margin_right' => '0',
+  'margin_top' => '10',
+  'margin_bottom' => '0',
+  'class' => '',
+  'id' => 'module-group-1433408489130-1464',
+  'type' => 'ModuleGroup',
+  'wrapper_id' => 'wrapper-1444973069880-1895',
+  'original_col' => 6,
+  'background_color' => 'rgba(137,77,77,0)',
+  'background_style' => 'full',
+  'background_position_y' => 50,
+  'background_position_x' => 50,
+  'use_padding' => '',
+  'background_type' => 'color',
+  'anchor' => '',
+  'theme_style' => 'no-y-padding',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 6,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 0,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+      'top' => 0,
       'theme_style' => 'quality-style',
       'row' => 19,
     ),
@@ -2945,7 +2526,6 @@ $region_13->add_group(array (
       'order' => 0,
     ),
   ),
-  'close_wrapper' => false,
 ));
 
 $region_13->add_element("PlainTxt", array (
@@ -3351,9 +2931,483 @@ $region_13->add_element("PlainTxt", array (
 
 $region_13->add_group(array (
   'columns' => '6',
+  'margin_left' => '1',
+  'margin_right' => '0',
+  'margin_top' => '8',
+  'margin_bottom' => '0',
+  'class' => '',
+  'id' => 'module-group-1433407951043-1220',
+  'type' => 'ModuleGroup',
+  'wrapper_id' => 'wrapper-1432886627216-1815',
+  'original_col' => 6,
+  'background_color' => 'rgba(137,77,77,0)',
+  'background_style' => 'full',
+  'background_position_y' => 50,
+  'background_position_x' => 50,
+  'use_padding' => '',
+  'background_type' => 'color',
+  'anchor' => '',
+  'theme_style' => 'no-y-padding',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 4,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'col' => 7,
+      'order' => 4,
+      'clear' => true,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 2,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+      'theme_style' => 'quality-style',
+      'row' => 33,
+      'top' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'left' => 6,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+));
+
+$region_13->add_element("PlainTxt", array (
+  'columns' => '6',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1433406392023-1138',
+  'id' => 'module-1433406392023-1138',
+  'options' => 
+  array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<h3 class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Electrical &nbsp;<span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">f</span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​</span></span></h3>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'object-1433406392023-1289',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'is_edited' => true,
+    'row' => 6,
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
+    'theme_style' => 'u-services-text',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 6,
+         'theme_style' => 'text-center',
+      )),
+    )),
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'wrapper_id' => 'wrapper-1433407951093-1384',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 0,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 2,
+      'row' => 6,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+  'group' => 'module-group-1433407951043-1220',
+));
+
+$region_13->add_element("Uimage", array (
+  'columns' => '6',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '2',
+  'margin_bottom' => '0',
+  'class' => 'module-1433406396052-1381',
+  'id' => 'module-1433406396052-1381',
+  'options' => 
+  array (
+    'src' => '{{upfront:style_url}}/images/archive-home/electrical-240x120-7937.jpg',
+    'srcFull' => '{{upfront:style_url}}/images/archive-home/electrical.jpg',
+    'srcOriginal' => '{{upfront:style_url}}/images/archive-home/electrical.jpg',
+    'image_title' => '',
+    'alternative_text' => '',
+    'include_image_caption' => false,
+    'image_caption' => 'My awesome image caption',
+    'caption_position' => false,
+    'caption_alignment' => false,
+    'caption_trigger' => 'always_show',
+    'image_status' => 'ok',
+    'size' => 
+    (array)(array(
+       'width' => 240,
+       'height' => 120,
+    )),
+    'fullSize' => 
+    (array)(array(
+       'width' => 240,
+       'height' => 120,
+    )),
+    'position' => 
+    (array)(array(
+       'top' => 0,
+       'left' => 0,
+    )),
+    'marginTop' => 0,
+    'element_size' => 
+    (array)(array(
+       'width' => 240,
+       'height' => 120,
+    )),
+    'rotation' => 0,
+    'color' => '#ffffff',
+    'background' => '#000000',
+    'captionBackground' => '0',
+    'image_id' => '1879',
+    'align' => 'left',
+    'stretch' => true,
+    'vstretch' => true,
+    'quick_swap' => false,
+    'gifImage' => 0,
+    'placeholder_class' => '',
+    'type' => 'UimageModel',
+    'view_class' => 'UimageView',
+    'has_settings' => 1,
+    'class' => 'c24 upfront-image',
+    'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
+    'element_id' => 'object-1433406396052-1059',
+    'row' => 10,
+    'anchor' => '',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 14,
+      )),
+    )),
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'wrapper_id' => 'wrapper-1433407951095-1410',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 1,
+      'clear' => false,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 3,
+      'top' => 0,
+      'row' => 14,
+      'hide' => 1,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+  'group' => 'module-group-1433407951043-1220',
+));
+
+$region_13->add_element("PlainTxt", array (
+  'columns' => '6',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '2',
+  'margin_bottom' => '0',
+  'class' => 'module-1433406399053-1234',
+  'id' => 'module-1433406399053-1234',
+  'options' => 
+  array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<p class="" style="text-align: right;">
+	<span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el </span><br>
+	<span class="uf_font_icon" style="font-size: 27px; top: 0px;" rel="font-size: 27px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 27px; top: 0px;"></span>
+</p>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'object-1433406399054-1803',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'is_edited' => true,
+    'row' => 17,
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
+    'theme_style' => 'u-services-text',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 8,
+         'theme_style' => 'text-center',
+      )),
+    )),
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'wrapper_id' => 'wrapper-1433407951096-1824',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 2,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 22,
+      'top' => 0,
+      'row' => 8,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+  'group' => 'module-group-1433407951043-1220',
+));
+
+$region_13->add_element("PlainTxt", array (
+  'columns' => '4',
+  'margin_left' => '2',
+  'margin_right' => '0',
+  'margin_top' => '1',
+  'margin_bottom' => '0',
+  'class' => 'module-1433406402068-1392',
+  'id' => 'module-1433406402068-1392',
+  'options' => 
+  array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<p class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0" style="" rel=""><a target="_self" rel="entry" href="{{upfront:home_url}}/service-electrical/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span></span></a></span></p>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'object-1433406402068-1466',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'row' => 5,
+    'is_edited' => true,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 5,
+         'theme_style' => 'plus-button',
+      )),
+    )),
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'wrapper_id' => 'wrapper-1433407951097-1113',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 3,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 6,
+      'order' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'col' => 5,
+      'order' => 0,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 24,
+      'top' => 0,
+      'row' => 5,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 1,
+      'col' => 5,
+      'order' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'left' => 1,
+      'col' => 4,
+      'order' => 0,
+    ),
+  ),
+  'group' => 'module-group-1433407951043-1220',
+));
+
+$region_13->add_group(array (
+  'columns' => '6',
   'margin_left' => '10',
   'margin_right' => '0',
-  'margin_top' => '6',
+  'margin_top' => '10',
   'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1433408599187-1298',
@@ -3368,6 +3422,30 @@ $region_13->add_group(array (
   'background_type' => 'color',
   'anchor' => '',
   'theme_style' => 'no-y-padding',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 7,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'col' => 7,
+      'order' => 2,
+      'clear' => true,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 3,
+      'clear' => true,
+    ),
+  ),
   'breakpoint' => 
   array (
     'tablet' => 
@@ -3377,7 +3455,7 @@ $region_13->add_group(array (
       'col' => 12,
       'order' => 0,
       'top' => 0,
-      'theme_style' => 'quality-style',
+      'theme_style' => 'quality-style-no-border',
       'row' => 11,
     ),
     'mobile' => 
@@ -4848,7 +4926,7 @@ $blog_header = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 103,
+       'row' => 120,
     )),
      'mobile' => 
     (array)(array(
@@ -4945,7 +5023,7 @@ $blog_header->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'top' => 8,
+      'top' => 13,
     ),
     'mobile' => 
     array (
@@ -5039,10 +5117,11 @@ $blog_header->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -5226,9 +5305,10 @@ $blog_items->add_element("Posts", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 12,
       'order' => 0,
+      'clear' => true,
     ),
     'mobile' => 
     array (
@@ -5246,10 +5326,11 @@ $blog_items->add_element("Posts", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'top' => 5,
     ),
     'mobile' => 
     array (
@@ -5602,7 +5683,7 @@ $about = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 329,
+       'row' => 362,
     )),
      'mobile' => 
     (array)(array(
@@ -6090,7 +6171,8 @@ $about->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'theme_style' => 'u-paragraph-mobile',
+         'theme_style' => 'text-center',
+         'row' => 25,
       )),
        'mobile' => 
       (array)(array(
@@ -6106,10 +6188,11 @@ $about->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 2,
-      'col' => 8,
+      'left' => 0,
+      'col' => 12,
       'order' => 6,
-      'top' => 0,
+      'top' => -1,
+      'row' => 25,
     ),
     'mobile' => 
     array (
@@ -6350,7 +6433,7 @@ $about->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => 'u-paragraph-mobile',
+         'theme_style' => 'text-center',
       )),
        'custom-1410783666947' => 
       (array)(array(

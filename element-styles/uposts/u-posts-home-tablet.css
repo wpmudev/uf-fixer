@@ -20,6 +20,7 @@
     display: block;
     margin: 0;
     padding: 30px 30px 15px 30px;
+    text-align:center;
 }
 #page .u-posts-home-tablet.uposts-object li .title h3 {
     font-size: 28px;
@@ -64,10 +65,12 @@
 #page .u-posts-home-tablet.uposts-object li .date_posted .day {
     font-size: 32px;
     line-height: 1em;
+    text-align:center;
 }
 #page .u-posts-home-tablet.uposts-object li .date_posted .month {
-    font-size: 15px;
+    font-size: 19px;
     line-height: 1.133em;
+    text-align:center;
 }
 #page .u-posts-home-tablet.uposts-object li .content {
     display: block;
@@ -85,32 +88,32 @@
     width: 26px;
 }
 #page .u-posts-home-tablet.uposts-object li .read_more a {
-    color: #ufc1;
+    color: #333;
     font-size: 26px;
 }
 #page .u-posts-home-tablet.uposts-object li .read_more a:hover {
-    color: #ufc6;
+    color: #333;
 }
-#page .u-posts-home-tablet.uposts-object li:first-child, #page .u-posts-home-tablet .uposts-object li.uf-post-sticky {
+#page .u-posts-home-tablet.uposts-object li:first-child, #page .u-posts-home-tablet.uposts-object li.uf-post-sticky {
     background: #ufc6;
     color: #ufc1;
 }
-#page .u-posts-home-tablet.uposts-object li:first-child .title a, #page .u-posts-home-tablet .uposts-object li.uf-post-sticky .title a {
+#page .u-posts-home-tablet.uposts-object li:first-child .title a, #page .u-posts-home-tablet.uposts-object li.uf-post-sticky .title a {
     color: #ufc0;
 }
-#page .u-posts-home-tablet .uposts-object li:first-child .title a:hover, #page .u-posts-home-tablet .uposts-object li.uf-post-sticky .title a:hover {
+#page .u-posts-home-tablet.uposts-object li:first-child .title a:hover, #page .u-posts-home-tablet.uposts-object li.uf-post-sticky .title a:hover {
     color: #ufc1;
 }
-#page .u-posts-home-tablet.uposts-object li:first-child .date_posted, #page .u-posts-home-tablet .uposts-object li.uf-post-sticky .date_posted {
+#page .u-posts-home-tablet.uposts-object li:first-child .date_posted, #page .u-posts-home-tablet.uposts-object li.uf-post-sticky .date_posted {
     background-color: #ufc6;
 }
-#page .u-posts-home-tablet.uposts-object li:first-child .read_more a, #page .u-posts-home-tablet .uposts-object li.uf-post-sticky .read_more a {
+#page .u-posts-home-tablet.uposts-object li:first-child .read_more a, #page .u-posts-home-tablet.uposts-object li.uf-post-sticky .read_more a {
     color: #ufc0;
 }
-#page .u-posts-home-tablet .uposts-object li:first-child .read_more a:hover, #page .u-posts-home-tablet .uposts-object li.uf-post-sticky .read_more a:hover {
+#page .u-posts-home-tablet.uposts-object li:first-child .read_more a:hover, #page .u-posts-home-tablet.uposts-object li.uf-post-sticky .read_more a:hover {
     color: #ufc1;
 }
-#page .u-posts-home-tablet.uposts-object li:first-child .content p, #page .u-posts-home-tablet .uposts-object li.uf-post-sticky .content p {
+#page .u-posts-home-tablet.uposts-object li:first-child .content p, #page .u-posts-home-tablet.uposts-object li.uf-post-sticky .content p {
     color: #ufc0;
 }
 #page .u-posts-home-tablet.uposts-object li.noFeature article:before {
@@ -122,4 +125,9 @@
     position: absolute;
     top: 0;*/
     width: 100%;
+}
+#page .u-posts-home-tablet.uposts-object li .content p {
+    font-size:17px;
+    line-height:1.7em;
+    text-align:center;
 }

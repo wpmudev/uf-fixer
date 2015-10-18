@@ -399,7 +399,7 @@ $footer->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 15,
+         'row' => 13,
       )),
     )),
   ),
@@ -438,7 +438,7 @@ $footer->add_element("PlainTxt", array (
       'col' => 6,
       'order' => 0,
       'top' => 0,
-      'row' => 15,
+      'row' => 13,
     ),
     'mobile' => 
     array (
