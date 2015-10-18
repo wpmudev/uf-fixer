@@ -339,8 +339,8 @@ $main->add_element("Ucontact", array (
     array (
     ),
     'form_title' => 'Contact form',
-    'form_name_label' => 'Name:',
-    'form_email_label' => 'Email:',
+    'form_name_label' => 'Name',
+    'form_email_label' => 'Email address',
     'form_email_to' => '',
     'show_subject' => 
     array (
@@ -351,7 +351,7 @@ $main->add_element("Ucontact", array (
     'form_subject_label' => 'Subject:',
     'form_captcha_label' => 'CAPTCHA:',
     'form_default_subject' => 'Sent from the website',
-    'form_message_label' => 'Message:',
+    'form_message_label' => 'Type your enquiry here',
     'form_button_text' => 'Send',
     'form_validate_when' => 'submit',
     'form_label_position' => 'over',
