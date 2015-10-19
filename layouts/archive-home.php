@@ -23,11 +23,7 @@ $region_14 = upfront_create_region(
        'background_position_x' => '50',
        'background_image' => '{{upfront:style_url}}/images/archive-home/slider-e.jpg',
        'background_image_ratio' => 0.68000000000000004884981308350688777863979339599609375,
-<<<<<<< HEAD
        'row' => 159,
-=======
-       'row' => 111,
->>>>>>> dde776c050b6b06793afaa1f88a5c600dfd03e1d
        'hide' => 0,
     )),
      'mobile' => 
@@ -68,11 +64,7 @@ $region_14 = upfront_create_region(
   ),
   'background_image' => '{{upfront:style_url}}/images/archive-home/slider-a.jpg',
   'background_image_ratio' => 0.68000000000000004884981308350688777863979339599609375,
-<<<<<<< HEAD
   'original_height' => 1046,
-=======
-  'original_height' => 1008,
->>>>>>> dde776c050b6b06793afaa1f88a5c600dfd03e1d
 )
 			);
 
@@ -689,11 +681,7 @@ $region_14->add_element("Button", array (
       'edited' => true,
       'col' => 12,
       'clear' => true,
-<<<<<<< HEAD
       'order' => 3,
-=======
-      'order' => 5,
->>>>>>> dde776c050b6b06793afaa1f88a5c600dfd03e1d
     ),
     'mobile' => 
     array (
@@ -715,17 +703,11 @@ $region_14->add_element("Button", array (
     'tablet' => 
     array (
       'edited' => true,
-<<<<<<< HEAD
       'left' => 0,
       'col' => 12,
       'top' => 0,
       'row' => 18,
       'hide' => 1,
-=======
-      'left' => 2,
-      'col' => 4,
-      'top' => 22,
->>>>>>> dde776c050b6b06793afaa1f88a5c600dfd03e1d
     ),
     'mobile' => 
     array (
@@ -791,15 +773,9 @@ $region_14->add_element("Button", array (
     'tablet' => 
     array (
       'edited' => true,
-<<<<<<< HEAD
       'col' => 12,
       'clear' => true,
       'order' => 4,
-=======
-      'col' => 4,
-      'clear' => false,
-      'order' => 6,
->>>>>>> dde776c050b6b06793afaa1f88a5c600dfd03e1d
     ),
     'mobile' => 
     array (
@@ -822,15 +798,10 @@ $region_14->add_element("Button", array (
     array (
       'edited' => true,
       'left' => 0,
-<<<<<<< HEAD
       'col' => 12,
       'top' => 0,
       'hide' => 1,
       'row' => 17,
-=======
-      'col' => 4,
-      'top' => 23,
->>>>>>> dde776c050b6b06793afaa1f88a5c600dfd03e1d
     ),
     'mobile' => 
     array (

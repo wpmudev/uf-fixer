@@ -92,12 +92,9 @@
     color: #333;
     font-size: 26px;
 }
-<<<<<<< HEAD
 #page .u-posts-home-tablet.uposts-object li .read_more a:hover {
     color: #333;
 }
-=======
->>>>>>> dde776c050b6b06793afaa1f88a5c600dfd03e1d
 #page .u-posts-home-tablet.uposts-object li:first-child, #page .u-posts-home-tablet.uposts-object li.uf-post-sticky {
     background: #ufc6;
     color: #ufc1;
