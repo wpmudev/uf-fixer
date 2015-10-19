@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_b82caa = upfront_create_region(
+$region_c97472 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -19,13 +19,15 @@ $region_b82caa = upfront_create_region(
   (array)(array(
      'tablet' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'row' => 25,
     )),
      'mobile' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'row' => 9,
     )),
      'custom-1410783666947' => 
     (array)(array(
@@ -41,7 +43,7 @@ $region_b82caa = upfront_create_region(
 )
 			);
 
-$region_b82caa->add_element("Uimage", array (
+$region_c97472->add_element("Uimage", array (
   'columns' => '4',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -127,14 +129,14 @@ $region_b82caa->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 8,
+      'col' => 4,
       'clear' => true,
       'order' => 0,
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 4,
+      'edited' => true,
+      'col' => 3,
       'clear' => true,
       'order' => 0,
     ),
@@ -151,17 +153,17 @@ $region_b82caa->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 4,
+      'left' => 0,
       'col' => 4,
-      'top' => 3,
+      'top' => 1,
     ),
     'mobile' => 
     array (
       'edited' => true,
-      'left' => 1,
+      'left' => 0,
       'col' => 3,
       'row' => 12,
-      'top' => 5,
+      'top' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -173,7 +175,7 @@ $region_b82caa->add_element("Uimage", array (
   ),
 ));
 
-$region_b82caa->add_element("Unewnavigation", array (
+$region_c97472->add_element("Unewnavigation", array (
   'columns' => '13',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -192,92 +194,92 @@ $region_b82caa->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 1793,
+         'menu-item-db-id' => 2433,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Services',
          'menu-item-url' => '{{upfront:home_url}}/services-inner/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1793',
-         'menu-item-target' => '_self',
+         'menu-item-object-id' => '2433',
+         'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/services-inner/',
-           'target' => '_self',
+           'target' => '',
         )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 1795,
+         'menu-item-db-id' => 2434,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Blog',
          'menu-item-url' => '{{upfront:home_url}}/blog/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1795',
-         'menu-item-target' => '_self',
+         'menu-item-object-id' => '2434',
+         'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/blog/',
-           'target' => '_self',
+           'target' => '',
         )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 1794,
+         'menu-item-db-id' => 2435,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Get a Quote',
          'menu-item-url' => '{{upfront:home_url}}/get-quote-inner/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1794',
-         'menu-item-target' => '_self',
+         'menu-item-object-id' => '2435',
+         'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/get-quote-inner/',
-           'target' => '_self',
+           'target' => '',
         )),
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 1796,
+         'menu-item-db-id' => 2436,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '{{upfront:home_url}}/about-inner/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1796',
-         'menu-item-target' => '_self',
+         'menu-item-object-id' => '2436',
+         'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/about-inner/',
-           'target' => '_self',
+           'target' => '',
         )),
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 1797,
+         'menu-item-db-id' => 2437,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'Coverage Area',
+         'menu-item-title' => 'Contact Us',
          'menu-item-url' => '{{upfront:home_url}}/coverage-area-inner/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1797',
-         'menu-item-target' => '_self',
+         'menu-item-object-id' => '2437',
+         'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/coverage-area-inner/',
-           'target' => '_self',
+           'target' => '',
         )),
       )),
     ),
@@ -322,23 +324,23 @@ $region_b82caa->add_element("Unewnavigation", array (
          'theme_style' => '_default',
          'width' => 570,
          'burger_menu' => 'yes',
-         'burger_alignment' => 'top',
+         'burger_alignment' => 'right',
          'burger_over' => 'over',
          'row' => 14,
          'menu_style' => 'horizontal',
-         'menu_alignment' => 'center',
+         'menu_alignment' => 'right',
          'is_floating' => 'no',
       )),
        'mobile' => 
       (array)(array(
          'burger_menu' => 'yes',
-         'burger_alignment' => 'top',
+         'burger_alignment' => 'right',
          'burger_over' => 'over',
          'width' => 315,
          'row' => 15,
          'theme_style' => '_default',
          'menu_style' => 'horizontal',
-         'menu_alignment' => 'center',
+         'menu_alignment' => 'right',
          'is_floating' => 'no',
       )),
     )),
@@ -352,16 +354,16 @@ $region_b82caa->add_element("Unewnavigation", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 5,
+      'col' => 8,
       'clear' => false,
-      'order' => 2,
+      'order' => 1,
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 2,
+      'edited' => true,
+      'col' => 4,
       'clear' => false,
-      'order' => 0,
+      'order' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -376,7 +378,7 @@ $region_b82caa->add_element("Unewnavigation", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 3,
+      'left' => 6,
       'col' => 2,
       'top' => 1,
       'row' => 14,
@@ -384,9 +386,9 @@ $region_b82caa->add_element("Unewnavigation", array (
     'mobile' => 
     array (
       'edited' => true,
-      'left' => 0,
+      'left' => 2,
       'col' => 2,
-      'top' => 3,
+      'top' => 1,
       'row' => 15,
     ),
     'custom-1410783666947' => 
@@ -399,7 +401,7 @@ $region_b82caa->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_b82caa->add_element("PlainTxt", array (
+$region_c97472->add_element("PlainTxt", array (
   'columns' => '5',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -446,15 +448,17 @@ $region_b82caa->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
+      'edited' => true,
+      'col' => 11,
+      'order' => 2,
+      'clear' => true,
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
+      'edited' => true,
+      'col' => 4,
+      'order' => 2,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -468,17 +472,19 @@ $region_b82caa->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 0,
+      'left' => 5,
       'col' => 6,
       'top' => 0,
       'row' => 14,
+      'hide' => 0,
     ),
     'mobile' => 
     array (
       'edited' => true,
-      'left' => 1,
-      'col' => 5,
+      'left' => 0,
+      'col' => 4,
       'top' => 0,
+      'hide' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -492,6 +498,6 @@ $region_b82caa->add_element("PlainTxt", array (
   ),
 ));
 
-$regions->add($region_b82caa);
+$regions->add($region_c97472);
 
 /* END_REGION_OUTPUT */
