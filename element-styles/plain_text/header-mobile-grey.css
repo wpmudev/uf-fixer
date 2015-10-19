@@ -1,5 +1,6 @@
-#page .slider-txt-mobile h1 {
+#page .header-mobile-grey h1 {
     font-size: 50px;
     text-align: center !important;
     font-weight:900!important;
+    color:#333;
 }

@@ -31,7 +31,7 @@ $region_14 = upfront_create_region(
        'edited' => true,
        'background_type' => 'slider',
        'background_color' => 'rgba(254,212,27,1)',
-       'row' => 108,
+       'row' => 146,
     )),
      'custom-1410783666947' => 
     (array)(array(
@@ -64,7 +64,7 @@ $region_14 = upfront_create_region(
   ),
   'background_image' => '{{upfront:style_url}}/images/archive-home/slider-a.jpg',
   'background_image_ratio' => 0.68000000000000004884981308350688777863979339599609375,
-  'original_height' => 1046,
+  'original_height' => 1263,
 )
 			);
 
@@ -165,7 +165,7 @@ $region_14->add_element("Uimage", array (
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 4,
+      'col' => 3,
       'clear' => true,
       'order' => 0,
     ),
@@ -190,10 +190,10 @@ $region_14->add_element("Uimage", array (
     'mobile' => 
     array (
       'edited' => true,
-      'left' => 1,
+      'left' => 0,
       'col' => 3,
       'row' => 12,
-      'top' => 5,
+      'top' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -224,92 +224,92 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 7,
+         'menu-item-db-id' => 2428,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Service',
          'menu-item-url' => '#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '7',
-         'menu-item-target' => '_self',
+         'menu-item-object-id' => '2428',
+         'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
         (array)(array(
            'type' => 'anchor',
            'url' => '#services',
-           'target' => '_self',
+           'target' => '',
         )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 8,
+         'menu-item-db-id' => 2429,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Get a Quote',
          'menu-item-url' => '#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '8',
-         'menu-item-target' => '_self',
+         'menu-item-object-id' => '2429',
+         'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
         (array)(array(
            'type' => 'anchor',
            'url' => '#quote',
-           'target' => '_self',
+           'target' => '',
         )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 9,
+         'menu-item-db-id' => 2430,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Blog',
-         'menu-item-url' => '{{upfront:home_url}}/blog',
+         'menu-item-url' => '#blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '9',
+         'menu-item-object-id' => '2430',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
         (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/blog',
+           'type' => 'anchor',
+           'url' => '#blog',
            'target' => '',
         )),
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 10,
+         'menu-item-db-id' => 2431,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '10',
-         'menu-item-target' => '_self',
+         'menu-item-object-id' => '2431',
+         'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
         (array)(array(
            'type' => 'anchor',
            'url' => '#about',
-           'target' => '_self',
+           'target' => '',
         )),
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 11,
+         'menu-item-db-id' => 2432,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'Coverage Area',
-         'menu-item-url' => '#coverage',
+         'menu-item-title' => 'Contact Us',
+         'menu-item-url' => '#contact',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '11',
-         'menu-item-target' => '_self',
+         'menu-item-object-id' => '2432',
+         'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 
         (array)(array(
            'type' => 'anchor',
-           'url' => '#coverage',
-           'target' => '_self',
+           'url' => '#contact',
+           'target' => '',
         )),
       )),
     ),
@@ -391,7 +391,7 @@ $region_14->add_element("Unewnavigation", array (
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 2,
+      'col' => 4,
       'clear' => false,
       'order' => 1,
     ),
@@ -416,9 +416,9 @@ $region_14->add_element("Unewnavigation", array (
     'mobile' => 
     array (
       'edited' => true,
-      'left' => 0,
+      'left' => 2,
       'col' => 2,
-      'top' => 3,
+      'top' => 0,
       'row' => 15,
     ),
     'custom-1410783666947' => 
@@ -487,7 +487,7 @@ $region_14->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 6,
+      'col' => 5,
       'clear' => true,
       'order' => 2,
     ),
@@ -516,6 +516,7 @@ $region_14->add_element("PlainTxt", array (
       'left' => 1,
       'col' => 5,
       'top' => 0,
+      'hide' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -591,7 +592,7 @@ $region_14->add_element("PlainTxt", array (
       'edited' => true,
       'col' => 7,
       'clear' => true,
-      'order' => 3,
+      'order' => 5,
     ),
     'custom-1410783666947' => 
     array (
@@ -608,7 +609,7 @@ $region_14->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 12,
-      'top' => 31,
+      'top' => 41,
       'row' => 45,
       'hide' => 0,
     ),
@@ -617,7 +618,7 @@ $region_14->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 7,
-      'top' => 21,
+      'top' => 26,
       'row' => 25,
     ),
     'custom-1410783666947' => 
@@ -686,9 +687,9 @@ $region_14->add_element("Button", array (
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 6,
+      'col' => 5,
       'clear' => true,
-      'order' => 4,
+      'order' => 3,
     ),
     'custom-1410783666947' => 
     array (
@@ -712,9 +713,10 @@ $region_14->add_element("Button", array (
     'mobile' => 
     array (
       'edited' => true,
-      'left' => 1,
+      'left' => 0,
       'col' => 5,
-      'top' => 20,
+      'top' => 0,
+      'hide' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -780,9 +782,9 @@ $region_14->add_element("Button", array (
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 6,
+      'col' => 5,
       'clear' => true,
-      'order' => 5,
+      'order' => 4,
     ),
     'custom-1410783666947' => 
     array (
@@ -809,6 +811,7 @@ $region_14->add_element("Button", array (
       'left' => 1,
       'col' => 5,
       'top' => 0,
+      'hide' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -857,7 +860,7 @@ $region_13 = upfront_create_region(
        'background_position' => '50% 79%',
        'background_position_x' => '50',
        'background_type' => 'color',
-       'row' => 571,
+       'row' => 292,
     )),
      'custom-1410783666947' => 
     (array)(array(
@@ -1000,7 +1003,8 @@ Service &amp; Quality</span>
     (array)(array(
        'mobile' => 
       (array)(array(
-         'row' => 34,
+         'row' => 25,
+         'theme_style' => 'slider-txt-mobile',
       )),
        'tablet' => 
       (array)(array(
@@ -1051,7 +1055,7 @@ Service &amp; Quality</span>
       'edited' => true,
       'left' => 0,
       'col' => 7,
-      'row' => 34,
+      'row' => 25,
       'top' => 0,
     ),
     'custom-1410783666947' => 
@@ -1096,9 +1100,10 @@ $region_13->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 2,
+      'clear' => true,
     ),
   ),
   'breakpoint' => 
@@ -1119,7 +1124,8 @@ $region_13->add_group(array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'top' => 54,
+      'top' => 7,
+      'theme_style' => 'quality-style',
     ),
     'custom-1410783666947' => 
     array (
@@ -1164,6 +1170,11 @@ $region_13->add_element("PlainTxt", array (
          'row' => 6,
          'theme_style' => 'text-center',
       )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'text-center-2',
+         'row' => 5,
+      )),
     )),
   ),
   'row' => 6,
@@ -1181,9 +1192,10 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
       'order' => 0,
+      'clear' => false,
     ),
     'custom-1410783666947' => 
     array (
@@ -1205,10 +1217,11 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 5,
     ),
     'custom-1410783666947' => 
     array (
@@ -1312,9 +1325,10 @@ $region_13->add_element("Uimage", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
+      'clear' => false,
     ),
     'custom-1410783666947' => 
     array (
@@ -1337,10 +1351,12 @@ $region_13->add_element("Uimage", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
+      'hide' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -1387,6 +1403,11 @@ $region_13->add_element("PlainTxt", array (
          'row' => 6,
          'theme_style' => 'text-center',
       )),
+       'mobile' => 
+      (array)(array(
+         'row' => 5,
+         'theme_style' => 'text-center-2',
+      )),
     )),
   ),
   'row' => 6,
@@ -1404,9 +1425,10 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 2,
+      'clear' => false,
     ),
     'custom-1410783666947' => 
     array (
@@ -1428,10 +1450,12 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 5,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -1470,6 +1494,11 @@ $region_13->add_element("PlainTxt", array (
          'row' => 4,
          'theme_style' => 'plus-button',
       )),
+       'mobile' => 
+      (array)(array(
+         'row' => 5,
+         'theme_style' => 'plus-button',
+      )),
     )),
     'border_style' => 'none',
     'border_width' => 1,
@@ -1492,9 +1521,10 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
+      'edited' => true,
+      'col' => 7,
+      'order' => 3,
+      'clear' => false,
     ),
     'custom-1410783666947' => 
     array (
@@ -1516,10 +1546,12 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
+      'edited' => true,
+      'left' => 0,
+      'col' => 7,
       'order' => 0,
+      'row' => 5,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -1562,9 +1594,10 @@ $region_13->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 5,
+      'clear' => true,
     ),
   ),
   'breakpoint' => 
@@ -1585,6 +1618,7 @@ $region_13->add_group(array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'theme_style' => 'quality-style',
     ),
     'custom-1410783666947' => 
     array (
@@ -1628,6 +1662,10 @@ $region_13->add_element("PlainTxt", array (
          'row' => 7,
          'theme_style' => 'text-center',
       )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'text-center-2',
+      )),
     )),
   ),
   'row' => 6,
@@ -1645,9 +1683,10 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
       'order' => 0,
+      'clear' => false,
     ),
     'custom-1410783666947' => 
     array (
@@ -1778,9 +1817,10 @@ $region_13->add_element("Uimage", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
+      'clear' => false,
     ),
     'custom-1410783666947' => 
     array (
@@ -1807,6 +1847,7 @@ $region_13->add_element("Uimage", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'hide' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -1854,6 +1895,11 @@ $region_13->add_element("PlainTxt", array (
          'row' => 9,
          'theme_style' => 'text-center',
       )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'text-center-2',
+         'row' => 5,
+      )),
     )),
   ),
   'row' => 6,
@@ -1871,9 +1917,10 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 2,
+      'clear' => false,
     ),
     'custom-1410783666947' => 
     array (
@@ -1895,10 +1942,12 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
+      'row' => 5,
     ),
     'custom-1410783666947' => 
     array (
@@ -1942,6 +1991,11 @@ $region_13->add_element("PlainTxt", array (
          'row' => 7,
          'theme_style' => 'plus-button',
       )),
+       'mobile' => 
+      (array)(array(
+         'row' => 4,
+         'theme_style' => 'plus-button',
+      )),
     )),
   ),
   'row' => 6,
@@ -1959,9 +2013,10 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
+      'edited' => true,
+      'col' => 7,
+      'order' => 3,
+      'clear' => false,
     ),
     'custom-1410783666947' => 
     array (
@@ -1983,10 +2038,12 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
+      'edited' => true,
+      'left' => 0,
+      'col' => 7,
       'order' => 0,
+      'row' => 4,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -2030,9 +2087,10 @@ $region_13->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 3,
+      'clear' => true,
     ),
   ),
   'breakpoint' => 
@@ -2049,10 +2107,13 @@ $region_13->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
+      'theme_style' => 'quality-style',
+      'row' => 24,
     ),
     'custom-1410783666947' => 
     array (
@@ -2096,6 +2157,11 @@ $region_13->add_element("PlainTxt", array (
          'row' => 6,
          'theme_style' => 'text-center',
       )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'text-center-2',
+         'row' => 5,
+      )),
     )),
   ),
   'row' => 6,
@@ -2113,9 +2179,10 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
       'order' => 0,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -2136,10 +2203,11 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 5,
     ),
     'custom-1410783666947' => 
     array (
@@ -2245,9 +2313,10 @@ $region_13->add_element("Uimage", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -2274,6 +2343,7 @@ $region_13->add_element("Uimage", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'hide' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -2320,6 +2390,11 @@ $region_13->add_element("PlainTxt", array (
          'row' => 8,
          'theme_style' => 'text-center',
       )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'text-center-2',
+         'row' => 10,
+      )),
     )),
   ),
   'row' => 6,
@@ -2337,9 +2412,10 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 2,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -2361,10 +2437,12 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 10,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -2403,6 +2481,11 @@ $region_13->add_element("PlainTxt", array (
          'row' => 4,
          'theme_style' => 'plus-button',
       )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'plus-button',
+         'row' => 7,
+      )),
     )),
     'border_style' => 'none',
     'border_width' => 1,
@@ -2425,9 +2508,10 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
+      'edited' => true,
+      'col' => 7,
+      'order' => 3,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -2449,10 +2533,12 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
+      'edited' => true,
+      'left' => 0,
+      'col' => 7,
       'order' => 0,
+      'row' => 7,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -2495,9 +2581,10 @@ $region_13->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 6,
+      'clear' => true,
     ),
   ),
   'breakpoint' => 
@@ -2514,10 +2601,12 @@ $region_13->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'theme_style' => 'quality-style',
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -2561,6 +2650,10 @@ $region_13->add_element("PlainTxt", array (
          'row' => 5,
          'theme_style' => 'text-center',
       )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'text-center-2',
+      )),
     )),
   ),
   'row' => 6,
@@ -2578,9 +2671,10 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
       'order' => 0,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -2709,9 +2803,10 @@ $region_13->add_element("Uimage", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -2734,10 +2829,12 @@ $region_13->add_element("Uimage", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
+      'hide' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -2785,6 +2882,11 @@ $region_13->add_element("PlainTxt", array (
          'row' => 6,
          'theme_style' => 'text-center',
       )),
+       'mobile' => 
+      (array)(array(
+         'row' => 8,
+         'theme_style' => 'text-center-2',
+      )),
     )),
   ),
   'row' => 6,
@@ -2802,9 +2904,10 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 2,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -2826,10 +2929,12 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
+      'row' => 8,
     ),
     'custom-1410783666947' => 
     array (
@@ -2868,6 +2973,11 @@ $region_13->add_element("PlainTxt", array (
          'row' => 6,
          'theme_style' => 'plus-button',
       )),
+       'mobile' => 
+      (array)(array(
+         'row' => 6,
+         'theme_style' => 'plus-button',
+      )),
     )),
     'border_style' => 'none',
     'border_width' => 1,
@@ -2890,9 +3000,10 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
+      'edited' => true,
+      'col' => 7,
+      'order' => 3,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -2914,10 +3025,12 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
+      'edited' => true,
+      'left' => 0,
+      'col' => 7,
       'order' => 0,
+      'row' => 6,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -2988,10 +3101,12 @@ $region_13->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'theme_style' => 'quality-style',
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -3035,6 +3150,10 @@ $region_13->add_element("PlainTxt", array (
          'row' => 6,
          'theme_style' => 'text-center',
       )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'text-center-2',
+      )),
     )),
   ),
   'row' => 6,
@@ -3052,9 +3171,10 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
       'order' => 0,
+      'clear' => false,
     ),
     'custom-1410783666947' => 
     array (
@@ -3183,9 +3303,10 @@ $region_13->add_element("Uimage", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
+      'clear' => false,
     ),
     'custom-1410783666947' => 
     array (
@@ -3212,6 +3333,7 @@ $region_13->add_element("Uimage", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'hide' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -3259,6 +3381,11 @@ $region_13->add_element("PlainTxt", array (
          'row' => 8,
          'theme_style' => 'text-center',
       )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'text-center-2',
+         'row' => 8,
+      )),
     )),
   ),
   'row' => 6,
@@ -3276,9 +3403,10 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 2,
+      'clear' => false,
     ),
     'custom-1410783666947' => 
     array (
@@ -3300,10 +3428,11 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 8,
     ),
     'custom-1410783666947' => 
     array (
@@ -3342,6 +3471,11 @@ $region_13->add_element("PlainTxt", array (
          'row' => 5,
          'theme_style' => 'plus-button',
       )),
+       'mobile' => 
+      (array)(array(
+         'row' => 7,
+         'theme_style' => 'plus-button',
+      )),
     )),
     'border_style' => 'none',
     'border_width' => 1,
@@ -3364,9 +3498,10 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
+      'edited' => true,
+      'col' => 7,
+      'order' => 3,
+      'clear' => false,
     ),
     'custom-1410783666947' => 
     array (
@@ -3388,10 +3523,12 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
+      'edited' => true,
+      'left' => 0,
+      'col' => 7,
       'order' => 0,
+      'row' => 7,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -3436,7 +3573,7 @@ $region_13->add_group(array (
     array (
       'edited' => true,
       'col' => 7,
-      'order' => 2,
+      'order' => 7,
       'clear' => true,
     ),
     'custom-1410783666947' => 
@@ -3461,10 +3598,12 @@ $region_13->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
+      'theme_style' => 'quality-style-no-border',
     ),
     'custom-1410783666947' => 
     array (
@@ -3508,6 +3647,10 @@ $region_13->add_element("PlainTxt", array (
          'row' => 5,
          'theme_style' => 'text-center',
       )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'text-center-2',
+      )),
     )),
   ),
   'row' => 6,
@@ -3525,9 +3668,10 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => -1,
+      'clear' => false,
     ),
     'custom-1410783666947' => 
     array (
@@ -3656,9 +3800,10 @@ $region_13->add_element("Uimage", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 0,
+      'edited' => true,
+      'col' => -12,
+      'order' => 3,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -3681,10 +3826,12 @@ $region_13->add_element("Uimage", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'left' => 0,
+      'edited' => true,
+      'left' => -19,
       'col' => 7,
       'order' => 0,
+      'hide' => 1,
+      'top' => 2,
     ),
     'custom-1410783666947' => 
     array (
@@ -3732,6 +3879,11 @@ $region_13->add_element("PlainTxt", array (
          'row' => 7,
          'theme_style' => 'text-center',
       )),
+       'mobile' => 
+      (array)(array(
+         'row' => 8,
+         'theme_style' => 'text-center-2',
+      )),
     )),
   ),
   'row' => 6,
@@ -3749,9 +3901,10 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
+      'clear' => false,
     ),
     'custom-1410783666947' => 
     array (
@@ -3773,10 +3926,12 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
+      'row' => 8,
     ),
     'custom-1410783666947' => 
     array (
@@ -3815,6 +3970,11 @@ $region_13->add_element("PlainTxt", array (
          'row' => 6,
          'theme_style' => 'plus-button',
       )),
+       'mobile' => 
+      (array)(array(
+         'row' => 5,
+         'theme_style' => 'plus-button',
+      )),
     )),
     'border_style' => 'none',
     'border_width' => 1,
@@ -3837,9 +3997,10 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
+      'edited' => true,
+      'col' => 7,
+      'order' => 2,
+      'clear' => false,
     ),
     'custom-1410783666947' => 
     array (
@@ -3862,10 +4023,12 @@ $region_13->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 5,
+      'edited' => true,
+      'left' => 5,
+      'col' => 2,
       'order' => 0,
+      'row' => 5,
+      'top' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -3941,6 +4104,13 @@ $quote->add_element("PlainTxt", array (
     'anchor' => 'quote',
     'row' => 8,
     'theme_style' => 'u-sub-heading',
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'row' => 6,
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -3984,8 +4154,9 @@ $quote->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 7,
-      'top' => 5,
+      'top' => 7,
       'order' => 0,
+      'row' => 6,
     ),
     'custom-1410783666947' => 
     array (
@@ -4021,6 +4192,13 @@ $quote->add_element("PlainTxt", array (
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'header-mobile-grey',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -4115,7 +4293,7 @@ $quote->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'u-sub-heading-mobile',
+         'theme_style' => 'text-center-2',
       )),
     )),
   ),
@@ -4216,7 +4394,7 @@ $quote->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'u-sub-heading-mobile',
+         'theme_style' => 'title-grey-text',
          'row' => 11,
       )),
     )),
@@ -4319,7 +4497,7 @@ $quote->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'u-sub-heading-mobile',
+         'theme_style' => 'title-grey-text',
       )),
     )),
   ),
@@ -4651,7 +4829,7 @@ Lor<span id="selection-marker-1" class="redactor-selection-marker" data-verified
        'mobile' => 
       (array)(array(
          'row' => 26,
-         'theme_style' => 'u-paragraph-mobile',
+         'theme_style' => 'text-center-2',
       )),
        'custom-1410783666947' => 
       (array)(array(
@@ -4856,7 +5034,7 @@ $quote->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'row' => 26,
-         'theme_style' => 'u-paragraph-mobile',
+         'theme_style' => 'text-center-2',
       )),
        'custom-1410783666947' => 
       (array)(array(

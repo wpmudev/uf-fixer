@@ -124,6 +124,7 @@ $footer->add_element("Uimage", array (
       )),
     )),
     'link_target' => '_self',
+    'no_padding' => '',
   ),
   'row' => 6,
   'sticky' => false,
