@@ -235,7 +235,7 @@ html {
 }
 button.mfp-arrow.mfp-arrow-right,
 button.mfp-arrow.mfp-arrow-left {
-    background: url("//localhost:8888/uf/wp-content/themes/uf-fixer/ui/slider-arrows.png") no-repeat;
+    background: url("UPFRONT_THEME_BASE/ui/slider-arrows.png") no-repeat;
     height: 50px;
     margin: 0;
     opacity: 1;
@@ -266,15 +266,9 @@ button.mfp-arrow.mfp-arrow-right:hover {
     white-space: nowrap;
 }
 
-.upfront-object p, .upfront-object h3 {
+p, h3 {
     padding-bottom:10px;
-}
-
-/* general tablet styles */
-@media only screen and (max-width: 1079px) and (min-width: 570px) {}
-
-/* general mobile styles */
-@media only screen and (max-width: 569px) {}',
+}',
 	'theme_fonts' => '[{\\"id\\":\\"Ralewayregular\\",\\"font\\":{\\"family\\":\\"Raleway\\",\\"category\\":\\"sans-serif\\",\\"variants\\":[\\"100\\",\\"200\\",\\"300\\",\\"regular\\",\\"500\\",\\"600\\",\\"700\\",\\"800\\",\\"900\\"]},\\"variant\\":\\"regular\\",\\"displayVariant\\":\\"regular\\"},{\\"id\\":\\"Raleway500\\",\\"font\\":{\\"family\\":\\"Raleway\\",\\"category\\":\\"sans-serif\\",\\"variants\\":[\\"100\\",\\"200\\",\\"300\\",\\"regular\\",\\"500\\",\\"600\\",\\"700\\",\\"800\\",\\"900\\"]},\\"variant\\":\\"500\\",\\"displayVariant\\":\\"500 normal\\"},{\\"id\\":\\"Raleway600\\",\\"font\\":{\\"family\\":\\"Raleway\\",\\"category\\":\\"sans-serif\\",\\"variants\\":[\\"100\\",\\"200\\",\\"300\\",\\"regular\\",\\"500\\",\\"600\\",\\"700\\",\\"800\\",\\"900\\"]},\\"variant\\":\\"600\\",\\"displayVariant\\":\\"600 normal\\"},{\\"id\\":\\"Raleway700\\",\\"font\\":{\\"family\\":\\"Raleway\\",\\"category\\":\\"sans-serif\\",\\"variants\\":[\\"100\\",\\"200\\",\\"300\\",\\"regular\\",\\"500\\",\\"600\\",\\"700\\",\\"800\\",\\"900\\"]},\\"variant\\":\\"700\\",\\"displayVariant\\":\\"700 normal\\"},{\\"id\\":\\"Raleway900\\",\\"font\\":{\\"family\\":\\"Raleway\\",\\"category\\":\\"sans-serif\\",\\"variants\\":[\\"100\\",\\"200\\",\\"300\\",\\"regular\\",\\"500\\",\\"600\\",\\"700\\",\\"800\\",\\"900\\"]},\\"variant\\":\\"900\\",\\"displayVariant\\":\\"900 normal\\"}]',
 	'theme_colors' => '{"colors":[{"color":"#ffffff","prev":"#ffffff","highlight":"#ffffff","shade":"#ffffff","selected":"","luminance":""},{"color":"#333333","prev":"#333333","highlight":"#333333","shade":"#333333","selected":"","luminance":""},{"color":"#d6e6f0","prev":"#d6e6f0","highlight":"#d6e6f0","shade":"#d6e6f0","selected":"","luminance":""},{"color":"#000000","prev":"#000000","highlight":"#000000","shade":"#000000","selected":"","luminance":""},{"color":"#ffe262","prev":"#ffe262","highlight":"#ffe262","shade":"#ffe262","selected":"","luminance":""},{"color":"#645191","prev":"#645191","highlight":"#645191","shade":"#645191","selected":"","luminance":""},{"color":"#5ebf6b","prev":"#5ebf6b","highlight":"#5ebf6b","shade":"#5ebf6b","selected":"","luminance":""}],"range":"0"}',
 	'layout_properties' => '[{"name":"background_color","value":""},{"name":"grid","value":{"column_widths":{"desktop":45},"column_paddings":{"desktop":"15"},"baselines":{"desktop":5},"type_paddings":{"desktop":10}}},{"name":"background_type","value":"color"},{"name":"use_padding","value":0},{"name":"contained_region_width","value":1080}]',
