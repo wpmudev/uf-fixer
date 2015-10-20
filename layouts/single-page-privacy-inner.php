@@ -149,7 +149,7 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => '_default',
+         'theme_style' => 'header-mobile-grey',
       )),
        'mobile' => 
       (array)(array(

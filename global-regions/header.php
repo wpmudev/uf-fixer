@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_cd566f = upfront_create_region(
+$region_c97472 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -21,13 +21,13 @@ $region_cd566f = upfront_create_region(
     (array)(array(
        'edited' => true,
        'col' => 24,
-       'row' => 2,
+       'row' => 25,
     )),
      'mobile' => 
     (array)(array(
        'edited' => true,
        'col' => 24,
-       'row' => 11,
+       'row' => 9,
     )),
      'custom-1410783666947' => 
     (array)(array(
@@ -43,7 +43,7 @@ $region_cd566f = upfront_create_region(
 )
 			);
 
-$region_cd566f->add_element("Uimage", array (
+$region_c97472->add_element("Uimage", array (
   'columns' => '4',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -115,16 +115,10 @@ $region_cd566f->add_element("Uimage", array (
     (array)(array(
        'mobile' => 
       (array)(array(
-         'row' => 13,
-      )),
-       'tablet' => 
-      (array)(array(
          'row' => 12,
       )),
     )),
     'link_target' => '_self',
-    'no_padding' => '',
-    'anchor' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -142,7 +136,7 @@ $region_cd566f->add_element("Uimage", array (
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 4,
+      'col' => 3,
       'clear' => true,
       'order' => 0,
     ),
@@ -162,15 +156,14 @@ $region_cd566f->add_element("Uimage", array (
       'left' => 0,
       'col' => 4,
       'top' => 1,
-      'row' => 12,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 4,
-      'row' => 13,
-      'top' => 2,
+      'col' => 3,
+      'row' => 12,
+      'top' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -182,7 +175,7 @@ $region_cd566f->add_element("Uimage", array (
   ),
 ));
 
-$region_cd566f->add_element("Unewnavigation", array (
+$region_c97472->add_element("Unewnavigation", array (
   'columns' => '13',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -333,7 +326,7 @@ $region_cd566f->add_element("Unewnavigation", array (
          'burger_menu' => 'yes',
          'burger_alignment' => 'right',
          'burger_over' => 'over',
-         'row' => 11,
+         'row' => 14,
          'menu_style' => 'horizontal',
          'menu_alignment' => 'right',
          'is_floating' => 'no',
@@ -344,7 +337,7 @@ $region_cd566f->add_element("Unewnavigation", array (
          'burger_alignment' => 'right',
          'burger_over' => 'over',
          'width' => 315,
-         'row' => 14,
+         'row' => 15,
          'theme_style' => '_default',
          'menu_style' => 'horizontal',
          'menu_alignment' => 'right',
@@ -368,7 +361,7 @@ $region_cd566f->add_element("Unewnavigation", array (
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 3,
+      'col' => 4,
       'clear' => false,
       'order' => 1,
     ),
@@ -388,15 +381,15 @@ $region_cd566f->add_element("Unewnavigation", array (
       'left' => 6,
       'col' => 2,
       'top' => 1,
-      'row' => 11,
+      'row' => 14,
     ),
     'mobile' => 
     array (
       'edited' => true,
-      'left' => 1,
+      'left' => 2,
       'col' => 2,
       'top' => 1,
-      'row' => 14,
+      'row' => 15,
     ),
     'custom-1410783666947' => 
     array (
@@ -408,7 +401,7 @@ $region_cd566f->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_cd566f->add_element("PlainTxt", array (
+$region_c97472->add_element("PlainTxt", array (
   'columns' => '5',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -456,7 +449,7 @@ $region_cd566f->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 4,
+      'col' => 11,
       'order' => 2,
       'clear' => true,
     ),
@@ -479,11 +472,11 @@ $region_cd566f->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 0,
-      'col' => 4,
+      'left' => 5,
+      'col' => 6,
       'top' => 0,
       'row' => 14,
-      'hide' => 1,
+      'hide' => 0,
     ),
     'mobile' => 
     array (
@@ -505,6 +498,6 @@ $region_cd566f->add_element("PlainTxt", array (
   ),
 ));
 
-$regions->add($region_cd566f);
+$regions->add($region_c97472);
 
 /* END_REGION_OUTPUT */

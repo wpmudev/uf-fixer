@@ -1,0 +1,13 @@
+#page .text-center h3, #page .text-center p, #page .text-center {
+    text-align:center!important;
+    line-height: 1.5em;
+    margin-bottom:10px;
+    padding: 0px 20px;
+}
+#page .text-center h1 {
+ text-align:center!important;
+ padding: 0px 20px;
+}
+#page .text-center p {
+    font-size:17px;
+}
