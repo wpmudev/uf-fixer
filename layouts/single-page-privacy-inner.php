@@ -45,7 +45,7 @@ $main->add_element("PlainTxt", array (
   'columns' => '24',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '10',
+  'margin_top' => '18',
   'margin_bottom' => '0',
   'class' => 'module-1432911649645-1709',
   'id' => 'module-1432911649645-1709',
@@ -53,7 +53,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;">Term &amp; Privacy</h2>',
+    'content' => '<h2 class="" style="text-align: center;">Terms &amp; Privacy</h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432911649644-1060',
     'class' => 'c24 upfront-plain_txt',
@@ -66,6 +66,13 @@ $main->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
     'theme_style' => 'u-sub-heading',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'theme_style' => 'u-sub-heading',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -125,7 +132,7 @@ $main->add_element("PlainTxt", array (
   'columns' => '24',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '0',
+  'margin_top' => '3',
   'margin_bottom' => '0',
   'class' => 'module-1432911660744-1583',
   'id' => 'module-1432911660744-1583',
@@ -133,7 +140,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h1 class="" style="text-align: center;">Community Guidelines</h1>',
+    'content' => '<h1 class="" style="text-align: center;"><span class="upfront_theme_color_1">Welcome to Fixer privacy policy</span><br></h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432911660743-1820',
     'class' => 'c24 upfront-plain_txt',
@@ -149,11 +156,12 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => 'header-mobile-grey',
+         'theme_style' => 'text-center',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'header-mobile-grey',
+         'theme_style' => 'text-center',
+         'row' => 51,
       )),
     )),
   ),
@@ -200,6 +208,7 @@ $main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 4,
+      'row' => 51,
     ),
     'custom-1410783666947' => 
     array (
@@ -215,7 +224,7 @@ $main->add_element("PlainTxt", array (
   'columns' => '18',
   'margin_left' => '3',
   'margin_right' => '0',
-  'margin_top' => '8',
+  'margin_top' => '5',
   'margin_bottom' => '0',
   'class' => 'module-1432911696509-1241',
   'id' => 'module-1432911696509-1241',

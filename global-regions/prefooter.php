@@ -21,6 +21,7 @@ $prefooter = upfront_create_region(
     (array)(array(
        'edited' => true,
        'row' => 33,
+       'background_type' => 'color',
     )),
      'mobile' => 
     (array)(array(
@@ -46,7 +47,7 @@ $prefooter->add_element("PlainTxt", array (
   'columns' => '9',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '12',
+  'margin_top' => '6',
   'margin_bottom' => '0',
   'class' => 'module-1406205224243-1651',
   'id' => 'module-1406205224243-1651',
@@ -72,7 +73,7 @@ $prefooter->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 36,
-         'theme_style' => 'text-center-2',
+         'theme_style' => 'text-center',
       )),
        'custom-1410783666947' => 
       (array)(array(
@@ -81,8 +82,8 @@ $prefooter->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center-2',
-         'row' => 10,
+         'theme_style' => 'text-center',
+         'row' => 34,
       )),
     )),
   ),
@@ -131,8 +132,8 @@ $prefooter->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'top' => 9,
-      'row' => 10,
+      'top' => 5,
+      'row' => 34,
     ),
     'custom-1410783666947' => 
     array (
@@ -150,7 +151,7 @@ $prefooter->add_group(array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '13',
+  'margin_top' => '8',
   'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1444287871082-1387',
@@ -391,7 +392,7 @@ $prefooter->add_group(array (
   'columns' => '7',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '14',
+  'margin_top' => '8',
   'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1444287667908-1769',
@@ -440,6 +441,7 @@ $prefooter->add_group(array (
       'col' => 7,
       'order' => 0,
       'top' => 0,
+      'row' => 0,
     ),
   ),
 ));
