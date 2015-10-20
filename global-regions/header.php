@@ -1,6 +1,10 @@
 <?php
 /* START_REGION_OUTPUT */
+<<<<<<< HEAD
 $region_cd566f = upfront_create_region(
+=======
+$region_b82caa = upfront_create_region(
+>>>>>>> parent of af20433... Styling
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -19,15 +23,21 @@ $region_cd566f = upfront_create_region(
   (array)(array(
      'tablet' => 
     (array)(array(
-       'edited' => true,
+       'edited' => false,
        'col' => 24,
+<<<<<<< HEAD
        'row' => 2,
+=======
+>>>>>>> parent of af20433... Styling
     )),
      'mobile' => 
     (array)(array(
-       'edited' => true,
+       'edited' => false,
        'col' => 24,
+<<<<<<< HEAD
        'row' => 11,
+=======
+>>>>>>> parent of af20433... Styling
     )),
      'custom-1410783666947' => 
     (array)(array(
@@ -43,7 +53,11 @@ $region_cd566f = upfront_create_region(
 )
 			);
 
+<<<<<<< HEAD
 $region_cd566f->add_element("Uimage", array (
+=======
+$region_b82caa->add_element("Uimage", array (
+>>>>>>> parent of af20433... Styling
   'columns' => '4',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -135,13 +149,17 @@ $region_cd566f->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 4,
+      'col' => 8,
       'clear' => true,
       'order' => 0,
     ),
     'mobile' => 
     array (
+<<<<<<< HEAD
       'edited' => true,
+=======
+      'edited' => false,
+>>>>>>> parent of af20433... Styling
       'col' => 4,
       'clear' => true,
       'order' => 0,
@@ -159,18 +177,29 @@ $region_cd566f->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 0,
+      'left' => 4,
       'col' => 4,
+<<<<<<< HEAD
       'top' => 1,
       'row' => 12,
+=======
+      'top' => 3,
+>>>>>>> parent of af20433... Styling
     ),
     'mobile' => 
     array (
       'edited' => true,
+<<<<<<< HEAD
       'left' => 0,
       'col' => 4,
       'row' => 13,
       'top' => 2,
+=======
+      'left' => 1,
+      'col' => 3,
+      'row' => 12,
+      'top' => 5,
+>>>>>>> parent of af20433... Styling
     ),
     'custom-1410783666947' => 
     array (
@@ -182,7 +211,11 @@ $region_cd566f->add_element("Uimage", array (
   ),
 ));
 
+<<<<<<< HEAD
 $region_cd566f->add_element("Unewnavigation", array (
+=======
+$region_b82caa->add_element("Unewnavigation", array (
+>>>>>>> parent of af20433... Styling
   'columns' => '13',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -201,92 +234,92 @@ $region_cd566f->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 2433,
+         'menu-item-db-id' => 1793,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Services',
          'menu-item-url' => '{{upfront:home_url}}/services-inner/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2433',
-         'menu-item-target' => '',
+         'menu-item-object-id' => '1793',
+         'menu-item-target' => '_self',
          'menu-item-position' => 1,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/services-inner/',
-           'target' => '',
+           'target' => '_self',
         )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 2434,
+         'menu-item-db-id' => 1795,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Blog',
          'menu-item-url' => '{{upfront:home_url}}/blog/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2434',
-         'menu-item-target' => '',
+         'menu-item-object-id' => '1795',
+         'menu-item-target' => '_self',
          'menu-item-position' => 2,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/blog/',
-           'target' => '',
+           'target' => '_self',
         )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 2435,
+         'menu-item-db-id' => 1794,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Get a Quote',
          'menu-item-url' => '{{upfront:home_url}}/get-quote-inner/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2435',
-         'menu-item-target' => '',
+         'menu-item-object-id' => '1794',
+         'menu-item-target' => '_self',
          'menu-item-position' => 3,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/get-quote-inner/',
-           'target' => '',
+           'target' => '_self',
         )),
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 2436,
+         'menu-item-db-id' => 1796,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '{{upfront:home_url}}/about-inner/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2436',
-         'menu-item-target' => '',
+         'menu-item-object-id' => '1796',
+         'menu-item-target' => '_self',
          'menu-item-position' => 4,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/about-inner/',
-           'target' => '',
+           'target' => '_self',
         )),
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 2437,
+         'menu-item-db-id' => 1797,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'Contact Us',
+         'menu-item-title' => 'Coverage Area',
          'menu-item-url' => '{{upfront:home_url}}/coverage-area-inner/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2437',
-         'menu-item-target' => '',
+         'menu-item-object-id' => '1797',
+         'menu-item-target' => '_self',
          'menu-item-position' => 5,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/coverage-area-inner/',
-           'target' => '',
+           'target' => '_self',
         )),
       )),
     ),
@@ -331,23 +364,23 @@ $region_cd566f->add_element("Unewnavigation", array (
          'theme_style' => '_default',
          'width' => 570,
          'burger_menu' => 'yes',
-         'burger_alignment' => 'right',
+         'burger_alignment' => 'top',
          'burger_over' => 'over',
          'row' => 11,
          'menu_style' => 'horizontal',
-         'menu_alignment' => 'right',
+         'menu_alignment' => 'center',
          'is_floating' => 'no',
       )),
        'mobile' => 
       (array)(array(
          'burger_menu' => 'yes',
-         'burger_alignment' => 'right',
+         'burger_alignment' => 'top',
          'burger_over' => 'over',
          'width' => 315,
          'row' => 14,
          'theme_style' => '_default',
          'menu_style' => 'horizontal',
-         'menu_alignment' => 'right',
+         'menu_alignment' => 'center',
          'is_floating' => 'no',
       )),
     )),
@@ -361,16 +394,21 @@ $region_cd566f->add_element("Unewnavigation", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 8,
+      'col' => 5,
       'clear' => false,
-      'order' => 1,
+      'order' => 2,
     ),
     'mobile' => 
     array (
+<<<<<<< HEAD
       'edited' => true,
       'col' => 3,
+=======
+      'edited' => false,
+      'col' => 2,
+>>>>>>> parent of af20433... Styling
       'clear' => false,
-      'order' => 1,
+      'order' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -385,7 +423,7 @@ $region_cd566f->add_element("Unewnavigation", array (
     'tablet' => 
     array (
       'edited' => true,
-      'left' => 6,
+      'left' => 3,
       'col' => 2,
       'top' => 1,
       'row' => 11,
@@ -393,10 +431,17 @@ $region_cd566f->add_element("Unewnavigation", array (
     'mobile' => 
     array (
       'edited' => true,
+<<<<<<< HEAD
       'left' => 1,
       'col' => 2,
       'top' => 1,
       'row' => 14,
+=======
+      'left' => 0,
+      'col' => 2,
+      'top' => 3,
+      'row' => 15,
+>>>>>>> parent of af20433... Styling
     ),
     'custom-1410783666947' => 
     array (
@@ -408,7 +453,11 @@ $region_cd566f->add_element("Unewnavigation", array (
   ),
 ));
 
+<<<<<<< HEAD
 $region_cd566f->add_element("PlainTxt", array (
+=======
+$region_b82caa->add_element("PlainTxt", array (
+>>>>>>> parent of af20433... Styling
   'columns' => '5',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -455,17 +504,22 @@ $region_cd566f->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
+<<<<<<< HEAD
       'edited' => true,
       'col' => 4,
       'order' => 2,
       'clear' => true,
+=======
+      'edited' => false,
+      'col' => 6,
+      'order' => 0,
+>>>>>>> parent of af20433... Styling
     ),
     'mobile' => 
     array (
-      'edited' => true,
-      'col' => 4,
-      'order' => 2,
-      'clear' => true,
+      'edited' => false,
+      'col' => 6,
+      'order' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -480,18 +534,23 @@ $region_cd566f->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'left' => 0,
+<<<<<<< HEAD
       'col' => 4,
       'top' => 0,
       'row' => 14,
       'hide' => 1,
+=======
+      'col' => 6,
+      'top' => 0,
+      'row' => 14,
+>>>>>>> parent of af20433... Styling
     ),
     'mobile' => 
     array (
       'edited' => true,
-      'left' => 0,
-      'col' => 4,
+      'left' => 1,
+      'col' => 5,
       'top' => 0,
-      'hide' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -505,6 +564,10 @@ $region_cd566f->add_element("PlainTxt", array (
   ),
 ));
 
+<<<<<<< HEAD
 $regions->add($region_cd566f);
+=======
+$regions->add($region_b82caa);
+>>>>>>> parent of af20433... Styling
 
 /* END_REGION_OUTPUT */

@@ -25,8 +25,7 @@ $prefooter = upfront_create_region(
      'mobile' => 
     (array)(array(
        'edited' => true,
-       'row' => 58,
-       'background_type' => 'color',
+       'row' => 100,
     )),
      'custom-1410783666947' => 
     (array)(array(
@@ -81,8 +80,7 @@ $prefooter->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center-2',
-         'row' => 10,
+         'theme_style' => 'u-paragraph-mobile',
       )),
     )),
   ),
@@ -132,7 +130,6 @@ $prefooter->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 0,
       'top' => 9,
-      'row' => 10,
     ),
     'custom-1410783666947' => 
     array (
@@ -175,10 +172,9 @@ $prefooter->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'col' => 7,
-      'order' => 1,
-      'clear' => true,
+      'order' => 0,
     ),
   ),
   'breakpoint' => 
@@ -195,11 +191,10 @@ $prefooter->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'top' => 0,
     ),
   ),
 ));
@@ -310,7 +305,6 @@ $prefooter->add_element("Uimage", array (
       'left' => 0,
       'col' => 2,
       'order' => 0,
-      'hide' => 1,
     ),
   ),
   'group' => 'module-group-1444287871082-1387',
@@ -373,7 +367,6 @@ $prefooter->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 4,
       'order' => 1,
-      'hide' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -416,10 +409,9 @@ $prefooter->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'col' => 7,
-      'order' => 2,
-      'clear' => true,
+      'order' => 0,
     ),
   ),
   'breakpoint' => 
@@ -435,11 +427,10 @@ $prefooter->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'top' => 0,
     ),
   ),
 ));
@@ -549,7 +540,6 @@ $prefooter->add_element("Uimage", array (
       'left' => 2,
       'col' => 3,
       'order' => 0,
-      'hide' => 1,
     ),
   ),
   'group' => 'module-group-1444287667908-1769',
@@ -629,7 +619,6 @@ $prefooter->add_element("PlainTxt", array (
       'order' => 0,
       'row' => 13,
       'top' => 2,
-      'hide' => 1,
     ),
     'custom-1410783666947' => 
     array (

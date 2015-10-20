@@ -27,7 +27,7 @@ $footer = upfront_create_region(
     (array)(array(
        'edited' => true,
        'col' => 24,
-       'row' => 14,
+       'row' => 51,
     )),
      'custom-1410783666947' => 
     (array)(array(
@@ -172,7 +172,6 @@ $footer->add_element("Uimage", array (
       'col' => 3,
       'order' => 0,
       'top' => 5,
-      'hide' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -265,7 +264,6 @@ $footer->add_element("PlainTxt", array (
       'order' => 0,
       'row' => 7,
       'top' => 0,
-      'hide' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -315,10 +313,6 @@ $footer->add_element("PlainTxt", array (
       (array)(array(
          'row' => 8,
       )),
-       'mobile' => 
-      (array)(array(
-         'row' => 13,
-      )),
     )),
   ),
   'row' => 6,
@@ -336,7 +330,7 @@ $footer->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 4,
+      'col' => 6,
       'order' => 2,
       'clear' => true,
     ),
@@ -359,13 +353,10 @@ $footer->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 4,
+      'edited' => false,
+      'left' => 1,
+      'col' => 5,
       'order' => 0,
-      'row' => 13,
-      'top' => 0,
-      'hide' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -411,11 +402,6 @@ $footer->add_element("PlainTxt", array (
       (array)(array(
          'row' => 13,
       )),
-       'mobile' => 
-      (array)(array(
-         'row' => 14,
-         'theme_style' => 'u-paragraph-footer',
-      )),
     )),
   ),
   'row' => 6,
@@ -433,7 +419,7 @@ $footer->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 7,
+      'col' => 6,
       'order' => 3,
       'clear' => true,
     ),
@@ -457,12 +443,10 @@ $footer->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
+      'edited' => false,
+      'left' => 1,
+      'col' => 5,
       'order' => 0,
-      'top' => 0,
-      'row' => 14,
     ),
     'custom-1410783666947' => 
     array (
