@@ -20,7 +20,7 @@ $prefooter = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 47,
+       'row' => 33,
     )),
      'mobile' => 
     (array)(array(
@@ -72,7 +72,7 @@ $prefooter->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 36,
-         'theme_style' => 'text-center',
+         'theme_style' => 'text-center-2',
       )),
        'custom-1410783666947' => 
       (array)(array(

@@ -559,7 +559,7 @@ $region_14->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => 'slider-txt-tablet',
+         'theme_style' => '_default',
          'row' => 49,
       )),
        'mobile' => 
@@ -849,7 +849,7 @@ $region_13 = upfront_create_region(
        'background_position' => '50% 79%',
        'background_position_x' => '50',
        'background_type' => 'color',
-       'row' => 359,
+       'row' => 202,
     )),
      'mobile' => 
     (array)(array(
@@ -1008,7 +1008,7 @@ Service &amp; Quality</span>
       )),
        'tablet' => 
       (array)(array(
-         'theme_style' => 'u-heading-tablet',
+         'theme_style' => '_default',
          'row' => 50,
       )),
     )),
@@ -1387,9 +1387,7 @@ $region_13->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<p class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></span><br>
-	<span class="uf_font_icon" style="font-size: 27px; top: 0px;" rel="font-size: 27px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 27px; top: 0px;"></span>
-</p>',
+    'content' => '<p class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</span><br></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1422428837655-1901',
     'class' => 'c24 upfront-plain_txt',
@@ -1407,7 +1405,7 @@ $region_13->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 6,
-         'theme_style' => 'text-center',
+         'theme_style' => '_default',
       )),
        'mobile' => 
       (array)(array(
@@ -1498,7 +1496,7 @@ $region_13->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 4,
-         'theme_style' => 'plus-button',
+         'theme_style' => '_default',
       )),
        'mobile' => 
       (array)(array(
@@ -1886,7 +1884,7 @@ $region_13->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 8,
-         'theme_style' => 'text-center',
+         'theme_style' => '_default',
       )),
        'mobile' => 
       (array)(array(
@@ -1895,7 +1893,7 @@ $region_13->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 17,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1433406459073-1893',
   'new_line' => true,
@@ -2075,7 +2073,7 @@ $region_13->add_group(array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 6,
+      'order' => 4,
       'clear' => true,
     ),
     'mobile' => 
@@ -2147,7 +2145,7 @@ $region_13->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 7,
-         'theme_style' => 'text-center',
+         'theme_style' => '_default',
       )),
        'mobile' => 
       (array)(array(
@@ -2380,7 +2378,7 @@ $region_13->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 9,
-         'theme_style' => 'text-center',
+         'theme_style' => '_default',
       )),
        'mobile' => 
       (array)(array(
@@ -2476,7 +2474,7 @@ $region_13->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 7,
-         'theme_style' => 'plus-button',
+         'theme_style' => '_default',
       )),
        'mobile' => 
       (array)(array(
@@ -2624,7 +2622,7 @@ $region_13->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 5,
-         'theme_style' => 'text-center',
+         'theme_style' => '_default',
       )),
        'mobile' => 
       (array)(array(
@@ -2856,7 +2854,7 @@ $region_13->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 6,
-         'theme_style' => 'text-center',
+         'theme_style' => '_default',
       )),
        'mobile' => 
       (array)(array(
@@ -2947,7 +2945,7 @@ $region_13->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 6,
-         'theme_style' => 'plus-button',
+         'theme_style' => '_default',
       )),
        'mobile' => 
       (array)(array(
@@ -3046,7 +3044,7 @@ $region_13->add_group(array (
       'edited' => true,
       'col' => 12,
       'order' => 3,
-      'clear' => false,
+      'clear' => true,
     ),
     'mobile' => 
     array (
@@ -3347,7 +3345,7 @@ $region_13->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 8,
-         'theme_style' => 'text-center',
+         'theme_style' => '_default',
       )),
        'mobile' => 
       (array)(array(
@@ -3437,7 +3435,7 @@ $region_13->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 5,
-         'theme_style' => 'plus-button',
+         'theme_style' => '_default',
       )),
        'mobile' => 
       (array)(array(
@@ -3535,8 +3533,8 @@ $region_13->add_group(array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 4,
-      'clear' => false,
+      'order' => 5,
+      'clear' => true,
     ),
     'mobile' => 
     array (
@@ -3606,7 +3604,7 @@ $region_13->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 5,
-         'theme_style' => 'text-center',
+         'theme_style' => '_default',
       )),
        'mobile' => 
       (array)(array(
@@ -3838,7 +3836,7 @@ $region_13->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 7,
-         'theme_style' => 'text-center',
+         'theme_style' => '_default',
       )),
        'mobile' => 
       (array)(array(
@@ -3847,7 +3845,7 @@ $region_13->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 15,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1433408599238-1043',
   'new_line' => true,
@@ -3929,7 +3927,7 @@ $region_13->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 6,
-         'theme_style' => 'plus-button',
+         'theme_style' => '_default',
       )),
        'mobile' => 
       (array)(array(
@@ -4161,7 +4159,7 @@ $quote->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'theme_style' => 'u-heading-tablet',
+         'theme_style' => '_default',
          'row' => 31,
       )),
     )),
@@ -5221,7 +5219,7 @@ $blog_header->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'theme_style' => 'u-heading-tablet',
+         'theme_style' => '_default',
          'row' => 47,
       )),
        'mobile' => 
@@ -5984,7 +5982,7 @@ $about->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'theme_style' => 'u-heading-tablet',
+         'theme_style' => '_default',
          'row' => 34,
       )),
     )),
