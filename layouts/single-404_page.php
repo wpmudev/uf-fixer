@@ -12,9 +12,9 @@ $main = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 185,
-  'background_type' => 'image',
-  'background_color' => '#ufc6',
+  'row' => 170,
+  'background_type' => 'color',
+  'background_color' => '#ufc0',
   'nav_region' => '',
   'background_style' => 'fixed',
   'background_position_y' => '84',
@@ -28,12 +28,12 @@ $main = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 189,
+       'row' => 129,
     )),
      'mobile' => 
     (array)(array(
        'edited' => true,
-       'row' => 164,
+       'row' => 95,
     )),
      'custom-1410783666947' => 
     (array)(array(
@@ -50,10 +50,10 @@ $main = upfront_create_region(
 			);
 
 $main->add_element("PlainTxt", array (
-  'columns' => '24',
-  'margin_left' => '0',
+  'columns' => '18',
+  'margin_left' => '3',
   'margin_right' => '0',
-  'margin_top' => '13',
+  'margin_top' => '29',
   'margin_bottom' => '0',
   'class' => 'module-1412691061180-1949',
   'id' => 'module-1412691061180-1949',
@@ -61,10 +61,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h1 class=""><span class="upfront_theme_color_0">Page not<br>
-available but<br>
-Mr Fixer<br>
-is.</span></h1>',
+    'content' => '<h1 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_1">The page cannot be found</span></span></h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1412691061176-1774',
     'class' => 'c24 upfront-plain_txt',
@@ -75,17 +72,23 @@ is.</span></h1>',
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
-    'row' => 103,
-    'theme_style' => 'h1-white-heading',
+    'row' => 89,
+    'theme_style' => '_default',
     'breakpoint' => 
     (array)(array(
        'mobile' => 
       (array)(array(
-         'row' => 61,
+         'row' => 38,
+         'theme_style' => 'text-center',
+      )),
+       'tablet' => 
+      (array)(array(
+         'theme_style' => 'text-center',
+         'row' => 66,
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 89,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1412692347986-1728',
   'new_line' => true,
@@ -117,18 +120,20 @@ is.</span></h1>',
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'top' => 21,
+      'row' => 66,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'left' => 0,
       'col' => 7,
-      'top' => 4,
-      'row' => 61,
+      'top' => 15,
+      'row' => 38,
     ),
     'custom-1410783666947' => 
     array (
@@ -141,16 +146,16 @@ is.</span></h1>',
 ));
 
 $main->add_element("Button", array (
-  'columns' => '5',
-  'margin_left' => '0',
+  'columns' => '6',
+  'margin_left' => '9',
   'margin_right' => '0',
-  'margin_top' => '9',
+  'margin_top' => '4',
   'margin_bottom' => '0',
   'class' => 'module-1412692676377-1786',
   'id' => 'module-1412692676377-1786',
   'options' => 
   array (
-    'content' => 'Take me to Mr Fixer',
+    'content' => 'TAKE ME HOME',
     'href' => '{{upfront:home_url}}',
     'align' => 'center',
     'type' => 'ButtonModel',
@@ -165,13 +170,13 @@ $main->add_element("Button", array (
        'url' => '{{upfront:home_url}}',
        'target' => '_self',
     )),
-    'currentpreset' => 'white-borders-button',
+    'currentpreset' => 'black-borders-button',
     'theme_style' => '_default',
     'is_edited' => true,
-    'row' => 6,
+    'row' => 15,
     'linkTarget' => '_self',
   ),
-  'row' => 6,
+  'row' => 15,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1412693265986-1503',
   'new_line' => true,
@@ -207,7 +212,7 @@ $main->add_element("Button", array (
       'left' => 3,
       'col' => 6,
       'order' => 0,
-      'top' => 30,
+      'top' => 0,
     ),
     'mobile' => 
     array (
