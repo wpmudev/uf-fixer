@@ -238,7 +238,6 @@ $region_14->add_element("Unewnavigation", array (
            'url' => '#services',
            'target' => '',
         )),
-         'being-edited' => false,
       )),
       1 => 
       (array)(array(
@@ -832,7 +831,7 @@ $region_13 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 311,
+  'row' => 334,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -891,7 +890,7 @@ $region_13->add_element("PlainTxt", array (
   'columns' => '24',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '0',
+  'margin_top' => '22',
   'margin_bottom' => '0',
   'class' => 'module-1412752367986-1614',
   'id' => 'module-1412752367986-1614',
@@ -955,7 +954,7 @@ $region_13->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 12,
-      'top' => 3,
+      'top' => 15,
       'order' => 0,
     ),
     'mobile' => 
@@ -965,6 +964,7 @@ $region_13->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 0,
       'row' => 14,
+      'top' => 16,
     ),
     'custom-1410783666947' => 
     array (
@@ -6443,7 +6443,7 @@ $about->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
       'clear' => false,
     ),
@@ -6537,7 +6537,7 @@ $about->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
+      'col' => 6,
       'order' => 1,
       'clear' => false,
     ),
