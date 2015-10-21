@@ -21,7 +21,6 @@
     padding: 16px 40px;
 }
 #page .ucontact-contact-style.upfront-contact-form .upfront-field-container .submit-field:hover {
-    background: #ufc0;
+    background: #ufc1;
     border: none;
-    color: #584780;
 }

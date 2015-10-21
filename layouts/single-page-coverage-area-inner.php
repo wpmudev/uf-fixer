@@ -14,7 +14,7 @@ $main = upfront_create_region(
 			array (
   'row' => 180,
   'background_type' => 'image',
-  'background_color' => '#ufc5',
+  'background_color' => '#ufc0',
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -31,7 +31,7 @@ $main = upfront_create_region(
      'mobile' => 
     (array)(array(
        'edited' => true,
-       'row' => 163,
+       'row' => 108,
        'background_position_y' => '100',
        'background_style' => 'fixed',
        'background_repeat' => 'no-repeat',
@@ -60,7 +60,7 @@ $main = upfront_create_region(
   'background_position_y' => '100',
   'background_position_x' => '100',
   'background_image' => '{{upfront:style_url}}/images/single-page-coverage-area-inner/dome.png',
-  'background_image_ratio' => 1.05,
+  'background_image_ratio' => 1.0500000000000000444089209850062616169452667236328125,
   'background_repeat' => 'no-repeat',
   'background_position' => '100% 100%',
 )
@@ -70,7 +70,7 @@ $main->add_element("PlainTxt", array (
   'columns' => '24',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '13',
+  'margin_top' => '22',
   'margin_bottom' => '0',
   'class' => 'module-1432912837169-1969',
   'id' => 'module-1432912837169-1969',
@@ -78,7 +78,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Contact Us</span></h2>',
+    'content' => '<h2 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Contact us</span></span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432912837169-1903',
     'class' => 'c24 upfront-plain_txt',
@@ -106,9 +106,10 @@ $main->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
       'order' => 0,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -128,10 +129,11 @@ $main->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 12,
     ),
     'custom-1410783666947' => 
     array (
@@ -155,7 +157,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h1 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">We <span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>Come<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span> to You</span></h1>',
+    'content' => '<h1 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Ready to talk to our experts?</span></span></h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432912849348-1836',
     'class' => 'c24 upfront-plain_txt',
@@ -177,9 +179,10 @@ $main->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -226,8 +229,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class=""><span rel="color:rgb(255, 255, 255)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(255, 255, 255)" style="" class="upfront_theme_color_0">Ready to talk to our experts?</span></h2>
-',
+    'content' => '<h2 class=""><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Get in touch:</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432912871524-1887',
     'class' => 'c24 upfront-plain_txt',
@@ -249,9 +251,10 @@ $main->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 2,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -268,6 +271,7 @@ $main->add_element("PlainTxt", array (
       'left' => 1,
       'col' => 10,
       'order' => 0,
+      'hide' => 1,
     ),
     'mobile' => 
     array (
@@ -275,6 +279,7 @@ $main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'hide' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -287,7 +292,7 @@ $main->add_element("PlainTxt", array (
 ));
 
 $main->add_element("Ucontact", array (
-  'columns' => '10',
+  'columns' => '13',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -322,11 +327,23 @@ $main->add_element("Ucontact", array (
     'has_settings' => 1,
     'id_slug' => 'ucontact',
     'element_id' => 'ucontact-object-1432912837183-1383',
-    'row' => 75,
+    'row' => 88,
     'anchor' => '',
     'theme_style' => 'ucontact-contact-style',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'theme_style' => 'ucontact-new-style-mobile',
+      )),
+       'mobile' => 
+      (array)(array(
+         'row' => 73,
+         'theme_style' => 'ucontact-new-style-mobile',
+      )),
+    )),
   ),
-  'row' => 6,
+  'row' => 88,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432912929239-1321',
   'new_line' => true,
@@ -335,14 +352,15 @@ $main->add_element("Ucontact", array (
     'tablet' => 
     array (
       'edited' => false,
-      'col' => 11,
+      'col' => 12,
       'order' => 0,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 3,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -356,16 +374,17 @@ $main->add_element("Ucontact", array (
     'tablet' => 
     array (
       'edited' => false,
-      'left' => 1,
-      'col' => 10,
+      'left' => 0,
+      'col' => 12,
       'order' => 0,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'row' => 73,
     ),
     'custom-1410783666947' => 
     array (

@@ -4430,8 +4430,10 @@ $quote->add_element("Ucontact", array (
 
 $quote->add_group(array (
   'columns' => '6',
-  'margin_top' => '8',
   'margin_left' => '1',
+  'margin_right' => '0',
+  'margin_top' => '8',
+  'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1445402962485-1481',
   'type' => 'ModuleGroup',
@@ -4787,8 +4789,10 @@ Lorr sit amet, consectetur adipiscing elit. Phasellus consequat, tortor id males
 
 $quote->add_group(array (
   'columns' => '6',
-  'margin_top' => '7',
   'margin_left' => '1',
+  'margin_right' => '0',
+  'margin_top' => '7',
+  'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1445402965567-1620',
   'type' => 'ModuleGroup',
@@ -6351,8 +6355,10 @@ $about->add_element("PlainTxt", array (
 
 $about->add_group(array (
   'columns' => '6',
-  'margin_top' => '0',
   'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1445403650095-1389',
   'type' => 'ModuleGroup',
