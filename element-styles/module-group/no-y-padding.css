@@ -1,7 +1,7 @@
 #page .no-y-padding div.upfront-object, #page .no-y-padding div.upfront-output-object {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 #page .no-y-padding.upfront-module-group {
-    margin-bottom:10px;
+    padding-bottom: 20px;
 }

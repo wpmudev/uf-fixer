@@ -153,6 +153,10 @@ $main->add_element("PlainTxt", array (
       (array)(array(
          'theme_style' => 'text-center',
       )),
+       'mobile' => 
+      (array)(array(
+         'row' => 26,
+      )),
     )),
   ),
   'row' => 6,
@@ -190,7 +194,8 @@ $main->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 12,
-      'order' => 4,
+      'order' => 5,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -198,6 +203,8 @@ $main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 4,
+      'top' => 0,
+      'row' => 26,
     ),
     'custom-1410783666947' => 
     array (
@@ -213,7 +220,7 @@ $main->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '3',
   'margin_right' => '0',
-  'margin_top' => '8',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1432911696509-1241',
   'id' => 'module-1432911696509-1241',
@@ -232,7 +239,7 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 21,
+         'row' => 17,
          'theme_style' => 'text-center',
       )),
        'mobile' => 
@@ -249,7 +256,7 @@ $main->add_element("PlainTxt", array (
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1432911915038-1524',
+  'wrapper_id' => 'wrapper-1445400216875-1835',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -267,13 +274,6 @@ $main->add_element("PlainTxt", array (
       'order' => 2,
       'clear' => true,
     ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => true,
-      'col' => 9,
-      'order' => 2,
-      'clear' => true,
-    ),
   ),
   'breakpoint' => 
   array (
@@ -283,21 +283,21 @@ $main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 12,
       'order' => 1,
-      'row' => 21,
-      'top' => 6,
+      'row' => 17,
+      'top' => 0,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'left' => 0,
       'col' => 7,
-      'order' => 1,
+      'order' => 0,
       'top' => 0,
       'row' => 24,
     ),
     'custom-1410783666947' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 2,
       'col' => 7,
       'order' => 1,
@@ -309,7 +309,7 @@ $main->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '8',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1432911934076-1287',
   'id' => 'module-1432911934076-1287',
@@ -328,7 +328,7 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 28,
+         'row' => 29,
          'theme_style' => 'text-center',
       )),
        'mobile' => 
@@ -345,7 +345,7 @@ $main->add_element("PlainTxt", array (
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1432911936387-1136',
+  'wrapper_id' => 'wrapper-1445400216876-1330',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -362,13 +362,6 @@ $main->add_element("PlainTxt", array (
       'order' => 5,
       'clear' => true,
     ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => true,
-      'col' => 7,
-      'order' => 3,
-      'clear' => false,
-    ),
   ),
   'breakpoint' => 
   array (
@@ -379,20 +372,20 @@ $main->add_element("PlainTxt", array (
       'col' => 12,
       'order' => 2,
       'top' => 0,
-      'row' => 28,
+      'row' => 29,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'left' => 0,
       'col' => 7,
-      'order' => 2,
+      'order' => 0,
       'top' => 0,
       'row' => 28,
     ),
     'custom-1410783666947' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 7,
       'order' => 10,
@@ -404,7 +397,7 @@ $main->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '8',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1432911945165-1328',
   'id' => 'module-1432911945165-1328',
@@ -423,7 +416,7 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 12,
+         'row' => 11,
          'theme_style' => 'text-center',
       )),
        'mobile' => 
@@ -439,7 +432,7 @@ $main->add_element("PlainTxt", array (
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1432911945164-1893',
+  'wrapper_id' => 'wrapper-1445400216876-1521',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -456,13 +449,6 @@ $main->add_element("PlainTxt", array (
       'order' => 6,
       'clear' => true,
     ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => true,
-      'col' => 10,
-      'order' => 4,
-      'clear' => true,
-    ),
   ),
   'breakpoint' => 
   array (
@@ -473,19 +459,19 @@ $main->add_element("PlainTxt", array (
       'col' => 12,
       'order' => 3,
       'top' => 0,
-      'row' => 12,
+      'row' => 11,
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 7,
-      'order' => 3,
+      'order' => 0,
       'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 2,
       'col' => 7,
       'order' => 3,
@@ -524,7 +510,7 @@ $main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'theme_style' => 'text-center',
-         'row' => 19,
+         'row' => 9,
       )),
        'mobile' => 
       (array)(array(
@@ -534,7 +520,7 @@ $main->add_element("PlainTxt", array (
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1432911945164-1893',
+  'wrapper_id' => 'wrapper-1445400216876-1521',
   'breakpoint' => 
   array (
     'tablet' => 
@@ -542,20 +528,20 @@ $main->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 12,
-      'order' => 6,
-      'row' => 19,
-      'top' => -1,
+      'order' => 4,
+      'row' => 9,
+      'top' => 0,
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
       'col' => 7,
-      'order' => 6,
+      'order' => 0,
     ),
     'custom-1410783666947' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 2,
       'col' => 8,
       'order' => 6,
@@ -672,7 +658,7 @@ $main->add_element("Uimage", array (
       'edited' => true,
       'left' => 0,
       'col' => 12,
-      'order' => 7,
+      'order' => 6,
       'top' => 0,
     ),
     'mobile' => 
@@ -697,7 +683,7 @@ $main->add_element("PlainTxt", array (
   'columns' => '8',
   'margin_left' => '8',
   'margin_right' => '0',
-  'margin_top' => '10',
+  'margin_top' => '5',
   'margin_bottom' => '0',
   'class' => 'module-1432912171600-1326',
   'id' => 'module-1432912171600-1326',
@@ -754,7 +740,7 @@ $main->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 2,
       'col' => 8,
-      'order' => 8,
+      'order' => 7,
       'top' => 0,
     ),
     'mobile' => 
@@ -780,7 +766,7 @@ $main->add_element("PlainTxt", array (
   'columns' => '20',
   'margin_left' => '2',
   'margin_right' => '0',
-  'margin_top' => '0',
+  'margin_top' => '3',
   'margin_bottom' => '0',
   'class' => 'module-1432912306290-1240',
   'id' => 'module-1432912306290-1240',
@@ -843,8 +829,8 @@ $main->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 12,
-      'order' => 9,
-      'top' => 11,
+      'order' => 8,
+      'top' => 14,
     ),
     'mobile' => 
     array (
@@ -932,8 +918,8 @@ $main->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 12,
-      'order' => 10,
-      'top' => 5,
+      'order' => 9,
+      'top' => 3,
     ),
     'mobile' => 
     array (

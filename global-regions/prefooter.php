@@ -20,13 +20,13 @@ $prefooter = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 33,
+       'row' => 39,
        'background_type' => 'color',
     )),
      'mobile' => 
     (array)(array(
        'edited' => true,
-       'row' => 58,
+       'row' => 41,
        'background_type' => 'color',
     )),
      'custom-1410783666947' => 
@@ -47,7 +47,7 @@ $prefooter->add_element("PlainTxt", array (
   'columns' => '9',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '6',
+  'margin_top' => '8',
   'margin_bottom' => '0',
   'class' => 'module-1406205224243-1651',
   'id' => 'module-1406205224243-1651',
@@ -55,7 +55,7 @@ $prefooter->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class=""></h3><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><h3 class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">​Spead the word. <br>​Share Fixer with friends.</span></h3><div class=""><h3><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"></span></h3></div><div class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><br></span></div><div class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><a target="_blank" rel="external" href="http://facebook.com"><span style="color: rgb(255, 255, 255);" rel="color: rgb(255, 255, 255);" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color: rgb(255, 255, 255);"><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​<span class="uf_font_icon" style="font-size: 34px; top: 0px;" rel="font-size: 34px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;">o</span></span></span></a>&nbsp; &nbsp;<a target="_blank" href="http://twitter.com"><span style="color:rgb(86, 86, 86)" rel="color:rgb(86, 86, 86)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(86, 86, 86)"><span class="redactor-invisible-space upfront_theme_color_0" style="" rel="" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space upfront_theme_color_0">​<span class="uf_font_icon" style="font-size: 34px; top: 0px;" rel="font-size: 34px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;">p</span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​</span></span></span></a>&nbsp; &nbsp;<a target="_blank" href="http://plus.google.com"><span style="" rel="" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(86, 86, 86)" class="upfront_theme_color_0" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 34px; top: 0px;" rel="font-size: 34px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;">q</span></span></a>&nbsp; &nbsp;<a target="_blank" href="http://pinterest.com"><span style="" rel="" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(86, 86, 86)" class="upfront_theme_color_0" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 34px; top: 0px;" rel="font-size: 34px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;">r</span></span></a></span></div></span><div class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><a target="_blank" href="http://pinterest.com"><span style="color:rgb(86, 86, 86)" rel="color:rgb(86, 86, 86)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(86, 86, 86)"><span class="uf_font_icon" style="font-size: 34px; top: 0px;" rel="font-size: 34px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;"></span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​</span></span></a></span></div><div class=""><span class="" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0" style="color:rgb(86, 86, 86)" rel="color:rgb(86, 86, 86)" data-redactor-style="color:rgb(86, 86, 86)"><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space"></span></span></div>',
+    'content' => '<h3 class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Spead the word.&nbsp;<br>​Share Fixer with friends.</span></h3><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><div class=""><h3><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"></span></h3></div><div class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><a target="_blank" rel="external" href="http://facebook.com"><span style="color: rgb(255, 255, 255);" rel="color: rgb(255, 255, 255);" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color: rgb(255, 255, 255);"><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​<span class="uf_font_icon" style="font-size: 34px; top: 0px;" rel="font-size: 34px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;">o</span></span></span></a>&nbsp; &nbsp;<a target="_blank" href="http://twitter.com"><span style="color:rgb(86, 86, 86)" rel="color:rgb(86, 86, 86)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(86, 86, 86)"><span class="redactor-invisible-space upfront_theme_color_0" style="" rel="" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space upfront_theme_color_0">​<span class="uf_font_icon" style="font-size: 34px; top: 0px;" rel="font-size: 34px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;">p</span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​</span></span></span></a>&nbsp; &nbsp;<a target="_blank" href="http://plus.google.com"><span style="" rel="" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(86, 86, 86)" class="upfront_theme_color_0" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 34px; top: 0px;" rel="font-size: 34px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;">q</span></span></a>&nbsp; &nbsp;<a target="_blank" href="http://pinterest.com"><span style="" rel="" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(86, 86, 86)" class="upfront_theme_color_0" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 34px; top: 0px;" rel="font-size: 34px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;">r</span></span></a></span></div></span></span><div class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><a target="_blank" href="http://pinterest.com"><span style="color:rgb(86, 86, 86)" rel="color:rgb(86, 86, 86)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(86, 86, 86)"><span class="uf_font_icon" style="font-size: 34px; top: 0px;" rel="font-size: 34px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;"></span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​</span></span></a></span></div><div class=""><span class="" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0" style="color:rgb(86, 86, 86)" rel="color:rgb(86, 86, 86)" data-redactor-style="color:rgb(86, 86, 86)"><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space"></span></span></div>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1406205224243-1348',
     'class' => 'c24 upfront-plain_txt',
@@ -72,7 +72,7 @@ $prefooter->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 36,
+         'row' => 34,
          'theme_style' => 'text-center',
       )),
        'custom-1410783666947' => 
@@ -83,7 +83,7 @@ $prefooter->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'theme_style' => 'text-center',
-         'row' => 34,
+         'row' => 23,
       )),
     )),
   ),
@@ -123,8 +123,8 @@ $prefooter->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'top' => 5,
-      'row' => 36,
+      'top' => 7,
+      'row' => 34,
     ),
     'mobile' => 
     array (
@@ -132,8 +132,8 @@ $prefooter->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'top' => 5,
-      'row' => 34,
+      'top' => 4,
+      'row' => 23,
     ),
     'custom-1410783666947' => 
     array (
@@ -151,7 +151,7 @@ $prefooter->add_group(array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '8',
+  'margin_top' => '9',
   'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1444287871082-1387',
@@ -392,7 +392,7 @@ $prefooter->add_group(array (
   'columns' => '7',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '8',
+  'margin_top' => '9',
   'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1444287667908-1769',
@@ -441,7 +441,6 @@ $prefooter->add_group(array (
       'col' => 7,
       'order' => 0,
       'top' => 0,
-      'row' => 0,
     ),
   ),
 ));

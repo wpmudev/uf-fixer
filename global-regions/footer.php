@@ -187,7 +187,7 @@ $footer->add_element("Uimage", array (
 ));
 
 $footer->add_element("PlainTxt", array (
-  'columns' => '6',
+  'columns' => '7',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -204,7 +204,7 @@ $footer->add_element("PlainTxt", array (
     'element_id' => 'text-object-1406217940549-1478',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 11,
+    'row' => 8,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -280,7 +280,7 @@ $footer->add_element("PlainTxt", array (
 
 $footer->add_element("PlainTxt", array (
   'columns' => '5',
-  'margin_left' => '4',
+  'margin_left' => '3',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',

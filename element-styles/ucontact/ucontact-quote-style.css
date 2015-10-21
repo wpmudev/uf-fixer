@@ -7,9 +7,11 @@
 #page .ucontact-quote-style .upfront-field-container .ucontact-input {
     border: 1px solid transparent;
     margin: 0 0 1px;
+    background: #f7f7f7;
 }
 #page .ucontact-quote-style .upfront-field-container .ucontact-input:focus {
     border-color: #a4d0dc;
+    background: #ffffff;
 }
 #page .ucontact-quote-style.upfront-contact-form .upfront-field-container .submit-field {
     background: #a4d0dc;
