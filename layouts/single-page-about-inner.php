@@ -328,7 +328,7 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 29,
+         'row' => 44,
          'theme_style' => 'text-center',
       )),
        'mobile' => 
@@ -351,8 +351,8 @@ $main->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
-      'order' => 5,
+      'col' => 6,
+      'order' => 4,
       'clear' => true,
     ),
     'mobile' => 
@@ -369,10 +369,10 @@ $main->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 2,
-      'top' => 0,
-      'row' => 29,
+      'top' => 13,
+      'row' => 44,
     ),
     'mobile' => 
     array (
@@ -389,6 +389,52 @@ $main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 10,
+    ),
+  ),
+));
+
+$main->add_group(array (
+  'columns' => '6',
+  'margin_top' => '0',
+  'margin_left' => '0',
+  'class' => '',
+  'id' => 'module-group-1445406836859-1973',
+  'type' => 'ModuleGroup',
+  'wrapper_id' => 'wrapper-1445400216876-1521',
+  'original_col' => 6,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 6,
+      'order' => 5,
+      'clear' => false,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'col' => 7,
+      'order' => 6,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 6,
+      'order' => 0,
+      'top' => 13,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
     ),
   ),
 ));
@@ -432,32 +478,30 @@ $main->add_element("PlainTxt", array (
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1445400216876-1521',
+  'wrapper_id' => 'wrapper-1445406836871-1027',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 6,
-      'clear' => true,
+      'edited' => false,
+      'col' => 6,
+      'order' => 0,
     ),
     'mobile' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'col' => 7,
-      'order' => 6,
-      'clear' => true,
+      'order' => 0,
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
-      'col' => 12,
-      'order' => 3,
+      'col' => 6,
+      'order' => 0,
       'top' => 0,
       'row' => 11,
     ),
@@ -479,6 +523,7 @@ $main->add_element("PlainTxt", array (
     ),
   ),
   'close_wrapper' => false,
+  'group' => 'module-group-1445406836859-1973',
 ));
 
 $main->add_element("PlainTxt", array (
@@ -520,15 +565,15 @@ $main->add_element("PlainTxt", array (
   ),
   'row' => 6,
   'sticky' => false,
-  'wrapper_id' => 'wrapper-1445400216876-1521',
+  'wrapper_id' => 'wrapper-1445406836871-1027',
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => true,
+      'edited' => false,
       'left' => 0,
-      'col' => 12,
-      'order' => 4,
+      'col' => 6,
+      'order' => 0,
       'row' => 9,
       'top' => 0,
     ),
@@ -548,6 +593,7 @@ $main->add_element("PlainTxt", array (
       'top' => 0,
     ),
   ),
+  'group' => 'module-group-1445406836859-1973',
 ));
 
 $main->add_element("Uimage", array (
@@ -715,7 +761,7 @@ $main->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'col' => 10,
-      'order' => 4,
+      'order' => 6,
       'clear' => true,
     ),
     'mobile' => 
@@ -741,7 +787,7 @@ $main->add_element("PlainTxt", array (
       'left' => 2,
       'col' => 8,
       'order' => 7,
-      'top' => 0,
+      'top' => 4,
     ),
     'mobile' => 
     array (
@@ -830,7 +876,7 @@ $main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 12,
       'order' => 8,
-      'top' => 14,
+      'top' => 7,
     ),
     'mobile' => 
     array (

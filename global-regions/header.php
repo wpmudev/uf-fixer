@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_2c384b = upfront_create_region(
+$region_c3942d = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,7 +43,7 @@ $region_2c384b = upfront_create_region(
 )
 			);
 
-$region_2c384b->add_element("Uimage", array (
+$region_c3942d->add_element("Uimage", array (
   'columns' => '4',
   'margin_left' => '1',
   'margin_right' => '0',
@@ -182,7 +182,7 @@ $region_2c384b->add_element("Uimage", array (
   ),
 ));
 
-$region_2c384b->add_element("Unewnavigation", array (
+$region_c3942d->add_element("Unewnavigation", array (
   'columns' => '13',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -202,25 +202,26 @@ $region_2c384b->add_element("Unewnavigation", array (
       0 => 
       (array)(array(
          'menu-item-db-id' => 2433,
-         'menu-item-parent-id' => '0',
+         'menu-item-parent-id' => 0,
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Services',
          'menu-item-url' => '{{upfront:home_url}}/services-inner/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '2433',
          'menu-item-target' => '',
-         'menu-item-position' => 1,
+         'menu-item-position' => 0,
          'link' => 
         (array)(array(
            'type' => 'entry',
            'url' => '{{upfront:home_url}}/services-inner/',
            'target' => '',
         )),
+         'being-edited' => false,
       )),
       1 => 
       (array)(array(
          'menu-item-db-id' => 2434,
-         'menu-item-parent-id' => '0',
+         'menu-item-parent-id' => 0,
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Blog',
          'menu-item-url' => '{{upfront:home_url}}/blog/',
@@ -238,14 +239,14 @@ $region_2c384b->add_element("Unewnavigation", array (
       2 => 
       (array)(array(
          'menu-item-db-id' => 2435,
-         'menu-item-parent-id' => '0',
+         'menu-item-parent-id' => 0,
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Get a Quote',
          'menu-item-url' => '{{upfront:home_url}}/get-quote-inner/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '2435',
          'menu-item-target' => '',
-         'menu-item-position' => 3,
+         'menu-item-position' => 1,
          'link' => 
         (array)(array(
            'type' => 'entry',
@@ -256,14 +257,14 @@ $region_2c384b->add_element("Unewnavigation", array (
       3 => 
       (array)(array(
          'menu-item-db-id' => 2436,
-         'menu-item-parent-id' => '0',
+         'menu-item-parent-id' => 0,
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '{{upfront:home_url}}/about-inner/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '2436',
          'menu-item-target' => '',
-         'menu-item-position' => 4,
+         'menu-item-position' => 3,
          'link' => 
         (array)(array(
            'type' => 'entry',
@@ -274,14 +275,14 @@ $region_2c384b->add_element("Unewnavigation", array (
       4 => 
       (array)(array(
          'menu-item-db-id' => 2437,
-         'menu-item-parent-id' => '0',
+         'menu-item-parent-id' => 0,
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Contact Us',
          'menu-item-url' => '{{upfront:home_url}}/coverage-area-inner/',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '2437',
          'menu-item-target' => '',
-         'menu-item-position' => 5,
+         'menu-item-position' => 4,
          'link' => 
         (array)(array(
            'type' => 'entry',
@@ -408,7 +409,7 @@ $region_2c384b->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_2c384b->add_element("PlainTxt", array (
+$region_c3942d->add_element("PlainTxt", array (
   'columns' => '5',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -505,6 +506,6 @@ $region_2c384b->add_element("PlainTxt", array (
   ),
 ));
 
-$regions->add($region_2c384b);
+$regions->add($region_c3942d);
 
 /* END_REGION_OUTPUT */

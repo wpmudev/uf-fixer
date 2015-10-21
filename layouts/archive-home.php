@@ -226,7 +226,7 @@ $region_14->add_element("Unewnavigation", array (
          'menu-item-db-id' => 2428,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'Service',
+         'menu-item-title' => 'Services',
          'menu-item-url' => '#services',
          'menu-item-object' => 'custom',
          'menu-item-object-id' => '2428',
@@ -238,6 +238,7 @@ $region_14->add_element("Unewnavigation", array (
            'url' => '#services',
            'target' => '',
         )),
+         'being-edited' => false,
       )),
       1 => 
       (array)(array(
@@ -1602,7 +1603,7 @@ $region_13->add_group(array (
       'col' => 12,
       'order' => 0,
       'theme_style' => 'quality-style',
-      'row' => 32,
+      'row' => 18,
       'top' => 0,
     ),
     'mobile' => 
