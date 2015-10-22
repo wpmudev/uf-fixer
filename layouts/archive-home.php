@@ -446,7 +446,7 @@ $region_14->add_element("PlainTxt", array (
     'content' => '<p style="text-align: right;" class="">
 	<strong data-redactor-tag="strong" data-verified="redactor">One call does it all</strong>
 </p>
-<h2 style="text-align: right;" class=""><span class="uf_font_icon" style="font-size: 22px; top: 0px;" rel="font-size: 22px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 22px; top: 0px;">a </span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​</span>1300 FIXER</h2>',
+<h1 style="text-align: right;" class=""><span class="uf_font_icon" rel="font-size: 22px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 22px; top: 0px;" data-redactor-class="uf_font_icon">a </span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​</span><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>1300 FIXER<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1405520755969-1764',
     'class' => 'c24 upfront-plain_txt',
@@ -454,9 +454,9 @@ $region_14->add_element("PlainTxt", array (
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => '0',
-    'border_color' => '',
-    'bg_color' => '',
-    'theme_style' => 'header-contact-text',
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'theme_style' => 'phone-number',
     'anchor' => '',
     'row' => 18,
     'breakpoint' => 

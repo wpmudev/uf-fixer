@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_b77440 = upfront_create_region(
+$region_116243 = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -43,11 +43,11 @@ $region_b77440 = upfront_create_region(
 )
 			);
 
-$region_b77440->add_element("Uimage", array (
+$region_116243->add_element("Uimage", array (
   'columns' => '4',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '6',
+  'margin_top' => '7',
   'margin_bottom' => '0',
   'class' => 'module-1422416936720-1326',
   'id' => 'module-1422416936720-1326',
@@ -182,11 +182,11 @@ $region_b77440->add_element("Uimage", array (
   ),
 ));
 
-$region_b77440->add_element("Unewnavigation", array (
+$region_116243->add_element("Unewnavigation", array (
   'columns' => '13',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '6',
+  'margin_top' => '7',
   'margin_bottom' => '0',
   'class' => 'module-1422430251821-1124',
   'id' => 'module-1422430251821-1124',
@@ -408,11 +408,11 @@ $region_b77440->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_b77440->add_element("PlainTxt", array (
+$region_116243->add_element("PlainTxt", array (
   'columns' => '5',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '2',
+  'margin_top' => '4',
   'margin_bottom' => '0',
   'class' => 'module-1405520755970-1045',
   'id' => 'module-1405520755970-1045',
@@ -423,7 +423,7 @@ $region_b77440->add_element("PlainTxt", array (
     'content' => '<p style="text-align: right;" class="">
 	<strong data-redactor-tag="strong" data-verified="redactor">One call does it all</strong>
 </p>
-<h2 style="text-align: right;" class=""><span class="uf_font_icon" style="font-size: 27px; top: 0px;" rel="font-size: 27px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 27px; top: 0px;">a </span>1300 FIXER</h2>',
+<h1 style="text-align: right;" class=""><span class="uf_font_icon" style="font-size: 27px; top: 0px;" rel="font-size: 27px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 27px; top: 0px;">a </span>1300 FIXER</h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1405520755969-1764',
     'class' => 'c24 upfront-plain_txt',
@@ -431,9 +431,9 @@ $region_b77440->add_element("PlainTxt", array (
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => '0',
-    'border_color' => '',
-    'bg_color' => '',
-    'theme_style' => 'header-contact-text',
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'theme_style' => 'phone-number',
     'anchor' => '',
     'row' => 14,
     'breakpoint' => 
@@ -505,6 +505,6 @@ $region_b77440->add_element("PlainTxt", array (
   ),
 ));
 
-$regions->add($region_b77440);
+$regions->add($region_116243);
 
 /* END_REGION_OUTPUT */
