@@ -40,7 +40,7 @@ $ltb_subscribe15 = upfront_create_region(
 			);
 
 $ltb_subscribe15->add_element("PlainTxt", array (
-  'columns' => '6',
+  'columns' => '8',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '5',
@@ -51,15 +51,20 @@ $ltb_subscribe15->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class=""><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>Subscribe to our e-newsletter<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></h3>',
+    'content' => '<h3 class="" style="text-align: center;">Subscribe to our<br>​e-newsletter</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1444288191570-1689',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'is_edited' => true,
-    'row' => 18,
+    'row' => 20,
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
   ),
-  'row' => 6,
+  'row' => 20,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1444288315227-1721',
   'new_line' => true,
@@ -121,7 +126,7 @@ $ltb_subscribe15->add_element("Code", array (
        'script' => '/* Your code here */',
     )),
     'element_id' => 'upfront-code_element-object-1444101653184-1490',
-    'row' => 42,
+    'row' => 44,
     'code_selection_type' => 'Create',
     'markup' => '<form name="newsletter" class="newsletter-form" action="" method="post">
 <input type="text" id="user-name" name="user-name" placeholder="Name">
@@ -142,16 +147,20 @@ input {
     margin: 0 0 2px;
 }
 input[type="text"], input[type="email"] {
+    border: 1px solid transparent;
+    background: #f7f7f7;
 }
 input[type="text"]:focus, input[type="email"]:focus {
+    border-color: #a4d0dc;
+    background: #ffffff;
 }
 input[type="submit"] {
     background: #a4d0dc;
     border: none;
     color: #ufc0;
-    padding: 16px 20px;
-    margin-top: 18px;
-    float: right;
+    padding: 15px 20px;
+    width:100%;
+    margin-top:2px;
 }
 input[type="submit"]:hover {
     background: #ufc1;
@@ -159,7 +168,7 @@ input[type="submit"]:hover {
 }',
     'script' => '/* Your code here */',
   ),
-  'row' => 6,
+  'row' => 44,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1444102317966-1645',
   'new_line' => true,
