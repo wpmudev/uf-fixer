@@ -140,7 +140,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h1 class="" style="text-align: center;">Our privacy policy<br></h1>',
+    'content' => '<h1 class="" style="text-align: center;">Our Privacy Policy<br></h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432911660743-1820',
     'class' => 'c24 upfront-plain_txt',
