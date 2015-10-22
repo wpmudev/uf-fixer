@@ -129,10 +129,10 @@ $main->add_element("PlainTxt", array (
 ));
 
 $main->add_element("PlainTxt", array (
-  'columns' => '24',
-  'margin_left' => '0',
+  'columns' => '20',
+  'margin_left' => '2',
   'margin_right' => '0',
-  'margin_top' => '3',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1432911660744-1583',
   'id' => 'module-1432911660744-1583',
@@ -140,12 +140,12 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h1 class="" style="text-align: center;"><span class="upfront_theme_color_1">Welcome to Fixer privacy policy</span><br></h1>',
+    'content' => '<h1 class="" style="text-align: center;">Our privacy policy<br></h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432911660743-1820',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 7,
+    'row' => 50,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -157,15 +157,16 @@ $main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'theme_style' => 'text-center',
+         'row' => 44,
       )),
        'mobile' => 
       (array)(array(
          'theme_style' => 'text-center',
-         'row' => 51,
+         'row' => 36,
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 50,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1432911696389-1388',
   'new_line' => true,
@@ -201,6 +202,7 @@ $main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 12,
       'order' => 4,
+      'row' => 44,
     ),
     'mobile' => 
     array (
@@ -208,7 +210,7 @@ $main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 4,
-      'row' => 51,
+      'row' => 36,
     ),
     'custom-1410783666947' => 
     array (
@@ -224,7 +226,7 @@ $main->add_element("PlainTxt", array (
   'columns' => '18',
   'margin_left' => '3',
   'margin_right' => '0',
-  'margin_top' => '5',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1432911696509-1241',
   'id' => 'module-1432911696509-1241',
