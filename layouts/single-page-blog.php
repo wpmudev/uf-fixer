@@ -18,12 +18,12 @@ $region_5 = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 790,
+       'row' => 417,
     )),
      'mobile' => 
     (array)(array(
        'edited' => true,
-       'row' => 757,
+       'row' => 412,
     )),
      'custom-1410783666947' => 
     (array)(array(
@@ -45,7 +45,7 @@ $region_5->add_element("PlainTxt", array (
   'columns' => '24',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '13',
+  'margin_top' => '19',
   'margin_bottom' => '0',
   'class' => 'module-1407244369178-1770',
   'id' => 'module-1407244369178-1770',
@@ -81,9 +81,10 @@ $region_5->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
       'order' => 0,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -102,10 +103,11 @@ $region_5->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 7,
     ),
     'custom-1410783666947' => 
     array (
@@ -138,8 +140,8 @@ $region_5->add_element("PlainTxt", array (
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
-    'border_color' => '',
-    'bg_color' => '',
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
   ),
   'row' => 6,
@@ -156,9 +158,10 @@ $region_5->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -177,10 +180,11 @@ $region_5->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -213,7 +217,7 @@ $region_5->add_element("Posts", array (
     'taxonomy' => '',
     'term' => '',
     'content' => 'excerpt',
-    'limit' => '9',
+    'limit' => '4',
     'pagination' => 'numeric',
     'sticky' => 'prepend',
     'posts_list' => '',
@@ -298,11 +302,12 @@ $region_5->add_element("Posts", array (
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'u-posts-grid-mobile',
+         'theme_style' => 'u-posts-grid-tablet',
       )),
     )),
+    'row' => 174,
   ),
-  'row' => 6,
+  'row' => 174,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1419540276903-1477',
   'new_line' => true,
@@ -316,9 +321,10 @@ $region_5->add_element("Posts", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 2,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -361,11 +367,11 @@ $separator = upfront_create_region(
   'type' => 'wide',
   'scope' => 'local',
   'container' => 'separator',
-  'position' => 10,
+  'position' => 1,
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 14,
+  'row' => 21,
   'breakpoint' => 
   (array)(array(
      'tablet' => 

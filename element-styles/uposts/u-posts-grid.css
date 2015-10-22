@@ -20,12 +20,12 @@
     color: #ufc0;
     display: block;
     font-family: 'Raleway', Arial, sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     height: 75px;
     margin: 0;
     right: 0;
-    padding: 10px 15px;
+    padding: 12px 15px 8px;
     position: absolute;
     text-align: center;
     top: 0;
@@ -39,12 +39,13 @@
     text-transform: uppercase;
 }
 #page .u-posts-grid.uposts-object li .date_posted .date-day {
-    font-size: 32px;
+    font-size: 30px;
     line-height: 1em;
 }
 #page .u-posts-grid.uposts-object li .date_posted .date-month {
     font-size: 15px;
-    line-height: 1.133em;
+    line-height: 1.1em;
+    font-weight:500;
 }
 #page .u-posts-grid.uposts-object li .thumbnail {
     height: 196px;
@@ -55,14 +56,14 @@
 #page .u-posts-grid.uposts-object li .title {
     display: block;
     margin: 0;
-    padding: 20px;
+    padding: 20px 20px 0px;
 }
 #page .u-posts-grid.uposts-object li .title a {
     color: #ufc1;
     display: block;
     font-family: 'Raleway', Arial, sans-serif;
     font-weight: 700;
-    font-size: 28px;
+    font-size: 25px;
     font-style: normal;
     line-height: 1.143em;
     overflow: hidden;
@@ -70,7 +71,7 @@
     white-space: nowrap;
 }
 #page .u-posts-grid.uposts-object li .title a:hover {
-    color: #ufc6;
+    color: #ufc1;
 }
 #page .u-posts-grid.uposts-object li .content {
     margin: 0;
@@ -90,19 +91,18 @@
     width: 100%;
 }
 #page .u-posts-grid.uposts-object li.uf-post-sticky {
-    background: #ece9e4;
     width: 690px;
 }
 #page .u-posts-grid.uposts-object li.uf-post-sticky.noFeature article:before {
-    background: #ufc1;
+    background: #ece9e4;
 }
 #page .u-posts-grid.uposts-object li.uf-post-sticky .date_posted {
-    background: #ufc6;
+    background: #ufc1;
 }
 #page .u-posts-grid/* pagination */
 .uf-pagination {
     font-size: 0;
-    margin: 30px auto;
+    margin: 20px auto 30px;
     text-align: center;
     width: 100%;
 }
@@ -120,7 +120,11 @@
     white-space: nowrap;
 }
 #page .u-posts-grid .uf-pagination .page-numbers.current {
-    background: #ufc6;
+    background: #ufc1;
+    color: #ufc0;
+}
+#page .u-posts-grid .uf-pagination .page-numbers:hover, #page .u-posts-grid .uf-pagination .page-numbers.prev:hover, #page .u-posts-grid .uf-pagination .page-numbers.next:hover {
+    background: #ufc1;
     color: #ufc0;
 }
 #page .u-posts-grid .uf-pagination .page-numbers.prev, #page .u-posts-grid .uf-pagination .page-numbers.next {
