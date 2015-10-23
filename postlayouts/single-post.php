@@ -7,7 +7,7 @@
       array (
         0 => 
         array (
-          'classes' => 'post-part c24 ml0 mt0',
+          'classes' => 'post-part c24 ml0 mt0 part-module-title',
           'slug' => 'title',
         ),
       ),
@@ -19,21 +19,21 @@
       array (
         0 => 
         array (
-          'classes' => 'c4 post-part ml0 mt12',
+          'classes' => 'c4 post-part ml0 mt12 part-module-author_gravatar',
           'slug' => 'author_gravatar',
         ),
         1 => 
         array (
-          'classes' => 'c4 post-part ml0 mt2',
+          'classes' => 'c4 post-part ml0 mt2 part-module-author',
           'slug' => 'author',
         ),
         2 => 
         array (
-          'classes' => 'c4 post-part ml0 mt4',
+          'classes' => 'c4 post-part ml0 mt4 part-module-update',
           'slug' => 'update',
         ),
       ),
-      'classes' => 'c4 clr part-update',
+      'classes' => 'c4 clr part-update part-author_gravatar',
     ),
     2 => 
     array (
@@ -41,7 +41,7 @@
       array (
         0 => 
         array (
-          'classes' => 'c19 post-part ml1 mt13',
+          'classes' => 'c19 post-part ml1 mt13 part-module-featured_image',
           'slug' => 'featured_image',
         ),
       ),
@@ -53,7 +53,7 @@
       array (
         0 => 
         array (
-          'classes' => 'c4 post-part ml0 mt6',
+          'classes' => 'c4 post-part ml0 mt6 part-module-tags',
           'slug' => 'tags',
         ),
       ),
@@ -65,7 +65,7 @@
       array (
         0 => 
         array (
-          'classes' => 'c19 post-part ml1 mt6',
+          'classes' => 'c19 post-part ml1 mt6 part-module-contents',
           'slug' => 'contents',
         ),
       ),
@@ -76,11 +76,12 @@
   array (
     'featured_image' => 
     array (
-      'height' => '100',
+      'height' => '350',
       'attributes' => 
       array (
-        'style' => 'max-height: 345px',
+        'style' => 'max-height: 350px',
       ),
+      'anchor' => '',
     ),
     'colSize' => '45',
     'date' => 

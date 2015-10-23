@@ -312,7 +312,7 @@ $separator = upfront_create_region(
   'type' => 'wide',
   'scope' => 'local',
   'container' => 'separator',
-  'position' => 10,
+  'position' => 1,
   'allow_sidebar' => true,
 ),
 			array (
