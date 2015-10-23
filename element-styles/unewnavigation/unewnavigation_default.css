@@ -139,7 +139,7 @@ div.responsive_nav_toggler > div {
 div.responsive_nav_toggler > div:last-child {
     margin-bottom: 0;
 }
-i.burger_nav_close {
+ i.burger_nav_close {
     margin: 20px;
     background: #000000;
     color: #ffffff;
@@ -150,21 +150,39 @@ div[data-style='burger'] ul.menu > li.menu-item > a {
     font-family: "Raleway";
     font-weight: bold;
     text-transform: uppercase;
+    position: relative;
+}
+div[data-style='burger'] ul.menu > li.menu-item > a:after {
+    background-color: transparent;
+    border: none;
+    bottom: 0;
+    content: "";
+    display: block;
+    left: 0;
+    height: 2px;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    -moz-transition: background-color .4s ease;
+    -ms-transition: background-color .4s ease;
+    -webkit-transition: background-color .4s ease;
+    transition: background-color .4s ease;
+    top: inherit;
+    width: 100%;
+}
+div[data-style='burger'] ul.menu > li.current-menu-item > a:after, div[data-style='burger'] ul.menu > li.menu-item:hover > a:after {
+    background-color: #ufc1;
 }
 div[data-style='burger'] ul.sub-menu > li.menu-item:hover > a {
     color: #000000;
 }
-
 div.burger_overlay {
   background-color:rgba(51, 51, 51, 0.7);
 }
-
-
-i.burger_nav_close:before {
+ i.burger_nav_close:before {
     position: relative;
     top:-1px;
 }
-
-i.burger_nav_close, div.responsive_nav_toggler {
+ i.burger_nav_close, div.responsive_nav_toggler {
     background:#333;
 }
