@@ -129,6 +129,7 @@ div.responsive_nav_toggler {
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     background: #000000;
+    z-index:1;
 }
 div.responsive_nav_toggler > div {
     width: 16px;
@@ -177,7 +178,8 @@ div[data-style='burger'] ul.sub-menu > li.menu-item:hover > a {
     color: #000000;
 }
 div.burger_overlay {
-  background-color:rgba(51, 51, 51, 0.7);
+  background-color:rgba(51, 51, 51, 0.8);
+  z-index: 100;
 }
  i.burger_nav_close:before {
     position: relative;
