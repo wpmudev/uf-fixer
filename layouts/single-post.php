@@ -233,8 +233,8 @@ $blog_individual->add_element("ThisPost", array (
 ));
 
 $blog_individual->add_element("Ucomment", array (
-  'columns' => '24',
-  'margin_left' => '0',
+  'columns' => '16',
+  'margin_left' => '7',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
@@ -249,8 +249,16 @@ $blog_individual->add_element("Ucomment", array (
     'has_settings' => 1,
     'prepend_form' => false,
     'element_id' => 'ucomment-object-1430734423685-1984',
-    'row' => 68,
+    'row' => 173,
     'anchor' => '',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'theme_style' => 'uf-ucomment-responsive',
+      )),
+    )),
+    'theme_style' => 'uf-ucomment-responsive',
   ),
   'row' => 6,
   'sticky' => false,

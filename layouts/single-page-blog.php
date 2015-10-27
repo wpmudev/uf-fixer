@@ -217,9 +217,9 @@ $region_5->add_element("Posts", array (
     'taxonomy' => '',
     'term' => '',
     'content' => 'excerpt',
-    'limit' => '4',
+    'limit' => '6',
     'pagination' => 'numeric',
-    'sticky' => 'prepend',
+    'sticky' => '',
     'posts_list' => '',
     'post_parts' => 
     array (
@@ -307,7 +307,7 @@ $region_5->add_element("Posts", array (
     )),
     'row' => 174,
   ),
-  'row' => 174,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1419540276903-1477',
   'new_line' => true,

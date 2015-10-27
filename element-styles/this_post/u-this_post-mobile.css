@@ -7,11 +7,14 @@
     text-align: center;
     width: 100%;
 }
+#page .u-this_post-mobile .part-author_gravatar .part-module-author_gravatar, #page .u-this_post-mobile .part-author_gravatar .part-module-author, #page .u-this_post-mobile .part-author_gravatar .part-module-update {
+    margin-right: auto;
+    margin-left: auto;
+}
 #page .u-this_post-mobile .upfront-postpart-author_gravatar .author_gravatar img {
     float: none;
 }
-#page .u-this_post-mobile .upfront-postpart-author,
-#page .u-this_post-mobile .upfront-postpart-update {
+#page .u-this_post-mobile .upfront-postpart-author, #page .u-this_post-mobile .upfront-postpart-update {
     text-align: center;
 }
 #page .u-this_post-mobile .part-featured_image {
@@ -24,6 +27,10 @@
 }
 #page .u-this_post-mobile .part-tags {
     width: 100%;
+}
+#page .u-this_post-mobile .part-tags .part-module-tags {
+    margin-left: auto;
+    margin-right: auto;
 }
 #page .u-this_post-mobile .post_tags a {
     display: inline-block;

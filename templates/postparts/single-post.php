@@ -10,5 +10,10 @@ ob_clean();
 $templates["title"] = ob_get_contents();
 ob_clean();
 
+//***** author
+?><span class="post_author_by"><?php _e('by', 'fixer'); ?></span> <a class="post_author" href="%author_url%">%author%</a><?php
+$templates["author"] = ob_get_contents();
+ob_clean();
+
 ob_end_clean();
 return $templates;
