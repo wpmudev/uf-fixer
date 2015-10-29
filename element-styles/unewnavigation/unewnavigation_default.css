@@ -118,7 +118,7 @@ div.upfront-navigation div[data-style='vertical'] ul.menu ul.sub-menu ul.sub-men
     top: 0;
 }
 div[data-style='burger'] ul.menu {
-    background: #ffffff;
+    background: #ufc0;
 }
 div.responsive_nav_toggler {
     width: 30px;
@@ -128,26 +128,22 @@ div.responsive_nav_toggler {
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    background: #000000;
+    background: #ufc3;
     z-index:0;
 }
 div.responsive_nav_toggler > div {
     width: 16px;
     height: 2px;
     margin-bottom: 2px;
-    background: #ffffff;
+    background: #ufc0;
 }
 div.responsive_nav_toggler > div:last-child {
     margin-bottom: 0;
 }
  i.burger_nav_close {
-    margin: 20px;
-    background: #000000;
-    color: #ffffff;
-}
-div[data-style='burger'] ul.menu > li.menu-item {
-    margin-right: 22px;
-    margin-left: 22px;
+    margin: 20px 0 20px 20px;
+    background: #ufc3;
+    color: #ufc0;
 }
 div[data-style='burger'] ul.menu > li.menu-item > a {
     display: inline-block;
@@ -155,16 +151,15 @@ div[data-style='burger'] ul.menu > li.menu-item > a {
     padding-right: 0;
     padding-left: 0;
     border-bottom: 2px solid transparent;
-    color: #333333;
+    color: #ufc1;
     font-size: 13px;
-    padding-bottom:0px;
-    margin-bottom:10px;
     font-family: "Raleway";
     font-weight: bold;
     text-transform: uppercase;
-    transition: border-bottom-color 0.2s ease;
+    padding: 0;
+    transition: border-color 0.2s ease;
 }
-div[data-style='burger'] ul.menu > li.current-menu-item > a, div[data-style='burger'] ul.menu > li.menu-item:hover > a {
+div[data-style='burger'] ul.menu > li.current-menu-item > a, div[data-style='burger'] ul.menu > li.menu-item > a:hover {
     border-bottom-color: #ufc1;
 }
 div.burger_overlay {
@@ -175,5 +170,21 @@ div.burger_overlay {
     top:-1px;
 }
  i.burger_nav_close, div.responsive_nav_toggler {
-    background:#333;
+    background:#ufc1;
+}
+div.upfront-navigation div.upfront-navigation[data-style="burger"][data-burger_alignment="right"] ul.menu {
+    min-width: 30%;
+    max-width: 50%;
+    padding: 0 20px;
+    width: auto;
+}
+div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu li {
+    margin-bottom: 10px;
+}
+div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu li:last-child,
+div.upfront-navigation div[data-style="burger"][data-burger_alignment="right"] ul.menu li.wrap_burger_nav_close {
+    margin-bottom: 0;
+}
+div[data-style='burger'][data-burger_alignment="right"] ul.menu > li.menu-item > a {
+    padding: 0;
 }
