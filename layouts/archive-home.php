@@ -256,6 +256,7 @@ $region_14->add_element("Unewnavigation", array (
            'url' => '#quote',
            'target' => '',
         )),
+         'being-edited' => false,
       )),
       2 => 
       (array)(array(
