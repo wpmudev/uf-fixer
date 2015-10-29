@@ -64,7 +64,7 @@ $ltb_subscribe15->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
   ),
-  'row' => 20,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1444288315227-1721',
   'new_line' => true,
@@ -151,7 +151,7 @@ input[type="text"], input[type="email"] {
     background: #f7f7f7;
 }
 input[type="text"]:focus, input[type="email"]:focus {
-    border-color: #a4d0dc;
+    border-color: #a4d0dc!important;
     background: #ffffff;
 }
 input[type="submit"] {
@@ -168,7 +168,7 @@ input[type="submit"]:hover {
 }',
     'script' => '/* Your code here */',
   ),
-  'row' => 44,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1444102317966-1645',
   'new_line' => true,
