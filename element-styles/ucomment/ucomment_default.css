@@ -5,7 +5,6 @@
     padding: 0;
 }
 .upfront-comments li.comment {
-    border-bottom: 1px solid #ufc0;
     overflow: hidden;
 }
 .upfront-comments li.comment article {
@@ -18,26 +17,38 @@
 .upfront-comments li.comment.depth-1.thread-odd {
     background: #ffe262;
 }
+.upfront-comments li.comment.thread-even .children li.comment {
+    border-top: 1px solid #DADFE3;
+}
+.upfront-comments li.comment.thread-odd .children li.comment {
+    border-top: 1px solid #E6C949;
+}
 .upfront-comments .comment .children {
     list-style-type: none;
     margin: 0 20px;
     padding: 0;
 }
-.upfront-comments li.comment.depth-2 {
-    background: #ufc0;
-}
-.upfront-comments li.comment .children li.comment {
-    border-top: 1px solid #f3f8fc;
-}
 .upfront-comments .comment-meta {
     float: left;
+    height: 60px;
     margin-right: 20px;
+    width: 60px;
 }
 .upfront-comments .comment-content {
     float: left;
     font-size: 15px;
     line-height: 1.667em;
-    max-width: 700px;
+    max-width: 550px;
+}
+.upfront-comments .comment-content p {
+    font-size: 15px;
+    line-height: 1.667em;
+}
+.upfront-comments .depth-2 .comment-content {
+    max-width: 510px;
+}
+.upfront-comments .depth-3 .comment-content {
+    max-width: 470px;
 }
 .upfront-comments .comment_author, .upfront-comments .comment_author a {
     color: #ufc1;
@@ -51,6 +62,15 @@
 }
 .upfront-comments .comment-meta-actions {
     float: right;
+}
+.upfront-comments p.comment-awaiting-moderation {
+    clear: both;
+    color: #ufc1;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.667em;
+    margin-bottom: 0;
+    padding: 0;
 }
 .upfront-comments a.comment-date {
     margin-right: 30px;
@@ -78,6 +98,9 @@
 .upfront-comments .comment-edit-link {
     color: #ufc6;
 }
+.comment-content > *:last-child {
+    margin-bottom: 0;
+}
 .comment-content h1, .comment-content h2, .comment-content h3, .comment-content h4, .comment-content h5, .comment-content h6, .comment-content p, .comment-content address, .comment-content table, .comment-content pre, .comment-content cite, .comment-content q, .comment-content iframe, .comment-content embed {
     margin: 0 0 15px;
 }
@@ -85,6 +108,7 @@
     margin: 0 0 15px 20px;
 }
 .comment-content p {
+    padding: 0;
     -ms-word-break: break-word;
     word-break: break-word;
 }
