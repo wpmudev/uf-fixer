@@ -256,7 +256,6 @@ $region_14->add_element("Unewnavigation", array (
            'url' => '#quote',
            'target' => '',
         )),
-         'being-edited' => false,
       )),
       2 => 
       (array)(array(
@@ -4517,7 +4516,7 @@ $quote->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'title-grey-text',
+         'theme_style' => 'text-center',
          'row' => 11,
       )),
     )),
@@ -4882,7 +4881,7 @@ $quote->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'title-grey-text',
+         'theme_style' => 'text-center',
       )),
     )),
   ),
@@ -5333,7 +5332,7 @@ $blog_header->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'row' => 41,
-         'theme_style' => 'slider-txt-mobile',
+         'theme_style' => 'text-center',
       )),
     )),
     'theme_style' => 'u-heading',
