@@ -161,7 +161,7 @@ div.upfront-navigation div[data-style='vertical'] ul.menu ul.sub-menu ul.sub-men
     border-bottom-color: #ufc1;
 }
  div.burger_overlay {
-  background-color:rgba(51, 51, 51, 0.7);
+  background-color:rgba(51, 51, 51, 0.9);
 }
  i.burger_nav_close:before {
     position: relative;
@@ -171,7 +171,7 @@ div.upfront-navigation div[data-style='vertical'] ul.menu ul.sub-menu ul.sub-men
     background:#ufc1;
 }
 div.upfront-navigation div.upfront-navigation[data-style="burger"][data-burger_alignment="right"] ul.menu {
-    width: 200px;
+    min-width: 200px;
     padding: 0 20px;
     width: auto;
 }
