@@ -171,8 +171,7 @@ div.upfront-navigation div[data-style='vertical'] ul.menu ul.sub-menu ul.sub-men
     background:#ufc1;
 }
 div.upfront-navigation div.upfront-navigation[data-style="burger"][data-burger_alignment="right"] ul.menu {
-    min-width: 30%;
-    max-width: 50%;
+    width: 200px;
     padding: 0 20px;
     width: auto;
 }
