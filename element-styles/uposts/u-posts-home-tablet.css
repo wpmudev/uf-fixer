@@ -43,9 +43,6 @@
 #page .u-posts-home-tablet.uposts-object li .thumbnail img {
     height: 100%;
     opacity: 1;
-    -moz-transition: opacity .4s;
-    -ms-transition: opacity .4s;
-    -o-transition: opacity .4s;
     -webkit-transition: opacity .4s;
     transition: opacity .4s;
     width: 100%;

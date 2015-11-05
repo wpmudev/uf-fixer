@@ -13,7 +13,8 @@
     line-height: 1em;
     height: 50px;
     opacity: 1;
-    transition: opacity .4s;
+    -webkit-transition: opacity .4s;
+            transition: opacity .4s;
     width: 27px;
 }
 .upfront-region-container-region-14 .upfront-default-slider-nav-prev {

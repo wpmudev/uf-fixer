@@ -28,9 +28,6 @@
     display: block;
     height: 0;
     opacity: 0;
-    -moz-transition: all .4s;
-    -ms-transition: all .4s;
-    -o-transition: all .4s;
     -webkit-transition: all .4s;
     transition: all .4s;
 }
