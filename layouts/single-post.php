@@ -129,7 +129,7 @@ $blog_individual->add_element("ThisPost", array (
     'class' => 'c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-this_post',
     'has_settings' => 1,
     'id_slug' => 'this_post',
-    'row' => 10,
+    'row' => 193,
     'post_data' => 
     array (
       0 => 'date',
@@ -255,7 +255,11 @@ $blog_individual->add_element("Ucomment", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => 'uf-ucomment-responsive',
+         'theme_style' => 'comment-responsive',
+      )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'comment-responsive',
       )),
     )),
     'theme_style' => 'uf-ucomment-responsive',
