@@ -5516,7 +5516,7 @@ $blog_items->add_element("Posts", array (
     'post-part-title' => '<div class="uposts-part title">
 	<h3><a href="{{permalink}}" title="{{title}}">{{title}}</a></h3>
 </div>',
-    'post-part-content' => '<div class="uposts-part content">
+    'post-part-content' => '<div class="uposts-part content {{content_type}}">
 	{{content}}
 </div>',
     'post-part-read_more' => '<div class="uposts-part read_more">
