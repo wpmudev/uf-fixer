@@ -5496,7 +5496,7 @@ $blog_items->add_element("Posts", array (
     'categories_limit' => 3,
     'tags_limit' => 3,
     'comment_count_hide' => 0,
-    'content_length' => '40',
+    'content_length' => '20',
     'resize_featured' => '1',
     'gravatar_size' => 200,
     'post-part-date_posted' => '<div class="uposts-part date_posted">
@@ -5511,12 +5511,12 @@ $blog_items->add_element("Posts", array (
 	{{comment_count}}
 </div>',
     'post-part-featured_image' => '<div class="uposts-part thumbnail" data-resize="{{resize}}">
-	{{thumbnail}}
+    <a href="{{permalink}}">{{thumbnail}}</a>
 </div>',
     'post-part-title' => '<div class="uposts-part title">
 	<h3><a href="{{permalink}}" title="{{title}}">{{title}}</a></h3>
 </div>',
-    'post-part-content' => '<div class="uposts-part content">
+    'post-part-content' => '<div class="uposts-part content {{content_type}}">
 	{{content}}
 </div>',
     'post-part-read_more' => '<div class="uposts-part read_more">

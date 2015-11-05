@@ -1,8 +1,6 @@
 .upfront-plain_txt a span.uf_font_icon {
     opacity: 1;
     -webkit-transition: all 0.2s ease-out;
-    -moz-transition: all 0.2s ease-out;
-    -o-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
 }
 .upfront-plain_txt a:hover span.uf_font_icon {

@@ -87,8 +87,6 @@ div[data-style='horizontal'] ul.menu > li.menu-item > a:after {
     margin: auto;
     position: absolute;
     right: 0;
-    -moz-transition: background-color .4s ease;
-    -ms-transition: background-color .4s ease;
     -webkit-transition: background-color .4s ease;
     transition: background-color .4s ease;
     top: inherit;
@@ -155,7 +153,8 @@ div.upfront-navigation div[data-style='vertical'] ul.menu ul.sub-menu ul.sub-men
     font-weight: bold;
     text-transform: uppercase;
     padding: 0;
-    transition: border-color 0.2s ease;
+    -webkit-transition: border-color 0.2s ease;
+            transition: border-color 0.2s ease;
 }
  div[data-style='burger'] ul.menu > li.current-menu-item > a,  div[data-style='burger'] ul.menu > li.menu-item > a:hover {
     border-bottom-color: #ufc1;

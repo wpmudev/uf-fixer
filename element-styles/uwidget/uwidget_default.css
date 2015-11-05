@@ -22,10 +22,8 @@
 .widget_search input[type="search"].search-field {
     background: #ufc0;
     border: 1px solid #ece9e4;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    float: none;f;
+    float: none;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -82,8 +80,6 @@
     left: 0;
     position: absolute;
     right: 0;
-    -moz-transition: width .4s ease, background-color .4s ease;
-    -ms-transition: width .4s ease, background-color .4s ease;
     -webkit-transition: width .4s ease, background-color .4s ease;
     transition: width .4s ease, background-color .4s ease;
     width: 0;
@@ -121,8 +117,6 @@
 }
  .widget_calendar table > tbody > tr > td a {
     -webkit-transition: all 0.4s ease-out;
-    -moz-transition: all 0.4s ease-out;
-    -o-transition: all 0.4s ease-out;
     transition: all 0.4s ease-out;
 }
  .widget_calendar table > tbody > tr > td a:hover {
