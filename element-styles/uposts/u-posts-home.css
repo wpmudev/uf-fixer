@@ -45,7 +45,16 @@
 #page .u-posts-home.uposts-object li .thumbnail img {
     height: 100%;
     min-height: 290px;
+    opacity: 1;
+    -moz-transition: opacity .4s;
+    -ms-transition: opacity .4s;
+    -o-transition: opacity .4s;
+    -webkit-transition: opacity .4s;
+    transition: opacity .4s;
     width: 100%;
+}
+#page .u-posts-home.uposts-object li .thumbnail a:hover img {
+    opacity: .65;
 }
 #page .u-posts-home.uposts-object li .date_posted {
     background: #ufc1;

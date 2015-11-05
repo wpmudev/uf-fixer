@@ -46,6 +46,9 @@ html {
     text-decoration: none;
     text-transform: none;
 }
+a.uf_font_icon:hover {
+    font-family: \\\'Fixer\\\';
+}
  
  /* links */
 .upfront-object a,
