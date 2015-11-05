@@ -1,0 +1,4 @@
+#page .comment-responsive .comment-form .form-submit input[type="submit"], #page .comment-responsive .comment-form .form-submit {
+    width: 100%;
+	margin-top:0px;
+}
