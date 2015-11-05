@@ -24,7 +24,7 @@
 .ugallery-caption-over p:last-child, .ugallery-padded-caption p:last-child {
     margin-bottom: 0;
 }
-.ugallery_caption_on_hover_1 .ugallery-thumb-title {
+.ugallery_caption_on_hover_1 .ugallery-caption-on-hover-1 {
     display: block;
     height: 0;
     opacity: 0;
@@ -34,7 +34,7 @@
     -webkit-transition: all .4s;
     transition: all .4s;
 }
-.ugallery_caption_on_hover_1:hover .ugallery-thumb-title {
+.ugallery_caption_on_hover_1:hover .ugallery-caption-on-hover-1 {
     height: 100%;
     opacity: 1;
 }
