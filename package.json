@@ -1,0 +1,10 @@
+{
+  "name": "uf-build-tools",
+  "description": "Tools for Upfront child themes.",
+  "devDependencies": {
+    "autoprefixer": "^6.0.3",
+    "grunt": "^0.4.5",
+    "grunt-postcss": "^0.7.0",
+    "load-grunt-tasks": "^1.0.0"
+  }
+}
