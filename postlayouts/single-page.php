@@ -7,7 +7,7 @@
       array (
         0 => 
         array (
-          'classes' => 'post-part c24 ml0 mt0',
+          'classes' => 'post-part c24 ml0 mt0 part-module-title',
           'slug' => 'title',
         ),
       ),
@@ -19,7 +19,7 @@
       array (
         0 => 
         array (
-          'classes' => ' post-part c24 ml0 mt8',
+          'classes' => ' post-part c24 ml0 mt8 part-module-contents',
           'slug' => 'contents',
         ),
       ),

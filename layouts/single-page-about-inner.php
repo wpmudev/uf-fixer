@@ -53,8 +53,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;">About</h2>
-',
+    'content' => '<h3 class="" style="text-align: center;">About</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432911649644-1060',
     'class' => 'c24 upfront-plain_txt',
@@ -395,8 +394,10 @@ $main->add_element("PlainTxt", array (
 
 $main->add_group(array (
   'columns' => '6',
-  'margin_top' => '0',
   'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1445406836859-1973',
   'type' => 'ModuleGroup',

@@ -46,74 +46,6 @@ $blog_individual = upfront_create_region(
 )
 			);
 
-$blog_individual->add_element("PlainTxt", array (
-  'columns' => '24',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '13',
-  'margin_bottom' => '0',
-  'class' => 'module-1407490840563-1569-module',
-  'id' => 'module-1407490840563-1569-module',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;">Blog</h2>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'text-object-1407490840562-1778',
-    'class' => 'c24 c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'is_edited' => true,
-    'row' => 11,
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'wrapper_id' => 'module-1407490840563-1569-module-wrapper',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 12,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'col' => 18,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 12,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 18,
-      'order' => 0,
-    ),
-  ),
-));
-
 $blog_individual->add_element("ThisPost", array (
   'columns' => '24',
   'margin_left' => '0',
@@ -231,8 +163,8 @@ $blog_individual->add_element("ThisPost", array (
 ));
 
 $blog_individual->add_element("Ucomment", array (
-  'columns' => '24',
-  'margin_left' => '0',
+  'columns' => '18',
+  'margin_left' => '6',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
@@ -247,10 +179,10 @@ $blog_individual->add_element("Ucomment", array (
     'has_settings' => 1,
     'prepend_form' => false,
     'element_id' => 'ucomment-object-1430734423685-1984',
-    'row' => 68,
+    'row' => 157,
     'anchor' => '',
   ),
-  'row' => 6,
+  'row' => 157,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1430735458058-1283',
   'new_line' => true,
@@ -310,7 +242,7 @@ $separator = upfront_create_region(
   'type' => 'wide',
   'scope' => 'local',
   'container' => 'separator',
-  'position' => 10,
+  'position' => 1,
   'allow_sidebar' => true,
 ),
 			array (

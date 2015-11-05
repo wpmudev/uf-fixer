@@ -53,7 +53,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;">Service</h2>',
+    'content' => '<h3 class="" style="text-align: center;">Services</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432911649644-1060',
     'class' => 'c24 upfront-plain_txt',

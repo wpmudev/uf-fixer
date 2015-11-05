@@ -58,13 +58,19 @@ $blog_individual->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;">Blog</h2>',
+    'content' => '<h3 class="" style="text-align: center;">Blog</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1407490840562-1778',
     'class' => 'c24 c24 upfront-plain_txt',
     'has_settings' => 1,
     'is_edited' => true,
     'row' => 11,
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
+    'theme_style' => 'u-sub-heading',
   ),
   'row' => 6,
   'sticky' => false,
@@ -233,7 +239,7 @@ $blog_individual->add_element("ThisPost", array (
 ));
 
 $blog_individual->add_element("Ucomment", array (
-  'columns' => '16',
+  'columns' => '15',
   'margin_left' => '7',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -249,7 +255,7 @@ $blog_individual->add_element("Ucomment", array (
     'has_settings' => 1,
     'prepend_form' => false,
     'element_id' => 'ucomment-object-1430734423685-1984',
-    'row' => 173,
+    'row' => 172,
     'anchor' => '',
     'breakpoint' => 
     (array)(array(
@@ -264,7 +270,7 @@ $blog_individual->add_element("Ucomment", array (
     )),
     'theme_style' => 'uf-ucomment-responsive',
   ),
-  'row' => 6,
+  'row' => 172,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1430735458058-1283',
   'new_line' => true,
