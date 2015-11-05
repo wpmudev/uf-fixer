@@ -255,14 +255,10 @@ $blog_individual->add_element("Ucomment", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => 'comment-responsive',
-      )),
-       'mobile' => 
-      (array)(array(
-         'theme_style' => 'comment-responsive',
+         'theme_style' => 'uf-ucomment-responsive',
       )),
     )),
-    'theme_style' => '_default',
+    'theme_style' => 'uf-ucomment-responsive',
   ),
   'row' => 6,
   'sticky' => false,

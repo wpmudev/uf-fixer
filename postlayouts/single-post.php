@@ -19,10 +19,15 @@
       array (
         0 => 
         array (
+          'classes' => 'c4 post-part ml2 mt12 part-module-author_gravatar',
+          'slug' => 'author_gravatar',
+        ),
+        1 => 
+        array (
           'classes' => 'c4 post-part ml2 mt1 part-module-author',
           'slug' => 'author',
         ),
-        1 => 
+        2 => 
         array (
           'classes' => 'c4 post-part ml2 mt0 part-module-update',
           'slug' => 'update',
@@ -36,7 +41,7 @@
       array (
         0 => 
         array (
-          'classes' => 'c16 post-part ml1 mt3 part-module-featured_image',
+          'classes' => 'c16 post-part ml1 mt13 part-module-featured_image',
           'slug' => 'featured_image',
         ),
       ),
@@ -48,7 +53,7 @@
       array (
         0 => 
         array (
-          'classes' => 'c4 post-part ml2 mt16 part-module-tags',
+          'classes' => 'c4 post-part ml2 mt6 part-module-tags',
           'slug' => 'tags',
         ),
       ),
@@ -71,19 +76,12 @@
   array (
     'featured_image' => 
     array (
-      'height' => '355',
+      'height' => '350',
       'attributes' => 
       array (
-        'style' => 'max-height: 355px',
+        'style' => 'max-height: 350px',
       ),
       'anchor' => '',
-      'breakpoint' => 
-      array (
-        'tablet' => 
-        array (
-          'row' => '71',
-        ),
-      ),
     ),
     'colSize' => '45',
     'date' => 
@@ -94,13 +92,6 @@
     array (
       'padding_left' => '',
       'padding_right' => '',
-      'breakpoint' => 
-      array (
-        'tablet' => 
-        array (
-          'row' => '120',
-        ),
-      ),
     ),
     'title' => 
     array (
@@ -116,13 +107,6 @@
     array (
       'theme_style' => '',
       'anchor' => '',
-      'breakpoint' => 
-      array (
-        'tablet' => 
-        array (
-          'row' => '4',
-        ),
-      ),
     ),
     'author_meta_description' => 
     array (
@@ -134,13 +118,6 @@
       'theme_style' => '_default',
       'anchor' => '',
       'format' => 'M d, Y',
-      'breakpoint' => 
-      array (
-        'tablet' => 
-        array (
-          'row' => '4',
-        ),
-      ),
     ),
     'tags' => 
     array (
