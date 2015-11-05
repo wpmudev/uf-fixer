@@ -117,8 +117,13 @@ padding-bottom: 60px;
     margin: 0 0 30px;
 }
 .post_content > ul, .post_content > ol {
-    margin: 0 0 15px 20px;
+    margin: 0 0 30px 20px;
 }
+
+.post_content ul li, .post_content ol li {
+    margin-bottom: 10px;
+}
+
 .post_content h3 {
     color: #ufc1;
     font-size: 28px;
@@ -126,8 +131,6 @@ padding-bottom: 60px;
     padding: 0;
 }
 .post_content p {
-    font-size: 15px;
-    line-height: 1.667em;
     padding: 0;
     -ms-word-break: break-word;
     word-break: break-word;

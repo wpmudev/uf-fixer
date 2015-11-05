@@ -19,8 +19,8 @@
 #page .u-posts-home.uposts-object li .title {
     display: block;
     float: left;
-    margin: 0;
-    padding: 30px 30px 15px;
+    margin: 30px 0 0;
+    padding: 30px 30px 5px;
     width: 50%;
 }
 #page .u-posts-home.uposts-object li .title h3 {
