@@ -12,7 +12,7 @@ $main = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 370,
+  'row' => 349,
   'background_type' => 'color',
   'background_color' => '#ufc0',
   'breakpoint' => 
@@ -821,7 +821,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<blockquote class="">Quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica.<br></blockquote>',
+    'content' => '<blockquote class="">Quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. <br></blockquote>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432912306290-1795',
     'class' => 'c24 upfront-plain_txt',
