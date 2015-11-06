@@ -7244,7 +7244,7 @@ $contact->add_element("PlainTxt", array (
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
-    'row' => 11,
+    'row' => 4,
     'breakpoint' => 
     (array)(array(
        'mobile' => 
@@ -7258,7 +7258,7 @@ $contact->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 4,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1413382904694-1241',
   'new_line' => true,
@@ -7318,7 +7318,7 @@ $contact->add_element("Ucontact", array (
   'columns' => '12',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '2',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1406205101532-1649',
   'id' => 'module-1406205101532-1649',

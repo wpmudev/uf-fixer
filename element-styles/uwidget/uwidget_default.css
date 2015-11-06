@@ -80,8 +80,8 @@
     left: 0;
     position: absolute;
     right: 0;
-    -webkit-transition: width .4s ease, background-color .4s ease;
-    transition: width .4s ease, background-color .4s ease;
+    -webkit-transition: width .2s ease, background-color .2s ease;
+    transition: width .2s ease, background-color .2s ease;
     width: 0;
 }
  .widget_nav_menu .menu li a:hover {
@@ -116,8 +116,8 @@
     vertical-align: middle;
 }
  .widget_calendar table > tbody > tr > td a {
-    -webkit-transition: all 0.4s ease-out;
-    transition: all 0.4s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
 }
  .widget_calendar table > tbody > tr > td a:hover {
     color: #ufc1;

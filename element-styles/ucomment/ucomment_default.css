@@ -251,9 +251,11 @@
     margin: 0;
 }
 .comment-form input[type="text"], .comment-form input[type="email"], .comment-form textarea {
-    border: 1px solid transparent;
+    border: 1px solid #f7f7f7;
     margin: 0 0 1px;
     background: #f7f7f7;
+     -webkit-transition: width .2s ease, background-color .2s ease;
+    transition: width .2s ease, background-color .2s ease;
 }
 
 #commentform p, #commentform h3 {
@@ -286,3 +288,7 @@
     background: #ufc1;
     color: #fed41d;
 }
+
+.upfront-comment {
+    min-height: 200px!important;
+ }

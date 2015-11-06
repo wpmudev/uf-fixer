@@ -97,6 +97,7 @@ padding-bottom: 60px;
     display: block;
     height: auto;
     max-width: 100%;
+    margin-top:5px;
 }
 .post_content .alignnone, .post_content .aligncenter, .post_content .alignright, .post_content .alignleft {
     max-width: 100%;
