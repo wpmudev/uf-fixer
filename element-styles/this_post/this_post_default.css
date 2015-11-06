@@ -14,7 +14,7 @@ padding-bottom: 60px;
     word-wrap: break-word;
 }
 .upfront-postpart-title .post_title a {
-    color: #ufc1;
+    color: #ufc6;
     font-weight: 900;
 }
 .upfront-postpart-title .post_title a:hover {
@@ -107,14 +107,18 @@ padding-bottom: 60px;
 }
 .post_content .alignright, .post_content img.alignright {
     float: right;
-    margin: 0 0 0 30px;
+    margin: 0 0 30px 0;
 }
 .post_content .alignleft, .post_content img.alignleft {
     float: left;
     margin: 0 30px 0 0;
 }
-.post_content h1, .post_content h2, .post_content h3, .post_content h4, .post_content h5, .post_content h6, .post_content p, .post_content address, .post_content table, .post_content pre, .post_content cite, .post_content q, .post_content iframe, .post_content embed {
+.post_content h1, .post_content h2, .post_content h3, .post_content h4, .post_content p, .post_content address, .post_content table, .post_content pre, .post_content cite, .post_content q, .post_content iframe, .post_content embed {
     margin: 0 0 30px;
+}
+
+.post_content h5, .post_content h6 {
+    margin: 0 0 10px;
 }
 .post_content > ul, .post_content > ol {
     margin: 0 0 30px 20px;
@@ -122,13 +126,6 @@ padding-bottom: 60px;
 
 .post_content ul li, .post_content ol li {
     margin-bottom: 10px;
-}
-
-.post_content h3 {
-    color: #ufc1;
-    font-size: 28px;
-    line-height: 1.5em;
-    padding: 0;
 }
 .post_content p {
     padding: 0;
@@ -140,11 +137,14 @@ padding-bottom: 60px;
     height: auto;
     max-width: 100%;
 }
+.post_content .wp-caption {
+    margin-bottom:30px;
+}
 .post_content .wp-caption-text p, .post_content p.wp-caption-text {
-    color: #555;
+    color: #ufc1;
     font-size: 13px;
-    line-height: 1.385em;
-    margin-top: 10px;
+    line-height: 1.4;
+    margin-top: 15px;
     margin-bottom: 0;
     padding: 0;
     text-align: center;
@@ -173,8 +173,9 @@ padding-bottom: 60px;
     padding: 0;
 }
 .upfront-postpart-contents .post_content blockquote {
-    margin: 0 45px 45px;
+    margin: 0 60px 30px;
     padding: 0;
+    text-align: center;
 }
 .upfront-postpart-contents .post_content blockquote:before,
 .upfront-postpart-contents .post_content blockquote:after {
@@ -182,8 +183,6 @@ padding-bottom: 60px;
     display: none;
 }
 .post_content blockquote p {
-    font-size: 22px;
-    line-height: 1.364em;
     padding: 0;
 }
 .post_content blockquote p:last-child {

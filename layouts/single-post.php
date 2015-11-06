@@ -50,7 +50,7 @@ $blog_individual->add_element("PlainTxt", array (
   'columns' => '24',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '13',
+  'margin_top' => '16',
   'margin_bottom' => '0',
   'class' => 'module-1407490840563-1569-module',
   'id' => 'module-1407490840563-1569-module',
@@ -64,7 +64,7 @@ $blog_individual->add_element("PlainTxt", array (
     'class' => 'c24 c24 upfront-plain_txt',
     'has_settings' => 1,
     'is_edited' => true,
-    'row' => 11,
+    'row' => 8,
     'border_style' => 'none',
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
@@ -180,7 +180,7 @@ $blog_individual->add_element("ThisPost", array (
       )),
        'tablet' => 
       (array)(array(
-         'theme_style' => 'u-this_post-tablet',
+         'theme_style' => 'u-this_post-mobile',
       )),
        'mobile' => 
       (array)(array(
@@ -239,8 +239,8 @@ $blog_individual->add_element("ThisPost", array (
 ));
 
 $blog_individual->add_element("Ucomment", array (
-  'columns' => '15',
-  'margin_left' => '7',
+  'columns' => '16',
+  'margin_left' => '6',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
@@ -255,7 +255,7 @@ $blog_individual->add_element("Ucomment", array (
     'has_settings' => 1,
     'prepend_form' => false,
     'element_id' => 'ucomment-object-1430734423685-1984',
-    'row' => 172,
+    'row' => 176,
     'anchor' => '',
     'breakpoint' => 
     (array)(array(
@@ -270,7 +270,7 @@ $blog_individual->add_element("Ucomment", array (
     )),
     'theme_style' => 'uf-ucomment-responsive',
   ),
-  'row' => 172,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1430735458058-1283',
   'new_line' => true,

@@ -13,6 +13,7 @@
 }
 #page .u-this_post-mobile .upfront-postpart-author_gravatar .author_gravatar img {
     float: none;
+    display: hidden
 }
 #page .u-this_post-mobile .upfront-postpart-author, #page .u-this_post-mobile .upfront-postpart-update {
     text-align: center;
@@ -47,4 +48,8 @@
 #page .u-this_post-mobile .part-contents > .post-part {
     margin-left: 0;
     width: 100%;
+}
+
+.u-this_post-mobile h2, .u-this_post-mobile h3 {
+    text-align: center;
 }

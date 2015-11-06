@@ -7,11 +7,11 @@
       array (
         0 => 
         array (
-          'classes' => 'post-part c22 ml1 mt1 part-module-title',
+          'classes' => 'post-part c20 ml2 mt0 part-module-title',
           'slug' => 'title',
         ),
       ),
-      'classes' => 'c23 clr part-title',
+      'classes' => 'c22 clr part-title',
     ),
     1 => 
     array (
@@ -24,16 +24,16 @@
         ),
         1 => 
         array (
-          'classes' => 'c5 post-part ml2 mt-1 part-module-author',
+          'classes' => 'c4 post-part ml2 mt0 part-module-author',
           'slug' => 'author',
         ),
         2 => 
         array (
-          'classes' => 'c5 post-part ml2 mt-1 part-module-update',
+          'classes' => 'c4 post-part ml2 mt-1 part-module-update',
           'slug' => 'update',
         ),
       ),
-      'classes' => 'c7 clr',
+      'classes' => 'c6 clr part-author part-update',
     ),
     2 => 
     array (
@@ -41,11 +41,11 @@
       array (
         0 => 
         array (
-          'classes' => 'c15 post-part ml0 mt5 part-module-featured_image',
+          'classes' => 'c16 post-part ml0 mt6 part-module-featured_image',
           'slug' => 'featured_image',
         ),
       ),
-      'classes' => 'c15 part-featured_image ',
+      'classes' => 'c16 part-featured_image ',
     ),
     3 => 
     array (
@@ -53,7 +53,7 @@
       array (
         0 => 
         array (
-          'classes' => 'c4 post-part ml0 mt1 part-module-tags',
+          'classes' => 'c4 post-part ml0 mt0 part-module-tags',
           'slug' => 'tags',
         ),
       ),
@@ -65,7 +65,7 @@
       array (
         0 => 
         array (
-          'classes' => ' post-part c15 ml6 mt4 part-module-contents',
+          'classes' => ' post-part c16 ml5 mt6 part-module-contents',
           'slug' => 'contents',
         ),
       ),
@@ -76,10 +76,10 @@
   array (
     'featured_image' => 
     array (
-      'height' => '335',
+      'height' => '380',
       'attributes' => 
       array (
-        'style' => 'max-height: 335px',
+        'style' => 'max-height: 380px',
       ),
     ),
     'colSize' => '45',
