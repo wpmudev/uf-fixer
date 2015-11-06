@@ -1,12 +1,11 @@
 .post_content {    
-padding-bottom: 60px;
+    padding-bottom: 60px;
 }
-
 .part-featured_image.no-featured_image {
     display: none;
 }
 .part-featured_image.no-featured_image ~ .part-contents > .post-part {
-    margin-top: -140px;
+    margin-top: -50px;
 }
 .upfront-postpart-title .post_title {
     text-align: center;
