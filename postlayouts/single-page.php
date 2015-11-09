@@ -7,11 +7,11 @@
       array (
         0 => 
         array (
-          'classes' => 'post-part c24 ml0 mt0 part-module-title',
+          'classes' => 'post-part c20 ml2 mt0 part-module-title',
           'slug' => 'title',
         ),
       ),
-      'classes' => 'c24 clr part-title',
+      'classes' => 'c22 clr part-title',
     ),
     1 => 
     array (
@@ -19,18 +19,18 @@
       array (
         0 => 
         array (
-          'classes' => ' post-part c24 ml0 mt8 part-module-contents',
+          'classes' => ' post-part c20 ml2 mt6 part-module-contents',
           'slug' => 'contents',
         ),
       ),
-      'classes' => 'c24 clr part-contents',
+      'classes' => 'c22 clr part-contents',
     ),
   ),
   'partOptions' => 
   array (
     'featured_image' => 
     array (
-      'height' => '345',
+      'height' => '380',
     ),
     'colSize' => '45',
     'date' => 

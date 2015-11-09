@@ -143,7 +143,7 @@
 .post_content .wp-caption-text p, .post_content p.wp-caption-text {
     color: #ufc1;
     font-size: 13px;
-    line-height: 1.4;
+    line-height: 1.4em;
     margin-top: 15px;
     margin-bottom: 0;
     padding: 0;
@@ -165,12 +165,28 @@
     line-height: 1.385em;
 }
 .post_content .upfront-inserted_image-wrapper {
+    margin: 0;
+}
+.post_content .ueditor-insert-variant .ueditor-image-style-full-width,
+.post_content .ueditor-insert-variant .ueditor-image-style-center {
+    margin-bottom: 30px;
+}
+.post_content .ueditor-insert-variant .ueditor-image-style-right {
+    margin: 0 0 0 30px;
+}
+.post_content .ueditor-insert-variant .ueditor-image-style-left {
+    margin: 0 30px 0 0;
 }
 .post_content .upfront-wrapper.uinsert-image-wrapper {
     padding: 0;
 }
 .post_content .upfront-wrapper.wp-caption-text {
-    padding: 0;
+    color: #ufc1;
+    font-size: 13px;
+    line-height: 1.4em;
+    min-height: auto !important;
+    text-align: center;
+    padding: 15px 0;
 }
 .upfront-postpart-contents .post_content blockquote {
     margin: 0 60px 30px;
