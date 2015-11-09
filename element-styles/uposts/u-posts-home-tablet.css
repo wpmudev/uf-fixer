@@ -84,8 +84,14 @@
     margin: 0;
     padding: 0 30px;
 }
+#page .u-posts-home-tablet.uposts-object li .content p {
+    padding: 0;
+}
 #page .u-posts-home-tablet.uposts-object li .content p:last-child {
     margin-bottom: 0;
+}
+#page .u-posts-home-tablet.uposts-object li .content.generated-excerpt p:after {
+    content: "...";
 }
 #page .u-posts-home-tablet.uposts-object li .read_more {
     display: block;

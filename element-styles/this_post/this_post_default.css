@@ -1,8 +1,11 @@
+.post_content {    
+    padding-bottom: 60px;
+}
 .part-featured_image.no-featured_image {
     display: none;
 }
 .part-featured_image.no-featured_image ~ .part-contents > .post-part {
-    margin-top: -140px;
+    margin-top: -50px;
 }
 .upfront-postpart-title .post_title {
     text-align: center;
@@ -10,7 +13,7 @@
     word-wrap: break-word;
 }
 .upfront-postpart-title .post_title a {
-    color: #ufc1;
+    color: #ufc6;
     font-weight: 900;
 }
 .upfront-postpart-title .post_title a:hover {
@@ -37,7 +40,7 @@
     line-height: 1.923em;
 }
 .upfront-postpart-author a.post_author:hover {
-    color: #ufc6;
+    text-decoration: underline;
 }
 .upfront-postpart-update {
     color: #ufc1;
@@ -93,6 +96,7 @@
     display: block;
     height: auto;
     max-width: 100%;
+    margin-top:5px;
 }
 .post_content .alignnone, .post_content .aligncenter, .post_content .alignright, .post_content .alignleft {
     max-width: 100%;
@@ -103,27 +107,27 @@
 }
 .post_content .alignright, .post_content img.alignright {
     float: right;
-    margin: 0 0 0 30px;
+    margin: 0 0 30px 0;
 }
 .post_content .alignleft, .post_content img.alignleft {
     float: left;
     margin: 0 30px 0 0;
 }
-.post_content h1, .post_content h2, .post_content h3, .post_content h4, .post_content h5, .post_content h6, .post_content p, .post_content address, .post_content table, .post_content pre, .post_content cite, .post_content q, .post_content iframe, .post_content embed {
+.post_content h1, .post_content h2, .post_content h3, .post_content h4, .post_content p, .post_content address, .post_content table, .post_content pre, .post_content cite, .post_content q, .post_content iframe, .post_content embed {
     margin: 0 0 30px;
 }
-.post_content > ul, .post_content > ol {
-    margin: 0 0 15px 20px;
+
+.post_content h5, .post_content h6 {
+    margin: 0 0 10px;
 }
-.post_content h3 {
-    color: #ufc1;
-    font-size: 28px;
-    line-height: 1.5em;
-    padding: 0;
+.post_content > ul, .post_content > ol {
+    margin: 0 0 30px 20px;
+}
+
+.post_content ul li, .post_content ol li {
+    margin-bottom: 10px;
 }
 .post_content p {
-    font-size: 15px;
-    line-height: 1.667em;
     padding: 0;
     -ms-word-break: break-word;
     word-break: break-word;
@@ -133,11 +137,14 @@
     height: auto;
     max-width: 100%;
 }
+.post_content .wp-caption {
+    margin-bottom:30px;
+}
 .post_content .wp-caption-text p, .post_content p.wp-caption-text {
-    color: #555;
+    color: #ufc1;
     font-size: 13px;
-    line-height: 1.385em;
-    margin-top: 10px;
+    line-height: 1.4em;
+    margin-top: 15px;
     margin-bottom: 0;
     padding: 0;
     text-align: center;
@@ -158,16 +165,33 @@
     line-height: 1.385em;
 }
 .post_content .upfront-inserted_image-wrapper {
+    margin: 0;
+}
+.post_content .ueditor-insert-variant .ueditor-image-style-full-width,
+.post_content .ueditor-insert-variant .ueditor-image-style-center {
+    margin-bottom: 30px;
+}
+.post_content .ueditor-insert-variant .ueditor-image-style-right {
+    margin: 0 0 0 30px;
+}
+.post_content .ueditor-insert-variant .ueditor-image-style-left {
+    margin: 0 30px 0 0;
 }
 .post_content .upfront-wrapper.uinsert-image-wrapper {
     padding: 0;
 }
 .post_content .upfront-wrapper.wp-caption-text {
-    padding: 0;
+    color: #ufc1;
+    font-size: 13px;
+    line-height: 1.4em;
+    min-height: auto !important;
+    text-align: center;
+    padding: 15px 0;
 }
 .upfront-postpart-contents .post_content blockquote {
-    margin: 0 45px 45px;
+    margin: 0 60px 30px;
     padding: 0;
+    text-align: center;
 }
 .upfront-postpart-contents .post_content blockquote:before,
 .upfront-postpart-contents .post_content blockquote:after {
@@ -175,8 +199,6 @@
     display: none;
 }
 .post_content blockquote p {
-    font-size: 22px;
-    line-height: 1.364em;
     padding: 0;
 }
 .post_content blockquote p:last-child {
@@ -252,8 +274,8 @@
     right: 0;
     top: 0;
     width: 100%;
-    -webkit-transition: opacity 0.4s ease-out;
-    transition: opacity 0.4s ease-out;
+    -webkit-transition: opacity 0.2s ease-out;
+    transition: opacity 0.2s ease-out;
 }
 .post_content .gallery .gallery-item .gallery-icon a:after {
     content: '+';
@@ -268,8 +290,8 @@
     right: 0;
     text-align: center;
     top: 50%;
-    -webkit-transition: opacity 0.4s ease-out, -webkit-transform 0.3s ease-out;
-    transition: opacity 0.4s ease-out, transform 0.3s ease-out;
+    -webkit-transition: opacity 0.2s ease-out, -webkit-transform 0.2s ease-out;
+    transition: opacity 0.2s ease-out, transform 0.2s ease-out;
     -webkit-transform: translateY(-20px) scale(3);
     transform: translateY(-20px) scale(3);
 }

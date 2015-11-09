@@ -53,7 +53,7 @@ $region_5->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;">Blog</h2>',
+    'content' => '<h3 class="" style="text-align: center;">Blog</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1407244369177-1062',
     'class' => 'c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt',

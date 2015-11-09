@@ -12,7 +12,7 @@ $main = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 370,
+  'row' => 349,
   'background_type' => 'color',
   'background_color' => '#ufc0',
   'breakpoint' => 
@@ -53,8 +53,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;">About</h2>
-',
+    'content' => '<h3 class="" style="text-align: center;">About</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432911649644-1060',
     'class' => 'c24 upfront-plain_txt',
@@ -395,8 +394,10 @@ $main->add_element("PlainTxt", array (
 
 $main->add_group(array (
   'columns' => '6',
-  'margin_top' => '0',
   'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1445406836859-1973',
   'type' => 'ModuleGroup',
@@ -820,7 +821,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<blockquote class="">Quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica.<br></blockquote>',
+    'content' => '<blockquote class="">Quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. <br></blockquote>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432912306290-1795',
     'class' => 'c24 upfront-plain_txt',

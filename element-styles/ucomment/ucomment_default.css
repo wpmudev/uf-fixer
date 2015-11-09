@@ -8,75 +8,75 @@
     overflow: hidden;
 }
 .upfront-comments li.comment article {
-    padding: 30px;
+    padding: 30px 0;
     overflow: hidden;
+    border-top: 2px solid #f5f5f5;
 }
 .upfront-comments li.comment.depth-1.thread-even {
-    background: #f3f8fc;
 }
 .upfront-comments li.comment.depth-1.thread-odd {
-    background: #ffe262;
 }
 .upfront-comments li.comment.thread-even .children li.comment {
-    border-top: 1px solid #DADFE3;
 }
 .upfront-comments li.comment.thread-odd .children li.comment {
-    border-top: 1px solid #E6C949;
 }
 .upfront-comments .comment .children {
     list-style-type: none;
     margin: 0 20px;
-    padding: 0;
+    margin: 0 0 0 45px;
+    padding: 0
 }
 .upfront-comments .comment-meta {
     float: left;
     height: 60px;
-    margin-right: 20px;
+    margin-right: 45px;
     width: 60px;
+    display:none;
 }
 .upfront-comments .comment-content {
     float: left;
     font-size: 15px;
-    line-height: 1.667em;
-    max-width: 550px;
+    max-width: 100%;
 }
 .upfront-comments .comment-content p {
     font-size: 15px;
     line-height: 1.667em;
 }
 .upfront-comments .depth-2 .comment-content {
-    max-width: 510px;
+    width:100%;
 }
 .upfront-comments .depth-3 .comment-content {
-    max-width: 470px;
+    width:100%;
 }
 .upfront-comments .comment_author, .upfront-comments .comment_author a {
     color: #ufc1;
-    font-size: 15px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.667em;
+    line-height: 1.7em;
 }
 .upfront-comments .comment_author a:hover {
     color: #ufc6;
 }
 .upfront-comments .comment-meta-actions {
     float: right;
+    margin-top:-30px;
 }
 .upfront-comments p.comment-awaiting-moderation {
     clear: both;
     color: #ufc1;
     font-size: 15px;
     font-weight: 700;
-    line-height: 1.667em;
+    line-height: 1em;
     margin-bottom: 0;
     padding: 0;
 }
 .upfront-comments a.comment-date {
-    margin-right: 30px;
-    color: #999;
+    margin-right: 15px;
+    color: #ufc1;
+    font-weight:600;
     font-size: 13px;
-    line-height: 1.923em;
+    line-height: 2em;
 }
 .upfront-comments a.comment-date:hover {
     color: #ufc1;
@@ -96,8 +96,19 @@
     margin: 0;
 }
 .upfront-comments .comment-edit-link {
-    color: #ufc6;
+    color: #ufc1;
+    font-size:13px;
+    font-weight:700;
+    line-height:1em;
 }
+
+.upfront-comments .comment-edit-link:hover {
+    color: #ufc1;
+    font-size:13px;
+    font-weight:700;
+    text-decoration:underline;
+}
+
 .comment-content > *:last-child {
     margin-bottom: 0;
 }
@@ -206,38 +217,62 @@
     background: #ffe262;
     margin: 30px auto;
     overflow: hidden;
-    padding: 30px;
+    padding: 30px 20px;
 }
-.comment-respond .comment-reply-title {
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 1.214em;
-    margin-bottom: 20px;
-}
-.comment-respond .logged-in-as {
-    margin-bottom: 20px;
-}
-.comment-respond .logged-in-as a {
+.comment-respond .comment-reply-title a {
     color: #ufc1;
+}
+
+.comment-respond .comment-reply-title small a {
+    width:100%;
+    display:block;
+    color:#ufc1;
+    font-size:15px;
+    font-weight:600;
+}
+
+.comment-respond .comment-reply-title small a:hover {
     text-decoration: underline;
 }
+
+.comment-respond .logged-in-as {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.comment-respond .logged-in-as a {
+    font-weight:600;
+    color: #ufc1;
+}
 .comment-respond .logged-in-as a:hover {
-    color: #ufc6;
+    color: #ufc1;
+    text-decoration: underline;
 }
 .comment-form .comment-form-author, .comment-form .comment-form-email, .comment-form .comment-form-comment, .comment-form .form-submit {
     margin: 0;
 }
 .comment-form input[type="text"], .comment-form input[type="email"], .comment-form textarea {
-    border: 1px solid transparent;
+    border: 1px solid #f7f7f7;
     margin: 0 0 1px;
+    background: #f7f7f7;
+     -webkit-transition: width .2s ease, background-color .2s ease;
+    transition: width .2s ease, background-color .2s ease;
 }
+
+#commentform p, #commentform h3 {
+    padding-bottom:0px;
+}
+
 #commentform input[type="text"]:focus,
 #commentform input[type="email"]:focus,
 #commentform textarea:focus {
     border-color: #fed41d;
+    background: white;
+    font-size:15px;
 }
 .comment-form .comment-form-comment textarea {
     height: 150px;
+    width:100%;
+    padding: 10px 15px;
     resize: vertical;
 }
 .comment-form .form-submit {
@@ -247,9 +282,13 @@
 .comment-form .form-submit input[type="submit"] {
     background: #fed41d;
     color: #ufc1;
-    padding: 16px 15px;
+    padding: 16px 30px;
 }
 .comment-form .form-submit input[type="submit"]:hover {
     background: #ufc1;
     color: #fed41d;
 }
+
+.upfront-comment {
+    min-height: 200px!important;
+ }

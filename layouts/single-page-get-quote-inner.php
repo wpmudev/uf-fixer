@@ -53,7 +53,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;">Get a&nbsp;quote</h2>',
+    'content' => '<h3 class="" style="text-align: center;">Get a&nbsp;quote</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432910788816-1073',
     'class' => 'c24 upfront-plain_txt',
@@ -561,7 +561,7 @@ $main->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class="">2. We Roll</h3>',
+    'content' => '<h3 class=""><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>2. We Roll<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1432910920510-1024',
     'class' => 'c24 upfront-plain_txt',

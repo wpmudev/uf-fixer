@@ -898,7 +898,7 @@ $region_13->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 style="text-align: center;" class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>Service<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></span></h3>',
+    'content' => '<h3 style="text-align: center;" class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Services</span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1412752367985-1171',
     'class' => 'c24 upfront-plain_txt',
@@ -1159,7 +1159,7 @@ $region_13->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>Bricklay<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span>ing &nbsp;<span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">d</span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​</span></span></h3>',
+    'content' => '<h3 class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Bricklaying &nbsp;<span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">d</span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​</span></span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1422428824571-1705',
     'class' => 'c24 upfront-plain_txt',
@@ -4066,7 +4066,7 @@ $quote->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;"><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>Get a quote<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></h2>',
+    'content' => '<h3 class="" style="text-align: center;">Get a quote</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1412779180680-1452',
     'class' => 'c24 upfront-plain_txt',
@@ -5163,7 +5163,7 @@ $blog_header = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 117,
+  'row' => 126,
   'background_type' => 'image',
   'nav_region' => '',
   'background_color' => '#ffffff',
@@ -5210,7 +5210,7 @@ $blog_header->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class=""><span class="upfront_theme_color_0">Blog</span></h2>',
+    'content' => '<h3 class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Blog</span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1414410069741-1460',
     'class' => 'c24 upfront-plain_txt',
@@ -5221,7 +5221,7 @@ $blog_header->add_element("PlainTxt", array (
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => 'blog',
-    'row' => 12,
+    'row' => 9,
     'breakpoint' => 
     (array)(array(
        'custom-1410783666947' => 
@@ -5516,7 +5516,7 @@ $blog_items->add_element("Posts", array (
     'post-part-title' => '<div class="uposts-part title">
 	<h3><a href="{{permalink}}" title="{{title}}">{{title}}</a></h3>
 </div>',
-    'post-part-content' => '<div class="uposts-part content">
+    'post-part-content' => '<div class="uposts-part content {{content_type}}">
 	{{content}}
 </div>',
     'post-part-read_more' => '<div class="uposts-part read_more">
@@ -5657,7 +5657,7 @@ $subscribe->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="">Interested in receiving more tips?</h2>',
+    'content' => '<h3 class="">Interested in receiving more tips?</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1406194594841-1906',
     'class' => 'c24 upfront-plain_txt',
@@ -6000,7 +6000,7 @@ $about->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;">About</h2>',
+    'content' => '<h3 class="" style="text-align: center;">About</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1412782658098-1018',
     'class' => 'c24 upfront-plain_txt',
@@ -6802,8 +6802,7 @@ $about->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<blockquote class="">Quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica.</blockquote>
-',
+    'content' => '<blockquote class="">Quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.</blockquote>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1445390047208-1934',
     'class' => 'c24 upfront-plain_txt',
@@ -7017,7 +7016,7 @@ $contact_us->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Contact&nbsp;us</span></h2>',
+    'content' => '<h3 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Contact&nbsp;us</span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1414410356935-1820',
     'class' => 'c24 upfront-plain_txt',
@@ -7234,7 +7233,7 @@ $contact->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 style="text-align: start;" class=""><span class="upfront_theme_color_0">Get in touch:</span></h2>',
+    'content' => '<h3 style="text-align: start;" class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Get in touch:</span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1412850227556-1966',
     'class' => 'c24 upfront-plain_txt',
@@ -7245,7 +7244,7 @@ $contact->add_element("PlainTxt", array (
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
-    'row' => 11,
+    'row' => 4,
     'breakpoint' => 
     (array)(array(
        'mobile' => 
@@ -7259,7 +7258,7 @@ $contact->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 4,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1413382904694-1241',
   'new_line' => true,
@@ -7319,7 +7318,7 @@ $contact->add_element("Ucontact", array (
   'columns' => '12',
   'margin_left' => '1',
   'margin_right' => '0',
-  'margin_top' => '2',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1406205101532-1649',
   'id' => 'module-1406205101532-1649',
@@ -7342,7 +7341,7 @@ $contact->add_element("Ucontact", array (
     'form_captcha_label' => 'CAPTCHA:',
     'form_default_subject' => 'Sent from the website',
     'form_message_label' => 'Type your enquiry here',
-    'form_button_text' => 'Submit',
+    'form_button_text' => 'SEND',
     'form_validate_when' => 'submit',
     'form_label_position' => 'over',
     'type' => 'UcontactModel',

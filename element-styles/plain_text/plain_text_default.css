@@ -6,3 +6,6 @@
 .upfront-plain_txt a:hover span.uf_font_icon {
     opacity: 0.7;
 }
+.upfront-plain_txt h3 {
+    line-height:35px;
+}

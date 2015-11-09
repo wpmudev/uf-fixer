@@ -54,13 +54,19 @@ $cases_region->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h2 class="" style="text-align: center;">Case Study</h2>',
+    'content' => '<h3 class="" style="text-align: center;">Case Study</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1407250114379-1090',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'row' => 8,
     'is_edited' => true,
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
+    'theme_style' => 'u-sub-heading',
   ),
   'row' => 6,
   'sticky' => false,
@@ -305,6 +311,15 @@ $cases_region->add_element("Ugallery", array (
         )),
          'urlType' => 'image',
          'linkTarget' => '_self',
+         'imageLink' => 
+        (array)(array(
+           'type' => 'image',
+           'url' => '{{upfront:style_url}}/images/single-page-cases/gal-image3.jpg',
+           'target' => '_self',
+        )),
+         'imageLinkType' => 'image',
+         'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-cases/gal-image3.jpg',
+         'imageLinkTarget' => '_self',
       )),
       1 => 
       (array)(array(
@@ -414,6 +429,15 @@ $cases_region->add_element("Ugallery", array (
         )),
          'urlType' => false,
          'linkTarget' => '',
+         'imageLink' => 
+        (array)(array(
+           'type' => false,
+           'url' => '',
+           'target' => '',
+        )),
+         'imageLinkType' => false,
+         'imageLinkUrl' => '',
+         'imageLinkTarget' => '',
       )),
       2 => 
       (array)(array(
@@ -523,6 +547,15 @@ $cases_region->add_element("Ugallery", array (
         )),
          'urlType' => false,
          'linkTarget' => '',
+         'imageLink' => 
+        (array)(array(
+           'type' => false,
+           'url' => '',
+           'target' => '',
+        )),
+         'imageLinkType' => false,
+         'imageLinkUrl' => '',
+         'imageLinkTarget' => '',
       )),
       3 => 
       (array)(array(
@@ -632,6 +665,15 @@ $cases_region->add_element("Ugallery", array (
         )),
          'urlType' => false,
          'linkTarget' => '',
+         'imageLink' => 
+        (array)(array(
+           'type' => false,
+           'url' => '',
+           'target' => '',
+        )),
+         'imageLinkType' => false,
+         'imageLinkUrl' => '',
+         'imageLinkTarget' => '',
       )),
       4 => 
       (array)(array(
@@ -741,6 +783,15 @@ $cases_region->add_element("Ugallery", array (
         )),
          'urlType' => false,
          'linkTarget' => '',
+         'imageLink' => 
+        (array)(array(
+           'type' => false,
+           'url' => '',
+           'target' => '',
+        )),
+         'imageLinkType' => false,
+         'imageLinkUrl' => '',
+         'imageLinkTarget' => '',
       )),
       5 => 
       (array)(array(
@@ -850,6 +901,15 @@ $cases_region->add_element("Ugallery", array (
         )),
          'urlType' => false,
          'linkTarget' => '',
+         'imageLink' => 
+        (array)(array(
+           'type' => false,
+           'url' => '',
+           'target' => '',
+        )),
+         'imageLinkType' => false,
+         'imageLinkUrl' => '',
+         'imageLinkTarget' => '',
       )),
       6 => 
       (array)(array(
@@ -959,6 +1019,15 @@ $cases_region->add_element("Ugallery", array (
         )),
          'urlType' => false,
          'linkTarget' => '',
+         'imageLink' => 
+        (array)(array(
+           'type' => false,
+           'url' => '',
+           'target' => '',
+        )),
+         'imageLinkType' => false,
+         'imageLinkUrl' => '',
+         'imageLinkTarget' => '',
       )),
       7 => 
       (array)(array(
@@ -1068,6 +1137,15 @@ $cases_region->add_element("Ugallery", array (
         )),
          'urlType' => false,
          'linkTarget' => '',
+         'imageLink' => 
+        (array)(array(
+           'type' => false,
+           'url' => '',
+           'target' => '',
+        )),
+         'imageLinkType' => false,
+         'imageLinkUrl' => '',
+         'imageLinkTarget' => '',
       )),
       8 => 
       (array)(array(
@@ -1177,6 +1255,15 @@ $cases_region->add_element("Ugallery", array (
         )),
          'urlType' => false,
          'linkTarget' => '',
+         'imageLink' => 
+        (array)(array(
+           'type' => false,
+           'url' => '',
+           'target' => '',
+        )),
+         'imageLinkType' => false,
+         'imageLinkUrl' => '',
+         'imageLinkTarget' => '',
       )),
       9 => 
       (array)(array(
@@ -1286,6 +1373,15 @@ $cases_region->add_element("Ugallery", array (
         )),
          'urlType' => false,
          'linkTarget' => '',
+         'imageLink' => 
+        (array)(array(
+           'type' => false,
+           'url' => '',
+           'target' => '',
+        )),
+         'imageLinkType' => false,
+         'imageLinkUrl' => '',
+         'imageLinkTarget' => '',
       )),
       10 => 
       (array)(array(
@@ -1395,6 +1491,15 @@ $cases_region->add_element("Ugallery", array (
         )),
          'urlType' => false,
          'linkTarget' => '',
+         'imageLink' => 
+        (array)(array(
+           'type' => false,
+           'url' => '',
+           'target' => '',
+        )),
+         'imageLinkType' => false,
+         'imageLinkUrl' => '',
+         'imageLinkTarget' => '',
       )),
       11 => 
       (array)(array(
@@ -1504,6 +1609,15 @@ $cases_region->add_element("Ugallery", array (
         )),
          'urlType' => false,
          'linkTarget' => '',
+         'imageLink' => 
+        (array)(array(
+           'type' => false,
+           'url' => '',
+           'target' => '',
+        )),
+         'imageLinkType' => false,
+         'imageLinkUrl' => '',
+         'imageLinkTarget' => '',
       )),
       12 => 
       (array)(array(
@@ -1613,6 +1727,15 @@ $cases_region->add_element("Ugallery", array (
         )),
          'urlType' => false,
          'linkTarget' => '',
+         'imageLink' => 
+        (array)(array(
+           'type' => false,
+           'url' => '',
+           'target' => '',
+        )),
+         'imageLinkType' => false,
+         'imageLinkUrl' => '',
+         'imageLinkTarget' => '',
       )),
       13 => 
       (array)(array(
@@ -1722,6 +1845,15 @@ $cases_region->add_element("Ugallery", array (
         )),
          'urlType' => false,
          'linkTarget' => '',
+         'imageLink' => 
+        (array)(array(
+           'type' => false,
+           'url' => '',
+           'target' => '',
+        )),
+         'imageLinkType' => false,
+         'imageLinkUrl' => '',
+         'imageLinkTarget' => '',
       )),
       14 => 
       (array)(array(
@@ -1829,6 +1961,15 @@ $cases_region->add_element("Ugallery", array (
         )),
          'urlType' => false,
          'linkTarget' => '',
+         'imageLink' => 
+        (array)(array(
+           'type' => false,
+           'url' => '',
+           'target' => '',
+        )),
+         'imageLinkType' => false,
+         'imageLinkUrl' => '',
+         'imageLinkTarget' => '',
       )),
     ),
     'elementSize' => 
@@ -1851,14 +1992,29 @@ $cases_region->add_element("Ugallery", array (
     array (
       0 => 'true',
     ),
+    'fitThumbCaptions' => false,
+    'thumbCaptionsHeight' => 20,
     'linkTo' => 'image',
     'even_padding' => 
     array (
       0 => 'true',
     ),
     'thumbPadding' => 0,
-    'fitThumbCaptions' => false,
-    'thumbCaptionsHeight' => 20,
+    'lightbox_show_close' => 
+    array (
+      0 => 'true',
+    ),
+    'lightbox_show_image_count' => 
+    array (
+      0 => 'true',
+    ),
+    'lightbox_click_out_close' => 
+    array (
+      0 => 'true',
+    ),
+    'lightbox_active_area_bg' => 'rgba(255,255,255,1)',
+    'lightbox_overlay_bg' => 'rgba(0,0,0,0.2)',
+    'styles' => '',
     'captionPosition' => 'below',
     'captionWhen' => 'never',
     'no_padding' => 
@@ -1925,7 +2081,7 @@ $separator = upfront_create_region(
   'type' => 'wide',
   'scope' => 'local',
   'container' => 'separator',
-  'position' => 10,
+  'position' => 1,
   'allow_sidebar' => true,
 ),
 			array (
