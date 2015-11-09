@@ -16,6 +16,20 @@ module.exports = function(grunt) {
             dist: {
                 src: 'element-styles/**/*.css'
             }
+        },
+
+        imagemin: {
+            dist: {
+                options: {
+                    optimizationLevel: 7
+                },
+                files: [{
+                    expand: true,
+                    cwd: 'images/',
+                    src: ['**/*.{png,jpg,gif,svg}'],
+                    dest: 'images/'
+                }]
+            }
         }
 
     });
