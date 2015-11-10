@@ -180,11 +180,11 @@ $blog_individual->add_element("ThisPost", array (
       )),
        'tablet' => 
       (array)(array(
-         'theme_style' => 'u-this_post-tablet',
+         'theme_style' => 'uf-upost-responsive',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'u-this_post-tablet',
+         'theme_style' => 'uf-upost-responsive',
       )),
     )),
     'hide_featured_image' => '',
@@ -220,6 +220,7 @@ $blog_individual->add_element("ThisPost", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'hide' => 0,
     ),
     'mobile' => 
     array (
@@ -303,6 +304,7 @@ $blog_individual->add_element("Ucomment", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'hide' => 0,
     ),
     'mobile' => 
     array (

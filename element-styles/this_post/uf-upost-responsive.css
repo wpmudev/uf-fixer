@@ -1,0 +1,63 @@
+#page .uf-upost-responsive .part-title > .post-part {
+    margin: 0;
+    width: 100%;
+}
+#page .uf-upost-responsive .part-update {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+#page .uf-upost-responsive .part-author_gravatar .part-module-author_gravatar, #page .uf-upost-responsive .part-author_gravatar .part-module-author, #page .uf-upost-responsive .part-author_gravatar .part-module-update {
+    margin-right: auto;
+    margin-left: auto;
+}
+#page .uf-upost-responsive .upfront-postpart-author_gravatar .author_gravatar img {
+    float: none;
+    display: hidden
+}
+#page .uf-upost-responsive .upfront-postpart-author, #page .uf-upost-responsive .upfront-postpart-update {
+    text-align: center;
+}
+#page .uf-upost-responsive .part-featured_image {
+    margin: 0;
+    width: 100%;
+}
+#page .uf-upost-responsive .part-featured_image > .post-part {
+    margin-left: 0;
+    width: 100%;
+}
+#page .uf-upost-responsive .part-tags {
+    width: 100%;
+}
+#page .uf-upost-responsive .part-tags .part-module-tags {
+    margin-left: auto;
+    margin-right: auto;
+}
+#page .uf-upost-responsive .post_tags a {
+    display: inline-block;
+    margin: 0 15px 15px 0;
+    text-align: left;
+}
+#page .uf-upost-responsive .part-contents {
+    margin-left: 0;
+    width: 100%;
+}
+#page .uf-upost-responsive .part-featured_image.no-featured_image ~ .part-contents > .post-part {
+    margin-top: 30px;
+}
+#page .uf-upost-responsive .part-contents > .post-part {
+    margin-left: 0;
+    width: 100%;
+}
+#page .uf-upost-responsive h2, #page .uf-upost-responsive h3 {
+    text-align: center;
+}
+#page .uf-upost-responsive .upfront-inserted_image-wrapper.ueditor-insert-variant .ueditor-insert {
+    margin: 0;
+    width: 100%;
+}
+#page .uf-upost-responsive .uinsert-image-wrapper img {
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+}
