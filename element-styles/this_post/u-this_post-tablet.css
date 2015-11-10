@@ -17,8 +17,7 @@
 #page .u-this_post-tablet .upfront-postpart-author_gravatar .author_gravatar img {
     float: none;
 }
-#page .u-this_post-tablet .upfront-postpart-author,
-#page .u-this_post-tablet .upfront-postpart-update {
+#page .u-this_post-tablet .upfront-postpart-author, #page .u-this_post-tablet .upfront-postpart-update {
     text-align: left;
 }
 #page .u-this_post-tablet .part-featured_image {
@@ -50,10 +49,11 @@
 #page .u-this_post-tablet .upfront-postpart-update {
     text-align: center;
 }
-#page .u-this_post-tablet .post_content .alignright, 
-#page .u-this_post-tablet .post_content img.alignright, 
-#page .u-this_post-tablet .post_content .alignleft, 
-#page .u-this_post-tablet .post_content img.alignleft {
+#page .u-this_post-tablet .post_content .alignright, #page .u-this_post-tablet .post_content img.alignright, #page .u-this_post-tablet .post_content .alignleft, #page .u-this_post-tablet .post_content img.alignleft {
     float: none;
     margin: 0 auto 30px;
+}
+#page .u-this_post-tablet .upfront-inserted_image-wrapper.ueditor-insert-variant .ueditor-insert {
+    margin: 0;
+    width: 100%;
 }

@@ -97,11 +97,11 @@ $main->add_element("ThisPost", array (
       )),
        'tablet' => 
       (array)(array(
-         'theme_style' => 'u-this_page-tablet',
+         'theme_style' => 'uf-upage-responsive',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'u-this_page-mobile',
+         'theme_style' => 'uf-upage-responsive',
       )),
     )),
     'hide_featured_image' => '1',
@@ -168,7 +168,7 @@ $separator = upfront_create_region(
   'type' => 'wide',
   'scope' => 'local',
   'container' => 'separator',
-  'position' => 10,
+  'position' => 20,
   'allow_sidebar' => true,
 ),
 			array (
