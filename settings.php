@@ -273,6 +273,24 @@ p, h3 {
     padding-bottom:10px;
 }
 
+/* Subscribe Lightbox */
+.responsive-breakpoint #upfront-region-ltb-subscribe15 {
+    left: 0 !important;
+    margin-right: auto;
+    margin-left: auto !important;
+    max-width: 320px;
+    right: 0;
+    width: 100% !important;
+}
+.responsive-breakpoint #upfront-region-ltb-subscribe15 .upfront-output-wrapper {
+    margin-right: 0;
+    width: 100%;
+}
+.responsive-breakpoint #upfront-region-ltb-subscribe15 .upfront-output-module {
+    margin-left: 0;
+    width: 100%;
+}
+
 /* general tablet styles */
 @media only screen and (max-width: 1079px) and (min-width: 570px) {}
 

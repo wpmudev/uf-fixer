@@ -60,7 +60,6 @@
 }
 .upfront-comments .comment-meta-actions {
     float: right;
-    margin-top:-30px;
 }
 .upfront-comments p.comment-awaiting-moderation {
     clear: both;
@@ -119,6 +118,7 @@
     margin: 0 0 15px 20px;
 }
 .comment-content p {
+    margin: 0 0 5px;
     padding: 0;
     -ms-word-break: break-word;
     word-break: break-word;

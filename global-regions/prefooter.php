@@ -65,7 +65,7 @@ $prefooter->add_element("PlainTxt", array (
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
-    'theme_style' => '_default',
+    'theme_style' => 'uf-heading-footer',
     'anchor' => '',
     'row' => 27,
     'breakpoint' => 
