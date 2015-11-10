@@ -169,7 +169,8 @@
     margin: 0;
 }
 .post_content .ueditor-insert-variant .ueditor-image-style-full-width,
-.post_content .ueditor-insert-variant .ueditor-image-style-center {
+.post_content .ueditor-insert-variant .ueditor-image-style-center-page,
+.post_content .ueditor-insert-variant .ueditor-image-style-center-post {
     margin-bottom: 30px;
 }
 .post_content .ueditor-insert-variant .ueditor-image-style-right {
