@@ -486,7 +486,7 @@ $region_14->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 6,
+      'col' => 5,
       'clear' => true,
       'order' => 3,
     ),
@@ -564,7 +564,7 @@ $region_14->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'theme_style' => 'text-center',
-         'row' => 45,
+         'row' => 59,
       )),
        'custom-1410783666947' => 
       (array)(array(
@@ -617,8 +617,8 @@ $region_14->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 1,
       'col' => 5,
-      'top' => 0,
-      'row' => 45,
+      'top' => 3,
+      'row' => 59,
     ),
     'custom-1410783666947' => 
     array (
@@ -687,7 +687,7 @@ $region_14->add_element("Button", array (
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 6,
+      'col' => 5,
       'order' => 4,
       'clear' => true,
     ),
@@ -776,7 +776,7 @@ $region_14->add_element("Button", array (
     'mobile' => 
     array (
       'edited' => true,
-      'col' => 6,
+      'col' => 5,
       'clear' => true,
       'order' => 2,
     ),
@@ -4278,7 +4278,7 @@ $quote->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'title-grey-text',
+         'theme_style' => 'text-center',
       )),
     )),
   ),
@@ -7258,7 +7258,7 @@ $contact->add_element("PlainTxt", array (
       )),
     )),
   ),
-  'row' => 4,
+  'row' => 6,
   'sticky' => false,
   'wrapper_id' => 'wrapper-1413382904694-1241',
   'new_line' => true,
