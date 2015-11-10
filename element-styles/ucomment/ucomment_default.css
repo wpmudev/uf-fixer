@@ -60,6 +60,7 @@
 }
 .upfront-comments .comment-meta-actions {
     float: right;
+    margin-top:-30px;
 }
 .upfront-comments p.comment-awaiting-moderation {
     clear: both;
@@ -111,12 +112,8 @@
 .comment-content > *:last-child {
     margin-bottom: 0;
 }
-.comment-content h1, .comment-content h2, .comment-content h3, .comment-content h4, .comment-content h5, .comment-content h6, , .comment-content address, .comment-content table, .comment-content pre, .comment-content cite, .comment-content q, .comment-content iframe, .comment-content embed {
+.comment-content h1, .comment-content h2, .comment-content h3, .comment-content h4, .comment-content h5, .comment-content h6, .comment-content p, .comment-content address, .comment-content table, .comment-content pre, .comment-content cite, .comment-content q, .comment-content iframe, .comment-content embed {
     margin: 0 0 15px;
-}
-
-.comment-content p {
-    margin:0 0 5px;
 }
 .comment-content > ul, .comment-content > ol {
     margin: 0 0 15px 20px;

@@ -180,11 +180,11 @@ $blog_individual->add_element("ThisPost", array (
       )),
        'tablet' => 
       (array)(array(
-         'theme_style' => 'u-this_post-tablet',
+         'theme_style' => 'u-this_post-mobile',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'u-this_post-tablet',
+         'theme_style' => 'u-this_post-mobile',
       )),
     )),
     'hide_featured_image' => '',
