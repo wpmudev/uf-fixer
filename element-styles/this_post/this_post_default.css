@@ -186,8 +186,12 @@
     font-size: 13px;
     line-height: 1.4em;
     min-height: auto !important;
+    margin: 0;
     text-align: center;
     padding: 15px 0 0;
+}
+.post_content .upfront-wrapper.wp-caption-text p {
+    margin: 0;
 }
 .upfront-postpart-contents .post_content blockquote {
     margin: 0 60px 30px;
