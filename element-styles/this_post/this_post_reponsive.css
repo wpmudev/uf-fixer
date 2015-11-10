@@ -50,6 +50,11 @@
     width: 100%;
 }
 
-.u-this_post-mobile h2, .u-this_post-mobile h3 {
+#page .u-this_post-mobile h2, .u-this_post-mobile h3 {
     text-align: center;
+}
+#page .u-this_post-mobile .uinsert-image-wrapper img {
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
 }

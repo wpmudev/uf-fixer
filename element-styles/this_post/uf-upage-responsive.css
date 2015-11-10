@@ -2,3 +2,8 @@
     margin: 0;
     width: 100%;
 }
+#page .uf-upage-responsive .uinsert-image-wrapper img {
+    margin-right: auto;
+    margin-left: auto;
+    width: auto;
+}
