@@ -118,7 +118,7 @@ div[data-style='burger'] ul.menu {
 }
 
 div.responsive_nav_toggler, .upfront-navigation i.burger_nav_close {
-    background: #ufc3;
+    background: #ufc1;
     color: #ufc0;
     transition: background-color 0.2s ease-in-out;
     -ms-transition: background-color 0.2s ease-in-out;
@@ -128,7 +128,7 @@ div.responsive_nav_toggler, .upfront-navigation i.burger_nav_close {
 
 div.responsive_nav_toggler:hover, .upfront-navigation i.burger_nav_close:hover {
     background: #ufc0;
-    color: #ufc3;
+    color: #ufc1;
 }
 
 div.responsive_nav_toggler {
@@ -153,7 +153,7 @@ div.responsive_nav_toggler > div {
 }
 
 div.responsive_nav_toggler:hover > div {
-    background: #ufc3;
+    background: #ufc1;
 }
 
 div.responsive_nav_toggler > div:last-child {
@@ -187,9 +187,6 @@ div.upfront-navigation div.burger_overlay {
  i.burger_nav_close:before {
     position: relative;
     top:-1px;
-}
- i.burger_nav_close, div.responsive_nav_toggler {
-    background:#ufc1;
 }
 div.upfront-navigation div.upfront-navigation[data-style="burger"][data-burger_alignment="right"] ul.menu {
     min-width: 200px;
