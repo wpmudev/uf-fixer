@@ -116,6 +116,21 @@ div.upfront-navigation div[data-style='vertical'] ul.menu ul.sub-menu ul.sub-men
 div[data-style='burger'] ul.menu {
     background: #ufc0;
 }
+
+div.responsive_nav_toggler, .upfront-navigation i.burger_nav_close {
+    background: #ufc3;
+    color: #ufc0;
+    transition: background-color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out;
+}
+
+div.responsive_nav_toggler:hover, .upfront-navigation i.burger_nav_close:hover {
+    background: #ufc0;
+    color: #ufc3;
+}
+
 div.responsive_nav_toggler {
     width: 30px;
     height: 30px;
@@ -124,22 +139,28 @@ div.responsive_nav_toggler {
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    background: #ufc3;
     z-index:0;
 }
 div.responsive_nav_toggler > div {
     width: 16px;
     height: 2px;
     margin-bottom: 2px;
+    transition: background-color 0.2s ease-in-out;
+    -ms-transition: background-color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out;
+    -webkit-transition: background-color 0.2s ease-in-out;
     background: #ufc0;
 }
+
+div.responsive_nav_toggler:hover > div {
+    background: #ufc3;
+}
+
 div.responsive_nav_toggler > div:last-child {
     margin-bottom: 0;
 }
  i.burger_nav_close {
     margin: 20px 0 20px 20px;
-    background: #ufc3;
-    color: #ufc0;
 }
 div[data-style='burger'] ul.menu > li.menu-item > a {
     display: inline-block;
