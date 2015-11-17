@@ -2,6 +2,23 @@ Change Log
 ============
 
 
+0.3 - 2015-11-17
+-------------------------------------------------------------------------------
+- Fix: new single post layout.
+- Fix: footer fixer logo cropped.
+- Fix: responsive navigation update.
+- Fix: Fix services link to inner service page.
+- Fix: single-post featured image max-height.
+- Fix: home page thumbnail height on blog section.
+- Fix: gallery caption hover effect to prevent issues when "show always" is enabled.
+- Fix: Reduce the limit of words on home blog posts listings.
+- Fix: styling comment form and list.
+- Fix: Fix content overflow when no featured image.
+- Fix: responsive image variations (page and post)
+- Add: responsive menu hover effect.
+- Add: permalink on thumbnail on home blog posts listings.
+- Add: Add ellipses for home blog listings.
+
 0.2 - 2015-06-30
 -------------------------------------------------------------------------------
 - Fix: post content space on home latest posts without thumbnail
