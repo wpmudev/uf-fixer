@@ -29,6 +29,7 @@ $lightbox = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'version' => '1.0.0',
 )
 			);
 

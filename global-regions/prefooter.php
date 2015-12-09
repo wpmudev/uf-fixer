@@ -40,14 +40,52 @@ $prefooter = upfront_create_region(
   array (
     0 => '',
   ),
+  'version' => '1.0.0',
 )
 			);
 
+$prefooter->add_element("Uspacer", array (
+  'columns' => '1',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449479270-54179',
+  'id' => 'module-1449479270-54179',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449479270-8747',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449479270-13163',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 1,
+    ),
+    'mobile' => 
+    array (
+      'col' => 1,
+    ),
+  ),
+));
+
 $prefooter->add_element("PlainTxt", array (
   'columns' => '9',
-  'margin_left' => '1',
+  'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '8',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1406205224243-1651',
   'id' => 'module-1406205224243-1651',
@@ -67,13 +105,15 @@ $prefooter->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'theme_style' => 'uf-heading-footer',
     'anchor' => '',
-    'row' => 27,
+    'row' => 35,
     'breakpoint' => 
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 34,
+         'row' => 41,
          'theme_style' => 'text-center',
+         'top_padding_use' => true,
+         'top_padding_num' => 50,
       )),
        'custom-1410783666947' => 
       (array)(array(
@@ -83,14 +123,21 @@ $prefooter->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'theme_style' => 'text-center',
-         'row' => 23,
+         'row' => 27,
+         'top_padding_use' => true,
+         'top_padding_num' => 35,
       )),
     )),
+    'top_padding_use' => true,
+    'top_padding_num' => 55,
+    'bottom_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1430987876076-1358',
-  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -123,7 +170,7 @@ $prefooter->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'top' => 7,
+      'top' => 0,
       'row' => 34,
     ),
     'mobile' => 
@@ -132,7 +179,7 @@ $prefooter->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'top' => 4,
+      'top' => 0,
       'row' => 23,
     ),
     'custom-1410783666947' => 
@@ -151,7 +198,7 @@ $prefooter->add_group(array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '9',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1444287871082-1387',
@@ -165,6 +212,10 @@ $prefooter->add_group(array (
   'use_padding' => 0,
   'background_type' => 'color',
   'anchor' => '',
+  'top_padding_use' => true,
+  'top_padding_num' => 45,
+  'version' => '1.0.0',
+  'bottom_padding_num' => '15',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -245,7 +296,7 @@ $prefooter->add_element("Uimage", array (
     'element_size' => 
     (array)(array(
        'width' => 60,
-       'height' => 60,
+       'height' => 51,
     )),
     'rotation' => 0,
     'color' => '#ffffff',
@@ -258,6 +309,8 @@ $prefooter->add_element("Uimage", array (
     'quick_swap' => false,
     'gifImage' => 0,
     'placeholder_class' => '',
+    'preset' => 'default',
+    'display_caption' => 'showCaption',
     'type' => 'UimageModel',
     'view_class' => 'UimageView',
     'has_settings' => 1,
@@ -273,9 +326,14 @@ $prefooter->add_element("Uimage", array (
     )),
     'element_id' => 'image-1444287563892-1160',
     'row' => 6,
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1444287871149-1355',
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -312,6 +370,7 @@ $prefooter->add_element("Uimage", array (
       'col' => 2,
       'order' => 0,
       'hide' => 1,
+      'top' => 0,
     ),
   ),
   'group' => 'module-group-1444287871082-1387',
@@ -341,9 +400,14 @@ $prefooter->add_element("PlainTxt", array (
     'border_color' => '',
     'bg_color' => '',
     'anchor' => '',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1444287871153-1087',
   'wrapper_breakpoint' => 
   array (
@@ -379,6 +443,7 @@ $prefooter->add_element("PlainTxt", array (
       'col' => 4,
       'order' => 1,
       'hide' => 1,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -392,11 +457,111 @@ $prefooter->add_element("PlainTxt", array (
   'group' => 'module-group-1444287871082-1387',
 ));
 
+$prefooter->add_element("Uspacer", array (
+  'columns' => '6',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449479270-99457',
+  'id' => 'module-1449479270-99457',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449479270-39483',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449479270-60900',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'clear' => false,
+      'order' => 1,
+      'edited' => true,
+      'col' => 6,
+    ),
+    'mobile' => 
+    array (
+      'col' => 6,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'hide' => 0,
+      'left' => 0,
+      'col' => 6,
+      'edited' => true,
+    ),
+  ),
+  'group' => 'module-group-1444287871082-1387',
+));
+
+$prefooter->add_element("Uspacer", array (
+  'columns' => '1',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449479270-63650',
+  'id' => 'module-1449479270-63650',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449479270-33523',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449479270-65066',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 1,
+    ),
+    'mobile' => 
+    array (
+      'clear' => false,
+      'order' => 0,
+      'edited' => true,
+      'col' => 1,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'mobile' => 
+    array (
+      'hide' => 0,
+      'left' => 0,
+      'col' => 1,
+      'edited' => true,
+    ),
+  ),
+  'group' => 'module-group-1444287871082-1387',
+));
+
 $prefooter->add_group(array (
   'columns' => '7',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '9',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => '',
   'id' => 'module-group-1444287667908-1769',
@@ -410,6 +575,10 @@ $prefooter->add_group(array (
   'use_padding' => 0,
   'background_type' => 'color',
   'anchor' => '',
+  'top_padding_use' => true,
+  'top_padding_num' => 45,
+  'version' => '1.0.0',
+  'bottom_padding_num' => '15',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -447,6 +616,108 @@ $prefooter->add_group(array (
       'top' => 0,
     ),
   ),
+));
+
+$prefooter->add_element("Uspacer", array (
+  'columns' => '2',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449479270-47105',
+  'id' => 'module-1449479270-47105',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449479270-13967',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449479270-71611',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'clear' => true,
+      'order' => 0,
+      'edited' => true,
+      'col' => 2,
+    ),
+    'mobile' => 
+    array (
+      'col' => 2,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'hide' => 0,
+      'left' => 0,
+      'col' => 2,
+      'edited' => true,
+    ),
+  ),
+  'group' => 'module-group-1444287667908-1769',
+));
+
+$prefooter->add_element("Uspacer", array (
+  'columns' => '2',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449479270-46231',
+  'id' => 'module-1449479270-46231',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449479270-22431',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449479270-29150',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
+    'mobile' => 
+    array (
+      'clear' => true,
+      'order' => 0,
+      'edited' => true,
+      'col' => 2,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'mobile' => 
+    array (
+      'hide' => 0,
+      'left' => 0,
+      'col' => 2,
+      'edited' => true,
+    ),
+  ),
+  'group' => 'module-group-1444287667908-1769',
 ));
 
 $prefooter->add_element("Uimage", array (
@@ -502,6 +773,8 @@ $prefooter->add_element("Uimage", array (
     'quick_swap' => false,
     'gifImage' => 0,
     'placeholder_class' => '',
+    'preset' => 'default',
+    'display_caption' => 'showCaption',
     'type' => 'UimageModel',
     'view_class' => 'UimageView',
     'has_settings' => 1,
@@ -517,9 +790,14 @@ $prefooter->add_element("Uimage", array (
     )),
     'element_id' => 'image-1444287547880-1826',
     'row' => 6,
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1444287667964-1046',
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -527,15 +805,16 @@ $prefooter->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => false,
-      'col' => 5,
+      'col' => 3,
       'order' => 0,
       'clear' => false,
     ),
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 5,
+      'col' => 3,
       'order' => 0,
+      'clear' => false,
     ),
   ),
   'breakpoint' => 
@@ -543,18 +822,171 @@ $prefooter->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => false,
-      'left' => 2,
+      'left' => 0,
       'col' => 3,
       'order' => 0,
       'hide' => 1,
+      'top' => 0,
     ),
     'mobile' => 
     array (
       'edited' => false,
-      'left' => 2,
+      'left' => 0,
       'col' => 3,
       'order' => 0,
       'hide' => 1,
+      'top' => 0,
+    ),
+  ),
+  'group' => 'module-group-1444287667908-1769',
+));
+
+$prefooter->add_element("Uspacer", array (
+  'columns' => '2',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449479270-37579',
+  'id' => 'module-1449479270-37579',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449479270-81895',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449479270-85197',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'clear' => false,
+      'order' => 0,
+      'edited' => true,
+      'col' => 2,
+    ),
+    'mobile' => 
+    array (
+      'col' => 2,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'hide' => 0,
+      'left' => 0,
+      'col' => 2,
+      'edited' => true,
+    ),
+  ),
+  'group' => 'module-group-1444287667908-1769',
+));
+
+$prefooter->add_element("Uspacer", array (
+  'columns' => '2',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449479270-36423',
+  'id' => 'module-1449479270-36423',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449479270-14873',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449479270-11111',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
+    'mobile' => 
+    array (
+      'clear' => false,
+      'order' => 0,
+      'edited' => true,
+      'col' => 2,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'mobile' => 
+    array (
+      'hide' => 0,
+      'left' => 0,
+      'col' => 2,
+      'edited' => true,
+    ),
+  ),
+  'group' => 'module-group-1444287667908-1769',
+));
+
+$prefooter->add_element("Uspacer", array (
+  'columns' => '1',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449479270-44170',
+  'id' => 'module-1449479270-44170',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449479270-27036',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449479270-93760',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 1,
+    ),
+    'mobile' => 
+    array (
+      'clear' => true,
+      'order' => 0,
+      'edited' => true,
+      'col' => 1,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'mobile' => 
+    array (
+      'hide' => 0,
+      'left' => 0,
+      'col' => 1,
+      'edited' => true,
     ),
   ),
   'group' => 'module-group-1444287667908-1769',
@@ -582,7 +1014,9 @@ $prefooter->add_element("PlainTxt", array (
     (array)(array(
        'mobile' => 
       (array)(array(
-         'row' => 13,
+         'row' => 15,
+         'top_padding_use' => true,
+         'top_padding_num' => 25,
       )),
        'custom-1410783666947' => 
       (array)(array(
@@ -590,13 +1024,20 @@ $prefooter->add_element("PlainTxt", array (
       )),
        'tablet' => 
       (array)(array(
-         'row' => 23,
+         'row' => 25,
+         'top_padding_use' => true,
+         'top_padding_num' => 25,
       )),
     )),
     'row' => 15,
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1444287667968-1816',
   'wrapper_breakpoint' => 
   array (
@@ -610,8 +1051,9 @@ $prefooter->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'edited' => false,
-      'col' => 6,
+      'col' => 5,
       'order' => 0,
+      'clear' => false,
     ),
   ),
   'breakpoint' => 
@@ -622,18 +1064,18 @@ $prefooter->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 4,
       'order' => 1,
-      'top' => 2,
+      'top' => 0,
       'row' => 23,
       'hide' => 1,
     ),
     'mobile' => 
     array (
       'edited' => false,
-      'left' => 1,
+      'left' => 0,
       'col' => 5,
       'order' => 0,
       'row' => 13,
-      'top' => 2,
+      'top' => 0,
       'hide' => 1,
     ),
     'custom-1410783666947' => 
@@ -647,6 +1089,191 @@ $prefooter->add_element("PlainTxt", array (
     ),
   ),
   'group' => 'module-group-1444287667908-1769',
+));
+
+$prefooter->add_element("Uspacer", array (
+  'columns' => '3',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449479270-93807',
+  'id' => 'module-1449479270-93807',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449479270-66033',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449479270-73382',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'clear' => false,
+      'order' => 0,
+      'edited' => true,
+      'col' => 3,
+    ),
+    'mobile' => 
+    array (
+      'col' => 3,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'hide' => 0,
+      'left' => 0,
+      'col' => 3,
+      'edited' => true,
+    ),
+  ),
+  'group' => 'module-group-1444287667908-1769',
+));
+
+$prefooter->add_element("Uspacer", array (
+  'columns' => '1',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449479270-7985',
+  'id' => 'module-1449479270-7985',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449479270-39937',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449479270-47940',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 1,
+    ),
+    'mobile' => 
+    array (
+      'clear' => false,
+      'order' => 0,
+      'edited' => true,
+      'col' => 1,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'mobile' => 
+    array (
+      'hide' => 0,
+      'left' => 0,
+      'col' => 1,
+      'edited' => true,
+    ),
+  ),
+  'group' => 'module-group-1444287667908-1769',
+));
+
+$prefooter->add_element("Uspacer", array (
+  'columns' => '1',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449479270-40517',
+  'id' => 'module-1449479270-40517',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449479270-63815',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449479270-13900',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 1,
+    ),
+    'mobile' => 
+    array (
+      'col' => 1,
+    ),
+  ),
+));
+
+$prefooter->add_element("Uspacer", array (
+  'columns' => '5',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449479270-84356',
+  'id' => 'module-1449479270-84356',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449479270-21453',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449479270-40375',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'clear' => false,
+      'order' => 2,
+      'edited' => true,
+      'col' => 5,
+    ),
+    'mobile' => 
+    array (
+      'col' => 5,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'hide' => 0,
+      'left' => 0,
+      'col' => 5,
+      'edited' => true,
+    ),
+  ),
 ));
 
 $regions->add($prefooter);

@@ -36,6 +36,7 @@ $ltb_subscribe15 = upfront_create_region(
     )),
   )),
   'use_padding' => 0,
+  'version' => '1.0.0',
 )
 			);
 
@@ -43,7 +44,7 @@ $ltb_subscribe15->add_element("PlainTxt", array (
   'columns' => '8',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '5',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1444288191571-1836',
   'id' => 'module-1444288191571-1836',
@@ -57,15 +58,29 @@ $ltb_subscribe15->add_element("PlainTxt", array (
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'is_edited' => true,
-    'row' => 20,
+    'row' => 25,
     'border_style' => 'none',
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
+    'top_padding_use' => true,
+    'top_padding_num' => 40,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'top_padding_use' => true,
+         'top_padding_num' => 20,
+      )),
+    )),
+    'bottom_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1444288315227-1721',
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -82,6 +97,7 @@ $ltb_subscribe15->add_element("PlainTxt", array (
       'edited' => false,
       'col' => 7,
       'order' => 0,
+      'clear' => true,
     ),
   ),
   'breakpoint' => 
@@ -92,7 +108,7 @@ $ltb_subscribe15->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 6,
       'order' => 0,
-      'top' => 1,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -100,6 +116,106 @@ $ltb_subscribe15->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
+    ),
+  ),
+));
+
+$ltb_subscribe15->add_element("Uspacer", array (
+  'columns' => '6',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449479270-59733',
+  'id' => 'module-1449479270-59733',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449479270-27726',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449479270-67557',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'clear' => false,
+      'order' => 0,
+      'edited' => true,
+      'col' => 6,
+    ),
+    'mobile' => 
+    array (
+      'col' => 6,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'hide' => 0,
+      'left' => 0,
+      'col' => 6,
+      'edited' => true,
+    ),
+  ),
+));
+
+$ltb_subscribe15->add_element("Uspacer", array (
+  'columns' => '2',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449479270-29443',
+  'id' => 'module-1449479270-29443',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449479270-57049',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449479270-92984',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'clear' => true,
+      'order' => 0,
+      'edited' => true,
+      'col' => 2,
+    ),
+    'mobile' => 
+    array (
+      'col' => 2,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'hide' => 0,
+      'left' => 0,
+      'col' => 2,
+      'edited' => true,
     ),
   ),
 ));
@@ -167,9 +283,14 @@ input[type="submit"]:hover {
     border: none;
 }',
     'script' => '/* Your code here */',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1444102317966-1645',
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -177,14 +298,16 @@ input[type="submit"]:hover {
     'tablet' => 
     array (
       'edited' => false,
-      'col' => 10,
-      'order' => 0,
+      'col' => 6,
+      'order' => 3,
+      'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
+      'clear' => true,
     ),
   ),
   'breakpoint' => 
@@ -192,9 +315,10 @@ input[type="submit"]:hover {
     'tablet' => 
     array (
       'edited' => false,
-      'left' => 2,
-      'col' => 8,
+      'left' => 0,
+      'col' => 6,
       'order' => 0,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -202,6 +326,56 @@ input[type="submit"]:hover {
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
+    ),
+  ),
+));
+
+$ltb_subscribe15->add_element("Uspacer", array (
+  'columns' => '2',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449479270-43570',
+  'id' => 'module-1449479270-43570',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449479270-64784',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 1,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449479270-59608',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'clear' => false,
+      'order' => 0,
+      'edited' => true,
+      'col' => 2,
+    ),
+    'mobile' => 
+    array (
+      'col' => 2,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'hide' => 0,
+      'left' => 0,
+      'col' => 2,
+      'edited' => true,
     ),
   ),
 ));
