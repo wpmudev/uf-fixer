@@ -1188,6 +1188,7 @@ $region_14->add_element("PlainTxt", array (
       'col' => 5,
       'top' => 0,
       'row' => 59,
+      'hide' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -1876,6 +1877,13 @@ $region_13 = upfront_create_region(
     0 => '',
   ),
   'version' => '1.0.0',
+  'bg_padding_type' => 'equal',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => 0,
+  'bottom_bg_padding_num' => 0,
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
@@ -7752,6 +7760,13 @@ $blog_items = upfront_create_region(
     0 => '',
   ),
   'version' => '1.0.0',
+  'bg_padding_type' => 'equal',
+  'top_bg_padding_slider' => '0',
+  'top_bg_padding_num' => '0',
+  'bottom_bg_padding_slider' => '0',
+  'bottom_bg_padding_num' => '0',
+  'bg_padding_slider' => '0',
+  'bg_padding_num' => '0',
 )
 			);
 
@@ -9461,7 +9476,7 @@ $about->add_element("PlainTxt", array (
     'border_color' => '',
     'bg_color' => '',
     'anchor' => '',
-    'theme_style' => 'big-dash',
+    'theme_style' => '',
     'breakpoint' => 
     (array)(array(
        'mobile' => 
@@ -9472,6 +9487,13 @@ $about->add_element("PlainTxt", array (
     'top_padding_use' => true,
     'top_padding_num' => 25,
     'bottom_padding_num' => '15',
+    'preset' => 'big-dash-m',
+    'use_padding' => true,
+    'lock_padding' => '',
+    'padding_slider' => false,
+    'padding_number' => 0,
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,

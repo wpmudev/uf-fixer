@@ -37,6 +37,13 @@ $ltb_subscribe15 = upfront_create_region(
   )),
   'use_padding' => 0,
   'version' => '1.0.0',
+  'bg_padding_type' => 'equal',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => 0,
+  'bottom_bg_padding_num' => 0,
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
