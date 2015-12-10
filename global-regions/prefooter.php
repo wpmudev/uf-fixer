@@ -50,7 +50,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-54179',
+  'class' => 'module-1449479270-54179 upfront-module-spacer',
   'id' => 'module-1449479270-54179',
   'options' => 
   array (
@@ -463,7 +463,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-99457',
+  'class' => 'module-1449479270-99457 upfront-module-spacer',
   'id' => 'module-1449479270-99457',
   'options' => 
   array (
@@ -513,7 +513,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-63650',
+  'class' => 'module-1449479270-63650 upfront-module-spacer',
   'id' => 'module-1449479270-63650',
   'options' => 
   array (
@@ -624,7 +624,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-47105',
+  'class' => 'module-1449479270-47105 upfront-module-spacer',
   'id' => 'module-1449479270-47105',
   'options' => 
   array (
@@ -675,7 +675,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-46231',
+  'class' => 'module-1449479270-46231 upfront-module-spacer',
   'id' => 'module-1449479270-46231',
   'options' => 
   array (
@@ -847,7 +847,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-37579',
+  'class' => 'module-1449479270-37579 upfront-module-spacer',
   'id' => 'module-1449479270-37579',
   'options' => 
   array (
@@ -897,7 +897,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-36423',
+  'class' => 'module-1449479270-36423 upfront-module-spacer',
   'id' => 'module-1449479270-36423',
   'options' => 
   array (
@@ -947,7 +947,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-44170',
+  'class' => 'module-1449479270-44170 upfront-module-spacer',
   'id' => 'module-1449479270-44170',
   'options' => 
   array (
@@ -1097,7 +1097,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-93807',
+  'class' => 'module-1449479270-93807 upfront-module-spacer',
   'id' => 'module-1449479270-93807',
   'options' => 
   array (
@@ -1147,7 +1147,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-7985',
+  'class' => 'module-1449479270-7985 upfront-module-spacer',
   'id' => 'module-1449479270-7985',
   'options' => 
   array (
@@ -1197,7 +1197,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-40517',
+  'class' => 'module-1449479270-40517 upfront-module-spacer',
   'id' => 'module-1449479270-40517',
   'options' => 
   array (
@@ -1233,7 +1233,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-84356',
+  'class' => 'module-1449479270-84356 upfront-module-spacer',
   'id' => 'module-1449479270-84356',
   'options' => 
   array (

@@ -127,7 +127,7 @@ $ltb_subscribe15->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-59733',
+  'class' => 'module-1449479270-59733 upfront-module-spacer',
   'id' => 'module-1449479270-59733',
   'options' => 
   array (
@@ -176,7 +176,7 @@ $ltb_subscribe15->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-29443',
+  'class' => 'module-1449479270-29443 upfront-module-spacer',
   'id' => 'module-1449479270-29443',
   'options' => 
   array (
@@ -337,7 +337,7 @@ $ltb_subscribe15->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-43570',
+  'class' => 'module-1449479270-43570 upfront-module-spacer',
   'id' => 'module-1449479270-43570',
   'options' => 
   array (
