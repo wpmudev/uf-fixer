@@ -377,13 +377,13 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 36,
+         'menu-item-db-id' => 27680,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Services',
          'menu-item-url' => '#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '36',
+         'menu-item-object-id' => '27680',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -395,13 +395,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 37,
+         'menu-item-db-id' => 27681,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Get a Quote',
          'menu-item-url' => '#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '37',
+         'menu-item-object-id' => '27681',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -413,13 +413,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 38,
+         'menu-item-db-id' => 27682,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Blog',
          'menu-item-url' => '#blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '38',
+         'menu-item-object-id' => '27682',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
@@ -431,13 +431,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 39,
+         'menu-item-db-id' => 27683,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '39',
+         'menu-item-object-id' => '27683',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
@@ -449,13 +449,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 40,
+         'menu-item-db-id' => 27684,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Contact Us',
          'menu-item-url' => '#contact',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '40',
+         'menu-item-object-id' => '27684',
          'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 
@@ -3474,7 +3474,6 @@ $region_13->add_group(array (
       'order' => 0,
     ),
   ),
-  'close_wrapper' => false,
 ));
 
 $region_13->add_element("PlainTxt", array (
@@ -3940,6 +3939,633 @@ $region_13->add_element("PlainTxt", array (
   'group' => 'module-group-1433406408885-1831',
 ));
 
+$region_13->add_element("Uspacer", array (
+  'columns' => '10',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449479390930-1492',
+  'id' => 'module-1449479390930-1492',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449479390929-1782',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449479390930-1279',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 10,
+    ),
+    'mobile' => 
+    array (
+      'col' => 7,
+    ),
+  ),
+));
+
+$region_13->add_group(array (
+  'columns' => '6',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => '',
+  'id' => 'module-group-1433408489130-1464',
+  'type' => 'ModuleGroup',
+  'wrapper_id' => 'wrapper-1449479371955-1534',
+  'original_col' => 6,
+  'background_color' => 'rgba(137,77,77,0)',
+  'background_style' => 'full',
+  'background_position_y' => 50,
+  'background_position_x' => 50,
+  'use_padding' => '',
+  'background_type' => 'color',
+  'anchor' => '',
+  'theme_style' => 'no-y-padding',
+  'row' => 34,
+  'version' => '1.0.0',
+  'top_padding_num' => '30',
+  'bottom_padding_num' => '15',
+  'top_padding_use' => 'yes',
+  'top_padding_slider' => '30',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
+      'order' => 5,
+      'clear' => false,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 5,
+      'clear' => true,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 0,
+      'top' => 0,
+      'theme_style' => 'quality-style',
+      'row' => 19,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 7,
+      'order' => 0,
+      'theme_style' => 'quality-style',
+      'top' => 0,
+      'row' => 9,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'left' => 6,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+));
+
+$region_13->add_element("PlainTxt", array (
+  'columns' => '6',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1433408454739-1282',
+  'id' => 'module-1433408454739-1282',
+  'options' => 
+  array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<h3 class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">h</span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​</span>&nbsp; Windows</span></h3>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'object-1433408454740-1759',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'is_edited' => true,
+    'row' => 4,
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
+    'theme_style' => 'u-services-text',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 5,
+         'theme_style' => 'text-center',
+      )),
+       'mobile' => 
+      (array)(array(
+         'theme_style' => 'text-center',
+      )),
+    )),
+    'top_padding_num' => '0',
+    'bottom_padding_num' => '0',
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '0',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1433408489178-1099',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 0,
+      'clear' => false,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'col' => 7,
+      'order' => 0,
+      'clear' => true,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 11,
+      'row' => 5,
+      'top' => 0,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 7,
+      'order' => 6,
+      'top' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+  'group' => 'module-group-1433408489130-1464',
+));
+
+$region_13->add_element("Uimage", array (
+  'columns' => '6',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1433408457768-1767',
+  'id' => 'module-1433408457768-1767',
+  'options' => 
+  array (
+    'src' => '{{upfront:style_url}}/images/archive-home/windows-240x120-6119.jpg',
+    'srcFull' => '{{upfront:style_url}}/images/archive-home/windows.jpg',
+    'srcOriginal' => '{{upfront:style_url}}/images/archive-home/windows.jpg',
+    'image_title' => '',
+    'alternative_text' => '',
+    'include_image_caption' => false,
+    'image_caption' => 'My awesome image caption',
+    'caption_position' => false,
+    'caption_alignment' => false,
+    'caption_trigger' => 'always_show',
+    'image_status' => 'ok',
+    'size' => 
+    (array)(array(
+       'width' => 240,
+       'height' => 120,
+    )),
+    'fullSize' => 
+    (array)(array(
+       'width' => 240,
+       'height' => 120,
+    )),
+    'position' => 
+    (array)(array(
+       'top' => 0,
+       'left' => 0,
+    )),
+    'marginTop' => 0,
+    'element_size' => 
+    (array)(array(
+       'width' => 240,
+       'height' => 120,
+    )),
+    'rotation' => 0,
+    'color' => '#ffffff',
+    'background' => '#000000',
+    'captionBackground' => '0',
+    'image_id' => '1856',
+    'align' => 'left',
+    'stretch' => true,
+    'vstretch' => true,
+    'quick_swap' => false,
+    'gifImage' => 0,
+    'placeholder_class' => '',
+    'preset' => 'default',
+    'display_caption' => 'showCaption',
+    'type' => 'UimageModel',
+    'view_class' => 'UimageView',
+    'has_settings' => 1,
+    'class' => 'c24 upfront-image',
+    'id_slug' => 'image',
+    'when_clicked' => false,
+    'image_link' => '',
+    'link' => 
+    (array)(array(
+       'type' => false,
+       'url' => '',
+       'target' => false,
+    )),
+    'element_id' => 'object-1433408457768-1995',
+    'row' => 10,
+    'anchor' => '',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 24,
+      )),
+    )),
+    'top_padding_num' => '0',
+    'bottom_padding_num' => '0',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '0',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1433408489180-1450',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 1,
+      'clear' => false,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'col' => 7,
+      'order' => 1,
+      'clear' => true,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 13,
+      'top' => 0,
+      'row' => 24,
+      'hide' => 1,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 7,
+      'order' => 7,
+      'top' => 0,
+      'hide' => 1,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+  'group' => 'module-group-1433408489130-1464',
+));
+
+$region_13->add_element("PlainTxt", array (
+  'columns' => '6',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1433408461219-1337',
+  'id' => 'module-1433408461219-1337',
+  'options' => 
+  array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<p class="">
+	<span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Claritas est etiam processus dynamicus, qui sequitur mutationem&nbsp;consuetudium</span><br>
+	<span class="uf_font_icon" style="font-size: 27px; top: 0px;" rel="font-size: 27px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 27px; top: 0px;"></span>
+</p>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'object-1433408461220-1464',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'is_edited' => true,
+    'row' => 19,
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
+    'theme_style' => '_default',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 6,
+         'theme_style' => 'text-center',
+      )),
+       'mobile' => 
+      (array)(array(
+         'row' => 8,
+         'theme_style' => 'text-center',
+      )),
+    )),
+    'top_padding_use' => 'yes',
+    'top_padding_num' => '10',
+    'bottom_padding_num' => '0',
+    'top_padding_slider' => '10',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1433408489181-1904',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 2,
+      'clear' => false,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'col' => 7,
+      'order' => 2,
+      'clear' => true,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 15,
+      'top' => 0,
+      'row' => 6,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 7,
+      'order' => 8,
+      'top' => 0,
+      'row' => 8,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'left' => 0,
+      'col' => 6,
+      'order' => 0,
+    ),
+  ),
+  'group' => 'module-group-1433408489130-1464',
+));
+
+$region_13->add_element("PlainTxt", array (
+  'columns' => '6',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1433408465325-1983',
+  'id' => 'module-1433408465325-1983',
+  'options' => 
+  array (
+    'view_class' => 'PlainTxtView',
+    'id_slug' => 'plain_text',
+    'content' => '<p class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0" style="" rel=""><a target="_self" rel="entry" href="{{upfront:home_url}}/service-windows-inner/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span></span></a></span></p>',
+    'type' => 'PlainTxtModel',
+    'element_id' => 'object-1433408465325-1138',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'row' => 8,
+    'is_edited' => true,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 6,
+         'theme_style' => 'text-center',
+      )),
+       'mobile' => 
+      (array)(array(
+         'row' => 6,
+         'theme_style' => 'text-center',
+      )),
+    )),
+    'border_style' => 'none',
+    'border_width' => 1,
+    'border_color' => 'rgba(0, 0, 0, 0)',
+    'bg_color' => 'rgba(0, 0, 0, 0)',
+    'anchor' => '',
+    'top_padding_num' => '0',
+    'bottom_padding_num' => '0',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
+  'wrapper_id' => 'wrapper-1433408489182-1278',
+  'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 3,
+      'clear' => false,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'col' => 7,
+      'order' => 3,
+      'clear' => true,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'col' => 5,
+      'order' => 0,
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
+      'order' => 17,
+      'top' => 0,
+      'row' => 6,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'left' => 0,
+      'col' => 7,
+      'order' => 9,
+      'row' => 6,
+      'top' => 0,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'edited' => false,
+      'left' => 1,
+      'col' => 4,
+      'order' => 0,
+    ),
+  ),
+  'group' => 'module-group-1433408489130-1464',
+));
+
+$region_13->add_element("Uspacer", array (
+  'columns' => '1',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449479403072-1474',
+  'id' => 'module-1449479403072-1474',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449479403072-1803',
+  ),
+  'row' => 6,
+  'sticky' => false,
+  'default_hide' => 1,
+  'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449479403072-1910',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 1,
+    ),
+    'mobile' => 
+    array (
+      'col' => 1,
+    ),
+  ),
+));
+
+$region_13->add_element("Uspacer", array (
+  'columns' => '1',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1449729078862-1417',
+  'options' => 
+  array (
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1449729078862-1227',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1449729078862-1276',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'new_line' => true,
+));
+
 $region_13->add_group(array (
   'columns' => '6',
   'margin_left' => '0',
@@ -3949,7 +4575,7 @@ $region_13->add_group(array (
   'class' => '',
   'id' => 'module-group-1433407951043-1220',
   'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1445382789785-1452',
+  'wrapper_id' => 'wrapper-1449729055581-1608',
   'original_col' => 6,
   'background_color' => 'rgba(137,77,77,0)',
   'background_style' => 'full',
@@ -3965,6 +4591,23 @@ $region_13->add_group(array (
   'row' => 40,
   'top_padding_use' => 'yes',
   'top_padding_slider' => '30',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
+      'order' => 6,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 6,
+      'clear' => true,
+    ),
+  ),
   'breakpoint' => 
   array (
     'tablet' => 
@@ -4465,574 +5108,21 @@ $region_13->add_element("PlainTxt", array (
 
 $region_13->add_element("Uspacer", array (
   'columns' => '10',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1449479390930-1492',
-  'id' => 'module-1449479390930-1492',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1449729074219-1495',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1449729074218-1155',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1449479390929-1782',
   ),
-  'row' => 6,
-  'sticky' => false,
+  'wrapper_id' => 'wrapper-1449729074219-1016',
   'default_hide' => 1,
-  'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1449479390930-1279',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 10,
-    ),
-    'mobile' => 
-    array (
-      'col' => 7,
-    ),
-  ),
-));
-
-$region_13->add_group(array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => '',
-  'id' => 'module-group-1433408489130-1464',
-  'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1449479371955-1534',
-  'original_col' => 6,
-  'background_color' => 'rgba(137,77,77,0)',
-  'background_style' => 'full',
-  'background_position_y' => 50,
-  'background_position_x' => 50,
-  'use_padding' => '',
-  'background_type' => 'color',
-  'anchor' => '',
-  'theme_style' => 'no-y-padding',
-  'row' => 34,
-  'version' => '1.0.0',
-  'top_padding_num' => '30',
-  'bottom_padding_num' => '15',
-  'top_padding_use' => 'yes',
-  'top_padding_slider' => '30',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => false,
-      'col' => 12,
-      'order' => 5,
-      'clear' => true,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'col' => 7,
-      'order' => 5,
-      'clear' => true,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-      'order' => 0,
-      'top' => 0,
-      'theme_style' => 'quality-style',
-      'row' => 19,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-      'theme_style' => 'quality-style',
-      'top' => 0,
-      'row' => 9,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'left' => 6,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'close_wrapper' => false,
-));
-
-$region_13->add_element("PlainTxt", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1433408454739-1282',
-  'id' => 'module-1433408454739-1282',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<h3 class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">h</span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​</span>&nbsp; Windows</span></h3>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'object-1433408454740-1759',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'is_edited' => true,
-    'row' => 4,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-    'theme_style' => 'u-services-text',
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'row' => 5,
-         'theme_style' => 'text-center',
-      )),
-       'mobile' => 
-      (array)(array(
-         'theme_style' => 'text-center',
-      )),
-    )),
-    'top_padding_num' => '0',
-    'bottom_padding_num' => '0',
-    'top_padding_use' => 'yes',
-    'top_padding_slider' => '0',
-    'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '0',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 0,
   'hide' => 0,
-  'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1433408489178-1099',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 0,
-      'clear' => false,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'col' => 7,
-      'order' => 0,
-      'clear' => true,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-      'order' => 11,
-      'row' => 5,
-      'top' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
-      'order' => 6,
-      'top' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1433408489130-1464',
-));
-
-$region_13->add_element("Uimage", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1433408457768-1767',
-  'id' => 'module-1433408457768-1767',
-  'options' => 
-  array (
-    'src' => '{{upfront:style_url}}/images/archive-home/windows-240x120-6119.jpg',
-    'srcFull' => '{{upfront:style_url}}/images/archive-home/windows.jpg',
-    'srcOriginal' => '{{upfront:style_url}}/images/archive-home/windows.jpg',
-    'image_title' => '',
-    'alternative_text' => '',
-    'include_image_caption' => false,
-    'image_caption' => 'My awesome image caption',
-    'caption_position' => false,
-    'caption_alignment' => false,
-    'caption_trigger' => 'always_show',
-    'image_status' => 'ok',
-    'size' => 
-    (array)(array(
-       'width' => 240,
-       'height' => 120,
-    )),
-    'fullSize' => 
-    (array)(array(
-       'width' => 240,
-       'height' => 120,
-    )),
-    'position' => 
-    (array)(array(
-       'top' => 0,
-       'left' => 0,
-    )),
-    'marginTop' => 0,
-    'element_size' => 
-    (array)(array(
-       'width' => 240,
-       'height' => 120,
-    )),
-    'rotation' => 0,
-    'color' => '#ffffff',
-    'background' => '#000000',
-    'captionBackground' => '0',
-    'image_id' => '1856',
-    'align' => 'left',
-    'stretch' => true,
-    'vstretch' => true,
-    'quick_swap' => false,
-    'gifImage' => 0,
-    'placeholder_class' => '',
-    'preset' => 'default',
-    'display_caption' => 'showCaption',
-    'type' => 'UimageModel',
-    'view_class' => 'UimageView',
-    'has_settings' => 1,
-    'class' => 'c24 upfront-image',
-    'id_slug' => 'image',
-    'when_clicked' => false,
-    'image_link' => '',
-    'link' => 
-    (array)(array(
-       'type' => false,
-       'url' => '',
-       'target' => false,
-    )),
-    'element_id' => 'object-1433408457768-1995',
-    'row' => 10,
-    'anchor' => '',
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'row' => 24,
-      )),
-    )),
-    'top_padding_num' => '0',
-    'bottom_padding_num' => '0',
-    'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '0',
-    'top_padding_use' => 'yes',
-    'top_padding_slider' => '0',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 0,
-  'hide' => 0,
-  'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1433408489180-1450',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 1,
-      'clear' => false,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'col' => 7,
-      'order' => 1,
-      'clear' => true,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-      'order' => 13,
-      'top' => 0,
-      'row' => 24,
-      'hide' => 1,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
-      'order' => 7,
-      'top' => 0,
-      'hide' => 1,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1433408489130-1464',
-));
-
-$region_13->add_element("PlainTxt", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1433408461219-1337',
-  'id' => 'module-1433408461219-1337',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class="">
-	<span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Claritas est etiam processus dynamicus, qui sequitur mutationem&nbsp;consuetudium</span><br>
-	<span class="uf_font_icon" style="font-size: 27px; top: 0px;" rel="font-size: 27px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 27px; top: 0px;"></span>
-</p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'object-1433408461220-1464',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'is_edited' => true,
-    'row' => 19,
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-    'theme_style' => '_default',
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'row' => 6,
-         'theme_style' => 'text-center',
-      )),
-       'mobile' => 
-      (array)(array(
-         'row' => 8,
-         'theme_style' => 'text-center',
-      )),
-    )),
-    'top_padding_use' => 'yes',
-    'top_padding_num' => '10',
-    'bottom_padding_num' => '0',
-    'top_padding_slider' => '10',
-    'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '0',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 0,
-  'hide' => 0,
-  'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1433408489181-1904',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 2,
-      'clear' => false,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'col' => 7,
-      'order' => 2,
-      'clear' => true,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-      'order' => 15,
-      'top' => 0,
-      'row' => 6,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
-      'order' => 8,
-      'top' => 0,
-      'row' => 8,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 6,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1433408489130-1464',
-));
-
-$region_13->add_element("PlainTxt", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1433408465325-1983',
-  'id' => 'module-1433408465325-1983',
-  'options' => 
-  array (
-    'view_class' => 'PlainTxtView',
-    'id_slug' => 'plain_text',
-    'content' => '<p class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0" style="" rel=""><a target="_self" rel="entry" href="{{upfront:home_url}}/service-windows-inner/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span></span></a></span></p>',
-    'type' => 'PlainTxtModel',
-    'element_id' => 'object-1433408465325-1138',
-    'class' => 'c24 upfront-plain_txt',
-    'has_settings' => 1,
-    'row' => 8,
-    'is_edited' => true,
-    'breakpoint' => 
-    (array)(array(
-       'tablet' => 
-      (array)(array(
-         'row' => 6,
-         'theme_style' => 'text-center',
-      )),
-       'mobile' => 
-      (array)(array(
-         'row' => 6,
-         'theme_style' => 'text-center',
-      )),
-    )),
-    'border_style' => 'none',
-    'border_width' => 1,
-    'border_color' => 'rgba(0, 0, 0, 0)',
-    'bg_color' => 'rgba(0, 0, 0, 0)',
-    'anchor' => '',
-    'top_padding_num' => '0',
-    'bottom_padding_num' => '0',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 0,
-  'hide' => 0,
-  'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1433408489182-1278',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 3,
-      'clear' => false,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'col' => 7,
-      'order' => 3,
-      'clear' => true,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'col' => 5,
-      'order' => 0,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-      'order' => 17,
-      'top' => 0,
-      'row' => 6,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 7,
-      'order' => 9,
-      'row' => 6,
-      'top' => 0,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'edited' => false,
-      'left' => 1,
-      'col' => 4,
-      'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1433408489130-1464',
 ));
 
 $region_13->add_group(array (
@@ -5044,7 +5134,7 @@ $region_13->add_group(array (
   'class' => '',
   'id' => 'module-group-1433408599187-1298',
   'type' => 'ModuleGroup',
-  'wrapper_id' => 'wrapper-1449479371955-1534',
+  'wrapper_id' => 'wrapper-1449729069577-1576',
   'original_col' => 6,
   'background_color' => 'rgba(137,77,77,0)',
   'background_style' => 'full',
@@ -5060,6 +5150,23 @@ $region_13->add_group(array (
   'bottom_padding_num' => '15',
   'top_padding_use' => 'yes',
   'top_padding_slider' => '30',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => false,
+      'col' => 12,
+      'order' => 7,
+      'clear' => false,
+    ),
+    'mobile' => 
+    array (
+      'edited' => false,
+      'col' => 7,
+      'order' => 7,
+      'clear' => true,
+    ),
+  ),
   'breakpoint' => 
   array (
     'tablet' => 
@@ -5598,38 +5705,21 @@ $region_13->add_element("Uspacer", array (
 
 $region_13->add_element("Uspacer", array (
   'columns' => '1',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1449479403072-1474',
-  'id' => 'module-1449479403072-1474',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1449729082617-1457',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
+    'element_id' => 'spacer-object-1449729082616-1637',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1449479403072-1803',
   ),
-  'row' => 6,
-  'sticky' => false,
+  'wrapper_id' => 'wrapper-1449729082617-1329',
   'default_hide' => 1,
-  'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1449479403072-1910',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 1,
-    ),
-    'mobile' => 
-    array (
-      'col' => 1,
-    ),
-  ),
+  'hide' => 0,
 ));
 
 $region_13->add_element("Uspacer", array (
