@@ -249,14 +249,14 @@ button.mfp-arrow.mfp-arrow-left {
     margin-left: 2em;
 }
 button.mfp-arrow.mfp-arrow-right {
-    background-position: 28px 0;
+    background-position: -30px 0px;
     margin-right: 2em;
 }
 button.mfp-arrow.mfp-arrow-left:hover {
     background-position: 0 -50px;
 }
 button.mfp-arrow.mfp-arrow-right:hover {
-    background-position: 28px -50px;
+    background-position: -30px -50px;
 }
 .mfp-gallery .mfp-image-holder .mfp-close,
 .mfp-iframe-holder .mfp-close {
