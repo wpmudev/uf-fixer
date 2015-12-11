@@ -513,7 +513,7 @@ $main->add_element("Ucontact", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'contact',
+    'preset' => 'alt',
     'use_padding' => '',
     'lock_padding' => '',
     'padding_slider' => 'false',
