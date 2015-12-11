@@ -377,13 +377,13 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 20,
+         'menu-item-db-id' => 212,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Services',
          'menu-item-url' => '#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '20',
+         'menu-item-object-id' => '212',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -395,13 +395,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 21,
+         'menu-item-db-id' => 213,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Get a Quote',
          'menu-item-url' => '#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '21',
+         'menu-item-object-id' => '213',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -413,13 +413,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 22,
+         'menu-item-db-id' => 214,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Blog',
          'menu-item-url' => '#blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '22',
+         'menu-item-object-id' => '214',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
@@ -431,13 +431,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 23,
+         'menu-item-db-id' => 215,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '23',
+         'menu-item-object-id' => '215',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
@@ -449,13 +449,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 24,
+         'menu-item-db-id' => 216,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Contact Us',
          'menu-item-url' => '#contact',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '24',
+         'menu-item-object-id' => '216',
          'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 
@@ -6369,7 +6369,7 @@ $quote->add_element("Ucontact", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'ucontact-quote-style-m',
+    'preset' => 'quote',
     'use_padding' => '',
     'lock_padding' => '',
     'padding_slider' => 'false',
@@ -10681,7 +10681,7 @@ $contact->add_element("Ucontact", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'ucontact-contact-style-m',
+    'preset' => 'contact',
     'use_padding' => '',
     'lock_padding' => '',
     'padding_slider' => 'false',
