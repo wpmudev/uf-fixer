@@ -43,6 +43,7 @@ $blog_individual = upfront_create_region(
     0 => '',
   ),
   'expand_lock' => false,
+  'version' => '1.0.0',
 )
 			);
 
@@ -50,7 +51,7 @@ $blog_individual->add_element("PlainTxt", array (
   'columns' => '24',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '16',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1407490840563-1569-module',
   'id' => 'module-1407490840563-1569-module',
@@ -64,16 +65,22 @@ $blog_individual->add_element("PlainTxt", array (
     'class' => 'c24 c24 upfront-plain_txt',
     'has_settings' => 1,
     'is_edited' => true,
-    'row' => 8,
+    'row' => 24,
     'border_style' => 'none',
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
     'theme_style' => 'u-sub-heading',
+    'top_padding_use' => true,
+    'top_padding_num' => 95,
+    'bottom_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'module-1407490840563-1569-module-wrapper',
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -82,11 +89,13 @@ $blog_individual->add_element("PlainTxt", array (
     array (
       'col' => 12,
       'order' => 0,
+      'clear' => true,
     ),
     'mobile' => 
     array (
       'col' => 7,
       'order' => 0,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -102,6 +111,7 @@ $blog_individual->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -109,6 +119,7 @@ $blog_individual->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -189,9 +200,14 @@ $blog_individual->add_element("ThisPost", array (
     )),
     'hide_featured_image' => '',
     'full_featured_image' => '',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'default-post-module-module-module-module-module-module-module-module-wrapper',
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -199,12 +215,14 @@ $blog_individual->add_element("ThisPost", array (
     'tablet' => 
     array (
       'col' => 12,
-      'order' => 0,
+      'order' => 1,
+      'clear' => true,
     ),
     'mobile' => 
     array (
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -221,6 +239,7 @@ $blog_individual->add_element("ThisPost", array (
       'col' => 12,
       'order' => 0,
       'hide' => 0,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -228,6 +247,7 @@ $blog_individual->add_element("ThisPost", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -239,9 +259,29 @@ $blog_individual->add_element("ThisPost", array (
   ),
 ));
 
+$blog_individual->add_element("Uspacer", array (
+  'columns' => '6',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1449825997-30622',
+  'options' => 
+  array (
+    'element_id' => 'spacer-object-1449825997-1754',
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1449825997-71512',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'new_line' => true,
+));
+
 $blog_individual->add_element("Ucomment", array (
   'columns' => '16',
-  'margin_left' => '6',
+  'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
@@ -270,24 +310,30 @@ $blog_individual->add_element("Ucomment", array (
       )),
     )),
     'theme_style' => 'uf-ucomment-responsive',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1430735458058-1283',
-  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => false,
       'col' => 12,
-      'order' => 0,
+      'order' => 2,
+      'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 0,
+      'order' => 2,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -305,6 +351,7 @@ $blog_individual->add_element("Ucomment", array (
       'col' => 12,
       'order' => 0,
       'hide' => 0,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -312,6 +359,7 @@ $blog_individual->add_element("Ucomment", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -321,6 +369,25 @@ $blog_individual->add_element("Ucomment", array (
       'order' => 0,
     ),
   ),
+));
+
+$blog_individual->add_element("Uspacer", array (
+  'columns' => '2',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1449825997-94414',
+  'options' => 
+  array (
+    'element_id' => 'spacer-object-1449825997-47962',
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1449825997-18465',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
 ));
 
 $regions->add($blog_individual);
@@ -357,6 +424,7 @@ $separator = upfront_create_region(
     0 => false,
   ),
   'background_color' => '#ffffff',
+  'version' => '1.0.0',
 )
 			);
 

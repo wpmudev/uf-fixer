@@ -38,6 +38,7 @@ $region_5 = upfront_create_region(
     0 => false,
   ),
   'background_color' => '#ffffff',
+  'version' => '1.0.0',
 )
 			);
 
@@ -45,7 +46,7 @@ $region_5->add_element("PlainTxt", array (
   'columns' => '24',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '19',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1407244369178-1770',
   'id' => 'module-1407244369178-1770',
@@ -58,17 +59,38 @@ $region_5->add_element("PlainTxt", array (
     'element_id' => 'text-object-1407244369177-1062',
     'class' => 'c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 6,
+    'row' => 25,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
-    'theme_style' => 'u-sub-heading',
+    'theme_style' => '',
     'anchor' => '',
+    'top_padding_use' => true,
+    'top_padding_num' => 110,
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'top_padding_use' => true,
+         'top_padding_num' => 50,
+      )),
+    )),
+    'bottom_padding_num' => '15',
+    'preset' => 'u-sub-heading-m',
+    'use_padding' => true,
+    'lock_padding' => '',
+    'padding_slider' => false,
+    'padding_number' => 0,
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1419540281671-1659',
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -78,6 +100,7 @@ $region_5->add_element("PlainTxt", array (
       'edited' => false,
       'col' => 12,
       'order' => 0,
+      'clear' => true,
     ),
     'mobile' => 
     array (
@@ -100,6 +123,7 @@ $region_5->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -107,7 +131,7 @@ $region_5->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'top' => 7,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -143,9 +167,22 @@ $region_5->add_element("PlainTxt", array (
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
+    'preset' => 'text-theme-style',
+    'theme_style' => '',
+    'use_padding' => false,
+    'lock_padding' => '',
+    'padding_slider' => false,
+    'padding_number' => 0,
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1419540279374-1064',
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -154,7 +191,8 @@ $region_5->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 12,
-      'order' => 0,
+      'order' => 1,
+      'clear' => true,
     ),
     'mobile' => 
     array (
@@ -177,6 +215,7 @@ $region_5->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -306,9 +345,14 @@ $region_5->add_element("Posts", array (
       )),
     )),
     'row' => 174,
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1419540276903-1477',
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -317,7 +361,8 @@ $region_5->add_element("Posts", array (
     array (
       'edited' => false,
       'col' => 12,
-      'order' => 0,
+      'order' => 2,
+      'clear' => true,
     ),
     'mobile' => 
     array (
@@ -340,6 +385,7 @@ $region_5->add_element("Posts", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -347,6 +393,7 @@ $region_5->add_element("Posts", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -385,6 +432,7 @@ $separator = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'version' => '1.0.0',
 )
 			);
 

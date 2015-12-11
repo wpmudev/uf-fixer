@@ -39,6 +39,7 @@ $cases_region = upfront_create_region(
   array (
     0 => '',
   ),
+  'version' => '1.0.0',
 )
 			);
 
@@ -46,7 +47,7 @@ $cases_region->add_element("PlainTxt", array (
   'columns' => '24',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '13',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1407250114380-1665-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module',
   'id' => 'module-1407250114380-1665-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module',
@@ -59,7 +60,7 @@ $cases_region->add_element("PlainTxt", array (
     'element_id' => 'text-object-1407250114379-1090',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 8,
+    'row' => 21,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -67,9 +68,15 @@ $cases_region->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
     'theme_style' => 'u-sub-heading',
+    'top_padding_use' => true,
+    'top_padding_num' => 80,
+    'bottom_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'module-1407250114380-1665-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-wrapper',
   'wrapper_breakpoint' => 
   array (
@@ -77,11 +84,13 @@ $cases_region->add_element("PlainTxt", array (
     array (
       'col' => 12,
       'order' => 0,
+      'clear' => true,
     ),
     'mobile' => 
     array (
       'col' => 7,
       'order' => 0,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -89,6 +98,7 @@ $cases_region->add_element("PlainTxt", array (
       'order' => 0,
     ),
   ),
+  'new_line' => true,
   'breakpoint' => 
   array (
     'tablet' => 
@@ -97,6 +107,7 @@ $cases_region->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -104,6 +115,7 @@ $cases_region->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -139,21 +151,28 @@ $cases_region->add_element("PlainTxt", array (
     'border_color' => '',
     'bg_color' => '',
     'anchor' => '',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'module-1407250139415-1897-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-wrapper',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'col' => 12,
-      'order' => 0,
+      'order' => 1,
+      'clear' => true,
     ),
     'mobile' => 
     array (
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -161,6 +180,7 @@ $cases_region->add_element("PlainTxt", array (
       'order' => 0,
     ),
   ),
+  'new_line' => true,
   'breakpoint' => 
   array (
     'tablet' => 
@@ -169,6 +189,7 @@ $cases_region->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -176,6 +197,7 @@ $cases_region->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -191,7 +213,7 @@ $cases_region->add_element("Ugallery", array (
   'columns' => '24',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '11',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1407250114394-1623-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module',
   'id' => 'module-1407250114394-1623-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module',
@@ -1984,6 +2006,7 @@ $cases_region->add_element("Ugallery", array (
     'thumbProportions' => '1',
     'thumbWidth' => '210',
     'thumbHeight' => 210,
+    'thumbWidthNumber' => '210',
     'captionType' => 'none',
     'captionColor' => '#ufc0',
     'captionUseBackground' => 0,
@@ -2000,6 +2023,12 @@ $cases_region->add_element("Ugallery", array (
       0 => 'true',
     ),
     'thumbPadding' => 0,
+    'sidePadding' => '0',
+    'bottomPadding' => '0',
+    'thumbPaddingNumber' => 15,
+    'thumbSidePaddingNumber' => '0',
+    'thumbBottomPaddingNumber' => '0',
+    'lockPadding' => '',
     'lightbox_show_close' => 
     array (
       0 => 'true',
@@ -2022,23 +2051,38 @@ $cases_region->add_element("Ugallery", array (
       0 => 'true',
     ),
     'element_id' => 'ugallery-object-1407250114391-1191',
-    'theme_style' => 'case-study-ugallery-style',
+    'theme_style' => '',
     'anchor' => '',
+    'top_padding_use' => true,
+    'top_padding_num' => 70,
+    'bottom_padding_num' => '15',
+    'preset' => 'case-study-ugallery-style-m',
+    'use_padding' => '',
+    'lock_padding' => '',
+    'padding_slider' => 'false',
+    'padding_number' => 0,
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'module-1407250114394-1623-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-wrapper',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'col' => 12,
-      'order' => 0,
+      'order' => 2,
+      'clear' => true,
     ),
     'mobile' => 
     array (
       'col' => 7,
-      'order' => 0,
+      'order' => 2,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
@@ -2046,6 +2090,7 @@ $cases_region->add_element("Ugallery", array (
       'order' => 0,
     ),
   ),
+  'new_line' => true,
   'breakpoint' => 
   array (
     'tablet' => 
@@ -2054,6 +2099,7 @@ $cases_region->add_element("Ugallery", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -2061,6 +2107,7 @@ $cases_region->add_element("Ugallery", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -2099,6 +2146,7 @@ $separator = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'version' => '1.0.0',
 )
 			);
 

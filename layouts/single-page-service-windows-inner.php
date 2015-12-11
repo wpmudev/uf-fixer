@@ -38,6 +38,7 @@ $main = upfront_create_region(
   array (
     0 => false,
   ),
+  'version' => '1.0.0',
 )
 			);
 
@@ -45,7 +46,7 @@ $main->add_element("PlainTxt", array (
   'columns' => '24',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '16',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1432911649645-1709',
   'id' => 'module-1432911649645-1709',
@@ -58,7 +59,7 @@ $main->add_element("PlainTxt", array (
     'element_id' => 'text-object-1432911649644-1060',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 7,
+    'row' => 23,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -66,9 +67,28 @@ $main->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
     'theme_style' => 'u-sub-heading',
+    'top_padding_use' => true,
+    'top_padding_num' => 95,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'top_padding_use' => true,
+         'top_padding_num' => 65,
+      )),
+       'mobile' => 
+      (array)(array(
+         'top_padding_use' => true,
+         'top_padding_num' => 65,
+      )),
+    )),
+    'bottom_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1432911660635-1409',
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -103,7 +123,7 @@ $main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'top' => 10,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -111,7 +131,7 @@ $main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'top' => 10,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -158,9 +178,14 @@ $main->add_element("PlainTxt", array (
          'theme_style' => 'text-center',
       )),
     )),
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1432911696389-1388',
   'new_line' => true,
   'wrapper_breakpoint' => 
@@ -195,6 +220,7 @@ $main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 12,
       'order' => 4,
+      'top' => 0,
     ),
     'mobile' => 
     array (
@@ -202,6 +228,7 @@ $main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 4,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -213,9 +240,29 @@ $main->add_element("PlainTxt", array (
   ),
 ));
 
+$main->add_element("Uspacer", array (
+  'columns' => '3',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1449825692-73890',
+  'options' => 
+  array (
+    'element_id' => 'spacer-object-1449825692-60810',
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1449825692-13556',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
+  'new_line' => true,
+));
+
 $main->add_element("PlainTxt", array (
   'columns' => '18',
-  'margin_left' => '3',
+  'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
@@ -249,11 +296,15 @@ $main->add_element("PlainTxt", array (
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1432911915038-1524',
-  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -295,6 +346,7 @@ $main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 1,
+      'top' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -304,6 +356,25 @@ $main->add_element("PlainTxt", array (
       'order' => 1,
     ),
   ),
+));
+
+$main->add_element("Uspacer", array (
+  'columns' => '3',
+  'class' => 'upfront-module-spacer',
+  'id' => 'module-1449825692-79396',
+  'options' => 
+  array (
+    'element_id' => 'spacer-object-1449825692-88252',
+    'type' => 'UspacerModel',
+    'view_class' => 'UspacerView',
+    'class' => 'c24',
+    'has_settings' => 0,
+    'id_slug' => 'uspacer',
+  ),
+  'wrapper_id' => 'wrapper-1449825692-84847',
+  'default_hide' => 1,
+  'toggle_hide' => 0,
+  'hide' => 0,
 ));
 
 $regions->add($main);
@@ -333,6 +404,7 @@ $separator = upfront_create_region(
        'col' => 24,
     )),
   )),
+  'version' => '1.0.0',
 )
 			);
 
