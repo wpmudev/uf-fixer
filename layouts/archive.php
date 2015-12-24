@@ -1,4 +1,6 @@
 <?php
+$layout_version = '1.0.0';
+
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
 $region_6 = upfront_create_region(
@@ -12,7 +14,7 @@ $region_6 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 119,
+  'row' => 120,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -35,6 +37,18 @@ $region_6 = upfront_create_region(
   'nav_region' => '',
   'background_color' => '#ufc2',
   'version' => '1.0.0',
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => 0,
+  'bottom_bg_padding_num' => 0,
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
@@ -62,7 +76,7 @@ $region_6->add_element("PlainTxt", array (
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
-    'theme_style' => 'u-sub-heading',
+    'theme_style' => '',
     'top_padding_use' => true,
     'top_padding_num' => 80,
     'breakpoint' => 
@@ -79,6 +93,13 @@ $region_6->add_element("PlainTxt", array (
       )),
     )),
     'bottom_padding_num' => '15',
+    'preset' => 'u-sub-heading-m',
+    'use_padding' => '',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -200,7 +221,7 @@ $region_6->add_element("PlainTxt", array (
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
-    'theme_style' => 'archive-heading',
+    'theme_style' => '',
     'breakpoint' => 
     (array)(array(
        'tablet' => 
@@ -210,6 +231,13 @@ $region_6->add_element("PlainTxt", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'archive-heading-m',
+    'use_padding' => '',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -350,6 +378,7 @@ $region_6->add_element("Uwidget", array (
     'padding_number' => 0,
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'current_widget_specific_fields' => false,
   ),
   'row' => 6,
   'sticky' => false,

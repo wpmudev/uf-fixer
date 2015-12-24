@@ -953,7 +953,7 @@ $footer->add_element("PlainTxt", array (
     'element_id' => 'object-1430897586849-1508',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 11,
+    'row' => 6,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,

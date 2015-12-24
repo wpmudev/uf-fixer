@@ -1,4 +1,6 @@
 <?php
+$layout_version = '1.0.0';
+
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
 $main = upfront_create_region(
@@ -237,22 +239,39 @@ $main->add_element("PlainTxt", array (
 
 $main->add_element("Uspacer", array (
   'columns' => '3',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449825635-71720 upfront-module-spacer',
   'id' => 'module-1449825635-71720',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1449825635-49311',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449825635-49311',
   ),
-  'wrapper_id' => 'wrapper-1449825635-41099',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449825635-41099',
   'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 3,
+    ),
+    'mobile' => 
+    array (
+      'col' => 3,
+    ),
+  ),
 ));
 
 $main->add_element("PlainTxt", array (
@@ -355,21 +374,38 @@ $main->add_element("PlainTxt", array (
 
 $main->add_element("Uspacer", array (
   'columns' => '3',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449825635-65845 upfront-module-spacer',
   'id' => 'module-1449825635-65845',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1449825635-96505',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449825635-96505',
   ),
-  'wrapper_id' => 'wrapper-1449825635-87037',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449825635-87037',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 3,
+    ),
+    'mobile' => 
+    array (
+      'col' => 3,
+    ),
+  ),
 ));
 
 $regions->add($main);

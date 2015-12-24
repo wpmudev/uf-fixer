@@ -1,4 +1,6 @@
 <?php
+$layout_version = '1.0.0';
+
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
 $main = upfront_create_region(
@@ -91,7 +93,7 @@ $main->add_element("PlainTxt", array (
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
-    'theme_style' => 'u-sub-heading',
+    'theme_style' => '',
     'top_padding_use' => true,
     'top_padding_num' => 125,
     'breakpoint' => 
@@ -103,6 +105,13 @@ $main->add_element("PlainTxt", array (
       )),
     )),
     'bottom_padding_num' => '15',
+    'preset' => 'u-sub-heading-m',
+    'use_padding' => true,
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -183,6 +192,15 @@ $main->add_element("PlainTxt", array (
     'is_edited' => true,
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'default',
+    'theme_style' => '',
+    'use_padding' => '',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'anchor' => '',
   ),
   'row' => 6,
   'sticky' => false,

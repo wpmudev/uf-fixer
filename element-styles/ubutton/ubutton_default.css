@@ -1,0 +1,9 @@
+.upfront-button a.upfront_cta {
+    line-height: 1.133em;
+    font-weight: 700;
+    padding: 14px 10px;
+    text-transform: uppercase;
+}
+.upfront-button .upfront_cta:hover {
+    font-weight: 700;
+}

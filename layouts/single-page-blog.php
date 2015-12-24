@@ -1,4 +1,6 @@
 <?php
+$layout_version = '1.0.0';
+
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
 $region_5 = upfront_create_region(
@@ -169,11 +171,11 @@ $region_5->add_element("PlainTxt", array (
     'anchor' => '',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'text-theme-style',
+    'preset' => 'default',
     'theme_style' => '',
-    'use_padding' => false,
+    'use_padding' => '',
     'lock_padding' => '',
-    'padding_slider' => false,
+    'padding_slider' => 'false',
     'padding_number' => 0,
     'left_padding_num' => '15',
     'right_padding_num' => '15',

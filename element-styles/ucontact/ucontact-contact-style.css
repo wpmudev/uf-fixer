@@ -1,0 +1,26 @@
+#page .ucontact-contact-style.upfront-contact-form {
+    margin-bottom:70px;
+}
+#page .ucontact-contact-style.upfront-contact-form .upfront-field-container {
+    margin: 0;
+}
+#page .ucontact-contact-style .upfront-field-container .ucontact-input {
+    border: 1px solid transparent;
+    margin: 0 0 1px;
+    background: #f7f7f7;
+}
+#page .ucontact-contact-style .upfront-field-container .ucontact-input:focus {
+    border-color: #584780;
+    background: #ffffff;
+}
+#page .ucontact-contact-style.upfront-contact-form .upfront-field-container .submit-field {
+    background: #584780;
+    border: none;
+    color: #ufc0;
+    margin-top: 20px;
+    padding: 16px 40px;
+}
+#page .ucontact-contact-style.upfront-contact-form .upfront-field-container .submit-field:hover {
+    background: #ufc1;
+    border: none;
+}

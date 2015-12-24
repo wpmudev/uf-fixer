@@ -1,0 +1,83 @@
+.upfront-contact-form .ucontact-message-container {
+    margin-bottom: 0;
+}
+.upfront-contact-form .ucontact-message-container.ucontact-success-response {
+    background-color: transparent;
+    padding: 0;
+    position: relative;
+    margin: 0;
+}
+.upfront-contact-form .ucontact-message-container.ucontact-success-response:after {
+    content: "";
+    display: none;
+}
+.upfront-contact-form .ucontact-message-container.ucontact-success-response div {
+    display: block;
+}
+.upfront-contact-form .ucontact-msg {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 1.667em;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.upfront-contact-form .ucontact-msg.error {
+    background: #f2dede;
+    color: #a94442;
+}
+.upfront-contact-form .ucontact-msg.info {
+    background: #dff0d8;
+    color: #3c763d;
+}
+.upfront-contact-form .ucontact-msg.info p {
+    color: #3c763d;
+    display: block;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: normal;
+    line-height: 1.667em;
+    margin: 0;
+    text-align: left;
+}
+.upfront-contact-form .upfront-field-container {
+    margin: 0 0 15px;
+    overflow: hidden;
+}
+.upfront-field-container label {
+    color: #ufc1;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    font-style: normal;
+}
+.upfront-field-container .ucontact-input {
+    border: 1px solid #ece9e4;
+}
+.upfront-contact-form .upfront-field-container button[type="submit"] {
+    background: #ufc6;
+    border: 3px solid transparent;
+    color: #ufc0;
+    margin-top: 0;
+    padding: 10px 20px;
+}
+.upfront-contact-form .upfront-field-container button[type="submit"]:hover {
+    background: transparent;
+    border-color: #ufc6;
+    color: #ufc6;
+}
+ /* labels above */
+.upfront-field-container.ucontact-label-above > label {
+    color: #ufc1;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.667em;
+    margin-bottom: 10px;
+}
+ /* labels on left */
+.upfront-field-container.ucontact-label-inline > label {
+    line-height: 50px;
+}

@@ -1,4 +1,6 @@
 <?php
+$layout_version = '1.0.0';
+
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
 $cases_region = upfront_create_region(
@@ -78,6 +80,7 @@ $cases_region->add_element("PlainTxt", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'module-1407250114380-1665-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-wrapper',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -98,7 +101,6 @@ $cases_region->add_element("PlainTxt", array (
       'order' => 0,
     ),
   ),
-  'new_line' => true,
   'breakpoint' => 
   array (
     'tablet' => 
@@ -153,6 +155,14 @@ $cases_region->add_element("PlainTxt", array (
     'anchor' => '',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'default',
+    'theme_style' => '',
+    'use_padding' => '',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -160,6 +170,7 @@ $cases_region->add_element("PlainTxt", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'module-1407250139415-1897-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-wrapper',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -180,7 +191,6 @@ $cases_region->add_element("PlainTxt", array (
       'order' => 0,
     ),
   ),
-  'new_line' => true,
   'breakpoint' => 
   array (
     'tablet' => 
@@ -457,7 +467,7 @@ $cases_region->add_element("Ugallery", array (
            'url' => '',
            'target' => '',
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
       )),
@@ -575,7 +585,7 @@ $cases_region->add_element("Ugallery", array (
            'url' => '',
            'target' => '',
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
       )),
@@ -693,7 +703,7 @@ $cases_region->add_element("Ugallery", array (
            'url' => '',
            'target' => '',
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
       )),
@@ -811,7 +821,7 @@ $cases_region->add_element("Ugallery", array (
            'url' => '',
            'target' => '',
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
       )),
@@ -929,7 +939,7 @@ $cases_region->add_element("Ugallery", array (
            'url' => '',
            'target' => '',
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
       )),
@@ -1047,7 +1057,7 @@ $cases_region->add_element("Ugallery", array (
            'url' => '',
            'target' => '',
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
       )),
@@ -1165,7 +1175,7 @@ $cases_region->add_element("Ugallery", array (
            'url' => '',
            'target' => '',
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
       )),
@@ -1283,7 +1293,7 @@ $cases_region->add_element("Ugallery", array (
            'url' => '',
            'target' => '',
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
       )),
@@ -1401,7 +1411,7 @@ $cases_region->add_element("Ugallery", array (
            'url' => '',
            'target' => '',
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
       )),
@@ -1519,7 +1529,7 @@ $cases_region->add_element("Ugallery", array (
            'url' => '',
            'target' => '',
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
       )),
@@ -1637,7 +1647,7 @@ $cases_region->add_element("Ugallery", array (
            'url' => '',
            'target' => '',
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
       )),
@@ -1755,7 +1765,7 @@ $cases_region->add_element("Ugallery", array (
            'url' => '',
            'target' => '',
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
       )),
@@ -1873,7 +1883,7 @@ $cases_region->add_element("Ugallery", array (
            'url' => '',
            'target' => '',
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
       )),
@@ -1989,7 +1999,7 @@ $cases_region->add_element("Ugallery", array (
            'url' => '',
            'target' => '',
         )),
-         'imageLinkType' => false,
+         'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
       )),
@@ -2070,6 +2080,7 @@ $cases_region->add_element("Ugallery", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'module-1407250114394-1623-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-module-wrapper',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2090,7 +2101,6 @@ $cases_region->add_element("Ugallery", array (
       'order' => 0,
     ),
   ),
-  'new_line' => true,
   'breakpoint' => 
   array (
     'tablet' => 

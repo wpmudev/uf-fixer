@@ -1,4 +1,6 @@
 <?php
+$layout_version = '1.0.0';
+
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
 $blog_individual = upfront_create_region(
@@ -261,22 +263,39 @@ $blog_individual->add_element("ThisPost", array (
 
 $blog_individual->add_element("Uspacer", array (
   'columns' => '6',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449825997-30622 upfront-module-spacer',
   'id' => 'module-1449825997-30622',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1449825997-1754',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449825997-1754',
   ),
-  'wrapper_id' => 'wrapper-1449825997-71512',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449825997-71512',
   'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 6,
+    ),
+    'mobile' => 
+    array (
+      'col' => 6,
+    ),
+  ),
 ));
 
 $blog_individual->add_element("Ucomment", array (
@@ -373,21 +392,38 @@ $blog_individual->add_element("Ucomment", array (
 
 $blog_individual->add_element("Uspacer", array (
   'columns' => '2',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1449825997-94414 upfront-module-spacer',
   'id' => 'module-1449825997-94414',
   'options' => 
   array (
-    'element_id' => 'spacer-object-1449825997-47962',
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1449825997-47962',
   ),
-  'wrapper_id' => 'wrapper-1449825997-18465',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1449825997-18465',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 2,
+    ),
+    'mobile' => 
+    array (
+      'col' => 2,
+    ),
+  ),
 ));
 
 $regions->add($blog_individual);

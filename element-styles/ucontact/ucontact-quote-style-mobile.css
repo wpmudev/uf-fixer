@@ -1,0 +1,27 @@
+#page .ucontact-quote-style-mobile.upfront-contact-form {
+    margin-bottom:70px;
+}
+#page .ucontact-quote-style-mobile.upfront-contact-form .upfront-field-container {
+    margin: 0;
+}
+#page .ucontact-quote-style-mobile .upfront-field-container .ucontact-input {
+    border: 1px solid transparent;
+    margin: 0 0 1px;
+    background: #f7f7f7;
+}
+#page .ucontact-quote-style-mobile .upfront-field-container .ucontact-input:focus {
+    border-color: #a4d0dc;
+    background: #ffffff;
+}
+#page .ucontact-quote-style-mobile.upfront-contact-form .upfront-field-container .submit-field {
+    background: #a4d0dc;
+    border: none;
+    color: #ufc0;
+    margin-top: 0px;
+    padding: 16px 20px;
+    width:100%;
+}
+#page .ucontact-quote-style-mobile .upfront-field-container .submit-field:hover {
+    background: #ufc1;
+    border: none;
+}
