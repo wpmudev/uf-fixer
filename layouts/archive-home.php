@@ -24,7 +24,7 @@ $region_14 = upfront_create_region(
        'background_style' => 'full',
        'background_position_x' => '50',
        'background_image' => '{{upfront:style_url}}/images/archive-home/1524142385slider-b.jpg',
-       'background_image_ratio' => 0.68000000000000005,
+       'background_image_ratio' => 0.68000000000000004884981308350688777863979339599609375,
        'row' => 100,
        'hide' => 0,
     )),
@@ -65,7 +65,7 @@ $region_14 = upfront_create_region(
     0 => '',
   ),
   'background_image' => '{{upfront:style_url}}/images/archive-home/1524142385slider-b.jpg',
-  'background_image_ratio' => 0.68000000000000005,
+  'background_image_ratio' => 0.68000000000000004884981308350688777863979339599609375,
   'version' => '1.0.0',
   'bg_padding_type' => 'equal',
   'top_bg_padding_slider' => 0,
@@ -379,13 +379,13 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 329,
+         'menu-item-db-id' => 102,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Services',
          'menu-item-url' => '#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '329',
+         'menu-item-object-id' => '102',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -397,13 +397,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 330,
+         'menu-item-db-id' => 103,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Get a Quote',
          'menu-item-url' => '#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '330',
+         'menu-item-object-id' => '103',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -415,13 +415,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 331,
+         'menu-item-db-id' => 104,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Blog',
          'menu-item-url' => '#blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '331',
+         'menu-item-object-id' => '104',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
@@ -433,13 +433,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 332,
+         'menu-item-db-id' => 105,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '332',
+         'menu-item-object-id' => '105',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
@@ -451,13 +451,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 333,
+         'menu-item-db-id' => 106,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Contact Us',
          'menu-item-url' => '#contact',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '333',
+         'menu-item-object-id' => '106',
          'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 
@@ -7323,7 +7323,7 @@ $blog_header = upfront_create_region(
   'background_position_y' => '50',
   'background_position_x' => '50',
   'background_image' => '{{upfront:style_url}}/images/archive-home/background-leaves.jpg',
-  'background_image_ratio' => 0.42999999999999999,
+  'background_image_ratio' => 0.429999999999999993338661852249060757458209991455078125,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -8993,9 +8993,14 @@ $about->add_group(array (
   'wrapper_id' => 'wrapper-1445403662826-1212',
   'original_col' => 6,
   'version' => '1.0.0',
-  'top_padding_num' => '15',
-  'bottom_padding_num' => '15',
+  'top_padding_num' => '0',
+  'bottom_padding_num' => '0',
   'row' => 30,
+  'lock_padding' => '',
+  'top_padding_use' => 'yes',
+  'top_padding_slider' => '0',
+  'bottom_padding_use' => 'yes',
+  'bottom_padding_slider' => '0',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -10354,7 +10359,7 @@ $contact = upfront_create_region(
   'background_position_y' => '100',
   'background_position_x' => '100',
   'background_image' => '{{upfront:style_url}}/images/archive-home/dome.png',
-  'background_image_ratio' => 1.05,
+  'background_image_ratio' => 1.0500000000000000444089209850062616169452667236328125,
   'background_repeat' => 'no-repeat',
   'background_position' => '100% 100%',
   'breakpoint' => 
