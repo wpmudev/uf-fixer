@@ -1,0 +1,10 @@
+#page .u-button-link.upfront-button a.upfront_cta {
+    display: inline-block;
+    line-height: 1.133em;
+    font-weight: 700;
+    padding: 0;
+    text-transform: uppercase;
+}
+#page .u-button-link.upfront-button a.upfront_cta:hover {
+    font-weight: 700;
+}
