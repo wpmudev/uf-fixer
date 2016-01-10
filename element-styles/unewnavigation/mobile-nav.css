@@ -1,0 +1,38 @@
+#page .mobile-nav div.responsive_nav_toggler {
+    background: #ufc1;
+}
+#page .mobile-nav div.responsive_nav_toggler > div {
+    background: #ufc0;
+}
+#page .mobile-nav div.responsive_nav_toggler:hover {
+    background: #ufc6;
+    border-color: #00a571;
+}
+#page .mobile-nav div[data-style='burger'] ul.menu {
+    background: none;
+}
+#page .mobile-nav div[data-style='burger'] ul.menu > li.menu-item > a {
+    background:rgba(51,51,51,.95);
+    border:1px solid rgba(0,0,0,.9);
+    color: #ufc0;
+    padding: 25px;
+}
+#page .mobile-nav div[data-style='burger'] ul.menu > li.menu-item > a:hover {
+    background: #ufc1;
+    color: #ufc0;
+}
+#page .mobile-nav div[data-style='burger'] ul.menu > li.current-menu-item > a {
+    background: #ufc6;
+}
+#page .mobile-nav div[data-style='burger'] ul.menu > li.current-menu-item > a:hover {
+    background: #00a571;
+}
+#page .mobile-nav i.burger_nav_close:before {
+    color: #ufc0;
+}
+#page .mobile-nav i.burger_nav_close:hover {
+    border-color: #ufc4;
+}
+#page .mobile-nav i.burger_nav_close:hover:before {
+    color: #ufc4;
+}
