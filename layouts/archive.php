@@ -20,7 +20,7 @@ $region_6 = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 131,
+       'row' => 120,
     )),
      'mobile' => 
     (array)(array(
@@ -176,6 +176,7 @@ $region_6->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449819166-24996',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -226,18 +227,25 @@ $region_6->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => 'u-heading-mobile',
+         'theme_style' => '',
       )),
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'archive-heading-m',
+    'preset' => 'default',
     'use_padding' => '',
     'lock_padding' => '',
     'padding_slider' => '15',
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'default',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -313,6 +321,7 @@ $region_6->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449819166-46517',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -461,6 +470,7 @@ $region_6->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449819166-99719',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -503,6 +513,10 @@ $main = upfront_create_region(
     (array)(array(
        'edited' => false,
        'col' => 24,
+       'background_type' => 'color',
+       'bg_padding_type' => 'varied',
+       'bottom_bg_padding_num' => '80',
+       'bottom_bg_padding_slider' => '80',
     )),
      'mobile' => 
     (array)(array(
@@ -632,6 +646,10 @@ $main->add_element("Posts", array (
       (array)(array(
          'row' => 263,
       )),
+       'tablet' => 
+      (array)(array(
+         'row' => 482,
+      )),
     )),
     'top_padding_use' => true,
     'top_padding_num' => 85,
@@ -681,11 +699,12 @@ $main->add_element("Posts", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 12,
       'order' => 0,
       'top' => 0,
+      'row' => 482,
     ),
     'mobile' => 
     array (
@@ -722,6 +741,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449819166-14279',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -772,6 +792,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449819166-3726',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -862,12 +883,12 @@ $main->add_element("Uwidget", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 122,
-         'theme_style' => 'u-archive-side-widgets-mobile',
+         'row' => 23,
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'u-archive-side-widgets-mobile',
+         'theme_style' => '',
          'top_padding_use' => true,
          'top_padding_num' => 25,
       )),
@@ -931,6 +952,17 @@ $main->add_element("Uwidget", array (
          'label' => 'Show post counts',
       )),
     )),
+    'breakpoint_presets' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-side-widgets-mobile',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'u-archive-side-widgets-m',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -971,7 +1003,7 @@ $main->add_element("Uwidget", array (
       'col' => 4,
       'order' => 0,
       'top' => 0,
-      'row' => 122,
+      'row' => 23,
     ),
     'mobile' => 
     array (
@@ -1008,6 +1040,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449819166-19575',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1057,6 +1090,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449819166-38637',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,

@@ -85,6 +85,7 @@ $main->add_element("PlainTxt", array (
       )),
     )),
     'bottom_padding_num' => '15',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -173,11 +174,12 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -254,6 +256,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449825655-4858',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -299,11 +302,11 @@ $main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 166,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'border_style' => 'none',
@@ -313,6 +316,25 @@ $main->add_element("PlainTxt", array (
     'anchor' => '',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'default',
+    'theme_style' => '',
+    'use_padding' => false,
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'default',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -389,6 +411,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449825655-57857',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,

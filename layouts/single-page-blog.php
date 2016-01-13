@@ -180,7 +180,7 @@ $region_5->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
   ),
-  'row' => 29,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -339,11 +339,11 @@ $region_5->add_element("Posts", array (
       )),
        'tablet' => 
       (array)(array(
-         'theme_style' => 'u-posts-grid-tablet',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'u-posts-grid-tablet',
+         'theme_style' => '',
       )),
     )),
     'row' => 174,
@@ -356,6 +356,17 @@ $region_5->add_element("Posts", array (
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'preset' => 'grid-mobile',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'u-posts-grid-m',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,

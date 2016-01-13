@@ -22,7 +22,10 @@ $main = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 295,
+       'row' => 132,
+       'background_type' => 'color',
+       'bottom_bg_padding_slider' => '80',
+       'bottom_bg_padding_num' => '80',
     )),
      'mobile' => 
     (array)(array(
@@ -41,6 +44,13 @@ $main = upfront_create_region(
     0 => false,
   ),
   'version' => '1.0.0',
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => 0,
+  'bottom_bg_padding_num' => 0,
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
@@ -168,12 +178,12 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
          'row' => 19,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'top_padding_num' => '15',
@@ -263,6 +273,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449825543-21297',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -306,6 +317,7 @@ $main->add_group(array (
   'top_padding_num' => 40,
   'version' => '1.0.0',
   'bottom_padding_num' => '15',
+  'row' => 91,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -338,7 +350,7 @@ $main->add_group(array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'row' => 99,
+      'row' => 81,
       'top' => 0,
       'top_padding_use' => true,
       'top_padding_num' => 35,
@@ -390,16 +402,35 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => 'text-center',
-         'row' => 17,
+         'theme_style' => '',
+         'row' => 9,
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'no-bottom-space',
+    'theme_style' => '',
+    'use_padding' => '',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -439,7 +470,7 @@ $main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'row' => 17,
+      'row' => 9,
       'top' => 0,
     ),
     'mobile' => 
@@ -504,12 +535,12 @@ $main->add_element("Ucontact", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 77,
-         'theme_style' => 'ucontact-quote-style-mobile',
+         'row' => 56,
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'ucontact-quote-style-mobile',
+         'theme_style' => '',
       )),
     )),
     'top_padding_num' => '15',
@@ -521,6 +552,17 @@ $main->add_element("Ucontact", array (
     'padding_number' => 0,
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'preset' => 'quote-mobile',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'quote',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -560,7 +602,7 @@ $main->add_element("Ucontact", array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'row' => 77,
+      'row' => 56,
       'top' => 0,
     ),
     'mobile' => 
@@ -598,6 +640,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449825543-73221',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -633,6 +676,7 @@ $main->add_group(array (
   'top_padding_num' => 35,
   'version' => '1.0.0',
   'bottom_padding_num' => '15',
+  'row' => 81,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -666,7 +710,7 @@ $main->add_group(array (
       'col' => 6,
       'order' => 0,
       'top' => 0,
-      'row' => 78,
+      'row' => 84,
     ),
     'mobile' => 
     array (
@@ -717,24 +761,35 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
          'row' => 9,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'default',
+    'preset' => 'no-bottom-space',
     'theme_style' => '',
-    'use_padding' => false,
+    'use_padding' => '',
     'lock_padding' => '',
     'padding_slider' => '15',
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -806,6 +861,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449825543-52072',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -993,6 +1049,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449825543-21120',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1055,23 +1112,34 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'default',
+    'preset' => 'no-bottom-space',
     'theme_style' => '',
-    'use_padding' => false,
+    'use_padding' => '',
     'lock_padding' => '',
     'padding_slider' => '15',
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1142,6 +1210,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449825543-65059',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1177,6 +1246,16 @@ $main->add_group(array (
   'top_padding_num' => 35,
   'version' => '1.0.0',
   'bottom_padding_num' => '15',
+  'background_color' => '#ffffff',
+  'background_style' => 'full',
+  'background_position_y' => 50,
+  'background_position_x' => 50,
+  'use_padding' => 0,
+  'background_type' => 'color',
+  'anchor' => '',
+  'top_padding_slider' => '15',
+  'bottom_padding_use' => false,
+  'bottom_padding_slider' => '15',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1210,6 +1289,8 @@ $main->add_group(array (
       'col' => 6,
       'order' => 0,
       'top' => 0,
+      'background_color' => 'rgba(0,0,0,0)',
+      'row' => 84,
     ),
     'mobile' => 
     array (
@@ -1257,15 +1338,34 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'no-bottom-space',
+    'theme_style' => '',
+    'use_padding' => '',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1336,6 +1436,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449825543-65431',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1521,6 +1622,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449825543-93500',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1583,15 +1685,34 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'no-bottom-space',
+    'theme_style' => '',
+    'use_padding' => '',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1662,6 +1783,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449825543-11668',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,

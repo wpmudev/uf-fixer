@@ -3,13 +3,13 @@ $layout_version = '1.0.0';
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'header.php');
 
-$main = upfront_create_region(
+$services_inner_main = upfront_create_region(
 			array (
-  'name' => 'main',
-  'title' => 'Main Area',
+  'name' => 'services-inner-main',
+  'title' => 'Services Inner Main',
   'type' => 'wide',
   'scope' => 'local',
-  'container' => 'main',
+  'container' => 'services-inner-main',
   'position' => 10,
   'allow_sidebar' => true,
 ),
@@ -68,10 +68,17 @@ $main = upfront_create_region(
   'background_repeat' => 'no-repeat',
   'background_position' => '51% 74%',
   'version' => '1.0.0',
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => 0,
+  'bottom_bg_padding_num' => 0,
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '24',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -172,7 +179,7 @@ $main->add_element("PlainTxt", array (
   ),
 ));
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '24',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -272,7 +279,7 @@ $main->add_element("PlainTxt", array (
   ),
 ));
 
-$main->add_element("Uspacer", array (
+$services_inner_main->add_element("Uspacer", array (
   'columns' => '1',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -309,7 +316,7 @@ $main->add_element("Uspacer", array (
   ),
 ));
 
-$main->add_group(array (
+$services_inner_main->add_group(array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -390,7 +397,7 @@ $main->add_group(array (
   ),
 ));
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -416,11 +423,11 @@ $main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 6,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'border_style' => 'none',
@@ -431,7 +438,7 @@ $main->add_element("PlainTxt", array (
     'top_padding_num' => '0',
     'bottom_padding_num' => '0',
     'theme_style' => '',
-    'preset' => 'text-theme-style',
+    'preset' => 'default',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => false,
@@ -503,7 +510,7 @@ $main->add_element("PlainTxt", array (
   'group' => 'module-group-1434097161744-1439',
 ));
 
-$main->add_element("Uimage", array (
+$services_inner_main->add_element("Uimage", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -657,7 +664,7 @@ $main->add_element("Uimage", array (
   'group' => 'module-group-1434097161744-1439',
 ));
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -703,6 +710,21 @@ $main->add_element("PlainTxt", array (
     'top_padding_slider' => '10',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'no-bottom-space',
+    'theme_style' => '',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -764,7 +786,7 @@ $main->add_element("PlainTxt", array (
   'group' => 'module-group-1434097161744-1439',
 ));
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -801,9 +823,9 @@ $main->add_element("PlainTxt", array (
          'row' => 4,
       )),
     )),
-    'top_padding_num' => '0',
+    'top_padding_num' => '15',
     'bottom_padding_num' => '0',
-    'preset' => 'text-theme-style',
+    'preset' => 'no-bottom-space',
     'theme_style' => '',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -812,6 +834,16 @@ $main->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'top_padding_use' => 'yes',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+    )),
+    'top_padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -874,7 +906,7 @@ $main->add_element("PlainTxt", array (
   'group' => 'module-group-1434097161744-1439',
 ));
 
-$main->add_element("Uspacer", array (
+$services_inner_main->add_element("Uspacer", array (
   'columns' => '10',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -910,7 +942,7 @@ $main->add_element("Uspacer", array (
   ),
 ));
 
-$main->add_group(array (
+$services_inner_main->add_group(array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -991,7 +1023,7 @@ $main->add_group(array (
   ),
 ));
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -1094,7 +1126,7 @@ $main->add_element("PlainTxt", array (
   'group' => 'module-group-1434097025315-1201',
 ));
 
-$main->add_element("Uimage", array (
+$services_inner_main->add_element("Uimage", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -1240,7 +1272,7 @@ $main->add_element("Uimage", array (
   'group' => 'module-group-1434097025315-1201',
 ));
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -1283,6 +1315,21 @@ $main->add_element("PlainTxt", array (
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
     'top_padding_slider' => '10',
+    'preset' => 'no-bottom-space',
+    'theme_style' => '',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1345,7 +1392,7 @@ $main->add_element("PlainTxt", array (
   'group' => 'module-group-1434097025315-1201',
 ));
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -1381,9 +1428,9 @@ $main->add_element("PlainTxt", array (
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
-    'top_padding_num' => '0',
+    'top_padding_num' => '15',
     'bottom_padding_num' => '0',
-    'preset' => 'text-theme-style',
+    'preset' => 'no-bottom-space',
     'theme_style' => '',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -1393,6 +1440,14 @@ $main->add_element("PlainTxt", array (
     'right_padding_num' => '15',
     'bottom_padding_use' => 'yes',
     'top_padding_use' => 'yes',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+    )),
+    'top_padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1454,7 +1509,7 @@ $main->add_element("PlainTxt", array (
   'group' => 'module-group-1434097025315-1201',
 ));
 
-$main->add_element("Uspacer", array (
+$services_inner_main->add_element("Uspacer", array (
   'columns' => '1',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -1490,7 +1545,7 @@ $main->add_element("Uspacer", array (
   ),
 ));
 
-$main->add_element("Uspacer", array (
+$services_inner_main->add_element("Uspacer", array (
   'columns' => '1',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -1527,7 +1582,7 @@ $main->add_element("Uspacer", array (
   ),
 ));
 
-$main->add_group(array (
+$services_inner_main->add_group(array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -1601,7 +1656,7 @@ $main->add_group(array (
   ),
 ));
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -1704,7 +1759,7 @@ $main->add_element("PlainTxt", array (
   'group' => 'module-group-1434097123234-1274',
 ));
 
-$main->add_element("Uimage", array (
+$services_inner_main->add_element("Uimage", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -1850,7 +1905,7 @@ $main->add_element("Uimage", array (
   'group' => 'module-group-1434097123234-1274',
 ));
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -1892,6 +1947,21 @@ $main->add_element("PlainTxt", array (
     'top_padding_slider' => '10',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'no-bottom-space',
+    'theme_style' => '',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1953,7 +2023,7 @@ $main->add_element("PlainTxt", array (
   'group' => 'module-group-1434097123234-1274',
 ));
 
-$main->add_element("Uspacer", array (
+$services_inner_main->add_element("Uspacer", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -1991,7 +2061,7 @@ $main->add_element("Uspacer", array (
   'group' => 'module-group-1434097123234-1274',
 ));
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2029,9 +2099,9 @@ $main->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
     'top_padding_use' => 'yes',
-    'top_padding_num' => '0',
+    'top_padding_num' => '15',
     'bottom_padding_num' => '0',
-    'preset' => 'text-theme-style',
+    'preset' => 'no-bottom-space',
     'theme_style' => '',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -2040,6 +2110,14 @@ $main->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'bottom_padding_use' => 'yes',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+    )),
+    'top_padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2101,7 +2179,7 @@ $main->add_element("PlainTxt", array (
   'group' => 'module-group-1434097123234-1274',
 ));
 
-$main->add_element("Uspacer", array (
+$services_inner_main->add_element("Uspacer", array (
   'columns' => '10',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2137,7 +2215,7 @@ $main->add_element("Uspacer", array (
   ),
 ));
 
-$main->add_group(array (
+$services_inner_main->add_group(array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2212,7 +2290,7 @@ $main->add_group(array (
   ),
 ));
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2315,7 +2393,7 @@ $main->add_element("PlainTxt", array (
   'group' => 'module-group-1434097070438-1555',
 ));
 
-$main->add_element("Uimage", array (
+$services_inner_main->add_element("Uimage", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2463,7 +2541,7 @@ $main->add_element("Uimage", array (
   'group' => 'module-group-1434097070438-1555',
 ));
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2505,6 +2583,21 @@ $main->add_element("PlainTxt", array (
     'top_padding_slider' => '10',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'no-bottom-space',
+    'theme_style' => '',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -2566,7 +2659,7 @@ $main->add_element("PlainTxt", array (
   'group' => 'module-group-1434097070438-1555',
 ));
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2604,9 +2697,9 @@ $main->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
     'top_padding_use' => 'yes',
-    'top_padding_num' => '0',
+    'top_padding_num' => '15',
     'bottom_padding_num' => '0',
-    'preset' => 'text-theme-style',
+    'preset' => 'no-bottom-space',
     'theme_style' => '',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -2615,6 +2708,14 @@ $main->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'bottom_padding_use' => 'yes',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+    )),
+    'top_padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2677,7 +2778,7 @@ $main->add_element("PlainTxt", array (
   'group' => 'module-group-1434097070438-1555',
 ));
 
-$main->add_element("Uspacer", array (
+$services_inner_main->add_element("Uspacer", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2714,7 +2815,7 @@ $main->add_element("Uspacer", array (
   'group' => 'module-group-1434097070438-1555',
 ));
 
-$main->add_element("Uspacer", array (
+$services_inner_main->add_element("Uspacer", array (
   'columns' => '1',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2750,7 +2851,7 @@ $main->add_element("Uspacer", array (
   ),
 ));
 
-$main->add_element("Uspacer", array (
+$services_inner_main->add_element("Uspacer", array (
   'columns' => '1',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2787,7 +2888,7 @@ $main->add_element("Uspacer", array (
   ),
 ));
 
-$main->add_group(array (
+$services_inner_main->add_group(array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2861,7 +2962,7 @@ $main->add_group(array (
   ),
 ));
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -2964,7 +3065,7 @@ $main->add_element("PlainTxt", array (
   'group' => 'module-group-1434097118251-1158',
 ));
 
-$main->add_element("Uimage", array (
+$services_inner_main->add_element("Uimage", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -3110,7 +3211,7 @@ $main->add_element("Uimage", array (
   'group' => 'module-group-1434097118251-1158',
 ));
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -3152,6 +3253,21 @@ $main->add_element("PlainTxt", array (
     'top_padding_slider' => '10',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'no-bottom-space',
+    'theme_style' => '',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -3213,7 +3329,7 @@ $main->add_element("PlainTxt", array (
   'group' => 'module-group-1434097118251-1158',
 ));
 
-$main->add_element("Uspacer", array (
+$services_inner_main->add_element("Uspacer", array (
   'columns' => '2',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -3251,7 +3367,7 @@ $main->add_element("Uspacer", array (
   'group' => 'module-group-1434097118251-1158',
 ));
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -3289,9 +3405,9 @@ $main->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
     'top_padding_use' => 'yes',
-    'top_padding_num' => '0',
+    'top_padding_num' => '15',
     'bottom_padding_num' => '0',
-    'preset' => 'text-theme-style',
+    'preset' => 'no-bottom-space',
     'theme_style' => '',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -3300,6 +3416,14 @@ $main->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'bottom_padding_use' => 'yes',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+    )),
+    'top_padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3361,7 +3485,7 @@ $main->add_element("PlainTxt", array (
   'group' => 'module-group-1434097118251-1158',
 ));
 
-$main->add_element("Uspacer", array (
+$services_inner_main->add_element("Uspacer", array (
   'columns' => '10',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -3397,7 +3521,7 @@ $main->add_element("Uspacer", array (
   ),
 ));
 
-$main->add_group(array (
+$services_inner_main->add_group(array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -3474,7 +3598,7 @@ $main->add_group(array (
   ),
 ));
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -3577,7 +3701,7 @@ $main->add_element("PlainTxt", array (
   'group' => 'module-group-1434097096527-1352',
 ));
 
-$main->add_element("Uimage", array (
+$services_inner_main->add_element("Uimage", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -3722,7 +3846,7 @@ $main->add_element("Uimage", array (
   'group' => 'module-group-1434097096527-1352',
 ));
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -3764,6 +3888,21 @@ $main->add_element("PlainTxt", array (
     'top_padding_slider' => '10',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'no-bottom-space',
+    'theme_style' => '',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -3825,7 +3964,7 @@ $main->add_element("PlainTxt", array (
   'group' => 'module-group-1434097096527-1352',
 ));
 
-$main->add_element("PlainTxt", array (
+$services_inner_main->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -3862,11 +4001,26 @@ $main->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
     'top_padding_use' => 'yes',
-    'top_padding_num' => '0',
+    'top_padding_num' => '15',
     'bottom_padding_num' => '0',
-    'top_padding_slider' => '0',
+    'top_padding_slider' => '15',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'no-bottom-space',
+    'theme_style' => '',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -3928,7 +4082,7 @@ $main->add_element("PlainTxt", array (
   'group' => 'module-group-1434097096527-1352',
 ));
 
-$main->add_element("Uspacer", array (
+$services_inner_main->add_element("Uspacer", array (
   'columns' => '1',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -3964,7 +4118,7 @@ $main->add_element("Uspacer", array (
   ),
 ));
 
-$main->add_element("Uspacer", array (
+$services_inner_main->add_element("Uspacer", array (
   'columns' => '8',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -4001,7 +4155,7 @@ $main->add_element("Uspacer", array (
   ),
 ));
 
-$main->add_element("Uspacer", array (
+$services_inner_main->add_element("Uspacer", array (
   'columns' => '8',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -4037,7 +4191,7 @@ $main->add_element("Uspacer", array (
   ),
 ));
 
-$main->add_element("Uspacer", array (
+$services_inner_main->add_element("Uspacer", array (
   'columns' => '8',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -4073,7 +4227,7 @@ $main->add_element("Uspacer", array (
   ),
 ));
 
-$regions->add($main);
+$regions->add($services_inner_main);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php');
 

@@ -11,7 +11,7 @@ $prefooter = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 49,
+  'row' => 20,
   'background_type' => 'color',
   'nav_region' => '',
   'background_color' => 'rgba(51,51,51,1)',
@@ -20,7 +20,7 @@ $prefooter = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 39,
+       'row' => 5,
        'background_type' => 'color',
     )),
      'mobile' => 
@@ -41,6 +41,13 @@ $prefooter = upfront_create_region(
     0 => '',
   ),
   'version' => '1.0.0',
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '30',
+  'bottom_bg_padding_num' => '30',
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
@@ -220,10 +227,12 @@ $prefooter->add_group(array (
   'use_padding' => 0,
   'background_type' => 'color',
   'anchor' => '',
-  'top_padding_use' => true,
-  'top_padding_num' => 45,
+  'top_padding_use' => 'yes',
+  'top_padding_num' => '45',
   'version' => '1.0.0',
   'bottom_padding_num' => '15',
+  'lock_padding' => '',
+  'top_padding_slider' => '45',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 

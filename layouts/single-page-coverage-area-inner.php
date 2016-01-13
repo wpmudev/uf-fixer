@@ -276,6 +276,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449825523-25956',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -332,6 +333,7 @@ $main->add_element("PlainTxt", array (
     'top_padding_use' => true,
     'top_padding_num' => 40,
     'bottom_padding_num' => '15',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -409,6 +411,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449825523-93940',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -445,6 +448,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449825523-99504',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -521,12 +525,12 @@ $main->add_element("Ucontact", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => 'ucontact-new-style-mobile',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
          'row' => 73,
-         'theme_style' => 'ucontact-new-style-mobile',
+         'theme_style' => '',
       )),
     )),
     'top_padding_num' => '15',
@@ -543,6 +547,10 @@ $main->add_element("Ucontact", array (
        'desktop' => 
       (array)(array(
          'preset' => 'alt',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'alt-mobile',
       )),
     )),
   ),
@@ -621,6 +629,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449825523-81705',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,

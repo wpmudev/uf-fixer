@@ -22,13 +22,15 @@ $main = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 178,
+       'row' => 67,
        'background_position_y' => '100',
        'background_style' => 'fixed',
        'background_repeat' => 'no-repeat',
        'background_position' => '100% 100%',
        'background_position_x' => '100',
        'background_type' => 'color',
+       'bottom_bg_padding_num' => '80',
+       'bottom_bg_padding_slider' => '80',
     )),
      'mobile' => 
     (array)(array(
@@ -66,6 +68,13 @@ $main = upfront_create_region(
   'background_repeat' => 'no-repeat',
   'background_position' => '100% 100%',
   'version' => '1.0.0',
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => 0,
+  'bottom_bg_padding_num' => 0,
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
@@ -276,6 +285,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449825485-90606',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -332,6 +342,7 @@ $main->add_element("PlainTxt", array (
     'top_padding_use' => true,
     'top_padding_num' => 40,
     'bottom_padding_num' => '15',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -409,6 +420,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449825485-45085',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -445,6 +457,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449825485-64792',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -521,12 +534,13 @@ $main->add_element("Ucontact", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => 'ucontact-new-style-mobile',
+         'theme_style' => '',
+         'row' => 40,
       )),
        'mobile' => 
       (array)(array(
          'row' => 73,
-         'theme_style' => 'ucontact-new-style-mobile',
+         'theme_style' => '',
       )),
     )),
     'top_padding_num' => '15',
@@ -538,6 +552,17 @@ $main->add_element("Ucontact", array (
     'padding_number' => 0,
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'preset' => 'alt-mobile',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'alt',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -573,11 +598,12 @@ $main->add_element("Ucontact", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 12,
       'order' => 0,
       'top' => 0,
+      'row' => 40,
     ),
     'mobile' => 
     array (
@@ -614,6 +640,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449825485-9164',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,

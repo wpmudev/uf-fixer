@@ -22,8 +22,9 @@ $cases_region = upfront_create_region(
   (array)(array(
      'tablet' => 
     (array)(array(
-       'edited' => false,
+       'edited' => true,
        'col' => 24,
+       'row' => 63,
     )),
      'mobile' => 
     (array)(array(
@@ -73,6 +74,7 @@ $cases_region->add_element("PlainTxt", array (
     'top_padding_use' => true,
     'top_padding_num' => 80,
     'bottom_padding_num' => '15',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
