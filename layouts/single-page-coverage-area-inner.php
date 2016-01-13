@@ -516,7 +516,7 @@ $main->add_element("Ucontact", array (
     'element_id' => 'ucontact-object-1432912837183-1383',
     'row' => 88,
     'anchor' => '',
-    'theme_style' => 'ucontact-contact-style',
+    'theme_style' => '',
     'breakpoint' => 
     (array)(array(
        'tablet' => 
@@ -531,6 +531,20 @@ $main->add_element("Ucontact", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'alt',
+    'use_padding' => '',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'alt',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,

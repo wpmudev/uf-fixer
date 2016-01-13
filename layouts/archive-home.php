@@ -379,13 +379,13 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 102,
+         'menu-item-db-id' => 525,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Services',
          'menu-item-url' => '#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '102',
+         'menu-item-object-id' => '525',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -397,13 +397,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 103,
+         'menu-item-db-id' => 526,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Get a Quote',
          'menu-item-url' => '#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '103',
+         'menu-item-object-id' => '526',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -415,13 +415,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 104,
+         'menu-item-db-id' => 527,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Blog',
          'menu-item-url' => '#blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '104',
+         'menu-item-object-id' => '527',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
@@ -433,13 +433,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 105,
+         'menu-item-db-id' => 528,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '105',
+         'menu-item-object-id' => '528',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
@@ -451,13 +451,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 106,
+         'menu-item-db-id' => 529,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Contact Us',
          'menu-item-url' => '#contact',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '106',
+         'menu-item-object-id' => '529',
          'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 
@@ -2346,7 +2346,7 @@ $region_13->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/bricklaying.jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'include_image_caption' => false,
+    'include_image_caption' => true,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
     'caption_alignment' => false,
@@ -3001,7 +3001,7 @@ $region_13->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/fencing.jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'include_image_caption' => false,
+    'include_image_caption' => true,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
     'caption_alignment' => false,
@@ -3649,7 +3649,7 @@ $region_13->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/plumbing.jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'include_image_caption' => false,
+    'include_image_caption' => true,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
     'caption_alignment' => false,
@@ -4220,7 +4220,7 @@ $region_13->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/windows.jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'include_image_caption' => false,
+    'include_image_caption' => true,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
     'caption_alignment' => false,
@@ -4828,7 +4828,7 @@ $region_13->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/electrical.jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'include_image_caption' => false,
+    'include_image_caption' => true,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
     'caption_alignment' => false,
@@ -5406,7 +5406,7 @@ $region_13->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/roof.jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'include_image_caption' => false,
+    'include_image_caption' => true,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
     'caption_alignment' => false,
@@ -6622,7 +6622,7 @@ $quote->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/fixer-van.png',
     'image_title' => '',
     'alternative_text' => '',
-    'include_image_caption' => false,
+    'include_image_caption' => true,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
     'caption_alignment' => false,
@@ -7050,7 +7050,7 @@ $quote->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/fixer-cloud.png',
     'image_title' => '',
     'alternative_text' => '',
-    'include_image_caption' => false,
+    'include_image_caption' => true,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
     'caption_alignment' => false,
@@ -7867,7 +7867,7 @@ $blog_items->add_element("Posts", array (
 ',
     'element_id' => 'posts-object-1419155622476-1899',
     'anchor' => '',
-    'theme_style' => 'u-posts-home',
+    'theme_style' => '',
     'breakpoint' => 
     (array)(array(
        'custom-1410783666947' => 
@@ -7892,6 +7892,19 @@ $blog_items->add_element("Posts", array (
     'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'u-posts-home-m',
+    'use_padding' => 'yes',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'u-posts-home-m',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -9300,7 +9313,7 @@ $about->add_element("Uimage", array (
     'srcOriginal' => '{{upfront:style_url}}/images/archive-home/fixer-mrfixer-image-1050x569-7934 (1).jpg',
     'image_title' => '',
     'alternative_text' => '',
-    'include_image_caption' => false,
+    'include_image_caption' => true,
     'image_caption' => 'My awesome image caption',
     'caption_position' => false,
     'caption_alignment' => false,
@@ -10728,6 +10741,13 @@ $contact->add_element("Ucontact", array (
     'padding_number' => 0,
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'alt',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,

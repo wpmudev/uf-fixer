@@ -1,0 +1,13 @@
+#page .ucontact-subscribe-style .upfront-field-container .ucontact-input:focus {
+    border-color: #fed41d;
+}
+#page .ucontact-subscribe-style.upfront-contact-form .upfront-field-container .submit-field {
+    background: #bba33a;
+    border: none;
+    color: #ufc0;
+    padding: 16px 20px;
+}
+#page .ucontact-subscribe-style .upfront-field-container .submit-field:hover {
+    background: #ufc1;
+    border: none;
+}

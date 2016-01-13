@@ -372,13 +372,20 @@ $region_6->add_element("Uwidget", array (
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
     'preset' => 'widgets-background',
-    'use_padding' => '',
+    'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => 'false',
     'padding_number' => 0,
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_widget_specific_fields' => false,
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'widgets-background',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -509,6 +516,18 @@ $main = upfront_create_region(
     )),
   )),
   'version' => '1.0.0',
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => false,
+  ),
+  'bg_padding_type' => 'equal',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => 0,
+  'bottom_bg_padding_num' => 0,
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
@@ -605,7 +624,7 @@ $main->add_element("Posts", array (
 ',
     'element_id' => 'posts-object-1419434077622-1689',
     'anchor' => '',
-    'theme_style' => 'u-posts-list',
+    'theme_style' => '',
     'row' => 103,
     'breakpoint' => 
     (array)(array(
@@ -616,7 +635,16 @@ $main->add_element("Posts", array (
     )),
     'top_padding_use' => true,
     'top_padding_num' => 85,
-    'bottom_padding_num' => '15',
+    'bottom_padding_num' => '40',
+    'preset' => 'u-posts-list-m',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '40',
   ),
   'row' => 6,
   'sticky' => false,
