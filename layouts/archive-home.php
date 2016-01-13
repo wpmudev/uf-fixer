@@ -93,6 +93,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-5328',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -278,6 +279,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-80939',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -327,6 +329,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-33744',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -379,13 +382,13 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 525,
+         'menu-item-db-id' => 877,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Services',
          'menu-item-url' => '#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '525',
+         'menu-item-object-id' => '877',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -397,13 +400,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 526,
+         'menu-item-db-id' => 878,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Get a Quote',
          'menu-item-url' => '#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '526',
+         'menu-item-object-id' => '878',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -415,13 +418,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 527,
+         'menu-item-db-id' => 879,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Blog',
          'menu-item-url' => '#blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '527',
+         'menu-item-object-id' => '879',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
@@ -433,13 +436,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 528,
+         'menu-item-db-id' => 880,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '528',
+         'menu-item-object-id' => '880',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
@@ -451,13 +454,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 529,
+         'menu-item-db-id' => 881,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Contact Us',
          'menu-item-url' => '#contact',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '529',
+         'menu-item-object-id' => '881',
          'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 
@@ -618,6 +621,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-55936',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -668,6 +672,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-75208',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -829,6 +834,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-30991',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -865,6 +871,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-22742',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -902,6 +909,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-38048',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -951,6 +959,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-71714',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1001,6 +1010,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-98683',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1050,6 +1060,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-76973',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1220,6 +1231,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-84413',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1256,6 +1268,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-7599',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1293,6 +1306,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-73738',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1342,6 +1356,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-8876',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1392,6 +1407,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-63530',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1543,6 +1559,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-67288',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1593,6 +1610,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-56770',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1744,6 +1762,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-69607',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1780,6 +1799,7 @@ $region_14->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-69937',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1826,7 +1846,7 @@ $region_13 = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 334,
+  'row' => 306,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -1838,7 +1858,7 @@ $region_13 = upfront_create_region(
        'background_position' => '50% 79%',
        'background_position_x' => '50',
        'background_type' => 'color',
-       'row' => 202,
+       'row' => 358,
     )),
      'mobile' => 
     (array)(array(
@@ -1879,11 +1899,11 @@ $region_13 = upfront_create_region(
     0 => '',
   ),
   'version' => '1.0.0',
-  'bg_padding_type' => 'equal',
+  'bg_padding_type' => 'varied',
   'top_bg_padding_slider' => 0,
   'top_bg_padding_num' => 0,
-  'bottom_bg_padding_slider' => 0,
-  'bottom_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '90',
+  'bottom_bg_padding_num' => '90',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
 )
@@ -2035,7 +2055,7 @@ Service &amp; Quality</span>
        'tablet' => 
       (array)(array(
          'theme_style' => '_default',
-         'row' => 75,
+         'row' => 18,
       )),
     )),
     'top_padding_num' => '15',
@@ -2089,7 +2109,7 @@ Service &amp; Quality</span>
       'col' => 12,
       'top' => 0,
       'order' => 25,
-      'row' => 75,
+      'row' => 18,
     ),
     'mobile' => 
     array (
@@ -2127,6 +2147,7 @@ $region_13->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-41198',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2199,7 +2220,11 @@ $region_13->add_group(array (
       'order' => 0,
       'top' => 0,
       'theme_style' => 'quality-style',
-      'row' => 19,
+      'row' => 38,
+      'lock_padding' => '',
+      'top_padding_use' => 'yes',
+      'top_padding_num' => '30',
+      'top_padding_slider' => '30',
     ),
     'mobile' => 
     array (
@@ -2268,6 +2293,7 @@ $region_13->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2479,56 +2505,6 @@ $region_13->add_element("Uimage", array (
   'group' => 'module-group-1433406298129-1171',
 ));
 
-$region_13->add_element("Uspacer", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1449479270-85922 upfront-module-spacer',
-  'id' => 'module-1449479270-85922',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1449479270-93335',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 1,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1449479270-95774',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'clear' => false,
-      'order' => 1,
-      'edited' => true,
-      'col' => 6,
-    ),
-    'mobile' => 
-    array (
-      'col' => 6,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'hide' => 0,
-      'left' => 0,
-      'col' => 6,
-      'edited' => true,
-    ),
-  ),
-  'group' => 'module-group-1433406298129-1171',
-));
-
 $region_13->add_element("PlainTxt", array (
   'columns' => '6',
   'margin_left' => '0',
@@ -2573,6 +2549,7 @@ $region_13->add_element("PlainTxt", array (
     'top_padding_slider' => '10',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2635,46 +2612,8 @@ $region_13->add_element("PlainTxt", array (
   'group' => 'module-group-1433406298129-1171',
 ));
 
-$region_13->add_element("Uspacer", array (
-  'columns' => '2',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1449479270-30151 upfront-module-spacer',
-  'id' => 'module-1449479270-30151',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1449479270-65073',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 0,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1449479270-55798',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 2,
-    ),
-    'mobile' => 
-    array (
-      'col' => 2,
-    ),
-  ),
-  'group' => 'module-group-1433406298129-1171',
-));
-
 $region_13->add_element("PlainTxt", array (
-  'columns' => '4',
+  'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -2698,6 +2637,13 @@ $region_13->add_element("PlainTxt", array (
       (array)(array(
          'row' => 5,
          'theme_style' => 'text-center',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_num' => '0',
+         'top_padding_slider' => '0',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_num' => '20',
+         'bottom_padding_slider' => '20',
       )),
        'mobile' => 
       (array)(array(
@@ -2712,6 +2658,12 @@ $region_13->add_element("PlainTxt", array (
     'anchor' => '',
     'top_padding_num' => '0',
     'bottom_padding_num' => '0',
+    'preset' => 'default',
+    'lock_padding' => '',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2789,6 +2741,7 @@ $region_13->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-50263',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2858,9 +2811,13 @@ $region_13->add_group(array (
       'left' => 0,
       'col' => 12,
       'order' => 0,
-      'row' => 33,
+      'row' => 38,
       'top' => 0,
       'theme_style' => 'quality-style',
+      'lock_padding' => '',
+      'top_padding_use' => 'yes',
+      'top_padding_num' => '30',
+      'top_padding_slider' => '30',
     ),
     'mobile' => 
     array (
@@ -2925,6 +2882,7 @@ $region_13->add_element("PlainTxt", array (
     'bottom_padding_slider' => '0',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '0',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3181,6 +3139,7 @@ $region_13->add_element("PlainTxt", array (
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
     'top_padding_slider' => '10',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3244,7 +3203,7 @@ $region_13->add_element("PlainTxt", array (
 ));
 
 $region_13->add_element("PlainTxt", array (
-  'columns' => '4',
+  'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -3273,6 +3232,13 @@ $region_13->add_element("PlainTxt", array (
       (array)(array(
          'row' => 4,
          'theme_style' => 'text-center',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_num' => '0',
+         'top_padding_slider' => '0',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_num' => '20',
+         'bottom_padding_slider' => '20',
       )),
        'mobile' => 
       (array)(array(
@@ -3282,6 +3248,12 @@ $region_13->add_element("PlainTxt", array (
     )),
     'top_padding_num' => '0',
     'bottom_padding_num' => '0',
+    'preset' => 'default',
+    'lock_padding' => '',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3360,6 +3332,7 @@ $region_13->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-17591',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3397,6 +3370,7 @@ $region_13->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-77456',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3433,6 +3407,7 @@ $region_13->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479397500-1073',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3505,8 +3480,12 @@ $region_13->add_group(array (
       'col' => 12,
       'order' => 0,
       'theme_style' => 'quality-style',
-      'row' => 18,
+      'row' => 38,
       'top' => 0,
+      'lock_padding' => '',
+      'top_padding_use' => 'yes',
+      'top_padding_num' => '30',
+      'top_padding_slider' => '30',
     ),
     'mobile' => 
     array (
@@ -3572,6 +3551,7 @@ $region_13->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3828,6 +3808,7 @@ $region_13->add_element("PlainTxt", array (
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
     'top_padding_slider' => '10',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3915,6 +3896,13 @@ $region_13->add_element("PlainTxt", array (
       (array)(array(
          'row' => 4,
          'theme_style' => 'text-center',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_num' => '0',
+         'top_padding_slider' => '0',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_num' => '20',
+         'bottom_padding_slider' => '20',
       )),
        'mobile' => 
       (array)(array(
@@ -3929,6 +3917,12 @@ $region_13->add_element("PlainTxt", array (
     'anchor' => '',
     'top_padding_num' => '0',
     'bottom_padding_num' => '0',
+    'preset' => 'default',
+    'lock_padding' => '',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,
@@ -4007,6 +4001,7 @@ $region_13->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479390929-1782',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -4079,7 +4074,11 @@ $region_13->add_group(array (
       'order' => 0,
       'top' => 0,
       'theme_style' => 'quality-style',
-      'row' => 19,
+      'row' => 44,
+      'lock_padding' => '',
+      'top_padding_use' => 'yes',
+      'top_padding_num' => '30',
+      'top_padding_slider' => '30',
     ),
     'mobile' => 
     array (
@@ -4144,6 +4143,7 @@ $region_13->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -4399,6 +4399,7 @@ $region_13->add_element("PlainTxt", array (
     'top_padding_slider' => '10',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -4486,6 +4487,13 @@ $region_13->add_element("PlainTxt", array (
       (array)(array(
          'row' => 6,
          'theme_style' => 'text-center',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_num' => '0',
+         'top_padding_slider' => '0',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_num' => '20',
+         'bottom_padding_slider' => '20',
       )),
        'mobile' => 
       (array)(array(
@@ -4500,6 +4508,12 @@ $region_13->add_element("PlainTxt", array (
     'anchor' => '',
     'top_padding_num' => '0',
     'bottom_padding_num' => '0',
+    'preset' => 'default',
+    'lock_padding' => '',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,
@@ -4578,6 +4592,7 @@ $region_13->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479403072-1803',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -4614,6 +4629,7 @@ $region_13->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449729078862-1227',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -4686,8 +4702,12 @@ $region_13->add_group(array (
       'col' => 12,
       'order' => 0,
       'theme_style' => 'quality-style',
-      'row' => 21,
+      'row' => 38,
       'top' => 0,
+      'lock_padding' => '',
+      'top_padding_use' => 'yes',
+      'top_padding_num' => '30',
+      'top_padding_slider' => '30',
     ),
     'mobile' => 
     array (
@@ -4752,6 +4772,7 @@ $region_13->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -5008,6 +5029,7 @@ $region_13->add_element("PlainTxt", array (
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
     'top_padding_slider' => '10',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -5093,8 +5115,15 @@ $region_13->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 5,
+         'row' => 4,
          'theme_style' => 'text-center',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_num' => '0',
+         'top_padding_slider' => '0',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_num' => '20',
+         'bottom_padding_slider' => '20',
       )),
        'mobile' => 
       (array)(array(
@@ -5109,10 +5138,12 @@ $region_13->add_element("PlainTxt", array (
     'anchor' => '',
     'top_padding_num' => '0',
     'bottom_padding_num' => '0',
-    'top_padding_use' => 'yes',
-    'top_padding_slider' => '0',
+    'preset' => 'default',
+    'lock_padding' => '',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,
@@ -5153,7 +5184,7 @@ $region_13->add_element("PlainTxt", array (
       'col' => 12,
       'order' => 24,
       'top' => 0,
-      'row' => 5,
+      'row' => 4,
     ),
     'mobile' => 
     array (
@@ -5191,6 +5222,7 @@ $region_13->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449729074218-1155',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -5263,7 +5295,11 @@ $region_13->add_group(array (
       'order' => 0,
       'top' => 0,
       'theme_style' => 'quality-style-no-border',
-      'row' => 50,
+      'row' => 38,
+      'lock_padding' => '',
+      'top_padding_use' => 'yes',
+      'top_padding_num' => '30',
+      'top_padding_slider' => '30',
     ),
     'mobile' => 
     array (
@@ -5329,6 +5365,7 @@ $region_13->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -5578,6 +5615,7 @@ $region_13->add_element("PlainTxt", array (
     'top_padding_slider' => '10',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -5659,6 +5697,13 @@ $region_13->add_element("PlainTxt", array (
       (array)(array(
          'row' => 6,
          'theme_style' => 'text-center',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_num' => '0',
+         'top_padding_slider' => '0',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_num' => '20',
+         'bottom_padding_slider' => '20',
       )),
        'mobile' => 
       (array)(array(
@@ -5673,10 +5718,12 @@ $region_13->add_element("PlainTxt", array (
     'anchor' => '',
     'top_padding_num' => '0',
     'bottom_padding_num' => '0',
-    'top_padding_use' => 'yes',
-    'top_padding_slider' => '0',
+    'preset' => 'default',
+    'lock_padding' => '',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,
@@ -5755,6 +5802,7 @@ $region_13->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-69710',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -5805,6 +5853,7 @@ $region_13->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449729082616-1637',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -5821,115 +5870,6 @@ $region_13->add_element("Uspacer", array (
     'mobile' => 
     array (
       'col' => 1,
-    ),
-  ),
-));
-
-$region_13->add_element("Uspacer", array (
-  'columns' => '8',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1449479435636-1434 upfront-module-spacer',
-  'id' => 'module-1449479435636-1434',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1449479435636-1567',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 0,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1449479435636-1076',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 8,
-    ),
-    'mobile' => 
-    array (
-      'col' => 7,
-    ),
-  ),
-));
-
-$region_13->add_element("Uspacer", array (
-  'columns' => '8',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1449479423449-1295 upfront-module-spacer',
-  'id' => 'module-1449479423449-1295',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1449479423449-1507',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 0,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1449479423449-1280',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 8,
-    ),
-    'mobile' => 
-    array (
-      'col' => 7,
-    ),
-  ),
-));
-
-$region_13->add_element("Uspacer", array (
-  'columns' => '8',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1449479432623-1349 upfront-module-spacer',
-  'id' => 'module-1449479432623-1349',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1449479432623-1342',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 0,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1449479432623-1112',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 8,
-    ),
-    'mobile' => 
-    array (
-      'col' => 7,
     ),
   ),
 ));
@@ -5956,7 +5896,7 @@ $quote = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 278,
+       'row' => 221,
     )),
      'mobile' => 
     (array)(array(
@@ -5970,6 +5910,18 @@ $quote = upfront_create_region(
     )),
   )),
   'version' => '1.0.0',
+  'use_padding' => 0,
+  'sub_regions' => 
+  array (
+    0 => '',
+  ),
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '70',
+  'bottom_bg_padding_num' => '70',
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
@@ -6011,6 +5963,7 @@ $quote->add_element("PlainTxt", array (
     'top_padding_use' => true,
     'top_padding_num' => 100,
     'bottom_padding_num' => '15',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -6113,6 +6066,7 @@ $quote->add_element("PlainTxt", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -6191,6 +6145,7 @@ $quote->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-15127',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -6256,6 +6211,7 @@ $quote->add_element("PlainTxt", array (
     'top_padding_use' => true,
     'top_padding_num' => 55,
     'bottom_padding_num' => '15',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -6365,8 +6321,8 @@ $quote->add_element("Ucontact", array (
       )),
        'tablet' => 
       (array)(array(
-         'row' => 74,
-         'theme_style' => 'ucontact-quote-style-mobile',
+         'row' => 64,
+         'theme_style' => '',
       )),
     )),
     'top_padding_num' => '15',
@@ -6378,6 +6334,17 @@ $quote->add_element("Ucontact", array (
     'padding_number' => 0,
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'preset' => 'quote-mobile',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'quote',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -6394,7 +6361,7 @@ $quote->add_element("Ucontact", array (
       'col' => 12,
       'order' => 9,
       'top' => 0,
-      'row' => 74,
+      'row' => 64,
     ),
     'mobile' => 
     array (
@@ -6432,6 +6399,7 @@ $quote->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-37217',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -6550,6 +6518,7 @@ $quote->add_element("PlainTxt", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -6780,6 +6749,7 @@ Lorr sit amet, consectetur adipiscing elit. Phasellus consequat, tortor id males
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -6854,6 +6824,7 @@ $quote->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-58723',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -6978,6 +6949,7 @@ $quote->add_element("PlainTxt", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -7208,6 +7180,7 @@ $quote->add_element("PlainTxt", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -7282,6 +7255,7 @@ $quote->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-64058',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -7367,6 +7341,7 @@ $blog_header->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-59820',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -7515,6 +7490,7 @@ $blog_header->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-15619',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -7551,6 +7527,7 @@ $blog_header->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-11393',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -7700,6 +7677,7 @@ $blog_header->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-3079',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -7904,6 +7882,10 @@ $blog_items->add_element("Posts", array (
       (array)(array(
          'preset' => 'u-posts-home-m',
       )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'home-mobile',
+      )),
     )),
   ),
   'row' => 6,
@@ -8023,6 +8005,7 @@ $subscribe->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-83677',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -8204,7 +8187,7 @@ $subscribe->add_element("Button", array (
     'top_padding_use' => true,
     'top_padding_num' => 55,
     'bottom_padding_num' => '15',
-    'use_padding' => '',
+    'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => 'false',
     'padding_number' => 0,
@@ -8397,6 +8380,7 @@ $subscribe->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-81015',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -8432,7 +8416,7 @@ $about = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 341,
+  'row' => 251,
   'background_type' => 'color',
   'nav_region' => '',
   'background_color' => '#ufc4',
@@ -8441,7 +8425,7 @@ $about = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 345,
+       'row' => 278,
     )),
      'mobile' => 
     (array)(array(
@@ -8462,6 +8446,13 @@ $about = upfront_create_region(
     0 => '',
   ),
   'version' => '1.0.0',
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '90',
+  'bottom_bg_padding_num' => '90',
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
@@ -8585,6 +8576,7 @@ $about->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-26737',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -8644,6 +8636,7 @@ $about->add_element("PlainTxt", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -8721,6 +8714,7 @@ $about->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-94051',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -8757,6 +8751,7 @@ $about->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-83639',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -8916,10 +8911,12 @@ $about->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 53,
+         'row' => 51,
          'theme_style' => 'text-center',
-         'top_padding_use' => true,
-         'top_padding_num' => 30,
+         'top_padding_use' => 'yes',
+         'top_padding_num' => '30',
+         'lock_padding' => '',
+         'top_padding_slider' => '30',
       )),
        'mobile' => 
       (array)(array(
@@ -8939,6 +8936,7 @@ $about->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -8970,7 +8968,7 @@ $about->add_element("PlainTxt", array (
       'edited' => true,
       'left' => 0,
       'col' => 6,
-      'row' => 50,
+      'row' => 51,
       'top' => 0,
       'order' => 9,
     ),
@@ -9040,9 +9038,11 @@ $about->add_group(array (
       'col' => 6,
       'order' => 0,
       'top' => 0,
-      'row' => 44,
-      'top_padding_use' => true,
-      'top_padding_num' => 15,
+      'row' => 33,
+      'top_padding_use' => 'yes',
+      'top_padding_num' => '30',
+      'lock_padding' => '',
+      'top_padding_slider' => '30',
     ),
     'mobile' => 
     array (
@@ -9099,6 +9099,7 @@ $about->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -9204,6 +9205,7 @@ $about->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -9278,6 +9280,7 @@ $about->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-3379',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -9433,6 +9436,7 @@ $about->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-8041',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -9470,6 +9474,7 @@ $about->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-86337',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -9561,7 +9566,7 @@ $about->add_element("PlainTxt", array (
       'edited' => true,
       'col' => 8,
       'clear' => false,
-      'order' => 6,
+      'order' => 7,
     ),
     'mobile' => 
     array (
@@ -9624,6 +9629,7 @@ $about->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-74599',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -9660,6 +9666,7 @@ $about->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-67583',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -9697,6 +9704,7 @@ $about->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-44839',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -9709,7 +9717,7 @@ $about->add_element("Uspacer", array (
     'tablet' => 
     array (
       'clear' => false,
-      'order' => 6,
+      'order' => 8,
       'edited' => true,
       'col' => 2,
     ),
@@ -9787,7 +9795,7 @@ $about->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 7,
+      'order' => 9,
       'clear' => true,
     ),
     'mobile' => 
@@ -9836,6 +9844,7 @@ $about->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-27192',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -9872,6 +9881,7 @@ $about->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-2689',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -9958,7 +9968,7 @@ $about->add_element("PlainTxt", array (
       'edited' => true,
       'col' => 12,
       'clear' => true,
-      'order' => 8,
+      'order' => 10,
     ),
     'mobile' => 
     array (
@@ -10020,6 +10030,7 @@ $about->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-70530',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -10201,6 +10212,7 @@ $contact_us->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-16100',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -10331,6 +10343,7 @@ $contact_us->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-64193',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -10386,7 +10399,7 @@ $contact = upfront_create_region(
        'background_position' => '-5000% 200%',
        'background_position_x' => '-5000',
        'background_type' => 'image',
-       'row' => 105,
+       'row' => 34,
     )),
      'mobile' => 
     (array)(array(
@@ -10411,6 +10424,13 @@ $contact = upfront_create_region(
     0 => '',
   ),
   'version' => '1.0.0',
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '70',
+  'bottom_bg_padding_num' => '70',
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
@@ -10430,6 +10450,7 @@ $contact->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-83454',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -10452,7 +10473,7 @@ $contact->add_element("Uspacer", array (
 ));
 
 $contact->add_element("PlainTxt", array (
-  'columns' => '11',
+  'columns' => '12',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -10559,7 +10580,7 @@ $contact->add_element("PlainTxt", array (
 ));
 
 $contact->add_element("Uspacer", array (
-  'columns' => '12',
+  'columns' => '11',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -10574,6 +10595,7 @@ $contact->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-90474',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -10585,7 +10607,7 @@ $contact->add_element("Uspacer", array (
   array (
     'tablet' => 
     array (
-      'col' => 12,
+      'col' => 11,
     ),
     'mobile' => 
     array (
@@ -10610,6 +10632,7 @@ $contact->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-57227',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -10647,6 +10670,7 @@ $contact->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-90191',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -10726,6 +10750,7 @@ $contact->add_element("Ucontact", array (
          'theme_style' => 'ucontact-new-style-mobile',
          'top_padding_use' => true,
          'top_padding_num' => 60,
+         'row' => 76,
       )),
        'mobile' => 
       (array)(array(
@@ -10735,7 +10760,7 @@ $contact->add_element("Ucontact", array (
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
     'preset' => 'alt',
-    'use_padding' => '',
+    'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => 'false',
     'padding_number' => 0,
@@ -10786,6 +10811,7 @@ $contact->add_element("Ucontact", array (
       'col' => 12,
       'order' => 0,
       'top' => 0,
+      'row' => 76,
     ),
     'mobile' => 
     array (
@@ -10821,6 +10847,7 @@ $contact->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449479270-52424',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
