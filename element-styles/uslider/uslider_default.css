@@ -9,10 +9,6 @@
 .uslide.uslide-topCover .uslide-caption {
     height: inherit;
 }
-/* middle cover */
-.uslide.uslide-middleCover .uslide-caption {
-    height: 91%;
-}
 /* arrows */
 .uslides .upfront-default-slider-nav-prev, .uslides .upfront-default-slider-nav-next {
     background: #ufc1;

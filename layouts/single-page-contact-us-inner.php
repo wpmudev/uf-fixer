@@ -56,6 +56,7 @@ $main = upfront_create_region(
        'background_position_x' => '100',
        'background_type' => 'color',
     )),
+     'current_property' => 'background_type',
   )),
   'use_padding' => 0,
   'sub_regions' => 
@@ -113,6 +114,7 @@ $main->add_element("PlainTxt", array (
       (array)(array(
          'top_padding_use' => true,
          'top_padding_num' => 75,
+         'row' => 20,
       )),
     )),
     'bottom_padding_num' => '15',
@@ -135,7 +137,7 @@ $main->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 12,
       'order' => 0,
       'clear' => true,
@@ -171,6 +173,7 @@ $main->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 0,
       'top' => 0,
+      'row' => 20,
     ),
     'custom-1410783666947' => 
     array (
@@ -231,7 +234,7 @@ $main->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 12,
       'order' => 1,
       'clear' => true,
@@ -254,7 +257,7 @@ $main->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 12,
       'order' => 0,
@@ -309,7 +312,7 @@ $main->add_element("Uspacer", array (
     'tablet' => 
     array (
       'clear' => true,
-      'order' => 0,
+      'order' => 2,
       'edited' => true,
       'col' => 1,
     ),
@@ -365,9 +368,9 @@ $main->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 10,
-      'order' => 0,
+      'order' => 3,
       'clear' => false,
     ),
     'mobile' => 
@@ -480,7 +483,7 @@ $main->add_element("Uspacer", array (
     'tablet' => 
     array (
       'clear' => false,
-      'order' => 0,
+      'order' => 4,
       'edited' => true,
       'col' => 1,
     ),
@@ -589,9 +592,9 @@ $main->add_element("Ucontact", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 12,
-      'order' => 4,
+      'order' => 6,
       'clear' => true,
     ),
     'mobile' => 

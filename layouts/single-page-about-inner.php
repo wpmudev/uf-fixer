@@ -14,7 +14,7 @@ $main = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 349,
+  'row' => 246,
   'background_type' => 'color',
   'background_color' => '#ufc0',
   'breakpoint' => 
@@ -50,8 +50,8 @@ $main = upfront_create_region(
   'bg_padding_type' => 'varied',
   'top_bg_padding_slider' => 0,
   'top_bg_padding_num' => 0,
-  'bottom_bg_padding_slider' => 0,
-  'bottom_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '90',
+  'bottom_bg_padding_num' => '90',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
 )
@@ -551,6 +551,7 @@ $main->add_element("PlainTxt", array (
       'order' => 0,
       'top' => 0,
       'row' => 28,
+      'hide' => 0,
     ),
     'custom-1410783666947' => 
     array (
@@ -905,7 +906,7 @@ $main->add_element("Uimage", array (
   'id' => 'module-1432912171603-1004',
   'options' => 
   array (
-    'src' => '{{upfront:style_url}}/images/single-page-about-inner/fixer-mrfixer-image-1050x569-7934 (1)-1050x569-3667.jpg',
+    'src' => '{{upfront:style_url}}/images/single-page-about-inner/fixer-mrfixer-image-1050x569-7934 (1)-1050x569-7360.jpg',
     'srcFull' => '{{upfront:style_url}}/images/single-page-about-inner/fixer-mrfixer-image-1050x569-7934 (1).jpg',
     'srcOriginal' => '{{upfront:style_url}}/images/single-page-about-inner/fixer-mrfixer-image-1050x569-7934 (1).jpg',
     'image_title' => '',
@@ -931,20 +932,20 @@ $main->add_element("Uimage", array (
        'top' => -0.5,
        'left' => 0,
     )),
-    'marginTop' => 0.5,
+    'marginTop' => 0,
     'element_size' => 
     (array)(array(
        'width' => 1050,
-       'height' => 190,
+       'height' => 570,
     )),
     'rotation' => 0,
     'color' => '#ffffff',
     'background' => '#000000',
     'captionBackground' => '0',
-    'image_id' => '1843',
+    'image_id' => 1356,
     'align' => 'left',
     'stretch' => true,
-    'vstretch' => false,
+    'vstretch' => true,
     'quick_swap' => false,
     'gifImage' => 0,
     'placeholder_class' => '',
@@ -964,7 +965,7 @@ $main->add_element("Uimage", array (
        'target' => '_self',
     )),
     'element_id' => 'image-1432912171601-1447',
-    'row' => 47,
+    'row' => 126,
     'anchor' => '',
     'theme_style' => '',
     'link_target' => '_self',
@@ -982,6 +983,7 @@ $main->add_element("Uimage", array (
          'top_padding_use' => 'yes',
          'top_padding_num' => '30',
          'top_padding_slider' => '30',
+         'row' => 64,
       )),
        'mobile' => 
       (array)(array(
@@ -1033,6 +1035,7 @@ $main->add_element("Uimage", array (
       'col' => 12,
       'order' => 6,
       'top' => 0,
+      'row' => 64,
     ),
     'mobile' => 
     array (
@@ -1240,7 +1243,7 @@ $main->add_element("PlainTxt", array (
       'order' => 8,
       'top' => 0,
       'row' => 4,
-      'hide' => 1,
+      'hide' => 0,
     ),
     'custom-1410783666947' => 
     array (

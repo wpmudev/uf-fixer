@@ -386,6 +386,11 @@ $services_inner_main->add_group(array (
       'top' => 0,
       'row' => 10,
       'theme_style' => 'quality-style',
+      'use_padding' => 'yes',
+      'lock_padding' => '',
+      'top_padding_use' => 'yes',
+      'top_padding_slider' => '0',
+      'top_padding_num' => '0',
     ),
     'mobile' => 
     array (
@@ -396,6 +401,11 @@ $services_inner_main->add_group(array (
       'top' => 0,
       'theme_style' => 'quality-style',
       'row' => 18,
+      'use_padding' => 'yes',
+      'lock_padding' => '',
+      'top_padding_use' => 'yes',
+      'top_padding_slider' => '0',
+      'top_padding_num' => '0',
     ),
     'custom-1410783666947' => 
     array (
@@ -404,6 +414,10 @@ $services_inner_main->add_group(array (
       'col' => 6,
       'order' => 0,
       'top' => 16,
+    ),
+    'current_property' => 
+    array (
+      0 => 'top_padding_num',
     ),
   ),
 ));
@@ -449,7 +463,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'top_padding_num' => '0',
     'bottom_padding_num' => '0',
     'theme_style' => '',
-    'preset' => 'center-no-bottom-space',
+    'preset' => 'no-bottom-space',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => 'false',
@@ -1044,6 +1058,11 @@ $services_inner_main->add_group(array (
       'top' => 0,
       'row' => 24,
       'theme_style' => 'quality-style',
+      'use_padding' => 'yes',
+      'lock_padding' => '',
+      'top_padding_use' => 'yes',
+      'top_padding_slider' => '30',
+      'top_padding_num' => '30',
     ),
     'mobile' => 
     array (
@@ -1066,6 +1085,10 @@ $services_inner_main->add_group(array (
       'col' => 6,
       'order' => 0,
       'top' => 6,
+    ),
+    'current_property' => 
+    array (
+      0 => 'top_padding_num',
     ),
   ),
 ));

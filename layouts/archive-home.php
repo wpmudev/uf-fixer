@@ -382,13 +382,13 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 1304,
+         'menu-item-db-id' => 1340,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Services',
          'menu-item-url' => '#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1304',
+         'menu-item-object-id' => '1340',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -400,13 +400,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 1305,
+         'menu-item-db-id' => 1341,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Get a Quote',
          'menu-item-url' => '#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1305',
+         'menu-item-object-id' => '1341',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -418,13 +418,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 1306,
+         'menu-item-db-id' => 1342,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Blog',
          'menu-item-url' => '#blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1306',
+         'menu-item-object-id' => '1342',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
@@ -436,13 +436,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 1307,
+         'menu-item-db-id' => 1343,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1307',
+         'menu-item-object-id' => '1343',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
@@ -454,13 +454,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 1308,
+         'menu-item-db-id' => 1344,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Contact Us',
          'menu-item-url' => '#contact',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1308',
+         'menu-item-object-id' => '1344',
          'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 
@@ -7865,7 +7865,7 @@ $blog_header = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 10,
+  'row' => '',
   'background_type' => 'image',
   'nav_region' => '',
   'background_color' => '#ffffff',
@@ -7913,13 +7913,13 @@ $blog_header = upfront_create_region(
     0 => '',
   ),
   'version' => '1.0.0',
-  'bg_padding_type' => 'varied',
+  'bg_padding_type' => 'equal',
   'top_bg_padding_slider' => '80',
   'top_bg_padding_num' => '80',
-  'bottom_bg_padding_slider' => '40',
-  'bottom_bg_padding_num' => '40',
-  'bg_padding_slider' => 0,
-  'bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '80',
+  'bottom_bg_padding_num' => '80',
+  'bg_padding_slider' => '80',
+  'bg_padding_num' => '80',
 )
 			);
 
@@ -7996,9 +7996,9 @@ $blog_header->add_element("PlainTxt", array (
          'theme_style' => '',
          'top_padding_use' => 'yes',
          'top_padding_num' => '0',
-         'lock_padding' => '',
          'top_padding_slider' => '0',
          'row' => 5,
+         'padding_slider' => 'false',
       )),
        'mobile' => 
       (array)(array(
@@ -8006,6 +8006,7 @@ $blog_header->add_element("PlainTxt", array (
          'row' => 5,
          'padding_slider' => 'false',
       )),
+       'current_property' => 'padding_slider',
     )),
     'theme_style' => '',
     'top_padding_use' => 'yes',
@@ -8028,6 +8029,10 @@ $blog_header->add_element("PlainTxt", array (
        'desktop' => 
       (array)(array(
          'preset' => 'u-sub-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'sub-heading-mobile',
       )),
     )),
   ),
@@ -9527,7 +9532,7 @@ $about->add_element("PlainTxt", array (
     'anchor' => '',
     'top_padding_num' => '0',
     'bottom_padding_num' => '0',
-    'preset' => 'center-no-bottom-space',
+    'preset' => 'default',
     'theme_style' => '',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -9668,7 +9673,7 @@ $about->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
-    'preset' => 'center-no-bottom-space',
+    'preset' => 'default',
     'theme_style' => '',
     'use_padding' => 'yes',
     'padding_slider' => '15',

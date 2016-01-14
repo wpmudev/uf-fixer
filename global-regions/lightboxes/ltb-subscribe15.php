@@ -219,7 +219,7 @@ $ltb_subscribe15->add_element("Code", array (
 <input type="email" id="user-email" name="user-email" placeholder="Email address">
 <input type="submit" value="Subscribe">
 </form>',
-    'style' => 'label {
+    'style' => '.newsletter-form label {
     color: #ufc1;
     font-family: \'Raleway\', Arial, sans-serif;
     font-weight: 400;
@@ -229,18 +229,18 @@ $ltb_subscribe15->add_element("Code", array (
     margin-bottom: 10px;
     display: block;
 }
-input {
+.newsletter-form input {
     margin: 0 0 2px;
 }
-input[type="text"], input[type="email"] {
+.newsletter-form input[type="text"], .newsletter-form input[type="email"] {
     border: 1px solid transparent;
     background: #f7f7f7;
 }
-input[type="text"]:focus, input[type="email"]:focus {
-    border-color: #a4d0dc!important;
+.newsletter-form input[type="text"]:focus, .newsletter-form input[type="email"]:focus {
+    border-color: #a4d0dc !important;
     background: #ffffff;
 }
-input[type="submit"] {
+.newsletter-form input[type="submit"] {
     background: #a4d0dc;
     border: none;
     color: #ufc0;
@@ -248,7 +248,7 @@ input[type="submit"] {
     width:100%;
     margin-top:2px;
 }
-input[type="submit"]:hover {
+.newsletter-form input[type="submit"]:hover {
     background: #ufc1;
     border: none;
 }',

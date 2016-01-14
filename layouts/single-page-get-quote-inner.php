@@ -40,6 +40,7 @@ $main = upfront_create_region(
        'edited' => true,
        'row' => 328,
     )),
+     'current_property' => 'background_type',
   )),
   'use_padding' => 0,
   'sub_regions' => 
@@ -185,7 +186,7 @@ $main->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'row' => 19,
+         'row' => 24,
          'theme_style' => '',
       )),
     )),
@@ -247,7 +248,7 @@ $main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'row' => 19,
+      'row' => 24,
       'top' => 0,
     ),
     'custom-1410783666947' => 
@@ -366,6 +367,11 @@ $main->add_group(array (
       'order' => 0,
       'top' => 0,
       'row' => 67,
+      'use_padding' => 'yes',
+      'lock_padding' => '',
+      'top_padding_use' => 'yes',
+      'top_padding_slider' => '0',
+      'top_padding_num' => '0',
     ),
     'custom-1410783666947' => 
     array (
@@ -374,6 +380,10 @@ $main->add_group(array (
       'col' => 8,
       'order' => 0,
       'top' => 5,
+    ),
+    'current_property' => 
+    array (
+      0 => 'top_padding_num',
     ),
   ),
 ));
@@ -1083,7 +1093,7 @@ $main->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 4,
+      'order' => 2,
       'clear' => true,
     ),
   ),
@@ -1565,7 +1575,7 @@ $main->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 4,
+      'order' => 2,
       'clear' => true,
     ),
   ),
