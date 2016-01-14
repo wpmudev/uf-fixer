@@ -10,11 +10,11 @@ $services_inner_main = upfront_create_region(
   'type' => 'wide',
   'scope' => 'local',
   'container' => 'services-inner-main',
-  'position' => 10,
+  'position' => 1,
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 332,
+  'row' => 163,
   'background_type' => 'image',
   'background_color' => '#ufc0',
   'breakpoint' => 
@@ -22,7 +22,7 @@ $services_inner_main = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 350,
+       'row' => 188,
        'background_position_y' => '79',
        'background_style' => 'fixed',
        'background_repeat' => 'no-repeat',
@@ -30,6 +30,8 @@ $services_inner_main = upfront_create_region(
        'background_position_x' => '50',
        'background_type' => 'color',
        'background_color' => '#ufc0',
+       'bottom_bg_padding_slider' => '75',
+       'bottom_bg_padding_num' => '75',
     )),
      'mobile' => 
     (array)(array(
@@ -71,8 +73,8 @@ $services_inner_main = upfront_create_region(
   'bg_padding_type' => 'varied',
   'top_bg_padding_slider' => 0,
   'top_bg_padding_num' => 0,
-  'bottom_bg_padding_slider' => 0,
-  'bottom_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '90',
+  'bottom_bg_padding_num' => '90',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
 )
@@ -119,6 +121,7 @@ $services_inner_main->add_element("PlainTxt", array (
       )),
     )),
     'bottom_padding_num' => '15',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -207,16 +210,17 @@ $services_inner_main->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
          'row' => 72,
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -295,6 +299,7 @@ $services_inner_main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449647785-2496',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -438,10 +443,10 @@ $services_inner_main->add_element("PlainTxt", array (
     'top_padding_num' => '0',
     'bottom_padding_num' => '0',
     'theme_style' => '',
-    'preset' => 'default',
+    'preset' => 'no-bottom-space',
     'use_padding' => 'yes',
     'lock_padding' => '',
-    'padding_slider' => false,
+    'padding_slider' => 'false',
     'padding_number' => 0,
     'left_padding_num' => '15',
     'right_padding_num' => '15',
@@ -449,6 +454,21 @@ $services_inner_main->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -587,7 +607,7 @@ $services_inner_main->add_element("Uimage", array (
          'row' => 22,
       )),
     )),
-    'top_padding_num' => '0',
+    'top_padding_num' => '10',
     'bottom_padding_num' => '0',
     'theme_style' => '',
     'use_padding' => 'yes',
@@ -598,7 +618,7 @@ $services_inner_main->add_element("Uimage", array (
     'right_padding_num' => '15',
     'anchor' => '',
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '0',
+    'top_padding_slider' => '10',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
   ),
@@ -692,11 +712,11 @@ $services_inner_main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 7,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'border_style' => 'none',
@@ -723,6 +743,14 @@ $services_inner_main->add_element("PlainTxt", array (
        'desktop' => 
       (array)(array(
          'preset' => 'no-bottom-space',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
       )),
     )),
   ),
@@ -815,15 +843,15 @@ $services_inner_main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 6,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
          'row' => 4,
       )),
     )),
-    'top_padding_num' => '15',
+    'top_padding_num' => '10',
     'bottom_padding_num' => '0',
     'preset' => 'no-bottom-space',
     'theme_style' => '',
@@ -842,8 +870,16 @@ $services_inner_main->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'no-bottom-space',
       )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
     )),
-    'top_padding_slider' => '15',
+    'top_padding_slider' => '10',
   ),
   'row' => 6,
   'sticky' => false,
@@ -922,6 +958,7 @@ $services_inner_main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449647785-20085',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1047,11 +1084,11 @@ $services_inner_main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 7,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'border_style' => 'none',
@@ -1065,6 +1102,29 @@ $services_inner_main->add_element("PlainTxt", array (
     'bottom_padding_slider' => '0',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '0',
+    'preset' => 'no-bottom-space',
+    'theme_style' => '',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1203,12 +1263,13 @@ $services_inner_main->add_element("Uimage", array (
          'row' => 19,
       )),
     )),
-    'top_padding_num' => '0',
+    'top_padding_num' => '10',
     'bottom_padding_num' => '0',
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '0',
+    'top_padding_slider' => '10',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'lock_padding' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1296,12 +1357,12 @@ $services_inner_main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 11,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
          'row' => 5,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'border_style' => 'none',
@@ -1328,6 +1389,14 @@ $services_inner_main->add_element("PlainTxt", array (
        'desktop' => 
       (array)(array(
          'preset' => 'no-bottom-space',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
       )),
     )),
   ),
@@ -1416,11 +1485,11 @@ $services_inner_main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 7,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'border_style' => 'none',
@@ -1428,7 +1497,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
-    'top_padding_num' => '15',
+    'top_padding_num' => '10',
     'bottom_padding_num' => '0',
     'preset' => 'no-bottom-space',
     'theme_style' => '',
@@ -1446,8 +1515,16 @@ $services_inner_main->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'no-bottom-space',
       )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
     )),
-    'top_padding_slider' => '15',
+    'top_padding_slider' => '10',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1525,6 +1602,7 @@ $services_inner_main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449647785-84592',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1561,6 +1639,7 @@ $services_inner_main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449729427863-1159',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1680,11 +1759,11 @@ $services_inner_main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 6,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'border_style' => 'none',
@@ -1698,6 +1777,29 @@ $services_inner_main->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'no-bottom-space',
+    'theme_style' => '',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1836,12 +1938,13 @@ $services_inner_main->add_element("Uimage", array (
          'row' => 16,
       )),
     )),
-    'top_padding_num' => '0',
+    'top_padding_num' => '10',
     'bottom_padding_num' => '0',
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '0',
+    'top_padding_slider' => '10',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'lock_padding' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1929,11 +2032,11 @@ $services_inner_main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 11,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'border_style' => 'none',
@@ -1960,6 +2063,14 @@ $services_inner_main->add_element("PlainTxt", array (
        'desktop' => 
       (array)(array(
          'preset' => 'no-bottom-space',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
       )),
     )),
   ),
@@ -2039,6 +2150,7 @@ $services_inner_main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449647785-10068',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2085,12 +2197,12 @@ $services_inner_main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 8,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
          'row' => 4,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'border_style' => 'none',
@@ -2099,7 +2211,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
     'top_padding_use' => 'yes',
-    'top_padding_num' => '15',
+    'top_padding_num' => '10',
     'bottom_padding_num' => '0',
     'preset' => 'no-bottom-space',
     'theme_style' => '',
@@ -2116,8 +2228,16 @@ $services_inner_main->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'no-bottom-space',
       )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
     )),
-    'top_padding_slider' => '15',
+    'top_padding_slider' => '10',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2195,6 +2315,7 @@ $services_inner_main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449729421348-1988',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2314,11 +2435,11 @@ $services_inner_main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 7,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'border_style' => 'none',
@@ -2332,6 +2453,29 @@ $services_inner_main->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'no-bottom-space',
+    'theme_style' => '',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -2472,12 +2616,13 @@ $services_inner_main->add_element("Uimage", array (
     )),
     'no_padding' => '',
     'anchor' => '',
-    'top_padding_num' => '0',
+    'top_padding_num' => '10',
     'bottom_padding_num' => '0',
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '0',
+    'top_padding_slider' => '10',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'lock_padding' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2565,11 +2710,11 @@ $services_inner_main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 10,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'border_style' => 'none',
@@ -2596,6 +2741,14 @@ $services_inner_main->add_element("PlainTxt", array (
        'desktop' => 
       (array)(array(
          'preset' => 'no-bottom-space',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
       )),
     )),
   ),
@@ -2683,12 +2836,12 @@ $services_inner_main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 5,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
          'row' => 9,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'border_style' => 'none',
@@ -2697,7 +2850,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
     'top_padding_use' => 'yes',
-    'top_padding_num' => '15',
+    'top_padding_num' => '10',
     'bottom_padding_num' => '0',
     'preset' => 'no-bottom-space',
     'theme_style' => '',
@@ -2714,8 +2867,16 @@ $services_inner_main->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'no-bottom-space',
       )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
     )),
-    'top_padding_slider' => '15',
+    'top_padding_slider' => '10',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2794,6 +2955,7 @@ $services_inner_main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449647785-36253',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2831,6 +2993,7 @@ $services_inner_main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449729432221-1183',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2867,6 +3030,7 @@ $services_inner_main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449729479114-1695',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2986,11 +3150,11 @@ $services_inner_main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 6,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'border_style' => 'none',
@@ -3004,6 +3168,29 @@ $services_inner_main->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'no-bottom-space',
+    'theme_style' => '',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -3142,12 +3329,13 @@ $services_inner_main->add_element("Uimage", array (
          'row' => 19,
       )),
     )),
-    'top_padding_num' => '0',
+    'top_padding_num' => '10',
     'bottom_padding_num' => '0',
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '0',
+    'top_padding_slider' => '10',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'lock_padding' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3235,11 +3423,11 @@ $services_inner_main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 13,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'border_style' => 'none',
@@ -3266,6 +3454,14 @@ $services_inner_main->add_element("PlainTxt", array (
        'desktop' => 
       (array)(array(
          'preset' => 'no-bottom-space',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
       )),
     )),
   ),
@@ -3345,6 +3541,7 @@ $services_inner_main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449647785-69652',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3391,12 +3588,12 @@ $services_inner_main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 8,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
          'row' => 4,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'border_style' => 'none',
@@ -3405,7 +3602,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
     'top_padding_use' => 'yes',
-    'top_padding_num' => '15',
+    'top_padding_num' => '10',
     'bottom_padding_num' => '0',
     'preset' => 'no-bottom-space',
     'theme_style' => '',
@@ -3422,8 +3619,16 @@ $services_inner_main->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'no-bottom-space',
       )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
     )),
-    'top_padding_slider' => '15',
+    'top_padding_slider' => '10',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3501,6 +3706,7 @@ $services_inner_main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449729468652-1314',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3622,11 +3828,11 @@ $services_inner_main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 7,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'border_style' => 'none',
@@ -3640,6 +3846,29 @@ $services_inner_main->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'preset' => 'no-bottom-space',
+    'theme_style' => '',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'no-bottom-space',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -3778,12 +4007,13 @@ $services_inner_main->add_element("Uimage", array (
          'row' => 17,
       )),
     )),
-    'top_padding_num' => '0',
+    'top_padding_num' => '10',
     'bottom_padding_num' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '0',
+    'top_padding_slider' => '10',
+    'lock_padding' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3870,11 +4100,11 @@ $services_inner_main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 10,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'border_style' => 'none',
@@ -3901,6 +4131,14 @@ $services_inner_main->add_element("PlainTxt", array (
        'desktop' => 
       (array)(array(
          'preset' => 'no-bottom-space',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
       )),
     )),
   ),
@@ -3988,11 +4226,11 @@ $services_inner_main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 5,
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
+         'theme_style' => '',
       )),
     )),
     'border_style' => 'none',
@@ -4001,9 +4239,9 @@ $services_inner_main->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
     'top_padding_use' => 'yes',
-    'top_padding_num' => '15',
+    'top_padding_num' => '10',
     'bottom_padding_num' => '0',
-    'top_padding_slider' => '15',
+    'top_padding_slider' => '10',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
     'preset' => 'no-bottom-space',
@@ -4019,6 +4257,14 @@ $services_inner_main->add_element("PlainTxt", array (
        'desktop' => 
       (array)(array(
          'preset' => 'no-bottom-space',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
       )),
     )),
   ),
@@ -4098,6 +4344,7 @@ $services_inner_main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449729476659-1261',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -4134,6 +4381,7 @@ $services_inner_main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449647785-13077',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -4171,6 +4419,7 @@ $services_inner_main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449647785-73364',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -4207,6 +4456,7 @@ $services_inner_main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1449647785-32282',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,

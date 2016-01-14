@@ -1,3 +1,7 @@
+#page .uf-upost-responsive .part-title {
+    margin: 0;
+    width: 100%;
+}
 #page .uf-upost-responsive .part-title > .post-part {
     margin: 0;
     width: 100%;
