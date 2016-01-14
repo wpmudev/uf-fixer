@@ -42,6 +42,8 @@ $main = upfront_create_region(
        'background_position' => '100% 100%',
        'background_position_x' => '100',
        'background_type' => 'color',
+       'bottom_bg_padding_slider' => '60',
+       'bottom_bg_padding_num' => '60',
     )),
      'custom-1410783666947' => 
     (array)(array(
@@ -210,6 +212,13 @@ $main->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'anchor' => '',
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'row' => 33,
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -253,11 +262,12 @@ $main->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
       'top' => 0,
+      'row' => 33,
     ),
     'custom-1410783666947' => 
     array (
@@ -539,7 +549,7 @@ $main->add_element("Ucontact", array (
       )),
        'mobile' => 
       (array)(array(
-         'row' => 73,
+         'row' => 45,
          'theme_style' => '',
       )),
     )),
@@ -561,6 +571,10 @@ $main->add_element("Ucontact", array (
        'desktop' => 
       (array)(array(
          'preset' => 'alt',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'alt-mobile',
       )),
     )),
   ),
@@ -611,7 +625,7 @@ $main->add_element("Ucontact", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'row' => 73,
+      'row' => 45,
       'top' => 0,
     ),
     'custom-1410783666947' => 

@@ -994,6 +994,17 @@ $footer->add_element("PlainTxt", array (
     'padding_number' => 0,
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'u-paragraph-footer-left-separator-m',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,

@@ -40,6 +40,8 @@ $main = upfront_create_region(
        'background_position' => '100% 100%',
        'background_position_x' => '100',
        'background_type' => 'color',
+       'bottom_bg_padding_slider' => '60',
+       'bottom_bg_padding_num' => '60',
     )),
      'custom-1410783666947' => 
     (array)(array(
@@ -66,6 +68,13 @@ $main = upfront_create_region(
   'background_repeat' => 'no-repeat',
   'background_position' => '100% 100%',
   'version' => '1.0.0',
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => 0,
+  'bottom_bg_padding_num' => 0,
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
@@ -529,7 +538,7 @@ $main->add_element("Ucontact", array (
       )),
        'mobile' => 
       (array)(array(
-         'row' => 73,
+         'row' => 51,
          'theme_style' => '',
       )),
     )),
@@ -549,6 +558,10 @@ $main->add_element("Ucontact", array (
          'preset' => 'alt',
       )),
        'tablet' => 
+      (array)(array(
+         'preset' => 'alt-mobile',
+      )),
+       'mobile' => 
       (array)(array(
          'preset' => 'alt-mobile',
       )),
@@ -600,7 +613,7 @@ $main->add_element("Ucontact", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'row' => 73,
+      'row' => 51,
       'top' => 0,
     ),
     'custom-1410783666947' => 

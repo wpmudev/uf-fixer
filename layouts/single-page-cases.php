@@ -29,7 +29,7 @@ $cases_region = upfront_create_region(
      'mobile' => 
     (array)(array(
        'edited' => true,
-       'row' => 358,
+       'row' => 178,
     )),
      'custom-1410783666947' => 
     (array)(array(
@@ -165,6 +165,13 @@ $cases_region->add_element("PlainTxt", array (
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'row' => 21,
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -205,11 +212,12 @@ $cases_region->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
       'top' => 0,
+      'row' => 21,
     ),
     'custom-1410783666947' => 
     array (

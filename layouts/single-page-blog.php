@@ -26,6 +26,10 @@ $region_5 = upfront_create_region(
     (array)(array(
        'edited' => true,
        'row' => 412,
+       'background_type' => 'color',
+       'bottom_bg_padding_slider' => '0',
+       'bottom_bg_padding_num' => '0',
+       'bg_padding_type' => 'equal',
     )),
      'custom-1410783666947' => 
     (array)(array(
@@ -41,6 +45,13 @@ $region_5 = upfront_create_region(
   ),
   'background_color' => '#ffffff',
   'version' => '1.0.0',
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => 0,
+  'bottom_bg_padding_num' => 0,
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
@@ -77,6 +88,7 @@ $region_5->add_element("PlainTxt", array (
       (array)(array(
          'top_padding_use' => true,
          'top_padding_num' => 50,
+         'row' => 14,
       )),
     )),
     'bottom_padding_num' => '15',
@@ -134,6 +146,7 @@ $region_5->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 0,
       'top' => 0,
+      'row' => 14,
     ),
     'custom-1410783666947' => 
     array (
@@ -179,6 +192,17 @@ $region_5->add_element("PlainTxt", array (
     'padding_number' => 0,
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_num' => '30',
+         'top_padding_slider' => '30',
+         'row' => 27,
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -226,6 +250,7 @@ $region_5->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 0,
       'top' => 0,
+      'row' => 27,
     ),
     'custom-1410783666947' => 
     array (
@@ -344,6 +369,9 @@ $region_5->add_element("Posts", array (
        'mobile' => 
       (array)(array(
          'theme_style' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_num' => '15',
+         'top_padding_slider' => '15',
       )),
     )),
     'row' => 174,
@@ -365,6 +393,10 @@ $region_5->add_element("Posts", array (
        'desktop' => 
       (array)(array(
          'preset' => 'u-posts-grid-m',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'grid-mobile',
       )),
     )),
   ),

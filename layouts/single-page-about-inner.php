@@ -30,7 +30,10 @@ $main = upfront_create_region(
      'mobile' => 
     (array)(array(
        'edited' => true,
-       'row' => 276,
+       'row' => 97,
+       'background_type' => 'color',
+       'bottom_bg_padding_slider' => '60',
+       'bottom_bg_padding_num' => '60',
     )),
      'custom-1410783666947' => 
     (array)(array(
@@ -89,6 +92,17 @@ $main->add_element("PlainTxt", array (
     'padding_number' => 0,
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_num' => '90',
+         'top_padding_slider' => '90',
+         'row' => 16,
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -138,6 +152,7 @@ $main->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 0,
       'top' => 0,
+      'row' => 16,
     ),
     'custom-1410783666947' => 
     array (
@@ -323,7 +338,13 @@ $main->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'theme_style' => '',
-         'row' => 24,
+         'row' => 25,
+         'top_padding_use' => 'yes',
+         'top_padding_num' => '15',
+         'top_padding_slider' => '15',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_num' => '15',
+         'bottom_padding_slider' => '15',
       )),
     )),
     'border_style' => 'none',
@@ -338,7 +359,7 @@ $main->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
-    'preset' => 'default',
+    'preset' => 'center-no-bottom-space',
     'theme_style' => '',
     'use_padding' => false,
     'padding_slider' => '15',
@@ -354,6 +375,10 @@ $main->add_element("PlainTxt", array (
        'desktop' => 
       (array)(array(
          'preset' => 'default',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
       )),
     )),
   ),
@@ -398,7 +423,7 @@ $main->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 0,
       'top' => 0,
-      'row' => 24,
+      'row' => 25,
     ),
     'custom-1410783666947' => 
     array (
@@ -444,6 +469,9 @@ $main->add_element("PlainTxt", array (
       (array)(array(
          'theme_style' => '',
          'row' => 28,
+         'top_padding_use' => 'yes',
+         'top_padding_num' => '15',
+         'top_padding_slider' => '15',
       )),
     )),
     'border_style' => 'none',
@@ -474,6 +502,10 @@ $main->add_element("PlainTxt", array (
        'desktop' => 
       (array)(array(
          'preset' => 'default',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
       )),
     )),
   ),
@@ -588,6 +620,10 @@ $main->add_group(array (
       'col' => 7,
       'order' => 0,
       'top' => 0,
+      'lock_padding' => '',
+      'top_padding_use' => 'yes',
+      'top_padding_num' => '15',
+      'top_padding_slider' => '15',
     ),
   ),
 ));
@@ -651,6 +687,10 @@ $main->add_element("PlainTxt", array (
        'desktop' => 
       (array)(array(
          'preset' => 'default',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
       )),
     )),
   ),
@@ -746,6 +786,9 @@ $main->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'theme_style' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_num' => '15',
+         'top_padding_slider' => '15',
       )),
     )),
     'top_padding_num' => '30',
@@ -771,6 +814,10 @@ $main->add_element("PlainTxt", array (
        'desktop' => 
       (array)(array(
          'preset' => 'default',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
       )),
     )),
   ),
@@ -888,7 +935,7 @@ $main->add_element("Uimage", array (
     'element_size' => 
     (array)(array(
        'width' => 1050,
-       'height' => 569,
+       'height' => 190,
     )),
     'rotation' => 0,
     'color' => '#ffffff',
@@ -935,6 +982,14 @@ $main->add_element("Uimage", array (
          'top_padding_use' => 'yes',
          'top_padding_num' => '30',
          'top_padding_slider' => '30',
+      )),
+       'mobile' => 
+      (array)(array(
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_num' => '15',
+         'top_padding_slider' => '15',
+         'row' => 31,
       )),
     )),
   ),
@@ -986,6 +1041,7 @@ $main->add_element("Uimage", array (
       'col' => 7,
       'order' => 7,
       'top' => 0,
+      'row' => 31,
     ),
     'custom-1410783666947' => 
     array (
@@ -1122,6 +1178,14 @@ $main->add_element("PlainTxt", array (
          'lock_padding' => '',
          'top_padding_slider' => '15',
       )),
+       'mobile' => 
+      (array)(array(
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_num' => '0',
+         'top_padding_slider' => '0',
+         'row' => 4,
+      )),
     )),
     'bottom_padding_num' => '15',
     'preset' => 'default',
@@ -1175,6 +1239,8 @@ $main->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 8,
       'top' => 0,
+      'row' => 4,
+      'hide' => 1,
     ),
     'custom-1410783666947' => 
     array (

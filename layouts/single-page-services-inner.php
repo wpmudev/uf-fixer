@@ -36,13 +36,15 @@ $services_inner_main = upfront_create_region(
      'mobile' => 
     (array)(array(
        'edited' => true,
-       'row' => 364,
+       'row' => 197,
        'background_position_y' => '79',
        'background_style' => 'fixed',
        'background_repeat' => 'no-repeat',
        'background_position' => '50% 79%',
        'background_position_x' => '50',
        'background_type' => 'color',
+       'bottom_bg_padding_num' => '90',
+       'bottom_bg_padding_slider' => '90',
     )),
      'custom-1410783666947' => 
     (array)(array(
@@ -116,8 +118,10 @@ $services_inner_main->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'top_padding_use' => true,
-         'top_padding_num' => 85,
+         'top_padding_use' => 'yes',
+         'top_padding_num' => '90',
+         'lock_padding' => '',
+         'top_padding_slider' => '90',
       )),
     )),
     'bottom_padding_num' => '15',
@@ -216,6 +220,7 @@ $services_inner_main->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'theme_style' => '',
+         'row' => 35,
       )),
     )),
     'top_padding_num' => '15',
@@ -271,6 +276,7 @@ $services_inner_main->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 23,
       'top' => 0,
+      'row' => 35,
     ),
     'custom-1410783666947' => 
     array (
@@ -443,7 +449,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'top_padding_num' => '0',
     'bottom_padding_num' => '0',
     'theme_style' => '',
-    'preset' => 'no-bottom-space',
+    'preset' => 'center-no-bottom-space',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => 'false',
@@ -1016,7 +1022,7 @@ $services_inner_main->add_group(array (
     array (
       'edited' => true,
       'col' => 7,
-      'order' => 4,
+      'order' => 3,
       'clear' => true,
     ),
     'custom-1410783666947' => 
@@ -1047,7 +1053,11 @@ $services_inner_main->add_group(array (
       'order' => 0,
       'top' => 0,
       'theme_style' => 'quality-style',
-      'row' => 17,
+      'row' => 18,
+      'lock_padding' => '',
+      'top_padding_use' => 'yes',
+      'top_padding_num' => '30',
+      'top_padding_slider' => '30',
     ),
     'custom-1410783666947' => 
     array (
@@ -1697,7 +1707,7 @@ $services_inner_main->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
       'order' => 4,
       'clear' => true,
@@ -1723,6 +1733,7 @@ $services_inner_main->add_group(array (
       'order' => 0,
       'top' => 0,
       'theme_style' => 'quality-style',
+      'row' => 18,
     ),
     'custom-1410783666947' => 
     array (
@@ -2372,7 +2383,7 @@ $services_inner_main->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
       'order' => 5,
       'clear' => true,
@@ -2398,7 +2409,7 @@ $services_inner_main->add_group(array (
       'order' => 0,
       'top' => 0,
       'theme_style' => 'quality-style',
-      'row' => 15,
+      'row' => 18,
     ),
     'custom-1410783666947' => 
     array (
@@ -3088,7 +3099,7 @@ $services_inner_main->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
       'order' => 6,
       'clear' => true,
@@ -3113,6 +3124,7 @@ $services_inner_main->add_group(array (
       'col' => 7,
       'order' => 0,
       'top' => 0,
+      'row' => 18,
       'theme_style' => 'quality-style',
     ),
     'custom-1410783666947' => 
@@ -3763,7 +3775,7 @@ $services_inner_main->add_group(array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
       'order' => 7,
       'clear' => true,
@@ -3789,9 +3801,11 @@ $services_inner_main->add_group(array (
       'order' => 0,
       'top' => 0,
       'theme_style' => 'quality-style-no-border',
-      'row' => 20,
-      'top_padding_use' => true,
-      'top_padding_num' => 10,
+      'row' => 18,
+      'top_padding_use' => 'yes',
+      'top_padding_num' => '30',
+      'lock_padding' => '',
+      'top_padding_slider' => '30',
     ),
     'custom-1410783666947' => 
     array (

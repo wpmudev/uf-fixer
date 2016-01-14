@@ -79,6 +79,7 @@ $main->add_element("PlainTxt", array (
       (array)(array(
          'top_padding_use' => true,
          'top_padding_num' => 50,
+         'row' => 8,
       )),
     )),
     'top_padding_use' => true,
@@ -134,6 +135,7 @@ $main->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 0,
       'top' => 0,
+      'row' => 8,
     ),
     'custom-1410783666947' => 
     array (
@@ -179,7 +181,11 @@ $main->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'theme_style' => '',
-         'row' => 13,
+         'row' => 7,
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_num' => '30',
+         'top_padding_slider' => '30',
       )),
     )),
     'top_padding_num' => '15',
@@ -241,7 +247,7 @@ $main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 4,
-      'row' => 13,
+      'row' => 7,
       'top' => 0,
     ),
     'custom-1410783666947' => 
@@ -347,6 +353,10 @@ $main->add_element("PlainTxt", array (
        'desktop' => 
       (array)(array(
          'preset' => 'default',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
       )),
     )),
   ),

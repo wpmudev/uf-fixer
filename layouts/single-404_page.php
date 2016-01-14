@@ -38,7 +38,10 @@ $main = upfront_create_region(
      'mobile' => 
     (array)(array(
        'edited' => true,
-       'row' => 95,
+       'row' => 21,
+       'background_type' => 'color',
+       'bottom_bg_padding_slider' => '80',
+       'bottom_bg_padding_num' => '80',
     )),
      'custom-1410783666947' => 
     (array)(array(
