@@ -17,26 +17,26 @@ $main = upfront_create_region(
   'row' => 147,
   'background_type' => 'color',
   'background_color' => '#ufc0',
-  'breakpoint' => 
+  'breakpoint' =>
   (array)(array(
-     'tablet' => 
+     'tablet' =>
     (array)(array(
        'edited' => true,
        'row' => 236,
     )),
-     'mobile' => 
+     'mobile' =>
     (array)(array(
        'edited' => true,
        'row' => 326,
     )),
-     'custom-1410783666947' => 
+     'custom-1410783666947' =>
     (array)(array(
        'edited' => true,
        'row' => 178,
     )),
   )),
   'use_padding' => 0,
-  'sub_regions' => 
+  'sub_regions' =>
   array (
     0 => false,
   ),
@@ -52,37 +52,38 @@ $main->add_element("ThisPost", array (
   'margin_bottom' => '0',
   'class' => 'default-page',
   'id' => 'default-page',
-  'options' => 
+  'options' =>
   array (
     'type' => 'ThisPostModel',
     'view_class' => 'ThisPostView',
+    'usingNewAppearance' => true,
     'class' => 'c24 upfront-this_post',
     'has_settings' => 1,
     'id_slug' => 'this_post',
     'row' => 23,
-    'post_data' => 
+    'post_data' =>
     array (
     ),
-    'layout' => 
+    'layout' =>
     array (
-      0 => 
+      0 =>
       (array)(array(
          'classes' => 'c24 clr',
-         'objects' => 
+         'objects' =>
         array (
-          0 => 
+          0 =>
           (array)(array(
              'slug' => 'title',
              'classes' => 'post-part c24',
           )),
         ),
       )),
-      1 => 
+      1 =>
       (array)(array(
          'classes' => 'c24 clr',
-         'objects' => 
+         'objects' =>
         array (
-          0 => 
+          0 =>
           (array)(array(
              'slug' => 'contents',
              'classes' => ' post-part c24',
@@ -92,19 +93,19 @@ $main->add_element("ThisPost", array (
     ),
     'element_id' => 'default-page-object',
     'anchor' => '',
-    'breakpoint' => 
+    'breakpoint' =>
     (array)(array(
-       'custom-1410783666947' => 
+       'custom-1410783666947' =>
       (array)(array(
          'theme_style' => 'u-this_page-big-tablet',
       )),
-       'tablet' => 
+       'tablet' =>
       (array)(array(
          'theme_style' => 'uf-upage-responsive',
          'top_padding_use' => true,
          'top_padding_num' => 65,
       )),
-       'mobile' => 
+       'mobile' =>
       (array)(array(
          'theme_style' => 'uf-upage-responsive',
       )),
@@ -124,30 +125,30 @@ $main->add_element("ThisPost", array (
   'disable_resize' => true,
   'disable_drag' => false,
   'wrapper_id' => 'default-page-wrapper',
-  'wrapper_breakpoint' => 
+  'wrapper_breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'col' => 12,
       'order' => 0,
       'clear' => true,
       'edited' => true,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'col' => 7,
       'order' => 0,
       'clear' => true,
     ),
-    'custom-1410783666947' => 
+    'custom-1410783666947' =>
     array (
       'col' => 18,
       'order' => 0,
     ),
   ),
-  'breakpoint' => 
+  'breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => true,
       'left' => 0,
@@ -155,7 +156,7 @@ $main->add_element("ThisPost", array (
       'order' => 0,
       'top' => 0,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => false,
       'left' => 0,
@@ -163,7 +164,7 @@ $main->add_element("ThisPost", array (
       'order' => 0,
       'top' => 0,
     ),
-    'custom-1410783666947' => 
+    'custom-1410783666947' =>
     array (
       'edited' => false,
       'left' => 0,
@@ -187,14 +188,14 @@ $separator = upfront_create_region(
 ),
 			array (
   'row' => 14,
-  'breakpoint' => 
+  'breakpoint' =>
   (array)(array(
-     'tablet' => 
+     'tablet' =>
     (array)(array(
        'edited' => false,
        'col' => 24,
     )),
-     'mobile' => 
+     'mobile' =>
     (array)(array(
        'edited' => false,
        'col' => 24,

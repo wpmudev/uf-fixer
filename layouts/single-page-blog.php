@@ -15,14 +15,14 @@ $region_5 = upfront_create_region(
 ),
 			array (
   'row' => 60,
-  'breakpoint' => 
+  'breakpoint' =>
   (array)(array(
-     'tablet' => 
+     'tablet' =>
     (array)(array(
        'edited' => true,
        'row' => 417,
     )),
-     'mobile' => 
+     'mobile' =>
     (array)(array(
        'edited' => true,
        'row' => 412,
@@ -31,7 +31,7 @@ $region_5 = upfront_create_region(
        'bottom_bg_padding_num' => '0',
        'bg_padding_type' => 'equal',
     )),
-     'custom-1410783666947' => 
+     'custom-1410783666947' =>
     (array)(array(
        'edited' => true,
        'row' => 483,
@@ -39,7 +39,7 @@ $region_5 = upfront_create_region(
   )),
   'background_type' => 'color',
   'use_padding' => 0,
-  'sub_regions' => 
+  'sub_regions' =>
   array (
     0 => false,
   ),
@@ -63,9 +63,10 @@ $region_5->add_element("PlainTxt", array (
   'margin_bottom' => '0',
   'class' => 'module-1407244369178-1770',
   'id' => 'module-1407244369178-1770',
-  'options' => 
+  'options' =>
   array (
     'view_class' => 'PlainTxtView',
+    'usingNewAppearance' => true,
     'id_slug' => 'plain_text',
     'content' => '<h3 class="" style="text-align: center;">Blog</h3>',
     'type' => 'PlainTxtModel',
@@ -82,9 +83,9 @@ $region_5->add_element("PlainTxt", array (
     'anchor' => '',
     'top_padding_use' => true,
     'top_padding_num' => 110,
-    'breakpoint' => 
+    'breakpoint' =>
     (array)(array(
-       'mobile' => 
+       'mobile' =>
       (array)(array(
          'top_padding_use' => true,
          'top_padding_num' => 50,
@@ -107,31 +108,31 @@ $region_5->add_element("PlainTxt", array (
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1419540281671-1659',
   'new_line' => true,
-  'wrapper_breakpoint' => 
+  'wrapper_breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => false,
       'col' => 12,
       'order' => 0,
       'clear' => true,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => true,
       'col' => 7,
       'order' => 0,
       'clear' => true,
     ),
-    'custom-1410783666947' => 
+    'custom-1410783666947' =>
     array (
       'col' => 18,
       'order' => 0,
     ),
   ),
-  'breakpoint' => 
+  'breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => false,
       'left' => 0,
@@ -139,7 +140,7 @@ $region_5->add_element("PlainTxt", array (
       'order' => 0,
       'top' => 0,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => true,
       'left' => 0,
@@ -148,7 +149,7 @@ $region_5->add_element("PlainTxt", array (
       'top' => 0,
       'row' => 14,
     ),
-    'custom-1410783666947' => 
+    'custom-1410783666947' =>
     array (
       'edited' => false,
       'left' => 0,
@@ -166,9 +167,10 @@ $region_5->add_element("PlainTxt", array (
   'margin_bottom' => '0',
   'class' => 'module-1407244383572-1176',
   'id' => 'module-1407244383572-1176',
-  'options' => 
+  'options' =>
   array (
     'view_class' => 'PlainTxtView',
+    'usingNewAppearance' => true,
     'id_slug' => 'plain_text',
     'content' => '<h1 class="" style="text-align: center;">Latest News &amp; Tips</h1>',
     'type' => 'PlainTxtModel',
@@ -192,9 +194,9 @@ $region_5->add_element("PlainTxt", array (
     'padding_number' => 0,
     'left_padding_num' => '15',
     'right_padding_num' => '15',
-    'breakpoint' => 
+    'breakpoint' =>
     (array)(array(
-       'mobile' => 
+       'mobile' =>
       (array)(array(
          'lock_padding' => '',
          'top_padding_use' => 'yes',
@@ -211,31 +213,31 @@ $region_5->add_element("PlainTxt", array (
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1419540279374-1064',
   'new_line' => true,
-  'wrapper_breakpoint' => 
+  'wrapper_breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => false,
       'col' => 12,
       'order' => 1,
       'clear' => true,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => true,
       'col' => 7,
       'order' => 1,
       'clear' => true,
     ),
-    'custom-1410783666947' => 
+    'custom-1410783666947' =>
     array (
       'col' => 18,
       'order' => 0,
     ),
   ),
-  'breakpoint' => 
+  'breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => false,
       'left' => 0,
@@ -243,7 +245,7 @@ $region_5->add_element("PlainTxt", array (
       'order' => 0,
       'top' => 0,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => true,
       'left' => 0,
@@ -252,7 +254,7 @@ $region_5->add_element("PlainTxt", array (
       'top' => 0,
       'row' => 27,
     ),
-    'custom-1410783666947' => 
+    'custom-1410783666947' =>
     array (
       'edited' => false,
       'left' => 0,
@@ -270,10 +272,11 @@ $region_5->add_element("Posts", array (
   'margin_bottom' => '0',
   'class' => 'module-1418582907947-1246',
   'id' => 'module-1418582907947-1246',
-  'options' => 
+  'options' =>
   array (
     'type' => 'PostsModel',
     'view_class' => 'PostsView',
+    'usingNewAppearance' => true,
     'has_settings' => 1,
     'class' => 'c24 uposts-object',
     'id_slug' => 'posts',
@@ -287,21 +290,21 @@ $region_5->add_element("Posts", array (
     'pagination' => 'numeric',
     'sticky' => '',
     'posts_list' => '',
-    'post_parts' => 
+    'post_parts' =>
     array (
       0 => 'featured_image',
       1 => 'date_posted',
       2 => 'title',
       3 => 'content',
     ),
-    'enabled_post_parts' => 
+    'enabled_post_parts' =>
     array (
       0 => 'date_posted',
       1 => 'featured_image',
       2 => 'title',
       3 => 'content',
     ),
-    'default_parts' => 
+    'default_parts' =>
     array (
       0 => 'date_posted',
       1 => 'author',
@@ -350,23 +353,23 @@ $region_5->add_element("Posts", array (
 	{{categories}}
 </div>',
     'post-part-meta' => '<div class="uposts-part meta">
-	
+
 </div>
 ',
     'element_id' => 'posts-object-1418582907944-1365',
     'anchor' => '',
     'theme_style' => '',
-    'breakpoint' => 
+    'breakpoint' =>
     (array)(array(
-       'custom-1410783666947' => 
+       'custom-1410783666947' =>
       (array)(array(
          'theme_style' => 'u-posts-grid-big-tablet',
       )),
-       'tablet' => 
+       'tablet' =>
       (array)(array(
          'theme_style' => '',
       )),
-       'mobile' => 
+       'mobile' =>
       (array)(array(
          'theme_style' => '',
          'top_padding_use' => 'yes',
@@ -384,17 +387,17 @@ $region_5->add_element("Posts", array (
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
-    'breakpoint_presets' => 
+    'breakpoint_presets' =>
     (array)(array(
-       'tablet' => 
+       'tablet' =>
       (array)(array(
          'preset' => 'grid-mobile',
       )),
-       'desktop' => 
+       'desktop' =>
       (array)(array(
          'preset' => 'u-posts-grid-m',
       )),
-       'mobile' => 
+       'mobile' =>
       (array)(array(
          'preset' => 'grid-mobile',
       )),
@@ -407,31 +410,31 @@ $region_5->add_element("Posts", array (
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1419540276903-1477',
   'new_line' => true,
-  'wrapper_breakpoint' => 
+  'wrapper_breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => false,
       'col' => 12,
       'order' => 2,
       'clear' => true,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => true,
       'col' => 7,
       'order' => 2,
       'clear' => true,
     ),
-    'custom-1410783666947' => 
+    'custom-1410783666947' =>
     array (
       'col' => 18,
       'order' => 0,
     ),
   ),
-  'breakpoint' => 
+  'breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => false,
       'left' => 0,
@@ -439,7 +442,7 @@ $region_5->add_element("Posts", array (
       'order' => 0,
       'top' => 0,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => false,
       'left' => 0,
@@ -447,7 +450,7 @@ $region_5->add_element("Posts", array (
       'order' => 0,
       'top' => 0,
     ),
-    'custom-1410783666947' => 
+    'custom-1410783666947' =>
     array (
       'edited' => false,
       'left' => 0,
@@ -471,14 +474,14 @@ $separator = upfront_create_region(
 ),
 			array (
   'row' => 21,
-  'breakpoint' => 
+  'breakpoint' =>
   (array)(array(
-     'tablet' => 
+     'tablet' =>
     (array)(array(
        'edited' => false,
        'col' => 24,
     )),
-     'mobile' => 
+     'mobile' =>
     (array)(array(
        'edited' => false,
        'col' => 24,

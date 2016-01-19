@@ -17,26 +17,26 @@ $main = upfront_create_region(
   'row' => 145,
   'background_type' => 'color',
   'background_color' => '#ufc0',
-  'breakpoint' => 
+  'breakpoint' =>
   (array)(array(
-     'tablet' => 
+     'tablet' =>
     (array)(array(
        'edited' => true,
        'row' => 294,
     )),
-     'mobile' => 
+     'mobile' =>
     (array)(array(
        'edited' => true,
        'row' => 388,
     )),
-     'custom-1410783666947' => 
+     'custom-1410783666947' =>
     (array)(array(
        'edited' => true,
        'row' => 233,
     )),
   )),
   'use_padding' => 0,
-  'sub_regions' => 
+  'sub_regions' =>
   array (
     0 => false,
   ),
@@ -52,9 +52,10 @@ $main->add_element("PlainTxt", array (
   'margin_bottom' => '0',
   'class' => 'module-1432911649645-1709',
   'id' => 'module-1432911649645-1709',
-  'options' => 
+  'options' =>
   array (
     'view_class' => 'PlainTxtView',
+    'usingNewAppearance' => true,
     'id_slug' => 'plain_text',
     'content' => '<h3 class="" style="text-align: center;">Services</h3>',
     'type' => 'PlainTxtModel',
@@ -71,14 +72,14 @@ $main->add_element("PlainTxt", array (
     'theme_style' => 'u-sub-heading',
     'top_padding_use' => true,
     'top_padding_num' => 90,
-    'breakpoint' => 
+    'breakpoint' =>
     (array)(array(
-       'tablet' => 
+       'tablet' =>
       (array)(array(
          'top_padding_use' => true,
          'top_padding_num' => 55,
       )),
-       'mobile' => 
+       'mobile' =>
       (array)(array(
          'lock_padding' => '',
          'top_padding_use' => 'yes',
@@ -97,23 +98,23 @@ $main->add_element("PlainTxt", array (
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1432911660635-1409',
   'new_line' => true,
-  'wrapper_breakpoint' => 
+  'wrapper_breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => true,
       'col' => 12,
       'order' => 0,
       'clear' => true,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => true,
       'col' => 7,
       'order' => 0,
       'clear' => true,
     ),
-    'custom-1410783666947' => 
+    'custom-1410783666947' =>
     array (
       'edited' => true,
       'col' => 18,
@@ -121,9 +122,9 @@ $main->add_element("PlainTxt", array (
       'clear' => true,
     ),
   ),
-  'breakpoint' => 
+  'breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => true,
       'left' => 0,
@@ -131,7 +132,7 @@ $main->add_element("PlainTxt", array (
       'order' => 0,
       'top' => 0,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => true,
       'left' => 0,
@@ -140,7 +141,7 @@ $main->add_element("PlainTxt", array (
       'top' => 0,
       'row' => 7,
     ),
-    'custom-1410783666947' => 
+    'custom-1410783666947' =>
     array (
       'edited' => true,
       'left' => 0,
@@ -158,9 +159,10 @@ $main->add_element("PlainTxt", array (
   'margin_bottom' => '0',
   'class' => 'module-1432911660744-1583',
   'id' => 'module-1432911660744-1583',
-  'options' => 
+  'options' =>
   array (
     'view_class' => 'PlainTxtView',
+    'usingNewAppearance' => true,
     'id_slug' => 'plain_text',
     'content' => '<h1 class="" style="text-align: center;">Roofing</h1>',
     'type' => 'PlainTxtModel',
@@ -174,13 +176,13 @@ $main->add_element("PlainTxt", array (
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
-    'breakpoint' => 
+    'breakpoint' =>
     (array)(array(
-       'tablet' => 
+       'tablet' =>
       (array)(array(
          'theme_style' => '',
       )),
-       'mobile' => 
+       'mobile' =>
       (array)(array(
          'theme_style' => '',
          'row' => 8,
@@ -197,23 +199,23 @@ $main->add_element("PlainTxt", array (
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1432911696389-1388',
   'new_line' => true,
-  'wrapper_breakpoint' => 
+  'wrapper_breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => true,
       'col' => 12,
       'order' => 1,
       'clear' => true,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => true,
       'col' => 7,
       'order' => 1,
       'clear' => true,
     ),
-    'custom-1410783666947' => 
+    'custom-1410783666947' =>
     array (
       'edited' => true,
       'col' => 18,
@@ -221,9 +223,9 @@ $main->add_element("PlainTxt", array (
       'clear' => true,
     ),
   ),
-  'breakpoint' => 
+  'breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => true,
       'left' => 0,
@@ -231,7 +233,7 @@ $main->add_element("PlainTxt", array (
       'top' => 0,
       'col' => 12,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => true,
       'left' => 0,
@@ -240,7 +242,7 @@ $main->add_element("PlainTxt", array (
       'top' => 0,
       'row' => 8,
     ),
-    'custom-1410783666947' => 
+    'custom-1410783666947' =>
     array (
       'edited' => true,
       'left' => 0,
@@ -258,10 +260,11 @@ $main->add_element("Uspacer", array (
   'margin_bottom' => '0',
   'class' => 'module-1449825667-76869 upfront-module-spacer',
   'id' => 'module-1449825667-76869',
-  'options' => 
+  'options' =>
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
+    'usingNewAppearance' => true,
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
@@ -275,13 +278,13 @@ $main->add_element("Uspacer", array (
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1449825667-46588',
   'new_line' => true,
-  'wrapper_breakpoint' => 
+  'wrapper_breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'col' => 3,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'col' => 3,
     ),
@@ -296,9 +299,10 @@ $main->add_element("PlainTxt", array (
   'margin_bottom' => '0',
   'class' => 'module-1445477328180-1435',
   'id' => 'module-1445477328180-1435',
-  'options' => 
+  'options' =>
   array (
     'view_class' => 'PlainTxtView',
+    'usingNewAppearance' => true,
     'id_slug' => 'plain_text',
     'content' => '<h2 class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</h2><h2 class=""><br></h2><p class=""><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></p><p class="">Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in</p><p class="">Hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum quam nunc putamus parum claram,.</p>',
     'type' => 'PlainTxtModel',
@@ -312,13 +316,13 @@ $main->add_element("PlainTxt", array (
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
-    'breakpoint' => 
+    'breakpoint' =>
     (array)(array(
-       'tablet' => 
+       'tablet' =>
       (array)(array(
          'theme_style' => '',
       )),
-       'mobile' => 
+       'mobile' =>
       (array)(array(
          'theme_style' => '',
       )),
@@ -333,17 +337,17 @@ $main->add_element("PlainTxt", array (
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
-    'breakpoint_presets' => 
+    'breakpoint_presets' =>
     (array)(array(
-       'tablet' => 
+       'tablet' =>
       (array)(array(
          'preset' => 'center',
       )),
-       'desktop' => 
+       'desktop' =>
       (array)(array(
          'preset' => 'default',
       )),
-       'mobile' => 
+       'mobile' =>
       (array)(array(
          'preset' => 'center-no-bottom-space',
       )),
@@ -355,16 +359,16 @@ $main->add_element("PlainTxt", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1445477339950-1280',
-  'wrapper_breakpoint' => 
+  'wrapper_breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => true,
       'col' => 12,
       'order' => 2,
       'clear' => true,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => true,
       'col' => 7,
@@ -372,9 +376,9 @@ $main->add_element("PlainTxt", array (
       'clear' => true,
     ),
   ),
-  'breakpoint' => 
+  'breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => true,
       'left' => 0,
@@ -382,7 +386,7 @@ $main->add_element("PlainTxt", array (
       'order' => 0,
       'top' => 0,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => true,
       'left' => 0,
@@ -401,10 +405,11 @@ $main->add_element("Uspacer", array (
   'margin_bottom' => '0',
   'class' => 'module-1449825667-51674 upfront-module-spacer',
   'id' => 'module-1449825667-51674',
-  'options' => 
+  'options' =>
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
+    'usingNewAppearance' => true,
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
@@ -417,13 +422,13 @@ $main->add_element("Uspacer", array (
   'hide' => 0,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1449825667-35313',
-  'wrapper_breakpoint' => 
+  'wrapper_breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'col' => 3,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'col' => 3,
     ),
@@ -444,14 +449,14 @@ $separator = upfront_create_region(
 ),
 			array (
   'row' => 25,
-  'breakpoint' => 
+  'breakpoint' =>
   (array)(array(
-     'tablet' => 
+     'tablet' =>
     (array)(array(
        'edited' => false,
        'col' => 24,
     )),
-     'mobile' => 
+     'mobile' =>
     (array)(array(
        'edited' => false,
        'col' => 24,
