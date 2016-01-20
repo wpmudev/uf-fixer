@@ -20,17 +20,17 @@ $ltb_subscribe15 = upfront_create_region(
   'lightbox_color' => 'rgb(214, 230, 240)',
   'background_type' => '',
   'delete' => false,
-  'breakpoint' =>
+  'breakpoint' => 
   (array)(array(
-     'tablet' =>
+     'tablet' => 
     (array)(array(
        'edited' => false,
     )),
-     'mobile' =>
+     'mobile' => 
     (array)(array(
        'edited' => false,
     )),
-     'custom-1410783666947' =>
+     'custom-1410783666947' => 
     (array)(array(
        'edited' => false,
     )),
@@ -55,11 +55,11 @@ $ltb_subscribe15->add_element("PlainTxt", array (
   'margin_bottom' => '0',
   'class' => 'module-1444288191571-1836',
   'id' => 'module-1444288191571-1836',
-  'options' =>
+  'options' => 
   array (
     'view_class' => 'PlainTxtView',
-    'usingNewAppearance' => true,
     'id_slug' => 'plain_text',
+    'usingNewAppearance' => true,
     'content' => '<h3 class="" style="text-align: center;">Subscribe to our<br>​e-newsletter</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1444288191570-1689',
@@ -74,9 +74,9 @@ $ltb_subscribe15->add_element("PlainTxt", array (
     'anchor' => '',
     'top_padding_use' => true,
     'top_padding_num' => 40,
-    'breakpoint' =>
+    'breakpoint' => 
     (array)(array(
-       'tablet' =>
+       'tablet' => 
       (array)(array(
          'top_padding_use' => true,
          'top_padding_num' => 20,
@@ -100,16 +100,16 @@ $ltb_subscribe15->add_element("PlainTxt", array (
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1444288315227-1721',
   'new_line' => true,
-  'wrapper_breakpoint' =>
+  'wrapper_breakpoint' => 
   array (
-    'tablet' =>
+    'tablet' => 
     array (
       'edited' => true,
       'col' => 8,
       'order' => 0,
       'clear' => true,
     ),
-    'mobile' =>
+    'mobile' => 
     array (
       'edited' => false,
       'col' => 7,
@@ -117,9 +117,9 @@ $ltb_subscribe15->add_element("PlainTxt", array (
       'clear' => true,
     ),
   ),
-  'breakpoint' =>
+  'breakpoint' => 
   array (
-    'tablet' =>
+    'tablet' => 
     array (
       'edited' => true,
       'left' => 0,
@@ -128,7 +128,7 @@ $ltb_subscribe15->add_element("PlainTxt", array (
       'top' => 0,
       'row' => 17,
     ),
-    'mobile' =>
+    'mobile' => 
     array (
       'edited' => false,
       'left' => 0,
@@ -147,14 +147,14 @@ $ltb_subscribe15->add_element("Uspacer", array (
   'margin_bottom' => '0',
   'class' => 'module-1449479270-29443 upfront-module-spacer',
   'id' => 'module-1449479270-29443',
-  'options' =>
+  'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'usingNewAppearance' => true,
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-57049',
     'preset' => 'default',
   ),
@@ -165,23 +165,23 @@ $ltb_subscribe15->add_element("Uspacer", array (
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1449479270-92984',
   'new_line' => true,
-  'wrapper_breakpoint' =>
+  'wrapper_breakpoint' => 
   array (
-    'tablet' =>
+    'tablet' => 
     array (
       'clear' => true,
       'order' => 2,
       'edited' => true,
       'col' => 5,
     ),
-    'mobile' =>
+    'mobile' => 
     array (
       'col' => 5,
     ),
   ),
-  'breakpoint' =>
+  'breakpoint' => 
   array (
-    'tablet' =>
+    'tablet' => 
     array (
       'hide' => 0,
       'left' => 0,
@@ -200,20 +200,20 @@ $ltb_subscribe15->add_element("Code", array (
   'margin_bottom' => '0',
   'class' => 'module-1444101653187-1046',
   'id' => 'module-1444101653187-1046',
-  'options' =>
+  'options' => 
   array (
     'type' => 'CodeModel',
     'view_class' => 'CodeView',
-    'usingNewAppearance' => true,
     'class' => 'c24 upfront-code_element-object',
     'has_settings' => 0,
     'id_slug' => 'upfront-code_element',
-    'fallbacks' =>
+    'fallbacks' => 
     (array)(array(
        'markup' => '<b>Enter your markup here...</b>',
        'style' => '/* Your styles here */',
        'script' => '/* Your code here */',
     )),
+    'usingNewAppearance' => true,
     'element_id' => 'upfront-code_element-object-1444101653184-1490',
     'row' => 44,
     'code_selection_type' => 'Create',
@@ -259,9 +259,9 @@ $ltb_subscribe15->add_element("Code", array (
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
     'preset' => 'default',
-    'breakpoint' =>
+    'breakpoint' => 
     (array)(array(
-       'tablet' =>
+       'tablet' => 
       (array)(array(
          'row' => 34,
       )),
@@ -274,16 +274,16 @@ $ltb_subscribe15->add_element("Code", array (
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1444102317966-1645',
   'new_line' => true,
-  'wrapper_breakpoint' =>
+  'wrapper_breakpoint' => 
   array (
-    'tablet' =>
+    'tablet' => 
     array (
       'edited' => true,
       'col' => 8,
       'order' => 1,
       'clear' => true,
     ),
-    'mobile' =>
+    'mobile' => 
     array (
       'edited' => false,
       'col' => 7,
@@ -291,9 +291,9 @@ $ltb_subscribe15->add_element("Code", array (
       'clear' => true,
     ),
   ),
-  'breakpoint' =>
+  'breakpoint' => 
   array (
-    'tablet' =>
+    'tablet' => 
     array (
       'edited' => true,
       'left' => 0,
@@ -302,7 +302,7 @@ $ltb_subscribe15->add_element("Code", array (
       'top' => 0,
       'row' => 34,
     ),
-    'mobile' =>
+    'mobile' => 
     array (
       'edited' => false,
       'left' => 0,
@@ -321,14 +321,14 @@ $ltb_subscribe15->add_element("Uspacer", array (
   'margin_bottom' => '0',
   'class' => 'module-1452687652681-1265 upfront-module-spacer',
   'id' => 'module-1452687652681-1265',
-  'options' =>
+  'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'usingNewAppearance' => true,
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1452687652681-1517',
     'preset' => 'default',
   ),
@@ -338,23 +338,23 @@ $ltb_subscribe15->add_element("Uspacer", array (
   'hide' => 1,
   'toggle_hide' => 0,
   'wrapper_id' => 'wrapper-1452687652681-1482',
-  'wrapper_breakpoint' =>
+  'wrapper_breakpoint' => 
   array (
-    'tablet' =>
+    'tablet' => 
     array (
       'edited' => true,
       'clear' => false,
       'order' => 3,
       'col' => 1,
     ),
-    'mobile' =>
+    'mobile' => 
     array (
       'col' => 1,
     ),
   ),
-  'breakpoint' =>
+  'breakpoint' => 
   array (
-    'tablet' =>
+    'tablet' => 
     array (
       'edited' => true,
       'hide' => 0,
