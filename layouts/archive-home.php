@@ -1159,7 +1159,7 @@ $region_14->add_element("PlainTxt", array (
        'custom-1410783666947' => 
       (array)(array(
          'row' => 67,
-         'theme_style' => 'u-slider-text-tablet',
+         'theme_style' => '',
       )),
     )),
     'top_padding_use' => true,
@@ -1716,7 +1716,7 @@ $region_14->add_element("Button", array (
        'target' => '_self',
     )),
     'currentpreset' => false,
-    'theme_style' => '_default',
+    'theme_style' => '',
     'row' => 11,
     'is_edited' => true,
     'breakpoint' => 
@@ -6687,7 +6687,7 @@ $quote->add_element("PlainTxt", array (
       )),
        'custom-1410783666947' => 
       (array)(array(
-         'theme_style' => 'u-sub-heading-mobile',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
@@ -7030,7 +7030,7 @@ $quote->add_element("PlainTxt", array (
        'custom-1410783666947' => 
       (array)(array(
          'row' => 11,
-         'theme_style' => 'u-sub-heading-mobile',
+         'theme_style' => '',
       )),
        'tablet' => 
       (array)(array(
@@ -7308,7 +7308,7 @@ Lorr sit amet, consectetur adipiscing elit. Phasellus consequat, tortor id males
        'custom-1410783666947' => 
       (array)(array(
          'row' => 24,
-         'theme_style' => 'u-paragraph-mobile',
+         'theme_style' => '',
       )),
     )),
     'top_padding_num' => '15',
@@ -7540,7 +7540,7 @@ $quote->add_element("PlainTxt", array (
        'custom-1410783666947' => 
       (array)(array(
          'row' => 11,
-         'theme_style' => 'u-sub-heading-mobile',
+         'theme_style' => '',
       )),
        'tablet' => 
       (array)(array(
@@ -7812,7 +7812,7 @@ $quote->add_element("PlainTxt", array (
        'custom-1410783666947' => 
       (array)(array(
          'row' => 23,
-         'theme_style' => 'u-paragraph-mobile',
+         'theme_style' => '',
       )),
     )),
     'top_padding_num' => '15',
@@ -8074,7 +8074,7 @@ $blog_header->add_element("PlainTxt", array (
     (array)(array(
        'custom-1410783666947' => 
       (array)(array(
-         'theme_style' => 'u-sub-heading-mobile',
+         'theme_style' => '',
       )),
        'tablet' => 
       (array)(array(
@@ -8287,7 +8287,7 @@ $blog_header->add_element("PlainTxt", array (
     (array)(array(
        'custom-1410783666947' => 
       (array)(array(
-         'theme_style' => 'u-heading-mobile',
+         'theme_style' => '',
       )),
        'tablet' => 
       (array)(array(
@@ -8577,7 +8577,7 @@ $blog_items->add_element("Posts", array (
     (array)(array(
        'custom-1410783666947' => 
       (array)(array(
-         'theme_style' => 'u-posts-home-big-tablet',
+         'theme_style' => '',
       )),
        'tablet' => 
       (array)(array(
@@ -8803,7 +8803,7 @@ $subscribe->add_element("PlainTxt", array (
     (array)(array(
        'custom-1410783666947' => 
       (array)(array(
-         'theme_style' => 'u-sub-heading-mobile',
+         'theme_style' => '',
       )),
        'tablet' => 
       (array)(array(
@@ -9052,7 +9052,7 @@ $subscribe->add_element("Button", array (
        'target' => '_self',
     )),
     'currentpreset' => false,
-    'theme_style' => '_default',
+    'theme_style' => '',
     'row' => 14,
     'is_edited' => true,
     'breakpoint' => 
@@ -10910,7 +10910,7 @@ $about->add_element("PlainTxt", array (
     (array)(array(
        'custom-1410783666947' => 
       (array)(array(
-         'theme_style' => 'u-sub-heading-mobile',
+         'theme_style' => '',
       )),
        'tablet' => 
       (array)(array(
