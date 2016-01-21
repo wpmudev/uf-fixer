@@ -206,6 +206,7 @@ $region_14->add_element("Uimage", array (
     'top_padding_use' => true,
     'top_padding_num' => 45,
     'bottom_padding_num' => '15',
+    'padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -386,13 +387,13 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 1563,
+         'menu-item-db-id' => 1575,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Services',
          'menu-item-url' => '#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1563',
+         'menu-item-object-id' => '1575',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -404,13 +405,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 1564,
+         'menu-item-db-id' => 1576,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Get a Quote',
          'menu-item-url' => '#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1564',
+         'menu-item-object-id' => '1576',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -422,13 +423,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 1565,
+         'menu-item-db-id' => 1577,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Blog',
          'menu-item-url' => '#blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1565',
+         'menu-item-object-id' => '1577',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
@@ -440,13 +441,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 1566,
+         'menu-item-db-id' => 1578,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1566',
+         'menu-item-object-id' => '1578',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
@@ -458,13 +459,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 1567,
+         'menu-item-db-id' => 1579,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Contact Us',
          'menu-item-url' => '#contact',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1567',
+         'menu-item-object-id' => '1579',
          'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 
@@ -3203,6 +3204,7 @@ $region_13->add_element("Uimage", array (
     'top_padding_use' => 'yes',
     'top_padding_slider' => '10',
     'lock_padding' => '',
+    'padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3900,6 +3902,7 @@ $region_13->add_element("Uimage", array (
     'top_padding_use' => 'yes',
     'top_padding_slider' => '10',
     'lock_padding' => '',
+    'padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -4552,6 +4555,7 @@ $region_13->add_element("Uimage", array (
     'top_padding_use' => 'yes',
     'top_padding_slider' => '10',
     'lock_padding' => '',
+    'padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -5245,6 +5249,7 @@ $region_13->add_element("Uimage", array (
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
     'lock_padding' => '',
+    'padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -5905,6 +5910,7 @@ $region_13->add_element("Uimage", array (
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
     'lock_padding' => '',
+    'padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -7707,6 +7713,7 @@ $quote->add_element("Uimage", array (
          'row' => 27,
       )),
     )),
+    'padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -9068,6 +9075,7 @@ $subscribe->add_element("Button", array (
     'top_padding_use' => true,
     'top_padding_num' => 55,
     'bottom_padding_num' => '15',
+    'padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -10306,6 +10314,7 @@ $about->add_element("Uimage", array (
     )),
     'lock_padding' => '',
     'top_padding_slider' => '45',
+    'padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,

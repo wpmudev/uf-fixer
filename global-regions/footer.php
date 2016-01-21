@@ -282,6 +282,7 @@ $footer->add_element("Uimage", array (
     'top_padding_use' => true,
     'top_padding_num' => 25,
     'bottom_padding_num' => '15',
+    'padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,

@@ -266,6 +266,7 @@ $ltb_subscribe15->add_element("Code", array (
          'row' => 34,
       )),
     )),
+    'padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
