@@ -3,7 +3,7 @@
     display: block;
     font-size: 15px;
     line-height: 1.667em;
-    padding: 10px 15px !important;
+    padding: 10px 15px;
 }
 /* top cover */
 .uslide.uslide-topCover .uslide-caption {
