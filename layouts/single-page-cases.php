@@ -71,7 +71,7 @@ $cases_region->add_element("PlainTxt", array (
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
-    'theme_style' => 'u-sub-heading',
+    'theme_style' => '',
     'top_padding_use' => true,
     'top_padding_num' => 80,
     'bottom_padding_num' => '15',

@@ -387,13 +387,13 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 1575,
+         'menu-item-db-id' => 1592,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Services',
          'menu-item-url' => '#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1575',
+         'menu-item-object-id' => '1592',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -405,13 +405,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 1576,
+         'menu-item-db-id' => 1593,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Get a Quote',
          'menu-item-url' => '#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1576',
+         'menu-item-object-id' => '1593',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -423,13 +423,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 1577,
+         'menu-item-db-id' => 1594,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Blog',
          'menu-item-url' => '#blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1577',
+         'menu-item-object-id' => '1594',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
@@ -441,13 +441,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 1578,
+         'menu-item-db-id' => 1595,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1578',
+         'menu-item-object-id' => '1595',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
@@ -459,13 +459,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 1579,
+         'menu-item-db-id' => 1596,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Contact Us',
          'menu-item-url' => '#contact',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1579',
+         'menu-item-object-id' => '1596',
          'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 
@@ -516,7 +516,7 @@ $region_14->add_element("Unewnavigation", array (
       )),
        'tablet' => 
       (array)(array(
-         'theme_style' => '_default',
+         'theme_style' => '',
          'width' => 570,
          'burger_menu' => 'yes',
          'burger_alignment' => 'right',
@@ -535,7 +535,7 @@ $region_14->add_element("Unewnavigation", array (
          'burger_over' => 'over',
          'width' => 315,
          'row' => 9,
-         'theme_style' => '_default',
+         'theme_style' => '',
          'menu_style' => 'horizontal',
          'menu_alignment' => 'right',
          'is_floating' => 'no',
@@ -10466,7 +10466,7 @@ $about->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<p class="" style="text-align: center;font-size: 18px;font-weight: bold;font-family: tahoma;">
+    'content' => '<p class="" style="text-align: center;">
 	_____</p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1419534285538-1065',
@@ -10494,10 +10494,10 @@ $about->add_element("PlainTxt", array (
     'top_padding_use' => 'yes',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'big-dash-m',
-    'use_padding' => true,
+    'preset' => 'dash',
+    'use_padding' => '',
     'lock_padding' => '',
-    'padding_slider' => false,
+    'padding_slider' => 'false',
     'padding_number' => 0,
     'left_padding_num' => '15',
     'right_padding_num' => '15',
@@ -10509,7 +10509,7 @@ $about->add_element("PlainTxt", array (
       )),
        'desktop' => 
       (array)(array(
-         'preset' => 'big-dash-m',
+         'preset' => 'dash',
       )),
     )),
     'top_padding_slider' => '15',
