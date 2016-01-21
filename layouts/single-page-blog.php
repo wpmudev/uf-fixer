@@ -363,7 +363,7 @@ $region_5->add_element("Posts", array (
     (array)(array(
        'custom-1410783666947' =>
       (array)(array(
-         'theme_style' => 'u-posts-grid-big-tablet',
+         'theme_style' => '',
       )),
        'tablet' =>
       (array)(array(
