@@ -37,6 +37,13 @@ $ltb_subscribe15 = upfront_create_region(
   )),
   'use_padding' => 0,
   'version' => '1.0.0',
+  'bg_padding_type' => 'equal',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => 0,
+  'bottom_bg_padding_num' => 0,
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
@@ -52,6 +59,7 @@ $ltb_subscribe15->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
+    'usingNewAppearance' => true,
     'content' => '<h3 class="" style="text-align: center;">Subscribe to our<br>​e-newsletter</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1444288191570-1689',
@@ -72,9 +80,18 @@ $ltb_subscribe15->add_element("PlainTxt", array (
       (array)(array(
          'top_padding_use' => true,
          'top_padding_num' => 20,
+         'row' => 17,
       )),
     )),
     'bottom_padding_num' => '15',
+    'preset' => 'default',
+    'theme_style' => '',
+    'use_padding' => true,
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -87,8 +104,8 @@ $ltb_subscribe15->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 6,
+      'edited' => true,
+      'col' => 8,
       'order' => 0,
       'clear' => true,
     ),
@@ -106,9 +123,10 @@ $ltb_subscribe15->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 6,
+      'col' => 8,
       'order' => 0,
       'top' => 0,
+      'row' => 17,
     ),
     'mobile' => 
     array (
@@ -117,55 +135,6 @@ $ltb_subscribe15->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 0,
       'top' => 0,
-    ),
-  ),
-));
-
-$ltb_subscribe15->add_element("Uspacer", array (
-  'columns' => '6',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1449479270-59733',
-  'id' => 'module-1449479270-59733',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1449479270-27726',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 1,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1449479270-67557',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'clear' => false,
-      'order' => 0,
-      'edited' => true,
-      'col' => 6,
-    ),
-    'mobile' => 
-    array (
-      'col' => 6,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'hide' => 0,
-      'left' => 0,
-      'col' => 6,
-      'edited' => true,
     ),
   ),
 ));
@@ -176,7 +145,7 @@ $ltb_subscribe15->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-29443',
+  'class' => 'module-1449479270-29443 upfront-module-spacer',
   'id' => 'module-1449479270-29443',
   'options' => 
   array (
@@ -185,7 +154,9 @@ $ltb_subscribe15->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-57049',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -199,13 +170,13 @@ $ltb_subscribe15->add_element("Uspacer", array (
     'tablet' => 
     array (
       'clear' => true,
-      'order' => 0,
+      'order' => 2,
       'edited' => true,
-      'col' => 2,
+      'col' => 5,
     ),
     'mobile' => 
     array (
-      'col' => 2,
+      'col' => 5,
     ),
   ),
   'breakpoint' => 
@@ -214,8 +185,9 @@ $ltb_subscribe15->add_element("Uspacer", array (
     array (
       'hide' => 0,
       'left' => 0,
-      'col' => 2,
+      'col' => 5,
       'edited' => true,
+      'top' => 0,
     ),
   ),
 ));
@@ -241,6 +213,7 @@ $ltb_subscribe15->add_element("Code", array (
        'style' => '/* Your styles here */',
        'script' => '/* Your code here */',
     )),
+    'usingNewAppearance' => true,
     'element_id' => 'upfront-code_element-object-1444101653184-1490',
     'row' => 44,
     'code_selection_type' => 'Create',
@@ -249,7 +222,7 @@ $ltb_subscribe15->add_element("Code", array (
 <input type="email" id="user-email" name="user-email" placeholder="Email address">
 <input type="submit" value="Subscribe">
 </form>',
-    'style' => 'label {
+    'style' => '.newsletter-form label {
     color: #ufc1;
     font-family: \'Raleway\', Arial, sans-serif;
     font-weight: 400;
@@ -259,18 +232,18 @@ $ltb_subscribe15->add_element("Code", array (
     margin-bottom: 10px;
     display: block;
 }
-input {
+.newsletter-form input {
     margin: 0 0 2px;
 }
-input[type="text"], input[type="email"] {
+.newsletter-form input[type="text"], .newsletter-form input[type="email"] {
     border: 1px solid transparent;
     background: #f7f7f7;
 }
-input[type="text"]:focus, input[type="email"]:focus {
-    border-color: #a4d0dc!important;
+.newsletter-form input[type="text"]:focus, .newsletter-form input[type="email"]:focus {
+    border-color: #a4d0dc !important;
     background: #ffffff;
 }
-input[type="submit"] {
+.newsletter-form input[type="submit"] {
     background: #a4d0dc;
     border: none;
     color: #ufc0;
@@ -278,13 +251,22 @@ input[type="submit"] {
     width:100%;
     margin-top:2px;
 }
-input[type="submit"]:hover {
+.newsletter-form input[type="submit"]:hover {
     background: #ufc1;
     border: none;
 }',
     'script' => '/* Your code here */',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'default',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 34,
+      )),
+    )),
+    'padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -297,9 +279,9 @@ input[type="submit"]:hover {
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 6,
-      'order' => 3,
+      'edited' => true,
+      'col' => 8,
+      'order' => 1,
       'clear' => true,
     ),
     'mobile' => 
@@ -314,11 +296,12 @@ input[type="submit"]:hover {
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
-      'col' => 6,
+      'col' => 8,
       'order' => 0,
       'top' => 0,
+      'row' => 34,
     ),
     'mobile' => 
     array (
@@ -332,13 +315,13 @@ input[type="submit"]:hover {
 ));
 
 $ltb_subscribe15->add_element("Uspacer", array (
-  'columns' => '2',
+  'columns' => '1',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-43570',
-  'id' => 'module-1449479270-43570',
+  'class' => 'module-1452687652681-1265 upfront-module-spacer',
+  'id' => 'module-1452687652681-1265',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -346,36 +329,38 @@ $ltb_subscribe15->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1449479270-64784',
+    'usingNewAppearance' => true,
+    'element_id' => 'spacer-object-1452687652681-1517',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 1,
   'hide' => 1,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1449479270-59608',
+  'wrapper_id' => 'wrapper-1452687652681-1482',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'clear' => false,
-      'order' => 0,
       'edited' => true,
-      'col' => 2,
+      'clear' => false,
+      'order' => 3,
+      'col' => 1,
     ),
     'mobile' => 
     array (
-      'col' => 2,
+      'col' => 1,
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
+      'edited' => true,
       'hide' => 0,
       'left' => 0,
-      'col' => 2,
-      'edited' => true,
+      'col' => 1,
     ),
   ),
 ));

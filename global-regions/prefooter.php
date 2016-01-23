@@ -11,7 +11,7 @@ $prefooter = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 49,
+  'row' => 20,
   'background_type' => 'color',
   'nav_region' => '',
   'background_color' => 'rgba(51,51,51,1)',
@@ -20,13 +20,13 @@ $prefooter = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 39,
+       'row' => 5,
        'background_type' => 'color',
     )),
      'mobile' => 
     (array)(array(
        'edited' => true,
-       'row' => 41,
+       'row' => 14,
        'background_type' => 'color',
     )),
      'custom-1410783666947' => 
@@ -34,6 +34,7 @@ $prefooter = upfront_create_region(
        'edited' => true,
        'row' => 77,
     )),
+     'current_property' => 'background_type',
   )),
   'use_padding' => 0,
   'sub_regions' => 
@@ -41,6 +42,13 @@ $prefooter = upfront_create_region(
     0 => '',
   ),
   'version' => '1.0.0',
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '30',
+  'bottom_bg_padding_num' => '30',
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
@@ -50,7 +58,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-54179',
+  'class' => 'module-1449479270-54179 upfront-module-spacer',
   'id' => 'module-1449479270-54179',
   'options' => 
   array (
@@ -59,7 +67,9 @@ $prefooter->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-8747',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -93,7 +103,8 @@ $prefooter->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
-    'content' => '<h3 class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Spead the word.&nbsp;<br>​Share Fixer with friends.</span></h3><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><div class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><a target="_blank" rel="external" href="http://facebook.com"><span style="color: rgb(255, 255, 255);" rel="color: rgb(255, 255, 255);" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color: rgb(255, 255, 255);"><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​<span class="uf_font_icon" style="font-size: 34px; top: 0px;" rel="font-size: 34px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;">o</span></span></span></a>&nbsp; &nbsp;<a target="_blank" href="http://twitter.com"><span style="color:rgb(86, 86, 86)" rel="color:rgb(86, 86, 86)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(86, 86, 86)"><span class="redactor-invisible-space upfront_theme_color_0" style="" rel="" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space upfront_theme_color_0">​<span class="uf_font_icon" style="font-size: 34px; top: 0px;" rel="font-size: 34px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;">p</span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​</span></span></span></a>&nbsp; &nbsp;<a target="_blank" href="http://plus.google.com"><span style="" rel="" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(86, 86, 86)" class="upfront_theme_color_0" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 34px; top: 0px;" rel="font-size: 34px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;">q</span></span></a>&nbsp; &nbsp;<a target="_blank" href="http://pinterest.com"><span style="" rel="" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(86, 86, 86)" class="upfront_theme_color_0" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 34px; top: 0px;" rel="font-size: 34px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;">r</span></span></a></span></div></span></span><div class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><a target="_blank" href="http://pinterest.com"><span style="color:rgb(86, 86, 86)" rel="color:rgb(86, 86, 86)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color:rgb(86, 86, 86)"><span class="uf_font_icon" style="font-size: 34px; top: 0px;" rel="font-size: 34px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;"></span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​</span></span></a></span></div><div class=""><span class="" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0" style="color:rgb(86, 86, 86)" rel="color:rgb(86, 86, 86)" data-redactor-style="color:rgb(86, 86, 86)"><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space"></span></span></div>',
+    'usingNewAppearance' => true,
+    'content' => '<div class="plain-text-container"><h3 class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Spead the word. <br>​Share Fixer with friends.</span></h3><p class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span rel="color: rgb(255, 255, 255);" data-verified="redactor" style="color: rgb(255, 255, 255);" data-redactor-tag="span" data-redactor-style="color: rgb(255, 255, 255);"><span data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space"><a target="_blank" rel="external" href="http://facebook.com/">​<span class="uf_font_icon" rel="font-size: 34px; top: 0px;" data-verified="redactor" style="font-size: 34px; top: 0px;" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;"><span class="upfront_theme_color_0">o</span></span><span class="redactor-invisible-space">​</span></a>&nbsp;</span></span> <a target="_blank" href="http://twitter.com/"><span rel="color:rgb(86, 86, 86)" data-verified="redactor" style="color:rgb(86, 86, 86)" data-redactor-tag="span" data-redactor-style="color:rgb(86, 86, 86)"><span rel="" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space upfront_theme_color_0">​<span class="uf_font_icon" rel="font-size: 34px; top: 0px;" data-verified="redactor" style="font-size: 34px; top: 0px;" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">p</span></span></span></span></a>&nbsp;&nbsp;<span rel="" data-verified="redactor" class="upfront_theme_color_0" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><a target="_blank" href="http://plus.google.com/"><span class="uf_font_icon" rel="font-size: 34px; top: 0px;" data-verified="redactor" style="font-size: 34px; top: 0px;" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;"></span><span class="upfront_theme_color_0"><span class="uf_font_icon" rel="font-size: 34px; top: 0px;" data-verified="redactor" style="font-size: 34px; top: 0px;" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;">q</span><span class="redactor-invisible-space">​</span></span><span class="redactor-invisible-space"></span></a>&nbsp;</span> <a target="_blank" href="http://pinterest.com/"><span rel="" data-verified="redactor" class="upfront_theme_color_0" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" rel="font-size: 34px; top: 0px;" data-verified="redactor" style="font-size: 34px; top: 0px;" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;">r</span></span></a></span></p></div>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1406205224243-1348',
     'class' => 'c24 upfront-plain_txt',
@@ -103,15 +114,15 @@ $prefooter->add_element("PlainTxt", array (
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
-    'theme_style' => 'uf-heading-footer',
+    'theme_style' => '',
     'anchor' => '',
     'row' => 35,
     'breakpoint' => 
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 41,
-         'theme_style' => 'text-center',
+         'row' => 13,
+         'theme_style' => '',
          'top_padding_use' => true,
          'top_padding_num' => 50,
       )),
@@ -122,15 +133,38 @@ $prefooter->add_element("PlainTxt", array (
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'text-center',
-         'row' => 27,
+         'theme_style' => '',
+         'row' => 9,
          'top_padding_use' => true,
          'top_padding_num' => 35,
       )),
+       'current_property' => 'use_padding',
     )),
     'top_padding_use' => true,
     'top_padding_num' => 55,
     'bottom_padding_num' => '15',
+    'preset' => 'uf-heading-footer-m',
+    'use_padding' => '',
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'preset' => 'footer-center-no-bottom-space',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'footer-center-no-bottom-space',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'uf-heading-footer-m',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -171,7 +205,7 @@ $prefooter->add_element("PlainTxt", array (
       'col' => 12,
       'order' => 0,
       'top' => 0,
-      'row' => 34,
+      'row' => 13,
     ),
     'mobile' => 
     array (
@@ -180,7 +214,7 @@ $prefooter->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 0,
       'top' => 0,
-      'row' => 23,
+      'row' => 9,
     ),
     'custom-1410783666947' => 
     array (
@@ -212,10 +246,12 @@ $prefooter->add_group(array (
   'use_padding' => 0,
   'background_type' => 'color',
   'anchor' => '',
-  'top_padding_use' => true,
-  'top_padding_num' => 45,
+  'top_padding_use' => 'yes',
+  'top_padding_num' => '45',
   'version' => '1.0.0',
   'bottom_padding_num' => '15',
+  'lock_padding' => '',
+  'top_padding_slider' => '45',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -244,6 +280,7 @@ $prefooter->add_group(array (
       'top' => 0,
       'row' => 4,
       'background_color' => 'rgba(137,77,77,0)',
+      'hide' => 1,
     ),
     'mobile' => 
     array (
@@ -252,6 +289,7 @@ $prefooter->add_group(array (
       'col' => 7,
       'order' => 0,
       'top' => 0,
+      'hide' => 1,
     ),
   ),
 ));
@@ -324,10 +362,12 @@ $prefooter->add_element("Uimage", array (
        'url' => '',
        'target' => false,
     )),
+    'usingNewAppearance' => true,
     'element_id' => 'image-1444287563892-1160',
     'row' => 6,
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -388,6 +428,7 @@ $prefooter->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
+    'usingNewAppearance' => true,
     'content' => '<h3 class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"></span><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Get<br>a quote</span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1430987622020-1582',
@@ -402,6 +443,14 @@ $prefooter->add_element("PlainTxt", array (
     'anchor' => '',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'default',
+    'theme_style' => '',
+    'use_padding' => false,
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -463,7 +512,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-99457',
+  'class' => 'module-1449479270-99457 upfront-module-spacer',
   'id' => 'module-1449479270-99457',
   'options' => 
   array (
@@ -472,7 +521,9 @@ $prefooter->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-39483',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -513,7 +564,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-63650',
+  'class' => 'module-1449479270-63650 upfront-module-spacer',
   'id' => 'module-1449479270-63650',
   'options' => 
   array (
@@ -522,7 +573,9 @@ $prefooter->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-33523',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -606,6 +659,7 @@ $prefooter->add_group(array (
       'order' => 0,
       'top' => 0,
       'background_color' => 'rgba(137,77,77,0)',
+      'hide' => 1,
     ),
     'mobile' => 
     array (
@@ -614,6 +668,7 @@ $prefooter->add_group(array (
       'col' => 7,
       'order' => 0,
       'top' => 0,
+      'hide' => 1,
     ),
   ),
 ));
@@ -624,7 +679,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-47105',
+  'class' => 'module-1449479270-47105 upfront-module-spacer',
   'id' => 'module-1449479270-47105',
   'options' => 
   array (
@@ -633,7 +688,9 @@ $prefooter->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-13967',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -675,7 +732,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-46231',
+  'class' => 'module-1449479270-46231 upfront-module-spacer',
   'id' => 'module-1449479270-46231',
   'options' => 
   array (
@@ -684,7 +741,9 @@ $prefooter->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-22431',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -788,10 +847,12 @@ $prefooter->add_element("Uimage", array (
        'url' => '',
        'target' => false,
     )),
+    'usingNewAppearance' => true,
     'element_id' => 'image-1444287547880-1826',
     'row' => 6,
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -847,7 +908,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-37579',
+  'class' => 'module-1449479270-37579 upfront-module-spacer',
   'id' => 'module-1449479270-37579',
   'options' => 
   array (
@@ -856,7 +917,9 @@ $prefooter->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-81895',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -897,7 +960,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-36423',
+  'class' => 'module-1449479270-36423 upfront-module-spacer',
   'id' => 'module-1449479270-36423',
   'options' => 
   array (
@@ -906,7 +969,9 @@ $prefooter->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-14873',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -947,7 +1012,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-44170',
+  'class' => 'module-1449479270-44170 upfront-module-spacer',
   'id' => 'module-1449479270-44170',
   'options' => 
   array (
@@ -956,7 +1021,9 @@ $prefooter->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-27036',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1004,6 +1071,7 @@ $prefooter->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
+    'usingNewAppearance' => true,
     'content' => '<h3 class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Call us now:<br>1300 Fixer</span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1430988007972-1396',
@@ -1032,6 +1100,8 @@ $prefooter->add_element("PlainTxt", array (
     'row' => 15,
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'default',
+    'padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1097,7 +1167,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-93807',
+  'class' => 'module-1449479270-93807 upfront-module-spacer',
   'id' => 'module-1449479270-93807',
   'options' => 
   array (
@@ -1106,7 +1176,9 @@ $prefooter->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-66033',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1147,7 +1219,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-7985',
+  'class' => 'module-1449479270-7985 upfront-module-spacer',
   'id' => 'module-1449479270-7985',
   'options' => 
   array (
@@ -1156,7 +1228,9 @@ $prefooter->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-39937',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1197,7 +1271,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-40517',
+  'class' => 'module-1449479270-40517 upfront-module-spacer',
   'id' => 'module-1449479270-40517',
   'options' => 
   array (
@@ -1206,7 +1280,9 @@ $prefooter->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-63815',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1233,7 +1309,7 @@ $prefooter->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-84356',
+  'class' => 'module-1449479270-84356 upfront-module-spacer',
   'id' => 'module-1449479270-84356',
   'options' => 
   array (
@@ -1242,7 +1318,9 @@ $prefooter->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-21453',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,

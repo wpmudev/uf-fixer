@@ -50,7 +50,7 @@ $footer->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-28439',
+  'class' => 'module-1449479270-28439 upfront-module-spacer',
   'id' => 'module-1449479270-28439',
   'options' => 
   array (
@@ -59,7 +59,9 @@ $footer->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-79312',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -87,7 +89,7 @@ $footer->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-13414',
+  'class' => 'module-1449479270-13414 upfront-module-spacer',
   'id' => 'module-1449479270-13414',
   'options' => 
   array (
@@ -96,7 +98,9 @@ $footer->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-75890',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -137,7 +141,7 @@ $footer->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-95648',
+  'class' => 'module-1449479270-95648 upfront-module-spacer',
   'id' => 'module-1449479270-95648',
   'options' => 
   array (
@@ -146,7 +150,9 @@ $footer->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-72732',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -249,6 +255,7 @@ $footer->add_element("Uimage", array (
        'url' => '{{upfront:home_url}}/',
        'target' => '_self',
     )),
+    'usingNewAppearance' => true,
     'element_id' => 'image-1406217409054-1200',
     'row' => 6,
     'anchor' => '',
@@ -275,6 +282,7 @@ $footer->add_element("Uimage", array (
     'top_padding_use' => true,
     'top_padding_num' => 25,
     'bottom_padding_num' => '15',
+    'padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -344,7 +352,7 @@ $footer->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-94309',
+  'class' => 'module-1449479270-94309 upfront-module-spacer',
   'id' => 'module-1449479270-94309',
   'options' => 
   array (
@@ -353,7 +361,9 @@ $footer->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-61087',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -393,7 +403,7 @@ $footer->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-60343',
+  'class' => 'module-1449479270-60343 upfront-module-spacer',
   'id' => 'module-1449479270-60343',
   'options' => 
   array (
@@ -402,7 +412,9 @@ $footer->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-34470',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -443,7 +455,7 @@ $footer->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-22685',
+  'class' => 'module-1449479270-22685 upfront-module-spacer',
   'id' => 'module-1449479270-22685',
   'options' => 
   array (
@@ -452,7 +464,9 @@ $footer->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-66492',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -492,7 +506,7 @@ $footer->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-61622',
+  'class' => 'module-1449479270-61622 upfront-module-spacer',
   'id' => 'module-1449479270-61622',
   'options' => 
   array (
@@ -501,7 +515,9 @@ $footer->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-14433',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -548,6 +564,7 @@ $footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
+    'usingNewAppearance' => true,
     'content' => '<p class="">
 	<span class="inline_color" data-verified="redactor" data-redactor-tag="span" data-redactor-class="inline_color"></span><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="inline_color" data-verified="redactor" data-redactor-tag="span" data-redactor-class="inline_color">©</span><span class="inline_color" style="color: rgb(255, 255, 255)" rel="color: rgb(255, 255, 255)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color: rgb(255, 255, 255)"> 2oo6-2015 Incsub</span></span></p>',
     'type' => 'PlainTxtModel',
@@ -560,7 +577,7 @@ $footer->add_element("PlainTxt", array (
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
-    'theme_style' => 'u-paragraph-footer',
+    'theme_style' => '',
     'anchor' => '',
     'breakpoint' => 
     (array)(array(
@@ -571,6 +588,13 @@ $footer->add_element("PlainTxt", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'u-paragraph-footer-m',
+    'use_padding' => '',
+    'lock_padding' => '',
+    'padding_slider' => 'false',
+    'padding_number' => 0,
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -639,7 +663,7 @@ $footer->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-66923',
+  'class' => 'module-1449479270-66923 upfront-module-spacer',
   'id' => 'module-1449479270-66923',
   'options' => 
   array (
@@ -648,7 +672,9 @@ $footer->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-40213',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -675,7 +701,7 @@ $footer->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-81775',
+  'class' => 'module-1449479270-81775 upfront-module-spacer',
   'id' => 'module-1449479270-81775',
   'options' => 
   array (
@@ -684,7 +710,9 @@ $footer->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-62621',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -724,7 +752,7 @@ $footer->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-40935',
+  'class' => 'module-1449479270-40935 upfront-module-spacer',
   'id' => 'module-1449479270-40935',
   'options' => 
   array (
@@ -733,7 +761,9 @@ $footer->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-1890',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -779,6 +809,7 @@ $footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
+    'usingNewAppearance' => true,
     'content' => '<p class="" style="text-align: center;">
 	<span class="inline_color" style="color: rgb(255, 255, 255)" rel="color: rgb(255, 255, 255)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color: rgb(255, 255, 255)">ABN - 58 121 227 072</span>
 </p>',
@@ -792,7 +823,7 @@ $footer->add_element("PlainTxt", array (
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
-    'theme_style' => 'u-paragraph-footer',
+    'theme_style' => '',
     'anchor' => '',
     'breakpoint' => 
     (array)(array(
@@ -811,6 +842,13 @@ $footer->add_element("PlainTxt", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'u-paragraph-footer-m',
+    'use_padding' => '',
+    'lock_padding' => '',
+    'padding_slider' => 'false',
+    'padding_number' => 0,
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -879,7 +917,7 @@ $footer->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-80148',
+  'class' => 'module-1449479270-80148 upfront-module-spacer',
   'id' => 'module-1449479270-80148',
   'options' => 
   array (
@@ -888,7 +926,9 @@ $footer->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-72704',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -934,18 +974,19 @@ $footer->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
+    'usingNewAppearance' => true,
     'content' => '<p class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><a target="_self" rel="entry" href="{{upfront:home_url}}/privacy-inner/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Terms &amp;&nbsp;Privacy</span></a></span></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1430897586849-1508',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 11,
+    'row' => 6,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
     'border_color' => 'rgb(51, 51, 51)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
-    'theme_style' => 'u-paragraph-footer-left-separator',
+    'theme_style' => '',
     'anchor' => '',
     'border' => '',
     'breakpoint' => 
@@ -962,6 +1003,24 @@ $footer->add_element("PlainTxt", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
+    'preset' => 'u-paragraph-footer-left-separator-m',
+    'use_padding' => '',
+    'lock_padding' => '',
+    'padding_slider' => 'false',
+    'padding_number' => 0,
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'preset' => 'center-no-bottom-space',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'u-paragraph-footer-left-separator-m',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1029,7 +1088,7 @@ $footer->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1449479270-99446',
+  'class' => 'module-1449479270-99446 upfront-module-spacer',
   'id' => 'module-1449479270-99446',
   'options' => 
   array (
@@ -1038,7 +1097,9 @@ $footer->add_element("Uspacer", array (
     'class' => 'c24',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-5279',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,

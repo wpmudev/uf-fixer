@@ -81,6 +81,8 @@
       array (
         'style' => 'max-height: 380px',
       ),
+      'top_padding_num' => '15',
+      'bottom_padding_num' => '15',
     ),
     'colSize' => '45',
     'date' => 
@@ -96,11 +98,15 @@
     array (
       'padding_left' => '',
       'padding_right' => '',
+      'top_padding_num' => '15',
+      'bottom_padding_num' => '15',
     ),
     'title' => 
     array (
       'theme_style' => '',
       'anchor' => '',
+      'top_padding_num' => '15',
+      'bottom_padding_num' => '15',
     ),
     'excerpt' => 
     array (
@@ -111,6 +117,8 @@
     array (
       'theme_style' => '',
       'anchor' => '',
+      'top_padding_num' => '15',
+      'bottom_padding_num' => '15',
     ),
     'author_meta_description' => 
     array (
@@ -122,10 +130,14 @@
       'theme_style' => '_default',
       'anchor' => '',
       'format' => 'M d, Y',
+      'top_padding_num' => '15',
+      'bottom_padding_num' => '15',
     ),
     'tags' => 
     array (
       'tag_separator' => '',
+      'top_padding_num' => '15',
+      'bottom_padding_num' => '15',
     ),
     'author_gravatar' => 
     array (
