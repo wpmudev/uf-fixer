@@ -321,7 +321,9 @@ $region_5->add_element("Posts", array (
     'tags_limit' => 3,
     'comment_count_hide' => 0,
     'content_length' => 120,
-    'resize_featured' => '1',
+    'resize_featured' => 
+    array (
+    ),
     'gravatar_size' => 200,
     'post-part-date_posted' => '<div class="uposts-part date_posted">
     <a href="{{permalink}}"><span class="date-day">{{date_1}}</span> <span class="date-month">{{date_2}}</span></a>

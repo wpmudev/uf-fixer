@@ -19,21 +19,21 @@
       array (
         0 => 
         array (
-          'classes' => 'c4 mt5 ml2 part-module-undefined',
-          'slug' => '',
+          'classes' => 'c4 mt5 ml2 part-module-author_gravatar',
+          'slug' => 'author_gravatar',
         ),
         1 => 
         array (
-          'classes' => 'c4 post-part ml2 mt0 part-module-author',
+          'classes' => 'c4 post-part ml2 mt1 part-module-author',
           'slug' => 'author',
         ),
         2 => 
         array (
-          'classes' => 'c4 post-part ml2 mt-1 part-module-update',
+          'classes' => 'c4 post-part ml2 mt0 part-module-update',
           'slug' => 'update',
         ),
       ),
-      'classes' => 'c6 clr part-author part-update',
+      'classes' => 'c6 clr part-author_gravatar part-author part-update',
     ),
     2 => 
     array (

@@ -8,19 +8,23 @@
 }
 #page .uf-upost-responsive .part-update {
     margin: 0;
+    overflow: hidden;
     text-align: center;
     width: 100%;
 }
-#page .uf-upost-responsive .part-author_gravatar .part-module-author_gravatar, #page .uf-upost-responsive .part-author_gravatar .part-module-author, #page .uf-upost-responsive .part-author_gravatar .part-module-update {
+#page .uf-upost-responsive .part-module-author_gravatar {
+    display: none;
+}
+#page .uf-upost-responsive .part-module-author, #page .uf-upost-responsive .part-module-update {
     margin-right: auto;
     margin-left: auto;
-}
-#page .uf-upost-responsive .upfront-postpart-author_gravatar .author_gravatar img {
-    float: none;
-    display: hidden
+    width: 100%;
 }
 #page .uf-upost-responsive .upfront-postpart-author, #page .uf-upost-responsive .upfront-postpart-update {
     text-align: center;
+}
+#page .uf-upost-responsive .part-module-author {
+    margin-top: 0;
 }
 #page .uf-upost-responsive .part-featured_image {
     margin: 0;
