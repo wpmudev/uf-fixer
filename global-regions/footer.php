@@ -566,7 +566,7 @@ $footer->add_element("PlainTxt", array (
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
     'content' => '<p class="">
-	<span class="inline_color" data-verified="redactor" data-redactor-tag="span" data-redactor-class="inline_color"></span><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="inline_color" data-verified="redactor" data-redactor-tag="span" data-redactor-class="inline_color">©</span><span class="inline_color" style="color: rgb(255, 255, 255)" rel="color: rgb(255, 255, 255)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color: rgb(255, 255, 255)"> 2oo6-2015 Incsub</span></span></p>',
+	<span class="inline_color" data-verified="redactor" data-redactor-tag="span" data-redactor-class="inline_color"></span><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="inline_color" data-verified="redactor" data-redactor-tag="span" data-redactor-class="inline_color">©</span><span class="inline_color" style="color: rgb(255, 255, 255)" rel="color: rgb(255, 255, 255)" data-verified="redactor" data-redactor-tag="span" data-redactor-style="color: rgb(255, 255, 255)"> 2oo6-2016&nbsp;Incsub</span></span></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1406217940549-1478',
     'class' => 'c24 upfront-plain_txt',
