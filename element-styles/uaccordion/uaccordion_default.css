@@ -1,7 +1,7 @@
 #page .upfront-accordion-container .upfront-accordion-wrap {
     border-bottom: none;
 }
-#page .upfront-accordion-container .accordion-panel .accordion-panel-title {
+#page .accordion-panel-title {
     border-top: none;
     border-bottom: 1px solid #ufc6;
     font-weight: 700;
