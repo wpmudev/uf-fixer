@@ -105,7 +105,7 @@ $ltb_subscribe15->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 8,
+      'col' => 12,
       'order' => 0,
       'clear' => true,
     ),
@@ -123,7 +123,7 @@ $ltb_subscribe15->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 8,
+      'col' => 12,
       'order' => 0,
       'top' => 0,
       'row' => 17,
@@ -134,59 +134,6 @@ $ltb_subscribe15->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
-      'top' => 0,
-    ),
-  ),
-));
-
-$ltb_subscribe15->add_element("Uspacer", array (
-  'columns' => '2',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1449479270-29443 upfront-module-spacer',
-  'id' => 'module-1449479270-29443',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'usingNewAppearance' => true,
-    'element_id' => 'spacer-object-1449479270-57049',
-    'preset' => 'default',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 1,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1449479270-92984',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'clear' => true,
-      'order' => 2,
-      'edited' => true,
-      'col' => 5,
-    ),
-    'mobile' => 
-    array (
-      'col' => 5,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'hide' => 0,
-      'left' => 0,
-      'col' => 5,
-      'edited' => true,
       'top' => 0,
     ),
   ),
@@ -280,7 +227,7 @@ $ltb_subscribe15->add_element("Code", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 8,
+      'col' => 12,
       'order' => 1,
       'clear' => true,
     ),
@@ -298,7 +245,7 @@ $ltb_subscribe15->add_element("Code", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 8,
+      'col' => 12,
       'order' => 0,
       'top' => 0,
       'row' => 34,
@@ -310,57 +257,6 @@ $ltb_subscribe15->add_element("Code", array (
       'col' => 7,
       'order' => 0,
       'top' => 0,
-    ),
-  ),
-));
-
-$ltb_subscribe15->add_element("Uspacer", array (
-  'columns' => '1',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1452687652681-1265 upfront-module-spacer',
-  'id' => 'module-1452687652681-1265',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'usingNewAppearance' => true,
-    'element_id' => 'spacer-object-1452687652681-1517',
-    'preset' => 'default',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 1,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1452687652681-1482',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'clear' => false,
-      'order' => 3,
-      'col' => 1,
-    ),
-    'mobile' => 
-    array (
-      'col' => 1,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'hide' => 0,
-      'left' => 0,
-      'col' => 1,
     ),
   ),
 ));

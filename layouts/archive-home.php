@@ -1,6 +1,4 @@
 <?php
-$layout_version = '1.0.0';
-
 $region_14 = upfront_create_region(
 			array (
   'name' => 'region-14',
@@ -387,13 +385,13 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 1640,
+         'menu-item-db-id' => 229581,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Services',
          'menu-item-url' => '#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1640',
+         'menu-item-object-id' => '229581',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -405,13 +403,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 1641,
+         'menu-item-db-id' => 229582,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Get a Quote',
          'menu-item-url' => '#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1641',
+         'menu-item-object-id' => '229582',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -423,13 +421,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 1642,
+         'menu-item-db-id' => 229583,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Blog',
          'menu-item-url' => '#blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1642',
+         'menu-item-object-id' => '229583',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
@@ -441,13 +439,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 1643,
+         'menu-item-db-id' => 229584,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'About',
          'menu-item-url' => '#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1643',
+         'menu-item-object-id' => '229584',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
@@ -459,13 +457,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 1644,
+         'menu-item-db-id' => 229585,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'Contact Us',
          'menu-item-url' => '#contact',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1644',
+         'menu-item-object-id' => '229585',
          'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 
@@ -872,7 +870,7 @@ $region_14->add_element("Uspacer", array (
 ));
 
 $region_14->add_element("Uspacer", array (
-  'columns' => '6',
+  'columns' => '9',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -1117,7 +1115,7 @@ $region_14->add_element("Uspacer", array (
 ));
 
 $region_14->add_element("PlainTxt", array (
-  'columns' => '17',
+  'columns' => '14',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -2569,7 +2567,7 @@ $region_13->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 6,
+      'col' => 12,
       'order' => 1,
       'clear' => true,
     ),
@@ -2593,7 +2591,7 @@ $region_13->add_element("Uimage", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 6,
+      'col' => 12,
       'order' => 18,
       'top' => 0,
       'row' => 25,
@@ -6214,58 +6212,6 @@ $region_13->add_element("PlainTxt", array (
       'left' => 1,
       'col' => 4,
       'order' => 0,
-    ),
-  ),
-  'group' => 'module-group-1433408599187-1298',
-));
-
-$region_13->add_element("Uspacer", array (
-  'columns' => '7',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1449479270-66624 upfront-module-spacer',
-  'id' => 'module-1449479270-66624',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'usingNewAppearance' => true,
-    'element_id' => 'spacer-object-1449479270-69710',
-    'preset' => 'default',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 1,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1449479270-30322',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 7,
-    ),
-    'mobile' => 
-    array (
-      'clear' => false,
-      'order' => 0,
-      'edited' => true,
-      'col' => 7,
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'mobile' => 
-    array (
-      'hide' => 0,
-      'left' => 0,
-      'col' => 7,
-      'edited' => true,
     ),
   ),
   'group' => 'module-group-1433408599187-1298',
