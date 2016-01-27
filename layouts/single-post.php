@@ -46,6 +46,13 @@ $blog_individual = upfront_create_region(
   ),
   'expand_lock' => false,
   'version' => '1.0.0',
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '90',
+  'bottom_bg_padding_num' => '90',
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
@@ -74,11 +81,12 @@ $blog_individual->add_element("PlainTxt", array (
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
-    'theme_style' => 'u-sub-heading',
+    'theme_style' => '',
     'top_padding_use' => true,
     'top_padding_num' => 95,
     'bottom_padding_num' => '15',
     'padding_slider' => '15',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -186,21 +194,21 @@ $blog_individual->add_element("ThisPost", array (
       )),
     ),
     'element_id' => 'default-post-object',
-    'theme_style' => '_default',
+    'theme_style' => '',
     'anchor' => '',
     'breakpoint' => 
     (array)(array(
        'custom-1410783666947' => 
       (array)(array(
-         'theme_style' => 'u-this_post-big-tablet',
+         'theme_style' => '',
       )),
        'tablet' => 
       (array)(array(
-         'theme_style' => 'uf-upost-responsive',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'uf-upost-responsive',
+         'theme_style' => '',
       )),
     )),
     'hide_featured_image' => '',
@@ -208,13 +216,19 @@ $blog_individual->add_element("ThisPost", array (
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
     'padding_slider' => '15',
+    'use_padding' => '',
+    'lock_padding' => '',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'default-post-module-module-module-module-module-module-module-module-wrapper',
+  'wrapper_id' => 'default-post-module-wrapper',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
@@ -282,6 +296,7 @@ $blog_individual->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449825997-1754',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -321,23 +336,45 @@ $blog_individual->add_element("Ucomment", array (
     'prepend_form' => false,
     'usingNewAppearance' => true,
     'element_id' => 'ucomment-object-1430734423685-1984',
-    'row' => 176,
+    'row' => 90,
     'anchor' => '',
     'breakpoint' => 
     (array)(array(
        'tablet' => 
       (array)(array(
-         'theme_style' => 'comment-responsive',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'comment-responsive',
+         'theme_style' => '',
       )),
+       'current_property' => 'lock_padding',
     )),
-    'theme_style' => 'uf-ucomment-responsive',
+    'theme_style' => '',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
     'padding_slider' => '15',
+    'use_padding' => '',
+    'lock_padding' => '',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'preset' => 'mobile',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'mobile',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'default',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -414,6 +451,7 @@ $blog_individual->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449825997-47962',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -435,44 +473,6 @@ $blog_individual->add_element("Uspacer", array (
 ));
 
 $regions->add($blog_individual);
-
-$separator = upfront_create_region(
-			array (
-  'name' => 'separator',
-  'title' => 'Separator',
-  'type' => 'wide',
-  'scope' => 'local',
-  'container' => 'separator',
-  'position' => 1,
-  'allow_sidebar' => true,
-),
-			array (
-  'row' => 14,
-  'breakpoint' => 
-  (array)(array(
-     'tablet' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-     'mobile' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-  )),
-  'background_type' => 'color',
-  'use_padding' => 0,
-  'sub_regions' => 
-  array (
-    0 => false,
-  ),
-  'background_color' => '#ffffff',
-  'version' => '1.0.0',
-)
-			);
-
-$regions->add($separator);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php');
 

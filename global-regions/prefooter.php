@@ -129,7 +129,7 @@ $prefooter->add_element("PlainTxt", array (
        'custom-1410783666947' => 
       (array)(array(
          'row' => 32,
-         'theme_style' => 'u-paragraph-mobile',
+         'theme_style' => '',
       )),
        'mobile' => 
       (array)(array(
