@@ -41,6 +41,13 @@ $main = upfront_create_region(
     0 => false,
   ),
   'version' => '1.0.0',
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '70',
+  'bottom_bg_padding_num' => '70',
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
@@ -97,18 +104,25 @@ $main->add_element("ThisPost", array (
     (array)(array(
        'custom-1410783666947' => 
       (array)(array(
-         'theme_style' => 'u-this_page-big-tablet',
+         'theme_style' => '',
       )),
        'tablet' => 
       (array)(array(
-         'theme_style' => 'uf-upage-responsive',
+         'theme_style' => '',
          'top_padding_use' => true,
          'top_padding_num' => 65,
+         'use_padding' => 'yes',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '0',
+         'bottom_padding_num' => '0',
+         'left_padding_num' => '',
+         'right_padding_num' => '',
       )),
        'mobile' => 
       (array)(array(
-         'theme_style' => 'uf-upage-responsive',
+         'theme_style' => '',
       )),
+       'current_property' => 'lock_padding',
     )),
     'hide_featured_image' => '1',
     'full_featured_image' => '',
@@ -117,6 +131,27 @@ $main->add_element("ThisPost", array (
     'bottom_padding_num' => '15',
     'top_padding_slider' => '105',
     'padding_slider' => '15',
+    'use_padding' => 'yes',
+    'lock_padding' => 0,
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'preset' => 'mobile',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'default',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'mobile',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => true,
@@ -176,37 +211,6 @@ $main->add_element("ThisPost", array (
 ));
 
 $regions->add($main);
-
-$separator = upfront_create_region(
-			array (
-  'name' => 'separator',
-  'title' => 'Separator',
-  'type' => 'wide',
-  'scope' => 'local',
-  'container' => 'separator',
-  'position' => 20,
-  'allow_sidebar' => true,
-),
-			array (
-  'row' => 14,
-  'breakpoint' => 
-  (array)(array(
-     'tablet' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-     'mobile' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-  )),
-  'version' => '1.0.0',
-)
-			);
-
-$regions->add($separator);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php');
 
