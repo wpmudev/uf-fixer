@@ -1,21 +1,21 @@
-.upfront-tabs-container .tabs-menu-wrapper {
+#page .upfront-tabs-container .tabs-menu-wrapper {
     overflow: hidden;
 }
-.upfront-tabs-container .tabs-menu {
+#page .upfront-tabs-container .tabs-menu {
     border-bottom: 1px solid #ufc6;
     margin: 0;
     overflow: hidden;
     padding-bottom: 10px;
 }
-.upfront-tabs-container .tabs-tab {
+#page .upfront-tabs-container .tabs-tab {
     border: 3px solid transparent;
     margin-right: 30px;
     padding: 0;
 }
-.upfront-tabs-container .tabs-tab:last-child {
+#page .upfront-tabs-container .tabs-tab:last-child {
     margin-right: 0;
 }
-.upfront-tabs-container .tabs-tab .inner-box {
+#page .upfront-tabs-container .tabs-tab .inner-box {
     font-family: 'Raleway', Arial, sans-serif;
     font-weight: 700;
     font-size: 15px;
@@ -24,14 +24,14 @@
     padding: 0;
     text-transform: uppercase;
 }
-.upfront-tabs-container .tabs-tab i {
+#page .upfront-tabs-container .tabs-tab i {
 	right: -19px;
 }
-.upfront-tabs-container .tabs-content {
+#page .upfront-tabs-container .tabs-content {
     margin: 15px 0 0;
     padding: 0;
 }
-.upfront-tabs-container .tabs-content,  .upfront-tabs-container .tabs-content p {
+#page .upfront-tabs-container .tabs-content,  .upfront-tabs-container .tabs-content p {
     color: #ufc1;
     font-family: 'Raleway', Arial, sans-serif;
     font-weight: 400;

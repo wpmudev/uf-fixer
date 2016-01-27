@@ -36,6 +36,14 @@ $ltb_subscribe15 = upfront_create_region(
     )),
   )),
   'use_padding' => 0,
+  'version' => '1.0.0',
+  'bg_padding_type' => 'equal',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => 0,
+  'bottom_bg_padding_num' => 0,
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
@@ -43,7 +51,7 @@ $ltb_subscribe15->add_element("PlainTxt", array (
   'columns' => '8',
   'margin_left' => '0',
   'margin_right' => '0',
-  'margin_top' => '5',
+  'margin_top' => '0',
   'margin_bottom' => '0',
   'class' => 'module-1444288191571-1836',
   'id' => 'module-1444288191571-1836',
@@ -51,29 +59,53 @@ $ltb_subscribe15->add_element("PlainTxt", array (
   array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
+    'usingNewAppearance' => true,
     'content' => '<h3 class="" style="text-align: center;">Subscribe to our<br>​e-newsletter</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1444288191570-1689',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
     'is_edited' => true,
-    'row' => 20,
+    'row' => 25,
     'border_style' => 'none',
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
+    'top_padding_use' => true,
+    'top_padding_num' => 40,
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'top_padding_use' => true,
+         'top_padding_num' => 20,
+         'row' => 17,
+      )),
+    )),
+    'bottom_padding_num' => '15',
+    'preset' => 'default',
+    'theme_style' => '',
+    'use_padding' => true,
+    'lock_padding' => '',
+    'padding_slider' => '15',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1444288315227-1721',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 6,
+      'edited' => true,
+      'col' => 12,
       'order' => 0,
       'clear' => true,
     ),
@@ -82,6 +114,7 @@ $ltb_subscribe15->add_element("PlainTxt", array (
       'edited' => false,
       'col' => 7,
       'order' => 0,
+      'clear' => true,
     ),
   ),
   'breakpoint' => 
@@ -90,9 +123,10 @@ $ltb_subscribe15->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 6,
+      'col' => 12,
       'order' => 0,
-      'top' => 1,
+      'top' => 0,
+      'row' => 17,
     ),
     'mobile' => 
     array (
@@ -100,6 +134,7 @@ $ltb_subscribe15->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
     ),
   ),
 ));
@@ -125,6 +160,7 @@ $ltb_subscribe15->add_element("Code", array (
        'style' => '/* Your styles here */',
        'script' => '/* Your code here */',
     )),
+    'usingNewAppearance' => true,
     'element_id' => 'upfront-code_element-object-1444101653184-1490',
     'row' => 44,
     'code_selection_type' => 'Create',
@@ -133,7 +169,7 @@ $ltb_subscribe15->add_element("Code", array (
 <input type="email" id="user-email" name="user-email" placeholder="Email address">
 <input type="submit" value="Subscribe">
 </form>',
-    'style' => 'label {
+    'style' => '.newsletter-form label {
     color: #ufc1;
     font-family: \'Raleway\', Arial, sans-serif;
     font-weight: 400;
@@ -143,18 +179,18 @@ $ltb_subscribe15->add_element("Code", array (
     margin-bottom: 10px;
     display: block;
 }
-input {
+.newsletter-form input {
     margin: 0 0 2px;
 }
-input[type="text"], input[type="email"] {
+.newsletter-form input[type="text"], .newsletter-form input[type="email"] {
     border: 1px solid transparent;
     background: #f7f7f7;
 }
-input[type="text"]:focus, input[type="email"]:focus {
-    border-color: #a4d0dc!important;
+.newsletter-form input[type="text"]:focus, .newsletter-form input[type="email"]:focus {
+    border-color: #a4d0dc !important;
     background: #ffffff;
 }
-input[type="submit"] {
+.newsletter-form input[type="submit"] {
     background: #a4d0dc;
     border: none;
     color: #ufc0;
@@ -162,39 +198,57 @@ input[type="submit"] {
     width:100%;
     margin-top:2px;
 }
-input[type="submit"]:hover {
+.newsletter-form input[type="submit"]:hover {
     background: #ufc1;
     border: none;
 }',
     'script' => '/* Your code here */',
+    'top_padding_num' => '15',
+    'bottom_padding_num' => '15',
+    'preset' => 'default',
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'row' => 34,
+      )),
+    )),
+    'padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
+  'default_hide' => 0,
+  'hide' => 0,
+  'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1444102317966-1645',
   'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'col' => 10,
-      'order' => 0,
+      'edited' => true,
+      'col' => 12,
+      'order' => 1,
+      'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
+      'clear' => true,
     ),
   ),
   'breakpoint' => 
   array (
     'tablet' => 
     array (
-      'edited' => false,
-      'left' => 2,
-      'col' => 8,
+      'edited' => true,
+      'left' => 0,
+      'col' => 12,
       'order' => 0,
+      'top' => 0,
+      'row' => 34,
     ),
     'mobile' => 
     array (
@@ -202,6 +256,7 @@ input[type="submit"]:hover {
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'top' => 0,
     ),
   ),
 ));

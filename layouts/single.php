@@ -16,21 +16,21 @@ $blog_individual = upfront_create_region(
   'background_type' => 'color',
   'background_color' => 'rgba(255,255,255,1)',
   'nav_region' => '',
-  'breakpoint' => 
+  'breakpoint' =>
   (array)(array(
-     'tablet' => 
+     'tablet' =>
     (array)(array(
        'edited' => true,
        'col' => 24,
        'row' => 382,
     )),
-     'mobile' => 
+     'mobile' =>
     (array)(array(
        'edited' => true,
        'col' => 24,
        'row' => 354,
     )),
-     'custom-1410783666947' => 
+     'custom-1410783666947' =>
     (array)(array(
        'edited' => true,
        'col' => 24,
@@ -38,7 +38,7 @@ $blog_individual = upfront_create_region(
     )),
   )),
   'use_padding' => 0,
-  'sub_regions' => 
+  'sub_regions' =>
   array (
     0 => '',
   ),
@@ -54,40 +54,41 @@ $blog_individual->add_element("ThisPost", array (
   'margin_bottom' => '0',
   'class' => 'default-post-module-module-module-module-module-module-module-module',
   'id' => 'default-post-module-module-module-module-module-module-module-module',
-  'options' => 
+  'options' =>
   array (
     'type' => 'ThisPostModel',
     'view_class' => 'ThisPostView',
+    'usingNewAppearance' => true,
     'class' => 'c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-this_post',
     'has_settings' => 1,
     'id_slug' => 'this_post',
     'row' => 10,
-    'post_data' => 
+    'post_data' =>
     array (
       0 => 'date',
     ),
     'disable_resize' => false,
     'disable_drag' => false,
-    'layout' => 
+    'layout' =>
     array (
-      0 => 
+      0 =>
       (array)(array(
          'classes' => 'c24 clr',
-         'objects' => 
+         'objects' =>
         array (
-          0 => 
+          0 =>
           (array)(array(
              'slug' => 'title',
              'classes' => 'post-part c24',
           )),
         ),
       )),
-      1 => 
+      1 =>
       (array)(array(
          'classes' => 'c24 clr',
-         'objects' => 
+         'objects' =>
         array (
-          0 => 
+          0 =>
           (array)(array(
              'slug' => 'contents',
              'classes' => ' post-part c24',
@@ -98,17 +99,17 @@ $blog_individual->add_element("ThisPost", array (
     'element_id' => 'default-post-object',
     'theme_style' => '_default',
     'anchor' => '',
-    'breakpoint' => 
+    'breakpoint' =>
     (array)(array(
-       'custom-1410783666947' => 
+       'custom-1410783666947' =>
       (array)(array(
          'theme_style' => 'u-this_post-big-tablet',
       )),
-       'tablet' => 
+       'tablet' =>
       (array)(array(
          'theme_style' => 'u-this_post-tablet',
       )),
-       'mobile' => 
+       'mobile' =>
       (array)(array(
          'theme_style' => 'u-this_post-mobile',
       )),
@@ -118,41 +119,41 @@ $blog_individual->add_element("ThisPost", array (
   'sticky' => false,
   'wrapper_id' => 'default-post-module-module-module-module-module-module-module-module-wrapper',
   'new_line' => true,
-  'wrapper_breakpoint' => 
+  'wrapper_breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'col' => 12,
       'order' => 0,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'col' => 7,
       'order' => 0,
     ),
-    'custom-1410783666947' => 
+    'custom-1410783666947' =>
     array (
       'col' => 18,
       'order' => 0,
     ),
   ),
-  'breakpoint' => 
+  'breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => false,
       'left' => 0,
       'col' => 12,
       'order' => 0,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => false,
       'left' => 0,
       'col' => 7,
       'order' => 0,
     ),
-    'custom-1410783666947' => 
+    'custom-1410783666947' =>
     array (
       'edited' => false,
       'left' => 0,
@@ -170,11 +171,12 @@ $blog_individual->add_element("Ucomment", array (
   'margin_bottom' => '0',
   'class' => 'module-1430734423685-1574',
   'id' => 'module-1430734423685-1574',
-  'options' => 
+  'options' =>
   array (
     'id_slug' => 'ucomment',
     'type' => 'UcommentModel',
     'view_class' => 'UcommentView',
+    'usingNewAppearance' => true,
     'class' => 'c24 upfront-comment',
     'has_settings' => 1,
     'prepend_form' => false,
@@ -186,44 +188,44 @@ $blog_individual->add_element("Ucomment", array (
   'sticky' => false,
   'wrapper_id' => 'wrapper-1430735458058-1283',
   'new_line' => true,
-  'wrapper_breakpoint' => 
+  'wrapper_breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => false,
       'col' => 12,
       'order' => 0,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => false,
       'col' => 7,
       'order' => 0,
     ),
-    'custom-1410783666947' => 
+    'custom-1410783666947' =>
     array (
       'edited' => false,
       'col' => 18,
       'order' => 0,
     ),
   ),
-  'breakpoint' => 
+  'breakpoint' =>
   array (
-    'tablet' => 
+    'tablet' =>
     array (
       'edited' => false,
       'left' => 0,
       'col' => 12,
       'order' => 0,
     ),
-    'mobile' => 
+    'mobile' =>
     array (
       'edited' => false,
       'left' => 0,
       'col' => 7,
       'order' => 0,
     ),
-    'custom-1410783666947' => 
+    'custom-1410783666947' =>
     array (
       'edited' => false,
       'left' => 0,
@@ -247,14 +249,14 @@ $separator = upfront_create_region(
 ),
 			array (
   'row' => 14,
-  'breakpoint' => 
+  'breakpoint' =>
   (array)(array(
-     'tablet' => 
+     'tablet' =>
     (array)(array(
        'edited' => false,
        'col' => 24,
     )),
-     'mobile' => 
+     'mobile' =>
     (array)(array(
        'edited' => false,
        'col' => 24,
@@ -262,7 +264,7 @@ $separator = upfront_create_region(
   )),
   'background_type' => 'color',
   'use_padding' => 0,
-  'sub_regions' => 
+  'sub_regions' =>
   array (
     0 => false,
   ),

@@ -5,7 +5,7 @@
     content: '';
     display: none;
 }
-.upfront-region-container-region-14 .upfront-default-slider-nav-prev, .upfront-region-container-region-14 .upfront-default-slider-nav-next {
+.upfront-region-container-region-14 .upfront-default-slider-nav-prev, .upfront-region-container-region-14 .upfront-default-slider-nav-next, .upfront-region-container-region-14 .upfront-default-slider-nav-prev:hover, .upfront-region-container-region-14 .upfront-default-slider-nav-next:hover {
     background: url("UPFRONT_THEME_BASE/ui/fixer-slider-arrows.png") no-repeat;
     border-radius: 0;
     display: block;
@@ -14,7 +14,7 @@
     height: 50px;
     opacity: 1;
     -webkit-transition: opacity .4s;
-            transition: opacity .4s;
+    transition: opacity .4s;
     width: 27px;
 }
 .upfront-region-container-region-14 .upfront-default-slider-nav-prev {
