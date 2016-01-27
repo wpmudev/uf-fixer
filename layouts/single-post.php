@@ -14,7 +14,7 @@ $blog_individual = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 299,
+  'row' => 100,
   'background_type' => 'color',
   'background_color' => 'rgba(255,255,255,1)',
   'nav_region' => '',
@@ -24,19 +24,19 @@ $blog_individual = upfront_create_region(
     (array)(array(
        'edited' => true,
        'col' => 24,
-       'row' => 382,
+       'row' => 100,
     )),
      'mobile' => 
     (array)(array(
        'edited' => true,
        'col' => 24,
-       'row' => 354,
+       'row' => 100,
     )),
      'custom-1410783666947' => 
     (array)(array(
        'edited' => true,
        'col' => 24,
-       'row' => 317,
+       'row' => 100,
     )),
   )),
   'use_padding' => 0,
@@ -149,13 +149,13 @@ $blog_individual->add_element("ThisPost", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'default-post-module-module-module-module-module-module-module-module',
-  'id' => 'default-post-module-module-module-module-module-module-module-module',
+  'class' => 'default-post-module',
+  'id' => 'default-post-module',
   'options' => 
   array (
     'type' => 'ThisPostModel',
     'view_class' => 'ThisPostView',
-    'class' => 'c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-this_post',
+    'class' => 'c24 upfront-this_post',
     'has_settings' => 1,
     'id_slug' => 'this_post',
     'row' => 193,
@@ -205,23 +205,42 @@ $blog_individual->add_element("ThisPost", array (
        'tablet' => 
       (array)(array(
          'theme_style' => '',
+         'row' => 248,
+         'use_padding' => 'yes',
       )),
        'mobile' => 
       (array)(array(
          'theme_style' => '',
+         'use_padding' => 'yes',
       )),
+       'current_property' => 'use_padding',
     )),
     'hide_featured_image' => '',
     'full_featured_image' => '',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
     'padding_slider' => '15',
-    'use_padding' => '',
+    'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'preset' => 'mobile',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'mobile',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'default',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -254,12 +273,13 @@ $blog_individual->add_element("ThisPost", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 12,
       'order' => 0,
       'hide' => 0,
       'top' => 0,
+      'row' => 100,
     ),
     'mobile' => 
     array (
@@ -343,18 +363,34 @@ $blog_individual->add_element("Ucomment", array (
        'tablet' => 
       (array)(array(
          'theme_style' => '',
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '30',
+         'top_padding_num' => '30',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '0',
+         'bottom_padding_num' => '0',
       )),
        'mobile' => 
       (array)(array(
          'theme_style' => '',
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '30',
+         'top_padding_num' => '30',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '0',
+         'bottom_padding_num' => '0',
       )),
-       'current_property' => 'lock_padding',
+       'current_property' => 'bottom_padding_num',
     )),
     'theme_style' => '',
-    'top_padding_num' => '15',
-    'bottom_padding_num' => '15',
+    'top_padding_num' => '30',
+    'bottom_padding_num' => '0',
     'padding_slider' => '15',
-    'use_padding' => '',
+    'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_number' => '15',
     'left_padding_num' => '15',
@@ -375,6 +411,10 @@ $blog_individual->add_element("Ucomment", array (
          'preset' => 'default',
       )),
     )),
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '30',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,
