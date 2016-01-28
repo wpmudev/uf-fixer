@@ -247,7 +247,7 @@ $prefooter->add_group(array (
     'tablet' => 
     array (
       'edited' => false,
-      'col' => 6,
+      'col' => 12,
       'order' => 1,
       'clear' => true,
     ),
@@ -265,8 +265,9 @@ $prefooter->add_group(array (
     array (
       'edited' => false,
       'left' => 0,
-      'col' => 6,
+      'col' => 12,
       'order' => 0,
+      'hide' => 1,
     ),
     'mobile' => 
     array (
@@ -274,6 +275,7 @@ $prefooter->add_group(array (
       'left' => 0,
       'col' => 7,
       'order' => 0,
+      'hide' => 1,
     ),
   ),
 ));
@@ -448,7 +450,7 @@ $prefooter->add_element("PlainTxt", array (
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
   ),
-  'row' => 25,
+  'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -458,7 +460,7 @@ $prefooter->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'col' => 8,
+      'col' => 6,
     ),
     'mobile' => 
     array (
