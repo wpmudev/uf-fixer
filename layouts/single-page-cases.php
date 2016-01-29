@@ -14,7 +14,7 @@ $cases_region = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 237,
+  'row' => 15,
   'background_type' => 'color',
   'background_color' => '#ufc0',
   'nav_region' => '',
@@ -25,17 +25,22 @@ $cases_region = upfront_create_region(
        'edited' => true,
        'col' => 24,
        'row' => 63,
+       'background_type' => 'color',
     )),
      'mobile' => 
     (array)(array(
        'edited' => true,
        'row' => 178,
+       'background_type' => 'color',
+       'bottom_bg_padding_slider' => '60',
+       'bottom_bg_padding_num' => '60',
     )),
      'custom-1410783666947' => 
     (array)(array(
        'edited' => true,
        'row' => 344,
     )),
+     'current_property' => 'bottom_bg_padding_num',
   )),
   'use_padding' => 0,
   'sub_regions' => 
@@ -43,6 +48,13 @@ $cases_region = upfront_create_region(
     0 => '',
   ),
   'version' => '1.0.0',
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '105',
+  'bottom_bg_padding_num' => '105',
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
@@ -72,11 +84,37 @@ $cases_region->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
     'theme_style' => '',
-    'top_padding_use' => true,
-    'top_padding_num' => 80,
+    'top_padding_use' => 'yes',
+    'top_padding_num' => '110',
     'bottom_padding_num' => '15',
-    'preset' => 'default',
+    'preset' => 'u-sub-heading-m',
     'padding_slider' => '15',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'top_padding_slider' => '110',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'u-sub-heading-m',
+      )),
+    )),
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '50',
+         'top_padding_num' => '50',
+         'row' => 13,
+      )),
+       'current_property' => 'use_padding',
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -117,11 +155,12 @@ $cases_region->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
       'top' => 0,
+      'row' => 13,
     ),
     'custom-1410783666947' => 
     array (
@@ -2043,11 +2082,11 @@ $cases_region->add_element("Ugallery", array (
       0 => 'true',
     ),
     'thumbPadding' => 0,
-    'sidePadding' => '0',
-    'bottomPadding' => '0',
-    'thumbPaddingNumber' => 15,
-    'thumbSidePaddingNumber' => '0',
-    'thumbBottomPaddingNumber' => '0',
+    'sidePadding' => 0,
+    'bottomPadding' => 0,
+    'thumbPaddingNumber' => 0,
+    'thumbSidePaddingNumber' => 0,
+    'thumbBottomPaddingNumber' => 0,
     'lockPadding' => '',
     'lightbox_show_close' => 
     array (
@@ -2076,14 +2115,17 @@ $cases_region->add_element("Ugallery", array (
     'anchor' => '',
     'top_padding_use' => true,
     'top_padding_num' => 70,
-    'bottom_padding_num' => '15',
+    'bottom_padding_num' => '0',
     'preset' => 'case-study-ugallery-style-m',
-    'use_padding' => '',
+    'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => 'false',
     'padding_number' => 0,
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'thumbSidePadding' => 0,
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2141,37 +2183,6 @@ $cases_region->add_element("Ugallery", array (
 ));
 
 $regions->add($cases_region);
-
-$separator = upfront_create_region(
-			array (
-  'name' => 'separator',
-  'title' => 'Separator',
-  'type' => 'wide',
-  'scope' => 'local',
-  'container' => 'separator',
-  'position' => 1,
-  'allow_sidebar' => true,
-),
-			array (
-  'row' => 14,
-  'breakpoint' => 
-  (array)(array(
-     'tablet' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-     'mobile' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-  )),
-  'version' => '1.0.0',
-)
-			);
-
-$regions->add($separator);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php');
 

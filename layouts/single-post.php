@@ -25,12 +25,16 @@ $blog_individual = upfront_create_region(
        'edited' => true,
        'col' => 24,
        'row' => 100,
+       'background_type' => 'color',
     )),
      'mobile' => 
     (array)(array(
        'edited' => true,
        'col' => 24,
        'row' => 100,
+       'background_type' => 'color',
+       'bottom_bg_padding_slider' => '60',
+       'bottom_bg_padding_num' => '60',
     )),
      'custom-1410783666947' => 
     (array)(array(
@@ -38,6 +42,7 @@ $blog_individual = upfront_create_region(
        'col' => 24,
        'row' => 100,
     )),
+     'current_property' => 'bottom_bg_padding_num',
   )),
   'use_padding' => 0,
   'sub_regions' => 
@@ -49,8 +54,8 @@ $blog_individual = upfront_create_region(
   'bg_padding_type' => 'varied',
   'top_bg_padding_slider' => 0,
   'top_bg_padding_num' => 0,
-  'bottom_bg_padding_slider' => '90',
-  'bottom_bg_padding_num' => '90',
+  'bottom_bg_padding_slider' => '105',
+  'bottom_bg_padding_num' => '105',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
 )
@@ -75,20 +80,44 @@ $blog_individual->add_element("PlainTxt", array (
     'class' => 'c24 c24 upfront-plain_txt',
     'has_settings' => 1,
     'is_edited' => true,
-    'row' => 24,
+    'row' => 18,
     'border_style' => 'none',
     'border_width' => 1,
     'border_color' => 'rgba(0, 0, 0, 0)',
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
     'theme_style' => '',
-    'top_padding_use' => true,
-    'top_padding_num' => 95,
+    'top_padding_use' => 'yes',
+    'top_padding_num' => '110',
     'bottom_padding_num' => '15',
     'padding_slider' => '15',
-    'preset' => 'default',
+    'preset' => 'u-sub-heading-m',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'top_padding_slider' => '110',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'u-sub-heading-m',
+      )),
+    )),
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+      )),
+       'current_property' => 'lock_padding',
+       'mobile' => 
+      (array)(array(
+         'row' => 10,
+      )),
+    )),
   ),
-  'row' => 6,
+  'row' => 18,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -127,11 +156,12 @@ $blog_individual->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
       'top' => 0,
+      'row' => 10,
     ),
     'custom-1410783666947' => 
     array (

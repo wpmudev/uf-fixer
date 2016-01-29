@@ -28,12 +28,16 @@ $main = upfront_create_region(
     (array)(array(
        'edited' => true,
        'row' => 388,
+       'background_type' => 'color',
+       'bottom_bg_padding_slider' => '60',
+       'bottom_bg_padding_num' => '60',
     )),
      'custom-1410783666947' => 
     (array)(array(
        'edited' => true,
        'row' => 233,
     )),
+     'current_property' => 'bottom_bg_padding_num',
   )),
   'use_padding' => 0,
   'sub_regions' => 
@@ -41,6 +45,13 @@ $main = upfront_create_region(
     0 => false,
   ),
   'version' => '1.0.0',
+  'bg_padding_type' => 'varied',
+  'top_bg_padding_slider' => 0,
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '105',
+  'bottom_bg_padding_num' => '105',
+  'bg_padding_slider' => 0,
+  'bg_padding_num' => 0,
 )
 			);
 
@@ -70,10 +81,10 @@ $main->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
     'theme_style' => '',
-    'top_padding_use' => true,
-    'top_padding_num' => 105,
+    'top_padding_use' => 'yes',
+    'top_padding_num' => '110',
     'bottom_padding_num' => '15',
-    'preset' => 'default',
+    'preset' => 'u-sub-heading-m',
     'breakpoint' => 
     (array)(array(
        'mobile' => 
@@ -86,6 +97,19 @@ $main->add_element("PlainTxt", array (
       )),
     )),
     'padding_slider' => '15',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'top_padding_slider' => '110',
+    'padding_number' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'u-sub-heading-m',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -458,37 +482,6 @@ $main->add_element("Uspacer", array (
 ));
 
 $regions->add($main);
-
-$separator = upfront_create_region(
-			array (
-  'name' => 'separator',
-  'title' => 'Separator',
-  'type' => 'wide',
-  'scope' => 'local',
-  'container' => 'separator',
-  'position' => 20,
-  'allow_sidebar' => true,
-),
-			array (
-  'row' => 26,
-  'breakpoint' => 
-  (array)(array(
-     'tablet' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-     'mobile' => 
-    (array)(array(
-       'edited' => false,
-       'col' => 24,
-    )),
-  )),
-  'version' => '1.0.0',
-)
-			);
-
-$regions->add($separator);
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php');
 

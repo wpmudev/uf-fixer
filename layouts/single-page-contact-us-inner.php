@@ -14,7 +14,7 @@ $main = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 180,
+  'row' => 92,
   'background_type' => 'image',
   'background_color' => '#ufc0',
   'breakpoint' => 
@@ -22,15 +22,15 @@ $main = upfront_create_region(
      'tablet' => 
     (array)(array(
        'edited' => true,
-       'row' => 67,
+       'row' => 63,
        'background_position_y' => '100',
        'background_style' => 'fixed',
        'background_repeat' => 'no-repeat',
        'background_position' => '100% 100%',
        'background_position_x' => '100',
        'background_type' => 'color',
-       'bottom_bg_padding_num' => '80',
-       'bottom_bg_padding_slider' => '80',
+       'bottom_bg_padding_num' => '105',
+       'bottom_bg_padding_slider' => '105',
     )),
      'mobile' => 
     (array)(array(
@@ -56,7 +56,7 @@ $main = upfront_create_region(
        'background_position_x' => '100',
        'background_type' => 'color',
     )),
-     'current_property' => 'background_type',
+     'current_property' => 'bottom_bg_padding_num',
   )),
   'use_padding' => 0,
   'sub_regions' => 
@@ -74,8 +74,8 @@ $main = upfront_create_region(
   'bg_padding_type' => 'varied',
   'top_bg_padding_slider' => 0,
   'top_bg_padding_num' => 0,
-  'bottom_bg_padding_slider' => 0,
-  'bottom_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '105',
+  'bottom_bg_padding_num' => '105',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
 )
@@ -99,7 +99,7 @@ $main->add_element("PlainTxt", array (
     'element_id' => 'text-object-1432912837169-1903',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 29,
+    'row' => 30,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -107,27 +107,41 @@ $main->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
     'theme_style' => '',
-    'top_padding_use' => true,
-    'top_padding_num' => 125,
+    'top_padding_use' => 'yes',
+    'top_padding_num' => '110',
     'breakpoint' => 
     (array)(array(
        'mobile' => 
       (array)(array(
-         'top_padding_use' => true,
-         'top_padding_num' => 75,
-         'row' => 20,
+         'top_padding_use' => 'yes',
+         'top_padding_num' => '50',
+         'row' => 14,
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'top_padding_slider' => '50',
+      )),
+       'current_property' => 'top_padding_num',
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '110',
+         'top_padding_num' => '110',
+         'row' => 24,
       )),
     )),
     'bottom_padding_num' => '15',
     'preset' => 'u-sub-heading-m',
-    'use_padding' => true,
+    'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => '15',
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'top_padding_slider' => '110',
   ),
-  'row' => 6,
+  'row' => 30,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -161,11 +175,12 @@ $main->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 12,
       'order' => 0,
       'top' => 0,
+      'row' => 24,
     ),
     'mobile' => 
     array (
@@ -174,7 +189,7 @@ $main->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 0,
       'top' => 0,
-      'row' => 20,
+      'row' => 14,
     ),
     'custom-1410783666947' => 
     array (
@@ -548,7 +563,7 @@ $main->add_element("Ucontact", array (
     'id_slug' => 'ucontact',
     'usingNewAppearance' => true,
     'element_id' => 'ucontact-object-1432912837183-1383',
-    'row' => 88,
+    'row' => 37,
     'anchor' => '',
     'theme_style' => '',
     'breakpoint' => 
@@ -566,9 +581,9 @@ $main->add_element("Ucontact", array (
        'current_property' => 'use_padding',
     )),
     'top_padding_num' => '15',
-    'bottom_padding_num' => '15',
+    'bottom_padding_num' => '0',
     'preset' => 'alt',
-    'use_padding' => '',
+    'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => 'false',
     'padding_number' => 0,
@@ -589,8 +604,10 @@ $main->add_element("Ucontact", array (
          'preset' => 'alt-mobile',
       )),
     )),
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
   ),
-  'row' => 6,
+  'row' => 37,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,

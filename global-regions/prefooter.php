@@ -460,7 +460,7 @@ $prefooter->add_element("PlainTxt", array (
   array (
     'tablet' => 
     array (
-      'col' => 6,
+      'col' => 8,
     ),
     'mobile' => 
     array (
