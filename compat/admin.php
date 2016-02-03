@@ -137,6 +137,23 @@ if (/*is_admin() &&*/ !class_exists('Upfront_ChildTheme_Admin_VersionCheck')) {
 #upfront-core-update_nag .upfront-version_compatibility-nag a.boot {
 	font-size: 13px;
 }
+/* Various theme fixes */
+#upfront-core-update_nag {
+	box-sizing: border-box;
+}
+#upfront-core-update_nag * {
+	box-sizing: border-box;
+}
+#upfront-core-update_nag .upfront-version_compatibility-nag > div {
+	overflow: hidden;
+}
+/* quick responsive implementation */
+@media all and (max-width: 699px) and (min-width: 220px) {
+	#upfront-core-update_nag .upfront-version_compatibility-nag a {
+		width: 100%;
+		margin: 10px auto;
+	}
+}
 
 /* front */
 .upfront-version_compatibility-nag {
