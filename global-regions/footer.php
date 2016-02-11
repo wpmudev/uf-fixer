@@ -1000,6 +1000,7 @@ $footer->add_element("PlainTxt", array (
          'row' => 14,
          'theme_style' => 'u-paragraph-footer',
       )),
+       'current_property' => 'use_padding',
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',

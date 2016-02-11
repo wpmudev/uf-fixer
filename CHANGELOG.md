@@ -2,6 +2,16 @@ Change Log
 ============
 
 
+1.0.2 - 2016-02-11
+-------------------------------------------------------------------------------
+- Visual improvements
+
+- Fix: avoid conflicts with other UI elements.
+- Fix: transition on resize on textarea on contact/comment elements.
+- Fix: spacing on subscribe newsletter lightbox.
+- Add: new preset to use as icons on pre-footer region.
+- Add: links to get a quote icon & text on pre-footer.
+
 1.0.1 - 2016-02-04
 -------------------------------------------------------------------------------
 - Add: compatibility popup

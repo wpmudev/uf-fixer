@@ -14,7 +14,7 @@ $main = upfront_create_region(
   'allow_sidebar' => true,
 ),
 			array (
-  'row' => 195,
+  'row' => 60,
   'background_type' => 'color',
   'background_color' => '#ufc0',
   'breakpoint' => 
@@ -24,13 +24,13 @@ $main = upfront_create_region(
        'edited' => true,
        'row' => 132,
        'background_type' => 'color',
-       'bottom_bg_padding_slider' => '80',
-       'bottom_bg_padding_num' => '80',
+       'bottom_bg_padding_slider' => '105',
+       'bottom_bg_padding_num' => '105',
     )),
      'mobile' => 
     (array)(array(
        'edited' => true,
-       'row' => 197,
+       'row' => 100,
        'background_type' => 'color',
        'bottom_bg_padding_slider' => '60',
        'bottom_bg_padding_num' => '60',
@@ -38,9 +38,9 @@ $main = upfront_create_region(
      'custom-1410783666947' => 
     (array)(array(
        'edited' => true,
-       'row' => 328,
+       'row' => 150,
     )),
-     'current_property' => 'background_type',
+     'current_property' => 'bottom_bg_padding_num',
   )),
   'use_padding' => 0,
   'sub_regions' => 
@@ -51,8 +51,8 @@ $main = upfront_create_region(
   'bg_padding_type' => 'varied',
   'top_bg_padding_slider' => 0,
   'top_bg_padding_num' => 0,
-  'bottom_bg_padding_slider' => 0,
-  'bottom_bg_padding_num' => 0,
+  'bottom_bg_padding_slider' => '105',
+  'bottom_bg_padding_num' => '105',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
 )
@@ -84,16 +84,30 @@ $main->add_element("PlainTxt", array (
     'bg_color' => 'rgba(0, 0, 0, 0)',
     'anchor' => '',
     'theme_style' => '',
-    'top_padding_use' => true,
-    'top_padding_num' => 100,
+    'top_padding_use' => 'yes',
+    'top_padding_num' => '110',
     'bottom_padding_num' => '15',
     'preset' => 'u-sub-heading-m',
-    'use_padding' => true,
+    'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => '15',
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'top_padding_slider' => '110',
+    'breakpoint' => 
+    (array)(array(
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'top_padding_use' => 'yes',
+         'top_padding_slider' => '50',
+         'top_padding_num' => '50',
+         'row' => 14,
+      )),
+       'current_property' => 'top_padding_num',
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -138,11 +152,12 @@ $main->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
       'top' => 0,
+      'row' => 14,
     ),
     'custom-1410783666947' => 
     array (
@@ -317,14 +332,17 @@ $main->add_group(array (
   'background_style' => 'full',
   'background_position_y' => 50,
   'background_position_x' => 50,
-  'use_padding' => '',
+  'use_padding' => 'yes',
   'background_type' => 'color',
   'anchor' => '',
   'top_padding_use' => true,
   'top_padding_num' => 40,
   'version' => '1.0.0',
-  'bottom_padding_num' => '15',
-  'row' => 91,
+  'bottom_padding_num' => '0',
+  'row' => 88,
+  'lock_padding' => '',
+  'bottom_padding_use' => 'yes',
+  'bottom_padding_slider' => '0',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -551,7 +569,7 @@ $main->add_element("Ucontact", array (
     'id_slug' => 'ucontact',
     'usingNewAppearance' => true,
     'element_id' => 'ucontact-object-1432910788835-1724',
-    'row' => 70,
+    'row' => 66,
     'anchor' => '',
     'theme_style' => '',
     'breakpoint' => 
@@ -568,7 +586,7 @@ $main->add_element("Ucontact", array (
       )),
     )),
     'top_padding_num' => '15',
-    'bottom_padding_num' => '15',
+    'bottom_padding_num' => '0',
     'preset' => 'quote',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -591,6 +609,8 @@ $main->add_element("Ucontact", array (
          'preset' => 'quote-mobile',
       )),
     )),
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
   ),
   'row' => 6,
   'sticky' => false,
@@ -740,7 +760,7 @@ $main->add_group(array (
       'col' => 6,
       'order' => 0,
       'top' => 0,
-      'row' => 84,
+      'row' => 74,
     ),
     'mobile' => 
     array (
@@ -1051,11 +1071,17 @@ $main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'theme_style' => '',
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '0',
+         'bottom_padding_num' => '0',
       )),
        'mobile' => 
       (array)(array(
          'theme_style' => '',
       )),
+       'current_property' => 'bottom_padding_num',
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -1233,11 +1259,11 @@ $main->add_group(array (
       'order' => 0,
       'top' => 0,
       'background_color' => 'rgba(0,0,0,0)',
-      'row' => 84,
+      'row' => 71,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
@@ -1246,6 +1272,7 @@ $main->add_group(array (
       'top_padding_use' => 'yes',
       'top_padding_num' => '30',
       'top_padding_slider' => '30',
+      'row' => 71,
     ),
     'custom-1410783666947' => 
     array (
@@ -1538,11 +1565,22 @@ $main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'theme_style' => '',
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '0',
+         'bottom_padding_num' => '0',
       )),
        'mobile' => 
       (array)(array(
          'theme_style' => '',
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'bottom_padding_use' => 'yes',
+         'bottom_padding_slider' => '0',
+         'bottom_padding_num' => '0',
       )),
+       'current_property' => 'bottom_padding_num',
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',

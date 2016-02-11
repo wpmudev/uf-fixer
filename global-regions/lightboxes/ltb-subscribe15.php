@@ -78,10 +78,14 @@ $ltb_subscribe15->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'top_padding_use' => true,
-         'top_padding_num' => 20,
+         'top_padding_use' => 'yes',
+         'top_padding_num' => '40',
          'row' => 17,
+         'use_padding' => 'yes',
+         'lock_padding' => '',
+         'top_padding_slider' => '40',
       )),
+       'current_property' => 'top_padding_num',
     )),
     'bottom_padding_num' => '15',
     'preset' => 'default',
@@ -111,10 +115,14 @@ $ltb_subscribe15->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
@@ -130,11 +138,15 @@ $ltb_subscribe15->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
       'top' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));
@@ -162,7 +174,7 @@ $ltb_subscribe15->add_element("Code", array (
     )),
     'usingNewAppearance' => true,
     'element_id' => 'upfront-code_element-object-1444101653184-1490',
-    'row' => 44,
+    'row' => 35,
     'code_selection_type' => 'Create',
     'markup' => '<form name="newsletter" class="newsletter-form" action="" method="post">
 <input type="text" id="user-name" name="user-name" placeholder="Name">
@@ -204,16 +216,24 @@ $ltb_subscribe15->add_element("Code", array (
 }',
     'script' => '/* Your code here */',
     'top_padding_num' => '15',
-    'bottom_padding_num' => '15',
+    'bottom_padding_num' => '40',
     'preset' => 'default',
     'breakpoint' => 
     (array)(array(
        'tablet' => 
       (array)(array(
-         'row' => 34,
+         'row' => 33,
+      )),
+       'mobile' => 
+      (array)(array(
+         'row' => 31,
       )),
     )),
     'padding_slider' => '15',
+    'use_padding' => 'yes',
+    'lock_padding' => '',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '40',
   ),
   'row' => 6,
   'sticky' => false,
@@ -233,10 +253,14 @@ $ltb_subscribe15->add_element("Code", array (
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'col' => 7,
-      'order' => 1,
+      'order' => 2,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
   'breakpoint' => 
@@ -248,15 +272,20 @@ $ltb_subscribe15->add_element("Code", array (
       'col' => 12,
       'order' => 0,
       'top' => 0,
-      'row' => 34,
+      'row' => 33,
     ),
     'mobile' => 
     array (
-      'edited' => false,
+      'edited' => true,
       'left' => 0,
       'col' => 7,
       'order' => 0,
       'top' => 0,
+      'row' => 31,
+    ),
+    'current_property' => 
+    array (
+      0 => 'edited',
     ),
   ),
 ));

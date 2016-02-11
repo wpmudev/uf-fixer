@@ -151,4 +151,5 @@ function fixer_dispatch_posts_layout ($args, $slug, $default_file) {
 add_filter('upfront-theme-template_arguments', 'fixer_dispatch_posts_layout', 10, 3);
 
 
+
 if (file_exists(dirname(__FILE__) . '/compat/compat.php')) require_once(dirname(__FILE__) . '/compat/compat.php');
