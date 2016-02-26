@@ -24,7 +24,7 @@ $region_14 = upfront_create_region(
        'background_style' => 'full',
        'background_position_x' => '50',
        'background_image' => '{{upfront:style_url}}/images/archive-home/1524142385slider-b.jpg',
-       'background_image_ratio' => 0.68000000000000004884981308350688777863979339599609375,
+       'background_image_ratio' => 0.68,
        'row' => 100,
        'hide' => 0,
     )),
@@ -65,7 +65,7 @@ $region_14 = upfront_create_region(
     0 => '',
   ),
   'background_image' => '{{upfront:style_url}}/images/archive-home/1524142385slider-b.jpg',
-  'background_image_ratio' => 0.68000000000000004884981308350688777863979339599609375,
+  'background_image_ratio' => 0.68,
   'version' => '1.0.0',
   'bg_padding_type' => 'equal',
   'top_bg_padding_slider' => 0,
@@ -387,13 +387,13 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 1956,
+         'menu-item-db-id' => 37,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'Services',
+         'menu-item-title' => 'SERVICES',
          'menu-item-url' => '#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1956',
+         'menu-item-object-id' => '37',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -405,13 +405,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 1957,
+         'menu-item-db-id' => 38,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'Get a Quote',
+         'menu-item-title' => 'GET A QUOTE',
          'menu-item-url' => '#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1957',
+         'menu-item-object-id' => '38',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -423,13 +423,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 1958,
+         'menu-item-db-id' => 39,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'Blog',
+         'menu-item-title' => 'BLOG',
          'menu-item-url' => '#blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1958',
+         'menu-item-object-id' => '39',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
@@ -441,13 +441,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 1959,
+         'menu-item-db-id' => 40,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'About',
+         'menu-item-title' => 'ABOUT',
          'menu-item-url' => '#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1959',
+         'menu-item-object-id' => '40',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
@@ -459,13 +459,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 1960,
+         'menu-item-db-id' => 41,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'Contact Us',
+         'menu-item-title' => 'CONTACT US',
          'menu-item-url' => '#contact',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '1960',
+         'menu-item-object-id' => '41',
          'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 
@@ -1493,7 +1493,7 @@ $region_14->add_element("Button", array (
   'id' => 'module-1412693769329-1564',
   'options' => 
   array (
-    'content' => 'Get a quote',
+    'content' => 'GET A QUOTE',
     'href' => '#quote',
     'linkTarget' => '_self',
     'align' => 'center',
@@ -1699,7 +1699,7 @@ $region_14->add_element("Button", array (
   'id' => 'module-1412693935237-1809',
   'options' => 
   array (
-    'content' => 'View Service',
+    'content' => 'VIEW SERVICE',
     'href' => '#services',
     'linkTarget' => '_self',
     'align' => 'center',
@@ -6767,6 +6767,7 @@ $quote->add_element("Ucontact", array (
     'form_button_text' => 'Get A Quote',
     'form_validate_when' => 'submit',
     'form_label_position' => 'over',
+    'preset' => 'quote',
     'type' => 'UcontactModel',
     'view_class' => 'UcontactView',
     'class' => 'c24 upfront-contact-form',
@@ -6791,7 +6792,6 @@ $quote->add_element("Ucontact", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'quote',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => 'false',
@@ -7906,7 +7906,7 @@ $blog_header = upfront_create_region(
   'background_position_y' => '50',
   'background_position_x' => '50',
   'background_image' => '{{upfront:style_url}}/images/archive-home/background-leaves.jpg',
-  'background_image_ratio' => 0.429999999999999993338661852249060757458209991455078125,
+  'background_image_ratio' => 0.43,
   'breakpoint' => 
   (array)(array(
      'tablet' => 
@@ -8487,6 +8487,7 @@ $blog_items->add_element("Posts", array (
     'content_length' => '20',
     'resize_featured' => '1',
     'gravatar_size' => 200,
+    'preset' => 'u-posts-home-m',
     'post-part-date_posted' => '<div class="uposts-part date_posted">
     <span class="day">{{date_1}}</span><span class="month">{{date_2}}</span>
 </div>',
@@ -8547,7 +8548,6 @@ $blog_items->add_element("Posts", array (
     'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
-    'preset' => 'u-posts-home-m',
     'use_padding' => 'yes',
     'padding_slider' => '15',
     'padding_number' => '15',
@@ -8864,7 +8864,7 @@ $subscribe->add_element("Button", array (
   'id' => 'module-1412847584331-1365',
   'options' => 
   array (
-    'content' => 'Subscribe',
+    'content' => 'SUBSCRIBE',
     'href' => '#ltb-subscribe15',
     'linkTarget' => '',
     'align' => 'center',
@@ -8983,7 +8983,7 @@ $subscribe->add_element("Button", array (
   'id' => 'module-1412845951334-1388',
   'options' => 
   array (
-    'content' => 'View blog',
+    'content' => 'VIEW BLOG',
     'href' => '{{upfront:home_url}}/blog/',
     'linkTarget' => '_self',
     'align' => 'center',
@@ -11370,7 +11370,7 @@ $contact = upfront_create_region(
   'background_position_y' => '100',
   'background_position_x' => '100',
   'background_image' => '{{upfront:style_url}}/images/archive-home/dome.png',
-  'background_image_ratio' => 1.0500000000000000444089209850062616169452667236328125,
+  'background_image_ratio' => 1.05,
   'background_repeat' => 'no-repeat',
   'background_position' => '100% 100%',
   'breakpoint' => 
@@ -11741,6 +11741,7 @@ $contact->add_element("Ucontact", array (
     'form_button_text' => 'SEND',
     'form_validate_when' => 'submit',
     'form_label_position' => 'over',
+    'preset' => 'alt',
     'type' => 'UcontactModel',
     'view_class' => 'UcontactView',
     'class' => 'c24 upfront-contact-form',
@@ -11768,7 +11769,6 @@ $contact->add_element("Ucontact", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'alt',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => 'false',
