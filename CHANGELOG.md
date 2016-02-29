@@ -2,6 +2,15 @@ Change Log
 ============
 
 
+1.0.3 - 2016-02-29
+-------------------------------------------------------------------------------
+- Visual improvements
+
+- Fix: issue with caption on gallery element.
+- Fix: default preset for gallery element caption.
+- Fix: adjust buttons casings.
+- Fix: caps on contact element for button label.
+
 1.0.2 - 2016-02-11
 -------------------------------------------------------------------------------
 - Visual improvements

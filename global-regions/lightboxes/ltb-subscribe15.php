@@ -29,6 +29,7 @@ $ltb_subscribe15 = upfront_create_region(
      'mobile' => 
     (array)(array(
        'edited' => false,
+       'col' => 7,
     )),
      'custom-1410783666947' => 
     (array)(array(

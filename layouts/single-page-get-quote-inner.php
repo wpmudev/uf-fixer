@@ -492,7 +492,7 @@ $main->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 0,
+      'order' => 2,
       'clear' => true,
     ),
     'custom-1410783666947' => 
@@ -562,6 +562,7 @@ $main->add_element("Ucontact", array (
     'form_button_text' => 'GET A QUOTE',
     'form_validate_when' => 'submit',
     'form_label_position' => 'over',
+    'preset' => 'quote',
     'type' => 'UcontactModel',
     'view_class' => 'UcontactView',
     'class' => 'c24 upfront-contact-form',
@@ -584,10 +585,10 @@ $main->add_element("Ucontact", array (
          'theme_style' => '',
          'row' => 48,
       )),
+       'current_property' => 'lock_padding',
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '0',
-    'preset' => 'quote',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => 'false',
@@ -862,7 +863,7 @@ $main->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 6,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
     'mobile' => 
@@ -1000,7 +1001,7 @@ $main->add_element("Uimage", array (
     array (
       'edited' => false,
       'col' => 6,
-      'order' => 1,
+      'order' => 2,
       'clear' => true,
     ),
     'mobile' => 
@@ -1122,14 +1123,14 @@ $main->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 6,
-      'order' => 2,
+      'order' => 3,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 2,
+      'order' => 3,
       'clear' => true,
     ),
   ),
@@ -1359,14 +1360,14 @@ $main->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 6,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 0,
+      'order' => 2,
       'clear' => true,
     ),
   ),
@@ -1494,7 +1495,7 @@ $main->add_element("Uimage", array (
     array (
       'edited' => false,
       'col' => 6,
-      'order' => 1,
+      'order' => 2,
       'clear' => true,
     ),
     'mobile' => 
@@ -1621,14 +1622,14 @@ $main->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 6,
-      'order' => 2,
+      'order' => 3,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 2,
+      'order' => 3,
       'clear' => true,
     ),
   ),
