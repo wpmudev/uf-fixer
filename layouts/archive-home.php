@@ -387,15 +387,15 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 2165,
-         'menu-item-parent-id' => 0,
+         'menu-item-db-id' => 2358,
+         'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'SERVICES',
          'menu-item-url' => '#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2165',
+         'menu-item-object-id' => '2358',
          'menu-item-target' => '',
-         'menu-item-position' => 0,
+         'menu-item-position' => 1,
          'link' => 
         (array)(array(
            'type' => 'anchor',
@@ -405,157 +405,67 @@ $region_14->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 2166,
-         'menu-item-parent-id' => 0,
+         'menu-item-db-id' => 2359,
+         'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'SERVICES',
-         'menu-item-url' => '#services',
+         'menu-item-title' => 'GET A QUOTE',
+         'menu-item-url' => '#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2166',
+         'menu-item-object-id' => '2359',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
         (array)(array(
            'type' => 'anchor',
-           'url' => '#services',
+           'url' => '#quote',
            'target' => '',
         )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 2170,
-         'menu-item-parent-id' => 0,
+         'menu-item-db-id' => 2360,
+         'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'GET A QUOTE',
-         'menu-item-url' => '#quote',
+         'menu-item-title' => 'BLOG',
+         'menu-item-url' => '#blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2170',
+         'menu-item-object-id' => '2360',
          'menu-item-target' => '',
-         'menu-item-position' => 1,
+         'menu-item-position' => 3,
          'link' => 
         (array)(array(
            'type' => 'anchor',
-           'url' => '#quote',
+           'url' => '#blog',
            'target' => '',
         )),
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 2168,
-         'menu-item-parent-id' => 0,
+         'menu-item-db-id' => 2361,
+         'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
-         'menu-item-title' => 'GET A QUOTE',
-         'menu-item-url' => '#quote',
+         'menu-item-title' => 'ABOUT',
+         'menu-item-url' => '#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2168',
+         'menu-item-object-id' => '2361',
          'menu-item-target' => '',
-         'menu-item-position' => 2,
+         'menu-item-position' => 4,
          'link' => 
         (array)(array(
            'type' => 'anchor',
-           'url' => '#quote',
+           'url' => '#about',
            'target' => '',
         )),
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 2173,
-         'menu-item-parent-id' => 0,
-         'menu-item-type' => 'custom',
-         'menu-item-title' => 'BLOG',
-         'menu-item-url' => '#blog',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2173',
-         'menu-item-target' => '',
-         'menu-item-position' => 2,
-         'link' => 
-        (array)(array(
-           'type' => 'anchor',
-           'url' => '#blog',
-           'target' => '',
-        )),
-      )),
-      5 => 
-      (array)(array(
-         'menu-item-db-id' => 2172,
-         'menu-item-parent-id' => 0,
-         'menu-item-type' => 'custom',
-         'menu-item-title' => 'BLOG',
-         'menu-item-url' => '#blog',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2172',
-         'menu-item-target' => '',
-         'menu-item-position' => 3,
-         'link' => 
-        (array)(array(
-           'type' => 'anchor',
-           'url' => '#blog',
-           'target' => '',
-        )),
-      )),
-      6 => 
-      (array)(array(
-         'menu-item-db-id' => 2176,
-         'menu-item-parent-id' => 0,
-         'menu-item-type' => 'custom',
-         'menu-item-title' => 'ABOUT',
-         'menu-item-url' => '#about',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2176',
-         'menu-item-target' => '',
-         'menu-item-position' => 4,
-         'link' => 
-        (array)(array(
-           'type' => 'anchor',
-           'url' => '#about',
-           'target' => '',
-        )),
-      )),
-      7 => 
-      (array)(array(
-         'menu-item-db-id' => 2177,
-         'menu-item-parent-id' => 0,
-         'menu-item-type' => 'custom',
-         'menu-item-title' => 'ABOUT',
-         'menu-item-url' => '#about',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2177',
-         'menu-item-target' => '',
-         'menu-item-position' => 3,
-         'link' => 
-        (array)(array(
-           'type' => 'anchor',
-           'url' => '#about',
-           'target' => '',
-        )),
-      )),
-      8 => 
-      (array)(array(
-         'menu-item-db-id' => 2181,
-         'menu-item-parent-id' => 0,
+         'menu-item-db-id' => 2362,
+         'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'CONTACT US',
          'menu-item-url' => '#contact',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2181',
-         'menu-item-target' => '',
-         'menu-item-position' => 4,
-         'link' => 
-        (array)(array(
-           'type' => 'anchor',
-           'url' => '#contact',
-           'target' => '',
-        )),
-      )),
-      9 => 
-      (array)(array(
-         'menu-item-db-id' => 2180,
-         'menu-item-parent-id' => 0,
-         'menu-item-type' => 'custom',
-         'menu-item-title' => 'CONTACT US',
-         'menu-item-url' => '#contact',
-         'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2180',
+         'menu-item-object-id' => '2362',
          'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 

@@ -235,10 +235,10 @@ $main->add_element("PostData", array (
       'class' => 'upfront-post-data-part',
       'view_class' => 'PostDataPartView',
       'part_type' => 'title',
-      'wrapper_id' => 'wrapper-1457954049638-1477',
+      'wrapper_id' => 'wrapper-1458046789389-1229',
       'type' => 'PostDataPartModel',
       'id_slug' => 'post-data-part',
-      'element_id' => 'post-data-part-object-1457954037687-1611',
+      'element_id' => 'post-data-part-object-1458046780455-1249',
       'padding_slider' => '15',
       'wrapper_breakpoint' => 
       array (
@@ -255,7 +255,6 @@ $main->add_element("PostData", array (
           'clear' => true,
         ),
       ),
-      'preset' => 'default',
       'new_line' => true,
       'breakpoint' => 
       array (
@@ -265,7 +264,6 @@ $main->add_element("PostData", array (
           'left' => 0,
           'col' => 12,
           'order' => 0,
-          'hide' => 0,
         ),
         'mobile' => 
         array (
@@ -273,10 +271,6 @@ $main->add_element("PostData", array (
           'left' => 0,
           'col' => 7,
           'order' => 0,
-        ),
-        'current_property' => 
-        array (
-          0 => 'hide',
         ),
       ),
     ),
@@ -287,13 +281,13 @@ $main->add_element("PostData", array (
       'margin_right' => '0',
       'margin_top' => '0',
       'margin_bottom' => '0',
-      'class' => 'upfront-post-data-part part-content',
+      'class' => 'upfront-post-data-part',
       'view_class' => 'PostDataPartView',
       'part_type' => 'content',
-      'wrapper_id' => 'wrapper-1457100593378-1487',
+      'wrapper_id' => 'wrapper-1458046774002-1990',
       'type' => 'PostDataPartModel',
       'id_slug' => 'post-data-part',
-      'element_id' => 'post-data-part-object-1457100593379-1898',
+      'element_id' => 'post-data-part-object-1458046774002-1769',
       'padding_slider' => '15',
       'wrapper_breakpoint' => 
       array (
@@ -310,7 +304,7 @@ $main->add_element("PostData", array (
           'clear' => true,
         ),
       ),
-      'preset' => 'default',
+      'new_line' => true,
       'breakpoint' => 
       array (
         'tablet' => 
@@ -319,7 +313,6 @@ $main->add_element("PostData", array (
           'left' => 0,
           'col' => 12,
           'order' => 0,
-          'hide' => 0,
         ),
         'mobile' => 
         array (
@@ -327,10 +320,6 @@ $main->add_element("PostData", array (
           'left' => 0,
           'col' => 7,
           'order' => 0,
-        ),
-        'current_property' => 
-        array (
-          0 => 'hide',
         ),
       ),
     ),
