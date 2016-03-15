@@ -229,33 +229,33 @@ $main->add_element("PostData", array (
     array (
       'columns' => '20',
       'margin_left' => '0',
-      'margin_right' => '0',
       'margin_top' => '0',
-      'margin_bottom' => '0',
       'class' => 'upfront-post-data-part',
       'view_class' => 'PostDataPartView',
       'part_type' => 'title',
-      'wrapper_id' => 'wrapper-1458046789389-1229',
+      'wrapper_id' => 'wrapper-1458052153533-1008',
       'type' => 'PostDataPartModel',
       'id_slug' => 'post-data-part',
-      'element_id' => 'post-data-part-object-1458046780455-1249',
+      'element_id' => 'post-data-part-object-1458052123669-1186',
       'padding_slider' => '15',
+      'new_line' => true,
       'wrapper_breakpoint' => 
       array (
         'tablet' => 
         array (
+          'edited' => false,
           'col' => 12,
           'order' => 1,
           'clear' => true,
         ),
         'mobile' => 
         array (
+          'edited' => false,
           'col' => 7,
           'order' => 1,
           'clear' => true,
         ),
       ),
-      'new_line' => true,
       'breakpoint' => 
       array (
         'tablet' => 
