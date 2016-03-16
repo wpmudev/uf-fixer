@@ -480,7 +480,9 @@ $main->add_element("PostData", array (
     array (
       'columns' => '20',
       'margin_left' => '0',
+      'margin_right' => '0',
       'margin_top' => '0',
+      'margin_bottom' => '0',
       'class' => 'upfront-post-data-part',
       'view_class' => 'PostDataPartView',
       'part_type' => 'title',
@@ -489,24 +491,22 @@ $main->add_element("PostData", array (
       'id_slug' => 'post-data-part',
       'element_id' => 'post-data-part-object-1458059490338-1974',
       'padding_slider' => '15',
-      'new_line' => true,
       'wrapper_breakpoint' => 
       array (
         'tablet' => 
         array (
-          'edited' => false,
           'col' => 12,
           'order' => 1,
           'clear' => true,
         ),
         'mobile' => 
         array (
-          'edited' => false,
           'col' => 7,
           'order' => 1,
           'clear' => true,
         ),
       ),
+      'new_line' => true,
       'breakpoint' => 
       array (
         'tablet' => 
