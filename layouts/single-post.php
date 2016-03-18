@@ -394,36 +394,34 @@ $blog_individual->add_element("PostData", array (
   array (
     0 => 
     array (
-      'columns' => '20',
-      'margin_left' => '0',
-      'margin_right' => '0',
-      'margin_top' => '0',
-      'margin_bottom' => '0',
+      'columns' => '24',
       'class' => 'upfront-post-data-part',
       'view_class' => 'PostDataPartView',
       'part_type' => 'title',
-      'wrapper_id' => 'wrapper-1457601816403-1357',
+      'wrapper_id' => 'wrapper-1458303816990-1982',
       'type' => 'PostDataPartModel',
       'id_slug' => 'post-data-part',
-      'element_id' => 'post-data-part-object-1457601816404-1459',
+      'element_id' => 'post-data-part-object-1458303816991-1256',
       'padding_slider' => '15',
+      'use_padding' => 'yes',
+      'new_line' => true,
       'wrapper_breakpoint' => 
       array (
         'tablet' => 
         array (
+          'edited' => false,
           'col' => 12,
           'order' => 1,
           'clear' => true,
         ),
         'mobile' => 
         array (
+          'edited' => false,
           'col' => 7,
           'order' => 1,
           'clear' => true,
         ),
       ),
-      'preset' => 'default',
-      'new_line' => true,
       'breakpoint' => 
       array (
         'tablet' => 
@@ -776,6 +774,7 @@ $blog_individual->add_element("PostData", array (
         ),
       ),
       'preset' => 'default',
+      'use_padding' => 'yes',
       'breakpoint' => 
       array (
         'tablet' => 
@@ -831,6 +830,7 @@ $blog_individual->add_element("PostData", array (
         ),
       ),
       'preset' => 'default',
+      'use_padding' => 'yes',
       'new_line' => true,
       'breakpoint' => 
       array (
@@ -1016,6 +1016,7 @@ $blog_individual->add_element("PostData", array (
         ),
       ),
       'preset' => 'default',
+      'use_padding' => 'yes',
       'new_line' => true,
       'breakpoint' => 
       array (
@@ -1259,6 +1260,7 @@ $blog_individual->add_element("PostData", array (
         ),
       ),
       'preset' => 'default',
+      'use_padding' => 'yes',
       'breakpoint' => 
       array (
         'tablet' => 
@@ -1567,6 +1569,7 @@ $blog_individual->add_element("PostData", array (
         ),
       ),
       'preset' => 'default',
+      'use_padding' => 'yes',
       'new_line' => true,
       'breakpoint' => 
       array (
@@ -2194,6 +2197,7 @@ $blog_individual->add_element("PostData", array (
         ),
       ),
       'preset' => 'default',
+      'use_padding' => 'yes',
       'breakpoint' => 
       array (
         'tablet' => 
@@ -2249,6 +2253,7 @@ $blog_individual->add_element("PostData", array (
         ),
       ),
       'preset' => 'default',
+      'use_padding' => 'yes',
       'breakpoint' => 
       array (
         'tablet' => 

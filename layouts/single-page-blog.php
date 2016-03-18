@@ -94,7 +94,7 @@ $region_5->add_element("PlainTxt", array (
     )),
     'bottom_padding_num' => '15',
     'preset' => 'u-sub-heading-m',
-    'use_padding' => true,
+    'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => false,
     'padding_number' => 0,
@@ -114,7 +114,7 @@ $region_5->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 12,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
     'mobile' => 
@@ -188,7 +188,7 @@ $region_5->add_element("PlainTxt", array (
     'bottom_padding_num' => '15',
     'preset' => 'default',
     'theme_style' => '',
-    'use_padding' => '',
+    'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => 'false',
     'padding_number' => 0,
@@ -219,7 +219,7 @@ $region_5->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 12,
-      'order' => 1,
+      'order' => 2,
       'clear' => true,
     ),
     'mobile' => 
@@ -325,6 +325,7 @@ $region_5->add_element("Posts", array (
     array (
     ),
     'gravatar_size' => 200,
+    'preset' => 'u-posts-grid-m',
     'post-part-date_posted' => '<div class="uposts-part date_posted">
     <a href="{{permalink}}"><span class="date-day">{{date_1}}</span> <span class="date-month">{{date_2}}</span></a>
 </div>',
@@ -382,8 +383,7 @@ $region_5->add_element("Posts", array (
     'row' => 174,
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'u-posts-grid-m',
-    'use_padding' => '',
+    'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => '15',
     'padding_number' => '15',
@@ -418,7 +418,7 @@ $region_5->add_element("Posts", array (
     array (
       'edited' => false,
       'col' => 12,
-      'order' => 2,
+      'order' => 3,
       'clear' => true,
     ),
     'mobile' => 

@@ -125,6 +125,7 @@ $prefooter->add_element("PlainTxt", array (
          'theme_style' => '',
          'top_padding_use' => true,
          'top_padding_num' => 50,
+         'use_padding' => 'yes',
       )),
        'custom-1410783666947' => 
       (array)(array(
@@ -242,6 +243,7 @@ $prefooter->add_group(array (
   'top_padding_num' => 0,
   'bottom_padding_num' => 0,
   'row' => 26,
+  'use_padding' => 'yes',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -514,7 +516,7 @@ $prefooter->add_group(array (
   'background_style' => 'full',
   'background_position_y' => 50,
   'background_position_x' => 50,
-  'use_padding' => 0,
+  'use_padding' => 'yes',
   'background_type' => 'color',
   'anchor' => '',
   'top_padding_use' => true,

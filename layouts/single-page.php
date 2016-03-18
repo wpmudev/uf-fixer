@@ -72,6 +72,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1458057064663-1406',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -432,6 +433,18 @@ $main->add_element("PostData", array (
       (array)(array(
          'preset' => 'title-and-content',
       )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'title-and-content',
+      )),
+    )),
+    'breakpoint' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'lock_padding',
     )),
   ),
   'row' => 6,
@@ -506,6 +519,8 @@ $main->add_element("PostData", array (
           'clear' => true,
         ),
       ),
+      'use_padding' => 'yes',
+      'preset' => 'default',
       'new_line' => true,
       'breakpoint' => 
       array (
@@ -515,6 +530,8 @@ $main->add_element("PostData", array (
           'left' => 0,
           'col' => 12,
           'order' => 0,
+          'use_padding' => 'yes',
+          'hide' => 0,
         ),
         'mobile' => 
         array (
@@ -522,6 +539,10 @@ $main->add_element("PostData", array (
           'left' => 0,
           'col' => 7,
           'order' => 0,
+        ),
+        'current_property' => 
+        array (
+          0 => 'use_padding',
         ),
       ),
     ),
@@ -555,6 +576,8 @@ $main->add_element("PostData", array (
           'clear' => true,
         ),
       ),
+      'use_padding' => 'yes',
+      'preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
@@ -563,6 +586,8 @@ $main->add_element("PostData", array (
           'left' => 0,
           'col' => 12,
           'order' => 0,
+          'use_padding' => 'yes',
+          'hide' => 0,
         ),
         'mobile' => 
         array (
@@ -570,6 +595,10 @@ $main->add_element("PostData", array (
           'left' => 0,
           'col' => 7,
           'order' => 0,
+        ),
+        'current_property' => 
+        array (
+          0 => 'use_padding',
         ),
       ),
     ),
@@ -592,6 +621,7 @@ $main->add_element("Uspacer", array (
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1458057066999-1256',
+    'preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,

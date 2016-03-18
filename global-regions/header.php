@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_83d14a = upfront_create_region(
+$region_6fff5d = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -44,7 +44,7 @@ $region_83d14a = upfront_create_region(
 )
 			);
 
-$region_83d14a->add_element("Uspacer", array (
+$region_6fff5d->add_element("Uspacer", array (
   'columns' => '1',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -83,7 +83,7 @@ $region_83d14a->add_element("Uspacer", array (
   ),
 ));
 
-$region_83d14a->add_element("Uimage", array (
+$region_6fff5d->add_element("Uimage", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -176,7 +176,7 @@ $region_83d14a->add_element("Uimage", array (
     'top_padding_num' => 50,
     'bottom_padding_num' => '15',
     'theme_style' => '',
-    'use_padding' => true,
+    'use_padding' => 'yes',
     'lock_padding' => 0,
     'padding_slider' => '15',
     'padding_number' => '15',
@@ -241,7 +241,7 @@ $region_83d14a->add_element("Uimage", array (
   ),
 ));
 
-$region_83d14a->add_element("Uspacer", array (
+$region_6fff5d->add_element("Uspacer", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -292,7 +292,7 @@ $region_83d14a->add_element("Uspacer", array (
   ),
 ));
 
-$region_83d14a->add_element("Uspacer", array (
+$region_6fff5d->add_element("Uspacer", array (
   'columns' => '1',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -343,7 +343,7 @@ $region_83d14a->add_element("Uspacer", array (
   ),
 ));
 
-$region_83d14a->add_element("Unewnavigation", array (
+$region_6fff5d->add_element("Unewnavigation", array (
   'columns' => '13',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -362,13 +362,13 @@ $region_83d14a->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 117,
+         'menu-item-db-id' => 2485,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'SERVICES',
          'menu-item-url' => '{{upfront:home_url}}/services-inner/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '117',
+         'menu-item-object-id' => '2485',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -380,13 +380,13 @@ $region_83d14a->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 118,
+         'menu-item-db-id' => 2486,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'BLOG',
          'menu-item-url' => '{{upfront:home_url}}/blog/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '118',
+         'menu-item-object-id' => '2486',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -398,13 +398,13 @@ $region_83d14a->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 119,
+         'menu-item-db-id' => 2487,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'GET A QUOTE',
          'menu-item-url' => '{{upfront:home_url}}/get-quote-inner/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '119',
+         'menu-item-object-id' => '2487',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
@@ -416,13 +416,13 @@ $region_83d14a->add_element("Unewnavigation", array (
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 120,
+         'menu-item-db-id' => 2488,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ABOUT',
          'menu-item-url' => '{{upfront:home_url}}/about-inner/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '120',
+         'menu-item-object-id' => '2488',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
@@ -434,13 +434,13 @@ $region_83d14a->add_element("Unewnavigation", array (
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 121,
+         'menu-item-db-id' => 2489,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'CONTACT US',
          'menu-item-url' => '{{upfront:home_url}}/contact-us-inner/',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '121',
+         'menu-item-object-id' => '2489',
          'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 
@@ -501,6 +501,7 @@ $region_83d14a->add_element("Unewnavigation", array (
          'is_floating' => 'no',
          'top_padding_use' => true,
          'top_padding_num' => 20,
+         'use_padding' => 'yes',
       )),
        'mobile' => 
       (array)(array(
@@ -515,12 +516,13 @@ $region_83d14a->add_element("Unewnavigation", array (
          'top_padding_use' => true,
          'top_padding_num' => 20,
       )),
+       'current_property' => 'use_padding',
     )),
     'row' => 19,
     'top_padding_use' => true,
     'top_padding_num' => 50,
     'bottom_padding_num' => '15',
-    'use_padding' => '',
+    'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => 'false',
     'padding_number' => 0,
@@ -585,7 +587,7 @@ $region_83d14a->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_83d14a->add_element("PlainTxt", array (
+$region_6fff5d->add_element("PlainTxt", array (
   'columns' => '5',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -630,6 +632,7 @@ $region_83d14a->add_element("PlainTxt", array (
     'bottom_padding_num' => '15',
     'preset' => 'default',
     'padding_slider' => '15',
+    'use_padding' => 'yes',
   ),
   'row' => 6,
   'sticky' => false,
@@ -691,7 +694,7 @@ $region_83d14a->add_element("PlainTxt", array (
   ),
 ));
 
-$region_83d14a->add_element("Uspacer", array (
+$region_6fff5d->add_element("Uspacer", array (
   'columns' => '1',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -729,7 +732,7 @@ $region_83d14a->add_element("Uspacer", array (
   ),
 ));
 
-$region_83d14a->add_element("Uspacer", array (
+$region_6fff5d->add_element("Uspacer", array (
   'columns' => '8',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -780,7 +783,7 @@ $region_83d14a->add_element("Uspacer", array (
   ),
 ));
 
-$region_83d14a->add_element("Uspacer", array (
+$region_6fff5d->add_element("Uspacer", array (
   'columns' => '3',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -831,6 +834,6 @@ $region_83d14a->add_element("Uspacer", array (
   ),
 ));
 
-$regions->add($region_83d14a);
+$regions->add($region_6fff5d);
 
 /* END_REGION_OUTPUT */

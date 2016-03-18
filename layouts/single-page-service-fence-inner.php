@@ -216,6 +216,7 @@ $main->add_element("PlainTxt", array (
     'bottom_padding_num' => '15',
     'preset' => 'default',
     'padding_slider' => '15',
+    'use_padding' => 'yes',
   ),
   'row' => 6,
   'sticky' => false,

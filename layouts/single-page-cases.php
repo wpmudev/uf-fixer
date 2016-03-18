@@ -128,7 +128,7 @@ $cases_region->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'col' => 12,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
     'mobile' => 
@@ -201,7 +201,7 @@ $cases_region->add_element("PlainTxt", array (
     'bottom_padding_num' => '15',
     'preset' => 'default',
     'theme_style' => '',
-    'use_padding' => '',
+    'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => '15',
     'padding_number' => '15',
@@ -227,7 +227,7 @@ $cases_region->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'col' => 12,
-      'order' => 1,
+      'order' => 2,
       'clear' => true,
     ),
     'mobile' => 
@@ -286,6 +286,7 @@ $cases_region->add_element("Ugallery", array (
     'has_settings' => 1,
     'class' => 'c24 upfront-gallery',
     'id_slug' => 'ugallery',
+    'preset' => 'case-study-ugallery-style-m',
     'status' => 'ok',
     'images' => 
     array (
@@ -2116,7 +2117,6 @@ $cases_region->add_element("Ugallery", array (
     'top_padding_use' => true,
     'top_padding_num' => 70,
     'bottom_padding_num' => '0',
-    'preset' => 'case-study-ugallery-style-m',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => 'false',
@@ -2139,13 +2139,13 @@ $cases_region->add_element("Ugallery", array (
     'tablet' => 
     array (
       'col' => 12,
-      'order' => 2,
+      'order' => 3,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'col' => 7,
-      'order' => 2,
+      'order' => 3,
       'clear' => true,
     ),
     'custom-1410783666947' => 
