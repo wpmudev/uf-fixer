@@ -145,7 +145,7 @@ $prefooter->add_element("PlainTxt", array (
     'top_padding_num' => 55,
     'bottom_padding_num' => '15',
     'preset' => 'uf-heading-footer-m',
-    'use_padding' => '',
+    'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => '15',
     'padding_number' => '15',

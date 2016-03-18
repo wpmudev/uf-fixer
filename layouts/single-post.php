@@ -395,6 +395,10 @@ $blog_individual->add_element("PostData", array (
     0 => 
     array (
       'columns' => '24',
+      'margin_left' => '0',
+      'margin_right' => '0',
+      'margin_top' => '0',
+      'margin_bottom' => '0',
       'class' => 'upfront-post-data-part',
       'view_class' => 'PostDataPartView',
       'part_type' => 'title',
@@ -404,24 +408,22 @@ $blog_individual->add_element("PostData", array (
       'element_id' => 'post-data-part-object-1458303816991-1256',
       'padding_slider' => '15',
       'use_padding' => 'yes',
-      'new_line' => true,
       'wrapper_breakpoint' => 
       array (
         'tablet' => 
         array (
-          'edited' => false,
           'col' => 12,
           'order' => 1,
           'clear' => true,
         ),
         'mobile' => 
         array (
-          'edited' => false,
           'col' => 7,
           'order' => 1,
           'clear' => true,
         ),
       ),
+      'new_line' => true,
       'breakpoint' => 
       array (
         'tablet' => 
@@ -695,6 +697,16 @@ $blog_individual->add_element("PostData", array (
     'static-author_bio-font-size' => '',
     'static-author_bio-line-height' => '',
     'static-author_bio-font-color' => '',
+    'static-gravatar-lock' => 'yes',
+    'static-gravatar-border-width' => '1',
+    'static-gravatar-border-type' => 'solid',
+    'static-gravatar-border-color' => '',
+    'static-gravatar-radius1' => '0',
+    'static-gravatar-radius2' => '0',
+    'static-gravatar-radius3' => '0',
+    'static-gravatar-radius4' => '0',
+    'static-gravatar-radius' => '0',
+    'static-gravatar-radius_number' => '0',
   ),
   'row' => 6,
   'sticky' => false,
