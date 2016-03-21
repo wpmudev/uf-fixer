@@ -707,6 +707,7 @@ $blog_individual->add_element("PostData", array (
     'static-gravatar-radius4' => '0',
     'static-gravatar-radius' => '0',
     'static-gravatar-radius_number' => '0',
+    'link' => 'author',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1126,7 +1127,7 @@ $blog_individual->add_element("PostData", array (
     'id_slug' => 'post-data',
     'data_type' => 'featured_image',
     'preset' => 'default',
-    'row' => 5,
+    'row' => 69,
     'type_parts' => 
     array (
       0 => 'featured_image',
@@ -1189,7 +1190,7 @@ $blog_individual->add_element("PostData", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 69,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -1254,7 +1255,7 @@ $blog_individual->add_element("PostData", array (
       'type' => 'PostDataPartModel',
       'id_slug' => 'post-data-part',
       'element_id' => 'post-data-part-object-1457102555387-1951',
-      'row' => 5,
+      'row' => 69,
       'padding_slider' => '15',
       'wrapper_breakpoint' => 
       array (
