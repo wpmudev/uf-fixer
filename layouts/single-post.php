@@ -1447,14 +1447,14 @@ $blog_individual->add_element("PostData", array (
         array (
           'edited' => false,
           'left' => 0,
-          'col' => 0,
+          'col' => 12,
           'order' => 0,
         ),
         'mobile' => 
         array (
           'edited' => false,
           'left' => 0,
-          'col' => 0,
+          'col' => 7,
           'order' => 0,
         ),
       ),
