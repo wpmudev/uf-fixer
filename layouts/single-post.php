@@ -782,8 +782,6 @@ $blog_individual->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
@@ -838,7 +836,7 @@ $blog_individual->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 2,
+          'order' => 1,
           'clear' => true,
         ),
         'mobile' => 
@@ -1246,6 +1244,7 @@ $blog_individual->add_element("PostData", array (
       0 => 'edited',
     ),
   ),
+  'close_wrapper' => false,
   'objects' => 
   array (
     0 => 
@@ -1298,113 +1297,6 @@ $blog_individual->add_element("PostData", array (
           'order' => 0,
         ),
       ),
-    ),
-  ),
-));
-
-$blog_individual->add_element("Uspacer", array (
-  'columns' => '2',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1457104831348-1075 upfront-module-spacer',
-  'id' => 'module-1457104831348-1075',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24 upfront-object-spacer',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1457104831348-1130',
-    'preset' => 'default',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 0,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1457104831347-1102',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 2,
-      'edited' => true,
-    ),
-    'mobile' => 
-    array (
-      'col' => 2,
-    ),
-    'current_property' => 
-    array (
-      0 => 'edited',
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-    ),
-    'current_property' => 
-    array (
-      0 => 'edited',
-    ),
-  ),
-));
-
-$blog_individual->add_element("Uspacer", array (
-  'columns' => '7',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1457103764560-1020 upfront-module-spacer',
-  'id' => 'module-1457103764560-1020',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24 upfront-object-spacer',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1457103764559-1415',
-    'preset' => 'default',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 0,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1457103764558-1394',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 7,
-      'edited' => true,
-    ),
-    'mobile' => 
-    array (
-      'col' => 7,
-    ),
-    'current_property' => 
-    array (
-      0 => 'edited',
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-    ),
-    'current_property' => 
-    array (
-      0 => 'edited',
     ),
   ),
 ));
@@ -1513,49 +1405,7 @@ $blog_individual->add_element("PostData", array (
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1457103623679-1671',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 5,
-      'clear' => true,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'col' => 7,
-      'order' => 5,
-      'clear' => true,
-    ),
-    'current_property' => 
-    array (
-      0 => 'edited',
-    ),
-  ),
-  'breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'left' => 0,
-      'col' => 12,
-      'order' => 0,
-    ),
-    'mobile' => 
-    array (
-      'edited' => false,
-      'left' => 0,
-      'col' => 7,
-      'order' => 0,
-    ),
-    'current_property' => 
-    array (
-      0 => 'edited',
-    ),
-  ),
+  'wrapper_id' => 'wrapper-1457103476517-1190',
   'objects' => 
   array (
     0 => 
@@ -1597,14 +1447,14 @@ $blog_individual->add_element("PostData", array (
         array (
           'edited' => false,
           'left' => 0,
-          'col' => 12,
+          'col' => 0,
           'order' => 0,
         ),
         'mobile' => 
         array (
           'edited' => false,
           'left' => 0,
-          'col' => 7,
+          'col' => 0,
           'order' => 0,
         ),
       ),
@@ -1618,8 +1468,8 @@ $blog_individual->add_element("Uspacer", array (
   'margin_right' => '0',
   'margin_top' => '0',
   'margin_bottom' => '0',
-  'class' => 'module-1457103768135-1540 upfront-module-spacer',
-  'id' => 'module-1457103768135-1540',
+  'class' => 'module-1457104831348-1075 upfront-module-spacer',
+  'id' => 'module-1457104831348-1075',
   'options' => 
   array (
     'type' => 'UspacerModel',
@@ -1627,7 +1477,7 @@ $blog_individual->add_element("Uspacer", array (
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
-    'element_id' => 'spacer-object-1457103768135-1211',
+    'element_id' => 'spacer-object-1457104831348-1130',
     'preset' => 'default',
   ),
   'row' => 6,
@@ -1635,7 +1485,7 @@ $blog_individual->add_element("Uspacer", array (
   'default_hide' => 1,
   'hide' => 0,
   'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1457103768134-1697',
+  'wrapper_id' => 'wrapper-1457104831347-1102',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2148,14 +1998,14 @@ $blog_individual->add_element("PostData", array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 6,
+      'order' => 5,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'col' => 7,
-      'order' => 6,
+      'order' => 5,
       'clear' => true,
     ),
     'current_property' => 
