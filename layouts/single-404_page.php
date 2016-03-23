@@ -416,7 +416,7 @@ $main->add_element("Button", array (
     'view_class' => 'ButtonView',
     'class' => 'c24 upfront-button',
     'has_settings' => 1,
-    'id_slug' => 'button',
+    'id_slug' => 'ubutton',
     'preset' => 'black-borders-button',
     'usingNewAppearance' => true,
     'element_id' => 'button-object-1412692676375-1820',

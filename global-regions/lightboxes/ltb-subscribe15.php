@@ -91,7 +91,7 @@ $ltb_subscribe15->add_element("PlainTxt", array (
     'bottom_padding_num' => '15',
     'preset' => 'default',
     'theme_style' => '',
-    'use_padding' => true,
+    'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => '15',
     'padding_number' => '15',
