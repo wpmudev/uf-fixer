@@ -413,14 +413,10 @@ $blog_individual->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'preset' => 'default',
@@ -786,8 +782,6 @@ $blog_individual->add_element("PostData", array (
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'preset' => 'default',
@@ -809,6 +803,8 @@ $blog_individual->add_element("PostData", array (
           'left' => 0,
           'col' => 7,
           'order' => 0,
+          'use_padding' => 'yes',
+          'hide' => 1,
         ),
         'current_property' => 
         array (
@@ -836,14 +832,10 @@ $blog_individual->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 2,
-          'clear' => true,
         ),
       ),
       'preset' => 'default',
@@ -866,6 +858,8 @@ $blog_individual->add_element("PostData", array (
           'left' => 0,
           'col' => 7,
           'order' => 0,
+          'use_padding' => 'yes',
+          'hide' => 0,
         ),
         'current_property' => 
         array (
@@ -1023,14 +1017,10 @@ $blog_individual->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'preset' => 'default',
@@ -1148,7 +1138,7 @@ $blog_individual->add_element("PostData", array (
 </div>',
     'element_id' => 'post-data-object-1457102555388-1110',
     'top_padding_num' => '0',
-    'bottom_padding_num' => '0',
+    'bottom_padding_num' => '30',
     'usingNewAppearance' => true,
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -1158,7 +1148,7 @@ $blog_individual->add_element("PostData", array (
     'right_padding_num' => '15',
     'anchor' => '',
     'bottom_padding_use' => 'yes',
-    'bottom_padding_slider' => '0',
+    'bottom_padding_slider' => '30',
     'top_padding_use' => 'yes',
     'top_padding_slider' => '0',
     'resize_featured' => '',
@@ -1268,14 +1258,10 @@ $blog_individual->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'preset' => 'default',
@@ -1343,7 +1329,7 @@ $blog_individual->add_element("PostData", array (
 ',
     'theme_preset' => 'true',
     'element_id' => 'post-data-object-1457102691338-1908',
-    'top_padding_num' => '30',
+    'top_padding_num' => '0',
     'bottom_padding_num' => '0',
     'usingNewAppearance' => true,
     'use_padding' => 'yes',
@@ -1378,7 +1364,7 @@ $blog_individual->add_element("PostData", array (
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
     'top_padding_use' => 'yes',
-    'top_padding_slider' => '30',
+    'top_padding_slider' => '0',
     'breakpoint' => 
     (array)(array(
        'tablet' => 
@@ -1428,14 +1414,10 @@ $blog_individual->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'preset' => 'default',
@@ -2056,14 +2038,10 @@ $blog_individual->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 1,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 1,
-          'clear' => true,
         ),
       ),
       'preset' => 'default',
@@ -2113,14 +2091,10 @@ $blog_individual->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'order' => 2,
-          'clear' => true,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'order' => 2,
-          'clear' => true,
         ),
       ),
       'preset' => 'default',
