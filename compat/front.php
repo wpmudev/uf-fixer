@@ -6,7 +6,7 @@
 if (!is_admin() && !function_exists('upfront_version_check_script')) {
     function upfront_version_check_script () {
         if (function_exists('upfront_exporter_is_running') && upfront_exporter_is_running()) return false; // Not in exporter
-        if (version_compare(wp_get_theme('upfront')->Version, '1.0-alpha-1', 'ge')) return false;
+        if (version_compare(wp_get_theme('upfront')->Version, '1.2-alpha-1', 'ge')) return false;
 ?>
 <style type="text/css">
 .mfp-bg.uf-upgrade-notice {
@@ -62,6 +62,12 @@ if (!is_admin() && !function_exists('upfront_version_check_script')) {
 ;(function ($, undefined) {
 
     /**
+     * This holds a reference to `Upfront.Application.start()`
+     * method, so we can dispatch it down the line, if needed
+     */
+    var _start;
+
+    /**
      * Overridden Upfront.Application.start
      *
      * Actual application starting.
@@ -73,8 +79,9 @@ if (!is_admin() && !function_exists('upfront_version_check_script')) {
             items: {
                 src: '' + 
                     '<div class="upfront-version_compatibility-nag">' +
-                        '<p>You have recently upgraded your theme. Please Upgrade to <b>Upfront 1.0</b> in order to be able to edit this theme.</p>' +
+                        '<p>You have recently upgraded your theme. Please Upgrade to <b>Upfront 1.2</b> in order to be able to edit this theme.</p>' +
                         '<div>' +
+                            '<a class="boot" href="#boot">Proceed to edit</a>' +
                             '<a class="update" href="<?php echo esc_url(admin_url("themes.php")); ?>">Update</a>' +
                         '</div>' +
                     '</div>' +
@@ -83,12 +90,34 @@ if (!is_admin() && !function_exists('upfront_version_check_script')) {
             },
             mainClass: 'uf-upgrade-notice'
         });
+        $(".upfront-version_compatibility-nag")
+            .find('a[href="#boot"]')
+                .off("click")
+                .on('click', function (e) {
+                    if (e.preventDefault) e.preventDefault();
+                    if (e.stopPropagation) e.stopPropagation();
+                    
+                    $.magnificPopup.close();
+                    // Shim the start method back in
+                    Upfront.Application.start = _start;
+
+                    // Don't forget to actually boot :)
+                    _start.apply(Upfront.Application);
+
+                    // Apply pre-boot callback
+                    if (_callback && 'function' === typeof _callback) _callback.apply(this);
+                    
+                    return false;
+                })
+            .end()
+        ;
         return false;
     }
 
     (function boot () {
         if (!((window.Upfront || {}).Events || {}).on) return setTimeout(boot);
         Upfront.Events.on("application:loaded:layout_editor", function () {
+            _start = Upfront.Application.start;
             // Monkeypatch the Application.start method so we can't run whatsoever
             Upfront.Application.start = application_override;
         });

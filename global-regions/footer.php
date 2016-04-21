@@ -238,6 +238,7 @@ $footer->add_element("Uimage", array (
     'stretch' => false,
     'vstretch' => false,
     'quick_swap' => false,
+    'is_locked' => true,
     'gifImage' => 0,
     'placeholder_class' => '',
     'preset' => 'default',
@@ -1000,6 +1001,7 @@ $footer->add_element("PlainTxt", array (
       (array)(array(
          'row' => 14,
          'theme_style' => 'u-paragraph-footer',
+         'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
     )),

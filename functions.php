@@ -11,7 +11,6 @@ class Uf_fixer extends Upfront_ChildTheme {
     public function initialize() {
         add_filter('upfront_augment_theme_layout', array($this, 'augment_layout'));
         $this->add_actions_filters();
-        add_action('wp_enqueue_scripts', array($this, 'add_scripts'));
         $this->populate_pages();
         add_filter("comment_form_field_author", array( $this, "comment_form_author" ));
         add_filter("comment_form_field_email", array( $this, "comment_form_email" ));
@@ -31,11 +30,6 @@ class Uf_fixer extends Upfront_ChildTheme {
 
     public function populate_pages() {
 
-    }
-    
-    public function add_scripts() {
-        wp_enqueue_script('onoff', get_stylesheet_directory_uri() . '/js/jquery.onoff.min.js', array('jquery'));
-        wp_enqueue_script('fixer-theme-script', get_stylesheet_directory_uri() . '/js/fixer-theme.js', array('jquery', 'onoff'));
     }
 
     protected function add_actions_filters() {

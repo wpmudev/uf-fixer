@@ -2,6 +2,12 @@ Change Log
 ============
 
 
+1.1.1 - 2016-04-21
+-------------------------------------------------------------------------------
+- Fix: remove unused 3rd party scripts.
+- Fix: gravatar showing on mobile.
+- Fix: improve the spacing on feature image.
+
 1.1 - 2016-03-23
 -------------------------------------------------------------------------------
 - Add: full Upfront v1.1 compatibility.
