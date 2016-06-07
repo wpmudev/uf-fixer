@@ -10219,7 +10219,7 @@ $about->add_element("Uimage", array (
     'element_size' => 
     (array)(array(
        'width' => 1050,
-       'height' => 160,
+       'height' => 569,
     )),
     'rotation' => 0,
     'color' => '#ffffff',
