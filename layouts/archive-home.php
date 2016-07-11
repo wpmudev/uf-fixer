@@ -167,6 +167,7 @@ $region_14->add_element("Uimage", array (
     'stretch' => false,
     'vstretch' => false,
     'quick_swap' => false,
+    'is_locked' => true,
     'gifImage' => 0,
     'placeholder_class' => '',
     'preset' => 'default',
@@ -388,13 +389,13 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 2480,
+         'menu-item-db-id' => 2724,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'SERVICES',
          'menu-item-url' => '#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2480',
+         'menu-item-object-id' => '2724',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'link' => 
@@ -406,13 +407,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 2481,
+         'menu-item-db-id' => 2725,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'GET A QUOTE',
          'menu-item-url' => '#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2481',
+         'menu-item-object-id' => '2725',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'link' => 
@@ -424,13 +425,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 2482,
+         'menu-item-db-id' => 2726,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'BLOG',
          'menu-item-url' => '#blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2482',
+         'menu-item-object-id' => '2726',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'link' => 
@@ -442,13 +443,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 2483,
+         'menu-item-db-id' => 2727,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ABOUT',
          'menu-item-url' => '#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2483',
+         'menu-item-object-id' => '2727',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'link' => 
@@ -460,13 +461,13 @@ $region_14->add_element("Unewnavigation", array (
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 2484,
+         'menu-item-db-id' => 2728,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'CONTACT US',
          'menu-item-url' => '#contact',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2484',
+         'menu-item-object-id' => '2728',
          'menu-item-target' => '',
          'menu-item-position' => 5,
          'link' => 
@@ -2041,7 +2042,7 @@ $region_13->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
     'mobile' => 
@@ -2049,7 +2050,7 @@ $region_13->add_element("PlainTxt", array (
       'edited' => true,
       'col' => 7,
       'clear' => true,
-      'order' => 0,
+      'order' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -2057,6 +2058,10 @@ $region_13->add_element("PlainTxt", array (
       'order' => 0,
       'clear' => true,
       'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -2164,7 +2169,7 @@ Service &amp; Quality</span>
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 1,
+      'order' => 2,
       'clear' => true,
     ),
     'mobile' => 
@@ -2172,7 +2177,7 @@ Service &amp; Quality</span>
       'edited' => true,
       'col' => 7,
       'clear' => true,
-      'order' => 1,
+      'order' => 2,
     ),
     'custom-1410783666947' => 
     array (
@@ -2180,6 +2185,10 @@ Service &amp; Quality</span>
       'order' => 1,
       'clear' => true,
       'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -2282,15 +2291,19 @@ $region_13->add_group(array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 2,
+      'order' => 3,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'col' => 7,
-      'order' => 2,
+      'order' => 3,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -2515,6 +2528,7 @@ $region_13->add_element("Uimage", array (
     'stretch' => true,
     'vstretch' => true,
     'quick_swap' => false,
+    'is_locked' => true,
     'gifImage' => 0,
     'placeholder_class' => '',
     'preset' => 'default',
@@ -2946,15 +2960,19 @@ $region_13->add_group(array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 4,
+      'order' => 5,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'col' => 7,
-      'order' => 4,
+      'order' => 5,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -3171,6 +3189,7 @@ $region_13->add_element("Uimage", array (
     'stretch' => true,
     'vstretch' => true,
     'quick_swap' => false,
+    'is_locked' => true,
     'gifImage' => 0,
     'placeholder_class' => '',
     'preset' => 'default',
@@ -3643,15 +3662,19 @@ $region_13->add_group(array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 3,
+      'order' => 4,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'col' => 7,
-      'order' => 3,
+      'order' => 4,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -3870,6 +3893,7 @@ $region_13->add_element("Uimage", array (
     'stretch' => true,
     'vstretch' => true,
     'quick_swap' => false,
+    'is_locked' => true,
     'gifImage' => 0,
     'placeholder_class' => '',
     'preset' => 'default',
@@ -4299,16 +4323,20 @@ $region_13->add_group(array (
     'tablet' => 
     array (
       'edited' => false,
-      'col' => 12,
-      'order' => 5,
-      'clear' => false,
+      'col' => 6,
+      'order' => 6,
+      'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 5,
+      'order' => 6,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -4317,7 +4345,7 @@ $region_13->add_group(array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
       'top' => 0,
       'theme_style' => 'quality-style',
@@ -4343,6 +4371,10 @@ $region_13->add_group(array (
       'left' => 6,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -4525,6 +4557,7 @@ $region_13->add_element("Uimage", array (
     'stretch' => true,
     'vstretch' => true,
     'quick_swap' => false,
+    'is_locked' => true,
     'gifImage' => 0,
     'placeholder_class' => '',
     'preset' => 'default',
@@ -4993,16 +5026,20 @@ $region_13->add_group(array (
     'tablet' => 
     array (
       'edited' => false,
-      'col' => 12,
-      'order' => 6,
-      'clear' => true,
+      'col' => 6,
+      'order' => 7,
+      'clear' => false,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 6,
+      'order' => 7,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -5011,7 +5048,7 @@ $region_13->add_group(array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
       'theme_style' => 'quality-style',
       'row' => 38,
@@ -5037,6 +5074,10 @@ $region_13->add_group(array (
       'left' => 6,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -5219,6 +5260,7 @@ $region_13->add_element("Uimage", array (
     'stretch' => true,
     'vstretch' => true,
     'quick_swap' => false,
+    'is_locked' => true,
     'gifImage' => 0,
     'placeholder_class' => '',
     'preset' => 'default',
@@ -5650,15 +5692,19 @@ $region_13->add_group(array (
     array (
       'edited' => false,
       'col' => 12,
-      'order' => 7,
-      'clear' => false,
+      'order' => 8,
+      'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 7,
+      'order' => 8,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -5693,6 +5739,10 @@ $region_13->add_group(array (
       'left' => 6,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -5778,7 +5828,7 @@ $region_13->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
     'mobile' => 
@@ -5793,6 +5843,10 @@ $region_13->add_element("PlainTxt", array (
       'edited' => false,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -5877,6 +5931,7 @@ $region_13->add_element("Uimage", array (
     'stretch' => true,
     'vstretch' => true,
     'quick_swap' => false,
+    'is_locked' => true,
     'gifImage' => 0,
     'placeholder_class' => '',
     'preset' => 'default',
@@ -5931,11 +5986,19 @@ $region_13->add_element("Uimage", array (
   array (
     'tablet' => 
     array (
-      'col' => 12,
+      'col' => 6,
+      'clear' => true,
+      'order' => 2,
     ),
     'mobile' => 
     array (
       'col' => 7,
+      'clear' => true,
+      'order' => 2,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -5944,7 +6007,7 @@ $region_13->add_element("Uimage", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 21,
       'top' => 0,
       'row' => 23,
@@ -5965,6 +6028,10 @@ $region_13->add_element("Uimage", array (
       'left' => 0,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1433408599187-1298',
@@ -6053,16 +6120,20 @@ $region_13->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => false,
-      'col' => 12,
-      'order' => 1,
-      'clear' => true,
+      'col' => 6,
+      'order' => 3,
+      'clear' => false,
     ),
     'mobile' => 
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 1,
+      'order' => 3,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -6071,7 +6142,7 @@ $region_13->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 5,
       'top' => 0,
       'row' => 7,
@@ -6091,6 +6162,10 @@ $region_13->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1433408599187-1298',
@@ -6177,14 +6252,14 @@ $region_13->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 3,
+      'order' => 4,
       'clear' => false,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'col' => 7,
-      'order' => 3,
+      'order' => 4,
       'clear' => true,
     ),
     'custom-1410783666947' => 
@@ -6192,6 +6267,10 @@ $region_13->add_element("PlainTxt", array (
       'edited' => false,
       'col' => 5,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -7044,8 +7123,12 @@ $quote->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -7076,6 +7159,10 @@ $quote->add_element("PlainTxt", array (
       'order' => 7,
       'top' => 8,
       'row' => 11,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1445402962485-1481',
@@ -7132,6 +7219,7 @@ $quote->add_element("Uimage", array (
     'stretch' => false,
     'vstretch' => true,
     'quick_swap' => false,
+    'is_locked' => true,
     'gifImage' => 0,
     'placeholder_class' => '',
     'preset' => 'default',
@@ -7189,8 +7277,12 @@ $quote->add_element("Uimage", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 1,
+      'order' => 2,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -7218,6 +7310,10 @@ $quote->add_element("Uimage", array (
       'col' => 7,
       'order' => 5,
       'top' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1445402962485-1481',
@@ -7313,8 +7409,12 @@ Lorr sit amet, consectetur adipiscing elit. Phasellus consequat, tortor id males
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 2,
+      'order' => 3,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -7345,6 +7445,10 @@ Lorr sit amet, consectetur adipiscing elit. Phasellus consequat, tortor id males
       'order' => 8,
       'top' => 0,
       'row' => 24,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1445402962485-1481',
@@ -7554,8 +7658,12 @@ $quote->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -7585,6 +7693,10 @@ $quote->add_element("PlainTxt", array (
       'order' => 3,
       'top' => 6,
       'row' => 11,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1445402965567-1620',
@@ -7641,6 +7753,7 @@ $quote->add_element("Uimage", array (
     'stretch' => true,
     'vstretch' => true,
     'quick_swap' => false,
+    'is_locked' => true,
     'gifImage' => 0,
     'placeholder_class' => '',
     'preset' => 'default',
@@ -7693,8 +7806,12 @@ $quote->add_element("Uimage", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 1,
+      'order' => 2,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -7723,6 +7840,10 @@ $quote->add_element("Uimage", array (
       'col' => 7,
       'order' => 6,
       'top' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1445402965567-1620',
@@ -7818,8 +7939,12 @@ $quote->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 2,
+      'order' => 3,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -7850,6 +7975,10 @@ $quote->add_element("PlainTxt", array (
       'order' => 9,
       'top' => 0,
       'row' => 23,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1445402965567-1620',
@@ -8096,7 +8225,7 @@ $blog_header->add_element("PlainTxt", array (
     ),
     'mobile' => 
     array (
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
       'col' => 7,
     ),
@@ -8106,6 +8235,10 @@ $blog_header->add_element("PlainTxt", array (
       'order' => 0,
       'clear' => true,
       'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -8135,6 +8268,10 @@ $blog_header->add_element("PlainTxt", array (
       'col' => 18,
       'order' => 0,
       'top' => 10,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -8303,7 +8440,7 @@ $blog_header->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 1,
+      'order' => 2,
       'clear' => true,
     ),
     'custom-1410783666947' => 
@@ -8312,6 +8449,10 @@ $blog_header->add_element("PlainTxt", array (
       'col' => 18,
       'order' => 1,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -8340,6 +8481,10 @@ $blog_header->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 18,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -8459,6 +8604,9 @@ $blog_items->add_element("Posts", array (
     'pagination' => '',
     'sticky' => '',
     'posts_list' => '',
+    'thumbnail_size' => 'large',
+    'custom_thumbnail_width' => '540',
+    'custom_thumbnail_height' => '290',
     'post_parts' => 
     array (
       0 => 'featured_image',
@@ -8605,6 +8753,10 @@ $blog_items->add_element("Posts", array (
       'col' => 18,
       'order' => 0,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -8630,6 +8782,10 @@ $blog_items->add_element("Posts", array (
       'left' => 0,
       'col' => 18,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -9976,8 +10132,12 @@ $about->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 2,
+      'order' => 1,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -10007,6 +10167,10 @@ $about->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 3,
       'top' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1445403650095-1389',
@@ -10104,8 +10268,12 @@ $about->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 1,
+      'order' => 2,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -10136,6 +10304,10 @@ $about->add_element("PlainTxt", array (
       'order' => 6,
       'top' => 0,
       'row' => 15,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1445403650095-1389',
@@ -10230,6 +10402,7 @@ $about->add_element("Uimage", array (
     'stretch' => true,
     'vstretch' => false,
     'quick_swap' => false,
+    'is_locked' => true,
     'gifImage' => 0,
     'placeholder_class' => '',
     'preset' => 'default',
@@ -11142,6 +11315,10 @@ $contact_us->add_element("PlainTxt", array (
       'col' => 18,
       'order' => 0,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -11168,6 +11345,10 @@ $contact_us->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 18,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -11298,6 +11479,10 @@ $contact_us->add_element("PlainTxt", array (
       'order' => 1,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -11317,6 +11502,10 @@ $contact_us->add_element("PlainTxt", array (
       'order' => 0,
       'top' => 0,
       'row' => 36,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));

@@ -91,6 +91,11 @@ $region_5->add_element("PlainTxt", array (
          'top_padding_num' => 50,
          'row' => 14,
       )),
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
     )),
     'bottom_padding_num' => '15',
     'preset' => 'u-sub-heading-m',
@@ -129,6 +134,10 @@ $region_5->add_element("PlainTxt", array (
       'col' => 18,
       'order' => 0,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -155,6 +164,10 @@ $region_5->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 18,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -204,6 +217,11 @@ $region_5->add_element("PlainTxt", array (
          'top_padding_slider' => '30',
          'row' => 27,
       )),
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
     )),
   ),
   'row' => 6,
@@ -234,6 +252,10 @@ $region_5->add_element("PlainTxt", array (
       'col' => 18,
       'order' => 0,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -260,6 +282,10 @@ $region_5->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 18,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -289,6 +315,9 @@ $region_5->add_element("Posts", array (
     'pagination' => 'numeric',
     'sticky' => '',
     'posts_list' => '',
+    'thumbnail_size' => 'large',
+    'custom_thumbnail_width' => 200,
+    'custom_thumbnail_height' => 200,
     'post_parts' => 
     array (
       0 => 'featured_image',
@@ -371,6 +400,7 @@ $region_5->add_element("Posts", array (
        'tablet' => 
       (array)(array(
          'theme_style' => '',
+         'use_padding' => 'yes',
       )),
        'mobile' => 
       (array)(array(
@@ -379,6 +409,7 @@ $region_5->add_element("Posts", array (
          'top_padding_num' => '15',
          'top_padding_slider' => '15',
       )),
+       'current_property' => 'use_padding',
     )),
     'row' => 174,
     'top_padding_num' => '15',
@@ -433,6 +464,10 @@ $region_5->add_element("Posts", array (
       'col' => 18,
       'order' => 0,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -458,6 +493,10 @@ $region_5->add_element("Posts", array (
       'left' => 0,
       'col' => 18,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
