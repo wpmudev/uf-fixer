@@ -267,6 +267,7 @@ $footer->add_element("Uimage", array (
          'row' => 16,
          'top_padding_use' => true,
          'top_padding_num' => 45,
+         'use_padding' => 'yes',
       )),
        'custom-1410783666947' => 
       (array)(array(
@@ -277,6 +278,7 @@ $footer->add_element("Uimage", array (
          'top_padding_use' => true,
          'top_padding_num' => 40,
       )),
+       'current_property' => 'use_padding',
     )),
     'link_target' => '_self',
     'no_padding' => '',
@@ -587,6 +589,11 @@ $footer->add_element("PlainTxt", array (
       (array)(array(
          'row' => 7,
       )),
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -836,11 +843,13 @@ $footer->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 8,
+         'use_padding' => 'yes',
       )),
        'mobile' => 
       (array)(array(
          'row' => 13,
       )),
+       'current_property' => 'use_padding',
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -996,6 +1005,7 @@ $footer->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 13,
+         'use_padding' => 'yes',
       )),
        'mobile' => 
       (array)(array(
