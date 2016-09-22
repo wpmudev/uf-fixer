@@ -62,6 +62,7 @@ $footer->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-79312',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -101,6 +102,7 @@ $footer->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-75890',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -153,6 +155,7 @@ $footer->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-72732',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -277,6 +280,7 @@ $footer->add_element("Uimage", array (
       (array)(array(
          'top_padding_use' => true,
          'top_padding_num' => 40,
+         'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
     )),
@@ -287,6 +291,10 @@ $footer->add_element("Uimage", array (
     'bottom_padding_num' => '15',
     'padding_slider' => '15',
     'use_padding' => 'yes',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'lock_padding' => '',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -368,6 +376,7 @@ $footer->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-61087',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -419,6 +428,7 @@ $footer->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-34470',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -471,6 +481,7 @@ $footer->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-66492',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -522,6 +533,7 @@ $footer->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-14433',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -575,7 +587,7 @@ $footer->add_element("PlainTxt", array (
     'element_id' => 'text-object-1406217940549-1478',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 8,
+    'row' => 6,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -588,6 +600,7 @@ $footer->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'row' => 7,
+         'use_padding' => 'yes',
       )),
        'tablet' => 
       (array)(array(
@@ -604,6 +617,14 @@ $footer->add_element("PlainTxt", array (
     'padding_number' => 0,
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'current_preset' => 'u-paragraph-footer-m',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'u-paragraph-footer-m',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -684,6 +705,7 @@ $footer->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-40213',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -722,6 +744,7 @@ $footer->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-62621',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -773,6 +796,7 @@ $footer->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-1890',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -848,6 +872,7 @@ $footer->add_element("PlainTxt", array (
        'mobile' => 
       (array)(array(
          'row' => 13,
+         'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
     )),
@@ -860,6 +885,14 @@ $footer->add_element("PlainTxt", array (
     'padding_number' => 0,
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'current_preset' => 'u-paragraph-footer-m',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'u-paragraph-footer-m',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -940,6 +973,7 @@ $footer->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-72704',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1035,6 +1069,7 @@ $footer->add_element("PlainTxt", array (
          'preset' => 'u-paragraph-footer-left-separator-m',
       )),
     )),
+    'current_preset' => 'u-paragraph-footer-left-separator-m',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1114,6 +1149,7 @@ $footer->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-5279',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,

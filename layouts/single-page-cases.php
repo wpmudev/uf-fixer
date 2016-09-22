@@ -134,13 +134,17 @@ $cases_region->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
       'col' => 18,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -168,6 +172,10 @@ $cases_region->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 18,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -233,13 +241,17 @@ $cases_region->add_element("PlainTxt", array (
     'mobile' => 
     array (
       'col' => 7,
-      'order' => 1,
+      'order' => 2,
       'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
       'col' => 18,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -268,6 +280,10 @@ $cases_region->add_element("PlainTxt", array (
       'col' => 18,
       'order' => 0,
     ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
   ),
 ));
 
@@ -293,6 +309,7 @@ $cases_region->add_element("Ugallery", array (
       0 => 
       (array)(array(
          'id' => '4009',
+         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image3-210x210-1861.jpg',
          'srcFull' => '{{upfront:style_url}}/images/single-page-cases/gal-image3.jpg',
          'sizes' => 
         (array)(array(
@@ -376,10 +393,6 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image3-210x210-1861.jpg',
-         'loading' => false,
-         'status' => 'ok',
-         'element_id' => 'ugallery-object-1407250114391-1191',
          'rotation' => 0,
          'link' => 'original',
          'url' => '{{upfront:style_url}}/images/single-page-cases/gal-image3.jpg',
@@ -394,14 +407,17 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'urlType' => 'image',
-         'linkTarget' => '_self',
          'imageLink' => 
         (array)(array(
            'type' => 'image',
            'url' => '{{upfront:style_url}}/images/single-page-cases/gal-image3.jpg',
            'target' => '_self',
         )),
+         'linkTarget' => '_self',
+         'loading' => false,
+         'status' => 'ok',
+         'element_id' => 'ugallery-object-1407250114391-1191',
+         'urlType' => 'image',
          'imageLinkType' => 'image',
          'imageLinkUrl' => '{{upfront:style_url}}/images/single-page-cases/gal-image3.jpg',
          'imageLinkTarget' => '_self',
@@ -409,6 +425,7 @@ $cases_region->add_element("Ugallery", array (
       1 => 
       (array)(array(
          'id' => '4010',
+         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image4-210x210-4359.jpg',
          'srcFull' => '{{upfront:style_url}}/images/single-page-cases/gal-image4.jpg',
          'sizes' => 
         (array)(array(
@@ -492,10 +509,6 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image4-210x210-4359.jpg',
-         'loading' => false,
-         'status' => 'ok',
-         'element_id' => 'ugallery-object-1407250114391-1191',
          'rotation' => 0,
          'link' => 'original',
          'url' => '',
@@ -512,14 +525,17 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'urlType' => false,
-         'linkTarget' => '',
          'imageLink' => 
         (array)(array(
            'type' => false,
            'url' => '',
            'target' => '',
         )),
+         'linkTarget' => '',
+         'loading' => false,
+         'status' => 'ok',
+         'element_id' => 'ugallery-object-1407250114391-1191',
+         'urlType' => false,
          'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
@@ -527,6 +543,7 @@ $cases_region->add_element("Ugallery", array (
       2 => 
       (array)(array(
          'id' => '4011',
+         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image5-210x210-4712.jpg',
          'srcFull' => '{{upfront:style_url}}/images/single-page-cases/gal-image5.jpg',
          'sizes' => 
         (array)(array(
@@ -610,10 +627,6 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image5-210x210-4712.jpg',
-         'loading' => false,
-         'status' => 'ok',
-         'element_id' => 'ugallery-object-1407250114391-1191',
          'rotation' => 0,
          'link' => 'original',
          'url' => '',
@@ -630,14 +643,17 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'urlType' => false,
-         'linkTarget' => '',
          'imageLink' => 
         (array)(array(
            'type' => false,
            'url' => '',
            'target' => '',
         )),
+         'linkTarget' => '',
+         'loading' => false,
+         'status' => 'ok',
+         'element_id' => 'ugallery-object-1407250114391-1191',
+         'urlType' => false,
          'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
@@ -645,6 +661,7 @@ $cases_region->add_element("Ugallery", array (
       3 => 
       (array)(array(
          'id' => '4012',
+         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image6-210x210-4674.jpg',
          'srcFull' => '{{upfront:style_url}}/images/single-page-cases/gal-image6.jpg',
          'sizes' => 
         (array)(array(
@@ -728,10 +745,6 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image6-210x210-4674.jpg',
-         'loading' => false,
-         'status' => 'ok',
-         'element_id' => 'ugallery-object-1407250114391-1191',
          'rotation' => 0,
          'link' => 'original',
          'url' => '',
@@ -748,14 +761,17 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'urlType' => false,
-         'linkTarget' => '',
          'imageLink' => 
         (array)(array(
            'type' => false,
            'url' => '',
            'target' => '',
         )),
+         'linkTarget' => '',
+         'loading' => false,
+         'status' => 'ok',
+         'element_id' => 'ugallery-object-1407250114391-1191',
+         'urlType' => false,
          'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
@@ -763,6 +779,7 @@ $cases_region->add_element("Ugallery", array (
       4 => 
       (array)(array(
          'id' => '4014',
+         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image7-210x210-4688.jpg',
          'srcFull' => '{{upfront:style_url}}/images/single-page-cases/gal-image7.jpg',
          'sizes' => 
         (array)(array(
@@ -846,10 +863,6 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image7-210x210-4688.jpg',
-         'loading' => false,
-         'status' => 'ok',
-         'element_id' => 'ugallery-object-1407250114391-1191',
          'rotation' => 0,
          'link' => 'original',
          'url' => '',
@@ -866,14 +879,17 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'urlType' => false,
-         'linkTarget' => '',
          'imageLink' => 
         (array)(array(
            'type' => false,
            'url' => '',
            'target' => '',
         )),
+         'linkTarget' => '',
+         'loading' => false,
+         'status' => 'ok',
+         'element_id' => 'ugallery-object-1407250114391-1191',
+         'urlType' => false,
          'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
@@ -881,6 +897,7 @@ $cases_region->add_element("Ugallery", array (
       5 => 
       (array)(array(
          'id' => '4015',
+         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image8-210x210-3938.jpg',
          'srcFull' => '{{upfront:style_url}}/images/single-page-cases/gal-image8.jpg',
          'sizes' => 
         (array)(array(
@@ -964,10 +981,6 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image8-210x210-3938.jpg',
-         'loading' => false,
-         'status' => 'ok',
-         'element_id' => 'ugallery-object-1407250114391-1191',
          'rotation' => 0,
          'link' => 'original',
          'url' => '',
@@ -984,14 +997,17 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'urlType' => false,
-         'linkTarget' => '',
          'imageLink' => 
         (array)(array(
            'type' => false,
            'url' => '',
            'target' => '',
         )),
+         'linkTarget' => '',
+         'loading' => false,
+         'status' => 'ok',
+         'element_id' => 'ugallery-object-1407250114391-1191',
+         'urlType' => false,
          'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
@@ -999,6 +1015,7 @@ $cases_region->add_element("Ugallery", array (
       6 => 
       (array)(array(
          'id' => '4017',
+         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image9-210x210-3034.jpg',
          'srcFull' => '{{upfront:style_url}}/images/single-page-cases/gal-image9.jpg',
          'sizes' => 
         (array)(array(
@@ -1082,10 +1099,6 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image9-210x210-3034.jpg',
-         'loading' => false,
-         'status' => 'ok',
-         'element_id' => 'ugallery-object-1407250114391-1191',
          'rotation' => 0,
          'link' => 'original',
          'url' => '',
@@ -1102,14 +1115,17 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'urlType' => false,
-         'linkTarget' => '',
          'imageLink' => 
         (array)(array(
            'type' => false,
            'url' => '',
            'target' => '',
         )),
+         'linkTarget' => '',
+         'loading' => false,
+         'status' => 'ok',
+         'element_id' => 'ugallery-object-1407250114391-1191',
+         'urlType' => false,
          'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
@@ -1117,6 +1133,7 @@ $cases_region->add_element("Ugallery", array (
       7 => 
       (array)(array(
          'id' => '4019',
+         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image10-210x210-8979.jpg',
          'srcFull' => '{{upfront:style_url}}/images/single-page-cases/gal-image10.jpg',
          'sizes' => 
         (array)(array(
@@ -1200,10 +1217,6 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image10-210x210-8979.jpg',
-         'loading' => false,
-         'status' => 'ok',
-         'element_id' => 'ugallery-object-1407250114391-1191',
          'rotation' => 0,
          'link' => 'original',
          'url' => '',
@@ -1220,14 +1233,17 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'urlType' => false,
-         'linkTarget' => '',
          'imageLink' => 
         (array)(array(
            'type' => false,
            'url' => '',
            'target' => '',
         )),
+         'linkTarget' => '',
+         'loading' => false,
+         'status' => 'ok',
+         'element_id' => 'ugallery-object-1407250114391-1191',
+         'urlType' => false,
          'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
@@ -1235,6 +1251,7 @@ $cases_region->add_element("Ugallery", array (
       8 => 
       (array)(array(
          'id' => '4021',
+         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image11-210x210-3368.jpg',
          'srcFull' => '{{upfront:style_url}}/images/single-page-cases/gal-image11.jpg',
          'sizes' => 
         (array)(array(
@@ -1318,10 +1335,6 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image11-210x210-3368.jpg',
-         'loading' => false,
-         'status' => 'ok',
-         'element_id' => 'ugallery-object-1407250114391-1191',
          'rotation' => 0,
          'link' => 'original',
          'url' => '',
@@ -1338,14 +1351,17 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'urlType' => false,
-         'linkTarget' => '',
          'imageLink' => 
         (array)(array(
            'type' => false,
            'url' => '',
            'target' => '',
         )),
+         'linkTarget' => '',
+         'loading' => false,
+         'status' => 'ok',
+         'element_id' => 'ugallery-object-1407250114391-1191',
+         'urlType' => false,
          'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
@@ -1353,6 +1369,7 @@ $cases_region->add_element("Ugallery", array (
       9 => 
       (array)(array(
          'id' => '4023',
+         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image12-210x210-4128.jpg',
          'srcFull' => '{{upfront:style_url}}/images/single-page-cases/gal-image12.jpg',
          'sizes' => 
         (array)(array(
@@ -1436,10 +1453,6 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image12-210x210-4128.jpg',
-         'loading' => false,
-         'status' => 'ok',
-         'element_id' => 'ugallery-object-1407250114391-1191',
          'rotation' => 0,
          'link' => 'original',
          'url' => '',
@@ -1456,14 +1469,17 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'urlType' => false,
-         'linkTarget' => '',
          'imageLink' => 
         (array)(array(
            'type' => false,
            'url' => '',
            'target' => '',
         )),
+         'linkTarget' => '',
+         'loading' => false,
+         'status' => 'ok',
+         'element_id' => 'ugallery-object-1407250114391-1191',
+         'urlType' => false,
          'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
@@ -1471,6 +1487,7 @@ $cases_region->add_element("Ugallery", array (
       10 => 
       (array)(array(
          'id' => '4024',
+         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image13-210x210-6797.jpg',
          'srcFull' => '{{upfront:style_url}}/images/single-page-cases/gal-image13.jpg',
          'sizes' => 
         (array)(array(
@@ -1554,10 +1571,6 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image13-210x210-6797.jpg',
-         'loading' => false,
-         'status' => 'ok',
-         'element_id' => 'ugallery-object-1407250114391-1191',
          'rotation' => 0,
          'link' => 'original',
          'url' => '',
@@ -1574,14 +1587,17 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'urlType' => false,
-         'linkTarget' => '',
          'imageLink' => 
         (array)(array(
            'type' => false,
            'url' => '',
            'target' => '',
         )),
+         'linkTarget' => '',
+         'loading' => false,
+         'status' => 'ok',
+         'element_id' => 'ugallery-object-1407250114391-1191',
+         'urlType' => false,
          'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
@@ -1589,6 +1605,7 @@ $cases_region->add_element("Ugallery", array (
       11 => 
       (array)(array(
          'id' => '4027',
+         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image15-210x210-3561.jpg',
          'srcFull' => '{{upfront:style_url}}/images/single-page-cases/gal-image15.jpg',
          'sizes' => 
         (array)(array(
@@ -1672,10 +1689,6 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image15-210x210-3561.jpg',
-         'loading' => false,
-         'status' => 'ok',
-         'element_id' => 'ugallery-object-1407250114391-1191',
          'rotation' => 0,
          'link' => 'original',
          'url' => '',
@@ -1692,14 +1705,17 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'urlType' => false,
-         'linkTarget' => '',
          'imageLink' => 
         (array)(array(
            'type' => false,
            'url' => '',
            'target' => '',
         )),
+         'linkTarget' => '',
+         'loading' => false,
+         'status' => 'ok',
+         'element_id' => 'ugallery-object-1407250114391-1191',
+         'urlType' => false,
          'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
@@ -1707,6 +1723,7 @@ $cases_region->add_element("Ugallery", array (
       12 => 
       (array)(array(
          'id' => '4029',
+         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image14-210x210-8695.jpg',
          'srcFull' => '{{upfront:style_url}}/images/single-page-cases/gal-image14.jpg',
          'sizes' => 
         (array)(array(
@@ -1790,10 +1807,6 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image14-210x210-8695.jpg',
-         'loading' => false,
-         'status' => 'ok',
-         'element_id' => 'ugallery-object-1407250114391-1191',
          'rotation' => 0,
          'link' => 'original',
          'url' => '',
@@ -1810,14 +1823,17 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'urlType' => false,
-         'linkTarget' => '',
          'imageLink' => 
         (array)(array(
            'type' => false,
            'url' => '',
            'target' => '',
         )),
+         'linkTarget' => '',
+         'loading' => false,
+         'status' => 'ok',
+         'element_id' => 'ugallery-object-1407250114391-1191',
+         'urlType' => false,
          'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
@@ -1825,6 +1841,7 @@ $cases_region->add_element("Ugallery", array (
       13 => 
       (array)(array(
          'id' => '4007',
+         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image1-210x210-7027.jpg',
          'srcFull' => '{{upfront:style_url}}/images/single-page-cases/gal-image1.jpg',
          'sizes' => 
         (array)(array(
@@ -1908,10 +1925,6 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 1,
         )),
-         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image1-210x210-7027.jpg',
-         'loading' => false,
-         'status' => 'ok',
-         'element_id' => 'ugallery-object-1407250114391-1191',
          'rotation' => 0,
          'link' => 'original',
          'url' => '',
@@ -1928,14 +1941,17 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'urlType' => false,
-         'linkTarget' => '',
          'imageLink' => 
         (array)(array(
            'type' => false,
            'url' => '',
            'target' => '',
         )),
+         'linkTarget' => '',
+         'loading' => false,
+         'status' => 'ok',
+         'element_id' => 'ugallery-object-1407250114391-1191',
+         'urlType' => false,
          'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
@@ -1943,6 +1959,7 @@ $cases_region->add_element("Ugallery", array (
       14 => 
       (array)(array(
          'id' => '4035',
+         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image11 (1)-210x210-2311.jpg',
          'srcFull' => '{{upfront:style_url}}/images/single-page-cases/gal-image11 (1).jpg',
          'sizes' => 
         (array)(array(
@@ -2026,10 +2043,6 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'src' => '{{upfront:style_url}}/images/single-page-cases/gal-image11 (1)-210x210-2311.jpg',
-         'loading' => false,
-         'status' => 'ok',
-         'element_id' => 'ugallery-object-1407250114391-1191',
          'rotation' => 0,
          'link' => 'original',
          'url' => '',
@@ -2044,14 +2057,17 @@ $cases_region->add_element("Ugallery", array (
            'left' => 0,
            'top' => 0,
         )),
-         'urlType' => false,
-         'linkTarget' => '',
          'imageLink' => 
         (array)(array(
            'type' => false,
            'url' => '',
            'target' => '',
         )),
+         'linkTarget' => '',
+         'loading' => false,
+         'status' => 'ok',
+         'element_id' => 'ugallery-object-1407250114391-1191',
+         'urlType' => false,
          'imageLinkType' => 'image',
          'imageLinkUrl' => '',
          'imageLinkTarget' => '',
@@ -2153,6 +2169,10 @@ $cases_region->add_element("Ugallery", array (
       'col' => 18,
       'order' => 0,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -2178,6 +2198,10 @@ $cases_region->add_element("Ugallery", array (
       'left' => 0,
       'col' => 18,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));

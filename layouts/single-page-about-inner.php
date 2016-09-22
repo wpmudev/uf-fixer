@@ -604,6 +604,8 @@ $main->add_group(array (
   'bottom_padding_slider' => '0',
   'row' => 29,
   'use_padding' => 'yes',
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -739,6 +741,10 @@ $main->add_element("PlainTxt", array (
       'order' => 1,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -766,6 +772,10 @@ $main->add_element("PlainTxt", array (
       'col' => 7,
       'order' => 3,
       'top' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'close_wrapper' => false,
@@ -878,6 +888,10 @@ $main->add_element("PlainTxt", array (
       'order' => 6,
       'top' => 0,
     ),
+    'current_property' => 
+    array (
+      0 => 'col',
+    ),
   ),
   'group' => 'module-group-1445406836859-1973',
 ));
@@ -971,6 +985,7 @@ $main->add_element("Uimage", array (
     'stretch' => true,
     'vstretch' => true,
     'quick_swap' => false,
+    'is_locked' => true,
     'gifImage' => 0,
     'placeholder_class' => '',
     'preset' => 'default',
@@ -1021,6 +1036,8 @@ $main->add_element("Uimage", array (
     )),
     'padding_slider' => '15',
     'use_padding' => 'yes',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,

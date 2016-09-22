@@ -70,6 +70,7 @@ $prefooter->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-8747',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -138,6 +139,7 @@ $prefooter->add_element("PlainTxt", array (
          'row' => 9,
          'top_padding_use' => true,
          'top_padding_num' => 35,
+         'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
     )),
@@ -166,6 +168,7 @@ $prefooter->add_element("PlainTxt", array (
          'preset' => 'uf-heading-footer-m',
       )),
     )),
+    'current_preset' => 'uf-heading-footer-m',
   ),
   'row' => 6,
   'sticky' => false,
@@ -248,6 +251,9 @@ $prefooter->add_group(array (
   'bottom_padding_num' => 0,
   'row' => 26,
   'use_padding' => 'yes',
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
+  'lock_padding' => 0,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -383,7 +389,14 @@ $prefooter->add_element("Uimage", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -491,7 +504,12 @@ $prefooter->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
+    'current_preset' => 'pre-footer-icon-link',
   ),
   'row' => 6,
   'sticky' => false,
@@ -580,6 +598,9 @@ $prefooter->add_group(array (
   'bottom_padding_use' => false,
   'bottom_padding_slider' => '15',
   'row' => 26,
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
+  'lock_padding' => 0,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -711,7 +732,14 @@ $prefooter->add_element("Uimage", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
     )),
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -795,6 +823,7 @@ $prefooter->add_element("PlainTxt", array (
          'row' => 15,
          'top_padding_use' => true,
          'top_padding_num' => 25,
+         'use_padding' => 'yes',
       )),
        'custom-1410783666947' => 
       (array)(array(
@@ -829,6 +858,7 @@ $prefooter->add_element("PlainTxt", array (
          'preset' => 'pre-footer-icon-link',
       )),
     )),
+    'current_preset' => 'pre-footer-icon-link',
   ),
   'row' => 6,
   'sticky' => false,
@@ -914,6 +944,7 @@ $prefooter->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-63815',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -952,6 +983,7 @@ $prefooter->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449479270-21453',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
