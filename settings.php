@@ -326,8 +326,10 @@ button.mfp-arrow.mfp-arrow-right:hover {
 /* WooCommerce Global Styles */
 .woocommerce a.remove {
     color: #ufc7 !important;
+    font-size: 25px;
+    font-weight: 400;
     height: 30px;
-    line-height: 36px;
+    line-height: 26px;
     width: 30px;
 }
 .woocommerce a.remove:hover {
@@ -1008,6 +1010,13 @@ button.mfp-arrow.mfp-arrow-right:hover {
         margin: 10px 0 0;
         width: 100%;
     }
+    /* WooCommerce: My Account */
+    .woocommerce .woocommerce-MyAccount-navigation {
+        margin-bottom: 40px;
+    }
+    .woocommerce #customer_login .u-column2.col-2 {
+        margin-top: 40px;
+    }
 }
 @media only screen and (max-width: 569px) {
     /* WooCommerce: Products */
@@ -1053,6 +1062,10 @@ button.mfp-arrow.mfp-arrow-right:hover {
         border-top: 1px solid #ufc8;
         margin-top: 0;
         padding-top: 40px;
+    }
+    /* WooCommerce: My Account */
+    div#page .upfront-output-object.upfront-output-post-data-part .upfront-indented_content .woocommerce table.my_account_orders .order-actions .button {
+        width: 100%;
     }
 }',
 	'theme_fonts' => '[{\\"id\\":\\"Ralewayregular\\",\\"font\\":{\\"family\\":\\"Raleway\\",\\"category\\":\\"sans-serif\\",\\"variants\\":[\\"100\\",\\"200\\",\\"300\\",\\"regular\\",\\"500\\",\\"600\\",\\"700\\",\\"800\\",\\"900\\"]},\\"variant\\":\\"regular\\",\\"displayVariant\\":\\"regular\\"},{\\"id\\":\\"Raleway500\\",\\"font\\":{\\"family\\":\\"Raleway\\",\\"category\\":\\"sans-serif\\",\\"variants\\":[\\"100\\",\\"200\\",\\"300\\",\\"regular\\",\\"500\\",\\"600\\",\\"700\\",\\"800\\",\\"900\\"]},\\"variant\\":\\"500\\",\\"displayVariant\\":\\"500 normal\\"},{\\"id\\":\\"Raleway600\\",\\"font\\":{\\"family\\":\\"Raleway\\",\\"category\\":\\"sans-serif\\",\\"variants\\":[\\"100\\",\\"200\\",\\"300\\",\\"regular\\",\\"500\\",\\"600\\",\\"700\\",\\"800\\",\\"900\\"]},\\"variant\\":\\"600\\",\\"displayVariant\\":\\"600 normal\\"},{\\"id\\":\\"Raleway700\\",\\"font\\":{\\"family\\":\\"Raleway\\",\\"category\\":\\"sans-serif\\",\\"variants\\":[\\"100\\",\\"200\\",\\"300\\",\\"regular\\",\\"500\\",\\"600\\",\\"700\\",\\"800\\",\\"900\\"]},\\"variant\\":\\"700\\",\\"displayVariant\\":\\"700 normal\\"},{\\"id\\":\\"Raleway900\\",\\"font\\":{\\"family\\":\\"Raleway\\",\\"category\\":\\"sans-serif\\",\\"variants\\":[\\"100\\",\\"200\\",\\"300\\",\\"regular\\",\\"500\\",\\"600\\",\\"700\\",\\"800\\",\\"900\\"]},\\"variant\\":\\"900\\",\\"displayVariant\\":\\"900 normal\\"}]',
