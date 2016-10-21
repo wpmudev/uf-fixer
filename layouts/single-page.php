@@ -527,6 +527,11 @@ $main->add_element("PostData", array (
       ),
       'use_padding' => 'yes',
       'preset' => 'default',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => 0,
       'new_line' => true,
       'breakpoint' => 
       array (
@@ -580,6 +585,11 @@ $main->add_element("PostData", array (
       ),
       'use_padding' => 'yes',
       'preset' => 'default',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => 0,
       'breakpoint' => 
       array (
         'tablet' => 

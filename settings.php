@@ -187,11 +187,15 @@ a.uf_font_icon:hover {
 .upfront-object input[type="email"],
 .upfront-object input[type="password"],
 .upfront-object input[type="search"],
+.upfront-object input[type="number"],
+.upfront-object input[type="tel"],
 .upfront-object textarea,
 .upfront-output-object input[type="text"],
 .upfront-output-object input[type="email"],
 .upfront-output-object input[type="password"],
 .upfront-output-object input[type="search"],
+.upfront-output-object input[type="number"],
+.upfront-output-object input[type="tel"],
 .upfront-output-object textarea {
     /*border: 1px solid transparent;*/
     color: #ufc1;
@@ -220,10 +224,14 @@ a.uf_font_icon:hover {
 .upfront-object input[type="text"]:focus,
 .upfront-object input[type="email"]:focus,
 .upfront-object input[type="password"]:focus,
+.upfront-object input[type="number"]:focus,
+.upfront-object input[type="tel"]:focus,
 .upfront-object textarea:focus,
 .upfront-output-object input[type="text"]:focus,
 .upfront-output-object input[type="email"]:focus,
 .upfront-output-object input[type="password"]:focus,
+.upfront-output-object input[type="number"]:focus,
+.upfront-output-object input[type="tel"]:focus,
 .upfront-output-object textarea:focus {
     border-color: #ufc6;
 }
@@ -313,13 +321,570 @@ button.mfp-arrow.mfp-arrow-right:hover {
 @media only screen and (max-width: 1079px) and (min-width: 570px) {}
 
 /* general mobile styles */
-@media only screen and (max-width: 569px) {}',
+@media only screen and (max-width: 569px) {}
+
+/* WooCommerce Global Styles */
+.woocommerce a.remove {
+    color: #ufc7 !important;
+    height: 30px;
+    line-height: 36px;
+    width: 30px;
+}
+.woocommerce a.remove:hover {
+    background-color: #ufc7 !important;
+    color: #ufc0;
+}
+.woocommerce-demo-store p.demo_store,
+.woocommerce p.demo_store {
+    background: #ufc7;
+    color: #ufc0;
+    font: 400 16px/1.7em \\\'Raleway\\\', Arial, sans-serif;
+    padding: 10px;
+}
+.woocommerce a.woocommerce-LoopProduct-link {
+    display: inline-block;
+}
+.woocommerce mark {
+    background: transparent;
+    border-bottom: 1px solid #ufc4;
+    color: #ufc4;
+    padding: 0 5px;
+}
+.woocommerce mark.count {
+    border-bottom: none;
+    color: #ufc1;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.7em;
+    padding: 0;
+}
+.woocommerce .quantity .qty {
+    min-width: inherit;
+    text-align: left;
+    width: 75px;
+}
+.woocommerce p,
+.woocommerce h1,
+.woocommerce h2 {
+    padding: 0;
+}
+/* WooCommerce Global Buttons */
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce ul.products li.product a.added_to_cart {
+    background: #ufc4;
+    border-radius: 0;
+    color: #ufc1;
+    font: 700 15px/1.2em \\\'Raleway\\\', Arial, sans-serif;
+    padding: 16px 20px;
+    vertical-align: middle;
+    text-align: center;
+    transition: all .25s;
+}
+.woocommerce #respond input#submit:focus,
+.woocommerce a.button:focus,
+.woocommerce button.button:focus,
+.woocommerce input.button:focus,
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover {
+    background: #ufc1;
+    color: #ufc0;
+}
+.woocommerce #respond input#submit.loading,
+.woocommerce a.button.loading,
+.woocommerce button.button.loading,
+.woocommerce input.button.loading {
+    opacity: .7;
+    padding-right: 30px;
+}
+.woocommerce #respond input#submit.loading:after,
+.woocommerce a.button.loading:after,
+.woocommerce button.button.loading:after,
+.woocommerce input.button.loading:after {
+    right: 10px;
+    top: 15px;
+}
+.woocommerce #respond input#submit.added:after,
+.woocommerce a.button.added:after,
+.woocommerce button.button.added:after,
+.woocommerce input.button.added:after {
+    display: inline-block;
+    margin: -5px 0 0 10px;
+    vertical-align: middle;
+}
+.woocommerce #respond input#submit.disabled,
+.woocommerce #respond input#submit:disabled,
+.woocommerce #respond input#submit:disabled[disabled],
+.woocommerce a.button.disabled, .woocommerce a.button:disabled,
+.woocommerce a.button:disabled[disabled],
+.woocommerce button.button.disabled,
+.woocommerce button.button:disabled,
+.woocommerce button.button:disabled[disabled],
+.woocommerce input.button.disabled,
+.woocommerce input.button:disabled,
+.woocommerce input.button:disabled[disabled],
+.woocommerce #respond input#submit.alt.disabled,
+.woocommerce #respond input#submit.alt.disabled:hover,
+.woocommerce #respond input#submit.alt:disabled,
+.woocommerce #respond input#submit.alt:disabled:hover,
+.woocommerce #respond input#submit.alt:disabled[disabled],
+.woocommerce #respond input#submit.alt:disabled[disabled]:hover,
+.woocommerce a.button.alt.disabled,
+.woocommerce a.button.alt.disabled:hover,
+.woocommerce a.button.alt:disabled,
+.woocommerce a.button.alt:disabled:hover,
+.woocommerce a.button.alt:disabled[disabled],
+.woocommerce a.button.alt:disabled[disabled]:hover,
+.woocommerce button.button.alt.disabled,
+.woocommerce button.button.alt.disabled:hover,
+.woocommerce button.button.alt:disabled,
+.woocommerce button.button.alt:disabled:hover,
+.woocommerce button.button.alt:disabled[disabled],
+.woocommerce button.button.alt:disabled[disabled]:hover,
+.woocommerce input.button.alt.disabled,
+.woocommerce input.button.alt.disabled:hover,
+.woocommerce input.button.alt:disabled,
+.woocommerce input.button.alt:disabled:hover,
+.woocommerce input.button.alt:disabled[disabled],
+.woocommerce input.button.alt:disabled[disabled]:hover {
+    background: #ufc4;
+    color: #ufc1;
+    opacity: .7;
+    padding: 16px 20px;
+}
+.woocommerce #respond input#submit.disabled:hover,
+.woocommerce #respond input#submit:disabled:hover,
+.woocommerce #respond input#submit:disabled[disabled]:hover,
+.woocommerce a.button.disabled:hover,
+.woocommerce a.button:disabled:hover,
+.woocommerce a.button:disabled[disabled]:hover,
+.woocommerce button.button.disabled:hover,
+.woocommerce button.button:disabled:hover,
+.woocommerce button.button:disabled[disabled]:hover,
+.woocommerce input.button.disabled:hover,
+.woocommerce input.button:disabled:hover,
+.woocommerce input.button:disabled[disabled]:hover {
+    background: #ufc4;
+}
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt,
+.woocommerce button.button.alt,
+.woocommerce input.button.alt {
+    background: #ufc6;
+}
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover {
+    background: #ufc1;
+}
+/* WooCommerce Global Forms */
+.woocommerce form input.input-text,
+.woocommerce form textarea {
+    background: #ufc8;
+    border: 1px solid transparent;
+    color: #ufc1;
+    font: 400 15px/1.667em \\\'Raleway\\\', Arial, sans-serif;
+    min-width: 150px;
+    padding: 0 20px;
+    transition: border-color 0.25s ease-out;
+}
+.woocommerce form .form-row textarea {
+    height: 10em;
+}
+.woocommerce form input.input-text:focus,
+.woocommerce form textarea:focus {
+    border-color: #ufc2;
+}
+.woocommerce select {
+    background: #ufc8;
+    color: #ufc1;
+    font: 400 15px/1.667em \\\'Raleway\\\', Arial, sans-serif;
+    height: 50px;
+}
+.woocommerce form .form-row {
+    margin: 0 0 10px;
+    padding: 0;
+}
+.woocommerce form .form-row:last-child {
+    margin: 0;
+}
+.woocommerce form .form-row label {
+    color: #ufc1;
+    font-size: 15px;
+    line-height: 1.667em;
+    margin: 0 0 5px;
+    padding: 0;
+}
+.woocommerce form .form-row label.inline {
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+.woocommerce form .form-row label.checkbox {
+    margin: 0;
+    padding: 0;
+}
+.woocommerce form .form-row .input-checkbox,
+.woocommerce form #rememberme {
+    margin: -2px 5px 0 0;
+}
+.woocommerce form .form-row-first,
+.woocommerce form .form-row-last {
+    width: 50%;
+}
+.woocommerce form .form-row-first {
+    padding-right: 10px;
+}
+.woocommerce form .form-row-last {
+    padding-left: 10px;
+}
+.woocommerce .select2-container .select2-choice {
+    background: #ufc8;
+    border: 1px solid transparent;
+    border-radius: 0;
+    box-shadow: none;
+    color: #ufc1;
+    font: 400 15px/50px "Raleway", Arial, sans-serif;
+    padding: 0 20px;
+}
+.woocommerce .select2-container.select2-container-active .select2-choice {
+    border-color: #ufc2;
+}
+.woocommerce .select2-container .select2-choice .select2-arrow {
+    right: 5px;
+}
+.woocommerce .select2-container .select2-choice .select2-arrow b:after {
+    border-top-color: #ufc1;
+}
+.woocommerce .select2-dropdown-open .select2-choice .select2-arrow b:after {
+    border-top-color: transparent;
+    border-bottom-color: #ufc1;
+}
+.woocommerce .select2-container .select2-choice>.select2-chosen {
+    margin-right: 10px;
+}
+.woocommerce .select2-container.select2-dropdown-open .select2-choice {
+    border-radius: 0;
+}
+.woocommerce .select2-container.select2-dropdown-open.select2-drop-above .select2-choice {
+    border-radius: 0;
+}
+.woocommerce-page .select2-drop {
+    border-radius: 0;
+}
+.woocommerce-page .select2-drop-active {
+    border: 1px solid #ufc2;
+}
+.woocommerce-page .select2-drop.select2-drop-above.select2-drop-active {
+    border-top-color: #ufc2;
+}
+.woocommerce-page .select2-search input {
+    border: 1px solid #ufc2;
+    color: #ufc1;
+    font-family: \\\'Raleway\\\', Arial, sans-serif;
+    font-size: 15px;
+}
+.woocommerce-page .select2-drop .select2-search {
+    padding: 5px;
+}
+.woocommerce-page .select2-drop.select2-drop-above .select2-search input {
+    margin-top: 0;
+}
+.woocommerce-page .select2-results {
+    background: #ufc8;
+    padding: 5px;
+}
+.woocommerce-page .select2-results li {
+    color: #ufc1;
+}
+.woocommerce-page .select2-results .select2-highlighted {
+    background: #ufc4;
+    border-radius: 0;
+    color: #ufc1;
+}
+.woocommerce form .form-row .required {
+    color: #ufc7;
+}
+.woocommerce form .form-row.woocommerce-invalid label {
+    color: #ufc7;
+}
+.woocommerce form .form-row.woocommerce-invalid .select2-container,
+.woocommerce form .form-row.woocommerce-invalid input.input-text,
+.woocommerce form .form-row.woocommerce-invalid select {
+    border-color: #ufc7;
+}
+.woocommerce form .form-row.woocommerce-validated .select2-container,
+.woocommerce form .form-row.woocommerce-validated input.input-text,
+.woocommerce form .form-row.woocommerce-validated select {
+    border-color: #ufc6;
+}
+/* WooCommerce Notifications */
+.woocommerce .woocommerce-error,
+.woocommerce .woocommerce-info,
+.woocommerce .woocommerce-message {
+    background: #ufc8;
+    color: #ufc1;
+    font: 400 15px/1.667em \\\'Raleway\\\', Arial, sans-serif;
+    margin: 0 !important;
+    padding: 15px !important;
+}
+.woocommerce .woocommerce-info ~ .woocommerce-info,
+.woocommerce .woocommerce-info ~ .woocommerce-message,
+.woocommerce .woocommerce-info ~ .woocommerce-error,
+.woocommerce .woocommerce-error ~ .woocommerce-error,
+.woocommerce .woocommerce-error ~ .woocommerce-info,
+.woocommerce .woocommerce-error ~ .woocommerce-message,
+.woocommerce .woocommerce-message ~ .woocommerce-message,
+.woocommerce .woocommerce-message ~ .woocommerce-info,
+.woocommerce .woocommerce-message ~ .woocommerce-error {
+    margin-top: 20px !important;
+}
+.woocommerce .woocommerce-info + .product,
+.woocommerce .woocommerce-error + .product,
+.woocommerce .woocommerce-message + .product,
+.woocommerce .woocommerce-message ~ form,
+.woocommerce .woocommerce-info ~ form,
+.woocommerce .woocommerce-error ~ form {
+    margin-top: 40px;
+}
+.woocommerce .woocommerce-error a,
+.woocommerce .woocommerce-info a,
+.woocommerce .woocommerce-message a {
+    color: #ufc1;
+    text-decoration: underline;
+}
+.woocommerce .woocommerce-error a:not(.button):hover,
+.woocommerce .woocommerce-info a:not(.button):hover,
+.woocommerce .woocommerce-message a:not(.button):hover {
+    color: #ufc3;
+}
+.woocommerce .woocommerce-error a.button,
+.woocommerce .woocommerce-info a.button,
+.woocommerce .woocommerce-message a.button {
+    text-decoration: none;
+}
+.woocommerce .woocommerce-error:before,
+.woocommerce .woocommerce-info:before,
+.woocommerce .woocommerce-message:before {
+    left: 0;
+    margin-right: 10px;
+    position: relative;
+    top: 1px;
+}
+.woocommerce .woocommerce-info {
+    border-top-color: #ufc5;
+}
+.woocommerce .woocommerce-info:before {
+    color: #ufc5;
+}
+.woocommerce .woocommerce-error {
+    border-top-color: #ufc7;
+}
+.woocommerce .woocommerce-error:before {
+    color: #ufc7;
+}
+.woocommerce .woocommerce-error > li {
+    margin: 0;
+}
+.woocommerce .woocommerce-error > li:only-child {
+    display: inline-block;
+}
+.woocommerce .woocommerce-message {
+    border-top-color: #ufc6;
+}
+.woocommerce .woocommerce-message:before {
+    color: #ufc6;
+}
+/* WooCommerce Page Title */
+.woocommerce .page-title {
+    margin: 0 0 40px;
+    padding: 0;
+    text-align: center;
+}
+/* WooCommerce Products */
+.woocommerce .product .star-rating {
+    font-size: 15px;
+}
+.woocommerce .product .star-rating:before,
+.woocommerce .product .star-rating span:before {
+    color: #ufc4;
+}
+.woocommerce .product .onsale {
+    background: #ufc6;
+    color: #ufc0;
+    font-family: \\\'Raleway\\\', sans-serif;
+    font-size: 15px;
+    height: 50px;
+    left: 0;
+    line-height: 50px;
+    margin: -10px -0 0 -10px;
+    min-height: inherit;
+    min-width: inherit;
+    padding: 0;
+    top: 0;
+    width: 50px;
+    z-index: 1;
+}
+/* WooCommerce Products List */
+.woocommerce .woocommerce-ordering,
+.woocommerce .woocommerce-result-count {
+    margin: 0;
+}
+.woocommerce .woocommerce-result-count {
+    color: #ufc1;
+    font-size: 20px;
+    line-height: 2.5em;
+}
+.woocommerce .products ul,
+.woocommerce ul.products {
+    list-style: none;
+    float: left;
+    margin: 40px 0 0;
+    padding: 0;
+    width: 100%;
+}
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+    clear: none;
+    overflow: inherit;
+}
+.woocommerce ul.products li.product.first,
+.woocommerce-page ul.products li.product.first {
+    clear: both;
+}
+.woocommerce ul.products li.product a img {
+    backface-visibility: hidden;
+    margin: 0 0 10px;
+    opacity: 1;
+    transition: opacity .3s;
+}
+.woocommerce ul.products li.product img:hover {
+    opacity: .7;
+}
+.woocommerce ul.products li.product h3 {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin: 0 0 10px;
+    padding: 0;
+}
+.woocommerce .products .star-rating {
+    margin: 0 0 10px;
+}
+.woocommerce ul.products li.product .price {
+    color: #ufc1;
+    font-size: 20px;
+    line-height: 1.5em;
+    margin: 0;
+}
+.woocommerce ul.products li.product .price ins {
+    display: inline-block;
+}
+.woocommerce ul.products li.product.has-children .price del {
+    display: block;
+    margin-right: 0;
+}
+.woocommerce ul.products li.product.has-children .price ins {
+    display: block;
+}
+.woocommerce ul.products li.product.sale .price del {
+    color: #ufc7;
+    display: inline-block;
+    font-weight: 400;
+    margin-right: 6px;
+    opacity: .7;
+}
+.woocommerce ul.products li.product.sale .price ins {
+    color: #ufc6;
+    font-weight: 500;
+}
+.woocommerce ul.products li.product .button {
+    margin-top: 10px;
+}
+.woocommerce ul.products li.product .onsale {
+    left: auto;
+    margin: -10px -10px 0 0;
+}
+.woocommerce ul.products li.product a.added_to_cart {
+    background: #ufc5;
+    color: #ufc0;
+    margin-top: 10px;
+}
+.woocommerce ul.products li.product a.added_to_cart:focus,
+.woocommerce ul.products li.product a.added_to_cart:hover {
+    background: #ufc1;
+}
+.woocommerce nav.woocommerce-pagination {
+    clear: both;
+}
+.woocommerce nav.woocommerce-pagination ul {
+    border: none;
+    font-size: 0;
+    margin: 40px 0 0;
+    position: relative;
+    width: 100%;
+}
+.woocommerce nav.woocommerce-pagination ul li {
+    border: none;
+    float: none;
+}
+.woocommerce nav.woocommerce-pagination ul li a,
+.woocommerce nav.woocommerce-pagination ul li span {
+    background: #ece9e4;
+    color: #666;
+    display: inline-block;
+    font: 700 15px/50px "Raleway", Arial, sans-serif;
+    height: 50px;
+    line-height: 50px;
+    padding: 0;
+    text-decoration: none;
+    transition: none;
+    width: 50px;
+}
+.woocommerce nav.woocommerce-pagination ul li span.current,
+.woocommerce nav.woocommerce-pagination ul li a:hover {
+    background: #ufc1;
+    color: #ufc0;
+}
+.woocommerce nav.woocommerce-pagination ul li a.next,
+.woocommerce nav.woocommerce-pagination ul li a.prev {
+    font-size: 0;
+    position: relative;
+    text-indent: -9999px;
+}
+.woocommerce nav.woocommerce-pagination ul li a.next:before,
+.woocommerce nav.woocommerce-pagination ul li a.prev:before {
+    color: #ufc1;
+    font-size: 15px;
+    left: 0;
+    line-height: 50px;
+    height: 50px;
+    position: absolute;
+    text-indent: 0px;
+    top: 0;
+    width: 50px;
+}
+.woocommerce nav.woocommerce-pagination ul li a.next:hover:before,
+.woocommerce nav.woocommerce-pagination ul li a.prev:hover:before {
+    color: #ufc0;
+}
+.woocommerce nav.woocommerce-pagination ul li a.next:before {
+    content: "»";
+}
+.woocommerce nav.woocommerce-pagination ul li a.prev:before {
+    content: "«";
+}',
 	'theme_fonts' => '[{\\"id\\":\\"Ralewayregular\\",\\"font\\":{\\"family\\":\\"Raleway\\",\\"category\\":\\"sans-serif\\",\\"variants\\":[\\"100\\",\\"200\\",\\"300\\",\\"regular\\",\\"500\\",\\"600\\",\\"700\\",\\"800\\",\\"900\\"]},\\"variant\\":\\"regular\\",\\"displayVariant\\":\\"regular\\"},{\\"id\\":\\"Raleway500\\",\\"font\\":{\\"family\\":\\"Raleway\\",\\"category\\":\\"sans-serif\\",\\"variants\\":[\\"100\\",\\"200\\",\\"300\\",\\"regular\\",\\"500\\",\\"600\\",\\"700\\",\\"800\\",\\"900\\"]},\\"variant\\":\\"500\\",\\"displayVariant\\":\\"500 normal\\"},{\\"id\\":\\"Raleway600\\",\\"font\\":{\\"family\\":\\"Raleway\\",\\"category\\":\\"sans-serif\\",\\"variants\\":[\\"100\\",\\"200\\",\\"300\\",\\"regular\\",\\"500\\",\\"600\\",\\"700\\",\\"800\\",\\"900\\"]},\\"variant\\":\\"600\\",\\"displayVariant\\":\\"600 normal\\"},{\\"id\\":\\"Raleway700\\",\\"font\\":{\\"family\\":\\"Raleway\\",\\"category\\":\\"sans-serif\\",\\"variants\\":[\\"100\\",\\"200\\",\\"300\\",\\"regular\\",\\"500\\",\\"600\\",\\"700\\",\\"800\\",\\"900\\"]},\\"variant\\":\\"700\\",\\"displayVariant\\":\\"700 normal\\"},{\\"id\\":\\"Raleway900\\",\\"font\\":{\\"family\\":\\"Raleway\\",\\"category\\":\\"sans-serif\\",\\"variants\\":[\\"100\\",\\"200\\",\\"300\\",\\"regular\\",\\"500\\",\\"600\\",\\"700\\",\\"800\\",\\"900\\"]},\\"variant\\":\\"900\\",\\"displayVariant\\":\\"900 normal\\"}]',
-	'theme_colors' => '{"colors":[{"color":"#ffffff","prev":"#ffffff","highlight":"#ffffff","shade":"#ffffff","selected":"","luminance":"","alpha":"1"},{"color":"#333333","prev":"#333333","highlight":"#333333","shade":"#333333","selected":"","luminance":"","alpha":"1"},{"color":"#d6e6f0","prev":"#d6e6f0","highlight":"#d6e6f0","shade":"#d6e6f0","selected":"","luminance":"","alpha":"1"},{"color":"#000000","prev":"#000000","highlight":"#000000","shade":"#000000","selected":"","luminance":"","alpha":"1"},{"color":"#ffe262","prev":"#ffe262","highlight":"#ffe262","shade":"#ffe262","selected":"","luminance":"","alpha":"1"},{"color":"#645191","prev":"#645191","highlight":"#645191","shade":"#645191","selected":"","luminance":"","alpha":"1"},{"color":"#5ebf6b","prev":"#5ebf6b","highlight":"#5ebf6b","shade":"#5ebf6b","selected":"","luminance":"","alpha":"1"}],"range":"0"}',
+	'theme_colors' => '{"colors":[{"color":"#ffffff","prev":"#ffffff","highlight":"#ffffff","shade":"#ffffff","selected":"","luminance":"","alpha":"1"},{"color":"#333333","prev":"#333333","highlight":"#333333","shade":"#333333","selected":"","luminance":"","alpha":"1"},{"color":"#d6e6f0","prev":"#d6e6f0","highlight":"#d6e6f0","shade":"#d6e6f0","selected":"","luminance":"","alpha":"1"},{"color":"#000000","prev":"#000000","highlight":"#000000","shade":"#000000","selected":"","luminance":"","alpha":"1"},{"color":"#ffe262","prev":"#ffe262","highlight":"#ffe262","shade":"#ffe262","selected":"","luminance":"","alpha":"1"},{"color":"#645191","prev":"#645191","highlight":"#645191","shade":"#645191","selected":"","luminance":"","alpha":"1"},{"color":"#5ebf6b","prev":"#5ebf6b","highlight":"#5ebf6b","shade":"#5ebf6b","selected":"","luminance":"","alpha":"1"},{"color":"#ef4836","prev":"#ef4836","highlight":"#ef4836","shade":"#ef4836","selected":"","luminance":"","alpha":"1"},{"color":"#f7f7f7","prev":"#f7f7f7","highlight":"#f7f7f7","shade":"#f7f7f7","selected":"","luminance":"","alpha":"1"}],"range":"0"}',
 	'layout_properties' => '[{"name":"background_color","value":""},{"name":"grid","value":{"column_widths":{"desktop":45},"column_paddings":{"desktop":"15"},"baselines":{"desktop":5},"type_paddings":{"desktop":10}}},{"name":"background_type","value":"color"},{"name":"use_padding","value":0},{"name":"contained_region_width","value":1080},{"name":"version","value":"1.0.0"}]',
-	'menus' => '[{"id":false,"slug":"fixer-menu","name":"Fixer menu","description":"","items":[{"ID":2851,"post_author":"1","post_date":"2016-09-23 06:01:34","post_date_gmt":"2016-09-23 06:01:34","post_content":"","post_title":"SERVICES","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"services","to_ping":"","pinged":"","post_modified":"2016-09-23 06:01:34","post_modified_gmt":"2016-09-23 06:01:34","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/services\\/","menu_order":1,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2851,"menu_item_parent":"0","object_id":"2851","object":"custom","type":"custom","type_label":"Custom Link","title":"SERVICES","url":"#services","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2852,"post_author":"1","post_date":"2016-09-23 06:01:34","post_date_gmt":"2016-09-23 06:01:34","post_content":"","post_title":"GET A QUOTE","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"get-a-quote","to_ping":"","pinged":"","post_modified":"2016-09-23 06:01:34","post_modified_gmt":"2016-09-23 06:01:34","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/get-a-quote\\/","menu_order":2,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2852,"menu_item_parent":"0","object_id":"2852","object":"custom","type":"custom","type_label":"Custom Link","title":"GET A QUOTE","url":"#quote","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2853,"post_author":"1","post_date":"2016-09-23 06:01:34","post_date_gmt":"2016-09-23 06:01:34","post_content":"","post_title":"BLOG","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"blog","to_ping":"","pinged":"","post_modified":"2016-09-23 06:01:34","post_modified_gmt":"2016-09-23 06:01:34","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/blog\\/","menu_order":3,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2853,"menu_item_parent":"0","object_id":"2853","object":"custom","type":"custom","type_label":"Custom Link","title":"BLOG","url":"#blog","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2854,"post_author":"1","post_date":"2016-09-23 06:01:34","post_date_gmt":"2016-09-23 06:01:34","post_content":"","post_title":"ABOUT","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"about","to_ping":"","pinged":"","post_modified":"2016-09-23 06:01:34","post_modified_gmt":"2016-09-23 06:01:34","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/about\\/","menu_order":4,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2854,"menu_item_parent":"0","object_id":"2854","object":"custom","type":"custom","type_label":"Custom Link","title":"ABOUT","url":"#about","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2855,"post_author":"1","post_date":"2016-09-23 06:01:34","post_date_gmt":"2016-09-23 06:01:34","post_content":"","post_title":"CONTACT US","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"contact-us","to_ping":"","pinged":"","post_modified":"2016-09-23 06:01:34","post_modified_gmt":"2016-09-23 06:01:34","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/contact-us\\/","menu_order":5,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2855,"menu_item_parent":"0","object_id":"2855","object":"custom","type":"custom","type_label":"Custom Link","title":"CONTACT US","url":"#contact","target":"","attr_title":"","description":"","classes":[""],"xfn":""}]},{"id":false,"slug":null,"name":null,"description":null,"items":false},{"id":false,"slug":"footer-fixer-menu","name":"Footer Fixer Menu","description":"","items":[{"ID":13,"post_author":"1","post_date":"2015-01-29 06:27:51","post_date_gmt":"2015-01-29 06:27:51","post_content":"","post_title":"Cases","post_excerpt":"","post_status":"publish","comment_status":"open","ping_status":"open","post_password":"","post_name":"cases","to_ping":"","pinged":"","post_modified":"2015-01-29 06:27:51","post_modified_gmt":"2015-01-29 06:27:51","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/upfront.dev\\/?p=13","menu_order":1,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":13,"menu_item_parent":"0","object_id":"13","object":"custom","type":"custom","type_label":"Custom","title":"Cases","url":"","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":14,"post_author":"1","post_date":"2015-01-29 06:27:51","post_date_gmt":"2015-01-29 06:27:51","post_content":"","post_title":"Archive","post_excerpt":"","post_status":"publish","comment_status":"open","ping_status":"open","post_password":"","post_name":"archive","to_ping":"","pinged":"","post_modified":"2015-01-29 06:27:51","post_modified_gmt":"2015-01-29 06:27:51","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/upfront.dev\\/?p=14","menu_order":2,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":14,"menu_item_parent":"0","object_id":"14","object":"custom","type":"custom","type_label":"Custom","title":"Archive","url":"","target":"","attr_title":"","description":"","classes":[""],"xfn":""}]},{"id":false,"slug":"fixer-inner-menu","name":"Fixer Inner Menu","description":"","items":[{"ID":2846,"post_author":"1","post_date":"2016-09-22 14:37:41","post_date_gmt":"2016-09-22 14:37:41","post_content":"","post_title":"SERVICES","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"services-2","to_ping":"","pinged":"","post_modified":"2016-09-22 14:37:41","post_modified_gmt":"2016-09-22 14:37:41","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/services-2\\/","menu_order":1,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2846,"menu_item_parent":"0","object_id":"2846","object":"custom","type":"custom","type_label":"Custom Link","title":"SERVICES","url":"%siteurl%\\/services-inner\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2847,"post_author":"1","post_date":"2016-09-22 14:37:41","post_date_gmt":"2016-09-22 14:37:41","post_content":"","post_title":"BLOG","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"blog-2","to_ping":"","pinged":"","post_modified":"2016-09-22 14:37:41","post_modified_gmt":"2016-09-22 14:37:41","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/blog-2\\/","menu_order":2,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2847,"menu_item_parent":"0","object_id":"2847","object":"custom","type":"custom","type_label":"Custom Link","title":"BLOG","url":"%siteurl%\\/blog\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2848,"post_author":"1","post_date":"2016-09-22 14:37:41","post_date_gmt":"2016-09-22 14:37:41","post_content":"","post_title":"GET A QUOTE","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"get-a-quote-2","to_ping":"","pinged":"","post_modified":"2016-09-22 14:37:41","post_modified_gmt":"2016-09-22 14:37:41","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/get-a-quote-2\\/","menu_order":3,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2848,"menu_item_parent":"0","object_id":"2848","object":"custom","type":"custom","type_label":"Custom Link","title":"GET A QUOTE","url":"%siteurl%\\/get-quote-inner\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2849,"post_author":"1","post_date":"2016-09-22 14:37:41","post_date_gmt":"2016-09-22 14:37:41","post_content":"","post_title":"ABOUT","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"about-2","to_ping":"","pinged":"","post_modified":"2016-09-22 14:37:41","post_modified_gmt":"2016-09-22 14:37:41","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/about-2\\/","menu_order":4,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2849,"menu_item_parent":"0","object_id":"2849","object":"custom","type":"custom","type_label":"Custom Link","title":"ABOUT","url":"%siteurl%\\/about-inner\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2850,"post_author":"1","post_date":"2016-09-22 14:37:41","post_date_gmt":"2016-09-22 14:37:41","post_content":"","post_title":"CONTACT US","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"contact-us-2","to_ping":"","pinged":"","post_modified":"2016-09-22 14:37:41","post_modified_gmt":"2016-09-22 14:37:41","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/contact-us-2\\/","menu_order":5,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2850,"menu_item_parent":"0","object_id":"2850","object":"custom","type":"custom","type_label":"Custom Link","title":"CONTACT US","url":"%siteurl%\\/contact-us-inner\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""}]},{"id":false,"slug":"fixer-inner-menu-2","name":"Fixer Inner Menu","description":"","items":[{"ID":2315,"post_author":"1","post_date":"2016-03-15 12:30:52","post_date_gmt":"2016-03-15 12:30:52","post_content":"","post_title":"SERVICES","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"services-2","to_ping":"","pinged":"","post_modified":"2016-03-15 12:30:52","post_modified_gmt":"2016-03-15 12:30:52","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/services-2\\/","menu_order":1,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2315,"menu_item_parent":"0","object_id":"2315","object":"custom","type":"custom","type_label":"Custom Link","title":"SERVICES","url":"%siteurl%\\/services-inner\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2318,"post_author":"1","post_date":"2016-03-15 12:30:52","post_date_gmt":"2016-03-15 12:30:52","post_content":"","post_title":"BLOG","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"blog-3","to_ping":"","pinged":"","post_modified":"2016-03-15 12:30:52","post_modified_gmt":"2016-03-15 12:30:52","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/blog-3\\/","menu_order":2,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2318,"menu_item_parent":"0","object_id":"2318","object":"custom","type":"custom","type_label":"Custom Link","title":"BLOG","url":"%siteurl%\\/blog\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2321,"post_author":"1","post_date":"2016-03-15 12:30:52","post_date_gmt":"2016-03-15 12:30:52","post_content":"","post_title":"GET A QUOTE","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"get-a-quote-3","to_ping":"","pinged":"","post_modified":"2016-03-15 12:30:52","post_modified_gmt":"2016-03-15 12:30:52","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/get-a-quote-3\\/","menu_order":3,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2321,"menu_item_parent":"0","object_id":"2321","object":"custom","type":"custom","type_label":"Custom Link","title":"GET A QUOTE","url":"%siteurl%\\/get-quote-inner\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2324,"post_author":"1","post_date":"2016-03-15 12:30:52","post_date_gmt":"2016-03-15 12:30:52","post_content":"","post_title":"ABOUT","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"about-3","to_ping":"","pinged":"","post_modified":"2016-03-15 12:30:52","post_modified_gmt":"2016-03-15 12:30:52","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/about-3\\/","menu_order":4,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2324,"menu_item_parent":"0","object_id":"2324","object":"custom","type":"custom","type_label":"Custom Link","title":"ABOUT","url":"%siteurl%\\/about-inner\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2327,"post_author":"1","post_date":"2016-03-15 12:30:52","post_date_gmt":"2016-03-15 12:30:52","post_content":"","post_title":"CONTACT US","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"contact-us-3","to_ping":"","pinged":"","post_modified":"2016-03-15 12:30:52","post_modified_gmt":"2016-03-15 12:30:52","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/contact-us-3\\/","menu_order":5,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2327,"menu_item_parent":"0","object_id":"2327","object":"custom","type":"custom","type_label":"Custom Link","title":"CONTACT US","url":"%siteurl%\\/contact-us-inner\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""}]}]',
+	'menus' => '[{"id":false,"slug":"fixer-menu","name":"Fixer menu","description":"","items":[{"ID":2851,"post_author":"1","post_date":"2016-09-23 06:01:34","post_date_gmt":"2016-09-23 06:01:34","post_content":"","post_title":"SERVICES","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"services","to_ping":"","pinged":"","post_modified":"2016-09-23 06:01:34","post_modified_gmt":"2016-09-23 06:01:34","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/services\\/","menu_order":1,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2851,"menu_item_parent":"0","object_id":"2851","object":"custom","type":"custom","type_label":"Custom Link","title":"SERVICES","url":"#services","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2852,"post_author":"1","post_date":"2016-09-23 06:01:34","post_date_gmt":"2016-09-23 06:01:34","post_content":"","post_title":"GET A QUOTE","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"get-a-quote","to_ping":"","pinged":"","post_modified":"2016-09-23 06:01:34","post_modified_gmt":"2016-09-23 06:01:34","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/get-a-quote\\/","menu_order":2,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2852,"menu_item_parent":"0","object_id":"2852","object":"custom","type":"custom","type_label":"Custom Link","title":"GET A QUOTE","url":"#quote","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2853,"post_author":"1","post_date":"2016-09-23 06:01:34","post_date_gmt":"2016-09-23 06:01:34","post_content":"","post_title":"BLOG","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"blog","to_ping":"","pinged":"","post_modified":"2016-09-23 06:01:34","post_modified_gmt":"2016-09-23 06:01:34","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/blog\\/","menu_order":3,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2853,"menu_item_parent":"0","object_id":"2853","object":"custom","type":"custom","type_label":"Custom Link","title":"BLOG","url":"#blog","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2854,"post_author":"1","post_date":"2016-09-23 06:01:34","post_date_gmt":"2016-09-23 06:01:34","post_content":"","post_title":"ABOUT","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"about","to_ping":"","pinged":"","post_modified":"2016-09-23 06:01:34","post_modified_gmt":"2016-09-23 06:01:34","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/about\\/","menu_order":4,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2854,"menu_item_parent":"0","object_id":"2854","object":"custom","type":"custom","type_label":"Custom Link","title":"ABOUT","url":"#about","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2855,"post_author":"1","post_date":"2016-09-23 06:01:34","post_date_gmt":"2016-09-23 06:01:34","post_content":"","post_title":"CONTACT US","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"contact-us","to_ping":"","pinged":"","post_modified":"2016-09-23 06:01:34","post_modified_gmt":"2016-09-23 06:01:34","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/contact-us\\/","menu_order":5,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2855,"menu_item_parent":"0","object_id":"2855","object":"custom","type":"custom","type_label":"Custom Link","title":"CONTACT US","url":"#contact","target":"","attr_title":"","description":"","classes":[""],"xfn":""}]},{"id":false,"slug":"","name":"","description":"","items":false},{"id":false,"slug":"footer-fixer-menu","name":"Footer Fixer Menu","description":"","items":[{"ID":13,"post_author":"1","post_date":"2015-01-29 06:27:51","post_date_gmt":"2015-01-29 06:27:51","post_content":"","post_title":"Cases","post_excerpt":"","post_status":"publish","comment_status":"open","ping_status":"open","post_password":"","post_name":"cases","to_ping":"","pinged":"","post_modified":"2015-01-29 06:27:51","post_modified_gmt":"2015-01-29 06:27:51","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/upfront.dev\\/?p=13","menu_order":1,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":13,"menu_item_parent":"0","object_id":"13","object":"custom","type":"custom","type_label":"Custom","title":"Cases","url":"","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":14,"post_author":"1","post_date":"2015-01-29 06:27:51","post_date_gmt":"2015-01-29 06:27:51","post_content":"","post_title":"Archive","post_excerpt":"","post_status":"publish","comment_status":"open","ping_status":"open","post_password":"","post_name":"archive","to_ping":"","pinged":"","post_modified":"2015-01-29 06:27:51","post_modified_gmt":"2015-01-29 06:27:51","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/upfront.dev\\/?p=14","menu_order":2,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":14,"menu_item_parent":"0","object_id":"14","object":"custom","type":"custom","type_label":"Custom","title":"Archive","url":"","target":"","attr_title":"","description":"","classes":[""],"xfn":""}]},{"id":false,"slug":"fixer-inner-menu","name":"Fixer Inner Menu","description":"","items":[{"ID":4062,"post_author":"1","post_date":"2016-10-21 07:03:57","post_date_gmt":"2016-10-21 07:03:57","post_content":"","post_title":"SERVICES","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"services-2","to_ping":"","pinged":"","post_modified":"2016-10-21 07:03:57","post_modified_gmt":"2016-10-21 07:03:57","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/services-2\\/","menu_order":1,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":4062,"menu_item_parent":"0","object_id":"4062","object":"custom","type":"custom","type_label":"Custom Link","title":"SERVICES","url":"%siteurl%\\/services-inner\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":4063,"post_author":"1","post_date":"2016-10-21 07:03:57","post_date_gmt":"2016-10-21 07:03:57","post_content":"","post_title":"BLOG","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"blog-2","to_ping":"","pinged":"","post_modified":"2016-10-21 07:03:57","post_modified_gmt":"2016-10-21 07:03:57","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/blog-2\\/","menu_order":2,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":4063,"menu_item_parent":"0","object_id":"4063","object":"custom","type":"custom","type_label":"Custom Link","title":"BLOG","url":"%siteurl%\\/blog\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":4064,"post_author":"1","post_date":"2016-10-21 07:03:57","post_date_gmt":"2016-10-21 07:03:57","post_content":"","post_title":"GET A QUOTE","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"get-a-quote-2","to_ping":"","pinged":"","post_modified":"2016-10-21 07:03:57","post_modified_gmt":"2016-10-21 07:03:57","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/get-a-quote-2\\/","menu_order":3,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":4064,"menu_item_parent":"0","object_id":"4064","object":"custom","type":"custom","type_label":"Custom Link","title":"GET A QUOTE","url":"%siteurl%\\/get-quote-inner\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":4065,"post_author":"1","post_date":"2016-10-21 07:03:57","post_date_gmt":"2016-10-21 07:03:57","post_content":"","post_title":"ABOUT","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"about-2","to_ping":"","pinged":"","post_modified":"2016-10-21 07:03:57","post_modified_gmt":"2016-10-21 07:03:57","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/about-2\\/","menu_order":4,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":4065,"menu_item_parent":"0","object_id":"4065","object":"custom","type":"custom","type_label":"Custom Link","title":"ABOUT","url":"%siteurl%\\/about-inner\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":4066,"post_author":"1","post_date":"2016-10-21 07:03:57","post_date_gmt":"2016-10-21 07:03:57","post_content":"","post_title":"CONTACT US","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"contact-us-2","to_ping":"","pinged":"","post_modified":"2016-10-21 07:03:57","post_modified_gmt":"2016-10-21 07:03:57","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/contact-us-2\\/","menu_order":5,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":4066,"menu_item_parent":"0","object_id":"4066","object":"custom","type":"custom","type_label":"Custom Link","title":"CONTACT US","url":"%siteurl%\\/contact-us-inner\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""}]},{"id":false,"slug":"fixer-inner-menu-2","name":"Fixer Inner Menu","description":"","items":[{"ID":2315,"post_author":"1","post_date":"2016-03-15 12:30:52","post_date_gmt":"2016-03-15 12:30:52","post_content":"","post_title":"SERVICES","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"services-2","to_ping":"","pinged":"","post_modified":"2016-03-15 12:30:52","post_modified_gmt":"2016-03-15 12:30:52","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/services-2\\/","menu_order":1,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2315,"menu_item_parent":"0","object_id":"2315","object":"custom","type":"custom","type_label":"Custom Link","title":"SERVICES","url":"%siteurl%\\/services-inner\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2318,"post_author":"1","post_date":"2016-03-15 12:30:52","post_date_gmt":"2016-03-15 12:30:52","post_content":"","post_title":"BLOG","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"blog-3","to_ping":"","pinged":"","post_modified":"2016-03-15 12:30:52","post_modified_gmt":"2016-03-15 12:30:52","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/blog-3\\/","menu_order":2,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2318,"menu_item_parent":"0","object_id":"2318","object":"custom","type":"custom","type_label":"Custom Link","title":"BLOG","url":"%siteurl%\\/blog\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2321,"post_author":"1","post_date":"2016-03-15 12:30:52","post_date_gmt":"2016-03-15 12:30:52","post_content":"","post_title":"GET A QUOTE","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"get-a-quote-3","to_ping":"","pinged":"","post_modified":"2016-03-15 12:30:52","post_modified_gmt":"2016-03-15 12:30:52","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/get-a-quote-3\\/","menu_order":3,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2321,"menu_item_parent":"0","object_id":"2321","object":"custom","type":"custom","type_label":"Custom Link","title":"GET A QUOTE","url":"%siteurl%\\/get-quote-inner\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2324,"post_author":"1","post_date":"2016-03-15 12:30:52","post_date_gmt":"2016-03-15 12:30:52","post_content":"","post_title":"ABOUT","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"about-3","to_ping":"","pinged":"","post_modified":"2016-03-15 12:30:52","post_modified_gmt":"2016-03-15 12:30:52","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/about-3\\/","menu_order":4,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2324,"menu_item_parent":"0","object_id":"2324","object":"custom","type":"custom","type_label":"Custom Link","title":"ABOUT","url":"%siteurl%\\/about-inner\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""},{"ID":2327,"post_author":"1","post_date":"2016-03-15 12:30:52","post_date_gmt":"2016-03-15 12:30:52","post_content":"","post_title":"CONTACT US","post_excerpt":"","post_status":"publish","comment_status":"closed","ping_status":"closed","post_password":"","post_name":"contact-us-3","to_ping":"","pinged":"","post_modified":"2016-03-15 12:30:52","post_modified_gmt":"2016-03-15 12:30:52","post_content_filtered":"","post_parent":0,"guid":"http:\\/\\/uf-fixer.dev\\/contact-us-3\\/","menu_order":5,"post_type":"nav_menu_item","post_mime_type":"","comment_count":"0","filter":"raw","db_id":2327,"menu_item_parent":"0","object_id":"2327","object":"custom","type":"custom","type_label":"Custom Link","title":"CONTACT US","url":"%siteurl%\\/contact-us-inner\\/","target":"","attr_title":"","description":"","classes":[""],"xfn":""}]}]',
 	'global_regions' => '[{\\"properties\\":[{\\"name\\":\\"row\\",\\"value\\":24},{\\"name\\":\\"background_type\\",\\"value\\":\\"color\\"},{\\"name\\":\\"nav_region\\",\\"value\\":\\"\\"},{\\"name\\":\\"background_color\\",\\"value\\":\\"rgba(255,255,255,0)\\"}],\\"modules\\":[{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"row\\",\\"value\\":4},{\\"name\\":\\"class\\",\\"value\\":\\"c4 ml0 mr0 mt9 mb0 module-1405520755986-1686\\"},{\\"name\\":\\"element_id\\",\\"value\\":\\"module-1405520755986-1686\\"},{\\"name\\":\\"sticky\\",\\"value\\":false},{\\"name\\":\\"wrapper_id\\",\\"value\\":\\"wrapper-1405520755986-1686\\"}],\\"objects\\":[{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"src\\",\\"value\\":\\"\\/wp-content\\/uploads\\/2014\\/09\\/fixer-logo-120x30-2906.png\\"},{\\"name\\":\\"srcFull\\",\\"value\\":\\"\\/wp-content\\/uploads\\/2014\\/09\\/fixer-logo.png\\"},{\\"name\\":\\"srcOriginal\\",\\"value\\":\\"\\/wp-content\\/uploads\\/2014\\/09\\/fixer-logo.png\\"},{\\"name\\":\\"image_title\\",\\"value\\":\\"\\"},{\\"name\\":\\"alternative_text\\",\\"value\\":\\"\\"},{\\"name\\":\\"when_clicked\\",\\"value\\":\\"entry\\"},{\\"name\\":\\"image_link\\",\\"value\\":\\"\\/\\"},{\\"name\\":\\"include_image_caption\\",\\"value\\":false},{\\"name\\":\\"image_caption\\",\\"value\\":\\"My awesome image caption\\"},{\\"name\\":\\"caption_position\\",\\"value\\":\\"below_image\\"},{\\"name\\":\\"caption_alignment\\",\\"value\\":\\"top\\"},{\\"name\\":\\"caption_trigger\\",\\"value\\":\\"always_show\\"},{\\"name\\":\\"image_status\\",\\"value\\":\\"ok\\"},{\\"name\\":\\"size\\",\\"value\\":{\\"width\\":120,\\"height\\":30}},{\\"name\\":\\"fullSize\\",\\"value\\":{\\"width\\":120,\\"height\\":30}},{\\"name\\":\\"position\\",\\"value\\":{\\"top\\":0,\\"left\\":-15}},{\\"name\\":\\"marginTop\\",\\"value\\":0},{\\"name\\":\\"element_size\\",\\"value\\":{\\"width\\":150,\\"height\\":30}},{\\"name\\":\\"rotation\\",\\"value\\":0},{\\"name\\":\\"color\\",\\"value\\":\\"#ufc0\\"},{\\"name\\":\\"background\\",\\"value\\":\\"#ufc3\\"},{\\"name\\":\\"captionBackground\\",\\"value\\":\\"0\\"},{\\"name\\":\\"image_id\\",\\"value\\":\\"9\\"},{\\"name\\":\\"align\\",\\"value\\":\\"center\\"},{\\"name\\":\\"stretch\\",\\"value\\":false},{\\"name\\":\\"vstretch\\",\\"value\\":true},{\\"name\\":\\"quick_swap\\",\\"value\\":false},{\\"name\\":\\"gifImage\\",\\"value\\":0},{\\"name\\":\\"type\\",\\"value\\":\\"UimageModel\\"},{\\"name\\":\\"view_class\\",\\"value\\":\\"UimageView\\"},{\\"name\\":\\"has_settings\\",\\"value\\":1},{\\"name\\":\\"class\\",\\"value\\":\\"c24 upfront-image\\"},{\\"name\\":\\"id_slug\\",\\"value\\":\\"image\\"},{\\"name\\":\\"element_id\\",\\"value\\":\\"image-1405520755973-1481\\"},{\\"name\\":\\"row\\",\\"value\\":-2},{\\"name\\":\\"theme_style\\",\\"value\\":\\"\\"},{\\"name\\":\\"anchor\\",\\"value\\":\\"\\"}],\\"element_id\\":\\"\\"}]},{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"row\\",\\"value\\":11},{\\"name\\":\\"class\\",\\"value\\":\\"c14 ml0 mr0 mt8 mb0 module-1405520756070-1345\\"},{\\"name\\":\\"element_id\\",\\"value\\":\\"module-1405520756070-1345\\"},{\\"name\\":\\"sticky\\",\\"value\\":false},{\\"name\\":\\"wrapper_id\\",\\"value\\":\\"wrapper-1405520756070-1345\\"}],\\"objects\\":[{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"type\\",\\"value\\":\\"UnewnavigationModel\\"},{\\"name\\":\\"view_class\\",\\"value\\":\\"UnewnavigationView\\"},{\\"name\\":\\"class\\",\\"value\\":\\"c24 upfront-navigation\\"},{\\"name\\":\\"has_settings\\",\\"value\\":1},{\\"name\\":\\"id_slug\\",\\"value\\":\\"unewnavigation\\"},{\\"name\\":\\"menu_items\\",\\"value\\":[{\\"menu-item-db-id\\":4,\\"menu-item-parent-id\\":\\"0\\",\\"menu-item-type\\":\\"custom\\",\\"menu-item-title\\":\\"Service\\",\\"menu-item-url\\":\\"#service\\",\\"menu-item-object\\":\\"custom\\",\\"menu-item-object-id\\":\\"4\\",\\"menu-item-target\\":\\"\\",\\"menu-item-position\\":1},{\\"menu-item-db-id\\":5,\\"menu-item-parent-id\\":\\"0\\",\\"menu-item-type\\":\\"custom\\",\\"menu-item-title\\":\\"Get a Quote\\",\\"menu-item-url\\":\\"#quote\\",\\"menu-item-object\\":\\"custom\\",\\"menu-item-object-id\\":\\"5\\",\\"menu-item-target\\":\\"\\",\\"menu-item-position\\":2},{\\"menu-item-db-id\\":6,\\"menu-item-parent-id\\":\\"0\\",\\"menu-item-type\\":\\"custom\\",\\"menu-item-title\\":\\"Blog\\",\\"menu-item-url\\":\\"blog\\",\\"menu-item-object\\":\\"custom\\",\\"menu-item-object-id\\":\\"6\\",\\"menu-item-target\\":\\"\\",\\"menu-item-position\\":3},{\\"menu-item-db-id\\":7,\\"menu-item-parent-id\\":\\"0\\",\\"menu-item-type\\":\\"custom\\",\\"menu-item-title\\":\\"About\\",\\"menu-item-url\\":\\"#about\\",\\"menu-item-object\\":\\"custom\\",\\"menu-item-object-id\\":\\"7\\",\\"menu-item-target\\":\\"\\",\\"menu-item-position\\":4},{\\"menu-item-db-id\\":8,\\"menu-item-parent-id\\":\\"0\\",\\"menu-item-type\\":\\"custom\\",\\"menu-item-title\\":\\"Coverage Area\\",\\"menu-item-url\\":\\"#coveragearea\\",\\"menu-item-object\\":\\"custom\\",\\"menu-item-object-id\\":\\"8\\",\\"menu-item-target\\":\\"\\",\\"menu-item-position\\":5}]},{\\"name\\":\\"menu_style\\",\\"value\\":\\"horizontal\\"},{\\"name\\":\\"menu_alignment\\",\\"value\\":\\"left\\"},{\\"name\\":\\"allow_sub_nav\\",\\"value\\":[\\"no\\"]},{\\"name\\":\\"allow_new_pages\\",\\"value\\":[]},{\\"name\\":\\"element_id\\",\\"value\\":\\"unewnavigation-object-1405520756062-1726\\"},{\\"name\\":\\"initialized\\",\\"value\\":false},{\\"name\\":\\"menu_id\\",\\"value\\":2},{\\"name\\":\\"menu_slug\\",\\"value\\":\\"fixer-menu\\"},{\\"name\\":\\"is_floating\\",\\"value\\":[]},{\\"name\\":\\"theme_style\\",\\"value\\":\\"_default\\"},{\\"name\\":\\"anchor\\",\\"value\\":\\"\\"},{\\"name\\":\\"row\\",\\"value\\":5},{\\"name\\":\\"burger_menu\\",\\"value\\":[]},{\\"name\\":\\"burger_alignment\\",\\"value\\":\\"left\\"},{\\"name\\":\\"burger_over\\",\\"value\\":\\"over\\"},{\\"name\\":\\"breakpoint\\",\\"value\\":{\\"desktop\\":{\\"burger_alignment\\":\\"left\\",\\"burger_over\\":\\"over\\",\\"width\\":1080}}}],\\"element_id\\":\\"\\"}]},{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"row\\",\\"value\\":18},{\\"name\\":\\"class\\",\\"value\\":\\"c6 ml0 mr0 mt4 mb0 module-1405520755970-1045\\"},{\\"name\\":\\"element_id\\",\\"value\\":\\"module-1405520755970-1045\\"},{\\"name\\":\\"sticky\\",\\"value\\":false},{\\"name\\":\\"wrapper_id\\",\\"value\\":\\"wrapper-1405520755970-1045\\"}],\\"objects\\":[{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"view_class\\",\\"value\\":\\"PlainTxtView\\"},{\\"name\\":\\"id_slug\\",\\"value\\":\\"plain_text\\"},{\\"name\\":\\"content\\",\\"value\\":\\"<p style=\\"text-align: right;\\" class=\\"\\">One call does it all<\\/p><h2 style=\\"text-align: right;\\" class=\\"\\"><span class=\\"uf_font_icon\\" style=\\"font-size: 27px; top: 0px;\\">a&nbsp;<\\/span>1300 FIXER<\\/h2>\\"},{\\"name\\":\\"type\\",\\"value\\":\\"PlainTxtModel\\"},{\\"name\\":\\"element_id\\",\\"value\\":\\"text-object-1405520755969-1764\\"},{\\"name\\":\\"class\\",\\"value\\":\\"c24 upfront-plain_txt\\"},{\\"name\\":\\"has_settings\\",\\"value\\":1},{\\"name\\":\\"is_edited\\",\\"value\\":true},{\\"name\\":\\"border_style\\",\\"value\\":\\"none\\"},{\\"name\\":\\"border_width\\",\\"value\\":\\"0\\"},{\\"name\\":\\"border_color\\",\\"value\\":\\"\\"},{\\"name\\":\\"bg_color\\",\\"value\\":\\"\\"},{\\"name\\":\\"theme_style\\",\\"value\\":\\"header-contact-text\\"},{\\"name\\":\\"anchor\\",\\"value\\":\\"\\"},{\\"name\\":\\"row\\",\\"value\\":12}],\\"element_id\\":\\"\\"}]}],\\"wrappers\\":[{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"wrapper_id\\",\\"value\\":\\"wrapper-1405520755986-1686\\"},{\\"name\\":\\"class\\",\\"value\\":\\" c4 clr\\"},{\\"name\\":\\"breakpoint\\",\\"value\\":{\\"tablet\\":{\\"col\\":4},\\"mobile\\":{\\"col\\":4}}}]},{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"wrapper_id\\",\\"value\\":\\"wrapper-1405520756070-1345\\"},{\\"name\\":\\"class\\",\\"value\\":\\" c14\\"},{\\"name\\":\\"breakpoint\\",\\"value\\":{\\"tablet\\":{\\"col\\":14},\\"mobile\\":{\\"col\\":14}}}]},{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"wrapper_id\\",\\"value\\":\\"wrapper-1405520755970-1045\\"},{\\"name\\":\\"class\\",\\"value\\":\\" c6\\"},{\\"name\\":\\"breakpoint\\",\\"value\\":{\\"tablet\\":{\\"col\\":6},\\"mobile\\":{\\"col\\":6}}}]}],\\"name\\":\\"header\\",\\"title\\":\\"Header\\",\\"scope\\":\\"global\\",\\"container\\":\\"header\\",\\"default\\":false,\\"position\\":1,\\"allow_sidebar\\":true,\\"type\\":\\"wide\\"},{\\"properties\\":[{\\"name\\":\\"row\\",\\"value\\":9},{\\"name\\":\\"background_type\\",\\"value\\":\\"color\\"},{\\"name\\":\\"nav_region\\",\\"value\\":\\"\\"},{\\"name\\":\\"background_color\\",\\"value\\":\\"rgba(44,44,44,1)\\"},{\\"name\\":\\"expand_lock\\",\\"value\\":false}],\\"modules\\":[{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"row\\",\\"value\\":10},{\\"name\\":\\"class\\",\\"value\\":\\"c3 ml0 mr0 mt0 mb0 module-1406217409056-1339\\"},{\\"name\\":\\"element_id\\",\\"value\\":\\"module-1406217409056-1339\\"},{\\"name\\":\\"sticky\\",\\"value\\":false},{\\"name\\":\\"wrapper_id\\",\\"value\\":\\"wrapper-1406217409056-1339\\"}],\\"objects\\":[{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"src\\",\\"value\\":\\"\\/wp-content\\/uploads\\/2014\\/09\\/fixer-logo-white-100x20-3868.png\\"},{\\"name\\":\\"srcFull\\",\\"value\\":\\"\\/wp-content\\/uploads\\/2014\\/09\\/fixer-logo-white.png\\"},{\\"name\\":\\"srcOriginal\\",\\"value\\":\\"\\/wp-content\\/uploads\\/2014\\/09\\/fixer-logo-white.png\\"},{\\"name\\":\\"image_title\\",\\"value\\":\\"\\"},{\\"name\\":\\"alternative_text\\",\\"value\\":\\"\\"},{\\"name\\":\\"when_clicked\\",\\"value\\":false},{\\"name\\":\\"image_link\\",\\"value\\":\\"\\"},{\\"name\\":\\"include_image_caption\\",\\"value\\":false},{\\"name\\":\\"image_caption\\",\\"value\\":\\"My awesome image caption\\"},{\\"name\\":\\"caption_position\\",\\"value\\":\\"below_image\\"},{\\"name\\":\\"caption_alignment\\",\\"value\\":\\"top\\"},{\\"name\\":\\"caption_trigger\\",\\"value\\":\\"always_show\\"},{\\"name\\":\\"image_status\\",\\"value\\":\\"ok\\"},{\\"name\\":\\"size\\",\\"value\\":{\\"width\\":100,\\"height\\":30}},{\\"name\\":\\"fullSize\\",\\"value\\":{\\"width\\":100,\\"height\\":30}},{\\"name\\":\\"position\\",\\"value\\":{\\"top\\":5,\\"left\\":-2.5}},{\\"name\\":\\"marginTop\\",\\"value\\":0},{\\"name\\":\\"element_size\\",\\"value\\":{\\"width\\":105,\\"height\\":20}},{\\"name\\":\\"rotation\\",\\"value\\":0},{\\"name\\":\\"color\\",\\"value\\":\\"#ufc0\\"},{\\"name\\":\\"background\\",\\"value\\":\\"#ufc3\\"},{\\"name\\":\\"captionBackground\\",\\"value\\":\\"0\\"},{\\"name\\":\\"image_id\\",\\"value\\":\\"10\\"},{\\"name\\":\\"align\\",\\"value\\":\\"center\\"},{\\"name\\":\\"stretch\\",\\"value\\":false},{\\"name\\":\\"vstretch\\",\\"value\\":true},{\\"name\\":\\"quick_swap\\",\\"value\\":false},{\\"name\\":\\"gifImage\\",\\"value\\":0},{\\"name\\":\\"type\\",\\"value\\":\\"UimageModel\\"},{\\"name\\":\\"view_class\\",\\"value\\":\\"UimageView\\"},{\\"name\\":\\"has_settings\\",\\"value\\":1},{\\"name\\":\\"class\\",\\"value\\":\\"c24 upfront-image\\"},{\\"name\\":\\"id_slug\\",\\"value\\":\\"image\\"},{\\"name\\":\\"element_id\\",\\"value\\":\\"image-1406217409054-1200\\"},{\\"name\\":\\"row\\",\\"value\\":4}],\\"element_id\\":\\"\\"}]},{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"row\\",\\"value\\":12},{\\"name\\":\\"class\\",\\"value\\":\\"c6 ml0 mr0 mt0 mb0 module-1406217940549-1616\\"},{\\"name\\":\\"element_id\\",\\"value\\":\\"module-1406217940549-1616\\"},{\\"name\\":\\"sticky\\",\\"value\\":false},{\\"name\\":\\"wrapper_id\\",\\"value\\":\\"wrapper-1406217940549-1616\\"}],\\"objects\\":[{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"view_class\\",\\"value\\":\\"PlainTxtView\\"},{\\"name\\":\\"id_slug\\",\\"value\\":\\"plain_text\\"},{\\"name\\":\\"content\\",\\"value\\":\\"<p class=\\"\\"><span class=\\"upfront_theme_color_0\\" ">u00a9 2oo6-2014 Fixer Pty Ltd<\\/span><\\/p>\\"},{\\"name\\":\\"type\\",\\"value\\":\\"PlainTxtModel\\"},{\\"name\\":\\"element_id\\",\\"value\\":\\"text-object-1406217940549-1478\\"},{\\"name\\":\\"class\\",\\"value\\":\\"c24 upfront-plain_txt\\"},{\\"name\\":\\"has_settings\\",\\"value\\":1},{\\"name\\":\\"row\\",\\"value\\":6},{\\"name\\":\\"is_edited\\",\\"value\\":true},{\\"name\\":\\"border_style\\",\\"value\\":\\"none\\"},{\\"name\\":\\"border_width\\",\\"value\\":1},{\\"name\\":\\"border_color\\",\\"value\\":\\"\\"},{\\"name\\":\\"bg_color\\",\\"value\\":\\"\\"},{\\"name\\":\\"theme_style\\",\\"value\\":\\"plaintext-footer\\"},{\\"name\\":\\"anchor\\",\\"value\\":\\"\\"}],\\"element_id\\":\\"\\"}]},{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"row\\",\\"value\\":12},{\\"name\\":\\"class\\",\\"value\\":\\"c7 ml4 mr0 mt1 mb0 module-1406218508045-1635\\"},{\\"name\\":\\"element_id\\",\\"value\\":\\"module-1406218508045-1635\\"},{\\"name\\":\\"sticky\\",\\"value\\":false},{\\"name\\":\\"wrapper_id\\",\\"value\\":\\"wrapper-1406218508045-1635\\"}],\\"objects\\":[{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"view_class\\",\\"value\\":\\"PlainTxtView\\"},{\\"name\\":\\"id_slug\\",\\"value\\":\\"plain_text\\"},{\\"name\\":\\"content\\",\\"value\\":\\"<p class=\\"\\" style=\\"text-align: right;\\"><span class=\\"upfront_theme_color_0\\" >ABN - 58 121 227 072<\\/span><\\/p>\\"},{\\"name\\":\\"type\\",\\"value\\":\\"PlainTxtModel\\"},{\\"name\\":\\"element_id\\",\\"value\\":\\"object-1406218508045-1484\\"},{\\"name\\":\\"class\\",\\"value\\":\\"c24 upfront-plain_txt\\"},{\\"name\\":\\"has_settings\\",\\"value\\":1},{\\"name\\":\\"row\\",\\"value\\":6},{\\"name\\":\\"is_edited\\",\\"value\\":true},{\\"name\\":\\"border_style\\",\\"value\\":\\"none\\"},{\\"name\\":\\"border_width\\",\\"value\\":1},{\\"name\\":\\"border_color\\",\\"value\\":\\"\\"},{\\"name\\":\\"bg_color\\",\\"value\\":\\"\\"},{\\"name\\":\\"theme_style\\",\\"value\\":\\"plaintext-footer\\"},{\\"name\\":\\"anchor\\",\\"value\\":\\"\\"}],\\"element_id\\":\\"\\"}]},{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"row\\",\\"value\\":8},{\\"name\\":\\"class\\",\\"value\\":\\"c3 ml1 mr0 mt1 mb0 module-1406218404636-1484\\"},{\\"name\\":\\"element_id\\",\\"value\\":\\"module-1406218404636-1484\\"},{\\"name\\":\\"sticky\\",\\"value\\":false},{\\"name\\":\\"wrapper_id\\",\\"value\\":\\"wrapper-1406218404636-1484\\"}],\\"objects\\":[{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"view_class\\",\\"value\\":\\"PlainTxtView\\"},{\\"name\\":\\"id_slug\\",\\"value\\":\\"plain_text\\"},{\\"name\\":\\"content\\",\\"value\\":\\"<p class=\\"\\"><span class=\\"upfront_theme_color_0\\">TOU &amp; Privacy<\\/span><\\/p>\\"},{\\"name\\":\\"type\\",\\"value\\":\\"PlainTxtModel\\"},{\\"name\\":\\"element_id\\",\\"value\\":\\"text-object-1406218404628-1646\\"},{\\"name\\":\\"class\\",\\"value\\":\\"c24 upfront-plain_txt\\"},{\\"name\\":\\"has_settings\\",\\"value\\":1},{\\"name\\":\\"row\\",\\"value\\":2},{\\"name\\":\\"is_edited\\",\\"value\\":true},{\\"name\\":\\"border_style\\",\\"value\\":\\"none\\"},{\\"name\\":\\"border_width\\",\\"value\\":1},{\\"name\\":\\"border_color\\",\\"value\\":\\"\\"},{\\"name\\":\\"bg_color\\",\\"value\\":\\"\\"},{\\"name\\":\\"theme_style\\",\\"value\\":\\"plaintext-footer\\"},{\\"name\\":\\"anchor\\",\\"value\\":\\"\\"}],\\"element_id\\":\\"\\"}]}],\\"wrappers\\":[{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"wrapper_id\\",\\"value\\":\\"wrapper-1406217409056-1339\\"},{\\"name\\":\\"class\\",\\"value\\":\\" c3\\"},{\\"name\\":\\"breakpoint\\",\\"value\\":{\\"tablet\\":{\\"col\\":3},\\"mobile\\":{\\"col\\":3}}}]},{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"wrapper_id\\",\\"value\\":\\"wrapper-1406217940549-1616\\"},{\\"name\\":\\"class\\",\\"value\\":\\" c6\\"},{\\"name\\":\\"breakpoint\\",\\"value\\":{\\"tablet\\":{\\"col\\":6},\\"mobile\\":{\\"col\\":6}}}]},{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"wrapper_id\\",\\"value\\":\\"wrapper-1406218508045-1635\\"},{\\"name\\":\\"class\\",\\"value\\":\\" c11\\"},{\\"name\\":\\"breakpoint\\",\\"value\\":{\\"tablet\\":{\\"col\\":11},\\"mobile\\":{\\"col\\":11}}}]},{\\"name\\":\\"\\",\\"properties\\":[{\\"name\\":\\"wrapper_id\\",\\"value\\":\\"wrapper-1406218404636-1484\\"},{\\"name\\":\\"class\\",\\"value\\":\\" c4\\"},{\\"name\\":\\"breakpoint\\",\\"value\\":{\\"tablet\\":{\\"col\\":4},\\"mobile\\":{\\"col\\":4}}}]}],\\"name\\":\\"footer\\",\\"title\\":\\"Footer\\",\\"scope\\":\\"global\\",\\"container\\":\\"footer\\",\\"default\\":false,\\"position\\":1,\\"allow_sidebar\\":true,\\"type\\":\\"wide\\"}]',
-	'required_pages' => '{"blog":{"name":"Blog","slug":"blog","layout":"single-page-blog"},"about":{"name":"About","slug":"about","layout":"single-page-about"},"cases":{"name":"Cases","slug":"cases","layout":"single-page-cases"},"u-elements":{"name":"U Elements","slug":"u-elements","layout":"single-page-u-elements"},"services-inner":{"name":"Services Inner","slug":"services-inner","layout":"single-page-services-inner"},"get-quote-inner":{"name":"Get Quote Inner","slug":"get-quote-inner","layout":"single-page-get-quote-inner"},"about-inner":{"name":"About Inner","slug":"about-inner","layout":"single-page-about-inner"},"coverage-area-inner":{"name":"Coverage Area Inner","slug":"coverage-area-inner","layout":"single-page-coverage-area-inner"},"privacy-inner":{"name":"Privacy Inner","slug":"privacy-inner","layout":"single-page-privacy-inner"},"service-brick-inner":{"name":"Service Brick Inner","slug":"service-brick-inner","layout":"single-page-service-brick-inner"},"service-electrical-inner":{"name":"Service Electrical Inner","slug":"service-electrical-inner","layout":"single-page-service-electrical-inner"},"service-plumb-inner":{"name":"Service Plumb Inner","slug":"service-plumb-inner","layout":"single-page-service-plumb-inner"},"service-fence-inner":{"name":"Service Fence Inner","slug":"service-fence-inner","layout":"single-page-service-fence-inner"},"service-windows-inner":{"name":"Service Windows Inner","slug":"service-windows-inner","layout":"single-page-service-windows-inner"},"service-roof-inner":{"name":"Service Roof Inner","slug":"service-roof-inner","layout":"single-page-service-roof-inner"},"contact-us-inner":{"name":"Contact Us Inner","slug":"contact-us-inner","layout":"single-page-contact-us-inner"}}',
+	'required_pages' => '{"blog":{"name":"Blog","slug":"blog","layout":"single-page-blog"},"about":{"name":"About","slug":"about","layout":"single-page-about"},"cases":{"name":"Cases","slug":"cases","layout":"single-page-cases"},"u-elements":{"name":"U Elements","slug":"u-elements","layout":"single-page-u-elements"},"services-inner":{"name":"Services Inner","slug":"services-inner","layout":"single-page-services-inner"},"get-quote-inner":{"name":"Get Quote Inner","slug":"get-quote-inner","layout":"single-page-get-quote-inner"},"about-inner":{"name":"About Inner","slug":"about-inner","layout":"single-page-about-inner"},"coverage-area-inner":{"name":"Coverage Area Inner","slug":"coverage-area-inner","layout":"single-page-coverage-area-inner"},"privacy-inner":{"name":"Privacy Inner","slug":"privacy-inner","layout":"single-page-privacy-inner"},"service-brick-inner":{"name":"Service Brick Inner","slug":"service-brick-inner","layout":"single-page-service-brick-inner"},"service-electrical-inner":{"name":"Service Electrical Inner","slug":"service-electrical-inner","layout":"single-page-service-electrical-inner"},"service-plumb-inner":{"name":"Service Plumb Inner","slug":"service-plumb-inner","layout":"single-page-service-plumb-inner"},"service-fence-inner":{"name":"Service Fence Inner","slug":"service-fence-inner","layout":"single-page-service-fence-inner"},"service-windows-inner":{"name":"Service Windows Inner","slug":"service-windows-inner","layout":"single-page-service-windows-inner"},"service-roof-inner":{"name":"Service Roof Inner","slug":"service-roof-inner","layout":"single-page-service-roof-inner"},"contact-us-inner":{"name":"Contact Us Inner","slug":"contact-us-inner","layout":"single-page-contact-us-inner"},"uf-elements":{"name":"Uf Elements","slug":"uf-elements","layout":"single-page-uf-elements"}}',
 	'button_presets' => '[{\\"useborder\\":\\"yes\\",\\"bordertype\\":\\"solid\\",\\"borderwidth\\":\\"3\\",\\"bordercolor\\":\\"rgba(0, 0, 0, 0)\\",\\"borderradiuslock\\":\\"yes\\",\\"borderradius1\\":\\"100\\",\\"borderradius2\\":\\"100\\",\\"borderradius3\\":\\"100\\",\\"borderradius4\\":\\"100\\",\\"bgcolor\\":\\"#ufc1\\",\\"fontsize\\":\\"15\\",\\"fontface\\":\\"Raleway\\",\\"fontstyle\\":\\"700 normal\\",\\"fontstyle_weight\\":\\"700\\",\\"fontstyle_style\\":\\"normal\\",\\"lineheight\\":\\"1.133\\",\\"color\\":\\"#ufc0\\",\\"hov_bordertype\\":\\"solid\\",\\"hov_borderwidth\\":\\"3\\",\\"hov_bordercolor\\":\\"#ufc1\\",\\"hov_borderradiuslock\\":\\"yes\\",\\"hov_borderradius1\\":\\"100\\",\\"hov_borderradius2\\":\\"100\\",\\"hov_borderradius3\\":\\"100\\",\\"hov_borderradius4\\":\\"100\\",\\"hov_bgcolor\\":\\"rgba(0, 0, 0, 0)\\",\\"hov_fontsize\\":\\"15\\",\\"hov_fontface\\":\\"Raleway\\",\\"hov_fontstyle\\":\\"700 normal\\",\\"hov_fontstyle_weight\\":\\"700\\",\\"hov_fontstyle_style\\":\\"normal\\",\\"hov_lineheight\\":\\"1.133\\",\\"hov_color\\":\\"#ufc1\\",\\"hov_duration\\":\\"0.25\\",\\"hov_transition\\":\\"linear\\",\\"hov_easing\\":\\"ease-in-out\\",\\"focus_bordertype\\":\\"solid\\",\\"focus_borderwidth\\":\\"4\\",\\"focus_bordercolor\\":\\"rgb(66, 127, 237)\\",\\"focus_borderradiuslock\\":\\"yes\\",\\"focus_borderradius1\\":\\"100\\",\\"focus_borderradius2\\":\\"100\\",\\"focus_borderradius3\\":\\"100\\",\\"focus_borderradius4\\":\\"100\\",\\"focus_bgcolor\\":\\"rgb(66, 127, 237)\\",\\"focus_fontsize\\":\\"16\\",\\"focus_fontface\\":\\"Arial\\",\\"focus_fontstyle\\":\\"600 normal\\",\\"focus_fontstyle_weight\\":\\"600\\",\\"focus_fontstyle_style\\":\\"normal\\",\\"focus_lineheight\\":\\"3\\",\\"focus_color\\":\\"rgb(255, 255, 255)\\",\\"id\\":\\"alt\\",\\"migrated\\":\\"true\\",\\"name\\":\\"alt\\",\\"hov_usebgcolor\\":\\"yes\\",\\"hov_usetypography\\":\\"yes\\",\\"hov_useborder\\":\\"yes\\",\\"hov_use_animation\\":\\"yes\\",\\"preset_style\\":\\"#page .alt.upfront-button a.upfront_cta {@n    padding: 14px 10px;@n    text-transform: inherit;@n}@n\\",\\"theme_preset\\":\\"true\\"},{\\"useborder\\":\\"yes\\",\\"bordertype\\":\\"solid\\",\\"borderwidth\\":\\"3\\",\\"bordercolor\\":\\"rgba(0, 0, 0, 0)\\",\\"borderradiuslock\\":\\"yes\\",\\"borderradius1\\":\\"100\\",\\"borderradius2\\":\\"100\\",\\"borderradius3\\":\\"100\\",\\"borderradius4\\":\\"100\\",\\"bgcolor\\":\\"#ufc4\\",\\"fontsize\\":\\"15\\",\\"fontface\\":\\"Raleway\\",\\"fontstyle\\":\\"700 normal\\",\\"fontstyle_weight\\":\\"700\\",\\"fontstyle_style\\":\\"normal\\",\\"lineheight\\":\\"1.133\\",\\"color\\":\\"#ufc1\\",\\"hov_bordertype\\":\\"solid\\",\\"hov_borderwidth\\":\\"3\\",\\"hov_bordercolor\\":\\"#ufc4\\",\\"hov_borderradiuslock\\":\\"yes\\",\\"hov_borderradius1\\":\\"100\\",\\"hov_borderradius2\\":\\"100\\",\\"hov_borderradius3\\":\\"100\\",\\"hov_borderradius4\\":\\"100\\",\\"hov_bgcolor\\":\\"rgba(0, 0, 0, 0)\\",\\"hov_fontsize\\":\\"16\\",\\"hov_fontface\\":\\"Arial\\",\\"hov_fontstyle\\":\\"600 normal\\",\\"hov_fontstyle_weight\\":\\"600\\",\\"hov_fontstyle_style\\":\\"normal\\",\\"hov_lineheight\\":\\"3\\",\\"hov_color\\":\\"rgb(255, 255, 255)\\",\\"hov_duration\\":\\"0.25\\",\\"hov_transition\\":\\"linear\\",\\"hov_easing\\":\\"ease-in-out\\",\\"focus_bordertype\\":\\"solid\\",\\"focus_borderwidth\\":\\"4\\",\\"focus_bordercolor\\":\\"rgb(66, 127, 237)\\",\\"focus_borderradiuslock\\":\\"yes\\",\\"focus_borderradius1\\":\\"100\\",\\"focus_borderradius2\\":\\"100\\",\\"focus_borderradius3\\":\\"100\\",\\"focus_borderradius4\\":\\"100\\",\\"focus_bgcolor\\":\\"rgb(66, 127, 237)\\",\\"focus_fontsize\\":\\"16\\",\\"focus_fontface\\":\\"Arial\\",\\"focus_fontstyle\\":\\"600 normal\\",\\"focus_fontstyle_weight\\":\\"600\\",\\"focus_fontstyle_style\\":\\"normal\\",\\"focus_lineheight\\":\\"3\\",\\"focus_color\\":\\"rgb(255, 255, 255)\\",\\"id\\":\\"default\\",\\"migrated\\":\\"true\\",\\"name\\":\\"default\\",\\"preset_style\\":\\"#page .default.upfront-button a.upfront_cta {@n    padding: 14px 10px;@n    text-transform: inherit;@n}@n\\",\\"hov_use_animation\\":\\"yes\\",\\"hov_useborder\\":\\"yes\\",\\"hov_usebgcolor\\":\\"yes\\",\\"theme_preset\\":\\"true\\"},{\\"useborder\\":\\"yes\\",\\"bordertype\\":\\"solid\\",\\"borderwidth\\":\\"3\\",\\"bordercolor\\":\\"rgba(0, 0, 0, 0)\\",\\"borderradiuslock\\":\\"yes\\",\\"borderradius1\\":\\"100\\",\\"borderradius2\\":\\"100\\",\\"borderradius3\\":\\"100\\",\\"borderradius4\\":\\"100\\",\\"bgcolor\\":\\"#ufc6\\",\\"fontsize\\":\\"15\\",\\"fontface\\":\\"Raleway\\",\\"fontstyle\\":\\"700 normal\\",\\"fontstyle_weight\\":\\"700\\",\\"fontstyle_style\\":\\"normal\\",\\"lineheight\\":\\"1.133\\",\\"color\\":\\"#ufc0\\",\\"hov_bordertype\\":\\"solid\\",\\"hov_borderwidth\\":\\"3\\",\\"hov_bordercolor\\":\\"#ufc6\\",\\"hov_borderradiuslock\\":\\"yes\\",\\"hov_borderradius1\\":\\"100\\",\\"hov_borderradius2\\":\\"100\\",\\"hov_borderradius3\\":\\"100\\",\\"hov_borderradius4\\":\\"100\\",\\"hov_bgcolor\\":\\"rgba(0, 0, 0, 0)\\",\\"hov_fontsize\\":\\"15\\",\\"hov_fontface\\":\\"Raleway\\",\\"hov_fontstyle\\":\\"700 normal\\",\\"hov_fontstyle_weight\\":\\"700\\",\\"hov_fontstyle_style\\":\\"normal\\",\\"hov_lineheight\\":\\"1.133\\",\\"hov_color\\":\\"#ufc6\\",\\"hov_duration\\":\\"0.25\\",\\"hov_transition\\":\\"linear\\",\\"hov_easing\\":\\"ease-in-out\\",\\"focus_bordertype\\":\\"solid\\",\\"focus_borderwidth\\":\\"4\\",\\"focus_bordercolor\\":\\"rgb(66, 127, 237)\\",\\"focus_borderradiuslock\\":\\"yes\\",\\"focus_borderradius1\\":\\"100\\",\\"focus_borderradius2\\":\\"100\\",\\"focus_borderradius3\\":\\"100\\",\\"focus_borderradius4\\":\\"100\\",\\"focus_bgcolor\\":\\"rgb(66, 127, 237)\\",\\"focus_fontsize\\":\\"16\\",\\"focus_fontface\\":\\"Arial\\",\\"focus_fontstyle\\":\\"600 normal\\",\\"focus_fontstyle_weight\\":\\"600\\",\\"focus_fontstyle_style\\":\\"normal\\",\\"focus_lineheight\\":\\"3\\",\\"focus_color\\":\\"rgb(255, 255, 255)\\",\\"id\\":\\"brand\\",\\"migrated\\":\\"true\\",\\"name\\":\\"brand\\",\\"hov_use_animation\\":\\"yes\\",\\"hov_usebgcolor\\":\\"yes\\",\\"hov_usetypography\\":\\"yes\\",\\"hov_useborder\\":\\"yes\\",\\"theme_preset\\":\\"true\\",\\"preset_style\\":\\"#page .brand.upfront-button a.upfront_cta {@n    padding: 14px 10px;@n    text-transform: inherit;@n}@n\\"},{\\"bordertype\\":\\"solid\\",\\"borderwidth\\":\\"4\\",\\"bordercolor\\":\\"rgb(66, 127, 237)\\",\\"borderradiuslock\\":\\"yes\\",\\"borderradius1\\":\\"100\\",\\"borderradius2\\":\\"100\\",\\"borderradius3\\":\\"100\\",\\"borderradius4\\":\\"100\\",\\"bgcolor\\":\\"rgba(0, 0, 0, 0)\\",\\"fontsize\\":\\"15\\",\\"fontface\\":\\"Raleway\\",\\"fontstyle\\":\\"700 normal\\",\\"fontstyle_weight\\":\\"700\\",\\"fontstyle_style\\":\\"normal\\",\\"lineheight\\":\\"1.133\\",\\"color\\":\\"#ufc1\\",\\"hov_bordertype\\":\\"solid\\",\\"hov_borderwidth\\":\\"4\\",\\"hov_bordercolor\\":\\"rgb(66, 127, 237)\\",\\"hov_borderradiuslock\\":\\"yes\\",\\"hov_borderradius1\\":\\"100\\",\\"hov_borderradius2\\":\\"100\\",\\"hov_borderradius3\\":\\"100\\",\\"hov_borderradius4\\":\\"100\\",\\"hov_bgcolor\\":\\"rgb(66, 127, 237)\\",\\"hov_fontsize\\":\\"15\\",\\"hov_fontface\\":\\"Raleway\\",\\"hov_fontstyle\\":\\"700 normal\\",\\"hov_fontstyle_weight\\":\\"700\\",\\"hov_fontstyle_style\\":\\"normal\\",\\"hov_lineheight\\":\\"1.133\\",\\"hov_color\\":\\"#ufc6\\",\\"hov_duration\\":\\"0.4\\",\\"hov_transition\\":\\"linear\\",\\"hov_easing\\":\\"ease-in-out\\",\\"focus_bordertype\\":\\"solid\\",\\"focus_borderwidth\\":\\"4\\",\\"focus_bordercolor\\":\\"rgb(66, 127, 237)\\",\\"focus_borderradiuslock\\":\\"yes\\",\\"focus_borderradius1\\":\\"100\\",\\"focus_borderradius2\\":\\"100\\",\\"focus_borderradius3\\":\\"100\\",\\"focus_borderradius4\\":\\"100\\",\\"focus_bgcolor\\":\\"rgb(66, 127, 237)\\",\\"focus_fontsize\\":\\"16\\",\\"focus_fontface\\":\\"Arial\\",\\"focus_fontstyle\\":\\"600 normal\\",\\"focus_fontstyle_weight\\":\\"600\\",\\"focus_fontstyle_style\\":\\"normal\\",\\"focus_lineheight\\":\\"3\\",\\"focus_color\\":\\"rgb(255, 255, 255)\\",\\"id\\":\\"link\\",\\"migrated\\":\\"true\\",\\"name\\":\\"link\\",\\"hov_usetypography\\":\\"yes\\",\\"hov_use_animation\\":\\"yes\\",\\"preset_style\\":\\"#page .link.upfront-button a.upfront_cta {@n    display: inline-block;@n    padding: 0;@n    text-transform: inherit;@n}@n\\",\\"theme_preset\\":\\"true\\"},{\\"id\\":\\"white-borders-button\\",\\"migrated\\":\\"true\\",\\"bordertype\\":\\"solid\\",\\"borderwidth\\":\\"3\\",\\"bordercolor\\":\\"#ufc0\\",\\"borderradius1\\":\\"0\\",\\"borderradius2\\":\\"0\\",\\"borderradius4\\":\\"0\\",\\"borderradius3\\":\\"0\\",\\"bgcolor\\":\\"rgba(137, 77, 77, 0)\\",\\"fontsize\\":\\"15\\",\\"fontface\\":\\"Raleway\\",\\"color\\":\\"#ufc0\\",\\"hov_duration\\":\\"0.4\\",\\"hov_transition\\":\\"ease\\",\\"theme_style\\":\\"_default\\",\\"hov_color\\":\\"#ufc1\\",\\"hov_bordercolor\\":\\"#ufc0\\",\\"hov_bgcolor\\":\\"#ufc0\\",\\"hov_bordertype\\":\\"solid\\",\\"useborder\\":\\"yes\\",\\"hov_usetypography\\":\\"yes\\",\\"hov_usebgcolor\\":\\"yes\\",\\"lineheight\\":\\"1.133\\",\\"theme_preset\\":\\"true\\",\\"preset_style\\":\\"#page .white-borders-button.upfront-button a.upfront_cta {@n    padding: 14px 10px;@n    text-transform: inherit;@n}@n\\",\\"fontstyle\\":\\"700 normal\\",\\"fontstyle_weight\\":\\"700\\",\\"fontstyle_style\\":\\"normal\\",\\"hov_use_animation\\":\\"yes\\",\\"hov_fontface\\":\\"Raleway\\",\\"hov_fontstyle\\":\\"700 normal\\",\\"hov_fontstyle_weight\\":\\"700\\",\\"hov_fontstyle_style\\":\\"normal\\",\\"focus_borderradiuslock\\":\\"yes\\"},{\\"id\\":\\"black-borders-button\\",\\"migrated\\":\\"true\\",\\"bordertype\\":\\"solid\\",\\"borderwidth\\":\\"3\\",\\"bordercolor\\":\\"#ufc1\\",\\"borderradius1\\":\\"0\\",\\"borderradius2\\":\\"0\\",\\"borderradius4\\":\\"0\\",\\"borderradius3\\":\\"0\\",\\"bgcolor\\":\\"rgba(137, 77, 77, 0)\\",\\"fontsize\\":\\"15\\",\\"fontface\\":\\"Raleway\\",\\"color\\":\\"#ufc1\\",\\"hov_duration\\":\\"0.4\\",\\"hov_transition\\":\\"ease\\",\\"theme_style\\":\\"_default\\",\\"hov_color\\":\\"#ufc0\\",\\"hov_bordercolor\\":\\"#ufc1\\",\\"hov_bgcolor\\":\\"#ufc1\\",\\"useborder\\":\\"yes\\",\\"hov_usetypography\\":\\"yes\\",\\"hov_usebgcolor\\":\\"yes\\",\\"lineheight\\":\\"1.133\\",\\"theme_preset\\":\\"true\\",\\"preset_style\\":\\"#page .black-borders-button.upfront-button a.upfront_cta {@n    padding: 14px 10px;@n    text-transform: inherit;@n}@n\\",\\"fontstyle\\":\\"700 normal\\",\\"fontstyle_weight\\":\\"700\\",\\"fontstyle_style\\":\\"normal\\",\\"hov_use_animation\\":\\"yes\\",\\"hov_fontface\\":\\"Raleway\\",\\"hov_fontstyle\\":\\"700 normal\\",\\"hov_fontstyle_weight\\":\\"700\\",\\"hov_fontstyle_style\\":\\"normal\\",\\"hov_fontsize\\":\\"\\",\\"focus_borderradiuslock\\":\\"yes\\"}]',
 	'responsive_settings' => '{"breakpoints":[{"name":"Default Desktop","short_name":"Default","default":true,"id":"desktop","width":1080,"columns":24,"enabled":true,"fixed":true,"active":"false","typography":{"h1":{"weight":"900","style":"normal","size":"110","line_height":"1.1","font_face":"Raleway","font_family":"sans-serif","color":"rgba(255,255,255,1)"},"h2":{"weight":"700","style":"normal","size":"28","line_height":"1.1","font_face":"Raleway","font_family":"sans-serif"},"h3":{"weight":"400","style":"normal","size":"28","line_height":"0","font_face":"Raleway","font_family":"sans-serif","color":"rgba(51,51,51,1)"},"h4":{"weight":"500","style":"normal","size":"28","line_height":"1.1","font_face":"Raleway","font_family":"sans-serif"},"h5":{"weight":"700","style":"normal","size":"22","line_height":"1.1","font_face":"Raleway","font_family":"sans-serif","color":"rgba(51,51,51,1)"},"p":{"weight":"400","style":"normal","line_height":"1.1","font_face":"Raleway","font_family":"sans-serif","color":"rgba(51,51,51,1)"}},"styles":"","column_width":"45","column_padding":"15","baseline":"5","type_padding":"10"},{"name":"Tablet","short_name":"Tablet","id":"tablet","width":570,"columns":12,"enabled":true,"fixed":true,"default":false,"active":"false","typography":{"h1":{"weight":"900","style":"normal","size":"80","line_height":"1.1","font_face":"Raleway","font_family":"sans-serif","color":"#ufc1","theme_color_class":"upfront_theme_color_3"},"h2":{"weight":"700","style":"normal","size":"25","line_height":"1.5","font_face":"Raleway","font_family":"sans-serif","color":"#ufc1","theme_color_class":"upfront_theme_color_3"},"h3":{"weight":"700","style":"normal","size":"20","line_height":"1.5","font_face":"Raleway","font_family":"sans-serif","color":"#ufc1","theme_color_class":"upfront_theme_color_3"},"h4":{"weight":"500","style":"normal","size":"20","line_height":"1.5","font_face":"Raleway","font_family":"sans-serif"},"h5":{"weight":"700","style":"normal","size":"18","line_height":"1.5","font_face":"Raleway","font_family":"sans-serif","color":"rgba(51,51,51,1)","theme_color_class":"upfront_theme_color_1"},"h6":{"weight":"700","style":"normal","size":"16","line_height":"1.7","font_face":"Raleway","font_family":"sans-serif","color":"#ufc1","theme_color_class":"upfront_theme_color_3"},"p":{"weight":"400","style":"normal","size":"16","line_height":"1.7","font_face":"Raleway","font_family":"sans-serif","color":"rgba(51,51,51,1)","theme_color_class":"upfront_theme_color_1"},"a":{"weight":"400","style":"normal","size":"false","line_height":"false","font_face":"Raleway","font_family":"sans-serif","color":"#ufc6","theme_color_class":"upfront_theme_color_3"},"a:hover":{"weight":"400","style":"normal","size":"false","line_height":"false","font_face":"Raleway","font_family":"sans-serif","color":"#ufc1","theme_color_class":"upfront_theme_color_3"},"ul":{"weight":"400","style":"normal","size":"16","line_height":"1.7","font_face":"Raleway","font_family":"sans-serif","color":"#ufc1","theme_color_class":"upfront_theme_color_3"},"ol":{"weight":"400","style":"normal","size":"16","line_height":"1.7","font_face":"Raleway","font_family":"sans-serif","color":"#ufc1","theme_color_class":"upfront_theme_color_3"},"blockquote":{"weight":"500","style":"normal","size":"20","line_height":"1.5","font_face":"Raleway","font_family":"sans-serif","color":"#ufc1","theme_color_class":"upfront_theme_color_3"},"blockquote.upfront-quote-alternative":{"weight":"400","style":"normal","size":"22","line_height":"1.364","font_face":"Raleway","font_family":"sans-serif","color":"#ufc1","theme_color_class":"upfront_theme_color_3"}},"styles":""},{"name":"Mobile","short_name":"Mobile","id":"mobile","width":315,"columns":7,"enabled":true,"fixed":true,"default":false,"active":"true","typography":{"h1":{"weight":"900","style":"normal","size":"50","line_height":"1.1","font_face":"Raleway","font_family":"sans-serif","color":"#ufc1","theme_color_class":"upfront_theme_color_3"},"h2":{"weight":"700","style":"normal","size":"20","line_height":"1.5","font_face":"Raleway","font_family":"sans-serif","color":"#ufc1","theme_color_class":"upfront_theme_color_3"},"h3":{"weight":"700","style":"normal","size":"20","line_height":"1.5","font_face":"Raleway","font_family":"sans-serif","color":"#ufc1","theme_color_class":"upfront_theme_color_3"},"h4":{"weight":"500","style":"normal","size":"20","line_height":"1.5","font_face":"Raleway","font_family":"sans-serif"},"h5":{"weight":"700","style":"normal","size":"18","line_height":"1.5","font_face":"Raleway","font_family":"sans-serif","color":"rgba(51,51,51,1)","theme_color_class":"upfront_theme_color_1"},"h6":{"weight":"700","style":"normal","size":"16","line_height":"1.7","font_face":"Raleway","font_family":"sans-serif","color":"#ufc1","theme_color_class":"upfront_theme_color_3"},"p":{"weight":"400","style":"normal","size":"16","line_height":"1.7","font_face":"Raleway","font_family":"sans-serif","color":"#ufc1","theme_color_class":"upfront_theme_color_3"},"a":{"weight":"400","style":"normal","size":"false","line_height":"false","font_face":"Raleway","font_family":"sans-serif","color":"#ufc6","theme_color_class":"upfront_theme_color_3"},"a:hover":{"weight":"400","style":"normal","size":"false","line_height":"false","font_face":"Raleway","font_family":"sans-serif","color":"#ufc1","theme_color_class":"upfront_theme_color_3"},"ul":{"weight":"400","style":"normal","size":"16","line_height":"1.7","font_face":"Raleway","font_family":"sans-serif","color":"#ufc1","theme_color_class":"upfront_theme_color_3"},"ol":{"weight":"400","style":"normal","size":"16","line_height":"1.7","font_face":"Raleway","font_family":"sans-serif","color":"#ufc1","theme_color_class":"upfront_theme_color_3"},"blockquote":{"weight":"500","style":"normal","size":"20","line_height":"1.5","font_face":"Raleway","font_family":"sans-serif","color":"#ufc1","theme_color_class":"upfront_theme_color_3"},"blockquote.upfront-quote-alternative":{"weight":"400","style":"normal","size":"22","line_height":"1.364","font_face":"Raleway","font_family":"sans-serif","color":"#ufc1","theme_color_class":"upfront_theme_color_3"}},"styles":""}]}',
 	'post_image_variants' => '[{"vid":"variant-1414082154417-1612","label":"Full Width","group":{"margin_left":"0","margin_right":"0","col":"15","row":"61","left":"0","float":"none","height":"305","width_cls":"c15","left_cls":"ml0","clear_cls":""},"image":{"order":"0","col":"24","top":"0","left":"0","row":"51","clear":"true","height":"255","width_cls":"c24","left_cls":"ml0","clear_cls":"clr","top_cls":"mt0","order_cls":"order-0","full_cls":"is-full"},"caption":{"show":"1","order":"1","col":"24","top":"0","left":"0","row":"10","clear":"true","height":"50","width_cls":"c24","left_cls":"ml0","clear_cls":"clr","top_cls":"mt0","order_cls":"order-1","full_cls":"is-full"}},{"vid":"variant-1414082173807-1526","label":"Center","group":{"margin_left":"0","margin_right":"0","col":"13","row":"62","left":"1","float":"none","height":"310","width_cls":"c13","left_cls":"ml2","clear_cls":""},"image":{"order":"0","col":"24","top":"0","left":"0","row":"51","clear":"true","height":"255","width_cls":"c24","left_cls":"ml0","clear_cls":"clr","top_cls":"mt0","order_cls":"order-0","full_cls":"is-full"},"caption":{"show":"1","order":"1","col":"16","top":"0","left":"0","row":"10","clear":"true","height":"50","width_cls":"c16","left_cls":"ml0","clear_cls":"clr","top_cls":"mt0","order_cls":"order-1","full_cls":"is-full"}},{"vid":"variant-1447071075892-1481","label":"Left","group":{"margin_left":"0","margin_right":"0","col":"7","row":"50","left":"0","float":"left","height":"250","width_cls":"c7","left_cls":"ml0","clear_cls":""},"image":{"order":"0","col":"24","top":"0","left":"0","row":"40","clear":"true","height":"200","width_cls":"c24","left_cls":"ml0","clear_cls":"clr","top_cls":"mt0","order_cls":"order-0","full_cls":"is-full"},"caption":{"show":"1","order":"1","col":"24","top":"0","left":"0","row":"10","clear":"true","height":"50","width_cls":"c24","left_cls":"ml0","clear_cls":"clr","top_cls":"mt0","order_cls":"order-1","full_cls":"is-full"}},{"vid":"variant-1447071093159-1846","label":"Right","group":{"margin_left":"0","margin_right":"0","col":"7","row":"50","left":"0","float":"right","height":"250","width_cls":"c7","left_cls":"ml0","clear_cls":""},"image":{"order":"0","col":"24","top":"0","left":"0","row":"40","clear":"true","height":"200","width_cls":"c24","left_cls":"ml0","clear_cls":"clr","top_cls":"mt0","order_cls":"order-0","full_cls":"is-full"},"caption":{"show":"1","order":"1","col":"24","top":"0","left":"0","row":"10","clear":"true","height":"50","width_cls":"c24","left_cls":"ml0","clear_cls":"clr","top_cls":"mt0","order_cls":"order-1","full_cls":"is-full"}},{"vid":"variant-1458045338280-1897","label":"Page Full Width","group":{"margin_left":"0","margin_right":"0","col":"20","row":"50","left":"0","float":"none","height":"250","width_cls":"c20","clear_cls":""},"image":{"order":"0","col":"24","top":"0","left":"0","row":"40","clear":"true","height":"200","width_cls":"c24","clear_cls":"clr","order_cls":"order-0","full_cls":"is-full"},"caption":{"show":"1","order":"1","col":"24","top":"0","left":"0","row":"10","clear":"true","height":"50","width_cls":"c24","clear_cls":"clr","order_cls":"order-1","full_cls":"is-full"}},{"vid":"variant-1458045346661-1887","label":"Page Center","group":{"margin_left":"0","margin_right":"0","col":"16","row":"50","left":"2","float":"none","height":"250","width_cls":"c16","clear_cls":""},"image":{"order":"0","col":"24","top":"0","left":"0","row":"40","clear":"true","height":"200","width_cls":"c24","clear_cls":"clr","order_cls":"order-0","full_cls":"is-full"},"caption":{"show":"1","order":"1","col":"24","top":"0","left":"0","row":"10","clear":"true","height":"50","width_cls":"c24","clear_cls":"clr","order_cls":"order-1","full_cls":"is-full"}},{"vid":"variant-1458045367923-1057","label":"Page Left","group":{"margin_left":"0","margin_right":"0","col":"9","row":"50","left":"0","float":"left","height":"250","width_cls":"c9","clear_cls":""},"image":{"order":"0","col":"24","top":"0","left":"0","row":"40","clear":"true","height":"200","width_cls":"c24","clear_cls":"clr","order_cls":"order-0","full_cls":"is-full"},"caption":{"show":"1","order":"1","col":"24","top":"0","left":"0","row":"10","clear":"true","height":"50","width_cls":"c24","clear_cls":"clr","order_cls":"order-1","full_cls":"is-full"}},{"vid":"variant-1458045550118-1748","label":"Page Right","group":{"margin_left":"0","margin_right":"0","col":"9","row":"50","left":"0","float":"right","height":"250","width_cls":"c9","clear_cls":""},"image":{"order":"0","col":"24","top":"0","left":"0","row":"40","clear":"true","height":"200","width_cls":"c24","clear_cls":"clr","order_cls":"order-0","full_cls":"is-full"},"caption":{"show":"1","order":"1","col":"24","top":"0","left":"0","row":"10","clear":"true","height":"50","width_cls":"c24","clear_cls":"clr","order_cls":"order-1","full_cls":"is-full"}}]',
