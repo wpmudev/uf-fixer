@@ -336,7 +336,7 @@ $main->add_element("Posts", array (
     'content_length' => 120,
     'resize_featured' => '1',
     'gravatar_size' => 200,
-    'preset' => 'default',
+    'preset' => 'woo-products',
     'post-part-date_posted' => '<div class="uposts-part date_posted">
     <span class="date">{{date_1}}</span> <span class="time">{{date_2}}</span>
 </div>',
@@ -404,18 +404,19 @@ $main->add_element("Posts", array (
     (array)(array(
        'mobile' => 
       (array)(array(
-         'preset' => 'mobile',
+         'preset' => 'woo-products',
       )),
        'desktop' => 
       (array)(array(
-         'preset' => 'default',
+         'preset' => 'woo-products',
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'default',
+         'preset' => 'woo-products',
       )),
     )),
     'top_padding_slider' => '15',
+    'current_preset' => 'woo-products',
   ),
   'row' => 6,
   'sticky' => false,

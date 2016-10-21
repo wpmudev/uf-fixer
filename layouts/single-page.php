@@ -448,6 +448,7 @@ $main->add_element("PostData", array (
     )),
     'calculated_left_indent' => 0,
     'calculated_right_indent' => 0,
+    'current_preset' => 'title-and-content',
   ),
   'row' => 6,
   'sticky' => false,
