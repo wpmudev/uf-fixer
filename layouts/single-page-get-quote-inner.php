@@ -186,7 +186,7 @@ $main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h1 class="" style="text-align: center;">First Thing\'s First</h1>
+    'content' => '<h1 class="" style="text-align: center;">First Things First</h1>
 ',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432910830230-1602',
