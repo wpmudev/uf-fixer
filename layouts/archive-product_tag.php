@@ -114,13 +114,22 @@ $main->add_element("Uwidget", array (
     'class' => 'c24 upfront-widget',
     'has_settings' => 1,
     'preset' => 'default',
-    'widget' => 'search-2',
+    'widget' => 'woocommerce_product_search-1',
     'usingNewAppearance' => true,
     'element_id' => 'uwidget-object-1430836096746-1887',
     'row' => 13,
     'selected_widget' => 'search-2',
     'anchor' => '',
-    'widget_specific_fields' => false,
+    'widget_specific_fields' => 
+    (array)(array(
+       'widget-woocommerce_product_search-__i__-title' => 
+      (array)(array(
+         'label' => 'Title',
+         'name' => 'title',
+         'type' => 'text',
+         'value' => '',
+      )),
+    )),
     'title' => '',
     'theme_style' => '',
     'sortby' => '',
@@ -135,7 +144,7 @@ $main->add_element("Uwidget", array (
          'top_padding_slider' => '30',
       )),
     )),
-    'current_widget' => 'search-2',
+    'current_widget' => 'woocommerce_product_search-1',
     'current_widget_specific_settings' => false,
     'top_padding_num' => '110',
     'bottom_padding_num' => '15',
@@ -145,7 +154,16 @@ $main->add_element("Uwidget", array (
     'padding_number' => 0,
     'left_padding_num' => '15',
     'right_padding_num' => '15',
-    'current_widget_specific_fields' => false,
+    'current_widget_specific_fields' => 
+    (array)(array(
+       'widget-woocommerce_product_search-__i__-title' => 
+      (array)(array(
+         'label' => 'Title',
+         'name' => 'title',
+         'type' => 'text',
+         'value' => '',
+      )),
+    )),
     'breakpoint_presets' => 
     (array)(array(
        'desktop' => 
