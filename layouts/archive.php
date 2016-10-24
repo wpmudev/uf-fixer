@@ -589,6 +589,9 @@ $main->add_element("Posts", array (
     'pagination' => 'numeric',
     'sticky' => 'prepend',
     'posts_list' => '',
+    'thumbnail_size' => 'thumbnail',
+    'custom_thumbnail_width' => 200,
+    'custom_thumbnail_height' => 200,
     'post_parts' => 
     array (
       0 => 'title',

@@ -163,7 +163,7 @@ $services_inner_main->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
     'mobile' => 
@@ -179,6 +179,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'col' => 18,
       'order' => 0,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -254,6 +258,9 @@ $services_inner_main->add_element("PlainTxt", array (
     'preset' => 'default',
     'padding_slider' => '15',
     'use_padding' => 'yes',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'lock_padding' => 0,
   ),
   'row' => 6,
   'sticky' => false,
@@ -268,7 +275,7 @@ $services_inner_main->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 1,
+      'order' => 2,
       'clear' => true,
     ),
     'mobile' => 
@@ -284,6 +291,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'col' => 18,
       'order' => 1,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -380,13 +391,16 @@ $services_inner_main->add_group(array (
   'version' => '1.0.0',
   'bottom_padding_num' => '15',
   'row' => 64,
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
+  'lock_padding' => 0,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 2,
+      'order' => 3,
       'clear' => true,
     ),
     'mobile' => 
@@ -402,6 +416,10 @@ $services_inner_main->add_group(array (
       'col' => 12,
       'order' => 2,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -631,6 +649,7 @@ $services_inner_main->add_element("Uimage", array (
     'stretch' => true,
     'vstretch' => true,
     'quick_swap' => false,
+    'is_locked' => true,
     'gifImage' => 0,
     'placeholder_class' => '',
     'preset' => 'image-theme-style',
@@ -1057,6 +1076,9 @@ $services_inner_main->add_group(array (
   'version' => '1.0.0',
   'bottom_padding_num' => '15',
   'row' => 56,
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
+  'lock_padding' => 0,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1079,6 +1101,10 @@ $services_inner_main->add_group(array (
       'col' => 12,
       'order' => 5,
       'clear' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -1305,6 +1331,7 @@ $services_inner_main->add_element("Uimage", array (
     'stretch' => true,
     'vstretch' => true,
     'quick_swap' => false,
+    'is_locked' => true,
     'gifImage' => 0,
     'placeholder_class' => '',
     'preset' => 'default',
@@ -1341,6 +1368,8 @@ $services_inner_main->add_element("Uimage", array (
     'lock_padding' => '',
     'padding_slider' => '15',
     'use_padding' => 'yes',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1761,13 +1790,16 @@ $services_inner_main->add_group(array (
   'row' => 50,
   'top_padding_use' => 'yes',
   'top_padding_slider' => '30',
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
+  'lock_padding' => 0,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => false,
-      'col' => 12,
-      'order' => 4,
+      'col' => 6,
+      'order' => 5,
       'clear' => true,
     ),
     'mobile' => 
@@ -1777,6 +1809,10 @@ $services_inner_main->add_group(array (
       'order' => 4,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -1784,7 +1820,7 @@ $services_inner_main->add_group(array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
       'top' => 0,
       'row' => 11,
@@ -1807,6 +1843,10 @@ $services_inner_main->add_group(array (
       'col' => 6,
       'order' => 0,
       'top' => 6,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -1890,7 +1930,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
       'clear' => false,
     ),
@@ -1989,6 +2029,7 @@ $services_inner_main->add_element("Uimage", array (
     'stretch' => true,
     'vstretch' => true,
     'quick_swap' => false,
+    'is_locked' => true,
     'gifImage' => 0,
     'placeholder_class' => '',
     'preset' => 'default',
@@ -2025,6 +2066,8 @@ $services_inner_main->add_element("Uimage", array (
     'lock_padding' => '',
     'padding_slider' => '15',
     'use_padding' => 'yes',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2038,7 +2081,7 @@ $services_inner_main->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
+      'col' => 6,
       'order' => 1,
       'clear' => false,
     ),
@@ -2167,7 +2210,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
+      'col' => 6,
       'order' => 2,
       'clear' => false,
     ),
@@ -2333,7 +2376,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
+      'col' => 6,
       'order' => 3,
       'clear' => false,
     ),
@@ -2445,13 +2488,16 @@ $services_inner_main->add_group(array (
   'bottom_padding_num' => '15',
   'top_padding_use' => 'yes',
   'top_padding_slider' => '30',
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
+  'lock_padding' => 0,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => false,
-      'col' => 12,
-      'order' => 5,
+      'col' => 6,
+      'order' => 6,
       'clear' => false,
     ),
     'mobile' => 
@@ -2461,6 +2507,10 @@ $services_inner_main->add_group(array (
       'order' => 5,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -2468,7 +2518,7 @@ $services_inner_main->add_group(array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
       'top' => 0,
       'theme_style' => 'quality-style',
@@ -2491,6 +2541,10 @@ $services_inner_main->add_group(array (
       'col' => 6,
       'order' => 0,
       'top' => 6,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -2574,7 +2628,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
       'clear' => false,
     ),
@@ -2582,7 +2636,7 @@ $services_inner_main->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
     'custom-1410783666947' => 
@@ -2590,6 +2644,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'edited' => false,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -2617,6 +2675,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1434097070438-1555',
@@ -2673,6 +2735,7 @@ $services_inner_main->add_element("Uimage", array (
     'stretch' => true,
     'vstretch' => true,
     'quick_swap' => false,
+    'is_locked' => true,
     'gifImage' => 0,
     'placeholder_class' => '',
     'preset' => 'default',
@@ -2711,6 +2774,8 @@ $services_inner_main->add_element("Uimage", array (
     'lock_padding' => '',
     'padding_slider' => '15',
     'use_padding' => 'yes',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2724,7 +2789,7 @@ $services_inner_main->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
+      'col' => 6,
       'order' => 1,
       'clear' => false,
     ),
@@ -2732,14 +2797,18 @@ $services_inner_main->add_element("Uimage", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 0,
-      'clear' => false,
+      'order' => 2,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
       'edited' => false,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -2769,6 +2838,10 @@ $services_inner_main->add_element("Uimage", array (
       'left' => 0,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1434097070438-1555',
@@ -2853,7 +2926,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
+      'col' => 6,
       'order' => 2,
       'clear' => false,
     ),
@@ -2861,7 +2934,7 @@ $services_inner_main->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 1,
+      'order' => 3,
       'clear' => true,
     ),
     'custom-1410783666947' => 
@@ -2869,6 +2942,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'edited' => false,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -2896,6 +2973,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1434097070438-1555',
@@ -2980,7 +3061,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
+      'col' => 6,
       'order' => 3,
       'clear' => false,
     ),
@@ -2988,7 +3069,7 @@ $services_inner_main->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 2,
+      'order' => 4,
       'clear' => true,
     ),
     'custom-1410783666947' => 
@@ -2996,6 +3077,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'edited' => false,
       'col' => 5,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -3024,6 +3109,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'left' => 1,
       'col' => 4,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1434097070438-1555',
@@ -3170,13 +3259,16 @@ $services_inner_main->add_group(array (
   'row' => 47,
   'top_padding_use' => 'yes',
   'top_padding_slider' => '30',
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
+  'lock_padding' => 0,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => false,
-      'col' => 12,
-      'order' => 6,
+      'col' => 6,
+      'order' => 7,
       'clear' => true,
     ),
     'mobile' => 
@@ -3186,6 +3278,10 @@ $services_inner_main->add_group(array (
       'order' => 6,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -3193,7 +3289,7 @@ $services_inner_main->add_group(array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
       'top' => 0,
       'row' => 25,
@@ -3216,6 +3312,10 @@ $services_inner_main->add_group(array (
       'col' => 6,
       'order' => 0,
       'top' => 6,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -3299,7 +3399,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
       'clear' => false,
     ),
@@ -3307,7 +3407,7 @@ $services_inner_main->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
     'custom-1410783666947' => 
@@ -3315,6 +3415,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'edited' => false,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -3342,6 +3446,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1434097118251-1158',
@@ -3398,6 +3506,7 @@ $services_inner_main->add_element("Uimage", array (
     'stretch' => true,
     'vstretch' => true,
     'quick_swap' => false,
+    'is_locked' => true,
     'gifImage' => 0,
     'placeholder_class' => '',
     'preset' => 'default',
@@ -3434,6 +3543,8 @@ $services_inner_main->add_element("Uimage", array (
     'lock_padding' => '',
     'padding_slider' => '15',
     'use_padding' => 'yes',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -3447,7 +3558,7 @@ $services_inner_main->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
+      'col' => 6,
       'order' => 1,
       'clear' => false,
     ),
@@ -3455,14 +3566,18 @@ $services_inner_main->add_element("Uimage", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 0,
-      'clear' => false,
+      'order' => 2,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
       'edited' => false,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -3492,6 +3607,10 @@ $services_inner_main->add_element("Uimage", array (
       'left' => 0,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1434097118251-1158',
@@ -3576,7 +3695,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
+      'col' => 6,
       'order' => 2,
       'clear' => false,
     ),
@@ -3584,7 +3703,7 @@ $services_inner_main->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 1,
+      'order' => 3,
       'clear' => true,
     ),
     'custom-1410783666947' => 
@@ -3592,6 +3711,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'edited' => false,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -3619,6 +3742,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1434097118251-1158',
@@ -3742,7 +3869,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
+      'col' => 6,
       'order' => 3,
       'clear' => false,
     ),
@@ -3750,7 +3877,7 @@ $services_inner_main->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 2,
+      'order' => 4,
       'clear' => true,
     ),
     'custom-1410783666947' => 
@@ -3758,6 +3885,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'edited' => false,
       'col' => 5,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -3786,6 +3917,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'left' => 1,
       'col' => 4,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1434097118251-1158',
@@ -3854,13 +3989,16 @@ $services_inner_main->add_group(array (
   'row' => 37,
   'top_padding_use' => 'yes',
   'top_padding_slider' => '30',
+  'left_padding_num' => '15',
+  'right_padding_num' => '15',
+  'lock_padding' => 0,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => false,
-      'col' => 12,
-      'order' => 7,
+      'col' => 6,
+      'order' => 8,
       'clear' => false,
     ),
     'mobile' => 
@@ -3870,6 +4008,10 @@ $services_inner_main->add_group(array (
       'order' => 7,
       'clear' => true,
     ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
   ),
   'breakpoint' => 
   array (
@@ -3877,7 +4019,7 @@ $services_inner_main->add_group(array (
     array (
       'edited' => true,
       'left' => 0,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
       'top' => 0,
       'row' => 15,
@@ -3904,6 +4046,10 @@ $services_inner_main->add_group(array (
       'col' => 6,
       'order' => 0,
       'top' => 6,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
 ));
@@ -3987,7 +4133,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
+      'col' => 6,
       'order' => 0,
       'clear' => true,
     ),
@@ -3995,7 +4141,7 @@ $services_inner_main->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
     'custom-1410783666947' => 
@@ -4003,6 +4149,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'edited' => false,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -4030,6 +4180,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1434097096527-1352',
@@ -4086,6 +4240,7 @@ $services_inner_main->add_element("Uimage", array (
     'stretch' => true,
     'vstretch' => true,
     'quick_swap' => false,
+    'is_locked' => true,
     'gifImage' => 0,
     'placeholder_class' => '',
     'preset' => 'default',
@@ -4122,6 +4277,8 @@ $services_inner_main->add_element("Uimage", array (
     'lock_padding' => '',
     'padding_slider' => '15',
     'use_padding' => 'yes',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -4135,7 +4292,7 @@ $services_inner_main->add_element("Uimage", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
+      'col' => 6,
       'order' => 1,
       'clear' => true,
     ),
@@ -4143,13 +4300,18 @@ $services_inner_main->add_element("Uimage", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 0,
+      'order' => 2,
+      'clear' => true,
     ),
     'custom-1410783666947' => 
     array (
       'edited' => false,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -4179,6 +4341,10 @@ $services_inner_main->add_element("Uimage", array (
       'left' => 0,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1434097096527-1352',
@@ -4263,7 +4429,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
+      'col' => 6,
       'order' => 2,
       'clear' => true,
     ),
@@ -4271,7 +4437,7 @@ $services_inner_main->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 1,
+      'order' => 3,
       'clear' => true,
     ),
     'custom-1410783666947' => 
@@ -4279,6 +4445,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'edited' => false,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -4306,6 +4476,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'left' => 0,
       'col' => 6,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1434097096527-1352',
@@ -4390,7 +4564,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'tablet' => 
     array (
       'edited' => true,
-      'col' => 12,
+      'col' => 6,
       'order' => 3,
       'clear' => true,
     ),
@@ -4398,7 +4572,7 @@ $services_inner_main->add_element("PlainTxt", array (
     array (
       'edited' => false,
       'col' => 7,
-      'order' => 2,
+      'order' => 4,
       'clear' => true,
     ),
     'custom-1410783666947' => 
@@ -4406,6 +4580,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'edited' => false,
       'col' => 5,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -4433,6 +4611,10 @@ $services_inner_main->add_element("PlainTxt", array (
       'left' => 1,
       'col' => 4,
       'order' => 0,
+    ),
+    'current_property' => 
+    array (
+      0 => 'col',
     ),
   ),
   'group' => 'module-group-1434097096527-1352',
