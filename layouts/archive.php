@@ -86,12 +86,15 @@ $region_6->add_element("PlainTxt", array (
       (array)(array(
          'top_padding_use' => true,
          'top_padding_num' => 80,
+         'use_padding' => 'yes',
       )),
        'mobile' => 
       (array)(array(
          'top_padding_use' => true,
          'top_padding_num' => 75,
+         'use_padding' => 'yes',
       )),
+       'current_property' => 'use_padding',
     )),
     'bottom_padding_num' => '15',
     'preset' => 'u-sub-heading-m',
@@ -101,6 +104,7 @@ $region_6->add_element("PlainTxt", array (
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'current_preset' => 'u-sub-heading-m',
   ),
   'row' => 6,
   'sticky' => false,
@@ -179,6 +183,7 @@ $region_6->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449819166-24996',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -231,11 +236,14 @@ $region_6->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'theme_style' => '',
+         'use_padding' => 'yes',
       )),
        'mobile' => 
       (array)(array(
          'row' => 38,
+         'use_padding' => 'yes',
       )),
+       'current_property' => 'use_padding',
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
@@ -253,6 +261,7 @@ $region_6->add_element("PlainTxt", array (
          'preset' => 'default',
       )),
     )),
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -331,6 +340,7 @@ $region_6->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449819166-46517',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -385,9 +395,14 @@ $region_6->add_element("Uwidget", array (
       (array)(array(
          'top_padding_use' => 'yes',
          'top_padding_num' => '30',
-         'lock_padding' => '',
          'top_padding_slider' => '30',
+         'use_padding' => 'yes',
       )),
+       'tablet' => 
+      (array)(array(
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'lock_padding',
     )),
     'current_widget' => 'search-2',
     'current_widget_specific_settings' => false,
@@ -407,6 +422,7 @@ $region_6->add_element("Uwidget", array (
          'preset' => 'widgets-background',
       )),
     )),
+    'current_preset' => 'widgets-background',
   ),
   'row' => 6,
   'sticky' => false,
@@ -484,6 +500,7 @@ $region_6->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449819166-99719',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -673,11 +690,14 @@ $main->add_element("Posts", array (
        'tablet' => 
       (array)(array(
          'row' => 482,
+         'use_padding' => 'yes',
       )),
        'mobile' => 
       (array)(array(
          'row' => 207,
+         'use_padding' => 'yes',
       )),
+       'current_property' => 'use_padding',
     )),
     'top_padding_use' => true,
     'top_padding_num' => 85,
@@ -702,9 +722,10 @@ $main->add_element("Posts", array (
       )),
        'tablet' => 
       (array)(array(
-         'preset' => 'default',
+         'preset' => 'tablet',
       )),
     )),
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -786,6 +807,7 @@ $main->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449819166-14279',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -880,6 +902,7 @@ $main->add_element("Uwidget", array (
       (array)(array(
          'row' => 23,
          'theme_style' => '',
+         'use_padding' => 'yes',
       )),
        'mobile' => 
       (array)(array(
@@ -887,9 +910,10 @@ $main->add_element("Uwidget", array (
          'top_padding_use' => 'yes',
          'top_padding_num' => '45',
          'row' => 7,
-         'lock_padding' => '',
          'top_padding_slider' => '45',
+         'use_padding' => 'yes',
       )),
+       'current_property' => 'lock_padding',
     )),
     'top_padding_use' => true,
     'top_padding_num' => 85,
@@ -964,6 +988,7 @@ $main->add_element("Uwidget", array (
          'preset' => 'u-archive-side-widgets-m',
       )),
     )),
+    'current_preset' => 'u-archive-side-widgets-m',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1044,6 +1069,7 @@ $main->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449819166-19575',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
