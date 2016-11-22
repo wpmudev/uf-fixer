@@ -281,6 +281,89 @@ $main->add_element("Uspacer", array (
   ),
 ));
 
+$main->add_element("PlainTxt", array (
+  'columns' => '18',
+  'margin_left' => '0',
+  'margin_top' => '0',
+  'class' => '',
+  'id' => 'module-1479811527043-1656',
+  'options' => 
+  array (
+    'content' => '<h1 style="text-align: center;">Fixer Store</h1>',
+    'type' => 'PlainTxtModel',
+    'view_class' => 'PlainTxtView',
+    'element_id' => 'text-object-1479811527043-1872',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'id_slug' => 'plain_text',
+    'preset' => 'mp-page-title',
+    'padding_slider' => '15',
+    'top_padding_num' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'bottom_padding_num' => '0',
+    'lock_padding' => '',
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
+    'anchor' => '',
+    'current_preset' => 'mp-page-title',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'mp-page-title',
+      )),
+    )),
+  ),
+  'row' => 15,
+  'wrapper_id' => 'wrapper-1419434095455-1654',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 2,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'col' => 7,
+      'order' => 2,
+      'clear' => true,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'col' => 14,
+      'order' => 0,
+      'clear' => true,
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'col' => 7,
+    ),
+  ),
+  'close_wrapper' => false,
+));
+
 $main->add_element("Posts", array (
   'columns' => '18',
   'margin_left' => '0',
@@ -400,7 +483,7 @@ $main->add_element("Posts", array (
        'current_property' => 'lock_padding',
     )),
     'top_padding_use' => 'yes',
-    'top_padding_num' => '80',
+    'top_padding_num' => '40',
     'bottom_padding_num' => '0',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -426,7 +509,7 @@ $main->add_element("Posts", array (
       )),
     )),
     'current_preset' => 'mp-products',
-    'top_padding_slider' => '80',
+    'top_padding_slider' => '40',
   ),
   'row' => 6,
   'sticky' => false,
@@ -434,34 +517,6 @@ $main->add_element("Posts", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1419434095455-1654',
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 2,
-      'clear' => true,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'col' => 7,
-      'order' => 2,
-      'clear' => true,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'col' => 14,
-      'order' => 0,
-      'clear' => true,
-      'edited' => true,
-    ),
-    'current_property' => 
-    array (
-      0 => 'order',
-    ),
-  ),
   'breakpoint' => 
   array (
     'tablet' => 

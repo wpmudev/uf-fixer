@@ -63,23 +63,39 @@ $main = upfront_create_region(
 
 $main->add_element("Uspacer", array (
   'columns' => '6',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1478864090446-1295 upfront-module-spacer',
   'id' => 'module-1478864090446-1295',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1478864090445-1625',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1478864090445-1625',
   ),
-  'wrapper_id' => 'wrapper-1478864090445-1907',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1478864090445-1907',
   'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 6,
+    ),
+    'mobile' => 
+    array (
+      'col' => 6,
+    ),
+  ),
 ));
 
 $main->add_element("Uwidget", array (
@@ -145,7 +161,6 @@ $main->add_element("Uwidget", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1478864053771-1556',
-  'edited' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -154,15 +169,15 @@ $main->add_element("Uwidget", array (
       'col' => 12,
       'order' => 1,
     ),
-    'current_property' => 
-    array (
-      0 => 'order',
-    ),
     'mobile' => 
     array (
       'clear' => true,
       'col' => 7,
       'order' => 1,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
     ),
   ),
   'breakpoint' => 
@@ -184,43 +199,159 @@ $main->add_element("Uwidget", array (
 
 $main->add_element("Uspacer", array (
   'columns' => '6',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1478864094052-1228 upfront-module-spacer',
   'id' => 'module-1478864094052-1228',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1478864094052-1206',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1478864094052-1206',
   ),
-  'wrapper_id' => 'wrapper-1478864094052-1929',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1478864094052-1929',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 6,
+    ),
+    'mobile' => 
+    array (
+      'col' => 6,
+    ),
+  ),
 ));
 
 $main->add_element("Uspacer", array (
   'columns' => '3',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1478864072535-1366 upfront-module-spacer',
   'id' => 'module-1478864072535-1366',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1478864072535-1400',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1478864072535-1400',
   ),
-  'wrapper_id' => 'wrapper-1478864072534-1633',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1478864072534-1633',
   'new_line' => true,
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 3,
+    ),
+    'mobile' => 
+    array (
+      'col' => 3,
+    ),
+  ),
+));
+
+$main->add_element("PlainTxt", array (
+  'columns' => '18',
+  'margin_left' => '0',
+  'margin_top' => '0',
+  'class' => '',
+  'id' => 'module-1479811676227-1314',
+  'options' => 
+  array (
+    'content' => '<h1 style="text-align: center;">Fixer Shop</h1>',
+    'type' => 'PlainTxtModel',
+    'view_class' => 'PlainTxtView',
+    'element_id' => 'text-object-1479811676226-1743',
+    'class' => 'c24 upfront-plain_txt',
+    'has_settings' => 1,
+    'id_slug' => 'plain_text',
+    'preset' => 'mp-page-title',
+    'padding_slider' => '15',
+    'top_padding_num' => '15',
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'bottom_padding_num' => '0',
+    'lock_padding' => '',
+    'use_padding' => 'yes',
+    'usingNewAppearance' => true,
+    'is_edited' => true,
+    'anchor' => '',
+    'current_preset' => 'mp-page-title',
+    'theme_style' => '',
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'mp-page-title',
+      )),
+    )),
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '0',
+  ),
+  'row' => 15,
+  'wrapper_id' => 'wrapper-1419434095455-1654',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+      'order' => 2,
+      'clear' => true,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'col' => 7,
+      'order' => 2,
+      'clear' => true,
+    ),
+    'custom-1410783666947' => 
+    array (
+      'col' => 14,
+      'order' => 0,
+      'clear' => true,
+      'edited' => true,
+    ),
+    'current_property' => 
+    array (
+      0 => 'order',
+    ),
+  ),
+  'breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'edited' => true,
+      'col' => 12,
+    ),
+    'mobile' => 
+    array (
+      'edited' => true,
+      'col' => 7,
+    ),
+  ),
+  'close_wrapper' => false,
 ));
 
 $main->add_element("Posts", array (
@@ -339,7 +470,7 @@ $main->add_element("Posts", array (
       )),
     )),
     'top_padding_use' => 'yes',
-    'top_padding_num' => '80',
+    'top_padding_num' => '40',
     'bottom_padding_num' => '0',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -364,7 +495,7 @@ $main->add_element("Posts", array (
          'preset' => 'default',
       )),
     )),
-    'top_padding_slider' => '80',
+    'top_padding_slider' => '40',
     'current_preset' => 'mp-products',
   ),
   'row' => 6,
@@ -373,35 +504,6 @@ $main->add_element("Posts", array (
   'hide' => 0,
   'toggle_hide' => 1,
   'wrapper_id' => 'wrapper-1419434095455-1654',
-  'edited' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'edited' => true,
-      'col' => 12,
-      'order' => 2,
-      'clear' => true,
-    ),
-    'mobile' => 
-    array (
-      'edited' => true,
-      'col' => 7,
-      'order' => 2,
-      'clear' => true,
-    ),
-    'custom-1410783666947' => 
-    array (
-      'col' => 14,
-      'order' => 0,
-      'clear' => true,
-      'edited' => true,
-    ),
-    'current_property' => 
-    array (
-      0 => 'order',
-    ),
-  ),
   'breakpoint' => 
   array (
     'tablet' => 
@@ -435,22 +537,38 @@ $main->add_element("Posts", array (
 
 $main->add_element("Uspacer", array (
   'columns' => '3',
-  'class' => 'upfront-module-spacer',
+  'margin_left' => '0',
+  'margin_right' => '0',
+  'margin_top' => '0',
+  'margin_bottom' => '0',
+  'class' => 'module-1478864079802-1557 upfront-module-spacer',
   'id' => 'module-1478864079802-1557',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1478864079801-1282',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
+    'element_id' => 'spacer-object-1478864079801-1282',
   ),
-  'wrapper_id' => 'wrapper-1478864079801-1480',
+  'row' => 6,
+  'sticky' => false,
   'default_hide' => 1,
-  'toggle_hide' => 0,
   'hide' => 0,
-  'edited' => true,
+  'toggle_hide' => 0,
+  'wrapper_id' => 'wrapper-1478864079801-1480',
+  'wrapper_breakpoint' => 
+  array (
+    'tablet' => 
+    array (
+      'col' => 3,
+    ),
+    'mobile' => 
+    array (
+      'col' => 3,
+    ),
+  ),
 ));
 
 $regions->add($main);
