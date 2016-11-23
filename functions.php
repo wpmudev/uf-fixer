@@ -14,9 +14,7 @@ class Uf_fixer extends Upfront_ChildTheme {
         $this->populate_pages();
         add_filter("comment_form_field_author", array( $this, "comment_form_author" ));
         add_filter("comment_form_field_email", array( $this, "comment_form_email" ));
-        add_filter("comment_form_field_url", array( $this, "comment_form_website" ));
-        add_filter("comment_form_field_comment", array( $this, "comment_form_comment" ));
-        add_filter( 'comment_form_defaults', array( $this, "comment_form_args" ) );
+        add_filter( 'comment_form_fields', array( $this, "comment_form_args" ) );
 
 }
 
@@ -49,13 +47,19 @@ class Uf_fixer extends Upfront_ChildTheme {
      * @param $args
      * @return mixed
      */
-    public function comment_form_args( $args ){
-        $args["label_submit"] = __("Submit", "uf_fixer");
-        unset( $args["fields"]['url'] );
-	    $args["comment_notes_before"] = "";
-	    $args["comment_notes_after"] = "";
-        return $args;
-    }
+    public function comment_form_args( $fields ) {
+		$comment_field = $fields['comment'];
+		unset( $fields['url'] );
+		unset( $fields['comment'] );
+		
+		// Add placeholder dynamically to keep woocommerce stars
+		$placeholder = __("Leave a comment...", "uf_fixer");
+		$comment_field = str_replace('id="comment"', 'id="comment" placeholder="'. $placeholder .'"', $comment_field);
+		$fields['comment'] = $comment_field;
+		
+		return $fields;
+	}
+	
     public function comment_form_author( $field ){
         $placeholder = __("What's your name?", "uf_fixer");
         $field = <<<FIELD
@@ -71,26 +75,6 @@ FIELD;
         $field = <<<FIELD
         <p class="comment-form-email">
           <input id="email" name="email" placeholder="{$placeholder}" type="text" value="" size="30" aria-required='true' />
-        </p>
-FIELD;
-        return $field;
-    }
-
-    public function comment_form_website( $field ){
-        $placeholder = __("Your website url", "uf_fixer");
-        $field = <<<FIELD
-        <p class="comment-form-website">
-          <input id="url" name="url" placeholder="{$placeholder}" type="text" value="" size="30" aria-required='true' />
-        </p>
-FIELD;
-        return $field;
-    }
-
-    public function comment_form_comment( $field ){
-        $placeholder = __("Type your comment here ...", "uf_fixer");
-        $field = <<<FIELD
-        <p class="comment-form-comment">
-          <textarea id="comment" placeholder="{$placeholder}"  name="comment" cols="45" rows="8" aria-required="true"></textarea>
         </p>
 FIELD;
         return $field;

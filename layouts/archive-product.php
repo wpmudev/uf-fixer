@@ -254,14 +254,14 @@ $main->add_element("Posts", array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 2,
+      'order' => 1,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'col' => 7,
-      'order' => 2,
+      'order' => 1,
       'clear' => true,
     ),
     'custom-1410783666947' => 
