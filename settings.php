@@ -1220,7 +1220,7 @@ button.mfp-arrow.mfp-arrow-right:hover {
 }
 .mp_select2.select2-container .select2-choice .select2-arrow b,
 .mp_select2_search.select2-container .select2-choice .select2-arrow b {
-    background: none;
+    background: none !important;
     position: relative;
 }
 .mp_select2.select2-container .select2-choice .select2-arrow b:after,
