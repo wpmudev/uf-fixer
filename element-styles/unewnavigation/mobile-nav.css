@@ -1,10 +1,10 @@
-#page .mobile-nav div.responsive_nav_toggler {
+#page .mobile-nav .responsive_nav_toggler {
     background: #ufc1;
 }
-#page .mobile-nav div.responsive_nav_toggler > div {
+#page .mobile-nav .responsive_nav_toggler > div {
     background: #ufc0;
 }
-#page .mobile-nav div.responsive_nav_toggler:hover {
+#page .mobile-nav .responsive_nav_toggler:hover {
     background: #ufc6;
     border-color: #00a571;
 }
