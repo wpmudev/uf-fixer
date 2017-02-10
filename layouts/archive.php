@@ -107,8 +107,8 @@ $region_6->add_element("PlainTxt", array (
     'right_padding_num' => '15',
     'current_preset' => 'u-sub-heading-m',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -123,7 +123,7 @@ $region_6->add_element("PlainTxt", array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 0,
+      'order' => 1,
       'clear' => true,
     ),
     'mobile' => 
@@ -131,7 +131,7 @@ $region_6->add_element("PlainTxt", array (
       'edited' => true,
       'col' => 7,
       'clear' => true,
-      'order' => 0,
+      'order' => 1,
     ),
     'custom-1410783666947' => 
     array (
@@ -169,48 +169,8 @@ $region_6->add_element("PlainTxt", array (
   ),
 ));
 
-$region_6->add_element("Uspacer", array (
-  'columns' => '1',
-  'margin_left' => '0',
-  'margin_right' => '0',
-  'margin_top' => '0',
-  'margin_bottom' => '0',
-  'class' => 'module-1449819166-65442 upfront-module-spacer',
-  'id' => 'module-1449819166-65442',
-  'options' => 
-  array (
-    'type' => 'UspacerModel',
-    'view_class' => 'UspacerView',
-    'class' => 'c24',
-    'has_settings' => 0,
-    'id_slug' => 'uspacer',
-    'usingNewAppearance' => true,
-    'element_id' => 'spacer-object-1449819166-24996',
-    'preset' => 'default',
-    'current_preset' => 'default',
-  ),
-  'row' => 6,
-  'sticky' => false,
-  'default_hide' => 1,
-  'hide' => 0,
-  'toggle_hide' => 0,
-  'wrapper_id' => 'wrapper-1449819166-84482',
-  'new_line' => true,
-  'wrapper_breakpoint' => 
-  array (
-    'tablet' => 
-    array (
-      'col' => 1,
-    ),
-    'mobile' => 
-    array (
-      'col' => 1,
-    ),
-  ),
-));
-
 $region_6->add_element("PlainTxt", array (
-  'columns' => '23',
+  'columns' => '24',
   'margin_left' => '0',
   'margin_right' => '0',
   'margin_top' => '0',
@@ -222,7 +182,7 @@ $region_6->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h1 class="" style="text-align: center;">We Keep Things Organized</h1>',
+    'content' => '<h2 class="" style="text-align: center;">We Keep Things Organized</h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1412852120028-1957',
     'class' => 'c24 upfront-plain_txt',
@@ -251,7 +211,7 @@ $region_6->add_element("PlainTxt", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'default',
+    'preset' => 'archive-heading-m',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => '15',
@@ -262,24 +222,33 @@ $region_6->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'default',
+         'preset' => 'archive-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-heading-tablet',
+      )),
+      'mobile' => 
+      (array)(array(
+         'preset' => 'archive-heading-mobile',
       )),
     )),
-    'current_preset' => 'default',
+    'current_preset' => 'archive-heading-m',
   ),
   'row' => 6,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
   'toggle_hide' => 1,
-  'wrapper_id' => 'wrapper-1419433681416-1541',
+  'wrapper_id' => 'wrapper-1486745945719-1729',
+  'new_line' => true,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 1,
+      'order' => 2,
       'clear' => true,
     ),
     'mobile' => 
@@ -287,7 +256,7 @@ $region_6->add_element("PlainTxt", array (
       'edited' => true,
       'col' => 7,
       'clear' => true,
-      'order' => 1,
+      'order' => 2,
     ),
     'custom-1410783666947' => 
     array (
@@ -440,14 +409,14 @@ $region_6->add_element("Uwidget", array (
     array (
       'edited' => true,
       'col' => 12,
-      'order' => 2,
+      'order' => 3,
       'clear' => true,
     ),
     'mobile' => 
     array (
       'edited' => true,
       'col' => 7,
-      'order' => 2,
+      'order' => 3,
       'clear' => true,
     ),
     'custom-1410783666947' => 
@@ -702,7 +671,7 @@ $main->add_element("Posts", array (
          'row' => 207,
          'use_padding' => 'yes',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
     )),
     'top_padding_use' => true,
     'top_padding_num' => 85,

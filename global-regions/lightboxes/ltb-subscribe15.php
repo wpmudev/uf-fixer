@@ -98,8 +98,8 @@ $ltb_subscribe15->add_element("PlainTxt", array (
     'right_padding_num' => '15',
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,

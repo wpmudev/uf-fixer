@@ -220,8 +220,8 @@ $region_14->add_element("Uimage", array (
     'lock_padding' => '',
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -404,102 +404,102 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 4111,
+         'menu-item-db-id' => 4127,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'SERVICES',
-         'menu-item-url' => '#services',
+         'menu-item-url' => '{{upfront:home_url}}/#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '4111',
+         'menu-item-object-id' => '4127',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'menu-item-classes' => '',
          'link' => 
         (array)(array(
-           'type' => 'anchor',
-           'url' => '#services',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/#services',
            'target' => '',
-           'display_url' => '{{upfront:home_url}}/creat...',
+           'display_url' => '{{upfront:home_url}}/#serv...',
         )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 4112,
+         'menu-item-db-id' => 4128,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'GET A QUOTE',
-         'menu-item-url' => '#quote',
+         'menu-item-url' => '{{upfront:home_url}}/#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '4112',
+         'menu-item-object-id' => '4128',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'menu-item-classes' => '',
          'link' => 
         (array)(array(
-           'type' => 'anchor',
-           'url' => '#quote',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/#quote',
            'target' => '',
-           'display_url' => '{{upfront:home_url}}/creat...',
+           'display_url' => '{{upfront:home_url}}/#quot...',
         )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 4113,
+         'menu-item-db-id' => 4129,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'BLOG',
-         'menu-item-url' => '#blog',
+         'menu-item-url' => '{{upfront:home_url}}/#blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '4113',
+         'menu-item-object-id' => '4129',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'menu-item-classes' => '',
          'link' => 
         (array)(array(
-           'type' => 'anchor',
-           'url' => '#blog',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/#blog',
            'target' => '',
-           'display_url' => '{{upfront:home_url}}/creat...',
+           'display_url' => '{{upfront:home_url}}/#blog',
         )),
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 4114,
+         'menu-item-db-id' => 4130,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ABOUT',
-         'menu-item-url' => '#about',
+         'menu-item-url' => '{{upfront:home_url}}/#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '4114',
+         'menu-item-object-id' => '4130',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'menu-item-classes' => '',
          'link' => 
         (array)(array(
-           'type' => 'anchor',
-           'url' => '#about',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/#about',
            'target' => '',
-           'display_url' => '{{upfront:home_url}}/creat...',
+           'display_url' => '{{upfront:home_url}}/#abou...',
         )),
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 4115,
+         'menu-item-db-id' => 4131,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'CONTACT US',
-         'menu-item-url' => '#contact',
+         'menu-item-url' => '{{upfront:home_url}}/#contact',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '4115',
+         'menu-item-object-id' => '4131',
          'menu-item-target' => '',
          'menu-item-position' => 5,
          'menu-item-classes' => '',
          'link' => 
         (array)(array(
-           'type' => 'anchor',
-           'url' => '#contact',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/#contact',
            'target' => '',
-           'display_url' => '{{upfront:home_url}}/creat...',
+           'display_url' => '{{upfront:home_url}}/#cont...',
         )),
       )),
     ),
@@ -586,8 +586,8 @@ $region_14->add_element("Unewnavigation", array (
     'right_padding_num' => '15',
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1567,7 +1567,7 @@ $region_14->add_element("Button", array (
        'type' => 'anchor',
        'url' => '{{upfront:home_url}}/#quote',
        'target' => '_self',
-       'display_url' => '{{upfront:home_url}}/creat...',
+       'display_url' => '{{upfront:home_url}}/#quot...',
     )),
     'currentpreset' => false,
     'theme_style' => '',
@@ -1786,7 +1786,7 @@ $region_14->add_element("Button", array (
        'type' => 'anchor',
        'url' => '{{upfront:home_url}}/#services',
        'target' => '_self',
-       'display_url' => '{{upfront:home_url}}/creat...',
+       'display_url' => '{{upfront:home_url}}/#serv...',
     )),
     'currentpreset' => false,
     'theme_style' => '',
@@ -2120,8 +2120,8 @@ $region_13->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -2682,8 +2682,8 @@ $region_13->add_element("Uimage", array (
     'right_padding_num' => '15',
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -3363,8 +3363,8 @@ $region_13->add_element("Uimage", array (
     'right_padding_num' => '15',
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -4092,8 +4092,8 @@ $region_13->add_element("Uimage", array (
     'right_padding_num' => '15',
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -4779,8 +4779,8 @@ $region_13->add_element("Uimage", array (
     'right_padding_num' => '15',
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -5508,8 +5508,8 @@ $region_13->add_element("Uimage", array (
     'right_padding_num' => '15',
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -6216,8 +6216,8 @@ $region_13->add_element("Uimage", array (
     'right_padding_num' => '15',
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -6721,8 +6721,8 @@ $quote->add_element("PlainTxt", array (
     'right_padding_num' => '15',
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -7545,8 +7545,8 @@ $quote->add_element("Uimage", array (
     )),
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -8096,8 +8096,8 @@ $quote->add_element("Uimage", array (
     'lock_padding' => '',
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -9777,8 +9777,8 @@ $about->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -10855,8 +10855,8 @@ $about->add_element("Uimage", array (
     'right_padding_num' => '15',
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -11719,8 +11719,8 @@ $contact_us->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,

@@ -72,12 +72,12 @@ $main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class="" style="text-align: center;">About</h3>',
+    'content' => '<h1 class="" style="text-align: center;">About</h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432911649644-1060',
     'class' => 'c24 upfront-plain_txt',
     'has_settings' => 1,
-    'row' => 27,
+    'row' => 34,
     'is_edited' => true,
     'border_style' => 'none',
     'border_width' => 1,
@@ -88,7 +88,7 @@ $main->add_element("PlainTxt", array (
     'top_padding_use' => 'yes',
     'top_padding_num' => '110',
     'bottom_padding_num' => '15',
-    'preset' => 'u-sub-heading-m',
+    'preset' => 'archive-heading-m',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => 'false',
@@ -99,7 +99,6 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'mobile' => 
       (array)(array(
-         'lock_padding' => '',
          'top_padding_use' => 'yes',
          'top_padding_num' => '50',
          'top_padding_slider' => '50',
@@ -109,13 +108,29 @@ $main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'row' => 23,
+         'use_padding' => 'yes',
       )),
-       'current_property' => 'top_padding_num',
+       'current_property' => 'lock_padding',
     )),
     'top_padding_slider' => '110',
     'breakpoint_presets' => 
     (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'archive-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-heading-mobile',
+      )),
     )),
+    'current_preset' => 'archive-heading-m',
+    'bottom_padding_use' => 'yes',
+    'bottom_padding_slider' => '15',
   ),
   'row' => 6,
   'sticky' => false,
@@ -191,8 +206,7 @@ $main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h1 class="" style="text-align: center;">Meet Mr Fixer</h1>
-',
+    'content' => '<h2 class="" style="text-align: center;">Meet Mr Fixer</h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432911660743-1820',
     'class' => 'c24 upfront-plain_txt',
@@ -209,21 +223,21 @@ $main->add_element("PlainTxt", array (
        'tablet' => 
       (array)(array(
          'theme_style' => '',
+         'use_padding' => 'yes',
       )),
        'mobile' => 
       (array)(array(
          'row' => 25,
          'use_padding' => 'yes',
-         'lock_padding' => '',
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '0',
          'bottom_padding_num' => '0',
       )),
-       'current_property' => 'bottom_padding_num',
+       'current_property' => 'use_padding',
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'default',
+    'preset' => 'archive-heading-m',
     'theme_style' => '',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -233,7 +247,20 @@ $main->add_element("PlainTxt", array (
     'right_padding_num' => '15',
     'breakpoint_presets' => 
     (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'archive-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-heading-mobile',
+      )),
     )),
+    'current_preset' => 'archive-heading-m',
   ),
   'row' => 6,
   'sticky' => false,
@@ -313,6 +340,7 @@ $main->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449824855-60354',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -360,6 +388,7 @@ $main->add_element("PlainTxt", array (
       (array)(array(
          'row' => 17,
          'theme_style' => '',
+         'use_padding' => 'yes',
       )),
        'mobile' => 
       (array)(array(
@@ -371,7 +400,9 @@ $main->add_element("PlainTxt", array (
          'bottom_padding_use' => 'yes',
          'bottom_padding_num' => '15',
          'bottom_padding_slider' => '15',
+         'use_padding' => 'yes',
       )),
+       'current_property' => 'use_padding',
     )),
     'border_style' => 'none',
     'border_width' => 1,
@@ -407,6 +438,7 @@ $main->add_element("PlainTxt", array (
          'preset' => 'center-no-bottom-space',
       )),
     )),
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -490,7 +522,7 @@ $main->add_element("PlainTxt", array (
          'top_padding_use' => 'yes',
          'top_padding_num' => '30',
          'top_padding_slider' => '30',
-         'lock_padding' => '',
+         'use_padding' => 'yes',
       )),
        'mobile' => 
       (array)(array(
@@ -499,7 +531,9 @@ $main->add_element("PlainTxt", array (
          'top_padding_use' => 'yes',
          'top_padding_num' => '15',
          'top_padding_slider' => '15',
+         'use_padding' => 'yes',
       )),
+       'current_property' => 'use_padding',
     )),
     'border_style' => 'none',
     'border_width' => 1,
@@ -535,6 +569,7 @@ $main->add_element("PlainTxt", array (
          'preset' => 'center-no-bottom-space',
       )),
     )),
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -687,11 +722,14 @@ $main->add_element("PlainTxt", array (
       (array)(array(
          'row' => 11,
          'theme_style' => '',
+         'use_padding' => 'yes',
       )),
        'mobile' => 
       (array)(array(
          'theme_style' => '',
+         'use_padding' => 'yes',
       )),
+       'current_property' => 'use_padding',
     )),
     'border_style' => 'none',
     'border_width' => 1,
@@ -727,6 +765,7 @@ $main->add_element("PlainTxt", array (
          'preset' => 'center-no-bottom-space',
       )),
     )),
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -825,6 +864,7 @@ $main->add_element("PlainTxt", array (
          'top_padding_use' => 'yes',
          'top_padding_num' => '30',
          'top_padding_slider' => '30',
+         'use_padding' => 'yes',
       )),
        'mobile' => 
       (array)(array(
@@ -832,7 +872,9 @@ $main->add_element("PlainTxt", array (
          'top_padding_use' => 'yes',
          'top_padding_num' => '15',
          'top_padding_slider' => '15',
+         'use_padding' => 'yes',
       )),
+       'current_property' => 'use_padding',
     )),
     'top_padding_num' => '30',
     'bottom_padding_num' => '0',
@@ -863,6 +905,7 @@ $main->add_element("PlainTxt", array (
          'preset' => 'center-no-bottom-space',
       )),
     )),
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -923,6 +966,7 @@ $main->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449824855-3875',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1029,28 +1073,30 @@ $main->add_element("Uimage", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'lock_padding' => '',
          'top_padding_use' => 'yes',
          'top_padding_num' => '30',
          'top_padding_slider' => '30',
          'row' => 64,
+         'use_padding' => 'yes',
       )),
        'mobile' => 
       (array)(array(
-         'lock_padding' => '',
          'top_padding_use' => 'yes',
          'top_padding_num' => '15',
          'top_padding_slider' => '15',
          'row' => 31,
+         'use_padding' => 'yes',
       )),
+       'current_property' => 'use_padding',
     )),
     'padding_slider' => '15',
     'use_padding' => 'yes',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1131,6 +1177,7 @@ $main->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449824855-71605',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1170,6 +1217,7 @@ $main->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449824855-45419',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1238,17 +1286,18 @@ $main->add_element("PlainTxt", array (
       (array)(array(
          'top_padding_use' => 'yes',
          'top_padding_num' => '15',
-         'lock_padding' => '',
          'top_padding_slider' => '15',
+         'use_padding' => 'yes',
       )),
        'mobile' => 
       (array)(array(
-         'lock_padding' => '',
          'top_padding_use' => 'yes',
          'top_padding_num' => '0',
          'top_padding_slider' => '0',
          'row' => 4,
+         'use_padding' => 'yes',
       )),
+       'current_property' => 'use_padding',
     )),
     'bottom_padding_num' => '15',
     'preset' => 'dash',
@@ -1266,6 +1315,7 @@ $main->add_element("PlainTxt", array (
          'preset' => 'dash',
       )),
     )),
+    'current_preset' => 'dash',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1346,6 +1396,7 @@ $main->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449824855-51451',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1384,6 +1435,7 @@ $main->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449824855-53061',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1423,6 +1475,7 @@ $main->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449824855-76501',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1489,8 +1542,13 @@ $main->add_element("PlainTxt", array (
          'top_padding_use' => 'yes',
          'top_padding_num' => '15',
          'top_padding_slider' => '15',
-         'lock_padding' => '',
          'row' => 33,
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
       )),
     )),
     'top_padding_use' => true,
@@ -1515,6 +1573,7 @@ $main->add_element("PlainTxt", array (
          'preset' => 'default',
       )),
     )),
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1594,6 +1653,7 @@ $main->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449824855-93041',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1632,6 +1692,7 @@ $main->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449824855-29214',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1685,8 +1746,13 @@ $main->add_element("PlainTxt", array (
          'theme_style' => '',
          'top_padding_use' => 'yes',
          'top_padding_num' => '15',
-         'lock_padding' => '',
          'top_padding_slider' => '15',
+         'use_padding' => 'yes',
+      )),
+       'current_property' => 'use_padding',
+       'mobile' => 
+      (array)(array(
+         'use_padding' => 'yes',
       )),
     )),
     'top_padding_num' => '15',
@@ -1710,6 +1776,7 @@ $main->add_element("PlainTxt", array (
          'preset' => 'default',
       )),
     )),
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1789,6 +1856,7 @@ $main->add_element("Uspacer", array (
     'usingNewAppearance' => true,
     'element_id' => 'spacer-object-1449824855-94124',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
