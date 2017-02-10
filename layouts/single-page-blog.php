@@ -52,6 +52,7 @@ $region_5 = upfront_create_region(
   'bottom_bg_padding_num' => 0,
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'region_role' => 'main',
 )
 			);
 
@@ -105,6 +106,9 @@ $region_5->add_element("PlainTxt", array (
     'padding_number' => 0,
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -222,6 +226,9 @@ $region_5->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
        'current_property' => 'use_padding',
+    )),
+    'breakpoint_presets' => 
+    (array)(array(
     )),
   ),
   'row' => 6,
@@ -529,6 +536,17 @@ $separator = upfront_create_region(
     )),
   )),
   'version' => '1.0.0',
+  'sub_regions' => 
+  array (
+    0 => false,
+  ),
+  'background_type' => 'color',
+  'background_color' => '#ffffff',
+  'bg_padding_type' => 'equal',
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_num' => 0,
+  'bg_padding_num' => 0,
+  'region_role' => 'complementary',
 )
 			);
 

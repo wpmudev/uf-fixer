@@ -74,6 +74,8 @@ $region_14 = upfront_create_region(
   'bottom_bg_padding_num' => 0,
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'background_slider_control_style' => 'both',
+  'region_role' => 'banner',
 )
 			);
 
@@ -185,6 +187,7 @@ $region_14->add_element("Uimage", array (
        'type' => 'homepage',
        'url' => '{{upfront:home_url}}',
        'target' => '_self',
+       'display_url' => '{{upfront:home_url}}',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'image-1422416936718-1443',
@@ -216,6 +219,9 @@ $region_14->add_element("Uimage", array (
     'right_padding_num' => '15',
     'lock_padding' => '',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -398,92 +404,102 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 2851,
+         'menu-item-db-id' => 4111,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'SERVICES',
          'menu-item-url' => '#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2851',
+         'menu-item-object-id' => '4111',
          'menu-item-target' => '',
          'menu-item-position' => 1,
+         'menu-item-classes' => '',
          'link' => 
         (array)(array(
            'type' => 'anchor',
            'url' => '#services',
            'target' => '',
+           'display_url' => '{{upfront:home_url}}/creat...',
         )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 2852,
+         'menu-item-db-id' => 4112,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'GET A QUOTE',
          'menu-item-url' => '#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2852',
+         'menu-item-object-id' => '4112',
          'menu-item-target' => '',
          'menu-item-position' => 2,
+         'menu-item-classes' => '',
          'link' => 
         (array)(array(
            'type' => 'anchor',
            'url' => '#quote',
            'target' => '',
+           'display_url' => '{{upfront:home_url}}/creat...',
         )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 2853,
+         'menu-item-db-id' => 4113,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'BLOG',
          'menu-item-url' => '#blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2853',
+         'menu-item-object-id' => '4113',
          'menu-item-target' => '',
          'menu-item-position' => 3,
+         'menu-item-classes' => '',
          'link' => 
         (array)(array(
            'type' => 'anchor',
            'url' => '#blog',
            'target' => '',
+           'display_url' => '{{upfront:home_url}}/creat...',
         )),
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 2854,
+         'menu-item-db-id' => 4114,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ABOUT',
          'menu-item-url' => '#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2854',
+         'menu-item-object-id' => '4114',
          'menu-item-target' => '',
          'menu-item-position' => 4,
+         'menu-item-classes' => '',
          'link' => 
         (array)(array(
            'type' => 'anchor',
            'url' => '#about',
            'target' => '',
+           'display_url' => '{{upfront:home_url}}/creat...',
         )),
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 2855,
+         'menu-item-db-id' => 4115,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'CONTACT US',
          'menu-item-url' => '#contact',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2855',
+         'menu-item-object-id' => '4115',
          'menu-item-target' => '',
          'menu-item-position' => 5,
+         'menu-item-classes' => '',
          'link' => 
         (array)(array(
            'type' => 'anchor',
            'url' => '#contact',
            'target' => '',
+           'display_url' => '{{upfront:home_url}}/creat...',
         )),
       )),
     ),
@@ -569,6 +585,9 @@ $region_14->add_element("Unewnavigation", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1546,8 +1565,9 @@ $region_14->add_element("Button", array (
     'link' => 
     (array)(array(
        'type' => 'anchor',
-       'url' => '#quote',
+       'url' => '{{upfront:home_url}}/#quote',
        'target' => '_self',
+       'display_url' => '{{upfront:home_url}}/creat...',
     )),
     'currentpreset' => false,
     'theme_style' => '',
@@ -1764,8 +1784,9 @@ $region_14->add_element("Button", array (
     'link' => 
     (array)(array(
        'type' => 'anchor',
-       'url' => '#services',
+       'url' => '{{upfront:home_url}}/#services',
        'target' => '_self',
+       'display_url' => '{{upfront:home_url}}/creat...',
     )),
     'currentpreset' => false,
     'theme_style' => '',
@@ -2029,6 +2050,14 @@ $region_13 = upfront_create_region(
   'bottom_bg_padding_num' => '90',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'origin_position_y' => '50',
+  'origin_position_x' => '50',
+  'use_background_size_percent' => '',
+  'background_size_percent' => '100',
+  'background_default' => 'hide',
+  'featured_fallback_background_color' => '#ffffff',
+  'background_size' => 'auto',
+  'region_role' => 'main',
 )
 			);
 
@@ -2090,6 +2119,9 @@ $region_13->add_element("PlainTxt", array (
     'right_padding_num' => '15',
     'top_padding_slider' => '0',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -2354,6 +2386,8 @@ $region_13->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2614,9 +2648,10 @@ $region_13->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'object-1422428830962-1948',
@@ -2646,6 +2681,9 @@ $region_13->add_element("Uimage", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -3039,6 +3077,8 @@ $region_13->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -3291,9 +3331,10 @@ $region_13->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'object-1433408407863-1814',
@@ -3321,6 +3362,9 @@ $region_13->add_element("Uimage", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -3760,6 +3804,8 @@ $region_13->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -4014,9 +4060,10 @@ $region_13->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'object-1433406282618-1440',
@@ -4044,6 +4091,9 @@ $region_13->add_element("Uimage", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -4440,6 +4490,8 @@ $region_13->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -4696,9 +4748,10 @@ $region_13->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'object-1433408457768-1995',
@@ -4725,6 +4778,9 @@ $region_13->add_element("Uimage", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -5162,6 +5218,8 @@ $region_13->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -5418,9 +5476,10 @@ $region_13->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'object-1433406396052-1059',
@@ -5448,6 +5507,9 @@ $region_13->add_element("Uimage", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -5845,6 +5907,8 @@ $region_13->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -6111,9 +6175,10 @@ $region_13->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'object-1433408504017-1533',
@@ -6150,6 +6215,9 @@ $region_13->add_element("Uimage", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -6589,6 +6657,7 @@ $quote = upfront_create_region(
   'bottom_bg_padding_num' => '70',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'region_role' => 'complementary',
 )
 			);
 
@@ -6651,6 +6720,9 @@ $quote->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -7195,6 +7267,8 @@ $quote->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -7440,9 +7514,10 @@ $quote->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'image-1410350687421-1049',
@@ -7469,6 +7544,9 @@ $quote->add_element("Uimage", array (
        'current_property' => 'use_padding',
     )),
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -7738,6 +7816,8 @@ $quote->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -7990,9 +8070,10 @@ $quote->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'image-1410351290307-1196',
@@ -8014,6 +8095,9 @@ $quote->add_element("Uimage", array (
     'right_padding_num' => '15',
     'lock_padding' => '',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -8323,6 +8407,13 @@ $blog_header = upfront_create_region(
   'bottom_bg_padding_num' => '80',
   'bg_padding_slider' => '80',
   'bg_padding_num' => '80',
+  'origin_position_y' => '50',
+  'origin_position_x' => '50',
+  'use_background_size_percent' => '',
+  'background_size_percent' => '100',
+  'background_default' => 'hide',
+  'featured_fallback_background_color' => '#ffffff',
+  'region_role' => 'complementary',
 )
 			);
 
@@ -8818,6 +8909,7 @@ $blog_items = upfront_create_region(
   'bottom_bg_padding_num' => '0',
   'bg_padding_slider' => '0',
   'bg_padding_num' => '0',
+  'region_role' => 'complementary',
 )
 			);
 
@@ -9091,6 +9183,7 @@ $subscribe = upfront_create_region(
   'bottom_bg_padding_num' => 0,
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'region_role' => 'complementary',
 )
 			);
 
@@ -9294,6 +9387,7 @@ $subscribe->add_element("Button", array (
        'type' => 'lightbox',
        'url' => '#ltb-subscribe15',
        'target' => false,
+       'display_url' => '#ltb-subscribe15',
     )),
     'currentpreset' => false,
     'theme_style' => '',
@@ -9423,6 +9517,7 @@ $subscribe->add_element("Button", array (
        'type' => 'entry',
        'url' => '{{upfront:home_url}}/blog/',
        'target' => '_self',
+       'display_url' => '{{upfront:home_url}}/blog/',
     )),
     'currentpreset' => false,
     'theme_style' => '',
@@ -9623,6 +9718,7 @@ $about = upfront_create_region(
   'bottom_bg_padding_num' => '90',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'region_role' => 'complementary',
 )
 			);
 
@@ -9680,6 +9776,9 @@ $about->add_element("PlainTxt", array (
     'right_padding_num' => '15',
     'top_padding_slider' => '0',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -10288,6 +10387,8 @@ $about->add_group(array (
   'anchor' => '',
   'left_padding_num' => '15',
   'right_padding_num' => '15',
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -10716,9 +10817,10 @@ $about->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'image-1444283579971-1972',
@@ -10752,6 +10854,9 @@ $about->add_element("Uimage", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -11555,6 +11660,7 @@ $contact_us = upfront_create_region(
   'bottom_bg_padding_num' => 0,
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'region_role' => 'complementary',
 )
 			);
 
@@ -11612,6 +11718,9 @@ $contact_us->add_element("PlainTxt", array (
     'right_padding_num' => '15',
     'top_padding_slider' => '0',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -11947,6 +12056,14 @@ $contact = upfront_create_region(
   'bottom_bg_padding_num' => '70',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'origin_position_y' => '50',
+  'origin_position_x' => '50',
+  'use_background_size_percent' => '',
+  'background_size_percent' => '100',
+  'background_default' => 'hide',
+  'featured_fallback_background_color' => '#ffffff',
+  'background_size' => 'auto',
+  'region_role' => 'complementary',
 )
 			);
 

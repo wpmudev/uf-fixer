@@ -55,6 +55,7 @@ $main = upfront_create_region(
   'bottom_bg_padding_num' => '105',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'region_role' => 'main',
 )
 			);
 
@@ -112,6 +113,9 @@ $main->add_element("PlainTxt", array (
       )),
     )),
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -225,6 +229,9 @@ $main->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -354,6 +361,8 @@ $main->add_group(array (
   'bottom_padding_slider' => '0',
   'left_padding_num' => '15',
   'right_padding_num' => '15',
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -767,6 +776,8 @@ $main->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1020,9 +1031,10 @@ $main->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'image-1432910788817-1588',
@@ -1050,6 +1062,9 @@ $main->add_element("Uimage", array (
     'right_padding_num' => '15',
     'lock_padding' => '',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1310,6 +1325,8 @@ $main->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1561,9 +1578,10 @@ $main->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'object-1432911133966-1526',
@@ -1589,6 +1607,9 @@ $main->add_element("Uimage", array (
     'right_padding_num' => '15',
     'lock_padding' => '',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,

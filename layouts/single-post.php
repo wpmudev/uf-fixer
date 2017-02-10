@@ -58,6 +58,7 @@ $blog_individual = upfront_create_region(
   'bottom_bg_padding_num' => '105',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'region_role' => 'main',
 )
 			);
 
@@ -422,6 +423,11 @@ $blog_individual->add_element("PostData", array (
         ),
       ),
       'preset' => 'default',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => 0,
       'new_line' => true,
       'breakpoint' => 
       array (
@@ -787,6 +793,11 @@ $blog_individual->add_element("PostData", array (
         ),
       ),
       'preset' => 'default',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => 0,
       'new_line' => true,
       'breakpoint' => 
       array (
@@ -842,6 +853,11 @@ $blog_individual->add_element("PostData", array (
       ),
       'preset' => 'default',
       'use_padding' => 'yes',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => 0,
       'new_line' => true,
       'breakpoint' => 
       array (
@@ -1029,6 +1045,11 @@ $blog_individual->add_element("PostData", array (
       ),
       'preset' => 'default',
       'use_padding' => 'yes',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => 0,
       'new_line' => true,
       'breakpoint' => 
       array (
@@ -1271,6 +1292,11 @@ $blog_individual->add_element("PostData", array (
       ),
       'preset' => 'default',
       'use_padding' => 'yes',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => 0,
       'breakpoint' => 
       array (
         'tablet' => 
@@ -1429,6 +1455,11 @@ $blog_individual->add_element("PostData", array (
       ),
       'preset' => 'default',
       'use_padding' => 'yes',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => 0,
       'new_line' => true,
       'breakpoint' => 
       array (
@@ -2053,6 +2084,11 @@ $blog_individual->add_element("PostData", array (
       ),
       'preset' => 'default',
       'use_padding' => 'yes',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => 0,
       'breakpoint' => 
       array (
         'tablet' => 
@@ -2106,6 +2142,11 @@ $blog_individual->add_element("PostData", array (
       ),
       'preset' => 'default',
       'use_padding' => 'yes',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => 0,
       'breakpoint' => 
       array (
         'tablet' => 

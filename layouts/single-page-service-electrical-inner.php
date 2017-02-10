@@ -52,6 +52,7 @@ $main = upfront_create_region(
   'bottom_bg_padding_num' => '105',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'region_role' => 'main',
 )
 			);
 
@@ -219,6 +220,12 @@ $main->add_element("PlainTxt", array (
     'preset' => 'default',
     'padding_slider' => '15',
     'use_padding' => 'yes',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
+    'left_padding_num' => '15',
+    'right_padding_num' => '15',
+    'lock_padding' => 0,
   ),
   'row' => 6,
   'sticky' => false,

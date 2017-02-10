@@ -49,6 +49,7 @@ $prefooter = upfront_create_region(
   'bottom_bg_padding_num' => '30',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'region_role' => 'complementary',
 )
 			);
 
@@ -254,6 +255,8 @@ $prefooter->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -370,6 +373,7 @@ $prefooter->add_element("Uimage", array (
        'target' => false,
        'object' => 'page',
        'object_id' => 9,
+       'display_url' => '{{upfront:home_url}}/get-q...',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'image-1444287563892-1160',
@@ -397,6 +401,9 @@ $prefooter->add_element("Uimage", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -601,6 +608,8 @@ $prefooter->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -711,9 +720,10 @@ $prefooter->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'image-1444287547880-1826',
@@ -740,6 +750,9 @@ $prefooter->add_element("Uimage", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,

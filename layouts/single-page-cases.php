@@ -55,6 +55,7 @@ $cases_region = upfront_create_region(
   'bottom_bg_padding_num' => '105',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'region_role' => 'main',
 )
 			);
 
@@ -221,6 +222,9 @@ $cases_region->add_element("PlainTxt", array (
       (array)(array(
          'row' => 21,
       )),
+    )),
+    'breakpoint_presets' => 
+    (array)(array(
     )),
   ),
   'row' => 6,
@@ -2142,6 +2146,9 @@ $cases_region->add_element("Ugallery", array (
     'thumbSidePadding' => 0,
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
