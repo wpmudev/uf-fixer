@@ -70,7 +70,7 @@ $main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class="" style="text-align: center;">Services</h3>',
+    'content' => '<h1 class="" style="text-align: center;">Services</h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432911649644-1060',
     'class' => 'c24 upfront-plain_txt',
@@ -99,7 +99,7 @@ $main->add_element("PlainTxt", array (
     'top_padding_use' => 'yes',
     'top_padding_num' => '110',
     'bottom_padding_num' => '15',
-    'preset' => 'u-sub-heading-m',
+    'preset' => 'archive-heading-m',
     'padding_slider' => '15',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -111,9 +111,18 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'u-sub-heading-m',
+         'preset' => 'archive-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-heading-mobile',
       )),
     )),
+    'current_preset' => 'archive-heading-m',
   ),
   'row' => 6,
   'sticky' => false,
@@ -188,7 +197,7 @@ $main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h1 class="" style="text-align: center;">Bricklaying</h1>',
+    'content' => '<h2 class="" style="text-align: center;">Bricklaying</h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432911660743-1820',
     'class' => 'c24 upfront-plain_txt',
@@ -219,7 +228,7 @@ $main->add_element("PlainTxt", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'default',
+    'preset' => 'archive-heading-m',
     'theme_style' => '',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -229,7 +238,20 @@ $main->add_element("PlainTxt", array (
     'right_padding_num' => '15',
     'breakpoint_presets' => 
     (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'archive-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-heading-mobile',
+      )),
     )),
+    'current_preset' => 'archive-heading-m',
   ),
   'row' => 6,
   'sticky' => false,
@@ -344,7 +366,7 @@ $main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<div class=""></div><h3 class=""><div class=""></div><div class=""></div></h3><h2 class=""><div class=""></div><div class=""></div></h2><h2 class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</h2><h2 class=""><span><br></span></h2><p class=""><span>Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</span></p><p class="">Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in</p><p class="">Hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum quam nunc putamus parum claram,.</p><div class=""></div><div class=""></div><div class=""></div><div class=""></div><div class=""></div>',
+    'content' => '<h3>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</h3><p class="">Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p><p class="">Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in</p><p class="">Hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum quam nunc putamus parum claram,.</p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432911696508-1084',
     'class' => 'c24 upfront-plain_txt',
@@ -370,7 +392,7 @@ $main->add_element("PlainTxt", array (
     'anchor' => '',
     'top_padding_num' => '15',
     'bottom_padding_num' => '0',
-    'preset' => 'default',
+    'preset' => 'text',
     'theme_style' => '',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -382,19 +404,20 @@ $main->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'preset' => 'center',
+         'preset' => 'text-center',
       )),
        'desktop' => 
       (array)(array(
-         'preset' => 'default',
+         'preset' => 'text',
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'center-no-bottom-space',
+         'preset' => 'text-center',
       )),
     )),
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'current_preset' => 'archive-heading-m',
   ),
   'row' => 6,
   'sticky' => false,

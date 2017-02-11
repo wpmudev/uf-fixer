@@ -70,7 +70,7 @@ $main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class="" style="text-align: center;">Terms &amp; Privacy</h3>',
+    'content' => '<h1 class="" style="text-align: center;">Terms &amp; Privacy</h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432911649644-1060',
     'class' => 'c24 upfront-plain_txt',
@@ -103,7 +103,7 @@ $main->add_element("PlainTxt", array (
     'top_padding_use' => 'yes',
     'top_padding_num' => '110',
     'bottom_padding_num' => '15',
-    'preset' => 'u-sub-heading-m',
+    'preset' => 'archive-heading-m',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => '15',
@@ -112,8 +112,21 @@ $main->add_element("PlainTxt", array (
     'right_padding_num' => '15',
     'top_padding_slider' => '110',
     'breakpoint_presets' => 
-    array (
-    ),
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'archive-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-heading-mobile',
+      )),
+    )),
+    'current_preset' => 'archive-heading-m',
   ),
   'row' => 6,
   'sticky' => false,
@@ -227,7 +240,7 @@ $main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h1 class="" style="text-align: center;">Our Privacy Policy<br></h1>',
+    'content' => '<h2 class="" style="text-align: center;">Our Privacy Policy<br></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432911660743-1820',
     'class' => 'c24 upfront-plain_txt',
@@ -254,7 +267,7 @@ $main->add_element("PlainTxt", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'default',
+    'preset' => 'archive-heading-m',
     'theme_style' => '',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -263,8 +276,21 @@ $main->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'breakpoint_presets' => 
-    array (
-    ),
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'archive-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-heading-mobile',
+      )),
+    )),
+    'current_preset' => 'archive-heading-m',
   ),
   'row' => 6,
   'sticky' => false,

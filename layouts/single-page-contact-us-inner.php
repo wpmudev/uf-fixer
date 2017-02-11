@@ -102,7 +102,7 @@ $main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Contact us</span></span></h3>',
+    'content' => '<h1 class="" style="text-align: center;">Contact us</span></h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432912837169-1903',
     'class' => 'c24 upfront-plain_txt',
@@ -140,7 +140,7 @@ $main->add_element("PlainTxt", array (
       )),
     )),
     'bottom_padding_num' => '15',
-    'preset' => 'u-sub-heading-m',
+    'preset' => 'archive-heading-m',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => '15',
@@ -150,7 +150,20 @@ $main->add_element("PlainTxt", array (
     'top_padding_slider' => '110',
     'breakpoint_presets' => 
     (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'archive-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-heading-mobile',
+      )),
     )),
+    'current_preset' => 'archive-heading-m',
   ),
   'row' => 6,
   'sticky' => false,
@@ -225,7 +238,7 @@ $main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h1 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Ready to talk to our experts?</span></span></h1>',
+    'content' => '<h2 class="" style="text-align: center;">Ready to talk to our experts?</h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432912849348-1836',
     'class' => 'c24 upfront-plain_txt',
@@ -234,7 +247,7 @@ $main->add_element("PlainTxt", array (
     'is_edited' => true,
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'default',
+    'preset' => 'archive-heading-m',
     'theme_style' => '',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -252,7 +265,20 @@ $main->add_element("PlainTxt", array (
     )),
     'breakpoint_presets' => 
     (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'archive-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-heading-mobile',
+      )),
     )),
+    'current_preset' => 'archive-heading-m',
   ),
   'row' => 6,
   'sticky' => false,
@@ -395,8 +421,8 @@ $main->add_element("PlainTxt", array (
     'right_padding_num' => '15',
     'lock_padding' => 0,
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,

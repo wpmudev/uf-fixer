@@ -69,7 +69,7 @@ $region_5->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class="" style="text-align: center;">Blog</h3>',
+    'content' => '<h1 class="" style="text-align: center;">Blog</h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1407244369177-1062',
     'class' => 'c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt',
@@ -99,7 +99,7 @@ $region_5->add_element("PlainTxt", array (
        'current_property' => 'use_padding',
     )),
     'bottom_padding_num' => '15',
-    'preset' => 'u-sub-heading-m',
+    'preset' => 'archive-heading-m',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => false,
@@ -108,7 +108,20 @@ $region_5->add_element("PlainTxt", array (
     'right_padding_num' => '15',
     'breakpoint_presets' => 
     (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'archive-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-heading-mobile',
+      )),
     )),
+    'current_preset' => 'archive-heading-m',
   ),
   'row' => 6,
   'sticky' => false,
@@ -189,7 +202,7 @@ $region_5->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h1 class="" style="text-align: center;">Latest News &amp; Tips</h1>',
+    'content' => '<h2 class="" style="text-align: center;">Latest News &amp; Tips</h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1407244383571-1575',
     'class' => 'c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 c24 upfront-plain_txt',
@@ -203,7 +216,7 @@ $region_5->add_element("PlainTxt", array (
     'anchor' => '',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'default',
+    'preset' => 'archive-heading-m',
     'theme_style' => '',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -229,7 +242,20 @@ $region_5->add_element("PlainTxt", array (
     )),
     'breakpoint_presets' => 
     (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'archive-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-heading-mobile',
+      )),
     )),
+    'current_preset' => 'archive-heading-m',
   ),
   'row' => 6,
   'sticky' => false,

@@ -72,7 +72,7 @@ $main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class="" style="text-align: center;">Get a&nbsp;quote</h3>',
+    'content' => '<h1 class="" style="text-align: center;">Get a&nbsp;quote</h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432910788816-1073',
     'class' => 'c24 upfront-plain_txt',
@@ -88,7 +88,7 @@ $main->add_element("PlainTxt", array (
     'top_padding_use' => 'yes',
     'top_padding_num' => '110',
     'bottom_padding_num' => '15',
-    'preset' => 'default',
+    'preset' => 'archive-heading-m',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => '15',
@@ -112,9 +112,21 @@ $main->add_element("PlainTxt", array (
          'use_padding' => 'yes',
       )),
     )),
-    'current_preset' => 'default',
+    'current_preset' => 'archive-heading-m',
     'breakpoint_presets' => 
     (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'archive-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-heading-mobile',
+      )),
     )),
   ),
   'row' => 6,
@@ -190,8 +202,7 @@ $main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h1 class="" style="text-align: center;">First Things First</h1>
-',
+    'content' => '<h2 class="" style="text-align: center;">First Things First</h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432910830230-1602',
     'class' => 'c24 upfront-plain_txt',
@@ -220,7 +231,7 @@ $main->add_element("PlainTxt", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'default',
+    'preset' => 'archive-heading-m',
     'theme_style' => '',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -228,9 +239,21 @@ $main->add_element("PlainTxt", array (
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
-    'current_preset' => 'default',
+    'current_preset' => 'archive-heading-m',
     'breakpoint_presets' => 
     (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'archive-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-heading-mobile',
+      )),
     )),
   ),
   'row' => 6,
@@ -442,7 +465,7 @@ $main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class=""><span>1. Get a Quote</span><br></h3>',
+    'content' => '<h3 class="">1. Get a Quote</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432910859794-1186',
     'class' => 'c24 upfront-plain_txt',
@@ -850,7 +873,7 @@ $main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class=""><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>2. We Roll<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></h3>',
+    'content' => '<h3 class="">2. We Roll</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1432910920510-1024',
     'class' => 'c24 upfront-plain_txt',
@@ -1063,8 +1086,8 @@ $main->add_element("Uimage", array (
     'lock_padding' => '',
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1399,7 +1422,7 @@ $main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class=""><span>3. We Fix It</span><br></h3>',
+    'content' => '<h3 class="">3. We Fix It</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1432910925392-1480',
     'class' => 'c24 upfront-plain_txt',
@@ -1608,8 +1631,8 @@ $main->add_element("Uimage", array (
     'lock_padding' => '',
     'current_preset' => 'default',
     'breakpoint_presets' => 
-    (array)(array(
-    )),
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,

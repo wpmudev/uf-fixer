@@ -75,7 +75,7 @@ $blog_individual->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class="" style="text-align: center;">Blog</h3>',
+    'content' => '<h2 class="" style="text-align: center;">Blog</h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1407490840562-1778',
     'class' => 'c24 c24 upfront-plain_txt',
@@ -92,7 +92,7 @@ $blog_individual->add_element("PlainTxt", array (
     'top_padding_num' => '110',
     'bottom_padding_num' => '15',
     'padding_slider' => '15',
-    'preset' => 'u-sub-heading-m',
+    'preset' => 'default',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'top_padding_slider' => '110',
@@ -103,7 +103,7 @@ $blog_individual->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'u-sub-heading-m',
+         'preset' => 'default',
       )),
     )),
     'breakpoint' => 
@@ -117,6 +117,7 @@ $blog_individual->add_element("PlainTxt", array (
          'row' => 10,
       )),
     )),
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -713,6 +714,7 @@ $blog_individual->add_element("PostData", array (
     'static-gravatar-radius' => '0',
     'static-gravatar-radius_number' => '0',
     'link' => 'author',
+    'current_preset' => 'gravatar-and-name',
   ),
   'row' => 6,
   'sticky' => false,
@@ -797,7 +799,7 @@ $blog_individual->add_element("PostData", array (
       'left_padding_num' => '15',
       'right_padding_num' => '15',
       'bottom_padding_num' => '15',
-      'lock_padding' => 0,
+      'lock_padding' => '',
       'new_line' => true,
       'breakpoint' => 
       array (

@@ -66,7 +66,7 @@ $region_6->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class="" style="text-align: center;">Archived</h3>',
+    'content' => '<h1 class="" style="text-align: center;">Archived</h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1419434077569-1427',
     'class' => 'c24 upfront-plain_txt',
@@ -98,17 +98,29 @@ $region_6->add_element("PlainTxt", array (
        'current_property' => 'use_padding',
     )),
     'bottom_padding_num' => '15',
-    'preset' => 'u-sub-heading-m',
+    'preset' => 'archive-heading-m',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => '15',
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
-    'current_preset' => 'u-sub-heading-m',
+    'current_preset' => 'archive-heading-m',
     'breakpoint_presets' => 
-    array (
-    ),
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'archive-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-heading-mobile',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -228,7 +240,7 @@ $region_6->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'archive-heading-tablet',
       )),
-      'mobile' => 
+       'mobile' => 
       (array)(array(
          'preset' => 'archive-heading-mobile',
       )),
