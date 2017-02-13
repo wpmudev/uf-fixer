@@ -827,7 +827,7 @@ $prefooter->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Call us now:<br>1300 Fixer</span></h3>',
+    'content' => '<h3 class="">Call us now:<br>1300 Fixer</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1430988007972-1396',
     'class' => 'c24 upfront-plain_txt',

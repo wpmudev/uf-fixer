@@ -457,6 +457,7 @@ $main->add_element("Button", array (
     'breakpoint_presets' => 
     array (
     ),
+    'current_preset' => 'black-borders-button',
   ),
   'row' => 6,
   'sticky' => false,

@@ -219,7 +219,7 @@ $region_6->add_element("PlainTxt", array (
          'row' => 38,
          'use_padding' => 'yes',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',

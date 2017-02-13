@@ -222,6 +222,7 @@ $region_14->add_element("Uimage", array (
     'breakpoint_presets' => 
     array (
     ),
+    'anchor' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -404,103 +405,68 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 4138,
+         'menu-item-db-id' => 4209,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'SERVICES',
          'menu-item-url' => '{{upfront:home_url}}/#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '4138',
+         'menu-item-object-id' => '4209',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'menu-item-classes' => '',
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/#services',
-           'target' => '',
-           'display_url' => '{{upfront:home_url}}/#serv...',
-        )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 4139,
+         'menu-item-db-id' => 4210,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'GET A QUOTE',
          'menu-item-url' => '{{upfront:home_url}}/#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '4139',
+         'menu-item-object-id' => '4210',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'menu-item-classes' => '',
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/#quote',
-           'target' => '',
-           'display_url' => '{{upfront:home_url}}/#quot...',
-        )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 4140,
+         'menu-item-db-id' => 4211,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'BLOG',
          'menu-item-url' => '{{upfront:home_url}}/#blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '4140',
+         'menu-item-object-id' => '4211',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'menu-item-classes' => '',
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/#blog',
-           'target' => '',
-           'display_url' => '{{upfront:home_url}}/#blog',
-        )),
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 4141,
+         'menu-item-db-id' => 4212,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ABOUT',
          'menu-item-url' => '{{upfront:home_url}}/#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '4141',
+         'menu-item-object-id' => '4212',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'menu-item-classes' => '',
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/#about',
-           'target' => '',
-           'display_url' => '{{upfront:home_url}}/#abou...',
-        )),
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 4142,
+         'menu-item-db-id' => 4213,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'CONTACT US',
          'menu-item-url' => '{{upfront:home_url}}/#contact',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '4142',
+         'menu-item-object-id' => '4213',
          'menu-item-target' => '',
          'menu-item-position' => 5,
          'menu-item-classes' => '',
-         'link' => 
-        (array)(array(
-           'type' => 'entry',
-           'url' => '{{upfront:home_url}}/#contact',
-           'target' => '',
-           'display_url' => '{{upfront:home_url}}/#cont...',
-        )),
       )),
     ),
     'preset' => 'default',
@@ -588,6 +554,14 @@ $region_14->add_element("Unewnavigation", array (
     'breakpoint_presets' => 
     array (
     ),
+    'breakpoint_menu_id' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'menu_id' => 247,
+         'menu_slug' => 'fixer-menu',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -2125,7 +2099,7 @@ $region_13->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'section-heading-tablet',
       )),
-      'mobile' => 
+       'mobile' => 
       (array)(array(
          'preset' => 'section-heading-mobile',
       )),
@@ -2256,7 +2230,7 @@ $region_13->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'section-heading-tablet',
       )),
-      'mobile' => 
+       'mobile' => 
       (array)(array(
          'preset' => 'section-heading-mobile',
       )),
@@ -6740,7 +6714,7 @@ $quote->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'section-heading-tablet',
       )),
-      'mobile' => 
+       'mobile' => 
       (array)(array(
          'preset' => 'section-heading-mobile',
       )),
@@ -6867,7 +6841,7 @@ $quote->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'section-heading-tablet',
       )),
-      'mobile' => 
+       'mobile' => 
       (array)(array(
          'preset' => 'section-heading-mobile',
       )),
@@ -7196,6 +7170,7 @@ $quote->add_element("Ucontact", array (
       )),
     )),
     'current_preset' => 'quote',
+    'smtp_enable' => 'no',
   ),
   'row' => 6,
   'sticky' => false,
@@ -8550,7 +8525,7 @@ $blog_header->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'section-heading-tablet',
       )),
-      'mobile' => 
+       'mobile' => 
       (array)(array(
          'preset' => 'section-heading-mobile',
       )),
@@ -8768,7 +8743,7 @@ $blog_header->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'section-heading-tablet',
       )),
-      'mobile' => 
+       'mobile' => 
       (array)(array(
          'preset' => 'section-heading-mobile',
       )),
@@ -9808,7 +9783,7 @@ $about->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'section-heading-tablet',
       )),
-      'mobile' => 
+       'mobile' => 
       (array)(array(
          'preset' => 'section-heading-mobile',
       )),
@@ -9974,7 +9949,7 @@ $about->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'section-heading-tablet',
       )),
-      'mobile' => 
+       'mobile' => 
       (array)(array(
          'preset' => 'section-heading-mobile',
       )),
@@ -11762,7 +11737,7 @@ $contact_us->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'section-heading-tablet',
       )),
-      'mobile' => 
+       'mobile' => 
       (array)(array(
          'preset' => 'section-heading-mobile',
       )),
@@ -11934,7 +11909,7 @@ $contact_us->add_element("PlainTxt", array (
       (array)(array(
          'preset' => 'section-heading-tablet',
       )),
-      'mobile' => 
+       'mobile' => 
       (array)(array(
          'preset' => 'section-heading-mobile',
       )),
@@ -12496,6 +12471,7 @@ $contact->add_element("Ucontact", array (
       )),
     )),
     'current_preset' => 'alt',
+    'smtp_enable' => 'no',
   ),
   'row' => 6,
   'sticky' => false,

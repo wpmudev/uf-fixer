@@ -2171,6 +2171,7 @@ $cases_region->add_element("Ugallery", array (
     'breakpoint_presets' => 
     array (
     ),
+    'current_preset' => 'case-study-ugallery-style-m',
   ),
   'row' => 6,
   'sticky' => false,

@@ -468,6 +468,7 @@ $region_5->add_element("Posts", array (
          'preset' => 'grid-mobile',
       )),
     )),
+    'current_preset' => 'u-posts-grid-m',
   ),
   'row' => 6,
   'sticky' => false,
