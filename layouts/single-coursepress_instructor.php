@@ -46,19 +46,19 @@ $main = upfront_create_region(
 $main->add_element("Uspacer", array (
   'columns' => '2',
   'class' => 'upfront-module-spacer',
-  'id' => 'module-1488648608658-1826',
+  'id' => 'module-1488639407756-1835',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1488648608658-1332',
+    'element_id' => 'spacer-object-1488639407756-1346',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'current_preset' => 'default',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1488648608657-1684',
+  'wrapper_id' => 'wrapper-1488639407755-1491',
   'default_hide' => 1,
   'toggle_hide' => 0,
   'hide' => 0,
@@ -83,7 +83,7 @@ $main->add_element("PostData", array (
     'id_slug' => 'post-data',
     'data_type' => 'post_data',
     'preset' => 'cp',
-    'row' => 40,
+    'row' => 11,
     'type_parts' => 
     array (
       0 => 'date_posted',
@@ -130,10 +130,10 @@ $main->add_element("PostData", array (
     'lock_padding' => '',
     'theme_preset' => 'true',
     'predefined_date_format' => '0',
-    'top_padding_use' => 'yes',
-    'top_padding_slider' => '0',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'top_padding_use' => 'yes',
+    'top_padding_slider' => '0',
     'anchor' => '',
     'current_preset' => 'cp',
     'theme_style' => '',
@@ -165,7 +165,7 @@ $main->add_element("PostData", array (
       )),
     )),
   ),
-  'row' => 6,
+  'row' => 11,
   'sticky' => false,
   'default_hide' => 0,
   'hide' => 0,
@@ -260,7 +260,7 @@ $main->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'lock_padding',
+          0 => 'use_padding',
         ),
         'mobile' => 
         array (
@@ -338,10 +338,10 @@ $main->add_element("PostData", array (
       'class' => 'upfront-post-data-part',
       'view_class' => 'PostDataPartView',
       'part_type' => 'date_posted',
-      'wrapper_id' => 'wrapper-1488648603438-1374',
+      'wrapper_id' => 'wrapper-1488639397458-1798',
       'type' => 'PostDataPartModel',
       'id_slug' => 'post-data-part',
-      'element_id' => 'post-data-part-object-1488648603438-1420',
+      'element_id' => 'post-data-part-object-1488639397458-1033',
       'padding_slider' => '15',
       'top_padding_num' => '15',
       'left_padding_num' => '15',
@@ -397,19 +397,19 @@ $main->add_element("PostData", array (
 $main->add_element("Uspacer", array (
   'columns' => '2',
   'class' => 'upfront-module-spacer',
-  'id' => 'module-1488648610304-1672',
+  'id' => 'module-1488639409433-1603',
   'options' => 
   array (
     'type' => 'UspacerModel',
     'view_class' => 'UspacerView',
-    'element_id' => 'spacer-object-1488648610304-1456',
+    'element_id' => 'spacer-object-1488639409433-1881',
     'class' => 'c24 upfront-object-spacer',
     'has_settings' => 0,
     'id_slug' => 'uspacer',
     'current_preset' => 'default',
     'preset' => 'default',
   ),
-  'wrapper_id' => 'wrapper-1488648610303-1413',
+  'wrapper_id' => 'wrapper-1488639409433-1896',
   'default_hide' => 1,
   'toggle_hide' => 0,
   'hide' => 0,
@@ -417,6 +417,8 @@ $main->add_element("Uspacer", array (
 ));
 
 $regions->add($main);
+
+if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'prefooter.php');
 
 if (file_exists(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php')) include(get_stylesheet_directory() . DIRECTORY_SEPARATOR . 'global-regions' . DIRECTORY_SEPARATOR . 'footer.php');
 
