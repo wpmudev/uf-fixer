@@ -377,7 +377,7 @@ $prefooter->add_element("Uimage", array (
        'target' => false,
        'object' => 'page',
        'object_id' => 9,
-       'display_url' => '{{upfront:home_url}}/get-q...',
+       'display_url' => '{{upfront:home_url}}/get-quot...',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'image-1444287563892-1160',

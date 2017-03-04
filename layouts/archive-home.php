@@ -405,68 +405,103 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 4209,
+         'menu-item-db-id' => 410,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'SERVICES',
          'menu-item-url' => '{{upfront:home_url}}/#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '4209',
+         'menu-item-object-id' => '410',
          'menu-item-target' => '',
          'menu-item-position' => 1,
          'menu-item-classes' => '',
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/#services',
+           'target' => '',
+           'display_url' => '{{upfront:home_url}}/#service...',
+        )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 4210,
+         'menu-item-db-id' => 411,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'GET A QUOTE',
          'menu-item-url' => '{{upfront:home_url}}/#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '4210',
+         'menu-item-object-id' => '411',
          'menu-item-target' => '',
          'menu-item-position' => 2,
          'menu-item-classes' => '',
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/#quote',
+           'target' => '',
+           'display_url' => '{{upfront:home_url}}/#quote',
+        )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 4211,
+         'menu-item-db-id' => 412,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'BLOG',
          'menu-item-url' => '{{upfront:home_url}}/#blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '4211',
+         'menu-item-object-id' => '412',
          'menu-item-target' => '',
          'menu-item-position' => 3,
          'menu-item-classes' => '',
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/#blog',
+           'target' => '',
+           'display_url' => '{{upfront:home_url}}/#blog',
+        )),
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 4212,
+         'menu-item-db-id' => 413,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ABOUT',
          'menu-item-url' => '{{upfront:home_url}}/#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '4212',
+         'menu-item-object-id' => '413',
          'menu-item-target' => '',
          'menu-item-position' => 4,
          'menu-item-classes' => '',
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/#about',
+           'target' => '',
+           'display_url' => '{{upfront:home_url}}/#about',
+        )),
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 4213,
+         'menu-item-db-id' => 414,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'CONTACT US',
          'menu-item-url' => '{{upfront:home_url}}/#contact',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '4213',
+         'menu-item-object-id' => '414',
          'menu-item-target' => '',
          'menu-item-position' => 5,
          'menu-item-classes' => '',
+         'link' => 
+        (array)(array(
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/#contact',
+           'target' => '',
+           'display_url' => '{{upfront:home_url}}/#contact',
+        )),
       )),
     ),
     'preset' => 'default',
@@ -558,7 +593,7 @@ $region_14->add_element("Unewnavigation", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'menu_id' => 247,
+         'menu_id' => 23,
          'menu_slug' => 'fixer-menu',
       )),
     )),
@@ -1541,7 +1576,7 @@ $region_14->add_element("Button", array (
        'type' => 'anchor',
        'url' => '{{upfront:home_url}}/#quote',
        'target' => '_self',
-       'display_url' => '{{upfront:home_url}}/#quot...',
+       'display_url' => '{{upfront:home_url}}/#quote',
     )),
     'currentpreset' => false,
     'theme_style' => '',
@@ -1760,7 +1795,7 @@ $region_14->add_element("Button", array (
        'type' => 'anchor',
        'url' => '{{upfront:home_url}}/#services',
        'target' => '_self',
-       'display_url' => '{{upfront:home_url}}/#serv...',
+       'display_url' => '{{upfront:home_url}}/#service...',
     )),
     'currentpreset' => false,
     'theme_style' => '',
