@@ -1,6 +1,6 @@
 <?php
 /* START_REGION_OUTPUT */
-$region_35154a = upfront_create_region(
+$region_da993d = upfront_create_region(
 			array (
   'name' => 'header',
   'title' => 'Header',
@@ -49,7 +49,7 @@ $region_35154a = upfront_create_region(
 )
 			);
 
-$region_35154a->add_element("Uspacer", array (
+$region_da993d->add_element("Uspacer", array (
   'columns' => '1',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -89,7 +89,7 @@ $region_35154a->add_element("Uspacer", array (
   ),
 ));
 
-$region_35154a->add_element("Uimage", array (
+$region_da993d->add_element("Uimage", array (
   'columns' => '4',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -256,7 +256,7 @@ $region_35154a->add_element("Uimage", array (
   ),
 ));
 
-$region_35154a->add_element("Uspacer", array (
+$region_da993d->add_element("Uspacer", array (
   'columns' => '6',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -308,7 +308,7 @@ $region_35154a->add_element("Uspacer", array (
   ),
 ));
 
-$region_35154a->add_element("Uspacer", array (
+$region_da993d->add_element("Uspacer", array (
   'columns' => '1',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -360,7 +360,7 @@ $region_35154a->add_element("Uspacer", array (
   ),
 ));
 
-$region_35154a->add_element("Unewnavigation", array (
+$region_da993d->add_element("Unewnavigation", array (
   'columns' => '13',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -632,7 +632,7 @@ $region_35154a->add_element("Unewnavigation", array (
   ),
 ));
 
-$region_35154a->add_element("PlainTxt", array (
+$region_da993d->add_element("PlainTxt", array (
   'columns' => '5',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -756,7 +756,7 @@ $region_35154a->add_element("PlainTxt", array (
   ),
 ));
 
-$region_35154a->add_element("Uspacer", array (
+$region_da993d->add_element("Uspacer", array (
   'columns' => '1',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -795,7 +795,7 @@ $region_35154a->add_element("Uspacer", array (
   ),
 ));
 
-$region_35154a->add_element("Uspacer", array (
+$region_da993d->add_element("Uspacer", array (
   'columns' => '8',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -847,7 +847,7 @@ $region_35154a->add_element("Uspacer", array (
   ),
 ));
 
-$region_35154a->add_element("Uspacer", array (
+$region_da993d->add_element("Uspacer", array (
   'columns' => '3',
   'margin_left' => '0',
   'margin_right' => '0',
@@ -899,6 +899,6 @@ $region_35154a->add_element("Uspacer", array (
   ),
 ));
 
-$regions->add($region_35154a);
+$regions->add($region_da993d);
 
 /* END_REGION_OUTPUT */

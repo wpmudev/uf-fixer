@@ -233,46 +233,51 @@ $main->add_element("PostData", array (
       'class' => 'upfront-post-data-part part-title',
       'view_class' => 'PostDataPartView',
       'part_type' => 'title',
-      'wrapper_id' => 'wrapper-1467787537270-1335',
+      'wrapper_id' => 'wrapper-1489223449037-1782',
       'type' => 'PostDataPartModel',
       'id_slug' => 'post-data-part',
-      'element_id' => 'post-data-part-object-1467787537270-1762',
-      'padding_slider' => 15,
+      'element_id' => 'post-data-part-object-1489222757520-1838',
+      'padding_slider' => '15',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => 0,
       'use_padding' => 'yes',
       'wrapper_breakpoint' => 
       array (
         'tablet' => 
         array (
           'col' => 12,
+          'clear' => true,
+          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'clear' => true,
+          'order' => 1,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
         ),
       ),
-      'top_padding_num' => '15',
-      'left_padding_num' => '15',
-      'right_padding_num' => '15',
-      'bottom_padding_num' => '15',
-      'lock_padding' => '',
-      'current_preset' => 'default',
-      'preset' => 'default',
+      'new_line' => true,
       'breakpoint' => 
       array (
         'tablet' => 
         array (
           'col' => 12,
-          'use_padding' => 'yes',
           'hide' => 0,
         ),
         'current_property' => 
         array (
-          0 => 'hide',
+          0 => 'col',
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'use_padding' => 'yes',
           'hide' => 0,
         ),
       ),
@@ -298,10 +303,18 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'clear' => true,
+          'order' => 2,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'clear' => true,
+          'order' => 2,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
         ),
       ),
       'top_padding_num' => 15,
@@ -321,7 +334,7 @@ $main->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'hide',
+          0 => 'col',
         ),
         'mobile' => 
         array (
@@ -333,36 +346,42 @@ $main->add_element("PostData", array (
     ),
     2 => 
     array (
-      'columns' => '24',
+      'columns' => '20',
       'margin_left' => '0',
       'margin_right' => '0',
       'margin_top' => '0',
       'margin_bottom' => '0',
-      'class' => 'upfront-post-data-part',
+      'class' => 'upfront-post-data-part part-date_posted',
       'view_class' => 'PostDataPartView',
       'part_type' => 'date_posted',
-      'wrapper_id' => 'wrapper-1488788892079-1679',
+      'wrapper_id' => 'wrapper-1489222757396-1939',
       'type' => 'PostDataPartModel',
       'id_slug' => 'post-data-part',
-      'element_id' => 'post-data-part-object-1488788892079-1571',
+      'element_id' => 'post-data-part-object-1489222757397-1009',
       'padding_slider' => '15',
       'top_padding_num' => '15',
       'left_padding_num' => '15',
       'right_padding_num' => '15',
       'bottom_padding_num' => '15',
-      'lock_padding' => '',
+      'lock_padding' => 0,
       'use_padding' => 'yes',
-      'current_preset' => 'default',
-      'preset' => 'default',
       'wrapper_breakpoint' => 
       array (
         'tablet' => 
         array (
           'col' => 12,
+          'clear' => true,
+          'order' => 3,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'clear' => true,
+          'order' => 3,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
         ),
       ),
       'new_line' => true,
@@ -371,17 +390,15 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'use_padding' => 'yes',
           'hide' => 0,
         ),
         'current_property' => 
         array (
-          0 => 'hide',
+          0 => 'col',
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'use_padding' => 'yes',
           'hide' => 0,
         ),
       ),
