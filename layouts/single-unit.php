@@ -267,7 +267,7 @@ $main->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'lock_padding',
+          0 => 'hide',
         ),
         'mobile' => 
         array (
@@ -321,7 +321,7 @@ $main->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'use_padding',
+          0 => 'hide',
         ),
         'mobile' => 
         array (
@@ -376,7 +376,7 @@ $main->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'use_padding',
+          0 => 'hide',
         ),
         'mobile' => 
         array (
