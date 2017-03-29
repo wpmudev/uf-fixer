@@ -55,6 +55,7 @@ $cases_region = upfront_create_region(
   'bottom_bg_padding_num' => '105',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'region_role' => 'main',
 )
 			);
 
@@ -71,7 +72,7 @@ $cases_region->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class="" style="text-align: center;">Case Study</h3>',
+    'content' => '<h1 class="" style="text-align: center;">Case Study</h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1407250114379-1090',
     'class' => 'c24 upfront-plain_txt',
@@ -87,7 +88,7 @@ $cases_region->add_element("PlainTxt", array (
     'top_padding_use' => 'yes',
     'top_padding_num' => '110',
     'bottom_padding_num' => '15',
-    'preset' => 'u-sub-heading-m',
+    'preset' => 'archive-heading-m',
     'padding_slider' => '15',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -99,7 +100,15 @@ $cases_region->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'u-sub-heading-m',
+         'preset' => 'archive-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-heading-mobile',
       )),
     )),
     'breakpoint' => 
@@ -115,6 +124,7 @@ $cases_region->add_element("PlainTxt", array (
       )),
        'current_property' => 'use_padding',
     )),
+    'current_preset' => 'archive-heading-m',
   ),
   'row' => 6,
   'sticky' => false,
@@ -193,7 +203,7 @@ $cases_region->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h1 class="" style="text-align: center;">Issue Resolved!</h1>',
+    'content' => '<h2 class="" style="text-align: center;">Issue Resolved!</h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1407250139414-1484',
     'class' => 'c24 upfront-plain_txt',
@@ -207,7 +217,7 @@ $cases_region->add_element("PlainTxt", array (
     'anchor' => '',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'default',
+    'preset' => 'archive-heading-m',
     'theme_style' => '',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -222,6 +232,22 @@ $cases_region->add_element("PlainTxt", array (
          'row' => 21,
       )),
     )),
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'archive-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-heading-mobile',
+      )),
+    )),
+    'current_preset' => 'archive-heading-m',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2142,6 +2168,10 @@ $cases_region->add_element("Ugallery", array (
     'thumbSidePadding' => 0,
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'breakpoint_presets' => 
+    array (
+    ),
+    'current_preset' => 'case-study-ugallery-style-m',
   ),
   'row' => 6,
   'sticky' => false,

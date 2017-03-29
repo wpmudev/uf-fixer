@@ -41,6 +41,11 @@ $footer = upfront_create_region(
     0 => '',
   ),
   'version' => '1.0.0',
+  'bg_padding_type' => 'equal',
+  'top_bg_padding_num' => 0,
+  'bottom_bg_padding_num' => 0,
+  'bg_padding_num' => 0,
+  'region_role' => 'contentinfo',
 )
 			);
 
@@ -258,6 +263,7 @@ $footer->add_element("Uimage", array (
        'type' => 'external',
        'url' => '{{upfront:home_url}}/',
        'target' => '_self',
+       'display_url' => '{{upfront:home_url}}/',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'image-1406217409054-1200',
@@ -295,6 +301,9 @@ $footer->add_element("Uimage", array (
     'right_padding_num' => '15',
     'lock_padding' => '',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1020,7 +1029,7 @@ $footer->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<p class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><a target="_self" rel="entry" href="{{upfront:home_url}}/privacy-inner/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Terms &amp;&nbsp;Privacy</span></a></span></p>',
+    'content' => '<p class="" style="text-align: center;"><a target="_self" rel="entry" href="{{upfront:home_url}}/privacy-inner/">Terms &amp; Privacy</a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1430897586849-1508',
     'class' => 'c24 upfront-plain_txt',

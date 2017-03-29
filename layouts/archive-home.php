@@ -74,6 +74,8 @@ $region_14 = upfront_create_region(
   'bottom_bg_padding_num' => 0,
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'background_slider_control_style' => 'both',
+  'region_role' => 'banner',
 )
 			);
 
@@ -185,6 +187,7 @@ $region_14->add_element("Uimage", array (
        'type' => 'homepage',
        'url' => '{{upfront:home_url}}',
        'target' => '_self',
+       'display_url' => '{{upfront:home_url}}',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'image-1422416936718-1443',
@@ -216,6 +219,10 @@ $region_14->add_element("Uimage", array (
     'right_padding_num' => '15',
     'lock_padding' => '',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    array (
+    ),
+    'anchor' => '',
   ),
   'row' => 6,
   'sticky' => false,
@@ -398,92 +405,102 @@ $region_14->add_element("Unewnavigation", array (
     array (
       0 => 
       (array)(array(
-         'menu-item-db-id' => 2851,
+         'menu-item-db-id' => 581,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'SERVICES',
-         'menu-item-url' => '#services',
+         'menu-item-url' => '{{upfront:home_url}}/#services',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2851',
+         'menu-item-object-id' => '581',
          'menu-item-target' => '',
          'menu-item-position' => 1,
+         'menu-item-classes' => '',
          'link' => 
         (array)(array(
-           'type' => 'anchor',
-           'url' => '#services',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/#services',
            'target' => '',
+           'display_url' => '{{upfront:home_url}}/#service...',
         )),
       )),
       1 => 
       (array)(array(
-         'menu-item-db-id' => 2852,
+         'menu-item-db-id' => 582,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'GET A QUOTE',
-         'menu-item-url' => '#quote',
+         'menu-item-url' => '{{upfront:home_url}}/#quote',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2852',
+         'menu-item-object-id' => '582',
          'menu-item-target' => '',
          'menu-item-position' => 2,
+         'menu-item-classes' => '',
          'link' => 
         (array)(array(
-           'type' => 'anchor',
-           'url' => '#quote',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/#quote',
            'target' => '',
+           'display_url' => '{{upfront:home_url}}/#quote',
         )),
       )),
       2 => 
       (array)(array(
-         'menu-item-db-id' => 2853,
+         'menu-item-db-id' => 583,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'BLOG',
-         'menu-item-url' => '#blog',
+         'menu-item-url' => '{{upfront:home_url}}/#blog',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2853',
+         'menu-item-object-id' => '583',
          'menu-item-target' => '',
          'menu-item-position' => 3,
+         'menu-item-classes' => '',
          'link' => 
         (array)(array(
-           'type' => 'anchor',
-           'url' => '#blog',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/#blog',
            'target' => '',
+           'display_url' => '{{upfront:home_url}}/#blog',
         )),
       )),
       3 => 
       (array)(array(
-         'menu-item-db-id' => 2854,
+         'menu-item-db-id' => 584,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'ABOUT',
-         'menu-item-url' => '#about',
+         'menu-item-url' => '{{upfront:home_url}}/#about',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2854',
+         'menu-item-object-id' => '584',
          'menu-item-target' => '',
          'menu-item-position' => 4,
+         'menu-item-classes' => '',
          'link' => 
         (array)(array(
-           'type' => 'anchor',
-           'url' => '#about',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/#about',
            'target' => '',
+           'display_url' => '{{upfront:home_url}}/#about',
         )),
       )),
       4 => 
       (array)(array(
-         'menu-item-db-id' => 2855,
+         'menu-item-db-id' => 585,
          'menu-item-parent-id' => '0',
          'menu-item-type' => 'custom',
          'menu-item-title' => 'CONTACT US',
-         'menu-item-url' => '#contact',
+         'menu-item-url' => '{{upfront:home_url}}/#contact',
          'menu-item-object' => 'custom',
-         'menu-item-object-id' => '2855',
+         'menu-item-object-id' => '585',
          'menu-item-target' => '',
          'menu-item-position' => 5,
+         'menu-item-classes' => '',
          'link' => 
         (array)(array(
-           'type' => 'anchor',
-           'url' => '#contact',
+           'type' => 'entry',
+           'url' => '{{upfront:home_url}}/#contact',
            'target' => '',
+           'display_url' => '{{upfront:home_url}}/#contact',
         )),
       )),
     ),
@@ -569,6 +586,17 @@ $region_14->add_element("Unewnavigation", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    array (
+    ),
+    'breakpoint_menu_id' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'menu_id' => 39,
+         'menu_slug' => 'fixer-menu',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1546,8 +1574,9 @@ $region_14->add_element("Button", array (
     'link' => 
     (array)(array(
        'type' => 'anchor',
-       'url' => '#quote',
+       'url' => '{{upfront:home_url}}/#quote',
        'target' => '_self',
+       'display_url' => '{{upfront:home_url}}/#quote',
     )),
     'currentpreset' => false,
     'theme_style' => '',
@@ -1764,8 +1793,9 @@ $region_14->add_element("Button", array (
     'link' => 
     (array)(array(
        'type' => 'anchor',
-       'url' => '#services',
+       'url' => '{{upfront:home_url}}/#services',
        'target' => '_self',
+       'display_url' => '{{upfront:home_url}}/#service...',
     )),
     'currentpreset' => false,
     'theme_style' => '',
@@ -2029,6 +2059,14 @@ $region_13 = upfront_create_region(
   'bottom_bg_padding_num' => '90',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'origin_position_y' => '50',
+  'origin_position_x' => '50',
+  'use_background_size_percent' => '',
+  'background_size_percent' => '100',
+  'background_default' => 'hide',
+  'featured_fallback_background_color' => '#ffffff',
+  'background_size' => 'auto',
+  'region_role' => 'main',
 )
 			);
 
@@ -2045,7 +2083,7 @@ $region_13->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 style="text-align: center;" class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Services</span></h3>',
+    'content' => '<h2 style="text-align: center;" class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Services</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1412752367985-1171',
     'class' => 'c24 upfront-plain_txt',
@@ -2081,7 +2119,7 @@ $region_13->add_element("PlainTxt", array (
     'top_padding_use' => 'yes',
     'top_padding_num' => '0',
     'bottom_padding_num' => '15',
-    'preset' => 'default',
+    'preset' => 'section-heading',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => 'false',
@@ -2089,7 +2127,22 @@ $region_13->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'top_padding_slider' => '0',
-    'current_preset' => 'default',
+    'current_preset' => 'section-heading',
+    'breakpoint_presets' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'preset' => 'section-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'section-heading-mobile',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'section-heading',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -2169,9 +2222,7 @@ $region_13->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h1 style="text-align: center;" class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Premium<br>
-Service &amp; Quality</span>
-</h1>',
+    'content' => '<h3 style="text-align: center;" class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Premium<br>Service &amp; Quality</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1412753049855-1267',
     'class' => 'c24 upfront-plain_txt',
@@ -2196,11 +2247,11 @@ Service &amp; Quality</span>
          'row' => 18,
          'use_padding' => 'yes',
       )),
-       'current_property' => 'use_padding',
+       'current_property' => 'lock_padding',
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'no-bottom-space',
+    'preset' => 'section-heading',
     'theme_style' => '',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -2212,14 +2263,18 @@ Service &amp; Quality</span>
     (array)(array(
        'tablet' => 
       (array)(array(
-         'preset' => 'center-no-bottom-space',
+         'preset' => 'section-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'section-heading-mobile',
       )),
        'desktop' => 
       (array)(array(
-         'preset' => 'no-bottom-space',
+         'preset' => 'section-heading',
       )),
     )),
-    'current_preset' => 'no-bottom-space',
+    'current_preset' => 'section-heading',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2354,6 +2409,8 @@ $region_13->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2614,9 +2671,10 @@ $region_13->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'object-1422428830962-1948',
@@ -2646,6 +2704,9 @@ $region_13->add_element("Uimage", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -3039,6 +3100,8 @@ $region_13->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -3291,9 +3354,10 @@ $region_13->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'object-1433408407863-1814',
@@ -3321,6 +3385,9 @@ $region_13->add_element("Uimage", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -3760,6 +3827,8 @@ $region_13->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -4014,9 +4083,10 @@ $region_13->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'object-1433406282618-1440',
@@ -4044,6 +4114,9 @@ $region_13->add_element("Uimage", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -4440,6 +4513,8 @@ $region_13->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -4696,9 +4771,10 @@ $region_13->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'object-1433408457768-1995',
@@ -4725,6 +4801,9 @@ $region_13->add_element("Uimage", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -5162,6 +5241,8 @@ $region_13->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -5418,9 +5499,10 @@ $region_13->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'object-1433406396052-1059',
@@ -5448,6 +5530,9 @@ $region_13->add_element("Uimage", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -5845,6 +5930,8 @@ $region_13->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -6111,9 +6198,10 @@ $region_13->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'object-1433408504017-1533',
@@ -6136,7 +6224,7 @@ $region_13->add_element("Uimage", array (
          'top_padding_use' => true,
          'top_padding_num' => 25,
       )),
-       'current_property' => 'element_size',
+       'current_property' => 'use_padding',
     )),
     'top_padding_num' => '10',
     'bottom_padding_num' => '0',
@@ -6150,6 +6238,9 @@ $region_13->add_element("Uimage", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -6589,6 +6680,7 @@ $quote = upfront_create_region(
   'bottom_bg_padding_num' => '70',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'region_role' => 'complementary',
 )
 			);
 
@@ -6605,7 +6697,7 @@ $quote->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class="" style="text-align: center;">Get a quote</h3>',
+    'content' => '<h2 class="" style="text-align: center;">Get a quote</h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1412779180680-1452',
     'class' => 'c24 upfront-plain_txt',
@@ -6642,7 +6734,7 @@ $quote->add_element("PlainTxt", array (
     'top_padding_use' => 'yes',
     'top_padding_num' => '0',
     'bottom_padding_num' => '15',
-    'preset' => 'default',
+    'preset' => 'section-heading',
     'lock_padding' => '',
     'top_padding_slider' => '0',
     'use_padding' => 'yes',
@@ -6650,7 +6742,22 @@ $quote->add_element("PlainTxt", array (
     'padding_number' => '15',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
-    'current_preset' => 'default',
+    'current_preset' => 'section-heading',
+    'breakpoint_presets' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'preset' => 'section-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'section-heading-mobile',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'section-heading',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -6726,7 +6833,7 @@ $quote->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h1 style="text-align: center;" class=""><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1"><span id="selection-marker-1" class="redactor-selection-marker" data-verified="redactor">​</span>First Things First<span id="selection-marker-2" class="redactor-selection-marker" data-verified="redactor">​</span></span></h1>',
+    'content' => '<h3 style="text-align: center;" class="">First Things First</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1405603545292-1703',
     'class' => 'c24 upfront-plain_txt',
@@ -6755,7 +6862,7 @@ $quote->add_element("PlainTxt", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'no-bottom-space',
+    'preset' => 'section-heading',
     'theme_style' => '',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -6765,20 +6872,20 @@ $quote->add_element("PlainTxt", array (
     'right_padding_num' => '15',
     'breakpoint_presets' => 
     (array)(array(
-       'mobile' => 
-      (array)(array(
-         'preset' => 'center-no-bottom-space',
-      )),
        'tablet' => 
       (array)(array(
-         'preset' => 'no-bottom-space',
+         'preset' => 'section-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'section-heading-mobile',
       )),
        'desktop' => 
       (array)(array(
-         'preset' => 'no-bottom-space',
+         'preset' => 'section-heading',
       )),
     )),
-    'current_preset' => 'no-bottom-space',
+    'current_preset' => 'section-heading',
   ),
   'row' => 6,
   'sticky' => false,
@@ -7098,6 +7205,7 @@ $quote->add_element("Ucontact", array (
       )),
     )),
     'current_preset' => 'quote',
+    'smtp_enable' => 'no',
   ),
   'row' => 6,
   'sticky' => false,
@@ -7195,6 +7303,8 @@ $quote->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -7440,9 +7550,10 @@ $quote->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'image-1410350687421-1049',
@@ -7469,6 +7580,9 @@ $quote->add_element("Uimage", array (
        'current_property' => 'use_padding',
     )),
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -7738,6 +7852,8 @@ $quote->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -7990,9 +8106,10 @@ $quote->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'image-1410351290307-1196',
@@ -8014,6 +8131,9 @@ $quote->add_element("Uimage", array (
     'right_padding_num' => '15',
     'lock_padding' => '',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -8323,6 +8443,13 @@ $blog_header = upfront_create_region(
   'bottom_bg_padding_num' => '80',
   'bg_padding_slider' => '80',
   'bg_padding_num' => '80',
+  'origin_position_y' => '50',
+  'origin_position_x' => '50',
+  'use_background_size_percent' => '',
+  'background_size_percent' => '100',
+  'background_default' => 'hide',
+  'featured_fallback_background_color' => '#ffffff',
+  'region_role' => 'complementary',
 )
 			);
 
@@ -8379,7 +8506,7 @@ $blog_header->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Blog</span></h3>',
+    'content' => '<h2 class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Blog</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1414410069741-1460',
     'class' => 'c24 upfront-plain_txt',
@@ -8419,7 +8546,7 @@ $blog_header->add_element("PlainTxt", array (
     'top_padding_use' => 'yes',
     'top_padding_num' => '0',
     'bottom_padding_num' => '15',
-    'preset' => 'u-sub-heading-m',
+    'preset' => 'section-heading',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => false,
@@ -8429,20 +8556,20 @@ $blog_header->add_element("PlainTxt", array (
     'top_padding_slider' => '0',
     'breakpoint_presets' => 
     (array)(array(
+       'tablet' => 
+      (array)(array(
+         'preset' => 'section-heading-tablet',
+      )),
        'mobile' => 
       (array)(array(
-         'preset' => 'sub-heading-mobile',
+         'preset' => 'section-heading-mobile',
       )),
        'desktop' => 
       (array)(array(
-         'preset' => 'u-sub-heading-m',
-      )),
-       'tablet' => 
-      (array)(array(
-         'preset' => 'sub-heading-mobile',
+         'preset' => 'section-heading',
       )),
     )),
-    'current_preset' => 'u-sub-heading-m',
+    'current_preset' => 'section-heading',
   ),
   'row' => 6,
   'sticky' => false,
@@ -8604,7 +8731,7 @@ $blog_header->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h1 class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Latest<br>News &amp;<br>Tips</span></h1>',
+    'content' => '<h3 class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Latest<br>News &amp;<br>Tips</span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1431007733914-1652',
     'class' => 'c24 upfront-plain_txt',
@@ -8638,7 +8765,7 @@ $blog_header->add_element("PlainTxt", array (
     'theme_style' => '',
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'no-bottom-space',
+    'preset' => 'section-heading',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => 'false',
@@ -8649,18 +8776,18 @@ $blog_header->add_element("PlainTxt", array (
     (array)(array(
        'tablet' => 
       (array)(array(
-         'preset' => 'center-no-bottom-space',
-      )),
-       'desktop' => 
-      (array)(array(
-         'preset' => 'no-bottom-space',
+         'preset' => 'section-heading-tablet',
       )),
        'mobile' => 
       (array)(array(
-         'preset' => 'center-no-bottom-space',
+         'preset' => 'section-heading-mobile',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'section-heading',
       )),
     )),
-    'current_preset' => 'no-bottom-space',
+    'current_preset' => 'section-heading',
   ),
   'row' => 6,
   'sticky' => false,
@@ -8818,6 +8945,7 @@ $blog_items = upfront_create_region(
   'bottom_bg_padding_num' => '0',
   'bg_padding_slider' => '0',
   'bg_padding_num' => '0',
+  'region_role' => 'complementary',
 )
 			);
 
@@ -9091,6 +9219,7 @@ $subscribe = upfront_create_region(
   'bottom_bg_padding_num' => 0,
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'region_role' => 'complementary',
 )
 			);
 
@@ -9294,6 +9423,7 @@ $subscribe->add_element("Button", array (
        'type' => 'lightbox',
        'url' => '#ltb-subscribe15',
        'target' => false,
+       'display_url' => '#ltb-subscribe15',
     )),
     'currentpreset' => false,
     'theme_style' => '',
@@ -9423,6 +9553,7 @@ $subscribe->add_element("Button", array (
        'type' => 'entry',
        'url' => '{{upfront:home_url}}/blog/',
        'target' => '_self',
+       'display_url' => '{{upfront:home_url}}/blog/',
     )),
     'currentpreset' => false,
     'theme_style' => '',
@@ -9623,6 +9754,7 @@ $about = upfront_create_region(
   'bottom_bg_padding_num' => '90',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'region_role' => 'complementary',
 )
 			);
 
@@ -9639,7 +9771,7 @@ $about->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class="" style="text-align: center;">About</h3>',
+    'content' => '<h2 class="" style="text-align: center;">About</h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1412782658098-1018',
     'class' => 'c24 upfront-plain_txt',
@@ -9671,7 +9803,7 @@ $about->add_element("PlainTxt", array (
        'current_property' => 'use_padding',
     )),
     'bottom_padding_num' => '15',
-    'preset' => 'default',
+    'preset' => 'section-heading',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => 'false',
@@ -9679,7 +9811,22 @@ $about->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'top_padding_slider' => '0',
-    'current_preset' => 'default',
+    'current_preset' => 'section-heading',
+    'breakpoint_presets' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'preset' => 'section-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'section-heading-mobile',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'section-heading',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -9795,7 +9942,7 @@ $about->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h1 class="" style="text-align: center;">Meet Mr Fixer</h1>',
+    'content' => '<h3 class="" style="text-align: center;">Meet Mr Fixer</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1422420112603-1296',
     'class' => 'c24 upfront-plain_txt',
@@ -9823,7 +9970,7 @@ $about->add_element("PlainTxt", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'no-bottom-space',
+    'preset' => 'section-heading',
     'theme_style' => '',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -9833,20 +9980,20 @@ $about->add_element("PlainTxt", array (
     'right_padding_num' => '15',
     'breakpoint_presets' => 
     (array)(array(
-       'mobile' => 
-      (array)(array(
-         'preset' => 'no-bottom-space',
-      )),
        'tablet' => 
       (array)(array(
-         'preset' => 'no-bottom-space',
+         'preset' => 'section-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'section-heading-mobile',
       )),
        'desktop' => 
       (array)(array(
-         'preset' => 'no-bottom-space',
+         'preset' => 'section-heading',
       )),
     )),
-    'current_preset' => 'no-bottom-space',
+    'current_preset' => 'section-heading',
   ),
   'row' => 6,
   'sticky' => false,
@@ -10288,6 +10435,8 @@ $about->add_group(array (
   'anchor' => '',
   'left_padding_num' => '15',
   'right_padding_num' => '15',
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -10716,9 +10865,10 @@ $about->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'image-1444283579971-1972',
@@ -10752,6 +10902,9 @@ $about->add_element("Uimage", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -11555,6 +11708,7 @@ $contact_us = upfront_create_region(
   'bottom_bg_padding_num' => 0,
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'region_role' => 'complementary',
 )
 			);
 
@@ -11571,7 +11725,7 @@ $contact_us->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Contact&nbsp;us</span></h3>',
+    'content' => '<h2 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Contact&nbsp;us</span></h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1414410356935-1820',
     'class' => 'c24 upfront-plain_txt',
@@ -11603,7 +11757,7 @@ $contact_us->add_element("PlainTxt", array (
        'current_property' => 'use_padding',
     )),
     'bottom_padding_num' => '15',
-    'preset' => 'default',
+    'preset' => 'section-heading',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'padding_slider' => 'false',
@@ -11611,7 +11765,22 @@ $contact_us->add_element("PlainTxt", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'top_padding_slider' => '0',
-    'current_preset' => 'default',
+    'current_preset' => 'section-heading',
+    'breakpoint_presets' => 
+    (array)(array(
+       'tablet' => 
+      (array)(array(
+         'preset' => 'section-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'section-heading-mobile',
+      )),
+       'desktop' => 
+      (array)(array(
+         'preset' => 'section-heading',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -11731,7 +11900,7 @@ $contact_us->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h1 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Ready to talk to our experts?</span></h1>',
+    'content' => '<h3 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Ready to talk to our experts?</span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1444281314202-1355',
     'class' => 'c24 upfront-plain_txt',
@@ -11761,7 +11930,7 @@ $contact_us->add_element("PlainTxt", array (
     'top_padding_use' => true,
     'top_padding_num' => 20,
     'bottom_padding_num' => '15',
-    'preset' => 'no-bottom-space',
+    'preset' => 'section-heading',
     'theme_style' => '',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -11771,20 +11940,20 @@ $contact_us->add_element("PlainTxt", array (
     'right_padding_num' => '15',
     'breakpoint_presets' => 
     (array)(array(
-       'mobile' => 
-      (array)(array(
-         'preset' => 'no-bottom-space',
-      )),
        'tablet' => 
       (array)(array(
-         'preset' => 'no-bottom-space',
+         'preset' => 'section-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'section-heading-mobile',
       )),
        'desktop' => 
       (array)(array(
-         'preset' => 'no-bottom-space',
+         'preset' => 'section-heading',
       )),
     )),
-    'current_preset' => 'no-bottom-space',
+    'current_preset' => 'section-heading',
   ),
   'row' => 6,
   'sticky' => false,
@@ -11947,6 +12116,14 @@ $contact = upfront_create_region(
   'bottom_bg_padding_num' => '70',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'origin_position_y' => '50',
+  'origin_position_x' => '50',
+  'use_background_size_percent' => '',
+  'background_size_percent' => '100',
+  'background_default' => 'hide',
+  'featured_fallback_background_color' => '#ffffff',
+  'background_size' => 'auto',
+  'region_role' => 'complementary',
 )
 			);
 
@@ -12329,6 +12506,7 @@ $contact->add_element("Ucontact", array (
       )),
     )),
     'current_preset' => 'alt',
+    'smtp_enable' => 'no',
   ),
   'row' => 6,
   'sticky' => false,

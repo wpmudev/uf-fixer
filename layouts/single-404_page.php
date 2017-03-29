@@ -62,6 +62,7 @@ $main = upfront_create_region(
   'bottom_bg_padding_num' => 0,
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'region_role' => 'main',
 )
 			);
 
@@ -117,7 +118,7 @@ $main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h1 class="" style="text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_1">The page cannot be found</span></span></h1>',
+    'content' => '<h1 class="" style="text-align: center;">The page cannot be found</h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1412691061176-1774',
     'class' => 'c24 upfront-plain_txt',
@@ -157,6 +158,10 @@ $main->add_element("PlainTxt", array (
     'padding_number' => 0,
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    array (
+    ),
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -425,6 +430,7 @@ $main->add_element("Button", array (
        'type' => 'entry',
        'url' => '{{upfront:home_url}}',
        'target' => '_self',
+       'display_url' => '{{upfront:home_url}}',
     )),
     'currentpreset' => false,
     'theme_style' => '',
@@ -448,6 +454,10 @@ $main->add_element("Button", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'anchor' => '',
+    'breakpoint_presets' => 
+    array (
+    ),
+    'current_preset' => 'black-borders-button',
   ),
   'row' => 6,
   'sticky' => false,

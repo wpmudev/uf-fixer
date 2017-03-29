@@ -49,6 +49,7 @@ $prefooter = upfront_create_region(
   'bottom_bg_padding_num' => '30',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'region_role' => 'complementary',
 )
 			);
 
@@ -105,7 +106,11 @@ $prefooter->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<div class="plain-text-container"><h3 class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Spead the word. <br>​Share Fixer with friends.</span></h3><p class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span rel="color: rgb(255, 255, 255);" data-verified="redactor" style="color: rgb(255, 255, 255);" data-redactor-tag="span" data-redactor-style="color: rgb(255, 255, 255);"><span data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space"><a target="_blank" rel="external" href="http://facebook.com/">​<span class="uf_font_icon" rel="font-size: 34px; top: 0px;" data-verified="redactor" style="font-size: 34px; top: 0px;" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;"><span class="upfront_theme_color_0">o</span></span><span class="redactor-invisible-space">​</span></a>&nbsp;</span></span> <a target="_blank" href="http://twitter.com/"><span rel="color:rgb(86, 86, 86)" data-verified="redactor" style="color:rgb(86, 86, 86)" data-redactor-tag="span" data-redactor-style="color:rgb(86, 86, 86)"><span rel="" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space upfront_theme_color_0">​<span class="uf_font_icon" rel="font-size: 34px; top: 0px;" data-verified="redactor" style="font-size: 34px; top: 0px;" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">p</span></span></span></span></a>&nbsp;&nbsp;<span rel="" data-verified="redactor" class="upfront_theme_color_0" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><a target="_blank" href="http://plus.google.com/"><span class="uf_font_icon" rel="font-size: 34px; top: 0px;" data-verified="redactor" style="font-size: 34px; top: 0px;" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;"></span><span class="upfront_theme_color_0"><span class="uf_font_icon" rel="font-size: 34px; top: 0px;" data-verified="redactor" style="font-size: 34px; top: 0px;" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;">q</span><span class="redactor-invisible-space">​</span></span><span class="redactor-invisible-space"></span></a>&nbsp;</span> <a target="_blank" href="http://pinterest.com/"><span rel="" data-verified="redactor" class="upfront_theme_color_0" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" rel="font-size: 34px; top: 0px;" data-verified="redactor" style="font-size: 34px; top: 0px;" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;">r</span></span></a></span></p></div>',
+    'content' => '<h5 class="">Spead the word. <br>​Share Fixer with friends.</h5><p class=""><a target="_blank" rel="external" href="http://facebook.com/">​
+  <span class="uf_font_icon" rel="font-size: 34px; top: 0px;" data-verified="redactor" style="font-size: 34px; top: 0px;" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">o</span></span>
+</a>&nbsp;<a target="_blank" rel="external" href="http://twitter.com/">​<span class="uf_font_icon" rel="font-size: 34px; top: 0px;" data-verified="redactor" style="font-size: 34px; top: 0px;" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">p</span></span>
+</a>&nbsp;<a target="_blank" rel="external" href="http://plus.google.com/">​<span class="uf_font_icon" rel="font-size: 34px; top: 0px;" data-verified="redactor" style="font-size: 34px; top: 0px;" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">q</span></span>
+</a>&nbsp;<a target="_blank" rel="external" href="http://pinterest.com/">​<span class="uf_font_icon" rel="font-size: 34px; top: 0px;" data-verified="redactor" style="font-size: 34px; top: 0px;" data-redactor-tag="span" data-redactor-style="font-size: 34px; top: 0px;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">r</span></span></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1406205224243-1348',
     'class' => 'c24 upfront-plain_txt',
@@ -254,6 +259,8 @@ $prefooter->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -370,6 +377,7 @@ $prefooter->add_element("Uimage", array (
        'target' => false,
        'object' => 'page',
        'object_id' => 9,
+       'display_url' => '{{upfront:home_url}}/get-quot...',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'image-1444287563892-1160',
@@ -397,6 +405,9 @@ $prefooter->add_element("Uimage", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -601,6 +612,8 @@ $prefooter->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -711,9 +724,10 @@ $prefooter->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'image-1444287547880-1826',
@@ -740,6 +754,9 @@ $prefooter->add_element("Uimage", array (
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'current_preset' => 'default',
+    'breakpoint_presets' => 
+    array (
+    ),
   ),
   'row' => 6,
   'sticky' => false,
@@ -810,7 +827,7 @@ $prefooter->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0">Call us now:<br>1300 Fixer</span></h3>',
+    'content' => '<h3 class="">Call us now:<br>1300 Fixer</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1430988007972-1396',
     'class' => 'c24 upfront-plain_txt',

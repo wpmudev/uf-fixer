@@ -80,6 +80,14 @@ $services_inner_main = upfront_create_region(
   'bottom_bg_padding_num' => '105',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'origin_position_y' => '50',
+  'origin_position_x' => '50',
+  'use_background_size_percent' => '',
+  'background_size_percent' => '100',
+  'background_default' => 'hide',
+  'featured_fallback_background_color' => '#ffffff',
+  'background_size' => 'auto',
+  'region_role' => 'main',
 )
 			);
 
@@ -96,7 +104,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 style="text-align: center;" rel="text-align: center;" class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Services</span></span></h3>',
+    'content' => '<h1 style="text-align: center;" rel="text-align: center;" class="">Services</h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432906098400-1126',
     'class' => 'c24 upfront-plain_txt',
@@ -134,7 +142,7 @@ $services_inner_main->add_element("PlainTxt", array (
        'current_property' => 'use_padding',
     )),
     'bottom_padding_num' => '15',
-    'preset' => 'u-sub-heading-m',
+    'preset' => 'archive-heading-m',
     'padding_slider' => '15',
     'use_padding' => 'yes',
     'lock_padding' => '',
@@ -146,7 +154,15 @@ $services_inner_main->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'u-sub-heading-m',
+         'preset' => 'archive-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-heading-mobile',
       )),
     )),
   ),
@@ -228,7 +244,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h1 class="" style="text-transform: none; margin-bottom: 0px; text-align: center;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_1">Premium&nbsp;<br>​</span></span><span>Service &amp; Quality</span></h1>',
+    'content' => '<h2 class="" style="text-transform: none; margin-bottom: 0px; text-align: center;">Service &amp; <br /> Quality</h2>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432906324898-1647',
     'class' => 'c24 upfront-plain_txt',
@@ -255,12 +271,27 @@ $services_inner_main->add_element("PlainTxt", array (
     )),
     'top_padding_num' => '15',
     'bottom_padding_num' => '15',
-    'preset' => 'default',
+    'preset' => 'archive-heading-m',
     'padding_slider' => '15',
     'use_padding' => 'yes',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
     'lock_padding' => 0,
+    'breakpoint_presets' => 
+    (array)(array(
+       'desktop' => 
+      (array)(array(
+         'preset' => 'archive-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-heading-mobile',
+      )),
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -394,6 +425,8 @@ $services_inner_main->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -483,7 +516,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
     'content' => '<div class="plain-text-container">
-<h3 class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Bricklaying <span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">d</span></span><span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;"></span></span></h3>
+<h3 class="" style="text-align: right;">Bricklaying <span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">d</span></h3>
 </div>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1432906361678-1039',
@@ -652,7 +685,7 @@ $services_inner_main->add_element("Uimage", array (
     'is_locked' => true,
     'gifImage' => 0,
     'placeholder_class' => '',
-    'preset' => 'image-theme-style',
+    'preset' => 'default',
     'display_caption' => 'showCaption',
     'type' => 'UimageModel',
     'view_class' => 'UimageView',
@@ -663,9 +696,10 @@ $services_inner_main->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'image-1432906098401-1621',
@@ -691,6 +725,10 @@ $services_inner_main->add_element("Uimage", array (
     'top_padding_slider' => '10',
     'bottom_padding_use' => 'yes',
     'bottom_padding_slider' => '0',
+    'current_preset' => 'default',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -769,7 +807,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'usingNewAppearance' => true,
     'content' => '<div class="plain-text-container">
 <div class="plain-text-container">
-<p class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</span></span></p>
+<p class="" style="text-align: right;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>
 </div>
 </div>',
     'type' => 'PlainTxtModel',
@@ -898,7 +936,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<p class="" style="text-align: right;"><a target="_self" href="{{upfront:home_url}}/service-brick-inner/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;"></span><span class="upfront_theme_color_1"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></span></a></p>',
+    'content' => '<p class="" style="text-align: right;"><a target="_self" href="{{upfront:home_url}}/service-brick-inner/"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1434096393289-1800',
     'class' => 'c24 upfront-plain_txt',
@@ -1079,6 +1117,8 @@ $services_inner_main->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1166,7 +1206,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space"><span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;"></span><span class="upfront_theme_color_1"><span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">g</span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​</span> Fencing</span></span></span></h3>',
+    'content' => '<h3 class=""><span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">g</span> Fencing</span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1432907701032-1076',
     'class' => 'c24 upfront-plain_txt',
@@ -1345,9 +1385,10 @@ $services_inner_main->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'object-1432907725451-1964',
@@ -1370,6 +1411,9 @@ $services_inner_main->add_element("Uimage", array (
     'use_padding' => 'yes',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -1446,7 +1490,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<p class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_1">Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum</span></span></p>',
+    'content' => '<p class="">Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum</p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1432907729570-1105',
     'class' => 'c24 upfront-plain_txt',
@@ -1575,7 +1619,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<p class="" style="text-align: left;"><a target="_self" href="{{upfront:home_url}}/service-fence-inner/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;"></span><span class="upfront_theme_color_1"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></span></a></p>',
+    'content' => '<p class="" style="text-align: left;"><a target="_self" href="{{upfront:home_url}}/service-fence-inner/"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1434097020513-1188',
     'class' => 'c24 upfront-plain_txt',
@@ -1793,6 +1837,8 @@ $services_inner_main->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -1864,7 +1910,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_1">Plumbing <span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">e</span></span><span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;"></span></span></h3>',
+    'content' => '<h3 class="" style="text-align: right;">Plumbing <span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">e</span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1432907581379-1725',
     'class' => 'c24 upfront-plain_txt',
@@ -2043,9 +2089,10 @@ $services_inner_main->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'object-1432907585890-1956',
@@ -2068,6 +2115,9 @@ $services_inner_main->add_element("Uimage", array (
     'use_padding' => 'yes',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -2144,7 +2194,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<p class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_1">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</span></span></p>',
+    'content' => '<p class="" style="text-align: right;">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1432907592019-1426',
     'class' => 'c24 upfront-plain_txt',
@@ -2311,7 +2361,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<p class="" style="text-align: right;"><a target="_self" href="{{upfront:home_url}}/service-plumb-inner/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;"></span><span class="upfront_theme_color_1"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></span></a></p>',
+    'content' => '<p class="" style="text-align: right;"><a target="_self" href="{{upfront:home_url}}/service-plumb-inner/"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1434097086405-1054',
     'class' => 'c24 upfront-plain_txt',
@@ -2491,6 +2541,8 @@ $services_inner_main->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -2562,7 +2614,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space"><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space"><span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;"></span></span><span class="upfront_theme_color_1"><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space"><span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">h</span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​</span></span>&nbsp;Windows</span></span></span></h3>',
+    'content' => '<h3 class=""><span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">h</span> Windows</h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1432908381416-1832',
     'class' => 'c24 upfront-plain_txt',
@@ -2749,9 +2801,10 @@ $services_inner_main->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'object-1432908385199-1145',
@@ -2776,6 +2829,9 @@ $services_inner_main->add_element("Uimage", array (
     'use_padding' => 'yes',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -2860,7 +2916,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<p class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_1">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium</span></span></p>',
+    'content' => '<p class="">Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium</p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1432908389389-1643',
     'class' => 'c24 upfront-plain_txt',
@@ -2995,7 +3051,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<p class="" style="text-align: left;"><a target="_self" href="{{upfront:home_url}}/service-windows-inner/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;"></span><span class="upfront_theme_color_1"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></span></a></p>',
+    'content' => '<p class="" style="text-align: left;"><a target="_self" href="{{upfront:home_url}}/service-windows-inner/"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1434097055602-1399',
     'class' => 'c24 upfront-plain_txt',
@@ -3262,6 +3318,8 @@ $services_inner_main->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -3333,7 +3391,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_1">Electrical <span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">f</span></span><span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;"></span></span></h3>',
+    'content' => '<h3 class="" style="text-align: right;">Electrical <span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">f</span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1432907463652-1107',
     'class' => 'c24 upfront-plain_txt',
@@ -3520,9 +3578,10 @@ $services_inner_main->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'object-1432907469177-1868',
@@ -3545,6 +3604,9 @@ $services_inner_main->add_element("Uimage", array (
     'use_padding' => 'yes',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -3629,7 +3691,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<p class="" style="text-align: right;"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1">Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el</span> </span></p>',
+    'content' => '<p class="" style="text-align: right;">Erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation allmcorper san el</p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1432907475014-1728',
     'class' => 'c24 upfront-plain_txt',
@@ -3804,7 +3866,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<p class="" style="text-align: right;"><a target="_self" href="{{upfront:home_url}}/service-electrical-inner/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;"></span><span class="upfront_theme_color_1"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></span></a></p>',
+    'content' => '<p class="" style="text-align: right;"><a target="_self" href="{{upfront:home_url}}/service-electrical-inner/"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1434097047547-1393',
     'class' => 'c24 upfront-plain_txt',
@@ -3992,6 +4054,8 @@ $services_inner_main->add_group(array (
   'left_padding_num' => '15',
   'right_padding_num' => '15',
   'lock_padding' => 0,
+  'href' => '',
+  'linkTarget' => false,
   'wrapper_breakpoint' => 
   array (
     'tablet' => 
@@ -4067,7 +4131,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space"><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space"><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space"><span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;"></span></span></span><span class="upfront_theme_color_1"><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space"><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space"><span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">i</span><span class="redactor-invisible-space" data-verified="redactor" data-redactor-tag="span" data-redactor-class="redactor-invisible-space">​</span></span></span>&nbsp;Roofing</span></span></span></h3>',
+    'content' => '<h3 class=""><span class="uf_font_icon" style="font-size: 20px; top: 0px;" rel="font-size: 20px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 20px; top: 0px;">i</span> Roofing</span></h3>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1432908458117-1407',
     'class' => 'c24 upfront-plain_txt',
@@ -4254,9 +4318,10 @@ $services_inner_main->add_element("Uimage", array (
     'image_link' => '',
     'link' => 
     (array)(array(
-       'type' => false,
+       'type' => 'external',
        'url' => '',
        'target' => false,
+       'display_url' => '',
     )),
     'usingNewAppearance' => true,
     'element_id' => 'object-1432908462722-1875',
@@ -4279,6 +4344,9 @@ $services_inner_main->add_element("Uimage", array (
     'use_padding' => 'yes',
     'left_padding_num' => '15',
     'right_padding_num' => '15',
+    'breakpoint_presets' => 
+    (array)(array(
+    )),
   ),
   'row' => 6,
   'sticky' => false,
@@ -4363,7 +4431,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<p class=""><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="upfront_theme_color_1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</span> </span></p>',
+    'content' => '<p class="">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh</p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1432908468172-1266',
     'class' => 'c24 upfront-plain_txt',
@@ -4498,7 +4566,7 @@ $services_inner_main->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<p class="" style="text-align: left;"><a target="_self" href="{{upfront:home_url}}/service-roof-inner/"><span class="upfront_theme_color_0" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_0"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;"></span><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></span></a></p>',
+    'content' => '<p class="" style="text-align: left;"><a target="_self" href="{{upfront:home_url}}/service-roof-inner/"><span class="upfront_theme_color_1" data-verified="redactor" data-redactor-tag="span" data-redactor-class="upfront_theme_color_1"><span class="uf_font_icon" style="font-size: 24px; top: 0px;" rel="font-size: 24px; top: 0px;" data-verified="redactor" data-redactor-tag="span" data-redactor-style="font-size: 24px; top: 0px;">j</span>​</span></a></p>',
     'type' => 'PlainTxtModel',
     'element_id' => 'object-1434097091759-1489',
     'class' => 'c24 upfront-plain_txt',

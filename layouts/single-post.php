@@ -58,6 +58,7 @@ $blog_individual = upfront_create_region(
   'bottom_bg_padding_num' => '105',
   'bg_padding_slider' => 0,
   'bg_padding_num' => 0,
+  'region_role' => 'main',
 )
 			);
 
@@ -74,7 +75,7 @@ $blog_individual->add_element("PlainTxt", array (
     'view_class' => 'PlainTxtView',
     'id_slug' => 'plain_text',
     'usingNewAppearance' => true,
-    'content' => '<h3 class="" style="text-align: center;">Blog</h3>',
+    'content' => '<h1 class="" style="text-align: center;">Blog</h1>',
     'type' => 'PlainTxtModel',
     'element_id' => 'text-object-1407490840562-1778',
     'class' => 'c24 c24 upfront-plain_txt',
@@ -91,7 +92,7 @@ $blog_individual->add_element("PlainTxt", array (
     'top_padding_num' => '110',
     'bottom_padding_num' => '15',
     'padding_slider' => '15',
-    'preset' => 'u-sub-heading-m',
+    'preset' => 'archive-heading-m',
     'use_padding' => 'yes',
     'lock_padding' => '',
     'top_padding_slider' => '110',
@@ -102,7 +103,15 @@ $blog_individual->add_element("PlainTxt", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'u-sub-heading-m',
+         'preset' => 'archive-heading-m',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'archive-heading-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'archive-heading-mobile',
       )),
     )),
     'breakpoint' => 
@@ -110,12 +119,14 @@ $blog_individual->add_element("PlainTxt", array (
        'tablet' => 
       array (
       ),
-       'current_property' => 'lock_padding',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'row' => 10,
+         'use_padding' => 'yes',
       )),
     )),
+    'current_preset' => 'archive-heading-m',
   ),
   'row' => 6,
   'sticky' => false,
@@ -200,6 +211,7 @@ $blog_individual->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1457102711773-1913',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -253,7 +265,7 @@ $blog_individual->add_element("PostData", array (
     'class' => 'c24 upost-data-object upost-data-object-post_data',
     'id_slug' => 'post-data',
     'data_type' => 'post_data',
-    'preset' => 'title',
+    'preset' => 'title-only',
     'row' => 5,
     'type_parts' => 
     array (
@@ -294,7 +306,15 @@ $blog_individual->add_element("PostData", array (
     (array)(array(
        'desktop' => 
       (array)(array(
-         'preset' => 'title',
+         'preset' => 'title-only',
+      )),
+       'tablet' => 
+      (array)(array(
+         'preset' => 'title-tablet',
+      )),
+       'mobile' => 
+      (array)(array(
+         'preset' => 'title-mobile',
       )),
     )),
     'top_padding_use' => 'yes',
@@ -320,17 +340,15 @@ $blog_individual->add_element("PostData", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
-         'lock_padding' => '',
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '30',
          'bottom_padding_num' => '30',
          'row' => 6,
       )),
-       'current_property' => 'bottom_padding_num',
+       'current_property' => 'lock_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
-         'lock_padding' => '',
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '30',
          'bottom_padding_num' => '30',
@@ -339,6 +357,7 @@ $blog_individual->add_element("PostData", array (
     )),
     'calculated_left_indent' => 0,
     'calculated_right_indent' => 0,
+    'current_preset' => 'title-only',
   ),
   'row' => 6,
   'sticky' => false,
@@ -415,13 +434,27 @@ $blog_individual->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
+          'clear' => true,
+          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
+          'clear' => true,
+          'order' => 1,
+        ),
+        'current_property' => 
+        array (
+          0 => 'order',
         ),
       ),
       'preset' => 'default',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => '',
+      'current_preset' => 'default',
       'new_line' => true,
       'breakpoint' => 
       array (
@@ -431,6 +464,8 @@ $blog_individual->add_element("PostData", array (
           'left' => 0,
           'col' => 12,
           'order' => 0,
+          'use_padding' => 'yes',
+          'hide' => 0,
         ),
         'mobile' => 
         array (
@@ -438,6 +473,12 @@ $blog_individual->add_element("PostData", array (
           'left' => 0,
           'col' => 7,
           'order' => 0,
+          'use_padding' => 'yes',
+          'hide' => 0,
+        ),
+        'current_property' => 
+        array (
+          0 => 'lock_padding',
         ),
       ),
     ),
@@ -461,6 +502,7 @@ $blog_individual->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1457102714539-1398',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -514,6 +556,7 @@ $blog_individual->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1457103484733-1176',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -652,7 +695,7 @@ $blog_individual->add_element("PostData", array (
        'tablet' => 
       array (
       ),
-       'current_property' => 'lock_padding',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -707,6 +750,7 @@ $blog_individual->add_element("PostData", array (
     'static-gravatar-radius' => '0',
     'static-gravatar-radius_number' => '0',
     'link' => 'author',
+    'current_preset' => 'gravatar-and-name',
   ),
   'row' => 6,
   'sticky' => false,
@@ -779,7 +823,7 @@ $blog_individual->add_element("PostData", array (
       array (
         'tablet' => 
         array (
-          'col' => 12,
+          'col' => 6,
         ),
         'mobile' => 
         array (
@@ -787,6 +831,12 @@ $blog_individual->add_element("PostData", array (
         ),
       ),
       'preset' => 'default',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => '',
+      'current_preset' => 'default',
       'new_line' => true,
       'breakpoint' => 
       array (
@@ -794,7 +844,7 @@ $blog_individual->add_element("PostData", array (
         array (
           'edited' => false,
           'left' => 0,
-          'col' => 12,
+          'col' => 6,
           'order' => 0,
           'use_padding' => 'yes',
           'hide' => 1,
@@ -810,7 +860,7 @@ $blog_individual->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'hide',
+          0 => 'lock_padding',
         ),
       ),
     ),
@@ -833,7 +883,7 @@ $blog_individual->add_element("PostData", array (
       array (
         'tablet' => 
         array (
-          'col' => 12,
+          'col' => 6,
         ),
         'mobile' => 
         array (
@@ -842,6 +892,12 @@ $blog_individual->add_element("PostData", array (
       ),
       'preset' => 'default',
       'use_padding' => 'yes',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => '',
+      'current_preset' => 'default',
       'new_line' => true,
       'breakpoint' => 
       array (
@@ -849,7 +905,7 @@ $blog_individual->add_element("PostData", array (
         array (
           'edited' => false,
           'left' => 0,
-          'col' => 12,
+          'col' => 6,
           'order' => 0,
           'hide' => 0,
           'use_padding' => 'yes',
@@ -865,7 +921,7 @@ $blog_individual->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'use_padding',
+          0 => 'lock_padding',
         ),
       ),
     ),
@@ -963,7 +1019,7 @@ $blog_individual->add_element("PostData", array (
        'tablet' => 
       array (
       ),
-       'current_property' => 'bottom_padding_num',
+       'current_property' => 'use_padding',
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
@@ -971,6 +1027,7 @@ $blog_individual->add_element("PostData", array (
     )),
     'calculated_left_indent' => 0,
     'calculated_right_indent' => 0,
+    'current_preset' => 'date',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1029,6 +1086,12 @@ $blog_individual->add_element("PostData", array (
       ),
       'preset' => 'default',
       'use_padding' => 'yes',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => '',
+      'current_preset' => 'default',
       'new_line' => true,
       'breakpoint' => 
       array (
@@ -1039,6 +1102,7 @@ $blog_individual->add_element("PostData", array (
           'col' => 12,
           'order' => 0,
           'hide' => 0,
+          'use_padding' => 'yes',
         ),
         'mobile' => 
         array (
@@ -1046,10 +1110,11 @@ $blog_individual->add_element("PostData", array (
           'left' => 0,
           'col' => 7,
           'order' => 0,
+          'use_padding' => 'yes',
         ),
         'current_property' => 
         array (
-          0 => 'hide',
+          0 => 'lock_padding',
         ),
       ),
     ),
@@ -1073,6 +1138,7 @@ $blog_individual->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1457103494619-1274',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1166,7 +1232,6 @@ $blog_individual->add_element("PostData", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
-         'lock_padding' => '',
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '0',
          'bottom_padding_num' => '0',
@@ -1178,7 +1243,6 @@ $blog_individual->add_element("PostData", array (
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
-         'lock_padding' => '',
          'bottom_padding_use' => 'yes',
          'bottom_padding_slider' => '0',
          'bottom_padding_num' => '0',
@@ -1271,6 +1335,12 @@ $blog_individual->add_element("PostData", array (
       ),
       'preset' => 'default',
       'use_padding' => 'yes',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => '',
+      'current_preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
@@ -1279,6 +1349,7 @@ $blog_individual->add_element("PostData", array (
           'left' => 0,
           'col' => 12,
           'order' => 0,
+          'use_padding' => 'yes',
         ),
         'mobile' => 
         array (
@@ -1286,6 +1357,11 @@ $blog_individual->add_element("PostData", array (
           'left' => 0,
           'col' => 7,
           'order' => 0,
+          'use_padding' => 'yes',
+        ),
+        'current_property' => 
+        array (
+          0 => 'lock_padding',
         ),
       ),
     ),
@@ -1375,7 +1451,6 @@ $blog_individual->add_element("PostData", array (
        'tablet' => 
       (array)(array(
          'use_padding' => 'yes',
-         'lock_padding' => '',
          'top_padding_use' => 'yes',
          'top_padding_slider' => '30',
          'top_padding_num' => '30',
@@ -1384,7 +1459,6 @@ $blog_individual->add_element("PostData", array (
        'mobile' => 
       (array)(array(
          'use_padding' => 'yes',
-         'lock_padding' => '',
          'top_padding_use' => 'yes',
          'top_padding_slider' => '30',
          'top_padding_num' => '30',
@@ -1392,6 +1466,7 @@ $blog_individual->add_element("PostData", array (
     )),
     'calculated_left_indent' => 0,
     'calculated_right_indent' => 0,
+    'current_preset' => 'content',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1429,6 +1504,12 @@ $blog_individual->add_element("PostData", array (
       ),
       'preset' => 'default',
       'use_padding' => 'yes',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => '',
+      'current_preset' => 'default',
       'new_line' => true,
       'breakpoint' => 
       array (
@@ -1436,15 +1517,21 @@ $blog_individual->add_element("PostData", array (
         array (
           'edited' => false,
           'left' => 0,
-          'col' => 12,
+          'col' => 15,
           'order' => 0,
+          'use_padding' => 'yes',
         ),
         'mobile' => 
         array (
           'edited' => false,
           'left' => 0,
-          'col' => 7,
+          'col' => 15,
           'order' => 0,
+          'use_padding' => 'yes',
+        ),
+        'current_property' => 
+        array (
+          0 => 'lock_padding',
         ),
       ),
     ),
@@ -1468,6 +1555,7 @@ $blog_individual->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1457104831348-1130',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1521,6 +1609,7 @@ $blog_individual->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1457104976732-1854',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
@@ -1974,6 +2063,7 @@ $blog_individual->add_element("PostData", array (
     'static-comment_form-line-height' => '1.250',
     'static-comment_form-font-color' => '#ufc1',
     'static-comments_pagination-use-typography' => 'yes',
+    'current_preset' => 'no-count-and-no-pagination',
   ),
   'row' => 6,
   'sticky' => false,
@@ -2053,6 +2143,12 @@ $blog_individual->add_element("PostData", array (
       ),
       'preset' => 'default',
       'use_padding' => 'yes',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => '',
+      'current_preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
@@ -2071,10 +2167,11 @@ $blog_individual->add_element("PostData", array (
           'col' => 7,
           'order' => 0,
           'hide' => 0,
+          'use_padding' => 'yes',
         ),
         'current_property' => 
         array (
-          0 => 'use_padding',
+          0 => 'lock_padding',
         ),
       ),
     ),
@@ -2106,6 +2203,12 @@ $blog_individual->add_element("PostData", array (
       ),
       'preset' => 'default',
       'use_padding' => 'yes',
+      'top_padding_num' => '15',
+      'left_padding_num' => '15',
+      'right_padding_num' => '15',
+      'bottom_padding_num' => '15',
+      'lock_padding' => '',
+      'current_preset' => 'default',
       'breakpoint' => 
       array (
         'tablet' => 
@@ -2124,10 +2227,11 @@ $blog_individual->add_element("PostData", array (
           'col' => 7,
           'order' => 0,
           'hide' => 0,
+          'use_padding' => 'yes',
         ),
         'current_property' => 
         array (
-          0 => 'use_padding',
+          0 => 'lock_padding',
         ),
       ),
     ),
@@ -2151,6 +2255,7 @@ $blog_individual->add_element("Uspacer", array (
     'id_slug' => 'uspacer',
     'element_id' => 'spacer-object-1457104980885-1748',
     'preset' => 'default',
+    'current_preset' => 'default',
   ),
   'row' => 6,
   'sticky' => false,
