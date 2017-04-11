@@ -242,25 +242,17 @@ $main->add_element("PostData", array (
       'left_padding_num' => '15',
       'right_padding_num' => '15',
       'bottom_padding_num' => '15',
-      'lock_padding' => 0,
+      'lock_padding' => '',
       'use_padding' => 'yes',
       'wrapper_breakpoint' => 
       array (
         'tablet' => 
         array (
           'col' => 12,
-          'clear' => true,
-          'order' => 1,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'clear' => true,
-          'order' => 1,
-        ),
-        'current_property' => 
-        array (
-          0 => 'order',
         ),
       ),
       'new_line' => true,
@@ -273,7 +265,7 @@ $main->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'col',
+          0 => 'hide',
         ),
         'mobile' => 
         array (
@@ -303,18 +295,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'clear' => true,
-          'order' => 2,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'clear' => true,
-          'order' => 2,
-        ),
-        'current_property' => 
-        array (
-          0 => 'order',
         ),
       ),
       'top_padding_num' => 15,
@@ -334,7 +318,7 @@ $main->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'col',
+          0 => 'hide',
         ),
         'mobile' => 
         array (
@@ -370,18 +354,10 @@ $main->add_element("PostData", array (
         'tablet' => 
         array (
           'col' => 12,
-          'clear' => true,
-          'order' => 3,
         ),
         'mobile' => 
         array (
           'col' => 7,
-          'clear' => true,
-          'order' => 3,
-        ),
-        'current_property' => 
-        array (
-          0 => 'order',
         ),
       ),
       'new_line' => true,
@@ -394,7 +370,7 @@ $main->add_element("PostData", array (
         ),
         'current_property' => 
         array (
-          0 => 'col',
+          0 => 'hide',
         ),
         'mobile' => 
         array (
