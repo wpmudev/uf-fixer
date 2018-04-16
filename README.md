@@ -1,5 +1,7 @@
 # FIXER
 
+**INACTIVE NOTICE: This theme is unsupported by WPMUDEV, we've published it here for those technical types who might want to fork and maintain it for their needs.**
+
 A flat and vibrant WordPress tradesman’s theme for selling your services and standing out from the crowd. Fixer is big, bold and demands to be seen - giving your business the visibility it deserves.
 
 ## Fixer is an excellent choice for promoting your trade and building trust in your brand – whether you’re the butcher, the baker, or the candlestick maker.
